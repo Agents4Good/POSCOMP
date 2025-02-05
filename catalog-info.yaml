@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: POSCOMP
+    title: POSCOMP
+    description: Projeto com objetivo de desenvolver e avaliar um sistema multiagente que utiliza IA para apoiar alunos no estudo e preparação para provas e concursos (utilizando, inicialmente, o contexto do POSCOMP).
+    annotations:
+        backstage.io/techdocs-ref: dir:.
+        github.com/project-slug: Agents4Good/POSCOMP
+
+spec:
+    type: service
+    lifecycle: development
+    owner: Educacao
