@@ -1,0 +1,7 @@
+site_name: 'POSCOMP'
+
+nav:
+  - Home: README.md
+
+plugins:
+  - techdocs-core
