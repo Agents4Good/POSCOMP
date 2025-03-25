@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Domine';
+}
+
+mjx-container {
+  margin: 0 !important;
+}
+
 @layer components {
   button:disabled {
     @apply disabled:bg-gray-200 disabled:text-gray-800 disabled:border-gray-600
@@ -9,6 +17,19 @@
 
   .button {
     @apply px-4 py-1 text-sm text-white font-semibold rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2;
+  }
+
+  .badge {
+    @apply px-4 py-1 text-sm font-semibold rounded-full;
+    font-size: smaller;
+  }
+
+  .badge--secondary {
+    @apply badge text-gray-800 bg-gray-200 border border-gray-800;
+  }
+  
+  .badge--primary {
+    @apply badge text-white bg-gray-800 border border-gray-900;
   }
 
   .button--primary {

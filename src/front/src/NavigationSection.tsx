@@ -14,7 +14,7 @@ const NavigationSection = ({ totalProblems, getProblemStatus, activeProblem, set
   };
 
   return (
-    <div className="flex flex-row gap-2 bg-white items-center rounded-2xl p-6 items-center justify-start overflow-scroll lg:justify-center">
+    <div className="flex flex-row gap-2 bg-white items-center rounded-2xl p-6 overflow-x-scroll">
       {[...Array(totalProblems)].map((_, index) => (
         <button
           className={activeProblem === index ? 'problem-navigation--active' : 'problem-navigation'}
