@@ -12,7 +12,7 @@ const App = () => {
 
   const getProblemStatus = (index: number) => {
     if (submittedAnswers[index] != null) {
-      if (submittedAnswers[index] === problems[index].answer) {
+      if (submittedAnswers[index] === problems[index].gabarito) {
         return 'CORRECT';
       } else {
         return 'INCORRECT';
@@ -22,15 +22,15 @@ const App = () => {
     return 'PENDING';
   };
 
-  const submitAnswer = (problemIndex: number, answerIndex: number) => {
+  const submitAnswer = (problemIndex: number, answerIndex: string) => {
     let newSubmittedAnswers = submittedAnswers;
     newSubmittedAnswers[problemIndex] = answerIndex;
     setSubmittedAnswers([...newSubmittedAnswers]);
   };
 
   return (
-    <div className="bg-gray-600 min-h-[100vh] flex justify-center items-center p-4 sm:p-20">
-      <div className="flex flex-col gap-4 w-[100%] md:w-[80%] lg:w-[60%] xl:w-[40%]">
+    <div className="bg-gray-600 min-h-[100vh] flex justify-center p-4 sm:p-20">
+      <div className="flex flex-col gap-4 w-[100%] md:w-[80%] lg:w-[60%] xl:w-[80%]">
         <NavigationSection
           totalProblems={totalProblems}
           submittedAnswers={submittedAnswers}
@@ -40,7 +40,7 @@ const App = () => {
 
         <ProblemSection
           problem={problems[activeProblem]}
-          handleSubmitAnswer={(answer: number) => submitAnswer(activeProblem, answer)}
+          handleSubmitAnswer={(answer: string) => submitAnswer(activeProblem, answer)}
           submittedAnswer={submittedAnswers[activeProblem]}
         />
       </div>
