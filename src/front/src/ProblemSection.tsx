@@ -47,6 +47,7 @@ const ProblemSection = ({ problem, handleSubmitAnswer, submittedAnswer }: { prob
       <div className="section">
         <div className="flex flex-col gap-4">
           <div className="flex gap-2">
+            <p className="badge--primary">{problem.id}</p>
             <p className="badge--primary">{problem.area_conhecimento}</p>
             {problem.area && <p className="badge--secondary">{problem.area}</p>}
             {problem.subarea && <p className="badge--secondary">{problem.subarea}</p>}
