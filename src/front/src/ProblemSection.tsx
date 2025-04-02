@@ -26,14 +26,18 @@ const AnswerOption = ({ option, isSubmitted, isCorrect, isSelected, handleClick 
 };
 
 const ProblemSection = ({ problem, handleSubmitAnswer, submittedAnswer }: { problem: Problem, handleSubmitAnswer: (answer: string) => void, submittedAnswer: string | null }) => {
-  const { enunciado: statement, alternativas: options, gabarito: answer, solucao: explanation } = problem;
+  // Move hooks here so they are always called in the same order
   const [selectedOption, setSelectedOption] = useState<null | string>(null);
   const [displayExplanation, setDisplayExplanation] = useState(false);
 
   useEffect(() => {
     setSelectedOption(submittedAnswer);
     setDisplayExplanation(false);
-  }, [problem.id]);
+  }, [problem.id, submittedAnswer]);  // Add submittedAnswer as a dependency
+
+  if (problem == null) return <></>;
+
+  const { enunciado: statement, alternativas: options, gabarito: answer, solucao: explanation } = problem;
 
   const problemStatus = selectedOption === answer ?
     <>Resposta correta! <FontAwesomeIcon icon={faCircleCheck} /></> :
