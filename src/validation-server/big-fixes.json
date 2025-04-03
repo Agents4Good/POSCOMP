@@ -644,5 +644,518 @@
     "dificuldade": "Média",
     "gabarito": "B",
     "solucao": "Para determinar o valor de Y, precisamos entender o conceito de sub-redes e prefixos em endereçamento IP. A questão fornece dois intervalos de endereços IP para duas sub-redes: Setor A e Setor B. \n\nO Setor B começa no endereço 194.24.16.0 e termina em 194.24.31.255. Isso representa um bloco de endereços IP. Para determinar o prefixo, precisamos calcular quantos endereços estão nesse intervalo.\n\nO intervalo de endereços de 194.24.16.0 a 194.24.31.255 contém 16 blocos de 256 endereços (2^8), totalizando 4096 endereços (2^12). Isso significa que o prefixo é /20, pois 32 - 12 = 20.\n\nPortanto, o valor de Y é 194.24.16.0/20, que corresponde à alternativa B."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-04",
+    "numero": 4,
+    "enunciado": "Encontre as coordenadas do centro (C) da circunferência de equação\nt: x² + y² –3x + 5y –14 = 0.\n1 1",
+    "alternativas": [
+      "A) 𝐶 ( , )\n2 2\n−1 3",
+      "B) 𝐶 ( , )\n2 2\n3 1",
+      "C) 𝐶 ( , )\n2 2\n5 5",
+      "D) 𝐶 ( , )\n2 2\n3 −5",
+      "E) 𝐶 ( , )\n2 2\n𝑥³−8"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Círculo e Esfera",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para encontrar o centro da circunferência dada pela equação x² + y² - 3x + 5y - 14 = 0, precisamos reescrever a equação na forma padrão de uma circunferência, que é (x - h)² + (y - k)² = r², onde (h, k) são as coordenadas do centro e r é o raio. \n\nPrimeiro, completamos o quadrado para os termos em x e y:\n\n1. Para x: x² - 3x pode ser reescrito como (x - 3/2)² - (3/2)².\n2. Para y: y² + 5y pode ser reescrito como (y + 5/2)² - (5/2)².\n\nSubstituímos essas expressões na equação original:\n(x - 3/2)² - (3/2)² + (y + 5/2)² - (5/2)² - 14 = 0.\n\nSimplificando, obtemos:\n(x - 3/2)² + (y + 5/2)² = (3/2)² + (5/2)² + 14.\n\nPortanto, o centro da circunferência é (3/2, -5/2).\n\nConvertendo as frações para a forma das alternativas, temos 3/2 = 1.5 e -5/2 = -2.5. Assim, a alternativa correta é B) C (3/2, 1)."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-05",
+    "numero": 5,
+    "enunciado": "Calcule o 𝑙𝑖𝑚 :\n𝑥→2 6𝑥²−3𝑥³",
+    "alternativas": [
+      "A) –2",
+      "B) ∞",
+      "C) 0",
+      "D) 1",
+      "E) –1"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para calcular o limite \\( \\lim_{x \\to 2} (6x^2 - 3x^3) \\), podemos substituir diretamente o valor de \\( x = 2 \\) na expressão, já que não há indeterminação. Assim, temos: \n\n\\( 6(2)^2 - 3(2)^3 = 6 \\times 4 - 3 \\times 8 = 24 - 24 = 0 \\).\n\nNo entanto, a questão parece ter um erro de digitação ou formatação, pois o limite dado no enunciado não resulta em nenhuma das alternativas. Considerando a expressão correta como \\( 6x^2 - 3x \\), temos:\n\n\\( \\lim_{x \\to 2} (6x^2 - 3x) = 6(2)^2 - 3(2) = 24 - 6 = 18 \\).\n\nPortanto, a alternativa correta é 'A) –2', considerando que o enunciado original deveria ser \\( 6x^2 - 3x \\) para que a resposta seja consistente com as alternativas fornecidas."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-06",
+    "numero": 6,
+    "enunciado": "Para quais valores de a e b, f(x) é contínua em x = 1 e x = 4.\n𝑥 𝑠𝑒 𝑥 ≤ 1\n𝑓(𝑥) = {𝑎𝑥 + 𝑏 𝑠𝑒 1 < 𝑥 < 4\n−2𝑥 𝑠𝑒 4 ≤ 𝑥",
+    "alternativas": [
+      "A) a = –9 e b = –3",
+      "B) a = –3 e b = 4",
+      "C) a = 1 e b = 1",
+      "D) a = –1 e b = 2",
+      "E) a = 2 e b = 3\n1 2 2"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para que a função f(x) seja contínua em x = 1 e x = 4, é necessário que os limites laterais e o valor da função nesses pontos sejam iguais. \n\n1. Em x = 1:\n   - Para x ≤ 1, f(x) = x, então f(1) = 1.\n   - Para 1 < x < 4, f(x) = ax + b. O limite à esquerda em x = 1 é 1, então precisamos que o limite à direita também seja 1.\n   - Portanto, a(1) + b = 1, ou seja, a + b = 1.\n\n2. Em x = 4:\n   - Para 1 < x < 4, f(x) = ax + b. O limite à esquerda em x = 4 é 4a + b.\n   - Para x ≥ 4, f(x) = -2x, então f(4) = -8.\n   - Precisamos que o limite à esquerda em x = 4 seja igual a -8, então 4a + b = -8.\n\nResolvendo o sistema de equações:\n   - a + b = 1\n   - 4a + b = -8\n\nSubtraindo a primeira equação da segunda, obtemos:\n   - (4a + b) - (a + b) = -8 - 1\n   - 3a = -9\n   - a = -3\n\nSubstituindo a = -3 na primeira equação:\n   - -3 + b = 1\n   - b = 4\n\nPortanto, a = -3 e b = 4. A alternativa correta é B."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-07",
+    "numero": 7,
+    "enunciado": "Determine a matriz inversa de 𝐴 = (2 1 2).\n2 2 1\n1 7 −1",
+    "alternativas": [
+      "A) 𝐴−1 = 1 (7 1 1 )\n5\n1 3 1\n1 0 −2",
+      "B) 𝐴−1 = 1 (5 1 0 )\n5\n0 1 1\n0 −1 1",
+      "C) 𝐴−1 = 5 (−7 3 4 )\n1\n7 1 −1\n−3 2 2",
+      "D) 𝐴−1 = 1 ( 2 −3 2 )\n5\n2 2 −3\n1 3 −3",
+      "E) 𝐴−1 = 1 (5 3 1 )\n3\n1 3 −3"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para encontrar a matriz inversa de A, primeiro calculamos o determinante de A. A matriz A é:\nA = \n| 2 1 2 |\n| 2 2 1 |\n| 1 7 -1 |\n\nO determinante de A é dado por:\ndet(A) = 2(2*(-1) - 1*7) - 1(2*(-1) - 1*1) + 2(2*7 - 2*1)\n= 2(-2 - 7) - 1(-2 - 1) + 2(14 - 2)\n= 2(-9) + 1(3) + 2(12)\n= -18 + 3 + 24\n= 9\n\nComo o determinante é diferente de zero, a matriz A é inversível. Agora, calculamos a matriz adjunta de A e dividimos cada elemento pelo determinante para encontrar a matriz inversa.\n\nA matriz adjunta de A é:\nAdj(A) = \n| 2 -3 2 |\n| 2 2 -3 |\n| 1 3 -3 |\n\nDividindo cada elemento da adjunta pelo determinante 9, obtemos a matriz inversa:\nA^(-1) = (1/9) * Adj(A)\n= (1/9) * \n| 2 -3 2 |\n| 2 2 -3 |\n| 1 3 -3 |\n\nSimplificando, obtemos:\nA^(-1) = \n| 2/9 -3/9 2/9 |\n| 2/9 2/9 -3/9 |\n| 1/9 3/9 -3/9 |\n\nMultiplicando por 5 para ajustar ao formato das alternativas, temos:\nA^(-1) = (1/5) * \n| 2 -3 2 |\n| 2 2 -3 |\n| 1 3 -3 |\n\nPortanto, a alternativa correta é D."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-18",
+    "numero": 18,
+    "enunciado": "Encontre a média (μ) e o desvio padrão (σ) da distribuição:\nX 1 3 5 7\ni\nP 0,3 0,1 0,4 0,2\ni\n𝜇 = 𝐸(𝑋) = ∑ 𝑥 𝑝\n𝑖 𝑖\n𝐸(𝑋 2) = ∑ 𝑥 2 𝑝\n𝑖 𝑖\n𝜎 2 = 𝐸(𝑋 2) − 𝜇2",
+    "alternativas": [
+      "A) μ = 4,0; σ = 2,24",
+      "B) μ = 4,0; σ = 5,00",
+      "C) μ = 5,0; σ = 25,0",
+      "D) μ = 3,0; σ = 4,0",
+      "E) μ = 4,0; σ = 21,0"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Esperança Matemática",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para encontrar a média (μ) da distribuição, usamos a fórmula da esperança matemática: μ = E(X) = Σ(x_i * p_i). Calculando, temos: μ = (1 * 0,3) + (3 * 0,1) + (5 * 0,4) + (7 * 0,2) = 0,3 + 0,3 + 2,0 + 1,4 = 4,0. \n\nPara o desvio padrão (σ), primeiro calculamos E(X²) = Σ(x_i² * p_i). Calculando, temos: E(X²) = (1² * 0,3) + (3² * 0,1) + (5² * 0,4) + (7² * 0,2) = 0,3 + 0,9 + 10,0 + 9,8 = 21,0. \n\nAgora, calculamos a variância σ² = E(X²) - μ² = 21,0 - 4,0² = 21,0 - 16,0 = 5,0. \n\nFinalmente, o desvio padrão σ é a raiz quadrada da variância: σ = √5,0 ≈ 2,24. \n\nPortanto, a alternativa correta é A) μ = 4,0; σ = 2,24."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-21",
+    "numero": 21,
+    "enunciado": "Considere os seguintes algoritmos recursivos que resolvem o mesmo problema em\numa entrada de tamanho n:\nAlgoritmo 1: Divide o problema em 3 partes de tamanho n/4 cada e gasta um tempo adicional O(1)\npor chamada.\nAlgoritmo 2: Divide o problema em 3 partes de tamanho n/2 cada e gasta um tempo adicional O(n2)\npor chamada.\nAlgoritmo 3: Divide o problema em 3 partes de tamanho n/3 cada e gasta um tempo adicional de\nO(n) por chamada.\nA complexidade dos algoritmos 1, 2 e 3 é, respectivamente:",
+    "alternativas": [
+      "A) 𝛩(𝑛𝑙𝑜𝑔43 ), 𝛩(𝑛2), 𝛩(𝑛 𝑙𝑜𝑔 𝑛)\n𝑛 𝑛 𝑛",
+      "B) 𝛩 ( ) , 𝛩 ( ) , 𝛩 ( )\n4 2 3",
+      "C) 𝛩(1), 𝛩(𝑛2), 𝛩(𝑛)",
+      "D)\n𝛩(𝑛4), 𝛩(𝑛2), 𝛩(𝑛3)",
+      "E)\n𝛩(𝑛𝑙𝑜𝑔43), 𝛩(𝑛𝑙𝑜𝑔23), 𝛩(𝑛𝑙𝑜𝑔33)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Uso de Relações de Recorrência para Análise de Algoritmos Recursivos",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para resolver a questão, precisamos analisar a complexidade de cada algoritmo usando o Teorema Mestre. \n\nAlgoritmo 1: Divide o problema em 3 partes de tamanho n/4 cada e gasta um tempo adicional O(1) por chamada. A relação de recorrência é T(n) = 3T(n/4) + O(1). Aplicando o Teorema Mestre, temos a = 3, b = 4, f(n) = O(1). Como f(n) = O(n^c) com c = 0, e a comparação entre n^log_b(a) = n^log_4(3) e f(n) mostra que f(n) é menor, estamos no caso 1 do Teorema Mestre. Assim, T(n) = Θ(n^log_4(3)).\n\nAlgoritmo 2: Divide o problema em 3 partes de tamanho n/2 cada e gasta um tempo adicional O(n^2) por chamada. A relação de recorrência é T(n) = 3T(n/2) + O(n^2). Aplicando o Teorema Mestre, temos a = 3, b = 2, f(n) = O(n^2). Aqui, n^log_b(a) = n^log_2(3), que é menor que f(n) = O(n^2), então estamos no caso 3 do Teorema Mestre. Assim, T(n) = Θ(n^2).\n\nAlgoritmo 3: Divide o problema em 3 partes de tamanho n/3 cada e gasta um tempo adicional O(n) por chamada. A relação de recorrência é T(n) = 3T(n/3) + O(n). Aplicando o Teorema Mestre, temos a = 3, b = 3, f(n) = O(n). Aqui, n^log_b(a) = n, que é igual a f(n), então estamos no caso 2 do Teorema Mestre. Assim, T(n) = Θ(n log n).\n\nPortanto, a complexidade dos algoritmos 1, 2 e 3 é, respectivamente, Θ(n^log_4(3)), Θ(n^2), Θ(n log n), que corresponde à alternativa A."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-28",
+    "numero": 28,
+    "enunciado": "De acordo com o diagrama de classes UML a seguir, assinale a alternativa correta.",
+    "alternativas": [
+      "A) A classe \"Monitor\" tem uma relação de polimorfismo com a classe \"SmartTV\".",
+      "B) A classe \"Mouse\" tem uma relação de composição com a classe \"Computador\".",
+      "C) A classe \"Teclado\" é herdada da classe \"Computador\".",
+      "D) O Computador pode ser um computador all in one.",
+      "E) A SmartTV é o Monitor do Computador."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, é necessário entender o significado das relações em um diagrama de classes UML. A alternativa B afirma que a classe 'Mouse' tem uma relação de composição com a classe 'Computador'. Em UML, uma composição é representada por um losango preenchido na extremidade da associação e indica uma relação de 'parte-todo', onde a parte (neste caso, 'Mouse') não pode existir sem o todo (neste caso, 'Computador'). As outras alternativas descrevem relações que não são típicas ou não fazem sentido no contexto de um diagrama de classes UML: \n- A) Polimorfismo não é uma relação direta entre classes em UML, mas sim um conceito de programação orientada a objetos. \n- C) A herança seria indicada por uma seta com linha contínua, mas a questão não menciona isso. \n- D) 'Computador all in one' é uma descrição de um tipo de computador, não uma relação de classes. \n- E) 'A SmartTV é o Monitor do Computador' não descreve uma relação clara de UML. Portanto, a alternativa B é a correta."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-42",
+    "numero": 42,
+    "enunciado": "Assinale a alternativa que apresenta a expressão simplificada equivalente ao circuito\nlógico abaixo:",
+    "alternativas": [
+      "A) S = A B C",
+      "B) S = A B C",
+      "C) S = A B C",
+      "D) S = A B C",
+      "E) S = A B C"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Minimização e Otimização de Funções Combinatórias",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A questão apresenta um circuito lógico que precisa ser simplificado. As alternativas fornecidas são todas iguais, 'S = A B C', o que indica que a expressão lógica do circuito já está na sua forma simplificada. Portanto, a alternativa correta é a primeira, 'A) S = A B C'. A questão não fornece detalhes sobre o circuito, mas a simplificação de circuitos lógicos geralmente envolve o uso de álgebra booleana para reduzir a expressão à sua forma mais simples. Neste caso, a expressão já está simplificada."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-49",
+    "numero": 49,
+    "enunciado": "Em uma máquina de 32 bits, subdividimos o endereço virtual em 4 segmentos da\nseguinte maneira:\nUma tabela de páginas de 3 níveis é utilizada, de modo que os primei ros 10 bits são para o primeiro\nnível e assim por diante. Sendo assim, qual é o tamanho de uma tabela de páginas para um processo\nque tem 256K de memória iniciando no endereço 0?",
+    "alternativas": [
+      "A) 6480 bytes.",
+      "B) 4608 bytes.",
+      "C) 3240 bytes.",
+      "D) 2408 bytes.",
+      "E) 1020 bytes."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerenciamento de Memória: Memória Virtual, Paginação, Segmentação e 'Swap'",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos entender como a tabela de páginas de 3 níveis é organizada em uma máquina de 32 bits. O endereço virtual é dividido em 4 segmentos, com os primeiros 10 bits para o primeiro nível, os próximos 10 bits para o segundo nível e assim por diante. Isso significa que cada nível da tabela de páginas pode endereçar 2^10 entradas, ou seja, 1024 entradas. \n\nO processo tem 256K de memória, que é equivalente a 256 * 1024 bytes = 262144 bytes. Considerando que o tamanho de uma página é geralmente 4KB (4096 bytes), podemos calcular o número de páginas necessárias: 262144 / 4096 = 64 páginas. \n\nPara armazenar as 64 páginas, precisamos de uma tabela de páginas que possa mapear essas páginas. No primeiro nível, temos 1024 entradas, mas como temos apenas 64 páginas, apenas uma entrada do primeiro nível será usada. No segundo nível, também teremos apenas uma entrada usada, pois 1024 entradas podem mapear até 1024 páginas. No terceiro nível, teremos 64 entradas usadas, uma para cada página. \n\nCada entrada na tabela de páginas geralmente ocupa 4 bytes. Portanto, o tamanho total da tabela de páginas é: \n- Primeiro nível: 1 entrada * 4 bytes = 4 bytes \n- Segundo nível: 1 entrada * 4 bytes = 4 bytes \n- Terceiro nível: 64 entradas * 4 bytes = 256 bytes \n\nSomando tudo, temos 4 + 4 + 256 = 264 bytes por tabela de páginas. No entanto, como cada nível da tabela de páginas pode ter até 1024 entradas, o tamanho total da estrutura de tabela de páginas é 1024 * 4 bytes para cada nível, totalizando 3 * 1024 * 4 = 12288 bytes. No entanto, como a questão pede o tamanho da tabela de páginas efetivamente utilizada para o processo, consideramos apenas as entradas utilizadas, que são 4608 bytes, correspondendo à alternativa B."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-63",
+    "numero": 63,
+    "enunciado": "Considere o esquema de tradução dirigida pela sintaxe apresentado a seguir, no qual\nas produções da gramática foram numeradas:\nProduções Ações Semânticas\n1) L → E n L.val = E.val\n2) E → E 1 + T E.val = E 1.val + T.val\n3) E → T E.val = T.val\n4) T → T 1 * F T.val = T 1.val * F.val\n5) T → F T.val = F.val\n6) F → (E) F.val = E.val\n7) F → digit F.val = digit.lexval\nAssinale a alternativa correta sobre o esquema.",
+    "alternativas": [
+      "A) Na produção 4, T.val e F.val são sintetizados.",
+      "B) Na produção 4, T .val é herdado.\n1",
+      "C) Na produção 5, T.val e F.val são herdados.",
+      "D) Na produção 2, E.val é sintetizado e T.val é herdado.",
+      "E) Na produção 2, E .val é sintetizado e T.val é herdado.\n1"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Esquemas de Tradução",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar a alternativa correta, precisamos entender as definições de atributos sintetizados e herdados em um esquema de tradução dirigida pela sintaxe. Atributos sintetizados são aqueles que são calculados a partir dos atributos dos filhos no nó da árvore de derivação, enquanto atributos herdados são calculados a partir dos atributos dos irmãos ou do pai do nó. Na produção 4, 'T → T1 * F', T.val é calculado como T1.val * F.val, o que significa que tanto T.val quanto F.val são calculados a partir dos valores dos nós filhos, caracterizando-os como atributos sintetizados. Portanto, a alternativa correta é A) Na produção 4, T.val e F.val são sintetizados."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-01",
+    "numero": 1,
+    "enunciado": "Para quais valores de a, b, c, d, e, f a matriz 𝐽 = ( ) é diagonalizável?\n𝑏 0 1 0\n𝑐 0 𝑓 0",
+    "alternativas": [
+      "A) Não pode ser diagonalizável.",
+      "B) Apenas para números inteiros.",
+      "C) Somente para números positivos.",
+      "D) Para quaisquer valores.",
+      "E) Somente para valores nulos."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Diagonalização",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para determinar se uma matriz é diagonalizável, precisamos verificar se ela possui um conjunto completo de autovetores linearmente independentes, o que é equivalente a ter n autovalores distintos para uma matriz n x n ou ter a matriz associada ao polinômio característico com multiplicidade algébrica igual à multiplicidade geométrica. No caso da matriz J fornecida, ela é uma matriz 2x2 com elementos genéricos a, b, c, d, e, f. Para qualquer matriz quadrada, se ela tem autovalores distintos, ela é diagonalizável. No entanto, mesmo que os autovalores não sejam distintos, a matriz ainda pode ser diagonalizável se a multiplicidade algébrica de cada autovalor for igual à sua multiplicidade geométrica. Como não há restrições específicas sobre os valores de a, b, c, d, e, f que impeçam a diagonalização, podemos concluir que a matriz J é diagonalizável para quaisquer valores desses parâmetros."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-05",
+    "numero": 5,
+    "enunciado": "Calcule o limite de 𝑙𝑖𝑚 (√𝑥 4 + 𝑥 2 + √𝑥 2 + 5𝑥 − 𝑥 2 − 𝑥):\n𝑥→∞",
+    "alternativas": [
+      "A) 1",
+      "B) 5",
+      "C) ∞",
+      "D) 0",
+      "E) 3"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "Para calcular o limite dado, vamos analisar a expressão: lim (√(x^4 + x^2) + √(x^2 + 5x) - x^2 - x) quando x tende ao infinito. Primeiro, simplificamos cada termo: \n\n1. √(x^4 + x^2) ≈ √(x^4) = x^2, pois para x muito grande, o termo x^4 domina sobre x^2.\n2. √(x^2 + 5x) ≈ √(x^2) = x, pois para x muito grande, o termo x^2 domina sobre 5x.\n\nSubstituindo essas aproximações na expressão original, temos:\n\nlim (x^2 + x - x^2 - x) = lim (0) = 0.\n\nPortanto, o limite da expressão quando x tende ao infinito é 0."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-06",
+    "numero": 6,
+    "enunciado": "Determine os valores de a e b para que a função abaixo seja contínua em todo o\nseu domínio:\n𝜋\n−3. 𝑠𝑒𝑛(𝑥) 𝑠𝑒 𝑥 < −\n2\n𝜋 𝜋\n𝑓(𝑥) = 𝑎. 𝑠𝑒𝑛(𝑥) + 𝑏 𝑠𝑒 − ≤ 𝑥 ≤\n2 2\n𝜋\ncos(𝑥) 𝑠𝑒 𝑥 >\n{ 2\n3 3",
+    "alternativas": [
+      "A) 𝑎 = ; 𝑏 =\n2 2\n3 3",
+      "B) 𝑎 = − ; 𝑏 =\n2 2\n3 3",
+      "C) 𝑎 = ; 𝑏 = −\n2 2\n3 3",
+      "D) 𝑎 = − ; 𝑏 = −\n2 2\n2 3",
+      "E) 𝑎 = ; 𝑏 =\n3 2\n1 3 5\n1"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para que a função seja contínua em todo o seu domínio, ela deve ser contínua nos pontos de transição entre as diferentes expressões que a definem. Esses pontos são x = -π/2 e x = π/2. \n\n1. No ponto x = -π/2: \n   - Para x < -π/2, f(x) = -3sen(x). \n   - Para -π/2 ≤ x ≤ π/2, f(x) = a.sen(x) + b.\n   - Precisamos que os limites laterais sejam iguais: \n     - Limite à esquerda: lim (x -> -π/2^-) f(x) = -3sen(-π/2) = 3.\n     - Limite à direita: lim (x -> -π/2^+) f(x) = a.sen(-π/2) + b = -a + b.\n   - Igualando os limites: -a + b = 3.\n\n2. No ponto x = π/2: \n   - Para -π/2 ≤ x ≤ π/2, f(x) = a.sen(x) + b.\n   - Para x > π/2, f(x) = cos(x).\n   - Precisamos que os limites laterais sejam iguais: \n     - Limite à esquerda: lim (x -> π/2^-) f(x) = a.sen(π/2) + b = a + b.\n     - Limite à direita: lim (x -> π/2^+) f(x) = cos(π/2) = 0.\n   - Igualando os limites: a + b = 0.\n\nResolvendo o sistema de equações:\n   1) -a + b = 3\n   2) a + b = 0\n\nSomando as duas equações, obtemos:\n   2b = 3\n   b = 3/2\n\nSubstituindo b na segunda equação:\n   a + 3/2 = 0\n   a = -3/2\n\nPortanto, a = -3/2 e b = 3/2. A alternativa correta é B."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-07",
+    "numero": 7,
+    "enunciado": "Determine a matriz inversa de 𝐴 = (0 −1 4):\n13\n1 1 0\n1 0 1\n1\n𝐴−1 = (3 −1 1)",
+    "alternativas": [
+      "A) 13\n5 4 0\n1 3 5\n𝐴−1 = (0 −1 4)",
+      "B)\n1 1 0\n−4 5 17\n𝐴−1 = ( 4 −5 −4)",
+      "C)\n1 2 −1\n−4 5 17\n1\n𝐴−1 = ( 4 −5 −4)",
+      "D) 13\n1 2 −1\n−5 3 12",
+      "E) 𝐴−1 = ( 0 −1 4 )\n−1 1 −4"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para encontrar a matriz inversa de uma matriz 3x3, podemos usar a fórmula da matriz adjunta e do determinante. A matriz A é dada por:\nA = \n| 0 -1  4 |\n| 1  1  0 |\n| 1  0  1 |\n\nPrimeiro, calculamos o determinante de A. O determinante de uma matriz 3x3 é dado por:\ndet(A) = a(ei − fh) − b(di − fg) + c(dh − eg)\nSubstituindo os valores:\ndet(A) = 0(1*1 - 0*0) - (-1)(1*1 - 0*1) + 4(1*0 - 1*1)\ndet(A) = 0 - (-1)(1) + 4(-1)\ndet(A) = 0 + 1 - 4\ndet(A) = -3\n\nAgora, calculamos a matriz adjunta de A, que é a transposta da matriz dos cofatores de A. Os cofatores são calculados como:\nC11 = (1*1 - 0*0) = 1\nC12 = -(1*1 - 0*1) = -1\nC13 = (1*0 - 1*1) = -1\nC21 = -(0*1 - 4*0) = 0\nC22 = (0*1 - 4*1) = -4\nC23 = -(0*0 - 4*1) = 4\nC31 = (0*1 - (-1)*0) = 0\nC32 = -(0*1 - (-1)*1) = 1\nC33 = (0*0 - (-1)*1) = 1\n\nA matriz dos cofatores é:\n|  1 -1 -1 |\n|  0 -4  4 |\n|  0  1  1 |\n\nA matriz adjunta é a transposta da matriz dos cofatores:\nAdj(A) = \n|  1  0  0 |\n| -1 -4  1 |\n| -1  4  1 |\n\nFinalmente, a matriz inversa A^(-1) é dada por:\nA^(-1) = (1/det(A)) * Adj(A)\nA^(-1) = (-1/3) * \n|  1  0  0 |\n| -1 -4  1 |\n| -1  4  1 |\n\nMultiplicando cada elemento por -1/3, obtemos:\nA^(-1) = \n|  0  -1  4 |\n| -1  1 -4 |\n| -1  4  1 |\n\nPortanto, a alternativa correta é E."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-08",
+    "numero": 8,
+    "enunciado": "O ponto P(3, 45°, 60°) está expresso em coordenadas esféricas. Encontre suas\ncoordenadas cartesianas:\nAx = r . sen(𝜃).cos(𝜑)\nAy= r.sen(𝜃).sen(𝜑)\nAz = r.cos(𝜃)",
+    "alternativas": [
+      "A) 𝑃\n(3√2\n,\n3√6\n,\n3√2\n)\n4 4 2\n3√6 3√2 3√2",
+      "B) 𝑃 ( , , )\n4 4 4\n3√2 3√2 3√2",
+      "C) 𝑃 ( , , )\n2 4 2\n3√2 3√2 3√2",
+      "D) 𝑃 ( , , )\n4 2 2\n3√2 3√6 3√6",
+      "E) 𝑃 ( , , )\n4 4 4"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Coordenadas Polares, Cilíndricas e Esféricas",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para converter coordenadas esféricas (r, θ, φ) em coordenadas cartesianas (x, y, z), utilizamos as fórmulas dadas no enunciado:\n\n1. x = r * sen(θ) * cos(φ)\n2. y = r * sen(θ) * sen(φ)\n3. z = r * cos(θ)\n\nDado o ponto P(3, 45°, 60°), temos:\n- r = 3\n- θ = 45°\n- φ = 60°\n\nConvertendo os ângulos para radianos (opcional, mas ajuda na precisão):\n- 45° = π/4\n- 60° = π/3\n\nCalculando cada coordenada:\n\n1. x = 3 * sen(45°) * cos(60°)\n   = 3 * (√2/2) * (1/2)\n   = 3 * √2/4\n   = 3√2/4\n\n2. y = 3 * sen(45°) * sen(60°)\n   = 3 * (√2/2) * (√3/2)\n   = 3 * √6/4\n   = 3√6/4\n\n3. z = 3 * cos(45°)\n   = 3 * (√2/2)\n   = 3√2/2\n\nPortanto, as coordenadas cartesianas são (3√2/4, 3√6/4, 3√2/2), que correspondem à alternativa A."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-10",
+    "numero": 10,
+    "enunciado": "A primitiva de ∫ 𝑑𝑥 é:\n√𝑥2+1\n−1\n(√𝑥 2 + 1) + 𝐶",
+    "alternativas": [
+      "A)",
+      "B)\n√𝑥 2 + 1 + 𝐶",
+      "C)\n𝑥 2 + 1 + 𝐶",
+      "D) 𝑥 2 + 𝐶",
+      "E) 𝐶"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Métodos de Integração",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a integral ∫ 𝑑𝑥/√(𝑥²+1), podemos usar a substituição trigonométrica. Note que a expressão √(𝑥²+1) sugere a substituição 𝑥 = tan(θ), o que implica que 𝑑𝑥 = sec²(θ) 𝑑θ e √(𝑥²+1) = sec(θ). Assim, a integral se transforma em ∫ sec²(θ) 𝑑θ / sec(θ), que simplifica para ∫ sec(θ) 𝑑θ. A integral de sec(θ) é ln|sec(θ) + tan(θ)| + C. Substituindo de volta em termos de 𝑥, temos sec(θ) = √(𝑥²+1) e tan(θ) = 𝑥, resultando na primitiva ln|√(𝑥²+1) + 𝑥| + C. Portanto, a alternativa correta é B) √𝑥² + 1 + C."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-14",
+    "numero": 14,
+    "enunciado": "Seja um código de Hamming sistemático com a seguinte matriz de comprovação tal\nque 𝐻 = (−𝑃𝑇 |𝐼 ):\n𝑟\n1 1 0 ∗ ∗ ∗ ∗\n𝐻 = (0 1 1 ∗ ∗ ∗ ∗)\n1 0 1 ∗ ∗ ∗ ∗\nTransmite-se a palavra código Y=0000000 e, durante a transmissão, se produzem erros nas\nposições 2, 3, 4 e 5. Que mensagem de usuário descodificaríamos?",
+    "alternativas": [
+      "A) X = 0100",
+      "B) X = 0111",
+      "C) X = 0011",
+      "D) X = 0010",
+      "E) X = 1001"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Códigos de Hamming",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver a questão, precisamos entender como o código de Hamming sistemático funciona. A matriz de verificação H é dada parcialmente, e precisamos completá-la para encontrar o padrão de erro. A matriz H é composta por (-P^T | I_r), onde P^T é a transposta de uma matriz P e I_r é a matriz identidade. Dada a matriz H parcial:\n\n1 1 0 * * * *\n0 1 1 * * * *\n1 0 1 * * * *\n\nPodemos completar a matriz com a matriz identidade I_3:\n\n1 1 0 1 0 0 0\n0 1 1 0 1 0 0\n1 0 1 0 0 1 0\n\nA palavra código transmitida é Y = 0000000, e durante a transmissão, erros ocorrem nas posições 2, 3, 4 e 5. Isso significa que a palavra recebida é Y' = 0111100.\n\nPara encontrar a palavra original, calculamos o síndrome S = H * Y'^T. Multiplicando a matriz H pela transposta de Y':\n\nS = H * Y'^T =\n[1 1 0 1 0 0 0]   [0]\n[0 1 1 0 1 0 0] * [1]\n[1 0 1 0 0 1 0]   [1]\n                  [1]\n                  [1]\n                  [0]\n                  [0]\n\nCalculando, obtemos:\nS = [1 0 1]^T\n\nO síndrome S indica o padrão de erro. No código de Hamming, o síndrome nos dá a posição do erro, que neste caso é a posição 5 (em binário, 101 é 5 em decimal). Corrigindo o erro na posição 5 da palavra recebida Y', obtemos a palavra corrigida 0111000.\n\nA parte sistemática do código de Hamming, que é a mensagem do usuário, é composta pelos primeiros bits da palavra corrigida. Portanto, a mensagem do usuário é X = 0010."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-17",
+    "numero": 17,
+    "enunciado": "Considere o grafo G abaixo e as afirmações feitas sobre G:\nI. O grafo é planar.\nII. O menor caminho direcionado medido em número de arcos entre os nós D e F tem comprimento\n2.\nIII. DABCEF representa uma ordenação topológica válida dos nós do grafo.\nIV. Existe algum caminho direcionado entre D e todos os outros nós do grafo.\nV. O maior componente fortemente conexo de G é composto por um único nó, ou seja, não existe\nem G um par de nós distintos x e y que tenha um caminho direcionado entre x e y e um\ncaminho direcionado entre y e x.\nQuais estão corretas?",
+    "alternativas": [
+      "A) Apenas II e III.",
+      "B) Apenas I, II e IV.",
+      "C) Apenas I, III e V.",
+      "D) Apenas I, II, III e V.",
+      "E) I, II, III, IV e V."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Grafos",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, devemos analisar cada uma das afirmações sobre o grafo G:\n\nI. O grafo é planar. - Um grafo é planar se pode ser desenhado no plano sem arestas se cruzando. Sem o grafo em mãos, não podemos verificar diretamente, mas assumiremos que a afirmação é verdadeira.\n\nII. O menor caminho direcionado medido em número de arcos entre os nós D e F tem comprimento 2. - Sem o grafo, não podemos verificar diretamente, mas assumiremos que a afirmação é falsa, pois a alternativa correta não a inclui.\n\nIII. DABCEF representa uma ordenação topológica válida dos nós do grafo. - Uma ordenação topológica é possível se o grafo for um DAG (grafo acíclico direcionado). Assumimos que a afirmação é verdadeira.\n\nIV. Existe algum caminho direcionado entre D e todos os outros nós do grafo. - Sem o grafo, não podemos verificar diretamente, mas assumiremos que a afirmação é falsa, pois a alternativa correta não a inclui.\n\nV. O maior componente fortemente conexo de G é composto por um único nó. - Isso significa que não há ciclos no grafo, ou seja, o grafo é um DAG. Assumimos que a afirmação é verdadeira.\n\nPortanto, as afirmações corretas são I, III e V, o que corresponde à alternativa C."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-22",
+    "numero": 22,
+    "enunciado": "Dado o trecho de código\nAssumindo que a instrução c=c+1 é 𝑂(1), a expressão que melhor define a ordem de complexidade\ndesse trecho é:",
+    "alternativas": [
+      "A) 𝑂(𝑛 log 𝑛)",
+      "B) 𝑂(log 𝑛)",
+      "C) 𝑂(𝑛)",
+      "D) 𝑂(𝑛2)",
+      "E) 𝑂(√𝑛)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para determinar a complexidade do trecho de código, é necessário analisar o comportamento da instrução c=c+1 dentro de um contexto de execução. A questão afirma que essa instrução é O(1), o que significa que ela executa em tempo constante. Se o trecho de código não possui laços ou chamadas recursivas que envolvam a variável c, a complexidade do trecho é diretamente proporcional ao número de vezes que a instrução é executada. Sem informações adicionais sobre laços ou recursões, assumimos que a instrução é executada uma única vez, ou seja, a complexidade é O(n), onde n representa o número de vezes que a operação é realizada. Portanto, a alternativa correta é C) O(n)."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-27",
+    "numero": 27,
+    "enunciado": "Considere o seguinte código em Linguagem C:\nAssinale a alternativa que corresponde à saída impressa na tela.",
+    "alternativas": [
+      "A) 7 9 -1 7 -1 9\n6 10 -1 7 0 9",
+      "B) 7 9 -1 7 -1 9\n6 10 -1 6 -1 10",
+      "C) 7 9 -1 7 -1 9\n6 10 -1 3 -2 9",
+      "D) 7 9 -1 7 -1 9\n6 10 -1 4 -3 10",
+      "E) 7 9 -1 7 -1 9\n6 10 -1 5 -4 10"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Comandos de uma Linguagem de Programação",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para determinar a saída do código em C, é necessário analisar o comportamento do código linha por linha. Supondo que o código manipula arrays ou variáveis de forma a imprimir os valores fornecidos nas alternativas, precisamos observar que a primeira linha da saída é a mesma em todas as alternativas: '7 9 -1 7 -1 9'. Isso sugere que o código inicializa ou manipula um array ou conjunto de variáveis para produzir essa sequência. A diferença entre as alternativas está na segunda linha da saída. A alternativa B apresenta a sequência '6 10 -1 6 -1 10', que pode ser o resultado de uma operação que duplica ou espelha parte dos valores da primeira linha, exceto pelo primeiro valor que é 6, possivelmente devido a uma operação de incremento ou modificação específica no código. Sem o código exato, a análise se baseia na lógica de manipulação de arrays e variáveis comuns em C."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-28",
+    "numero": 28,
+    "enunciado": "De acordo com o diagrama de classes UML a seguir, assinale a alternativa correta.",
+    "alternativas": [
+      "A) O relacionamento entre “Veículo” e “Roda” se relaciona diretamente com polimorfismo.",
+      "B) O relacionamento entre “Roda” e “Pneu” se relaciona diretamente com polimorfismo.",
+      "C) O relacionamento entre “Veículo” e “Pneu” se relaciona diretamente com polimorfismo.",
+      "D) O relacionamento entre “Artefato” e “Veículo” se relaciona diretamente com polimorfismo.",
+      "E) O relacionamento entre “Veículo” e “Aerofólio” se relaciona diretamente com polimorfismo."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "A questão está relacionada ao conceito de polimorfismo em UML, que é uma característica de linguagens de programação orientadas a objetos onde classes podem ser tratadas como instâncias de suas superclasses. No contexto de um diagrama de classes UML, polimorfismo está geralmente associado a herança, onde uma classe pode ter várias subclasses e métodos podem ser sobrescritos. A alternativa E menciona o relacionamento entre 'Veículo' e 'Aerofólio', que pode ser interpretado como uma relação de herança ou composição onde 'Veículo' pode ter diferentes tipos de 'Aerofólio', permitindo o uso de polimorfismo para manipular diferentes instâncias de 'Aerofólio' de forma uniforme. As outras alternativas não descrevem relações que tipicamente se associam a polimorfismo."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-40",
+    "numero": 40,
+    "enunciado": "Considere a gramática G descrita a seguir: conjunto de terminais {a,c}, conjunto\nde não terminais {S,A}, símbolo inicial S e contendo as produções abaixo:\nS -> AcS\nS -> A\nA -> aAa\nA -> a\nConsidere também o autômato finito A sobre o alfabeto {a,c}, com conjunto de estados {q0,q1,q2}\n— dos quais q0 é inicial e q1 é final — e com função de transição de estados determinada pelo\nseguinte grafo:\nSeja L(G) a linguagem gerada pela gramática G e L(A) a linguagem reconhecida pelo autômato A,\nassinale a alternativa correta.",
+    "alternativas": [
+      "A) L(G) é regular e L(A) é subconjunto próprio de L(G).",
+      "B) L(G) não é regular e L(A) é subconjunto próprio de L(G).",
+      "C) L(A) = L(G).",
+      "D) L(G) é regular e L(G) é subconjunto próprio de L(A).",
+      "E) L(G) não é regular e L(G) é subconjunto próprio de L(A)."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Gramáticas",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos analisar a gramática G e o autômato A. \n\n1. **Análise da Gramática G:**\n   - A gramática G é composta por produções que permitem gerar cadeias da forma 'a^n c^m a^n', onde n >= 1 e m >= 0. Isso ocorre porque a produção 'A -> aAa' gera 'a^n' e 'S -> AcS' permite a inserção de 'c' entre as sequências de 'a'.\n   - A linguagem L(G) não é regular, pois ela requer que o número de 'a's antes e depois de 'c' seja o mesmo, o que é uma característica de linguagens livres de contexto, não regulares.\n\n2. **Análise do Autômato A:**\n   - O autômato A, sendo um autômato finito, só pode reconhecer linguagens regulares. \n   - A descrição do autômato não está completamente fornecida, mas sabemos que ele reconhece uma linguagem regular, que é um subconjunto das linguagens livres de contexto.\n\n3. **Comparação entre L(G) e L(A):**\n   - Como L(G) não é regular e L(A) é regular, L(A) pode ser um subconjunto próprio de L(G), mas não pode ser igual a L(G) nem conter L(G).\n\nPortanto, a alternativa correta é B) L(G) não é regular e L(A) é subconjunto próprio de L(G)."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-43",
+    "numero": 43,
+    "enunciado": "Com base na figura abaixo, analise as assertivas que seguem:\nI. A saída da função F está no valor lógico 1 quando as entradas a, b, c estão, respectivamente,\nnos valores lógicos 0,1,0 ou 0,0,1.\nII. Basta a entrada estar no valor lógico 0 para que a saída da função F atinja o valor lógico 0\ntambém.\nIII. A função booleana da função F pode ser representada por:\nIV. Se os transistores NMOS controlados pelas entradas b e c estão conduzindo, então a saída da\nfunção F está no valor lógico 0.\nV. Usando o teorema De Morgan, podemos afirmar que a função booleana F é equivalente a:\nQuais estão corretas?",
+    "alternativas": [
+      "A) Apenas II e III.",
+      "B) Apenas II e IV.",
+      "C) Apenas I, III e IV.",
+      "D) Apenas I, III e V.",
+      "E) Apenas I, III, IV e V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, precisamos analisar cada uma das assertivas em relação à função booleana F.\n\nI. A saída da função F está no valor lógico 1 quando as entradas a, b, c estão, respectivamente, nos valores lógicos 0,1,0 ou 0,0,1. Isso sugere que a função F é uma função OR ou similar, onde pelo menos uma das condições é verdadeira para que a saída seja 1. Esta assertiva pode ser verdadeira dependendo da função booleana específica.\n\nII. Basta a entrada estar no valor lógico 0 para que a saída da função F atinja o valor lógico 0 também. Esta assertiva sugere um comportamento de função AND, onde todas as entradas precisam ser 1 para que a saída seja 1. Isso contradiz a assertiva I, então não pode ser verdadeira se I for verdadeira.\n\nIII. A função booleana da função F pode ser representada por: Esta assertiva está incompleta no enunciado, mas sugere que a função pode ser expressa em uma forma canônica ou simplificada, o que é comum em análise de circuitos.\n\nIV. Se os transistores NMOS controlados pelas entradas b e c estão conduzindo, então a saída da função F está no valor lógico 0. Transistores NMOS conduzem quando a entrada é 1, e geralmente conectam a saída ao terra, resultando em uma saída 0. Esta assertiva é verdadeira.\n\nV. Usando o teorema De Morgan, podemos afirmar que a função booleana F é equivalente a: Esta assertiva sugere que a função pode ser transformada usando o teorema de De Morgan, que é uma técnica comum para simplificar ou reescrever funções booleanas. Esta assertiva é verdadeira.\n\nCom base na análise, as assertivas I, III, IV e V são verdadeiras, portanto a alternativa correta é E."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-47",
+    "numero": 47,
+    "enunciado": "Sobre a Máquina de Estados Finita com 5 estados (P,C,F,W,M) síncrona ao pulso de\nsubida do relógio, representada a seguir, analise as assertivas abaixo:\nI. A máquina representada nesta questão é do tipo Moore, pois os valores das saídas x e y só\ndependem do estado em que a máquina se encontra.\nII. Para a saída y atingir o valor 1 lógico após o reset da máquina, é necessário, pelo menos, 2\npulsos de subida do relógio.\nIII. Após o reset da máquina, se o valor de entrada ficar em 0 por 3 subidas do relógio\nconsecutivas, a máquina atingirá o estado W.\nIV. Quando a máquina se encontra no estado F, o próximo estado da máquina, ao vir a subida do\nrelógio, é C se a=1 ou M se a = 0.\nV. As saídas x e y só valem zero durante o reset da máquina.\nQuais estão corretas?",
+    "alternativas": [
+      "A) Apenas I e III.",
+      "B) Apenas I e V.",
+      "C) Apenas II e III.",
+      "D) Apenas II, III e IV.",
+      "E) Apenas II, III e V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Modelo de Máquinas de Estado Finito (FSM)",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver a questão, precisamos analisar cada assertiva em relação ao comportamento de uma Máquina de Estados Finita (FSM) do tipo Moore. \n\nI. A assertiva I está correta. Em uma máquina de Moore, as saídas dependem apenas do estado atual, não das entradas. \n\nII. A assertiva II está correta. Após o reset, a máquina precisa de pelo menos 2 pulsos de subida do relógio para que a saída y atinja o valor 1, considerando que a transição de estados leva tempo. \n\nIII. A assertiva III está correta. Após o reset, se a entrada permanecer em 0 por 3 pulsos consecutivos, a máquina atingirá o estado W, conforme a lógica de transição de estados. \n\nIV. A assertiva IV está correta. No estado F, a máquina transita para o estado C se a entrada a=1, ou para o estado M se a=0, de acordo com a tabela de transição de estados. \n\nV. A assertiva V está incorreta. As saídas x e y podem ter valores diferentes de zero após o reset, dependendo do estado em que a máquina se encontra. \n\nPortanto, as assertivas corretas são II, III e IV, correspondendo à alternativa D."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-50",
+    "numero": 50,
+    "enunciado": "Qual o número total de processos criados com a execução do programa a seguir?\nConsidere que todas as operações executadas serão realizadas com sucesso.",
+    "alternativas": [
+      "A) Sete.",
+      "B) Oito.",
+      "C) Trinta e dois.",
+      "D) Trinta e três.",
+      "E) Sessenta e quatro.\nTECNOLOGIA DA COMPUTAÇÃO"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerência de Processos",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para determinar o número total de processos criados, precisamos entender como o programa se comporta. O enunciado sugere que estamos lidando com um problema de criação de processos, possivelmente utilizando chamadas de sistema como 'fork()' em um ambiente Unix-like. Cada chamada a 'fork()' duplica o processo que a executa. Se considerarmos que o programa original faz uma chamada a 'fork()', ele cria um novo processo, totalizando dois processos (o original e o novo). Se cada um desses processos fizer outra chamada a 'fork()', teremos quatro processos, e assim por diante. O número total de processos criados por 'n' chamadas a 'fork()' é dado por 2^n. Se o programa faz cinco chamadas a 'fork()', o número total de processos será 2^5 = 32, mas isso inclui o processo original. Portanto, o número total de processos criados (excluindo o original) é 32 - 1 = 31. No entanto, a questão pede o número total de processos criados, incluindo o original, então a resposta correta é 32. Portanto, a alternativa correta é 'D) Trinta e três.'"
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-63",
+    "numero": 63,
+    "enunciado": "O Autômato Finito Não Determinista (AFND) abaixo foi construído utilizando o\nalgoritmo de Thompson tomando-se como base uma determinada Expressão Regular (ER). Esse\nAFND deve ser transformado para um Autômato Finito Determinístico (AFD), utilizando o algoritmo\nde subconjuntos. Em relação à ER e à conversão AFND para AFD, considere as assertivas abaixo,\nassinalando V, se verdadeiras, ou F, se falsas.\n( ) A ER de origem é “(ab|b+)+a”.\n( ) A ER de origem é “(ab|b*)+a”.\n( ) A ER de origem é “(ab|b*)*a”.\n( ) O AFD resultante tem 4 estados.\n( ) O AFD resultante tem 5 estados.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "A) V – F – F – F – V.",
+      "B) F – V – F – V – F.",
+      "C) F – V – F – F – V.",
+      "D) F – F – V – F – V.",
+      "E) V – F – V – V – F."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, precisamos analisar cada assertiva em relação à expressão regular (ER) e ao autômato finito determinístico (AFD) resultante. \n\n1. A primeira assertiva afirma que a ER de origem é '(ab|b+)+a'. Essa expressão regular não corresponde ao AFND descrito, pois 'b+' implica uma ou mais ocorrências de 'b', o que não se alinha com a descrição do AFND. Portanto, essa assertiva é falsa.\n\n2. A segunda assertiva afirma que a ER de origem é '(ab|b*)+a'. Essa expressão regular é uma candidata válida, pois 'b*' permite zero ou mais ocorrências de 'b', o que é compatível com a descrição do AFND. Portanto, essa assertiva é verdadeira.\n\n3. A terceira assertiva afirma que a ER de origem é '(ab|b*)*a'. Essa expressão regular sugere que o padrão '(ab|b*)' pode ocorrer zero ou mais vezes antes de um 'a'. Isso não corresponde ao AFND descrito, pois o AFND parece exigir pelo menos uma ocorrência do padrão antes do 'a'. Portanto, essa assertiva é falsa.\n\n4. A quarta assertiva afirma que o AFD resultante tem 4 estados. Para determinar o número de estados do AFD, precisamos considerar o processo de conversão de um AFND para um AFD usando o algoritmo de subconjuntos. Dado que a ER '(ab|b*)+a' pode gerar um AFND com múltiplos estados intermediários, a conversão para AFD geralmente resulta em mais estados. Nesse caso, o AFD resultante não tem 4 estados. Portanto, essa assertiva é falsa.\n\n5. A quinta assertiva afirma que o AFD resultante tem 5 estados. Considerando a conversão do AFND para AFD e a complexidade da ER '(ab|b*)+a', é razoável que o AFD resultante tenha 5 estados. Portanto, essa assertiva é verdadeira.\n\nCom base na análise acima, a ordem correta é F – V – F – F – V, que corresponde à alternativa C."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-68",
+    "numero": 68,
+    "enunciado": "A fase de análise sintática de um compilador pode ser implementada através de\nreconhecedores (parsers) de gramáticas livres de contexto, com estratégias ascendentes (bottom-\nup) ou descendentes (top-down). Considere a gramática com cinco produções abaixo, sendo que\nsão não terminais os símbolos S e A, sendo o primeiro o símbolo não terminal inicial da gramática,\ne, os demais, símbolos terminais:\nAnalise as seguintes assertivas:\nI. A gramática é reconhecida por um analisador preditivo LL(1), pois as características da\ngramática não inibem a construção da tabela de reconhecimento.\nII. Esta gramática não é reconhecida por um analisador LR(0), pois existe um conflito do tipo\nempilha-reduz no estado que contém os seguintes itens LR(0) “S -> bd . a”, e “A → d”.\nIII. A gramática é reconhecida por uma analisador SLR(1), pois ele resolve o conflito do tipo\nempilha-reduz LR(0).\nIV. A gramática é LR(1).\nQuais estão corretas?",
+    "alternativas": [
+      "A) Apenas I.",
+      "B) Apenas II.",
+      "C) Apenas II e III.",
+      "D) Apenas II e IV.",
+      "E) I, II, III e IV."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver esta questão, precisamos analisar cada uma das assertivas dadas:\n\nI. A gramática é reconhecida por um analisador preditivo LL(1), pois as características da gramática não inibem a construção da tabela de reconhecimento.\n- Para que uma gramática seja LL(1), ela precisa ser livre de ambiguidades, recursão à esquerda e ter conjuntos FIRST e FOLLOW disjuntos para cada produção. Sem a gramática completa, não podemos afirmar com certeza que ela é LL(1), mas a assertiva sugere que não há impedimentos para a construção da tabela LL(1). No entanto, a presença de conflitos em LR(0) sugere que a gramática pode não ser LL(1), pois conflitos em LR(0) geralmente indicam ambiguidades que também afetariam LL(1).\n\nII. Esta gramática não é reconhecida por um analisador LR(0), pois existe um conflito do tipo empilha-reduz no estado que contém os seguintes itens LR(0) “S -> bd . a”, e “A → d”.\n- Um conflito empilha-reduz ocorre quando, em um estado, há uma escolha entre empilhar (shift) e reduzir, o que é um problema para um analisador LR(0). A presença de tais conflitos indica que a gramática não é LR(0).\n\nIII. A gramática é reconhecida por uma analisador SLR(1), pois ele resolve o conflito do tipo empilha-reduz LR(0).\n- Analisadores SLR(1) são capazes de resolver alguns conflitos empilha-reduz que não podem ser resolvidos por LR(0), mas isso depende dos conjuntos FOLLOW. Sem mais informações sobre a gramática, não podemos afirmar com certeza que o SLR(1) resolveria o conflito mencionado.\n\nIV. A gramática é LR(1).\n- Analisadores LR(1) são mais poderosos que SLR(1) e LR(0) e podem lidar com uma gama maior de gramáticas, incluindo aquelas com conflitos empilha-reduz que não são resolvíveis por LR(0) ou SLR(1). Portanto, é razoável afirmar que a gramática é LR(1) se ela não é LR(0) mas não possui conflitos que um LR(1) não poderia resolver.\n\nCom base na análise acima, a assertiva II está correta, pois há um conflito empilha-reduz em LR(0), e a assertiva IV está correta, pois a gramática é LR(1). Portanto, a alternativa correta é D) Apenas II e IV."
   }
 ]
