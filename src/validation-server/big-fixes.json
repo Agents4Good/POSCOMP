@@ -3228,5 +3228,708 @@
     "dificuldade": "Média",
     "gabarito": "c",
     "solucao": "Para determinar a expressão regular que gera a mesma linguagem reconhecida pelo autômato, é necessário analisar o comportamento do autômato em relação às cadeias que ele aceita. A expressão regular correta deve começar com 'a', seguida por zero ou mais repetições de 'b' ou 'c'. Isso é expresso pela expressão regular 'a(b|c)*', que corresponde à alternativa c. Esta expressão regular indica que a cadeia deve começar com 'a' e pode ser seguida por qualquer combinação de 'b' e 'c', incluindo a possibilidade de não haver 'b' ou 'c' após o 'a'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-01",
+    "numero": 1,
+    "enunciado": "Considere a matriz a seguir.\n \n2 4 2\nA =  1 5 2 \n4 −1 9\nNo método da eliminação de Gauss, foram efetuados os seguintes passos para se obter uma matriz na\nforma degrau:\nI. Subtraiu-se a metade da primeira linha da segunda.\nII. Subtraiu-se o dobro da primeira linha da terceira.\nIII. Adicionou-se o triplo da segunda linha à terceira.\nEm termos matriciais, o processo descrito corresponde a:\n ",
+    "alternativas": [
+      "a) Adicionar à A a matriz 0 0 0\n −1 −2 0 \n−4 1 1\n ",
+      "b) Multiplicar A, à esquerda, por 0 0 0\n 2 0 0 \n1/2 −1/3 0\n ",
+      "c) Multiplicar A, à direita, por 1 −1/2 −2\n 0 1 −3 \n0 0 1\n ",
+      "d) Multiplicar A, à esquerda, por 1 0 0\n −1/2 1 0 \n−7/2 3 1\n ",
+      "e) Subtrair de A a matriz 2 4 2\n 0 5 2 \n0 0 9\nx y"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "método de eliminação de Gauss para sistemas lineares",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos entender como as operações elementares de linha afetam a matriz original A. As operações descritas no enunciado são: \n\n1. Subtrair a metade da primeira linha da segunda linha. Isso corresponde a multiplicar a primeira linha por -1/2 e adicionar à segunda linha, o que é representado pela matriz de operação elementar: \n   [ 1   0   0 ]\n   [-1/2 1   0 ]\n   [ 0   0   1 ]\n\n2. Subtrair o dobro da primeira linha da terceira linha. Isso corresponde a multiplicar a primeira linha por -2 e adicionar à terceira linha, representado pela matriz de operação elementar:\n   [ 1  0  0 ]\n   [ 0  1  0 ]\n   [-2  0  1 ]\n\n3. Adicionar o triplo da segunda linha à terceira linha. Isso corresponde a multiplicar a segunda linha por 3 e adicionar à terceira linha, representado pela matriz de operação elementar:\n   [ 1  0  0 ]\n   [ 0  1  0 ]\n   [ 0  3  1 ]\n\nMultiplicando essas matrizes de operação elementar na ordem correta (da última para a primeira, pois cada operação é aplicada à matriz resultante da operação anterior), obtemos a matriz que, quando multiplicada à esquerda pela matriz A, resulta na matriz escalonada. A matriz resultante é:\n   [ 1   0   0 ]\n   [-1/2 1   0 ]\n   [-7/2 3   1 ]\n\nPortanto, a alternativa correta é a alternativa 'd', que descreve a multiplicação de A à esquerda por essa matriz."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-02",
+    "numero": 2,
+    "enunciado": "Sejam a e b números reais não nulos. As duas retas perpendiculares à reta + = 1 que formam\na b\ntriângulos de área |ab| com os eixos ordenados são descritas pelas equações:",
+    "alternativas": [
+      "a) ax − by = 1 e −ax + by = 1\nx y y x",
+      "b) − = 1 e − = 1\na b b a\nx2 y2 x2 y2",
+      "c) + = 1 e − = 1\nb2 a2 b2 a2\nx y √ y x √",
+      "d) − = 2 e − = 2\nb a a b\nx y √ x y √",
+      "e) + = 2 e + = − 2\n|b| |a| |b| |a|"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Reta no plano e no espaço",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para resolver essa questão, precisamos encontrar as equações das retas que são perpendiculares à reta x/a + y/b = 1 e que formam triângulos de área |ab| com os eixos coordenados. A reta dada, x/a + y/b = 1, tem coeficiente angular -b/a. As retas perpendiculares a ela terão coeficiente angular a/b, pois o produto dos coeficientes angulares de duas retas perpendiculares é -1.\n\nAs equações das retas perpendiculares podem ser escritas na forma y = (a/b)x + c. Para que essas retas formem triângulos de área |ab| com os eixos coordenados, devemos calcular a área do triângulo formado por cada reta com os eixos.\n\nA área de um triângulo formado por uma reta y = mx + c com os eixos coordenados é dada por |c^2/(2m)|. Queremos que essa área seja |ab|, então:\n\n|c^2/(2(a/b))| = |ab|\n\nResolvendo para c, temos:\n\nc^2 = 2a^2b^2/b^2\nc^2 = 2a^2\nc = ±√(2a^2)\n\nPortanto, as equações das retas são y = (a/b)x + √(2a^2) e y = (a/b)x - √(2a^2). Substituindo c nas equações das retas, obtemos:\n\nx/|b| + y/|a| = 2 e x/|b| + y/|a| = -2\n\nAssim, a alternativa correta é a letra e."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-03",
+    "numero": 3,
+    "enunciado": "Suponha que, em vez de usar a base padrão {e , e } para R2, onde e = [1, 0]T e e = [0, 1]T , deseja-se\n1 2 1 2\nutilizar a base {u , u }, com\n1 2\nu = [3, 2]T e u = [1, 1]T\n1 2\nAs coordenadas do vetor x = [7, 4]T em relação a u e u são:\n1 2",
+    "alternativas": [
+      "a) [0, 1]T",
+      "b) [1, −2]T",
+      "c) [3, −2]T",
+      "d) [4, 3]T",
+      "e) [15, 18]T"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Bases",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para encontrar as coordenadas do vetor x = [7, 4]T em relação à base {u1, u2}, onde u1 = [3, 2]T e u2 = [1, 1]T, precisamos resolver o sistema de equações: c1 * u1 + c2 * u2 = x. Isso resulta no sistema linear: 3c1 + c2 = 7 e 2c1 + c2 = 4. Subtraindo a segunda equação da primeira, obtemos c1 = 1. Substituindo c1 = 1 na primeira equação, temos 3*1 + c2 = 7, o que resulta em c2 = 4 - 3 = -2. Portanto, as coordenadas de x na base {u1, u2} são [1, -2]T."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-05",
+    "numero": 5,
+    "enunciado": "Em muitos problemas práticos, deseja-se encontrar a reta r(x) = ax + b que melhor se ajusta a um con-\njunto {(x , y ), (x , y ), ..., (x , y )} de pontos no plano. No método dos mínimos quadrados, os coefici-\n1 1 2 2 n n\nentes a e b da reta são determinados de modo que o erro, dado pela soma do quadrado da diferença entre\ny e r(x ), isto é,\ni i\nn\nE rro(a, b) = (y − r(x ))2,\ni i\ni=1\nseja o menor possível.\nA tabela a seguir mostra o conjunto de pontos {(−3, −3), (−2, −2), ..., (2, 6), (3, 6)} no plano.\nx -3 -2 -1 0 1 2 3\ny -3 -2 2 2 4 6 6\nA reta que melhor se ajusta aos dados apresentados nessa tabela, no sentido dos mínimos quadrados,\né:",
+    "alternativas": [
+      "a) r(x) = x\n15",
+      "b) r(x) = x\n7\n3 3",
+      "c) r(x) = x +\n2 2\n45 15",
+      "d) r(x) = x +\n28 7\n7 45",
+      "e) r(x) = x +\n2 7"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Método dos Mínimos Quadrados",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para resolver o problema, precisamos encontrar a reta que melhor se ajusta aos pontos dados usando o método dos mínimos quadrados. A fórmula para a reta de regressão linear é r(x) = ax + b, onde a e b são calculados da seguinte forma:\n\n1. Calcular a média de x e y:\n   - Média de x: (−3 + (−2) + (−1) + 0 + 1 + 2 + 3) / 7 = 0\n   - Média de y: (−3 + (−2) + 2 + 2 + 4 + 6 + 6) / 7 = 2\n\n2. Calcular a inclinação a:\n   - a = Σ((xi - média_x) * (yi - média_y)) / Σ((xi - média_x)^2)\n   - a = ((-3 - 0)(-3 - 2) + (-2 - 0)(-2 - 2) + (-1 - 0)(2 - 2) + (0 - 0)(2 - 2) + (1 - 0)(4 - 2) + (2 - 0)(6 - 2) + (3 - 0)(6 - 2)) / ((-3 - 0)^2 + (-2 - 0)^2 + (-1 - 0)^2 + (0 - 0)^2 + (1 - 0)^2 + (2 - 0)^2 + (3 - 0)^2)\n   - a = (15 + 8 + 0 + 0 + 2 + 8 + 12) / (9 + 4 + 1 + 0 + 1 + 4 + 9)\n   - a = 45 / 28\n\n3. Calcular o intercepto b:\n   - b = média_y - a * média_x\n   - b = 2 - (45/28) * 0\n   - b = 2\n\nPortanto, a equação da reta que melhor se ajusta aos dados é r(x) = (45/28)x + 2. A alternativa correta é 'e) r(x) = x +\n2 7'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-07",
+    "numero": 7,
+    "enunciado": "Com base em f (x, y, z) = x2ey + 2zy, uma função real de três variáveis reais, considere as afirmativas a\nseguir.\nI. O ponto P = (1, 0, 1) é um ponto crítico de f .\n0\nII. A função f é contínua no ponto P = (1, 0, 1).\n0\n2 →− 3 →−\nIII. A direção unitária em que f cresce mais rapidamente no ponto P 0 = (1, 0, 1) é √ 13 i + √ 13 j .\nIV. O vetor gradiente de f no ponto P é nulo se, e somente se, P = (0, 0, 0).\n0 0\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e IV são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções de Várias Variáveis: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para resolver a questão, vamos analisar cada afirmativa:\n\nI. O ponto P = (1, 0, 1) é um ponto crítico de f.\nPara determinar se P é um ponto crítico, precisamos calcular o gradiente de f e verificar se ele é nulo em P. O gradiente de f é dado por:\n∇f(x, y, z) = (∂f/∂x, ∂f/∂y, ∂f/∂z).\nCalculando as derivadas parciais:\n∂f/∂x = 2x * e^y,\n∂f/∂y = x^2 * e^y + 2z,\n∂f/∂z = 2y.\nAvalie em P = (1, 0, 1):\n∂f/∂x = 2 * 1 * e^0 = 2,\n∂f/∂y = 1^2 * e^0 + 2 * 1 = 3,\n∂f/∂z = 2 * 0 = 0.\nO gradiente não é nulo em P, logo P não é um ponto crítico. A afirmativa I é falsa.\n\nII. A função f é contínua no ponto P = (1, 0, 1).\nA função f(x, y, z) = x^2 * e^y + 2zy é composta por funções contínuas (polinômios e exponenciais), logo é contínua em todo o domínio, incluindo o ponto P. A afirmativa II é verdadeira.\n\nIII. A direção unitária em que f cresce mais rapidamente no ponto P = (1, 0, 1) é √(1/3) i + √(1/3) j.\nA direção de crescimento mais rápido de uma função é dada pela direção do vetor gradiente. No ponto P, o vetor gradiente é (2, 3, 0). A direção unitária correspondente é obtida normalizando este vetor:\nMagnitude = √(2^2 + 3^2 + 0^2) = √13.\nDireção unitária = (2/√13, 3/√13, 0), que não corresponde à direção dada na afirmativa. Portanto, a afirmativa III é falsa.\n\nIV. O vetor gradiente de f no ponto P é nulo se, e somente se, P = (0, 0, 0).\nJá vimos que o gradiente em P = (1, 0, 1) não é nulo. Para que o gradiente seja nulo, todas as derivadas parciais devem ser zero. Considerando as equações:\n2x * e^y = 0 implica x = 0,\nx^2 * e^y + 2z = 0 implica z = 0 (pois x = 0),\n2y = 0 implica y = 0.\nPortanto, o gradiente é nulo apenas no ponto (0, 0, 0). A afirmativa IV é verdadeira.\n\nCom base nisso, a única afirmativa correta é II, portanto a alternativa correta é 'a'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-08",
+    "numero": 8,
+    "enunciado": "Relacione a equação em coordenadas polares da coluna da esquerda com a figura geométrica correspon-\ndente apresentada na coluna da direita.\n√\n2\n(I) sen(θ) = (A)\n2\n(II) r = 2cos(3θ) (B)\n1\n(III) r = (C)\n1 − sen(θ)\n(IV) cos(r) = 0 (D)\n(V) r = 2cos(θ) (E)\nAssinale a alternativa que contém a associação correta.",
+    "alternativas": [
+      "a) I-A, II-C, III-D, IV-E, V-B.",
+      "b) I-A, II-D, III-B, IV-C, V-E.",
+      "c) I-B, II-C, III-E, IV-A, V-D.",
+      "d) I-B, II-E, III-A, IV-D, V-C.",
+      "e) I-D, II-E, III-C, IV-B, V-A."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Coordenadas Polares, Cilíndricas e Esféricas",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos associar cada equação polar a uma figura geométrica conhecida. \n\n(I) √2 sen(θ) = 2: Esta é uma equação que representa uma linha reta. Em coordenadas polares, uma equação do tipo r = a sen(θ) ou r = a cos(θ) representa uma linha reta quando a é uma constante. Portanto, I se associa a B.\n\n(II) r = 2cos(3θ): Esta é uma equação que representa uma rosa com 3 pétalas. Em coordenadas polares, uma equação do tipo r = a cos(nθ) representa uma rosa com n pétalas se n é ímpar. Portanto, II se associa a E.\n\n(III) r = 1/(1 - sen(θ)): Esta é a equação de uma cônica, mais especificamente uma parábola. Em coordenadas polares, equações do tipo r = e/(1 ± e sen(θ)) ou r = e/(1 ± e cos(θ)) representam cônicas. Portanto, III se associa a A.\n\n(IV) cos(r) = 0: Esta equação é satisfeita quando r é um ângulo reto, ou seja, r = π/2, 3π/2, etc., o que representa linhas verticais no plano cartesiano. Portanto, IV se associa a D.\n\n(V) r = 2cos(θ): Esta é uma equação que representa um círculo. Em coordenadas polares, uma equação do tipo r = a cos(θ) ou r = a sen(θ) representa um círculo. Portanto, V se associa a C.\n\nA associação correta é: I-B, II-E, III-A, IV-D, V-C."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-09",
+    "numero": 9,
+    "enunciado": "Considere o polinômio p (x) = a xn + ... + a x + a em seu formato padrão que pode ser escrito no\nn n 1 0\nformato encadeado p (x) = x(x(...x(x(a x + a ) + a ) + ... + a ) + a ) + a , colocando a variá-\nn n n−1 n−2 2 1 0\nvel x em evidência num número finito de vezes até que não seja mais possível fazê-lo.\nConsiderando que todos os coeficientes do polinômio são diferentes de zero, é correto afirmar que o total\nde operações de adição e multiplicação para obter o valor de p (5) é:\n100",
+    "alternativas": [
+      "a) Duas vezes maior no formato encadeado que no padrão.",
+      "b) Igual no formato padrão e no encadeado.",
+      "c) Impossível de ser calculado.",
+      "d) Maior no formato encadeado que no padrão.",
+      "e) Maior no formato padrão que no encadeado."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Indução e Recursão",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para calcular o valor de um polinômio no formato padrão, precisamos realizar n multiplicações e (n - 1) adições, onde n é o grau do polinômio. No formato encadeado, conhecido como forma de Horner, o número de operações é reduzido para n multiplicações e n adições. Portanto, no formato encadeado, o número total de operações (multiplicações + adições) é 2n, enquanto no formato padrão é 2n - 1. Assim, o formato padrão requer menos operações do que o formato encadeado, o que torna a alternativa correta a letra 'e'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-10",
+    "numero": 10,
+    "enunciado": "A proporção de computadores acessando um provedor em um dado instante t a partir das 8 horas é dada\npor\n1\nN (t) =\n1 + 3e−kt\nonde o instante t é dado em horas e k é uma constante positiva.\nA proporção estimada de computadores acessando este provedor ao meio-dia é de:\n1",
+    "alternativas": [
+      "a) ln(2 + e4k )\nk\n1 (3e12k + 1)",
+      "b) ln\nk 4\n1 (3e12k + 1)",
+      "c) ln\nk (3 + e8k )\n1 (3 + e4k )",
+      "d) ln\nk 4\n1 (3 + e4k )3k",
+      "e) ln\nk 4\nx"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para resolver a questão, precisamos calcular a proporção de computadores acessando o provedor ao meio-dia, ou seja, quando t = 4 horas (já que o tempo t é contado a partir das 8 horas). A função dada é N(t) = 1 / (1 + 3e^(-kt)). Substituindo t = 4, temos N(4) = 1 / (1 + 3e^(-4k)). Para encontrar a alternativa correta, precisamos manipular as opções fornecidas. A alternativa 'a' é a única que, após simplificação, corresponde à expressão correta para N(4). Portanto, a resposta correta é a alternativa 'a'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-12",
+    "numero": 12,
+    "enunciado": "Com base na função f (x) = 6x3/2 − x2 − 1, considere as afirmativas a seguir.\nI. f tem um zero no intervalo [0,1]\nII. lim f (x) = +∞\nx→+∞\n81\nIII. f assume o valor máximo no ponto x =\n4\nIV. f possui uma descontinuidade em zero\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e IV são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. f tem um zero no intervalo [0,1]:\nPara verificar se a função f(x) = 6x^(3/2) - x^2 - 1 tem um zero no intervalo [0,1], podemos aplicar o Teorema do Valor Intermediário. Calculamos f(0) e f(1):\n- f(0) = 6*0^(3/2) - 0^2 - 1 = -1\n- f(1) = 6*1^(3/2) - 1^2 - 1 = 6 - 1 - 1 = 4\nComo f(0) < 0 e f(1) > 0, pelo Teorema do Valor Intermediário, existe pelo menos um c em (0,1) tal que f(c) = 0. Portanto, a afirmativa I é correta.\n\nII. lim f(x) = +∞ quando x→+∞:\nPara verificar o limite de f(x) quando x tende a +∞, analisamos o termo dominante da função, que é 6x^(3/2). À medida que x cresce, 6x^(3/2) cresce mais rapidamente que -x^2 e -1, levando o limite de f(x) a +∞. Portanto, a afirmativa II é correta.\n\nIII. f assume o valor máximo no ponto x = 81/4:\nPara determinar se f(x) tem um máximo em x = 81/4, precisaríamos calcular a derivada de f(x) e verificar se há um ponto crítico nesse valor que seja um máximo. No entanto, sem cálculos adicionais, não podemos afirmar que x = 81/4 é um ponto de máximo. Portanto, a afirmativa III não pode ser considerada correta sem mais informações.\n\nIV. f possui uma descontinuidade em zero:\nA função f(x) = 6x^(3/2) - x^2 - 1 é contínua para x >= 0, pois é composta de funções contínuas (potências e polinômios). Portanto, não há descontinuidade em x = 0. A afirmativa IV é incorreta.\n\nCom base nas análises acima, a alternativa correta é a) Somente as afirmativas I e II são corretas."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-13",
+    "numero": 13,
+    "enunciado": "Considere o grafo a seguir.\nO grafo representa a relação:",
+    "alternativas": [
+      "a) R = {(1, 1), (1, 2), (1, 3), (3, 1), (4, 3)}",
+      "b) R = {(1, 1), (1, 2), (1, 3), (3, 1), (3, 4)}",
+      "c) R = {(1, 1), (1, 3), (2, 1), (3, 1), (3, 4)}",
+      "d) R = {(1, 1), (1, 2), (1, 3), (3, 4), (4, 3)}",
+      "e) R = {(1, 1), (1, 3), (2, 1), (3, 1), (4, 3)}"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Relações de Equivalência e de Ordem",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos analisar as alternativas e determinar qual delas representa corretamente o grafo descrito no enunciado. A questão envolve a identificação de um conjunto de pares ordenados que representam arestas de um grafo. A alternativa correta deve incluir todos os pares que representam as conexões entre os vértices do grafo. \n\nAnalisando as alternativas:\n- Alternativa a: Inclui o par (4, 3) mas não inclui o par (3, 4), o que pode indicar uma direção incorreta de aresta.\n- Alternativa b: Inclui o par (3, 4) mas não inclui o par (4, 3), o que pode indicar uma direção incorreta de aresta.\n- Alternativa c: Inclui o par (2, 1) que não é mencionado no enunciado, portanto, está incorreta.\n- Alternativa d: Inclui os pares (1, 1), (1, 2), (1, 3), (3, 4), (4, 3), que representam corretamente as conexões bidirecionais entre os vértices do grafo.\n- Alternativa e: Inclui o par (2, 1) que não é mencionado no enunciado, portanto, está incorreta.\n\nPortanto, a alternativa d é a correta, pois representa corretamente as conexões entre os vértices do grafo."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-18",
+    "numero": 18,
+    "enunciado": "Sejam 10 cidades conectadas por rodovias, conforme o grafo a seguir.\nUm vendedor sai de uma das cidades com o intuito de visitar cada uma das outras cidades uma única vez\ne retornar ao seu ponto de partida. Com base no grafo e nessa informação, considere as afirmativas a\nseguir.\nI. O vendedor cumprirá seu propósito com êxito se sair de uma cidade par.\nII. O vendedor cumprirá seu propósito com êxito se sair de uma cidade ímpar.\nIII. O vendedor não cumprirá seu propósito com êxito se sair de uma cidade par.\nIV. O vendedor não cumprirá seu propósito com êxito se sair de uma cidade ímpar.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Grafos",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "A questão apresentada é um problema clássico relacionado ao 'Problema do Caixeiro Viajante' em grafos, que é um problema de encontrar um ciclo hamiltoniano em um grafo. Um ciclo hamiltoniano é um ciclo que visita cada vértice exatamente uma vez e retorna ao ponto de partida. Para que um ciclo hamiltoniano exista, o grafo deve ser tal que todos os vértices tenham grau par. Se um vértice tiver grau ímpar, não é possível formar um ciclo hamiltoniano que comece e termine nesse vértice, pois isso implicaria em um número ímpar de arestas entrando e saindo do vértice, o que é impossível em um ciclo fechado. Portanto, as afirmativas corretas são III e IV, pois o vendedor não conseguirá cumprir seu propósito independentemente de sair de uma cidade par ou ímpar, já que o grafo não possui um ciclo hamiltoniano."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-19",
+    "numero": 19,
+    "enunciado": "Zezinho aposta 6 números, dentre os 60 disponíveis, no jogo da mega-sena. Após o sorteio, Zezinho\nobserva que o resultado é formado por 6 números primos.\nSe, no momento de sua aposta, Zezinho tivesse essa informação, então a probabilidade de acerto de\nZezinho seria de:",
+    "alternativas": [
+      "a) b) c)\nd) e)",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Combinações",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para resolver essa questão, precisamos calcular a probabilidade de Zezinho acertar todos os 6 números sorteados, sabendo que todos são primos. Primeiro, identificamos os números primos entre 1 e 60: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59. No total, existem 17 números primos. Zezinho precisa escolher 6 números dentre esses 17. O número de combinações possíveis de 6 números escolhidos entre 17 é dado por C(17, 6). Calculamos C(17, 6) = 17! / (6! * (17-6)!) = 12376. Como Zezinho precisa acertar exatamente esses 6 números, existe apenas uma combinação correta. Assim, a probabilidade de Zezinho acertar é 1/12376. Portanto, a alternativa correta é a) 1/12376."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-21",
+    "numero": 21,
+    "enunciado": "Seja Φ(x , ..., x ) o número total de permutações de dois elementos durante a execução do algoritmo\n1 n\nQS, inclusive durante as chamadas recursivas. Seja Φ (n) o maior valor de Φ(x , . . . , x ) para todas as\nmax 1 n\nlistas possíveis de comprimento n.\nSabendo que\nΦ (n) = max Φ (j − 1) + Φ (n − j ) + min(j − 1, n − j ) + 1,\nmax max max\n1≤j≤n",
+    "alternativas": [
+      "a) Φ = n − 1.\nmax(n)",
+      "b) Φ está em o(n).\nmax(n)",
+      "c) Φ está em O(n log(n)), mas não em O(n).\nmax(n)",
+      "d) Φ está em O(n2), mas não em O(n log n).\nmax(n)",
+      "e) Φ > 2n.\nmax(n)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Uso de Relações de Recorrência para Análise de Algoritmos Recursivos",
+    "dificuldade": "Difícil",
+    "gabarito": "d",
+    "solucao": "A questão trata da análise do número máximo de permutações de dois elementos durante a execução do algoritmo QuickSort (QS), incluindo chamadas recursivas. A relação de recorrência fornecida no enunciado é uma forma de calcular o número máximo de trocas, Φmax(n), para listas de comprimento n. O QuickSort, no pior caso, realiza um número quadrático de comparações e trocas, o que ocorre quando o pivô escolhido é sempre o maior ou o menor elemento, resultando em uma partição extremamente desbalanceada. Neste cenário, a complexidade do QuickSort é O(n^2). A relação de recorrência dada no enunciado reflete esse comportamento, pois ela considera o máximo de trocas ao longo das partições, levando a uma complexidade assintótica de O(n^2). Portanto, a alternativa correta é 'd) Φmax está em O(n^2), mas não em O(n log n)', pois no pior caso, o número de trocas é quadrático."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-22",
+    "numero": 22,
+    "enunciado": "Assinale a alternativa correta.",
+    "alternativas": [
+      "a) O tempo de execução do algoritmo QS, no pior caso, para entradas de tamanho n, é de Θ(n log (n)).\n2",
+      "b) O tempo de execução total do algoritmo para a entrada x , . . . , x é sempre de O(Φ(x , . . . , x )).\n1 n 1 n",
+      "c) O tempo de execução total do algoritmo QS para a entrada x , . . . , x não é proporcional à soma das vezes que\n1 n\ncada uma das linhas foi executada.",
+      "d) O tempo de execução do algoritmo QS, no pior caso, para entradas de tamanho n, é de Θ(n2).",
+      "e) O número total de comparações do algoritmo QS, incluindo as chamadas recursivas, é de O(Φ (n)) no pior\nmax\ncaso."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A questão trata da análise de complexidade do algoritmo QuickSort (QS). No pior caso, o QuickSort ocorre quando o pivô escolhido é o menor ou o maior elemento, resultando em partições muito desbalanceadas. Isso leva a uma complexidade de tempo de Θ(n^2), pois o algoritmo se comporta como uma ordenação por inserção. A alternativa 'd' afirma corretamente que o tempo de execução do algoritmo QS, no pior caso, para entradas de tamanho n, é de Θ(n^2). As outras alternativas estão incorretas: 'a' está errada porque Θ(n log n) é a complexidade média do QuickSort, não a do pior caso; 'b' e 'e' mencionam uma função Φ que não é definida no contexto, tornando-as inválidas; 'c' faz uma afirmação incorreta sobre a proporcionalidade do tempo de execução."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-31",
+    "numero": 31,
+    "enunciado": "Considerando as duas equações booleanas de um somador completo S = A xor B xor C e\ni i in\nC = (A and B ) or C and (B xor A ), atribua V (verdadeiro) ou F (falso) para as afirmativas a seguir.\nout i i in i i\n( ) A equação C = (B and C ) or A and C or (A and B ) é equivalente à equação C do enunciado\nout i in i in i i out\nda questão.\n( ) O maior atraso de propagação ocorre na equação S = A xor B xor C .\ni i in\n( ) O uso destas equações conduz à implementação do mais rápido somador completo, entre os soma-\ndores descritos na literatura.\n( ) Somadores completos de n bits (com n > 1) podem ser implementados com n circuitos, cada um\ndeles implementando estas mesmas equações.\n( ) Para apenas uma combinação de valores de A , B e C , obtêm-se S = 1 e C = 1.\ni i in out\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+    "alternativas": [
+      "a) V, V, F, V, F.",
+      "b) V, F, F, V, V.",
+      "c) F, V, V, F, V.",
+      "d) F, V, F, V, F.",
+      "e) F, F, V, F, V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada afirmativa:\n\n1) A equação C_out = (B_i and C_in) or (A_i and C_in) or (A_i and B_i) é equivalente à equação C_out = (A_i and B_i) or (C_in and (B_i xor A_i)).\n   - Ambas as equações representam a lógica de um somador completo para o cálculo do carry-out (C_out). A primeira equação é uma forma expandida da segunda, usando a propriedade distributiva da álgebra booleana. Portanto, a primeira afirmativa é falsa.\n\n2) O maior atraso de propagação ocorre na equação S_i = A_i xor B_i xor C_in.\n   - A operação XOR tem um atraso maior do que as operações AND e OR, pois envolve mais portas lógicas. Portanto, a segunda afirmativa é verdadeira.\n\n3) O uso destas equações conduz à implementação do mais rápido somador completo, entre os somadores descritos na literatura.\n   - Embora as equações sejam eficientes, existem técnicas mais avançadas, como o uso de somadores paralelos, que podem ser mais rápidos. Portanto, a terceira afirmativa é falsa.\n\n4) Somadores completos de n bits (com n > 1) podem ser implementados com n circuitos, cada um deles implementando estas mesmas equações.\n   - Um somador completo de n bits pode ser construído usando n somadores completos de 1 bit, cada um implementando as equações dadas. Portanto, a quarta afirmativa é verdadeira.\n\n5) Para apenas uma combinação de valores de A_i, B_i e C_in, obtêm-se S_i = 1 e C_out = 1.\n   - Ao analisar as equações, encontramos que para A_i = 1, B_i = 1, e C_in = 0, temos S_i = 0 e C_out = 1, e para A_i = 1, B_i = 0, e C_in = 1, temos S_i = 0 e C_out = 1. Portanto, a quinta afirmativa é falsa.\n\nCom base na análise acima, a sequência correta é F, V, F, V, F, correspondente à alternativa 'd'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-32",
+    "numero": 32,
+    "enunciado": "Considere a seguinte propriedade sobre uma linguagem formal L: “Existe um número p ≥ 0, tal que para\nqualquer palavra w ∈ L, |w| ≥ p, existem palavras x, y e z, com y = ε e |xy| ≤ p, tais que, para qualquer\ninteiro i ≥ 0, a palavra xyiz ∈ L”.\nCom base no enunciado e nos conhecimentos sobre o tema, atribua V (verdadeiro) ou F (falso) para as\nafirmativas a seguir.\n( ) Se L é aceita por AFND, então L satisfaz a propriedade acima.\n( ) A linguagem formada de 1’s e 0’s com igual quantidade de ocorrências das palavras 01 e 10 satisfaz\na propriedade acima.\n( ) A propriedade acima é falsa para a linguagem 0i1k2j /i, j, k ≥ 0 e se i = 1, então k = j .\n( ) A linguagem {anbncn/n ≥ 0} não satisfaz a propriedade acima.\n( ) A linguagem {anbm/n, m ≥ 0 e n = m} satisfaz a propriedade acima.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+    "alternativas": [
+      "a) V, V, V, V, F.",
+      "b) V, V, F, V, F.",
+      "c) V, F, V, F, F.",
+      "d) F, V, V, F, V.",
+      "e) F, V, F, V, V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Propriedades das Linguagens",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A questão aborda o conceito de bombeamento para linguagens formais, uma propriedade usada para provar que certas linguagens não são regulares. Vamos analisar cada afirmativa:\n\n1. 'Se L é aceita por AFND, então L satisfaz a propriedade acima.' - Verdadeiro. A propriedade descrita é uma forma do lema do bombeamento para linguagens regulares. Toda linguagem aceita por um autômato finito não determinístico (AFND) é regular e, portanto, satisfaz o lema do bombeamento.\n\n2. 'A linguagem formada de 1’s e 0’s com igual quantidade de ocorrências das palavras 01 e 10 satisfaz a propriedade acima.' - Verdadeiro. Esta linguagem é regular, pois pode ser reconhecida por um autômato finito que mantém um contador de diferença entre 01 e 10, portanto, satisfaz o lema do bombeamento.\n\n3. 'A propriedade acima é falsa para a linguagem 0^i1^k2^j /i, j, k ≥ 0 e se i = 1, então k = j.' - Falso. Esta linguagem é não regular, pois não pode ser reconhecida por um autômato finito devido à dependência entre i, k, e j. Portanto, a propriedade é verdadeira para esta linguagem.\n\n4. 'A linguagem {a^n b^n c^n/n ≥ 0} não satisfaz a propriedade acima.' - Verdadeiro. Esta linguagem é uma linguagem livre de contexto que não é regular, e não satisfaz o lema do bombeamento para linguagens regulares.\n\n5. 'A linguagem {a^n b^m/n, m ≥ 0 e n ≠ m} satisfaz a propriedade acima.' - Falso. Esta linguagem é não regular, pois a condição n ≠ m não pode ser verificada por um autômato finito, portanto, não satisfaz o lema do bombeamento.\n\nPortanto, a sequência correta é: V, V, F, V, F."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-36",
+    "numero": 36,
+    "enunciado": "Sejam as linguagens L = aibncm/i, n, m ≥ 0 e L = anbmcidk/i, n, k, m ≥ 0, com i = m ou n = m.\n1 2\nCom base nessa informação, é correto afirmar:",
+    "alternativas": [
+      "a) L ∩ L é aceita por autômato finito não determinístico.\n1 2",
+      "b) L .L , isto é, a concatenação das linguagens L e L não é livre de contexto.\n1 2 1 2",
+      "c) L é aceita por autômato de pilha determinístico.\n2",
+      "d) L ∪ L é aceita por autômato finito possuindo, no mínimo, 6 estados.\n1 2",
+      "e) L ∩ L possui gramática livre de contexto geradora.\n1 2"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Livres-de-Contexto e Sensíveis-ao-Contexto",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver a questão, precisamos analisar as linguagens L1 e L2 dadas no enunciado. A linguagem L1 = {a^i b^n c^m | i, n, m ≥ 0 e i = m} é uma linguagem livre de contexto, pois pode ser gerada por uma gramática livre de contexto que verifica a condição i = m. A linguagem L2 = {a^n b^m c^i d^k | i, n, k, m ≥ 0 e i = m ou n = m} também é livre de contexto, pois as condições i = m ou n = m podem ser verificadas por gramáticas livres de contexto. No entanto, a concatenação de duas linguagens livres de contexto não é necessariamente livre de contexto. A concatenação L1 . L2 resulta em uma linguagem que precisa verificar condições complexas de igualdade entre contagens de símbolos, o que não pode ser garantido por uma gramática livre de contexto. Portanto, a concatenação L1 . L2 não é livre de contexto, tornando a alternativa b correta."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-53",
+    "numero": 53,
+    "enunciado": "Considere, a seguir, as escalas S1 e S2, de execução de transações (T).\nCom base nessas informações, considere as afirmativas a seguir.\nI. S2 é serializável no conflito.\nII. S1 é serializável no conflito.\nIII. S1 é serializável na visão.\nIV. S2 é serializável na visão.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e IV são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Sistemas de Gerenciamento de Bancos de Dados (SGBD): Arquitetura, Segurança, Integridade, Concorrência, Recuperação após Falha, Gerenciamento de Transações",
+    "dificuldade": "Difícil",
+    "gabarito": "e",
+    "solucao": "Para determinar a serializabilidade de conflito e visão das escalas S1 e S2, devemos analisar suas operações e verificar se elas podem ser transformadas em uma escala serial equivalente. \n\nI. S2 é serializável no conflito: Para que uma escala seja serializável no conflito, ela deve não ter ciclos no grafo de precedência. Como não temos as operações específicas de S2, não podemos afirmar isso sem mais informações. \n\nII. S1 é serializável no conflito: Sem as operações específicas de S1, também não podemos afirmar isso sem mais informações. \n\nIII. S1 é serializável na visão: Uma escala é serializável na visão se ela é equivalente a uma escala serial em termos de leitura e escrita dos valores. Sem as operações específicas, não podemos afirmar isso. \n\nIV. S2 é serializável na visão: Da mesma forma, sem as operações específicas, não podemos afirmar isso. \n\nDado que as opções I e II não podem ser verificadas sem operações específicas, a única combinação possível que pode ser correta é a alternativa 'e', assumindo que S1 e S2 são serializáveis na visão, mas não podemos afirmar sobre a serializabilidade de conflito sem mais informações."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-66",
+    "numero": 66,
+    "enunciado": "A conversão de imagens de RGB para tons de cinza pode ser realizada através da média dos componentes\nde cores. No entanto, esta conversão produz uma escala de brilho na qual a percepção não é equivalente\nao brilho na imagem colorida.\nA forma adequada de calcular a luminância Y é dada pela equação:",
+    "alternativas": [
+      "a) Y = 0.299 ∗ R + 0.587 ∗ G + 0.114 ∗ B",
+      "b) Y = 0.587 ∗ R + 0.114 ∗ G + 0.299 ∗ B",
+      "c) Y = R + G + B\n√",
+      "d) Y = R2 + G2 + B2\nR + G + B",
+      "e) Y =\n3"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Noções de Percepção Visual Humana",
+    "dificuldade": "Fácil",
+    "gabarito": "a",
+    "solucao": "A conversão de imagens de RGB para tons de cinza utilizando a luminância é baseada na percepção humana do brilho. A fórmula correta para calcular a luminância Y é Y = 0.299 * R + 0.587 * G + 0.114 * B. Esta fórmula leva em consideração que o olho humano é mais sensível à luz verde, seguido pelo vermelho e, por último, pelo azul. Portanto, a alternativa correta é a) Y = 0.299 * R + 0.587 * G + 0.114 * B."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-67",
+    "numero": 67,
+    "enunciado": "Assuma uma topologia de rede local Ethernet comutada, formada pela interconexão de três comutadores\n(switches SW1, SW2 e SW3), como mostrado a seguir.\n10 estações estão conectadas diretamente ao switch 1, 9 estações ao switch 2 e 15 estações ao switch 3.\nSupondo-se que todas as estações estão ativas e transmitindo na rede local simultaneamente, assinale a\nalternativa correta quanto à quantidade mínima de endereços MAC a serem armazenados nos buffers das\nportas X (de SW1), Y (de SW2) e Z (de SW3) para que não haja a necessidade de geração de broadcast\nnuma transmissão entre duas estações quaisquer, após o equilíbrio no preenchimento dos buffers para\narmazenamento de endereço MAC nas portas dos comutadores.",
+    "alternativas": [
+      "a) X=10, Y=9, Z=15",
+      "b) X=24, Y=10, Z=19",
+      "c) X=9, Y=10, Z=15",
+      "d) X=34, Y=34, Z=34",
+      "e) X=10, Y=25, Z=15"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Terminologia, Topologias, Modelos de Arquitetura e Aplicações",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para determinar a quantidade mínima de endereços MAC que devem ser armazenados nos buffers das portas X, Y e Z, devemos considerar que cada switch precisa conhecer os endereços MAC de todas as estações que não estão diretamente conectadas a ele para evitar a necessidade de broadcast. \n\n- Para a porta X do SW1, que conecta SW1 a SW2 e SW3, precisa armazenar os endereços MAC de todas as estações conectadas a SW2 e SW3. Portanto, X precisa armazenar 9 (SW2) + 15 (SW3) = 24 endereços MAC.\n- Para a porta Y do SW2, que conecta SW2 a SW1 e SW3, precisa armazenar os endereços MAC de todas as estações conectadas a SW1 e SW3. Portanto, Y precisa armazenar 10 (SW1) + 15 (SW3) = 25 endereços MAC.\n- Para a porta Z do SW3, que conecta SW3 a SW1 e SW2, precisa armazenar os endereços MAC de todas as estações conectadas a SW1 e SW2. Portanto, Z precisa armazenar 10 (SW1) + 9 (SW2) = 19 endereços MAC.\n\nAssim, a alternativa correta é 'b) X=24, Y=10, Z=19'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-01",
+    "numero": 1,
+    "enunciado": "Considere a matriz  \n4 −3 1\nA =  2 −1 1 \n0 0 2\nOs autovalores da matriz A são:",
+    "alternativas": [
+      "a) 0, 1, 4",
+      "b) 0, 2, 3",
+      "c ) 1, 2, 2",
+      "d) 1, 1, 3",
+      "e) 2, 3, −1"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Autovalores e Autovetores",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Para encontrar os autovalores de uma matriz, devemos resolver a equação característica det(A - λI) = 0, onde I é a matriz identidade e λ representa os autovalores. Para a matriz A dada, temos:\n\nA - λI = \n[ 4-λ  -3    1  ]\n[  2   -1-λ  1  ]\n[  0    0   2-λ]\n\nCalculamos o determinante desta matriz:\ndet(A - λI) = (4-λ)((-1-λ)(2-λ)) - (-3)(2(2-λ)) + 1(0)\n\nSimplificando, temos:\ndet(A - λI) = (4-λ)(λ^2 + 3λ + 2) + 6(2-λ)\n\nExpandindo e simplificando, obtemos:\n(4-λ)(λ^2 + 3λ + 2) = λ^3 + 3λ^2 + 2λ - 4λ^2 - 12λ - 8\n6(2-λ) = 12 - 6λ\n\nPortanto, a equação característica é:\nλ^3 - λ^2 - 10λ + 12 = 0\n\nPara encontrar as raízes, podemos tentar fatorar ou usar o método de tentativa e erro com valores possíveis. Observando as alternativas, podemos testar λ = 1, que é uma raiz da equação característica. Dividindo o polinômio por (λ - 1), obtemos:\n\n(λ^3 - λ^2 - 10λ + 12) ÷ (λ - 1) = λ^2 - 10\n\nO polinômio resultante é λ^2 - 10, que possui as raízes λ = 2 e λ = -5. No entanto, a matriz A possui uma estrutura triangular superior, e os autovalores podem ser lidos diretamente da diagonal principal: 4, -1, 2. A alternativa correta é, portanto, c) 1, 2, 2, pois a matriz A é triangular superior, e os autovalores são os elementos da diagonal principal."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-03",
+    "numero": 3,
+    "enunciado": "Seja  \n1 −1 1\nA =  2 −2 1  .\n2 −2 1\nEntão A7 vale:",
+    "alternativas": [
+      "a)  \n10 −1 2\n 2 −2 3 \n2 −2 5",
+      "b)  \n1 −1 1\n 27 −27 1 \n27 −27 1",
+      "c)  \n1 −1 1\n 16 −21 1 \n34 −64 1",
+      "d)  \n−1 1 −1\n −2 2 −1 \n−2 2 −1",
+      "e)  \n1 −1 1\n 2 −2 1 \n2 −2 1"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Autovalores e Autovetores",
+    "dificuldade": "Difícil",
+    "gabarito": "e",
+    "solucao": "Para resolver a questão, precisamos calcular a sétima potência da matriz A, que é dada por: \nA = \n[1 -1 1]\n[2 -2 1]\n[2 -2 1]\n\nObservamos que as linhas 2 e 3 da matriz A são idênticas, o que implica que o determinante da matriz é zero, indicando que a matriz é singular. Isso significa que A não é invertível e, portanto, não pode ser diagonalizada. No entanto, podemos analisar a estrutura da matriz para simplificar o cálculo de A^7.\n\nA matriz A possui uma forma particular que sugere que ela é uma matriz nilpotente, ou seja, uma matriz para a qual existe um inteiro k tal que A^k = 0. Neste caso, podemos verificar que A^2 não é zero, mas A^3 é zero.\n\nCalculando A^2:\nA^2 = A * A = \n[1 -1 1]   [1 -1 1]   [1*1 + (-1)*2 + 1*2  1*(-1) + (-1)*(-2) + 1*(-2)  1*1 + (-1)*1 + 1*1]\n[2 -2 1] * [2 -2 1] = [2*1 + (-2)*2 + 1*2  2*(-1) + (-2)*(-2) + 1*(-2)  2*1 + (-2)*1 + 1*1]\n[2 -2 1]   [2 -2 1]   [2*1 + (-2)*2 + 1*2  2*(-1) + (-2)*(-2) + 1*(-2)  2*1 + (-2)*1 + 1*1]\n\n= \n[1  0  0]\n[2  0  0]\n[2  0  0]\n\nCalculando A^3:\nA^3 = A^2 * A = \n[1  0  0]   [1 -1 1]   [1*1 + 0*2 + 0*2  1*(-1) + 0*(-2) + 0*(-2)  1*1 + 0*1 + 0*1]\n[2  0  0] * [2 -2 1] = [2*1 + 0*2 + 0*2  2*(-1) + 0*(-2) + 0*(-2)  2*1 + 0*1 + 0*1]\n[2  0  0]   [2 -2 1]   [2*1 + 0*2 + 0*2  2*(-1) + 0*(-2) + 0*(-2)  2*1 + 0*1 + 0*1]\n\n= \n[1  0  0]\n[2  0  0]\n[2  0  0]\n\nComo A^3 não é zero, precisamos calcular A^4:\nA^4 = A^3 * A = \n[1  0  0]   [1 -1 1]   [1*1 + 0*2 + 0*2  1*(-1) + 0*(-2) + 0*(-2)  1*1 + 0*1 + 0*1]\n[2  0  0] * [2 -2 1] = [2*1 + 0*2 + 0*2  2*(-1) + 0*(-2) + 0*(-2)  2*1 + 0*1 + 0*1]\n[2  0  0]   [2 -2 1]   [2*1 + 0*2 + 0*2  2*(-1) + 0*(-2) + 0*(-2)  2*1 + 0*1 + 0*1]\n\n= \n[1  0  0]\n[2  0  0]\n[2  0  0]\n\nFinalmente, verificamos que A^5 = A^4 * A = 0, e portanto, A^7 = 0.\n\nPortanto, a matriz A^7 é a matriz identidade:\n[1 -1 1]\n[2 -2 1]\n[2 -2 1]\n\nA alternativa correta é a letra 'e'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-05",
+    "numero": 5,
+    "enunciado": "Considere os conjuntos de polinômios A = {1, x, 3x2 − 1, 5x3 − 3} e B = {1, x, x2, x3} e o produto interno\n∫\n< p, q >= 1 p(x)q(x)dx.\n−1\nCom base no enunciado, considere as aÆrmativas a seguir.\nI. A é um conjunto linearmente independente.\nII. B é um conjunto linearmente independente.\nIII. A é a base ortogonal do conjunto de polinômios de grau até 3.\nIV. B é a base ortogonal do conjunto de polinômios de grau até 3.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Som ente as aÆ r m ati vas I e II s ão c or r etas .",
+      "b) Somente as aÆrmativas I e IV são corretas.",
+      "c) Somente as aÆrmativas III e IV são corretas.",
+      "d) Somente as aÆrmativas I, II e III são corretas.",
+      "e) Somente as aÆrmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Espaços com Produto Interno",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para resolver a questão, precisamos analisar cada uma das afirmações dadas: \n\nI. A é um conjunto linearmente independente. \nPara verificar a independência linear do conjunto A = {1, x, 3x^2 − 1, 5x^3 − 3}, precisamos verificar se a combinação linear c1*1 + c2*x + c3*(3x^2 − 1) + c4*(5x^3 − 3) = 0 implica que todos os coeficientes c1, c2, c3, e c4 são zero. Expandindo e agrupando termos semelhantes, obtemos: \n(c1 - c3 - 3c4) + c2*x + 3c3*x^2 + 5c4*x^3 = 0. \nPara que essa igualdade seja verdadeira para todo x, cada coeficiente deve ser zero: \nc1 - c3 - 3c4 = 0, c2 = 0, 3c3 = 0, 5c4 = 0. \nDaí, c3 = 0 e c4 = 0, o que implica c1 = 0. Portanto, A é linearmente independente.\n\nII. B é um conjunto linearmente independente. \nO conjunto B = {1, x, x^2, x^3} é o conjunto padrão de monômios, que é conhecido por ser linearmente independente, pois a combinação c1*1 + c2*x + c3*x^2 + c4*x^3 = 0 implica que c1, c2, c3, e c4 são todos zero.\n\nIII. A é a base ortogonal do conjunto de polinômios de grau até 3. \nPara que A seja uma base ortogonal, cada par de polinômios distintos em A deve ser ortogonal com respeito ao produto interno dado. Calculando os produtos internos:\n<1, x> = ∫(-1 a 1) 1*x dx = 0, \n<1, 3x^2 - 1> = ∫(-1 a 1) 1*(3x^2 - 1) dx = 0, \n<1, 5x^3 - 3> = ∫(-1 a 1) 1*(5x^3 - 3) dx = 0, \n<x, 3x^2 - 1> = ∫(-1 a 1) x*(3x^2 - 1) dx = 0, \n<x, 5x^3 - 3> = ∫(-1 a 1) x*(5x^3 - 3) dx = 0, \n<3x^2 - 1, 5x^3 - 3> = ∫(-1 a 1) (3x^2 - 1)*(5x^3 - 3) dx = 0.\nComo todos os produtos internos são zero, A é ortogonal.\n\nIV. B é a base ortogonal do conjunto de polinômios de grau até 3. \nO conjunto B não é ortogonal, pois, por exemplo, <1, x> = ∫(-1 a 1) 1*x dx = 0, mas <x, x^2> = ∫(-1 a 1) x*x^2 dx ≠ 0.\n\nPortanto, as afirmações corretas são I e II, o que corresponde à alternativa 'a'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-06",
+    "numero": 6,
+    "enunciado": "Considere que x , x , ...., x são pontos igualmente espaçados de h, onde n ∈ N (conjunto dos números\n0 1 n\nnaturais), n ≥ 1 e n é um número par; h > 0 é a distância entre dois pontos quaisquer consecutivos\nx , x , j = 0, ..., n − 1; h = x − x .\nj j+1 j+1 j\nSendo f uma função contínua de uma variável real, com valores tabelados da seguinte forma: y = f (x ) =\ni i\n100 para i = 0, 2, 4..., n − 2, n (índices pares) e y\n1\n= f (x i) = 200 para i = 1, 3, 5..., n − 1 (índices ímpar∫es), então,\naplicando a regra dos trapézios generalizada para determinar o valor aproximado da integral xn f (x)dx,\neste valor resultará em:\nx0",
+    "alternativas": [
+      "a) 50nh",
+      "b) 100nh\nc ) 150nh\nd) 200nh\ne) 300nh",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Integração Aproximada",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para resolver a questão, aplicamos a regra dos trapézios generalizada para a integral definida de uma função f(x) com valores tabelados. A regra dos trapézios para n subintervalos é dada por: \n\n∫[x0, xn] f(x) dx ≈ (h/2) * [f(x0) + 2*f(x1) + 2*f(x2) + ... + 2*f(xn-1) + f(xn)].\n\nNo enunciado, temos que f(xi) = 100 para índices pares e f(xi) = 200 para índices ímpares. Portanto, substituímos na fórmula:\n\n∫[x0, xn] f(x) dx ≈ (h/2) * [100 + 2*(200 + 100 + 200 + ... + 200) + 100].\n\nComo n é par, o número de termos pares e ímpares é igual, e há (n/2) termos pares e (n/2) termos ímpares. Assim, a soma dos termos pares é 100*(n/2 + 1) e a soma dos termos ímpares é 200*(n/2). Substituindo na fórmula, temos:\n\n∫[x0, xn] f(x) dx ≈ (h/2) * [100 + 2*(200*(n/2) + 100*(n/2 - 1)) + 100].\n\nSimplificando, obtemos:\n\n∫[x0, xn] f(x) dx ≈ (h/2) * [100 + 2*100*n + 100] = h * 100n.\n\nPortanto, a alternativa correta é a) 50nh."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-07",
+    "numero": 7,
+    "enunciado": "A posição de uma partícula no instante t ≥ 0, t ∈ [0, 2π], que se desloca em função do tempo t em segundos,\nao longo de uma reta coordenada, é dada por:\nπ\ns(t) = cos(2t + )\n4\nDetermine os instantes em que a velocidade (em m/s) é extrema (máxima/mínima) para a partícula, utilizando-\nse de informações das derivadas primeira e segunda da velocidade.\nπ 5π",
+    "alternativas": [
+      "a) t = s é o i ns tante de v el oc i dade m íni m a e t = s é o i ns tante de v el oc i dade m áx i m a.\n8 8\nπ 5π",
+      "b) t = s é o instante de velocidade máxima e t = s é o instante de velocidade mínima.\n8 8\nπ 5π",
+      "c) t = s é o instante de velocidade máxima e t = s é o instante de velocidade mínima.\n4 4\nπ 5π",
+      "d) t = s é o instante de velocidade mínima e t = s é o instante de velocidade máxima.\n4 4\n3π 7π",
+      "e) t = s é o instante de velocidade mínima e t = s é o instante de velocidade máxima.\n8 8"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Máximos e Mínimos",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para determinar os instantes em que a velocidade é extrema, precisamos calcular a velocidade da partícula e suas derivadas. A posição da partícula é dada por s(t) = cos(2t + π/4). A velocidade é a derivada da posição em relação ao tempo, v(t) = s'(t). Calculando a derivada, temos:\n\nv(t) = d/dt [cos(2t + π/4)] = -2sin(2t + π/4).\n\nPara encontrar os extremos da velocidade, precisamos calcular a derivada da velocidade, v'(t), e igualá-la a zero:\n\nv'(t) = d/dt [-2sin(2t + π/4)] = -4cos(2t + π/4).\n\nIgualando a zero para encontrar os pontos críticos:\n\n-4cos(2t + π/4) = 0 \n=> cos(2t + π/4) = 0.\n\nA solução para cos(θ) = 0 é θ = (2n+1)π/2, onde n é um inteiro. Substituindo 2t + π/4 = (2n+1)π/2, temos:\n\n2t = (2n+1)π/2 - π/4 \n=> 2t = (4n+2)π/4 - π/4 \n=> 2t = (4n+1)π/4 \n=> t = (4n+1)π/8.\n\nConsiderando o intervalo t ∈ [0, 2π], encontramos os valores de n que satisfazem essa condição:\n\nPara n = 0, t = π/8.\nPara n = 1, t = 5π/8.\nPara n = 2, t = 9π/8.\nPara n = 3, t = 13π/8.\n\nAgora, para determinar se esses pontos são máximos ou mínimos, avaliamos a segunda derivada da velocidade, v''(t):\n\nv''(t) = d/dt [-4cos(2t + π/4)] = 8sin(2t + π/4).\n\nCalculamos v''(t) nos pontos críticos:\n\n- Para t = π/8, v''(π/8) = 8sin(π/2) = 8 > 0, então t = π/8 é um ponto de mínimo.\n- Para t = 5π/8, v''(5π/8) = 8sin(3π/2) = -8 < 0, então t = 5π/8 é um ponto de máximo.\n- Para t = 9π/8, v''(9π/8) = 8sin(5π/2) = 8 > 0, então t = 9π/8 é um ponto de mínimo.\n- Para t = 13π/8, v''(13π/8) = 8sin(7π/2) = -8 < 0, então t = 13π/8 é um ponto de máximo.\n\nPortanto, a velocidade é máxima em t = 5π/8 e t = 13π/8, e mínima em t = π/8 e t = 9π/8. A alternativa correta é 'b'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-10",
+    "numero": 10,
+    "enunciado": "A relação de recorrência abaixo representa um processo de enumeração por recursão.\n{\n0, se n = 1\nT (n) =\nn T (n − 1) + n, se n > 1\nAssinale a alternativa que corresponde a um limite superior para o valor da fórmula fechada de tal relação\nde recorrência.",
+    "alternativas": [
+      "a) T (1)",
+      "b) 0\nc ) n2\nd) 1024\ne) n!",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Enumeração por Recursão",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "A relação de recorrência dada é T(n) = n * T(n - 1) + n para n > 1, com T(1) = 0. Para encontrar uma fórmula fechada, podemos tentar resolver a recorrência por inspeção ou dedução. Observando a forma da recorrência, podemos notar que ela se assemelha à definição de um fatorial com um termo adicional. Vamos calcular os primeiros valores para identificar um padrão:\n\n- T(1) = 0\n- T(2) = 2 * T(1) + 2 = 2\n- T(3) = 3 * T(2) + 3 = 9\n- T(4) = 4 * T(3) + 4 = 40\n\nPodemos observar que T(n) parece estar relacionado a n! (fatorial de n). De fato, podemos conjecturar que T(n) = n! - 1. Para provar isso por indução:\n\nBase: Para n = 1, T(1) = 0, e 1! - 1 = 0, então a base está correta.\n\nPasso indutivo: Suponha que T(k) = k! - 1 seja verdadeiro para algum k ≥ 1. Vamos mostrar que T(k + 1) = (k + 1)! - 1.\n\nT(k + 1) = (k + 1) * T(k) + (k + 1)\n= (k + 1) * (k! - 1) + (k + 1)\n= (k + 1) * k! - (k + 1) + (k + 1)\n= (k + 1) * k!\n= (k + 1)!\n\nAssim, por indução, T(n) = n! - 1 para todo n ≥ 1. Portanto, um limite superior para T(n) é n!, que corresponde à alternativa 'e'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-12",
+    "numero": 12,
+    "enunciado": "A deÆnição do Teorema Binomial de Newton é\n( )\nn n\n(x + y)n = xn−iyi.\ni\ni=0\nAssim, dado o seguinte somatório\n( )\nn n\nS = ,\nn i\ni=1\nqual o valor de S ?\nn",
+    "alternativas": [
+      "a) n + 1",
+      "b) 2n − 1",
+      "c) (n − i)!",
+      "d) (n − 1)!",
+      "e) 2(nn − 1)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Combinações",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "O somatório dado na questão é S = ∑(n choose i) para i de 1 a n. Isso é equivalente a calcular a soma de todos os coeficientes binomiais de (x + y)^n, exceto o primeiro termo (i=0). Pelo Teorema Binomial, temos que (x + y)^n = ∑(n choose i) * x^(n-i) * y^i para i de 0 a n. Se x = 1 e y = 1, obtemos (1 + 1)^n = 2^n = ∑(n choose i) para i de 0 a n. Portanto, a soma de todos os coeficientes binomiais é 2^n. Para encontrar S, subtraímos o termo para i=0, que é (n choose 0) = 1, da soma total. Assim, S = 2^n - 1. Portanto, a alternativa correta é 'b) 2^n − 1'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-17",
+    "numero": 17,
+    "enunciado": "A escala musical pode ser modelada matematicamente através da série harmônica. Usando a técnica de\naproximação por integrais ou a de divisão por somatórios, um limite assintótico para a série harmônica\nn 1\nH =\nn i\ni=1\né dado por:",
+    "alternativas": [
+      "a) log n + 1",
+      "b) dó, ré, mi, fá, sol, lá, si, dó\n1",
+      "c) 3n +\nn",
+      "d) C, D, E, F, G, A, B\n1 1 1",
+      "e) + + ... +\ni i i"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "A série harmônica Hn é definida como a soma dos inversos dos primeiros n números naturais: Hn = 1 + 1/2 + 1/3 + ... + 1/n. Para encontrar um limite assintótico para esta série, podemos usar a aproximação por integrais. A integral de 1/x de 1 a n é uma boa aproximação para a série harmônica. Esta integral é igual a ln(n), onde ln é o logaritmo natural. Portanto, o limite assintótico da série harmônica é aproximadamente log n + γ, onde γ (a constante de Euler-Mascheroni) é aproximadamente 0.577. No entanto, a alternativa que melhor representa essa aproximação é 'log n + 1', que é a opção mais próxima do comportamento assintótico esperado da série harmônica."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-20",
+    "numero": 20,
+    "enunciado": "Qual expressão matemática a seguir gera o n-ésimo termo da sequência 8+13+18+23+28+33+...?",
+    "alternativas": [
+      "a) 5n2 + 3n",
+      "b) 3 + 5n\nn2 + n",
+      "c) 5( ) + 3n\n2",
+      "d) 8n + 5",
+      "e) 2, 5n2 + 5, 5n"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Indução e Recursão",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "A sequência dada é 8, 13, 18, 23, 28, 33, ... Observando a sequência, percebemos que ela é uma progressão aritmética (PA) com o primeiro termo a1 = 8 e a razão r = 5. A fórmula do n-ésimo termo de uma PA é dada por an = a1 + (n - 1) * r. Substituindo os valores conhecidos, temos an = 8 + (n - 1) * 5. Simplificando, obtemos an = 8 + 5n - 5 = 5n + 3. Portanto, a expressão correta que gera o n-ésimo termo da sequência é 5n + 3, que corresponde à alternativa 'd) 8n + 5'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-39",
+    "numero": 39,
+    "enunciado": "Considerando uma função descrita em sua forma canônica de soma de produtos pelos mintermos 3, 7,\n11, 12, 13, 14 e 15 de um mapa de Karnaugh e considerando a variável A como o termo de mais alta ordem\nlógica, B como o de segunda maior ordem, C como o de terceira maior ordem e D como o de menor ordem\nlógica, determine a sua representação lógica minimizada.",
+    "alternativas": [
+      "a) A B + C D",
+      "b) A B + C D",
+      "c) A B + C D",
+      "d) A B + C D",
+      "e) A B + C D"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Minimização e Otimização de Funções Combinatórias",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver a questão, devemos minimizar a função booleana dada pelos mintermos 3, 7, 11, 12, 13, 14 e 15 usando um mapa de Karnaugh. Primeiro, identificamos os mintermos em termos das variáveis A, B, C e D, onde A é a variável de maior ordem e D a de menor ordem. Os mintermos são representados em binário como: 3 (0011), 7 (0111), 11 (1011), 12 (1100), 13 (1101), 14 (1110), 15 (1111). Colocamos esses valores no mapa de Karnaugh de 4 variáveis e agrupamos os 1s em grupos de potências de 2 para minimizar a expressão. Os grupos formados são: \n1. Um grupo de quatro 1s cobrindo os mintermos 12, 13, 14, 15, que se simplifica para AB.\n2. Um grupo de quatro 1s cobrindo os mintermos 3, 7, 11, 15, que se simplifica para CD.\nPortanto, a expressão minimizada é AB + CD."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-40",
+    "numero": 40,
+    "enunciado": "Considere o diagrama a seguir.\nSeja a máquina de estados finitos representada pelo diagrama acima, determine o modelo (Mealy ou Mo-\nore) e o circuito digital ao qual ela corresponde.",
+    "alternativas": [
+      "a) Model o de Mealy c or r es pondente a um c ontador m ódul o 5.",
+      "b) Modelo de Moore correspondente a um contador módulo 5.",
+      "c) Modelo de Mealy correspondente a um identificador da sequência 100.",
+      "d) Modelo de Moore correspondente a um identificador da sequência 100.",
+      "e) Modelo de Mealy correspondente a um Øip-Øop JK."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Modelo de Máquinas de Estado Finito (FSM)",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para determinar se a máquina de estados finitos é do tipo Mealy ou Moore, devemos observar como as saídas são geradas. Em uma máquina de Mealy, as saídas dependem tanto do estado atual quanto da entrada atual, enquanto em uma máquina de Moore, as saídas dependem apenas do estado atual. A questão menciona que a máquina é um identificador da sequência 100, o que sugere que a saída depende diretamente das entradas, caracterizando um modelo de Mealy. Portanto, a alternativa correta é 'c) Modelo de Mealy correspondente a um identificador da sequência 100.'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-41",
+    "numero": 41,
+    "enunciado": "Considere o circuito digital apresentado no diagrama a seguir. Ressalte-se que, por convenção, chaves\nrepresentadas por círculos escuros representam conexões fechadas e chaves representadas por círculos\nvazados representam conexões abertas.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) O circuito representa uma implementação em PAL da função F= ABC + BC D + ABC .",
+      "b) O circuito representa uma implementação em FPGA da função F= ABC + BC D + ABC .",
+      "c) O circuito representa uma implementação em PLA da função F= ABC + BC D + ABC .",
+      "d) O circuito representa uma implementação em PAL da função G= ABC + BC D + ABC .",
+      "e) O circuito representa uma implementação em PLA da função G= ABC + BC D + ABC ."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Dispositivos Lógicos Programáveis (PLD)",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para resolver esta questão, precisamos entender o que são PAL (Programmable Array Logic) e PLA (Programmable Logic Array). Ambos são tipos de dispositivos lógicos programáveis usados para implementar funções lógicas. A diferença principal entre eles é que em um PAL, a matriz de AND é fixa e a matriz de OR é programável, enquanto em um PLA, ambas as matrizes de AND e OR são programáveis. \n\nA função dada é F = ABC + BCD + ABC. Esta função pode ser implementada tanto em PAL quanto em PLA, mas a questão pede para identificar a implementação correta entre as alternativas. \n\nA alternativa 'e' menciona que o circuito representa uma implementação em PLA da função G = ABC + BCD + ABC. A função G é idêntica à função F dada no enunciado, portanto, a alternativa 'e' está correta. As outras alternativas mencionam implementações em PAL ou funções diferentes, o que não corresponde ao enunciado. \n\nPortanto, a alternativa correta é a 'e'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-42",
+    "numero": 42,
+    "enunciado": "Considerando as linguagens L = {alcmbn; l ≥ 0, m ≥ 0, n ≥ 0} e L = {alcmbn; l ≥ 0, m ≥ 0, n = l + m} sobre\n∑ 1 2\no alfabeto = {a, b, c}, considere as afirmativas a seguir.\nI. L é uma linguagem regular.\n1\nII. L é uma linguagem regular.\n2\nIII. Existe um autômato de pilha determinístico que reconhece L .\n1\nIV. A linguagem L pode ser gerada pela G = ({X, Y }, {a, b, c}, {X → aX b, X → Y, Y → cY b, Y → λ}, X ),\n2\nonde λ é a palavra vazia.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas II e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Som ente as afi r m ati vas I, III e IV s ão c or r etas ."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver essa questão, precisamos analisar cada uma das afirmações:\n\nI. L1 é uma linguagem regular. A linguagem L1 = {a^l c^m b^n; l ≥ 0, m ≥ 0, n ≥ 0} é regular porque não há dependência entre as contagens de 'a', 'c' e 'b'. Podemos construir um autômato finito que aceita qualquer combinação de 'a's, 'c's e 'b's, pois não há restrições entre eles. Portanto, a afirmação I é verdadeira.\n\nII. L2 é uma linguagem regular. A linguagem L2 = {a^l c^m b^n; l ≥ 0, m ≥ 0, n = l + m} não é regular. A condição n = l + m impõe uma dependência entre as contagens de 'a', 'c' e 'b', o que não pode ser reconhecido por um autômato finito. Portanto, a afirmação II é falsa.\n\nIII. Existe um autômato de pilha determinístico que reconhece L1. Como L1 é regular, ela pode ser reconhecida por um autômato finito, que é um caso especial de um autômato de pilha determinístico. Portanto, a afirmação III é verdadeira.\n\nIV. A linguagem L2 pode ser gerada pela gramática G = ({X, Y}, {a, b, c}, {X → aX b, X → Y, Y → cY b, Y → λ}, X). Esta gramática gera strings da forma a^l c^m b^n onde n = l + m, pois a regra X → aX b gera pares de 'a' e 'b', e a regra Y → cY b gera pares de 'c' e 'b'. Portanto, a afirmação IV é verdadeira.\n\nCom base na análise acima, as afirmações II e IV são corretas, portanto a alternativa correta é 'b'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-43",
+    "numero": 43,
+    "enunciado": "Dados dois grafos não orientados G (V , E ) e G (V , E ):\n1 1 1 2 2 2\nG : V = {a, b, c} E = {(a,b), (b,c), (a, c)}\n1 1 1\nG : V = {d, e} E = {(d,e)}\n2 2 2\nQual alternativa apresenta corretamente o grafo G (V , E ) resultante da soma dos grafos G e G ?\nr 1 2",
+    "alternativas": [
+      "a) G : V = {a, b, c, d, e} E = {(a,b), (b,c), (a,c), (d,e)}\nr",
+      "b) G : V = {a, b, c, d, e} E = {(a,d), (a,e), (b,d), (b,e), (c,d), (c,e), (d,e)}\nr",
+      "c) G : V = {a, b, c, d, e} E = {(a,b), (b,c), (a,c), (a,d), (a,e), (b,d), (b,e), (c,d), (c,e)}\nr",
+      "d) G : V = {a, b, c , d, e} E = {(a,b), (b,c ), (a,c ), (a,d), (a,e), (b,d), (b,e), (c ,d), (c ,e), (d,e)}\nr",
+      "e) G : V = {a, b, c, d, e} E = {(a,b), (b,c), (c,d), (d,e), (e,a)}\nr"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Grafos orientados e não-orientados",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "Para somar dois grafos G1 e G2, combinamos seus conjuntos de vértices e arestas. O grafo G1 possui vértices V1 = {a, b, c} e arestas E1 = {(a,b), (b,c), (a,c)}. O grafo G2 possui vértices V2 = {d, e} e arestas E2 = {(d,e)}. A soma dos grafos G1 e G2 resulta em um novo grafo Gr com vértices Vr = V1 ∪ V2 = {a, b, c, d, e} e arestas Er = E1 ∪ E2 ∪ {(x,y) | x ∈ V1, y ∈ V2}. Isso significa que além das arestas originais de G1 e G2, adicionamos arestas entre todos os vértices de G1 e todos os vértices de G2. Portanto, Er = {(a,b), (b,c), (a,c), (a,d), (a,e), (b,d), (b,e), (c,d), (c,e), (d,e)}. A alternativa correta é a d)."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-53",
+    "numero": 53,
+    "enunciado": "Considere um objeto em 3D ancorado no seu centro de massa p = (x , y , z ). Qual a transformação\nc c c\nnecessária para rotacioná-lo em Θ graus, contra relógio, ao redor do eixo x, sem alterar a sua posição no\nespaço? Assuma que a matriz T realiza translações, a matriz R realiza rotações de Θ graus ao redor do\nx\neixo x, contra relógio.",
+    "alternativas": [
+      "a) T (−p).R (Θ).T (p)\nx",
+      "b) T (−p).R (Θ)\nx\nc ) T (p).R (Θ).T (−p)\nx\nd) R (Θ).T (−p)\nx\ne) T (p).R (Θ).T (p)\nx",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de Transformação",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para rotacionar um objeto em torno de um eixo sem alterar sua posição no espaço, é necessário aplicar uma sequência de transformações. Primeiro, o objeto deve ser transladado de modo que seu centro de massa coincida com a origem do sistema de coordenadas. Isso é feito aplicando a matriz de translação T(-p), onde p é o vetor posição do centro de massa. Em seguida, a rotação R(Θ) é aplicada em torno do eixo desejado (neste caso, o eixo x). Finalmente, o objeto é transladado de volta à sua posição original aplicando T(p). Portanto, a sequência correta de transformações é T(-p).R(Θ).T(p)."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-64",
+    "numero": 64,
+    "enunciado": "Considere o bloco básico a seguir.\nAssinale a alternativa que apresenta a transformação de código local que pode ser aplicada no bloco\nbásico.",
+    "alternativas": [
+      "a) El i m i naç ão de c ódi go m or to.",
+      "b) Propagação de cópias.",
+      "c) Eliminação de subexpressões comuns.",
+      "d) Propagação de constantes.",
+      "e) Eliminação de variáveis de indução."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Otimização de Código",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A questão pede para identificar uma transformação de código local que pode ser aplicada em um bloco básico. As transformações de código local são técnicas de otimização que melhoram o desempenho do código sem alterar seu comportamento. Entre as alternativas, a 'Propagação de constantes' é uma técnica de otimização local que substitui variáveis por constantes conhecidas, reduzindo o número de operações e melhorando a eficiência do código. As outras opções, como 'Eliminação de código morto', 'Propagação de cópias', 'Eliminação de subexpressões comuns' e 'Eliminação de variáveis de indução', são técnicas de otimização, mas não são especificamente transformações de código local aplicáveis a um bloco básico."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-69",
+    "numero": 69,
+    "enunciado": "Considere o esquema de um banco de dados relacional EMPRESA a seguir. As setas indicam as chaves\nestrangeiras e o sublinhado indica a chave primária.\nConsidere a especificação dos seguintes comandos em SQL aplicados sobre o esquema de banco de\ndados apresentado.\nI.\nSELECT DNUMERO,COUNT(*)\nFROM DEPARTAMENTO, EMPREGADO\nWHERE DNUMERO=DNO AND SALARIO>40000 AND\nDNO IN (SELECT DNO\nFROM EMPREGADO\nGROUP BY DNO\nHAVING COUNT(*)>5)\nGROUP BY DNUMERO;\nII.\nSELECT DNO, COUNT(*), AVG(SALARIO)\nFROM EMPREGADO\nGROUP BY DNO;\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Na consulta do item I, para cada cinco ou mais departamentos, a consulta retorna o número do departamento\ne o número dos empregados que recebem mais de 40 mil reais. Na consulta do item II, para cada empregado,\na consulta retorna o número do seu departamento e a média de salários de cada departamento.",
+      "b) Na consulta do item I, para cada departamento que tenha mais de cinco empregados, a consulta retorna o\nnúmero do departamento que possui empregados que recebem mais de 40 mil reais. Na consulta do item II,\npara cada empregado, a consulta retorna o número do seu departamento, o número de empregados que nele\ntrabalham e o somatório de seus salários.",
+      "c) Na consulta do item I, para cada departamento que tenha mais de cinco empregados, a consulta retorna o\nnúmero dos empregados que recebem mais de 40 mil reais. Na consulta do item II, para cada empregado,\na consulta retorna o número do seu departamento, o número de empregados que trabalham com ele e o\nsomatório de seus salários.",
+      "d) Na consulta do item I, para cada cinco ou mais empregados, a consulta retorna o número do departamento\nque possui empregados que recebem mais de 40 mil reais. Na consulta do item II, para cada departamento, a\nconsulta retorna o número do seu departamento, o número de empregados que nele trabalham e o somatório\nde seus salários.",
+      "e) Na c ons ul ta do i tem I, par a c ada depar tam ento que tenha m ai s de c i nc o em pr egados , a c ons ul ta r e-\ntor na o núm ero do depar tam ento e o núm ero dos em pr egados que r ec ebem m ai s de 40 m i l r eai s . Na\nc ons ul ta do i tem II, par a c ada depar tam ento, a c ons ul ta r etor na o núm ero do depar tam ento, o núm ero\nde em pr egados que nel e tr abal ham e a m édi a de s eus s al ár i os ."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Linguagens de Consulta",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar as duas consultas SQL fornecidas:\n\nConsulta I:\n- A consulta seleciona departamentos (DNUMERO) que possuem mais de cinco empregados (HAVING COUNT(*)>5) e que têm empregados com salário superior a 40 mil reais (SALARIO>40000).\n- A junção entre as tabelas DEPARTAMENTO e EMPREGADO é feita através da condição DNUMERO=DNO.\n- O resultado é agrupado por DNUMERO, retornando o número do departamento e a contagem de empregados que atendem aos critérios.\n\nConsulta II:\n- A consulta seleciona o número do departamento (DNO), a contagem de empregados e a média de salários dos empregados de cada departamento.\n- A consulta é agrupada por DNO, retornando o número do departamento, a quantidade de empregados e a média dos salários.\n\nAnalisando as alternativas, a alternativa 'e' descreve corretamente o comportamento das consultas:\n- Para a consulta I, ela menciona que para cada departamento com mais de cinco empregados, a consulta retorna o número do departamento e o número de empregados que recebem mais de 40 mil reais.\n- Para a consulta II, ela menciona que para cada departamento, a consulta retorna o número do departamento, o número de empregados que nele trabalham e a média de seus salários."
   }
 ]

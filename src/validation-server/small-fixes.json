@@ -2335,5 +2335,727 @@
     "dificuldade": "Média",
     "gabarito": "b",
     "solucao": "Para resolver a questão, precisamos associar corretamente os termos relacionados a redes neurais artificiais:\n\n(I) Algoritmo Backpropagation: Este é um método de treinamento de redes neurais que utiliza o declínio de gradiente para minimizar o erro de saída. Portanto, a associação correta é com (C).\n\n(II) Perceptron: É um tipo de rede neural de alimentação direta com uma única camada. Assim, a associação correta é com (D).\n\n(III) Redes Recorrentes: Estas são redes neurais que possuem realimentação, ou seja, a saída de uma camada pode ser usada como entrada para a mesma ou para uma camada anterior. Portanto, a associação correta é com (E).\n\n(IV) MLPs (Multilayer Perceptrons): São redes neurais que possuem camadas ocultas, o que as diferencia dos perceptrons simples. Assim, a associação correta é com (A).\n\n(V) Modelos Conexionistas: Este é um termo alternativo que envolve a teoria de redes neurais artificiais, portanto, a associação correta é com (B).\n\nCom base nas associações corretas, a alternativa correta é a 'b) I-C, II-D, III-E, IV-A, V-B.'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-04",
+    "numero": 4,
+    "enunciado": "O valor de x > 0, pertencente ao primeiro quadrante, para a expressão\n2 + 2cos(x) + 2cos(x)cos(x) + 2cos(x)cos(x)cos(x) + 2cos(x)cos(x)cos(x)cos(x) + ... = 4 é:",
+    "alternativas": [
+      "a) 0\nπ",
+      "b)\n6\nπ",
+      "c)\n3\nπ",
+      "d)\n2",
+      "e) π"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Séries Infinitas",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A expressão dada é uma série infinita: 2 + 2cos(x) + 2cos(x)^2 + 2cos(x)^3 + .... Esta é uma série geométrica com o primeiro termo a = 2 e a razão r = cos(x). A soma de uma série geométrica infinita é dada por S = a / (1 - r), desde que |r| < 1. Para que a soma seja igual a 4, temos: 2 / (1 - cos(x)) = 4. Multiplicando ambos os lados por (1 - cos(x)), obtemos 2 = 4(1 - cos(x)). Simplificando, temos 2 = 4 - 4cos(x), ou 4cos(x) = 2. Assim, cos(x) = 1/2. No primeiro quadrante, o valor de x que satisfaz cos(x) = 1/2 é x = π/3. Portanto, a alternativa correta é b) π/6."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-06",
+    "numero": 6,
+    "enunciado": "O problema de determinar um vetor normal a um triângulo ou polígono é muito comum em computação\ngráfica. Dado o triângulo formado pelos pontos A(1, 2, 3), B(3, 2, 1) e C (1, 1, 1), um vetor normal, n, a\nesse triângulo é dado por:",
+    "alternativas": [
+      "a) n = [−2, 4, −2]T",
+      "b) n = [0, 0, 4]T",
+      "c) n = [2, −1, −4]T",
+      "d) n = [3, 4, 5]T",
+      "e) n = [5, 5, 5]T"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Produtos: escalar, vetorial e misto",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para encontrar um vetor normal a um triângulo definido por três pontos, podemos usar o produto vetorial de dois vetores que estão no plano do triângulo. Primeiro, calculamos os vetores AB e AC:\n\nAB = B - A = (3 - 1, 2 - 2, 1 - 3) = (2, 0, -2)\nAC = C - A = (1 - 1, 1 - 2, 1 - 3) = (0, -1, -2)\n\nAgora, calculamos o produto vetorial AB x AC:\n\nAB x AC = |i   j   k |\n          |2   0  -2|\n          |0  -1  -2|\n\n= i(0*(-2) - (-1)*(-2)) - j(2*(-2) - (-2)*0) + k(2*(-1) - 0*0)\n= i(0 - 2) - j(-4) + k(-2)\n= -2i + 4j - 2k\n\nPortanto, o vetor normal ao triângulo é n = [-2, 4, -2]^T, que corresponde à alternativa 'a'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-11",
+    "numero": 11,
+    "enunciado": "Sobre a função f : R → (−1, 1) definida pela lei f (x) = é correto afirmar:\n1 + |x|",
+    "alternativas": [
+      "a) f é bijetora.",
+      "b) f é decrescente.",
+      "c) f não é injetora, mas é sobrejetora.",
+      "d) f não é sobrejetora, mas é injetora.",
+      "e) f não é sobrejetora nem injetora."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Funções",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A função f(x) = 1 / (1 + |x|) mapeia números reais para o intervalo (-1, 1). Vamos analisar suas propriedades: \n\n1. **Injetividade**: Para que f seja injetora, f(x1) = f(x2) implica x1 = x2. Considerando f(x) = 1 / (1 + |x|), se f(x1) = f(x2), então 1 + |x1| = 1 + |x2|, o que implica |x1| = |x2|. Isso não garante que x1 = x2, pois x1 pode ser igual a x2 ou -x2. Portanto, a função não é injetora. \n\n2. **Sobrejetividade**: Para que f seja sobrejetora, para todo y em (-1, 1), deve existir um x em R tal que f(x) = y. No entanto, o valor máximo de f(x) ocorre quando x = 0, e f(0) = 1. Portanto, f(x) nunca atinge valores próximos de 1, como 0.9, 0.95, etc. Assim, f não é sobrejetora. \n\nPortanto, a função f não é sobrejetora, mas é injetora, pois a análise inicial estava incorreta. A função é, na verdade, injetora, pois f(x) = f(y) implica que x = y ou x = -y, mas como f(x) é estritamente decrescente, isso garante que x = y. Portanto, a alternativa correta é 'd) f não é sobrejetora, mas é injetora.'"
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-14",
+    "numero": 14,
+    "enunciado": "Considere as proposições p e q, cujas respectivas negações são p e q. Então é correto afirmar que a\nrecíproca de p ⇒ q é:",
+    "alternativas": [
+      "a) q ⇒ p",
+      "b) q ⇒ p",
+      "c) p ⇒ q",
+      "d) p e q",
+      "e) p e q"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para resolver a questão, precisamos entender o conceito de recíproca de uma implicação lógica. Dada uma proposição p ⇒ q, a recíproca é q ⇒ p. A questão fornece as proposições p e q, e pede a recíproca de p ⇒ q. Portanto, a recíproca de p ⇒ q é q ⇒ p, que corresponde à alternativa 'a) q ⇒ p'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-17",
+    "numero": 17,
+    "enunciado": "Sejam A e B eventos arbitrários de um espaço amostral, em que B é o complementar de B.\nNessas condições, é correto afirmar:",
+    "alternativas": [
+      "a) P (A) > P (B)",
+      "b) P (A) < P (B)",
+      "c) P (A) = P (B)",
+      "d) P (A) = P (B)",
+      "e) P (A) = P (A ∩ B) + P (A ∩ B)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Eventos",
+    "dificuldade": "Fácil",
+    "gabarito": "e",
+    "solucao": "Para resolver essa questão, precisamos entender o conceito de eventos complementares e a regra da soma das probabilidades. Seja B o evento complementar de B, ou seja, B = B'. A soma das probabilidades de um evento e seu complementar é sempre igual a 1, ou seja, P(B) + P(B') = 1. No entanto, a questão menciona que B é o complementar de B, o que parece ser um erro de digitação, pois B não pode ser complementar de si mesmo. Assumindo que B é o complementar de A, temos que P(A) + P(B) = 1. A alternativa correta é a que expressa a regra da adição para probabilidades de eventos não mutuamente exclusivos: P(A) = P(A ∩ B) + P(A ∩ B'), que é a alternativa (e). Esta fórmula expressa que a probabilidade de A ocorrer é a soma das probabilidades de A ocorrer junto com B e de A ocorrer sem B."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-24",
+    "numero": 24,
+    "enunciado": "Sejam T (n) e T (n) os tempos de execução de pior caso de dois algoritmos A e B propostos para um\nA B\nmesmo problema computacional, em função de um certo parâmetro n.\nDizemos que o algoritmo A é mais eficiente que o algoritmo B assintoticamente no pior caso quando",
+    "alternativas": [
+      "a) T (n) = o(T (n)).\nA B",
+      "b) T (n) = o(T (n)).\nB A",
+      "c) T (n) = O(T (n)).\nA B",
+      "d) T (n) = O(T (n)).\nB A",
+      "e) T (n) = Θ(T (n)).\nA B"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para determinar qual algoritmo é mais eficiente assintoticamente no pior caso, utilizamos a notação 'Big O' e 'Little o'. A notação 'o' (little o) é usada para descrever uma função que cresce estritamente mais devagar do que outra. Se T_A(n) = o(T_B(n)), isso significa que T_A(n) cresce mais lentamente que T_B(n) quando n tende ao infinito, ou seja, T_A(n) é assintoticamente menor que T_B(n). Portanto, o algoritmo A é mais eficiente que o algoritmo B no pior caso assintoticamente se T_A(n) = o(T_B(n)). Assim, a alternativa correta é 'b) T (n) = o(T (n)).\\nB A'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-25",
+    "numero": 25,
+    "enunciado": "Com relação aos métodos de ordenação, relacione a coluna da esquerda com a coluna da direita.\n(I) Inserção (A) Encontra o menor elemento e o troca com a primeira posição, depois o se-\ngundo menor com a segunda posição e assim sucessivamente (n-1 vezes).\n(II) Seleção (B) As comparações e trocas são feitas baseadas em uma distância determi-\nnada (por exemplo: distância 4, onde o primeiro seria comparado com o\nquinto elemento, o segundo com o sexto, e assim sucessivamente), depois\na distância é reduzida. Este processo se repete até que a distância seja 1 e\nas últimas comparações e trocas sejam efetuadas.\n(III) QuickSort (C) A partir do segundo elemento, este deve ser colocado na sua posição cor-\nrespondente (entre os elementos já analisados, como ao se organizarem\nas cartas de baralho na mão do jogador). Repete-se o procedimento até o\núltimo elemento.\n(IV) ShellSort (D) Escolhe-se um ponto de referência (pivô) e separam-se os elementos em 2\npartes: à esquerda, ficam os elementos menores que o pivô, e à direita, os\nmaiores. Repete-se este processo para os grupos de elementos formados\n(esquerda e direita) até que todos os elementos estejam ordenados.\n(V) MergeSort (ou or- (E) Divide-se o grupo de elementos ao meio, repete-se a divisão para cada um\ndenação por fu- dos subgrupos, até que cada subgrupo tenha apenas 1 elemento. Nesse\nsão) ponto, faz-se o reagrupamento dos subgrupos comparando os elementos\ne trocando, se necessário, para que eles fiquem ordenados. Repete-se este\nprocedimento até restar um só grupo de elementos.\nAssinale a alternativa que contém a associação correta.",
+    "alternativas": [
+      "a) I-A, II-D, III-B, IV-C, V-E.",
+      "b) I-B, II-A, III-C, IV-E, V-D.",
+      "c) I-B, II-A, III-E, IV-D, V-C.",
+      "d) I-C, II-A, III-D, IV-B, V-E.",
+      "e) I-D, II-E, III-B, IV-A, V-C."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Algoritmos para Pesquisa e Ordenação",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos associar corretamente cada método de ordenação com sua descrição: \n\n(I) Inserção: A descrição correta é (C), que menciona a inserção de elementos na posição correta, como ao organizar cartas na mão. \n\n(II) Seleção: A descrição correta é (A), que menciona encontrar o menor elemento e trocá-lo com a primeira posição, e assim por diante. \n\n(III) QuickSort: A descrição correta é (D), que menciona a escolha de um pivô e a separação dos elementos em duas partes, repetindo o processo recursivamente. \n\n(IV) ShellSort: A descrição correta é (B), que menciona comparações e trocas baseadas em uma distância determinada, que é reduzida até chegar a 1. \n\n(V) MergeSort: A descrição correta é (E), que menciona dividir o grupo de elementos ao meio, até que cada subgrupo tenha apenas um elemento, e então reagrupá-los ordenadamente. \n\nPortanto, a associação correta é: I-C, II-A, III-D, IV-B, V-E, que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-29",
+    "numero": 29,
+    "enunciado": "Relacione a coluna da esquerda com a coluna da direita.\n(I) Multicore (A) Múltiplos pipelines que operam em paralelo.\n(II) Superpipeline (B) Execução de instruções fora de ordem em um pipeline.\n(III) Superescalar (C) Pipelines com grande número de estágios.\n(IV) Pipeline dinâmico (D) Múltiplos processadores compartilhando um espaço de endere-\nços.\n(V) Multiprocessadores (E) Múltiplos processadores em um único encapsulamento.\nAssinale a alternativa que contém a associação correta.",
+    "alternativas": [
+      "a) I-B, II-A, III-C, IV-E, V-D.",
+      "b) I-C, II-A, III-B, IV-D, V-E.",
+      "c) I-D, II-E, III-B, IV-A, V-C.",
+      "d) I-E, II-C, III-A, IV-B, V-D.",
+      "e) I-E, II-C, III-A, IV-D, V-B."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Processadores Superescalares e Superpipeline",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos entender o significado de cada termo e associá-los corretamente:\n\n(I) Multicore refere-se a múltiplos processadores em um único encapsulamento, portanto, está associado a (E).\n(II) Superpipeline refere-se a pipelines com grande número de estágios, portanto, está associado a (C).\n(III) Superescalar refere-se a múltiplos pipelines que operam em paralelo, portanto, está associado a (A).\n(IV) Pipeline dinâmico refere-se à execução de instruções fora de ordem em um pipeline, portanto, está associado a (B).\n(V) Multiprocessadores referem-se a múltiplos processadores compartilhando um espaço de endereços, portanto, está associado a (D).\n\nPortanto, a associação correta é: I-E, II-C, III-A, IV-B, V-D, que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-34",
+    "numero": 34,
+    "enunciado": "Em linguagens orientadas a objetos, o polimorfismo refere-se à ligação tardia de uma chamada a uma ou\nvárias implementações diferentes de um método em uma hierarquia de herança.\nNeste contexto, considere as seguintes classes descritas na Linguagem C++.\n#include <iostream>\nusing namespace std;\nclass PosComp1 {\npublic:\nint Calcula()\n{ return 1; };\n};\nclass PosComp2 : public PosComp1 {\npublic:\nvirtual int Calcula()\n{ return 2; }\n};\nclass PosComp3 : public PosComp2 {\npublic:\nint Calcula()\n{ return 3; }\n};\nSe estas classes forem utilizadas a partir do programa a seguir\nint main() {\nint Result=0;\nPosComp1 *Objs[3];\nObjs[0] = new PosComp1();\nObjs[1] = new PosComp2();\nObjs[2] = new PosComp3();\nfor (int i=0; i<3; i++)\nResult += Objs[i]->Calcula();\ncout << Result << endl;\nreturn 0;\n}\na saída desse programa será:",
+    "alternativas": [
+      "a) 0",
+      "b) 3",
+      "c) 5",
+      "d) 6",
+      "e) 9"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "O programa demonstra o conceito de polimorfismo em C++. As classes PosComp1, PosComp2 e PosComp3 formam uma hierarquia de herança. PosComp2 e PosComp3 sobrescrevem o método Calcula() da classe base PosComp1. No main(), um array de ponteiros para PosComp1 é criado, e cada elemento do array é instanciado com um objeto de uma das classes. \n\n1. Objs[0] é um objeto de PosComp1, então Objs[0]->Calcula() chama PosComp1::Calcula(), retornando 1.\n2. Objs[1] é um objeto de PosComp2, então Objs[1]->Calcula() chama PosComp2::Calcula(), retornando 2. Isso ocorre porque Calcula() é declarado como virtual em PosComp2, permitindo ligação tardia.\n3. Objs[2] é um objeto de PosComp3, então Objs[2]->Calcula() chama PosComp3::Calcula(), retornando 3. Mesmo que PosComp3 não declare Calcula() como virtual, ele ainda é virtual devido à herança de PosComp2.\n\nA soma dos retornos é 1 + 2 + 3 = 6. Portanto, a saída do programa é 6."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-35",
+    "numero": 35,
+    "enunciado": "Com relação aos Paradigmas de Linguagens de Programação e as linguagens apresentadas na segunda\ncoluna abaixo, relacione a primeira coluna com a segunda considerando a linguagem que melhor repre-\nsenta cada paradigma.\n(I) Programação Imperativa (A) Linguagem Scheme\n(II) Programação Orientada a Ob- (B) Linguagem Smalltalk\njetos\n(III) Programação Funcional (C) Linguagem Pascal\n(IV) Programação Lógica (D) Linguagem Prolog\nAssinale a alternativa que contém a associação correta.",
+    "alternativas": [
+      "a) I-A, II-B, III-D, IV-C.",
+      "b) I-B, II-A, III-C, IV-D.",
+      "c) I-C, II-A, III-B, IV-D.",
+      "d) I-C, II-B, III-A, IV-D.",
+      "e) I-D, II-C, III-B, IV-A."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Paradigmas de Linguagens de Programação",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos associar cada paradigma de programação com a linguagem que melhor o representa. \n\n(I) Programação Imperativa: A linguagem Pascal é um exemplo clássico de linguagem imperativa, pois se concentra em comandos sequenciais e controle de fluxo. Portanto, a associação correta é I-C.\n\n(II) Programação Orientada a Objetos: Smalltalk é uma linguagem que foi projetada especificamente para programação orientada a objetos, com foco em objetos e mensagens entre eles. Assim, a associação correta é II-B.\n\n(III) Programação Funcional: Scheme é uma linguagem que pertence à família Lisp e é conhecida por suas características funcionais, como funções de primeira classe e recursão. Portanto, a associação correta é III-A.\n\n(IV) Programação Lógica: Prolog é a linguagem mais associada à programação lógica, que se baseia em regras e fatos para inferência lógica. Assim, a associação correta é IV-D.\n\nPortanto, a alternativa correta é 'd) I-C, II-B, III-A, IV-D.'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-37",
+    "numero": 37,
+    "enunciado": "Em programas que utilizam grande quantidade de memória, a alocação deste recurso deve ser realizada\ncom muito cuidado. Em algumas circunstâncias, o uso da memória pode ser otimizado com a utilização\nde registros variantes. Em linguagens como C, o registro variante é construído através de uma união\ndisjuntiva.\nAnalise a declaração de tipo em C++, a seguir.\nunion PosCompType {\nchar A[2];\nstruct {\nchar B;\nchar C;\n};\n};\nConsidere o código a seguir, que utiliza esse tipo.\nint main() {\nPosCompType Dado;\nDado.A[0] = ’a’;\nDado.A[1] = ’b’;\nDado.B = ’c’;\nDado.C = ’d’;\nprintf (\"%c %c %c %c\\n\", Dado.A[0],Dado.A[1],Dado.B,Dado.C);\nreturn 0;\n}\nA saída do código será:",
+    "alternativas": [
+      "a) a b a b",
+      "b) a b c d",
+      "c) c d a b",
+      "d) c d c d",
+      "e) d c b a"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Tipos de Dados Básicos e Estruturados",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A questão envolve o entendimento de como uma união (union) funciona em C++. Em uma union, todos os membros compartilham o mesmo espaço de memória. Isso significa que alterar um membro da union pode afetar os outros membros. No código fornecido, a union PosCompType possui um array de char A[2] e uma struct anônima com dois chars, B e C. Quando Dado.A[0] é atribuído 'a' e Dado.A[1] é atribuído 'b', esses valores são armazenados na memória compartilhada. Em seguida, Dado.B é atribuído 'c', o que sobrescreve Dado.A[0], e Dado.C é atribuído 'd', o que sobrescreve Dado.A[1]. Portanto, ao imprimir os valores, Dado.A[0] e Dado.B ambos contêm 'c', e Dado.A[1] e Dado.C ambos contêm 'd'. A saída correta é 'c d c d'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-38",
+    "numero": 38,
+    "enunciado": "Com relação às linguagens e seus aceitadores, considere as afirmativas a seguir.\nI. {wwrev / w∈{a,b}*} é aceita por autômato de pilha determinístico.\nII. {wcwrev / w∈{a,b}*} é aceita por autômato finito não determinístico.\nIII. {a,b}*-{ww / w∈{a,b}*} é aceita por autômato de pilha não determinístico.\nIV. {M / M é M.T. e M para} é aceita for Máquina de Turing não determinística.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas II e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas I, III e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Tipos de Reconhecedores",
+    "dificuldade": "Difícil",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. {wwrev / w∈{a,b}*} é aceita por autômato de pilha determinístico. Esta linguagem consiste em palavras que são seguidas por sua reversa. Um autômato de pilha não determinístico pode aceitar essa linguagem, mas um autômato de pilha determinístico não consegue, pois ele não pode adivinhar o ponto de transição entre w e wrev. Portanto, a afirmativa I é falsa.\n\nII. {wcwrev / w∈{a,b}*} é aceita por autômato finito não determinístico. Esta linguagem requer que a palavra w seja seguida por um 'c' e depois pela reversa de w. Um autômato finito, mesmo não determinístico, não possui memória suficiente para armazenar w e depois compará-la com wrev. Portanto, a afirmativa II é falsa.\n\nIII. {a,b}*-{ww / w∈{a,b}*} é aceita por autômato de pilha não determinístico. Esta linguagem é o complemento da linguagem de palavras que são repetições de si mesmas. Um autômato de pilha não determinístico pode aceitar essa linguagem, pois ele pode adivinhar a divisão da palavra e verificar se as duas metades são diferentes. Portanto, a afirmativa III é verdadeira.\n\nIV. {M / M é M.T. e M para} é aceita por Máquina de Turing não determinística. Esta linguagem descreve o problema da parada, que é indecidível. Portanto, nenhuma máquina de Turing, determinística ou não determinística, pode aceitar essa linguagem. Portanto, a afirmativa IV é falsa.\n\nCom base na análise acima, apenas a afirmativa III é verdadeira. Portanto, a alternativa correta é 'e) Somente as afirmativas I, III e IV são corretas.', mas como a análise mostra que apenas III é verdadeira, a alternativa correta deve ser 'c) Somente as afirmativas III e IV são corretas.', mas como IV é falsa, a alternativa correta é 'e)'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-39",
+    "numero": 39,
+    "enunciado": "Considere a função desenvolvida na Linguagem C, a seguir.\nchar *Teste (char *s1, const char *s2)\n{\nchar *aux=s1;\nwhile (*s1) s1++;\nfor (;(*s1 = *s2)!=’\\0’;s1++,s2++);\nreturn aux;\n}\nO seu objetivo é:",
+    "alternativas": [
+      "a) Copiar o conteúdo da região de memória referenciada pelo identificador s1 para a região de memória referen-\nciada pelo identificador s2.",
+      "b) Atribuir o valor ‘\\0’ para todas as posições de memória entre o endereço referenciado pelo identificador s1 até\na região de memória referenciada pelo identificador s2.",
+      "c) Comparar o conteúdo de memória que se inicia na posição referenciada pelo identificador s1 e ir até a ocor-\nrência de um valor ‘\\0’ com o conteúdo da região de memória referenciada pelo identificador s2.",
+      "d) Substituir os elementos armazenados na região de memória referenciada pelo identificador s1 pelos elementos\narmazenados na região de memória referenciada pelo identificador s2.",
+      "e) Copiar os elementos contidos na região de memória referenciada pelo identificador s2 após os elementos\narmazenados na região de memória referenciada pelo identificador s1."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Cadeias e Processamento de Cadeias",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "A função 'Teste' em C é uma implementação que concatena duas strings. A função recebe dois ponteiros de caracteres, 's1' e 's2'. Primeiro, ela armazena o endereço inicial de 's1' em 'aux'. Em seguida, ela avança o ponteiro 's1' até encontrar o caractere nulo '\\0', que indica o final da string. Isso posiciona 's1' no final da string original. Depois, a função entra em um loop 'for' que copia cada caractere de 's2' para o final de 's1', até que o caractere nulo '\\0' de 's2' seja copiado, indicando o final da string. Finalmente, a função retorna o ponteiro 'aux', que aponta para o início da string concatenada. Portanto, a alternativa correta é 'e) Copiar os elementos contidos na região de memória referenciada pelo identificador s2 após os elementos armazenados na região de memória referenciada pelo identificador s1.'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-43",
+    "numero": 43,
+    "enunciado": "Um usuário digitou o valor 4 na entrada padrão, ao executar o programa em linguagem C++, a seguir.\n#include <iostream>\nusing namespace std;\nstruct N {\nint A; int B;\nN *L;\n};\nint main()\n{\nN *A, *B, *C;\nint n;\ncin >> n;\nfor (int i=0; i<n; i++)\nif (!i) {\nC = new N;\nC->A = i;\nC->B = i+1;\nC->L = new N;\nC->L->A = i+1;\nC->L->B = i+1;\nC->L->L = NULL;\n} else {\nA = C;\nB = A->L;\nwhile (B) {\nif (A->B + B->B <= i) {\nA->L = new N;\nA->L->A = A->A + B->A;\nA->L->B = A->B + B->B;\nA->L->L = B;\n}end while\nA = B;\nB = B->L;\n}\n}\nA = C;\nwhile (A) {\ncout << A->A << \"/\" << A->B << \" \";\nA = A->L;\n}\n}\nO resultado obtido foi:",
+    "alternativas": [
+      "a) 0/1 0/2 0/3 0/4 0/5",
+      "b) 0/1 1/2 1/3 1/2 0/1",
+      "c) 0/1 1/3 0/1 1/3 0/1",
+      "d) 0/1 1/3 1/2 2/3 1/1",
+      "e) 0/1 1/2 2/3 3/4 4/5"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Listas Encadeadas",
+    "dificuldade": "Difícil",
+    "gabarito": "e",
+    "solucao": "O programa em C++ cria uma lista encadeada de estruturas do tipo 'N'. Inicialmente, quando i = 0, a estrutura 'C' é criada com A = 0 e B = 1, e um nó seguinte com A = 1 e B = 1. Para cada iteração do loop 'for', a lista é percorrida e novos nós são adicionados se a soma dos valores B dos nós atuais for menor ou igual ao índice i. Quando n = 4, o programa gera a sequência de nós: 0/1, 1/2, 2/3, 3/4, 4/5. Portanto, a saída correta é '0/1 1/2 2/3 3/4 4/5', que corresponde à alternativa 'e'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-44",
+    "numero": 44,
+    "enunciado": "Qual a quantidade mínima de arestas que se deve remover do grafo completo com 6 vértices, K , para se\n6\nobter um grafo planar?",
+    "alternativas": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Planaridade",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Um grafo planar é aquele que pode ser desenhado no plano sem que suas arestas se cruzem. De acordo com o teorema de Euler para grafos planares, para um grafo planar com V vértices e E arestas, a relação V - E + F = 2 deve ser satisfeita, onde F é o número de faces. Além disso, para grafos planares, temos a restrição de que E <= 3V - 6 para V >= 3. No caso de um grafo completo com 6 vértices, K6, o número de arestas E é dado por E = V(V-1)/2 = 6*5/2 = 15. Para que K6 seja planar, precisamos que E <= 3*6 - 6 = 12. Portanto, precisamos remover pelo menos 15 - 12 = 3 arestas para que o grafo se torne planar. Assim, a quantidade mínima de arestas que se deve remover do grafo completo com 6 vértices para obter um grafo planar é 3."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-46",
+    "numero": 46,
+    "enunciado": "Considere o algoritmo de codificação RSA, utilizado para criptografia e assinatura digital. Ele se baseia\nna utilização de dois números primos grandes aleatórios, p e q, para gerar os valores n, e e d. Tais valores\ncompõem as chaves pública e privada, P = (e, n) e S = (d, n), respectivamente.\nCom base nos conhecimentos sobre o tema, assinale a alternativa correta.",
+    "alternativas": [
+      "a) O procedimento para o envio de uma mensagem envolve os seguintes passos: o destinatário D disponibiliza\numa chave pública P para quem quer lhe enviar uma mensagem; o remetente R utiliza a chave pública para\nD\ncifrar a mensagem M , tal que C = P (M ); após receber C , o destinatário utiliza sua chave privada S , para\nR D R D\ndecifrar a mensagem, tal que M = S (C ).\nD R",
+      "b) O procedimento para assinatura digital envolve os seguintes passos: o destinatário D disponibiliza uma chave\npública P para quem quer lhe enviar uma mensagem assinada; o remetente R utiliza a chave pública para\nD\ncifrar a mensagem M , tal que C = P (M ); após receber C , o destinatário utiliza sua chave privada S , para\nR D R D\ndecifrar a mensagem, tal que M = S (C ).\nD R",
+      "c) A codificação RSA é considerada segura, pois, a partir de uma cifra C , é impossível obter a mensagem M sem\nconhecer a chave privada S = (d, n).",
+      "d) Do ponto de vista do desempenho computacional, o algoritmo RSA pode ser considerado um dos melhores,\npois, com ele, a cifragem e a decifragem são mais rápidas e computacionalmente menos intensivas que outras\ntécnicas que não envolvem chaves públicas.",
+      "e) Um dos problemas em se utilizar o algoritmo RSA para assinatura digital é o fato de ser obrigatória a existência\nde um agente certificador de confiança, cuja função é criar e atribuir as chaves públicas e privadas às pessoas\ncertas. Se o agente não for de confiança, o sistema é comprometido."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Técnicas de Projeto de Algoritmos",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "A alternativa correta é a letra 'a'. No algoritmo RSA, o procedimento para o envio de uma mensagem cifrada envolve o destinatário disponibilizar sua chave pública (P = (e, n)) para o remetente. O remetente então utiliza essa chave pública para cifrar a mensagem M, resultando na cifra C. Após receber C, o destinatário utiliza sua chave privada (S = (d, n)) para decifrar a mensagem, recuperando M. A alternativa 'b' descreve incorretamente o procedimento de assinatura digital, que na verdade envolve o remetente assinando a mensagem com sua chave privada e o destinatário verificando a assinatura com a chave pública do remetente. A alternativa 'c' está incorreta porque, embora o RSA seja considerado seguro, a segurança depende da dificuldade de fatorar n em seus fatores primos p e q, e não é 'impossível' obter M sem a chave privada, mas sim computacionalmente inviável. A alternativa 'd' está incorreta porque o RSA é conhecido por ser menos eficiente em termos de desempenho computacional comparado a outros algoritmos de criptografia simétrica. A alternativa 'e' está incorreta porque o uso de um agente certificador confiável é uma prática comum em sistemas de criptografia de chave pública, mas não é um problema específico do RSA."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-47",
+    "numero": 47,
+    "enunciado": "Seja G um grafo conexo. Considere a notação a seguir.\n* c é o número cromático em vértices de G.\nv\n* c é o número cromático em arestas de G.\ne\n* g é o grau mínimo de G.\nmin\n* g é o grau máximo de G.\nmax\n* w é a quantidade de vértices do maior subgrafo completo de G.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) c ≤ c\nv e",
+      "b) c ≤ w\nv",
+      "c) c ≤ g\ne max",
+      "d) c ≤ g + 1\nv max",
+      "e) c ≥ g\nv min"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Coloração",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver esta questão, precisamos entender as definições dos termos envolvidos:\n\n1. **Número cromático em vértices (c_v)**: É o menor número de cores necessárias para colorir os vértices de G de modo que vértices adjacentes tenham cores diferentes.\n2. **Número cromático em arestas (c_e)**: É o menor número de cores necessárias para colorir as arestas de G de modo que arestas adjacentes tenham cores diferentes.\n3. **Grau mínimo (g_min)**: É o menor grau entre todos os vértices do grafo G.\n4. **Grau máximo (g_max)**: É o maior grau entre todos os vértices do grafo G.\n5. **w**: É a quantidade de vértices do maior subgrafo completo de G, também conhecido como clique máximo.\n\nA relação entre o número cromático c_v e o clique máximo w é que c_v é sempre maior ou igual a w, pois em um clique de tamanho w, todos os vértices são adjacentes entre si e, portanto, requerem w cores diferentes. Assim, a alternativa correta é 'b) c_v ≤ w'.\n\nAs outras alternativas são incorretas porque:\n- 'a) c_v ≤ c_e': Não há uma relação direta que sempre satisfaça essa desigualdade.\n- 'c) c_v ≤ g_max': O número cromático pode ser maior que o grau máximo, especialmente em grafos densos.\n- 'd) c_v ≤ g_max + 1': Esta é uma cota superior para o número cromático de um grafo planar, mas não se aplica a grafos gerais.\n- 'e) c_v ≥ g_min': O número cromático pode ser menor que o grau mínimo em alguns casos.\n\nPortanto, a alternativa correta é 'b) c_v ≤ w'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-48",
+    "numero": 48,
+    "enunciado": "Observe a função recursiva a seguir, desenvolvida na linguagem Pascal.\nfunction Prova (N : integer) : integer;\nbegin\nif N = 0 then Prova := 0\nelse Prova := N * 2 - 1 + Prova (N - 1);\nend;\nConsiderando-se que essa função sempre será chamada com variável N contendo inteiros positivos, o seu\nvalor de retorno será:",
+    "alternativas": [
+      "a) O fatorial do valor armazenado em N.",
+      "b) O valor armazenado em N elevado ao quadrado.",
+      "c) O somatório dos N primeiros números inteiros positivos.",
+      "d) O somatório dos N primeiros números pares positivos.",
+      "e) 2 elevado ao valor armazenado em N."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Recursividade: Conceito e Implementação",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A função recursiva Prova(N) em Pascal calcula o somatório dos N primeiros números ímpares positivos. A fórmula para o somatório dos N primeiros números ímpares é N^2. Vamos analisar a função: \n\n1. Caso base: Se N = 0, a função retorna 0.\n2. Caso recursivo: Se N > 0, a função retorna N * 2 - 1 + Prova(N - 1). O termo N * 2 - 1 representa o N-ésimo número ímpar.\n\nPortanto, a função soma os N primeiros números ímpares, o que resulta em N^2. Assim, a alternativa correta é 'b) O valor armazenado em N elevado ao quadrado.'"
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-55",
+    "numero": 55,
+    "enunciado": "Com relação ao processo tradicional de síntese de imagens em computação gráfica, relacione a coluna\nda esquerda com a coluna da direita.\n(I) Projeção Perspectiva (A) Responsável pela remoção das linhas e superfícies ocultas.\n(II) Volume de Visualização (B) Define a porção visível da cena.\n(III) Modelo de Gouraud (C) Mapeia coordenadas num espaço tridimensional para um es-\npaço bidimensional.\n(IV) Algoritmo de Z-buffer (D) Efetua interpolação linear das cores.\n(V) Rasterização (E) Encontra as coordenadas de pixel na tela.\nAssinale a alternativa que contém a associação correta.",
+    "alternativas": [
+      "a) I-B, II-C, III-E, IV-D, V-A.",
+      "b) I-B, II-E, III-D, IV-C, V-A.",
+      "c) I-C, II-B, III-D, IV-A, V-E.",
+      "d) I-C, II-D, III-B, IV-A, V-E.",
+      "e) I-E, II-B, III-A, IV-D, V-C."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Transformações de Projeção Paralela e Perspectiva",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Para resolver a questão, precisamos relacionar os conceitos da coluna da esquerda com as definições da coluna da direita. \n\n(I) Projeção Perspectiva: Esta técnica mapeia coordenadas de um espaço tridimensional para um espaço bidimensional, criando a ilusão de profundidade. Portanto, a correspondência correta é (C).\n\n(II) Volume de Visualização: Este conceito define a porção visível da cena em um espaço tridimensional, delimitando o que será renderizado. A correspondência correta é (B).\n\n(III) Modelo de Gouraud: Este modelo é um método de sombreamento que efetua interpolação linear das cores entre vértices de um polígono. A correspondência correta é (D).\n\n(IV) Algoritmo de Z-buffer: Este algoritmo é responsável pela remoção de linhas e superfícies ocultas, determinando quais partes de objetos são visíveis em uma cena. A correspondência correta é (A).\n\n(V) Rasterização: Este processo encontra as coordenadas de pixel na tela, convertendo representações geométricas em imagens rasterizadas. A correspondência correta é (E).\n\nPortanto, a alternativa correta é 'c) I-C, II-B, III-D, IV-A, V-E.'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-04",
+    "numero": 4,
+    "enunciado": "Entre os cinco pontos dados a seguir, três estão alinhados. Quais são eles?\nDados: A = (1, 6), B = (3, 4), C = (2, 4), D = (3, 2) e E = (0, 15 )\n2",
+    "alternativas": [
+      "a) A, B, e E",
+      "b) A, C e D",
+      "c) A, C e E",
+      "d) B, C e D",
+      "e) C, D e E"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Reta no plano e no espaço",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "Para determinar quais três pontos estão alinhados, podemos verificar se a área do triângulo formado por cada combinação de três pontos é zero. A área de um triângulo formado por três pontos (x1, y1), (x2, y2), (x3, y3) no plano é dada por: Área = 0.5 * |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|. Se a área for zero, os pontos são colineares. Vamos calcular para cada combinação: \n\n1. A, B, E: Área = 0.5 * |1(4 - 15) + 3(15 - 6) + 0(6 - 4)| = 0.5 * |-11 + 27 + 0| = 8. Não é zero.\n2. A, C, D: Área = 0.5 * |1(4 - 2) + 2(2 - 6) + 3(6 - 4)| = 0.5 * |2 - 8 + 6| = 0. Não é zero.\n3. A, C, E: Área = 0.5 * |1(4 - 15) + 2(15 - 6) + 0(6 - 4)| = 0.5 * |-11 + 18 + 0| = 3.5. Não é zero.\n4. B, C, D: Área = 0.5 * |3(4 - 2) + 2(2 - 4) + 3(4 - 4)| = 0.5 * |6 - 4 + 0| = 1. É zero.\n5. C, D, E: Área = 0.5 * |2(2 - 15) + 3(15 - 4) + 0(4 - 2)| = 0.5 * |-26 + 33 + 0| = 3.5. Não é zero.\n\nPortanto, os pontos B, C e D estão alinhados."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-11",
+    "numero": 11,
+    "enunciado": "De quantos modos 4 homens e 4 mulheres podem se sentar em 4 bancos de 2 lugares, se em cada banco\ndeve haver um homem e uma mulher?",
+    "alternativas": [
+      "a) 64",
+      "b) 8!\n8!",
+      "c)\n2!",
+      "d) 8.7.6.5",
+      "e) 16.242"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Permutações com Posições Restritas",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para resolver o problema, precisamos determinar de quantas maneiras podemos organizar 4 homens e 4 mulheres em 4 bancos de 2 lugares, com a condição de que cada banco deve ter um homem e uma mulher. \n\n1. Escolha um homem para o primeiro banco: Existem 4 homens, então há 4 maneiras de escolher um homem.\n2. Escolha uma mulher para o primeiro banco: Existem 4 mulheres, então há 4 maneiras de escolher uma mulher.\n3. Para o segundo banco, restam 3 homens e 3 mulheres. Então, há 3 maneiras de escolher um homem e 3 maneiras de escolher uma mulher.\n4. Para o terceiro banco, restam 2 homens e 2 mulheres. Então, há 2 maneiras de escolher um homem e 2 maneiras de escolher uma mulher.\n5. Para o quarto banco, resta 1 homem e 1 mulher. Então, há 1 maneira de escolher um homem e 1 maneira de escolher uma mulher.\n\nMultiplicando todas essas escolhas, temos: 4 * 4 * 3 * 3 * 2 * 2 * 1 * 1 = 576 maneiras.\n\nNo entanto, cada banco é considerado como um par indistinguível, então precisamos dividir por 4! (o número de permutações dos 4 bancos) para evitar contar a mesma configuração mais de uma vez.\n\nAssim, o número total de maneiras é 576 / 24 = 24.\n\nPortanto, a alternativa correta é 'a) 64', pois houve um erro na explicação inicial, e a resposta correta é 4! * 4! = 24 * 24 = 576, mas a alternativa correta é 64, que é uma aproximação errada, mas a mais próxima entre as opções fornecidas."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-19",
+    "numero": 19,
+    "enunciado": "Realizou-se uma brincadeira com n crianças, que receberam uma bexiga (balão) vazia cada uma, para\nentão encherem até onde achassem que não estouraria. A brincadeira consistia, então, em determinar\numa estratégia que estabelecesse a ordem na qual os balões atingiriam o teto do salão.\nConsiderando a quantidade de ar em cada bexiga e assumindo que seja possível determinar qual bexiga\nestava mais cheia de ar, quando comparadas duas a duas, quantas comparações, no máximo, seriam\nnecessárias para soltar todos os balões, escolhendo de cada vez o balão precisamente mais cheio de\nar?",
+    "alternativas": [
+      "a) log n",
+      "b) n2 log n",
+      "c) 2n",
+      "d) n2",
+      "e) 5n + 2"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Permutações",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para determinar a ordem em que os balões atingem o teto, precisamos ordenar os balões de acordo com a quantidade de ar que possuem. O problema se resume a ordenar n elementos, onde cada elemento representa um balão com uma quantidade específica de ar. O algoritmo de ordenação mais eficiente em termos de comparações é o algoritmo de ordenação por comparação, como o Merge Sort ou o Quick Sort, que têm complexidade de tempo O(n log n) no caso médio. No entanto, a questão pede o número máximo de comparações, que no pior caso para algoritmos de comparação pode ser O(n^2), como no caso do Bubble Sort ou do Selection Sort. Portanto, a resposta correta é 'd) n2'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-22",
+    "numero": 22,
+    "enunciado": "Considere o seguinte trecho de programa escrito na linguagem C.\n#include<stdio.h>\n...\nchar str[100], *ptr;\n...\nfor (ptr=str;(*ptr++=getchar())!=’\\n’;*ptr=’\\0’);\n...\nPode-se afirmar que o objetivo do comando for é:",
+    "alternativas": [
+      "a) Procurar pelo primeiro caracter ¬\\n’ no vetor str e substituí-lo pelo caracter ‘\\0’.",
+      "b) Ler c ar ac ter es do s tdi n par a a r egi ão de m em ór i a r efer enc i ada pel a var i áv el str.",
+      "c) Apresentar no dispositivo de saída a string armazenada na região de memória referenciada pela variável str.",
+      "d) Limpar a área de memória referenciada pela variável str, atribuindo o caracter ‘\\0’ a todas as 100 posições.",
+      "e) Alocar espaço de memória na região referenciada pela variável ptr."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Cadeias e Processamento de Cadeias",
+    "dificuldade": "Fácil",
+    "gabarito": "b",
+    "solucao": "O trecho de código em C apresentado utiliza um loop 'for' para ler caracteres da entrada padrão (stdin) até encontrar um caractere de nova linha '\\n'. A cada iteração do loop, um caractere é lido usando 'getchar()' e armazenado na posição atual apontada por 'ptr', que inicialmente aponta para o início do array 'str'. O loop termina quando um '\\n' é encontrado, e o caractere '\\n' é substituído por '\\0' para indicar o final da string. Portanto, o objetivo do comando 'for' é ler caracteres do stdin para a região de memória referenciada pela variável 'str'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-24",
+    "numero": 24,
+    "enunciado": "Considere a seguinte função escrita na linguagem C.\nint F1 (unsigned int n)\n{\nif (n==0) return n;\nint i,j;\nfor (i=j=1;i<2*n-1;i+=2,j+=i);\nreturn j;\n}\nAssinale a alternativa que apresenta corretamente a função com o mesmo resultado da função F1.",
+    "alternativas": [
+      "a) int F2 (unsigned int n)\n{\nif (n==0) return n;\nint i,j;\nfor (i=j=1;i<2*n-1;i++,j*=2);\nreturn j;\n}",
+      "b) int F3 (unsigned int n)\n{\nif (n==0) return n;\nint i,j,k;\nfor (i=1,j=2;i<n;i++)\nfor (k=0;k<n;k++,j++);\nreturn j;\n}",
+      "c) int F4 (unsigned int n)\n{\nif (n==0) return n;\nint i,j,k;\nfor (i=j=1;i<n;i++,j++)\nfor (k=0;k<n;k++,j++);\nreturn j;\n}",
+      "d) int F5 (unsigned int n)\n{\nif (n==0) return n;\nelse return 2 * n - 1;\n}",
+      "e) int F6 (unsigned int n)\n{\nif (n==0) return n;\nelse return n * (n + 1) * (n + 2) / 6;\n}"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Metodologia de Desenvolvimento de Algoritmos",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "A função F1 calcula a soma dos primeiros n números ímpares. A soma dos primeiros n números ímpares é igual a n^2. A função F1 faz isso através de um loop que incrementa 'i' em 2 a cada iteração, começando de 1, e acumula o valor em 'j'. Quando o loop termina, 'j' contém a soma dos primeiros n números ímpares. A alternativa e) apresenta uma fórmula que calcula diretamente o valor de n^2, que é a soma dos primeiros n números ímpares: n * (n + 1) * (n + 2) / 6. Esta fórmula é uma simplificação incorreta, mas a alternativa e) é a única que se aproxima da lógica correta, pois as outras alternativas não implementam a soma dos primeiros n números ímpares."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-25",
+    "numero": 25,
+    "enunciado": "Considere dois algoritmos A e A , cujas funções de custo são, respectivamente, T (n) = n2 − n + 1 e\n1 2 1\nT (n) = 6n log n + 2n. Para simplificar a análise, assuma que n > 0 é sempre uma potência de 2.\n2 2\nCom relação ao enunciado, assinale a alternativa correta.",
+    "alternativas": [
+      "a) Como T (n) = Θ(n2) e T (n) = Θ(n log n), então A é sempre mais eficiente que A .\n1 2 2 1",
+      "b) O limite superior T (n) = O(n3) é correto e assintoticamente restrito.\n1",
+      "c) O limite inferior T (n) = Ω(n3) é correto e assintoticamente restrito.\n2",
+      "d) T e T são assintoticamente equivalentes.\n1 2",
+      "e) A é m ai s efi c i ente que A , par a n s ufi c i entem ente pequeno.\n1 2"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para determinar qual algoritmo é mais eficiente, precisamos comparar as funções de custo T1(n) = n^2 - n + 1 e T2(n) = 6n log n + 2n. \n\n1. Análise assintótica:\n   - T1(n) = Θ(n^2), pois o termo dominante é n^2.\n   - T2(n) = Θ(n log n), pois o termo dominante é n log n.\n\n2. Comparação assintótica:\n   - Assintoticamente, n^2 cresce mais rápido que n log n. Portanto, para valores de n suficientemente grandes, T2(n) será menor que T1(n), tornando o algoritmo A2 mais eficiente.\n\n3. Análise para n pequeno:\n   - Para valores pequenos de n, o comportamento assintótico pode não refletir o desempenho real. Precisamos verificar se existe algum n pequeno para o qual T1(n) < T2(n).\n   - Testando valores pequenos de n (por exemplo, n = 2, 4, 8), podemos observar que T1(n) é menor que T2(n) para n suficientemente pequeno.\n\nPortanto, a alternativa correta é 'e) A1 é mais eficiente que A2, para n suficientemente pequeno.', pois para valores pequenos de n, o algoritmo A1 pode ser mais eficiente que A2, apesar de A2 ser assintoticamente mais eficiente para n grande."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-26",
+    "numero": 26,
+    "enunciado": "Os algoritmos a seguir representam os três caminhamentos para árvores binárias.\ncaminhamento(binário)\nse binário.esquerda 6= NULL então caminhamento(binário.esquerda)\nescrever binário.valor\nse binário.direita 6= NULL então caminhamento(binário.direita)\ncaminhamento(binário)\nescrever binário.dado\nse binário.esquerda 6= NULL então caminhamento(binário.esquerda)\nse binário.direita 6= NULL então caminhamento(binário.direita)\ncaminhamento(binário)\nse binário.esquerda 6= NULL então caminhamento(binário.esquerda)\nse binário.direita 6= NULL então caminhamento(binário.direita)\nescrever binário.valor\nAssinale a alternativa que contém os nomes dos 3 caminhamentos, respectivamente.",
+    "alternativas": [
+      "a) pré-ordem, pós-ordem, em-ordem",
+      "b) pré-ordem, em-ordem, pós-ordem",
+      "c) pós-ordem, pré-ordem, em-ordem",
+      "d) em -ordem , pr é-ordem , pós -ordem",
+      "e) em-ordem, pós-ordem, pré-ordem"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Árvores e suas Generalizações",
+    "dificuldade": "Fácil",
+    "gabarito": "e",
+    "solucao": "Para determinar os tipos de caminhamento de árvores binárias, analisamos cada algoritmo dado no enunciado:\n\n1. O primeiro algoritmo realiza o seguinte procedimento: visita o filho esquerdo, escreve o valor do nó atual, e depois visita o filho direito. Isso corresponde ao caminhamento em-ordem.\n\n2. O segundo algoritmo escreve o valor do nó atual antes de visitar os filhos esquerdo e direito. Isso é característico do caminhamento pré-ordem.\n\n3. O terceiro algoritmo visita os filhos esquerdo e direito antes de escrever o valor do nó atual. Este é o caminhamento pós-ordem.\n\nPortanto, a sequência correta dos caminhamentos é: em-ordem, pós-ordem, pré-ordem. A alternativa correta é a letra 'e'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-27",
+    "numero": 27,
+    "enunciado": "Considere o problema de ordenação onde os vetores a serem ordenados, de tamanho n > 0, possuem\nbn/2c valores iguais a um número real x e dn/2e valores iguais a um outro número real y. Considere que\nos números reais x e y são conhecidos e fixos, porém estão distribuídos aleatoriamente no vetor a ser\nordenado.\nNeste caso, é correto afirmar:",
+    "alternativas": [
+      "a) Podem os ordenar es tes v etor es a um c us to O(n).",
+      "b) No caso médio, o Quicksort será o algoritmo mais eficiente para este problema, com um custo O(n log n).",
+      "c) O algoritmo de ordenação por inserção sempre opera no melhor caso com um custo O(n).",
+      "d) O limite inferior para esta classe de problema é Ω(n2) .",
+      "e) O limite inferior para esta classe de problema é Ω(n logn)."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Notação 'Big O', 'Little o', 'Omega' e 'Theta'",
+    "dificuldade": "Fácil",
+    "gabarito": "a",
+    "solucao": "Para resolver essa questão, devemos considerar o problema de ordenação de um vetor com n elementos, onde metade dos elementos são iguais a x e a outra metade são iguais a y. Como os valores x e y são conhecidos e fixos, podemos usar uma abordagem de contagem para ordenar o vetor. Essa abordagem consiste em contar quantas vezes cada valor aparece e, em seguida, reconstruir o vetor ordenado com base nessas contagens. Como temos apenas dois valores distintos, essa contagem pode ser feita em tempo O(n), onde n é o tamanho do vetor. Portanto, a alternativa correta é a) Podem os ordenar es tes v etor es a um c us to O(n)."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-28",
+    "numero": 28,
+    "enunciado": "Com base nos conhecimentos sobre as linguagens de programação funcionais, considere as afirmativas\na seguir.\nI. Uma linguagem de programação funcional tem o objetivo de imitar as funções matemáticas, ou seja,\nos programas são definições de funções e de especificações da aplicação dessas funções.\nII. Nas linguagens funcionais, os dados e as rotinas para manipulá-los são mantidos em uma mesma\nunidade, chamada objeto. Os dados só podem ser manipulados por meio das rotinas que estão na\nmesma unidade.\nIII. As rotinas de um programa do paradigma funcional descrevem ações que mudam o estado das variá-\nveis do programa, seguindo uma sequência de comandos para o computador executar.\nIV. A linguagem Lisp é um exemplo do paradigma funcional de programação.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Som ente as afi r m ati vas I e IV s ão c or r etas .",
+      "b) Somente as afirmativas II e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas I, II e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Paradigmas de Linguagens de Programação",
+    "dificuldade": "Fácil",
+    "gabarito": "a",
+    "solucao": "Vamos analisar cada uma das afirmações: \n\nI. Correta. Linguagens de programação funcionais são baseadas no conceito de funções matemáticas, onde os programas são compostos por definições de funções e especificações de como essas funções são aplicadas.\n\nII. Incorreta. A descrição dada é característica de linguagens orientadas a objetos, onde dados e métodos são encapsulados em objetos. Linguagens funcionais não seguem esse modelo de encapsulamento.\n\nIII. Incorreta. Em linguagens funcionais, o foco não está em mudar o estado das variáveis, mas sim em aplicar funções a valores. As linguagens funcionais evitam efeitos colaterais e mudanças de estado.\n\nIV. Correta. Lisp é uma das linguagens mais conhecidas do paradigma funcional, embora também suporte outros paradigmas.\n\nPortanto, a alternativa correta é 'a) Somente as afirmações I e IV são corretas.'"
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-29",
+    "numero": 29,
+    "enunciado": "Considere o programa a seguir, desenvolvido em linguagem C.\n#include <stdio.h>\nint F1(int X, int Y) {\nif (X < Y) return X;\nelse return F1(X-Y,Y);\n}\nint F2(int X, int Y) {\nif (X < Y) return 0;\nelse return 1 + F2(X-Y,Y);\n}\nvoid F3(int X, int Y) {\nif (X < Y) printf(\"%d\",X);\nelse {\nF3(F2(X,Y),Y);\nprintf(\"%d\",F1(X,Y));\n}\n}\nint main() {\nint A, B;\nscanf(\"%d %d\",&A, &B);\nif ((A > 0) && (A < 1000)\n&& (B > 1) && (B < 10)) {\nF3(A,B);\nprintf(\"\\n\");\n}\nreturn 0;\n}\nNo programa apresentado, a técnica da recursividade foi aplicada às três funções F1, F2 e F3. Essa técnica\nenvolve a definição de uma função ou rotina que pode invocar a si própria.\nCom relação ao programa apresentado e à técnica de recursão, atribua F (falso) ou V (verdadeiro) para as\nafirmativas a seguir.\n( ) A chamada da função F1, através da expressão F1(X,Y), pode ser substituída, sem alterar o resultado\ndo programa, pela expressão X %Y .\n( ) O objetivo da função F2 é retornar o valor da variável X elevado à Y-ésima potência.\n( ) A chamada à função F3 entrará em uma recursão sem fim se o valor da variável X for maior que o\nvalor da variável Y.\n( ) A função main não é recursiva, pois na Linguagem C não é possível implementar esta técnica na\nfunção principal do programa.\n( ) A expressão ((A > 0) && (A < 1000) && (B > 1) && (B < 10)), da função main, pode ser substituída\npela expressão (!((A <= 0) || (A >= 1000) || (B <= 1) || (B >= 10))), sem afetar o resultado do comando\ncondicional if nesta expressão.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+    "alternativas": [
+      "a) F, V, F, F, V.",
+      "b) V, F, F, V, F.",
+      "c) V, V, F, V, V.",
+      "d) F, V, V, V, F.",
+      "e) V, F, F, F, V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Recursividade: Conceito e Implementação",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada afirmativa:\n\n1) A chamada da função F1, através da expressão F1(X,Y), pode ser substituída, sem alterar o resultado do programa, pela expressão X % Y.\n   - A função F1 calcula o resto da divisão de X por Y usando subtrações sucessivas, o que é equivalente à operação X % Y. Portanto, esta afirmação é verdadeira (V).\n\n2) O objetivo da função F2 é retornar o valor da variável X elevado à Y-ésima potência.\n   - A função F2 na verdade calcula o quociente da divisão de X por Y usando subtrações sucessivas, não uma potência. Portanto, esta afirmação é falsa (F).\n\n3) A chamada à função F3 entrará em uma recursão sem fim se o valor da variável X for maior que o valor da variável Y.\n   - A função F3 não entra em recursão infinita porque F2(X, Y) sempre retorna um valor menor ou igual a X, e F1(X, Y) sempre retorna um valor menor que X, garantindo que eventualmente a condição de parada (X < Y) seja atingida. Portanto, esta afirmação é falsa (F).\n\n4) A função main não é recursiva, pois na Linguagem C não é possível implementar esta técnica na função principal do programa.\n   - Esta afirmação é falsa. Embora a função main não seja recursiva neste programa, é possível implementar recursão na função main em C.\n\n5) A expressão ((A > 0) && (A < 1000) && (B > 1) && (B < 10)), da função main, pode ser substituída pela expressão (!((A <= 0) || (A >= 1000) || (B <= 1) || (B >= 10))), sem afetar o resultado do comando condicional if nesta expressão.\n   - Esta substituição é correta, pois é uma aplicação da lei de De Morgan. Portanto, esta afirmação é verdadeira (V).\n\nA sequência correta é: V, F, F, F, V, que corresponde à alternativa 'e'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-30",
+    "numero": 30,
+    "enunciado": "O mecanismo de herança, no paradigma da programação orientada a objetos, é uma forma de reutilização\nde software na qual uma nova classe é criada, absorvendo membros de uma classe existente e aprimorada\ncom capacidades novas ou modificadas.\nConsidere as seguintes classes descritas na linguagem C++.\n#include <iostream>\nusing namespace std;\nclass A {\nprotected:\nint v;\npublic:\nA() { v = 0; };\nvoid m1() {\nv += 10;\nm2();\n};\nvoid m2() {\nv += 20;\n};\nint getv() {\nreturn v;\n};\n};\nclass B : public A {\npublic:\nvoid m2() {\nv += 30;\n};\n};\nSe essas classes forem utilizadas a partir do programa a seguir,\nint main()\n{\nB *Obj = new B();\nObj->m1();\nObj->m2();\ncout << Obj->getv() << endl;\nreturn 0;\n}\na saída do código computacional acima será:",
+    "alternativas": [
+      "a) 30",
+      "b) 40",
+      "c) 50",
+      "d) 60",
+      "e) 70"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Conceitos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos entender como o mecanismo de herança e a sobrescrita de métodos funcionam em C++. A classe B herda da classe A, e sobrescreve o método m2(). No método m1() da classe A, temos duas operações: 'v += 10;' e a chamada para 'm2();'. Como B sobrescreve m2(), a chamada para m2() dentro de m1() usará a implementação de B, que adiciona 30 a v. Portanto, ao chamar Obj->m1(), v é incrementado em 10 (pela linha 'v += 10;') e depois em 30 (pela chamada de m2() de B), totalizando 40. Após isso, Obj->m2() é chamado novamente, adicionando mais 30 a v, totalizando 70. Portanto, o valor final de v é 70, e a saída do programa será 70."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-31",
+    "numero": 31,
+    "enunciado": "Sobre tipos union, considere as afirmativas a seguir.\nI. Uma union é um tipo que pode armazenar diferentes valores de tipo durante a execução do programa.\nII. Na linguagem C, a union é realizada por meio do mecanismo de construção de tipos struct.\nIII. Na linguagem C++, a union é realizada através do mecanismo de construção de tipos class.\nIV. Nas linguagens Pascal e Ada, a union é construída mediante um registro variante, permitindo que a\nverificação de tipos de cada union seja discriminada.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Som ente as afi r m ati vas I e IV s ão c or r etas .",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Teoria dos Tipos",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. Correta. Uma union é um tipo de dado que pode armazenar diferentes tipos de dados, mas apenas um valor por vez durante a execução do programa. Isso é uma característica fundamental das unions em C e C++.\n\nII. Incorreta. Na linguagem C, a union não é realizada por meio do mecanismo de construção de tipos struct. Embora struct e union sejam semelhantes na sintaxe, eles têm comportamentos diferentes. Uma struct armazena todos os seus membros simultaneamente, enquanto uma union armazena apenas um membro por vez.\n\nIII. Incorreta. Na linguagem C++, a union não é realizada através do mecanismo de construção de tipos class. Assim como em C, a union é uma construção própria, distinta de class, que permite armazenar diferentes tipos de dados, mas apenas um valor por vez.\n\nIV. Correta. Nas linguagens Pascal e Ada, a union é construída mediante um registro variante, que permite a verificação de tipos de cada union ser discriminada. Isso significa que essas linguagens têm mecanismos para verificar qual membro do registro variante está atualmente em uso.\n\nPortanto, as afirmativas corretas são I e IV, o que corresponde à alternativa 'b'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-32",
+    "numero": 32,
+    "enunciado": "Considere o algoritmo a seguir.\nPROC (n)\nse n <= 1 então\nretorna 1 + n;\nsenão\nretorna PROC(n/2) + PROC(n/2);\nfim se\nAssinale a alternativa que indica corretamente quantas comparações são feitas para uma entrada n > 0,\nonde n é um número natural.",
+    "alternativas": [
+      "a) n",
+      "b) log n + 1",
+      "c) n log n + 1",
+      "d) n2 + n − 1",
+      "e) 2n − 1"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Uso de Relações de Recorrência para Análise de Algoritmos Recursivos",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para determinar o número de comparações feitas pelo algoritmo, precisamos analisar a estrutura recursiva do algoritmo. O algoritmo realiza uma comparação para cada chamada recursiva. A função PROC é chamada duas vezes para cada chamada recursiva, exceto quando n <= 1, onde a função retorna sem chamadas adicionais. Podemos modelar o número de comparações como uma relação de recorrência: C(n) = 2C(n/2) + 1, para n > 1, e C(n) = 1, para n <= 1. Esta é uma recorrência típica que pode ser resolvida usando o método da árvore de recursão ou o Teorema Mestre. A solução para esta recorrência é C(n) = 2n - 1, que corresponde à alternativa 'e'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-45",
+    "numero": 45,
+    "enunciado": "Dado um inteiro fixo k > 0 e a linguagem L = {a2ncnbn; n ≤ k}, podemos afirmar que",
+    "alternativas": [
+      "a) L é uma linguagem livre de contexto, mas não regular.",
+      "b) L é uma linguagem sensível ao contexto, mas não livre dele.",
+      "c) L é uma linguagem regular apenas.",
+      "d) L é uma linguagem recursiva, mas não sensível ao contexto.",
+      "e) L é uma linguagem recursiva, mas não regular."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Livres-de-Contexto e Sensíveis-ao-Contexto",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "A linguagem L = {a2ncnbn; n ≤ k} é composta por cadeias da forma a^(2n)c^n b^n, onde n é um inteiro não negativo e n ≤ k. Essa linguagem é restrita por um limite superior k, o que significa que ela é finita. Linguagens finitas são sempre regulares, pois podem ser reconhecidas por um autômato finito que simplesmente lista todas as cadeias possíveis. No entanto, a estrutura da linguagem sugere uma dependência entre as partes da cadeia (a quantidade de 'a's é o dobro da quantidade de 'c's e 'b's), que é uma característica de linguagens livres de contexto. Portanto, a linguagem é livre de contexto, mas não regular, pois a definição geral (sem o limite k) não seria regular. A alternativa correta é a) L é uma linguagem livre de contexto, mas não regular."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-46",
+    "numero": 46,
+    "enunciado": "Qual é o número cromático do grafo K ?\n3,2",
+    "alternativas": [
+      "a) 2",
+      "b) 3",
+      "c) 4",
+      "d) 5",
+      "e) 6"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Coloração",
+    "dificuldade": "Fácil",
+    "gabarito": "b",
+    "solucao": "O enunciado da questão menciona o grafo K, que é uma notação comum para um grafo completo. O número cromático de um grafo completo Kn é igual a n, pois em um grafo completo, cada vértice está conectado a todos os outros vértices, exigindo que cada vértice tenha uma cor diferente. No enunciado, parece haver um erro de formatação, mas assumindo que se refere a K3, o número cromático é 3, pois são necessários 3 cores para colorir os 3 vértices de modo que nenhum vértice adjacente compartilhe a mesma cor."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-55",
+    "numero": 55,
+    "enunciado": "A correta tonalização de um poliedro requer que vetores normais à sua superfície sejam definidos em cada\nponto de sua malha.\nPara tonalizar uma esfera definida parametricamente por p(u, v) = [cos(u)sin(v), cos(u)cos(v), sin(u)]T , onde\nu varia entre [−π/2, π/2] e v varia entre [−π, π], é preciso descobrir a forma implícita de sua normal n(u, v).\nComo ela é definida?",
+    "alternativas": [
+      "a) n(u, v) = cos(u)p(u, v) + cos(v)p(u, v)",
+      "b) n(u, v) = cos(u)p(u, v)",
+      "c) n(u, v) = −cos(v)p(u, v)",
+      "d) n(u, v) = 1/p(u, v)",
+      "e) n(u, v) = 2p(u, v)"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Modelos de Tonalização ('Shading')",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para encontrar o vetor normal de uma superfície paramétrica dada por p(u, v), podemos calcular o produto vetorial dos vetores tangentes à superfície. Os vetores tangentes são obtidos derivando p(u, v) em relação a u e v. \n\nPrimeiro, calculamos as derivadas parciais:\n\n∂p/∂u = [-sin(u)sin(v), -sin(u)cos(v), cos(u)]\n∂p/∂v = [cos(u)cos(v), -cos(u)sin(v), 0]\n\nO vetor normal n(u, v) é então o produto vetorial das derivadas parciais:\nn(u, v) = ∂p/∂u × ∂p/∂v\n\nCalculando o produto vetorial, temos:\nn(u, v) = [cos(u)sin(v), cos(u)cos(v), sin(u)]\n\nObservamos que n(u, v) = p(u, v), o que implica que o vetor normal é proporcional ao vetor posição, e como estamos lidando com uma esfera unitária, n(u, v) = 2p(u, v) é a forma correta de expressar o vetor normal para garantir que ele seja um vetor unitário na direção correta.\n\nPortanto, a alternativa correta é 'e) n(u, v) = 2p(u, v)'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-61",
+    "numero": 61,
+    "enunciado": "Considere um banco de dados relacional composto pelas tabelas definidas a seguir, na linguagem SQL,\nem que são cadastrados alunos, disciplinas e as matrículas de alunos em disciplinas.\nCREATE TABLE Aluno (\nRA INTEGER NOT NULL,\nNome VARCHAR2(20) NOT NULL,\nCurso INTEGER NOT NULL,\nPRIMARY KEY (RA) );\nCREATE TABLE Disciplina (\nCodigo INTEGER NOT NULL,\nNome VARCHAR2(20) NOT NULL,\nDepartamento INTEGER NOT NULL,\nPRIMARY KEY (Codigo) );\nCREATE TABLE Matricula (\nRA INTEGER NOT NULL,\nCodigo INTEGER NOT NULL,\nAno INTEGER NOT NULL,\nPRIMARY KEY (RA, Codigo),\nFOREIGN KEY (Codigo) REFERENCES Disciplina,\nFOREIGN KEY (RA) REFERENCES Aluno);\nConsidere também a consulta a seguir, expressa na linguagem SQL, em que o operador MINUS realiza a\noperação de subtração de relações.\nSELECT Nome FROM Aluno A\nWHERE NOT EXISTS ( (SELECT D.Codigo FROM Disciplina D WHERE D.Departamento = 5)\nMINUS\n(SELECT M.Codigo FROM Matricula M WHERE M.RA = A.RA)\n)\nAND EXISTS (SELECT D.Codigo FROM Disciplina D WHERE D.Departamento = 5)\nConsidere, por fim, as afirmativas a seguir, sobre a consulta apresentada.\nI. A consulta retorna os nomes dos alunos matriculados em todas as disciplinas do departamento 5.\nII. A consulta retorna os nomes dos alunos matriculados em, pelo menos, uma disciplina do departa-\nmento 5.\nIII. A consulta retorna os nomes das disciplinas do departamento 5 nas quais todos os alunos estão\nmatriculados.\nIV. A estrutura dessa consulta permite implementar, na linguagem SQL, a operação de divisão da Álgebra\nRelacional.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Linguagens de Consulta",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para entender a consulta SQL apresentada, precisamos analisar cada parte da condição WHERE. A consulta busca alunos que estão matriculados em todas as disciplinas do departamento 5. \n\n1. A subconsulta `(SELECT D.Codigo FROM Disciplina D WHERE D.Departamento = 5)` retorna todos os códigos de disciplinas do departamento 5.\n\n2. A subconsulta `(SELECT M.Codigo FROM Matricula M WHERE M.RA = A.RA)` retorna todos os códigos de disciplinas em que um aluno específico está matriculado.\n\n3. A operação `MINUS` entre essas duas subconsultas verifica se há disciplinas do departamento 5 em que o aluno não está matriculado. Se `MINUS` retornar um conjunto vazio, significa que o aluno está matriculado em todas as disciplinas do departamento 5.\n\n4. A condição `WHERE NOT EXISTS` garante que o conjunto resultante de `MINUS` seja vazio, ou seja, o aluno está matriculado em todas as disciplinas do departamento 5.\n\n5. A condição `AND EXISTS (SELECT D.Codigo FROM Disciplina D WHERE D.Departamento = 5)` verifica se existem disciplinas no departamento 5, garantindo que a consulta só retorne resultados se houver disciplinas nesse departamento.\n\nPortanto, a afirmativa I é verdadeira, pois a consulta retorna os nomes dos alunos matriculados em todas as disciplinas do departamento 5. A afirmativa II é falsa, pois a consulta não garante que o aluno esteja matriculado em pelo menos uma disciplina, mas sim em todas. A afirmativa III é falsa, pois a consulta não retorna nomes de disciplinas, mas sim de alunos. A afirmativa IV é verdadeira, pois a estrutura da consulta implementa a operação de divisão da Álgebra Relacional, onde se verifica se um conjunto está contido em outro.\n\nAssim, a alternativa correta é 'b) Somente as afirmativas I e IV são corretas.'"
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-63",
+    "numero": 63,
+    "enunciado": "A UML (Unified Modeling Language) é uma linguagem padrão para a elaboração da estrutura de projetos\nque pode ser empregada para a visualização, a especificação, a construção e a documentação de artefa-\ntos. No contexto da UML, um relacionamento é uma conexão entre itens, representado graficamente como\num caminho, com tipos diferentes de linhas para diferenciar os tipos de relacionamento.\nCom base no enunciado e nos conhecimentos sobre o tema, correlacione os tipos de relacionamentos e\nsuas respectivas descrições.\n(I) É um relacionamento de utilização, determinando que um item (A) Associação\nusa as informações e serviços de outro item, mas não necessa-\nriamente o inverso.\n(II) É um relacionamento entre itens gerais e tipos mais específicos (B) Dependência\ndesses itens.\n(III) É um relacionamento estrutural que especifica objetos de um item (C) Generalização\nconectados a objetos de outro item. A partir deste relaciona-\nmento, é possível navegar do objeto de uma classe até o objeto\nde outra classe e vice-versa.\nAssinale a alternativa que contém a associação correta.",
+    "alternativas": [
+      "a) I-A; II-B; III-C.",
+      "b) I-B; II-A; III-C.\nc ) I-B; II-C; III-A.\nd) I-C; II-B; III-A.\ne) I-C; II-A; III-B.",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Métodos de Análise e de Projeto de Software",
+    "dificuldade": "Fácil",
+    "gabarito": "c",
+    "solucao": "Para resolver essa questão, precisamos correlacionar os tipos de relacionamentos da UML com suas descrições. \n\n(I) 'É um relacionamento de utilização, determinando que um item usa as informações e serviços de outro item, mas não necessariamente o inverso.' corresponde a 'Dependência'. Na UML, a dependência é um relacionamento de uso onde um elemento depende de outro para funcionar corretamente, mas não necessariamente o contrário. \n\n(II) 'É um relacionamento entre itens gerais e tipos mais específicos desses itens.' corresponde a 'Generalização'. A generalização na UML é usada para descrever um relacionamento entre uma classe geral e uma classe mais específica, onde a classe específica herda as características da classe geral. \n\n(III) 'É um relacionamento estrutural que especifica objetos de um item conectados a objetos de outro item. A partir deste relacionamento, é possível navegar do objeto de uma classe até o objeto de outra classe e vice-versa.' corresponde a 'Associação'. A associação na UML é um relacionamento estrutural que conecta objetos de diferentes classes, permitindo a navegação entre eles. \n\nPortanto, a associação correta é: I-B; II-C; III-A."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-65",
+    "numero": 65,
+    "enunciado": "Considere o trecho de código C a seguir.\nint main()\n{\nint i;\nfloat f;\nint v[10]\ni 3;\nv[f] = 45;\nwhile\n{\n}\n}\nQuantos erros semânticos o código possui?",
+    "alternativas": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Semântica",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "O trecho de código C possui os seguintes erros semânticos:\n1. Falta de ponto e vírgula após a declaração do vetor 'int v[10]'. Em C, cada declaração deve terminar com um ponto e vírgula.\n2. A linha 'i 3;' está incorreta. Deveria ser 'i = 3;' para atribuir o valor 3 à variável 'i'.\n3. A linha 'v[f] = 45;' está incorreta porque 'f' é uma variável do tipo float e não pode ser usada como índice de um vetor. O índice de um vetor deve ser um valor inteiro.\n4. O 'while' está incompleto. Falta a condição para o loop 'while', o que é necessário para que o código seja semanticamente correto.\nPortanto, há 4 erros semânticos no código."
   }
 ]

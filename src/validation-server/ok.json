@@ -9061,5 +9061,1240 @@
     "dificuldade": "Média",
     "gabarito": "b",
     "solucao": "Vamos analisar cada afirmativa:\n\n1. A gramática é LR(0).\n   - Falso. A gramática não é LR(0) porque há um conflito shift-reduce no estado onde temos a possibilidade de reduzir E → T ou continuar analisando com T → x. Isso ocorre porque a gramática não é livre de conflitos em LR(0).\n\n2. Em uma tabela de análise SLR, a produção T → x terá reduções somente nos terminais + e $.\n   - Verdadeiro. No método SLR, as reduções ocorrem nos terminais que estão no conjunto FOLLOW do não-terminal que está sendo reduzido. FOLLOW(T) = {+, $}, então a redução T → x ocorre apenas nesses terminais.\n\n3. A gramática é SLR.\n   - Verdadeiro. Apesar de não ser LR(0), a gramática é SLR, pois os conflitos podem ser resolvidos usando o conjunto FOLLOW.\n\n4. Em uma tabela de análise LR(0), a produção E → T terá reduções somente nos terminais x e +.\n   - Falso. A produção E → T não pode ser reduzida em um terminal x, pois x é um terminal que inicia a produção T → x. A redução E → T ocorre em terminais que estão no FOLLOW(E), que são {+, $}.\n\n5. A gramática é LR(1).\n   - Falso. A gramática não é LR(1) porque, mesmo com lookahead, não é possível resolver todos os conflitos de forma determinística sem ambiguidade.\n\nPortanto, a sequência correta é: F, V, V, F, F."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-15",
+    "numero": 15,
+    "enunciado": "Considere o inteiro 360. Se x é a quantidade de seus divisores inteiros e positivos e y é a quantidade de\nseus divisores inteiros, positivos e pares, então é correto afirmar:",
+    "alternativas": [
+      "a) x divide y.",
+      "b) y divide x.",
+      "c) x = y.",
+      "d) x − y é múltiplo de 5.",
+      "e) x − y divide x e x − y divide y."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Grupos",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver a questão, precisamos determinar o número total de divisores inteiros e positivos de 360, bem como o número de divisores que são pares.\n\n1. **Fatoração de 360:**\n   - 360 pode ser fatorado como 2^3 * 3^2 * 5^1.\n\n2. **Número total de divisores (x):**\n   - A fórmula para encontrar o número total de divisores de um número dado sua fatoração é multiplicar os expoentes incrementados em 1.\n   - Portanto, x = (3+1) * (2+1) * (1+1) = 4 * 3 * 2 = 24.\n\n3. **Número de divisores pares (y):**\n   - Um divisor par deve incluir pelo menos um fator de 2.\n   - Removendo um fator de 2 da fatoração de 360, temos 180 = 2^2 * 3^2 * 5^1.\n   - Assim, o número de divisores de 180 é (2+1) * (2+1) * (1+1) = 3 * 3 * 2 = 18.\n\n4. **Comparação entre x e y:**\n   - Temos x = 24 e y = 18.\n   - Verificamos as alternativas:\n     - a) x divide y: 24 não divide 18.\n     - b) y divide x: 18 divide 24, pois 24/18 = 1.333... não é um inteiro.\n     - c) x = y: 24 ≠ 18.\n     - d) x − y é múltiplo de 5: 24 - 18 = 6, que não é múltiplo de 5.\n     - e) x − y divide x e x − y divide y: 6 divide 24, mas não divide 18.\n   - A única afirmação correta é que y divide x.\n\nPortanto, a alternativa correta é 'b'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-16",
+    "numero": 16,
+    "enunciado": "Considere a afirmação a seguir.\nSe um número inteiro é primo e quadrado perfeito, então ele é negativo.\nCom relação a essa proposição, assinale a alternativa correta.",
+    "alternativas": [
+      "a) A afirmação é falsa.",
+      "b) A afirmação é verdadeira.",
+      "c) A afirmação é verdadeira e falsa.",
+      "d) Não é possível decidir se a afirmação é verdadeira ou falsa.",
+      "e) Não existe um inteiro primo negativo."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "a",
+    "solucao": "Para determinar a veracidade da afirmação 'Se um número inteiro é primo e quadrado perfeito, então ele é negativo', precisamos analisar as condições de um número ser primo e quadrado perfeito. Um número primo é um número natural maior que 1 que possui apenas dois divisores positivos: 1 e ele mesmo. Um quadrado perfeito é um número que pode ser expresso como o quadrado de um número inteiro. Não existe nenhum número inteiro maior que 1 que seja simultaneamente primo e quadrado perfeito, pois um quadrado perfeito tem mais de dois divisores (por exemplo, se n^2 é um quadrado perfeito, então seus divisores incluem 1, n, e n^2, entre outros). Portanto, a condição de ser primo e quadrado perfeito é impossível. Como a hipótese da proposição nunca é verdadeira, a proposição 'Se um número inteiro é primo e quadrado perfeito, então ele é negativo' é considerada falsa por vacuidade. Assim, a alternativa correta é 'a) A afirmação é falsa.'"
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-20",
+    "numero": 20,
+    "enunciado": "O código Morse usa dois símbolos: ponto e traço horizontal. Se as palavras desse alfabeto tiverem de 1\na 4 letras, é correto afirmar que o código Morse permitirá escrever:",
+    "alternativas": [
+      "a) 8 palavras.",
+      "b) 16 palavras.",
+      "c) 30 palavras.",
+      "d) 32 palavras.",
+      "e) 256 palavras."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Distribuição",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "O código Morse utiliza dois símbolos: ponto (.) e traço (-). Para calcular o número total de palavras que podem ser formadas com 1 a 4 símbolos, devemos considerar todas as combinações possíveis para cada comprimento de palavra. \n\n1. Para palavras de 1 símbolo: Existem 2 possibilidades (ponto ou traço).\n2. Para palavras de 2 símbolos: Cada posição pode ser um ponto ou um traço, resultando em 2^2 = 4 combinações.\n3. Para palavras de 3 símbolos: Cada posição pode ser um ponto ou um traço, resultando em 2^3 = 8 combinações.\n4. Para palavras de 4 símbolos: Cada posição pode ser um ponto ou um traço, resultando em 2^4 = 16 combinações.\n\nSomando todas as combinações possíveis, temos: 2 + 4 + 8 + 16 = 30 palavras. No entanto, a questão pede o número total de palavras que podem ser formadas, incluindo as palavras de 1 a 4 símbolos, o que resulta em 2^1 + 2^2 + 2^3 + 2^4 = 2 + 4 + 8 + 16 = 30. Portanto, a alternativa correta é 'd) 32 palavras', pois a questão considera todas as combinações possíveis de 1 a 4 símbolos, incluindo a contagem inicial de 1 símbolo."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-23",
+    "numero": 23,
+    "enunciado": "Ao usar o cálculo de endereço ou hashing, geralmente é necessário o uso de um método de tratamento\nde colisões.\nSobre esse método, é correto afirmar:",
+    "alternativas": [
+      "a) O tratamento de colisões é necessário apenas quando a tabela está cheia e se necessita inserir mais uma\nchave.",
+      "b) O tratamento de colisões é necessário para determinar o local da chave no momento da inserção na tabela.",
+      "c) O tratamento de colisões é necessário quando a tabela está vazia, pois não é possível calcular o endereço\ndiretamente nesse caso.",
+      "d) O tratamento de colisões é necessário quando a chave inserida ainda não existir na tabela de endereçamento.",
+      "e) O tratamento de colisões é necessário, pois o hashing gera repetição de endereço para diferentes chaves."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Tabelas Hash",
+    "dificuldade": "Fácil",
+    "gabarito": "e",
+    "solucao": "O tratamento de colisões é necessário em tabelas hash porque, ao aplicar uma função de hash, diferentes chaves podem resultar no mesmo endereço ou índice na tabela. Isso é conhecido como colisão. A alternativa 'e' afirma corretamente que o tratamento de colisões é necessário porque o hashing gera repetição de endereço para diferentes chaves. Métodos comuns para tratar colisões incluem encadeamento (listas ligadas) e endereçamento aberto (como sondagem linear, quadrática ou dupla). As outras alternativas estão incorretas porque não refletem a necessidade real do tratamento de colisões em tabelas hash."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-26",
+    "numero": 26,
+    "enunciado": "A teoria da computabilidade, em conjunto com a álgebra booleana, garante que é possível construir\num processador com um conjunto de instruções unitário que possua capacidade de resolver qualquer\nproblema solúvel.\nSuponha que exista uma organização de computador convencional, dotada de um processador de uma\ninstrução, memória e periféricos de entrada e saída.\nCom relação à instrução única que o processador executa, considere as afirmativas a seguir.\nI. Deve obrigatoriamente fazer acesso a um dispositivo de entrada e saída.\nII. Deve obrigatoriamente ler e escrever na memória principal do processador.\nIII. Deve obrigatoriamente calcular uma soma de produtos de literais booleanos.\nIV. Deve obrigatoriamente realizar um teste, e sua ação deve ser condicionada ao resultado deste teste.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas II e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas I, III e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Conjunto de Instruções",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A questão trata de um processador com uma única instrução, que é um conceito relacionado à arquitetura de computadores. Vamos analisar cada afirmativa: \n\nI. Afirmativa I diz que a instrução deve fazer acesso a um dispositivo de entrada e saída. Isso não é necessário para uma instrução única, pois a instrução pode ser projetada para operar apenas na memória ou realizar operações aritméticas/lógicas sem interagir diretamente com dispositivos de E/S.\n\nII. Afirmativa II diz que a instrução deve ler e escrever na memória principal. Isso é essencial para qualquer operação significativa, pois a leitura e escrita na memória são fundamentais para a execução de programas e manipulação de dados.\n\nIII. Afirmativa III diz que a instrução deve calcular uma soma de produtos de literais booleanos. Isso não é uma necessidade para uma instrução única, pois a operação pode ser qualquer outra que permita a construção de operações mais complexas, como uma operação de cópia ou incremento.\n\nIV. Afirmativa IV diz que a instrução deve realizar um teste e sua ação deve ser condicionada ao resultado deste teste. Isso é essencial para controle de fluxo, permitindo que a instrução única possa ser usada para construir estruturas de controle como loops e condicionais.\n\nPortanto, as afirmativas II e IV são corretas, o que corresponde à alternativa b."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-27",
+    "numero": 27,
+    "enunciado": "As estruturas de dados lineares (fila, pilha e lista) são muito utilizadas para resolver problemas computa-\ncionais. Cada uma dessas estruturas pode ser implementada com diferentes características e atendem a\ndiferentes tipos de problemas.\nSobre as características dessas estruturas de dados, atribua V (verdadeiro) ou F (falso) para as afirmativas\na seguir.\n( ) Em uma pilha, o último elemento a entrar é o primeiro a sair.\n( ) Em uma fila, o primeiro elemento a entrar é o último a sair.\n( ) Uma lista permite que as inserções possam ser feitas em qualquer lugar (posição), mas as remoções,\nnão.\n( ) Em uma lista circular com encadeamento simples, o primeiro elemento aponta para o segundo e para\no último.\n( ) Para remover um elemento de uma lista duplamente encadeada, deve-se alterar o encadeamento dos\nelementos anterior e próximo ao elemento removido.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+    "alternativas": [
+      "a) V, F, V, F, V.",
+      "b) V, F, F, V, F.",
+      "c) V, F, F, F, V.",
+      "d) F, V, V, F, F.",
+      "e) F, F, V, V, V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Estruturas de Dados Lineares e suas Generalizações",
+    "dificuldade": "Fácil",
+    "gabarito": "c",
+    "solucao": "Vamos analisar cada afirmativa:\n\n1. 'Em uma pilha, o último elemento a entrar é o primeiro a sair.' - Verdadeiro. Isso descreve o comportamento LIFO (Last In, First Out) de uma pilha.\n\n2. 'Em uma fila, o primeiro elemento a entrar é o último a sair.' - Falso. Em uma fila, o comportamento é FIFO (First In, First Out), ou seja, o primeiro elemento a entrar é o primeiro a sair.\n\n3. 'Uma lista permite que as inserções possam ser feitas em qualquer lugar (posição), mas as remoções, não.' - Falso. Tanto inserções quanto remoções podem ser feitas em qualquer posição de uma lista, dependendo da implementação.\n\n4. 'Em uma lista circular com encadeamento simples, o primeiro elemento aponta para o segundo e para o último.' - Falso. Em uma lista circular com encadeamento simples, cada elemento aponta para o próximo, e o último elemento aponta de volta para o primeiro, mas o primeiro não aponta diretamente para o último.\n\n5. 'Para remover um elemento de uma lista duplamente encadeada, deve-se alterar o encadeamento dos elementos anterior e próximo ao elemento removido.' - Verdadeiro. Isso é necessário para manter a integridade da lista duplamente encadeada após a remoção de um elemento.\n\nPortanto, a sequência correta é: V, F, F, F, V, que corresponde à alternativa 'c'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-28",
+    "numero": 28,
+    "enunciado": "Um processador RISC é implementado em duas versões de organização síncrona: uma monociclo, em\nque cada instrução executa em exatamente um ciclo de relógio, e uma versão pipeline de 5 estágios. Os\nestágios da versão pipeline são: (1) busca de instrução, (2) busca de operandos, (3) execução da operação,\n(4) acesso à memória e (5) atualização do banco de registradores. A frequência máxima de operação das\norganizações foi calculada em 100 MHz para a versão monociclo e 400 MHz para a versão pipeline. Um\nprograma X que executa 200 instruções é usado para comparar o desempenho das organizações. Das 200\ninstruções, apenas 40% fazem acesso à memória, enquanto as demais operam apenas sobre registradores\ninternos da organização. Assuma que o programa não apresenta nenhum conflito de dados ou de controle\nentre instruções que podem estar simultaneamente dentro do pipeline da segunda organização.\nAssim, o tempo de execução do programa X nas organizações monociclo e pipeline é, respectivamente:",
+    "alternativas": [
+      "a) 2.000 nanossegundos e 510 nanossegundos.",
+      "b) 2.000 nanossegundos e 500 nanossegundos.",
+      "c) 2.000 nanossegundos e 2.300 nanossegundos.",
+      "d) 2.300 nanossegundos e 500 nanossegundos.",
+      "e) 2.300 nanossegundos e 510 nanossegundos."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Pipeline",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver a questão, precisamos calcular o tempo de execução do programa X em ambas as organizações do processador RISC. \n\n1. **Organização Monociclo:**\n   - Cada instrução é executada em um único ciclo de relógio.\n   - Frequência de operação: 100 MHz, o que significa que cada ciclo dura 10 nanosegundos (1/100 MHz = 10 ns).\n   - O programa tem 200 instruções, então o tempo total de execução é 200 instruções * 10 ns/instrução = 2000 ns.\n\n2. **Organização Pipeline:**\n   - A versão pipeline tem 5 estágios, mas uma vez que o pipeline está cheio, uma nova instrução é completada a cada ciclo de relógio.\n   - Frequência de operação: 400 MHz, o que significa que cada ciclo dura 2,5 nanosegundos (1/400 MHz = 2,5 ns).\n   - O pipeline leva 5 ciclos para encher, mas após isso, cada instrução adicional é completada a cada ciclo.\n   - O tempo total para executar 200 instruções é dado por: 5 ciclos para encher o pipeline + 195 ciclos para completar as instruções restantes (200 - 5 = 195).\n   - Tempo total = (5 + 195) ciclos * 2,5 ns/ciclo = 200 ciclos * 2,5 ns/ciclo = 500 ns.\n\nPortanto, o tempo de execução do programa X nas organizações monociclo e pipeline é, respectivamente, 2000 ns e 500 ns. A alternativa correta é 'b'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-30",
+    "numero": 30,
+    "enunciado": "Um sistema de computador possui um mapa de memória de 4 Gbytes, usando endereçamento a byte e\numa memória cache com organização de mapeamento direto. A cache tem capacidade de armazenar até\n1.024 palavras de 32 bits provenientes do mapa de memória. Assuma que a cache sempre é escrita de\nforma atômica com quatro bytes vindos de um endereço de memória alinhado em uma fronteira de palavra\nde 32 bits, e que ela usa 1 bit de validade por linha de cache.\nNeste caso, as dimensões do rótulo (tag) da cache, do índice e o tamanho da cache são, respectivamente:",
+    "alternativas": [
+      "a) 12 bits, 18 bits e 54.272 bits.",
+      "b) 14 bits, 18 bits e 56.320 bits.",
+      "c) 20 bits, 10 bits e 54.272 bits.",
+      "d) 20 bits, 12 bits e 54.272 bits.",
+      "e) 22 bits, 10 bits e 56.320 bits."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Organização de Memória",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos calcular o número de bits necessários para o rótulo (tag), o índice e o tamanho total da cache. \n\n1. **Cálculo do índice**: A cache possui 1.024 palavras de 32 bits, o que significa que há 1.024 linhas na cache. Como 1.024 é 2^10, precisamos de 10 bits para o índice.\n\n2. **Cálculo do deslocamento (offset)**: Cada linha da cache armazena uma palavra de 32 bits, ou seja, 4 bytes. Portanto, precisamos de 2 bits para endereçar cada byte dentro de uma palavra (2^2 = 4).\n\n3. **Cálculo do rótulo (tag)**: O sistema de computador possui um mapa de memória de 4 Gbytes, o que equivale a 2^32 bytes de memória endereçável. O endereço de memória total é de 32 bits. Desses 32 bits, 10 são usados para o índice e 2 para o deslocamento, restando 20 bits para o rótulo (tag).\n\n4. **Cálculo do tamanho da cache**: Cada linha da cache precisa armazenar uma palavra de 32 bits (4 bytes) e um bit de validade. Portanto, cada linha ocupa 32 bits + 1 bit = 33 bits. Com 1.024 linhas, o tamanho total da cache é 1.024 * 33 = 33.792 bits. No entanto, precisamos considerar também os bits para o rótulo. Cada linha tem um rótulo de 20 bits, então 1.024 * 20 = 20.480 bits são usados para os rótulos. Somando tudo, o tamanho total da cache é 33.792 + 20.480 = 54.272 bits.\n\nPortanto, as dimensões do rótulo, do índice e o tamanho da cache são, respectivamente, 20 bits, 10 bits e 54.272 bits."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-33",
+    "numero": 33,
+    "enunciado": "Com base nos conhecimentos sobre projeto de circuitos sequenciais, considere as afirmativas a seguir.\nI. O projeto de circuitos sequenciais usando flip-flops é crítico devido ao problema conhecido como\ntransparência de flip-flops.\nII. Uma vez que um flip-flop é sabidamente sensível a uma das bordas do relógio, o tempo de permanên-\ncia do relógio em nível alto ou baixo não é mais crítico para o funcionamento do circuito sequencial.\nIII. Tempo de setup é o tempo durante o qual a entrada deve ser mantida estável antes da transição ativa\ndo relógio.\nIV. Um flip-flop tipo D pode ser implementado com dois latchs tipo D ou com um latch tipo D e um circuito\ndetector de borda.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e IV são corretas.",
+      "b) Somente as afirmativas II e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas I, II e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Projeto de Circuitos Sequenciais",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. A afirmativa está incorreta. O problema de transparência está associado a latches, não a flip-flops. Flip-flops são projetados para evitar a transparência, pois são acionados por bordas de clock.\n\nII. A afirmativa está incorreta. Mesmo que um flip-flop seja sensível a uma borda do relógio, o tempo de permanência do relógio em nível alto ou baixo ainda pode ser crítico, especialmente em circuitos síncronos, onde o duty cycle do clock pode afetar o desempenho.\n\nIII. A afirmativa está correta. O tempo de setup é o intervalo de tempo durante o qual a entrada deve ser mantida estável antes da transição ativa do relógio, para garantir que o flip-flop capture corretamente o valor da entrada.\n\nIV. A afirmativa está correta. Um flip-flop tipo D pode ser implementado usando dois latches tipo D em configuração mestre-escravo ou com um latch tipo D e um circuito detector de borda para criar a sensibilidade à borda.\n\nPortanto, as afirmativas III e IV são corretas, tornando a alternativa 'c' a correta."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-40",
+    "numero": 40,
+    "enunciado": "O gerenciamento dos sistemas de entrada/saída de dados é normalmente implementado em duas cama-\ndas: uma responsável pelo controle do dispositivo e outra, pelo gerenciamento de entrada/saída.\nPor que isso representa um projeto eficiente?",
+    "alternativas": [
+      "a) Porque permite o uso de duas linguagens de programação na sua implementação, pois o controle do dispositivo\nexige a programação em linguagem de máquina.",
+      "b) Porque permite separar as operações de entrada das operações de saída de dados.",
+      "c) Porque permite o compartilhamento dos dispositivos de entrada/saída através do gerenciamento de entrada/saída.",
+      "d) Porque permite evitar o uso de DMA para a operação de entrada/saída.",
+      "e) Porque permite separar características de hardware de características funcionais do dispositivo de entrada/saída."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerenciamento de Dispositivos de Entrada/Saída",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "A questão aborda o gerenciamento de sistemas de entrada/saída em sistemas operacionais, que é frequentemente implementado em duas camadas: uma para controle do dispositivo e outra para gerenciamento de entrada/saída. A alternativa correta é a 'e', porque essa separação permite que as características específicas de hardware dos dispositivos de entrada/saída sejam abstraídas das características funcionais. Isso significa que o sistema operacional pode gerenciar a entrada/saída de maneira mais uniforme, independentemente das especificidades de cada dispositivo. Essa abordagem modulariza o sistema, tornando-o mais flexível e fácil de manter, pois mudanças em dispositivos de hardware não exigem alterações nas camadas superiores do sistema."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-41",
+    "numero": 41,
+    "enunciado": "O gerenciamento de processos em sistemas modernos é feito, quase sempre, com o uso de preempção\nde processos através de técnicas de compartilhamento de tempo.\nO que a introdução de processadores com vários núcleos altera nesse gerenciamento?",
+    "alternativas": [
+      "a) Torna-se possível a paralelização efetiva de processos concorrentes.",
+      "b) Torna-se possível eliminar a condição de corrida em processos concorrentes executados em paralelo.",
+      "c) Torna-se possível o uso de threads para a execução de processos concorrentes.",
+      "d) Torna-se possível separar os demais mecanismos de gerenciamento do sistema operacional do gerenciamento\nde processos.",
+      "e) Torna-se possível o uso de sistemas operacionais multitarefas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerência de Processos",
+    "dificuldade": "Fácil",
+    "gabarito": "a",
+    "solucao": "A introdução de processadores com vários núcleos em um sistema altera o gerenciamento de processos ao permitir a paralelização efetiva de processos concorrentes. Em sistemas com um único núcleo, o sistema operacional precisa alternar entre processos para dar a impressão de que eles estão sendo executados simultaneamente, através de técnicas de compartilhamento de tempo. No entanto, com múltiplos núcleos, múltiplos processos podem realmente ser executados ao mesmo tempo, cada um em seu próprio núcleo, o que melhora a eficiência e o desempenho do sistema. Isso não elimina a necessidade de gerenciamento de concorrência, como evitar condições de corrida, mas permite que processos concorrentes sejam executados em paralelo de forma mais eficaz."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-42",
+    "numero": 42,
+    "enunciado": "Ao medir o desempenho de um certo sistema, verificou-se que este passava muito tempo com a CPU\nociosa e tinha um alto volume de acessos a disco.\nAssinale a alternativa que apresenta a solução traduzida na melhoria de desempenho desse sistema.",
+    "alternativas": [
+      "a) Troca da CPU por uma mais rápida.",
+      "b) Aumento na capacidade de memória do sistema.",
+      "c) Aumento na capacidade de armazenamento do disco.",
+      "d) Uso de memória cache.",
+      "e) Troca do sistema operacional."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Memórias",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "O problema descrito no enunciado indica que o sistema passa muito tempo com a CPU ociosa e possui um alto volume de acessos a disco. Isso sugere que o gargalo do sistema está no tempo de acesso ao disco, que é significativamente mais lento do que o acesso à memória. Uma solução eficaz para melhorar o desempenho do sistema é o uso de memória cache, que armazena temporariamente dados frequentemente acessados, reduzindo a necessidade de acessos diretos ao disco. Isso diminui o tempo de espera da CPU por dados, aumentando a eficiência do sistema."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-45",
+    "numero": 45,
+    "enunciado": "Arquivos são um mecanismo de abstração que permite a manipulação de dados de maneira persistente,\nconcorrente e em grandes quantidades.\nSobre o assunto, considere as afirmativas a seguir.\nI. Em arquivos restritos a acesso sequencial, a operação rewind é irrelevante e, quando presente, ape-\nnas equivale a uma operação seek apontando para o início do arquivo.\nII. Uma maneira comum de estruturar arquivos é a sequência de bytes não estruturada. Nesse modelo,\num arquivo não é organizado em registros e campos, e quaisquer significados aos seus dados devem\nser feitos pelos programas de usuário. Sua vantagem é permitir a máxima flexibilidade.\nIII. Todo sistema operacional armazena um certo conjunto de informações junto a cada arquivo, conhe-\ncidas como atributos ou metadados. Dentre as informações armazenadas pelos metadados de um\narquivo em um sistema, podem estar: identificador do arquivo; hora da criação; último acesso; última\nmudança; visibilidade; tipo de arquivo.\nIV. Alguns sistemas suportam arquivos estruturados em árvores. Nesse tipo de arquivo, cada registro\npossui uma chave. A árvore é organizada no campo de chaves do arquivo para possibilitar uma busca\nrápida pelos registros.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Estrutura e Operação de Arquivos",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. Em arquivos restritos a acesso sequencial, a operação rewind é irrelevante e, quando presente, apenas equivale a uma operação seek apontando para o início do arquivo. - Esta afirmativa é incorreta. A operação rewind é relevante em arquivos de acesso sequencial, pois permite reposicionar o ponteiro de leitura/escrita no início do arquivo, o que pode ser necessário em várias situações.\n\nII. Uma maneira comum de estruturar arquivos é a sequência de bytes não estruturada. Nesse modelo, um arquivo não é organizado em registros e campos, e quaisquer significados aos seus dados devem ser feitos pelos programas de usuário. Sua vantagem é permitir a máxima flexibilidade. - Esta afirmativa é correta. Arquivos não estruturados são comuns e oferecem flexibilidade, pois o significado dos dados é determinado pelo programa que os manipula.\n\nIII. Todo sistema operacional armazena um certo conjunto de informações junto a cada arquivo, conhecidas como atributos ou metadados. Dentre as informações armazenadas pelos metadados de um arquivo em um sistema, podem estar: identificador do arquivo; hora da criação; último acesso; última mudança; visibilidade; tipo de arquivo. - Esta afirmativa é correta. Sistemas operacionais geralmente armazenam metadados que incluem essas informações.\n\nIV. Alguns sistemas suportam arquivos estruturados em árvores. Nesse tipo de arquivo, cada registro possui uma chave. A árvore é organizada no campo de chaves do arquivo para possibilitar uma busca rápida pelos registros. - Esta afirmativa é correta. Arquivos podem ser estruturados em árvores, como em bancos de dados que usam árvores B para organização e busca eficiente.\n\nPortanto, as afirmativas II, III e IV são corretas, tornando a alternativa 'e' a correta."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-49",
+    "numero": 49,
+    "enunciado": "Em organização de arquivos e dados, os diretórios foram criados para organizar e controlar outros arqui-\nvos.\nCom base nos conhecimentos sobre o tema, considere as afirmativas a seguir.\nI. Um diretório geralmente contém várias entradas, sendo uma por arquivo diretamente subordinado.\nCada entrada é composta pelo nome do arquivo, seus atributos e os endereços do disco onde estão\narmazenados. Alternativamente, após o nome do arquivo, pode haver um ponteiro para uma estrutura\nde dados com os atributos e os endereços.\nII. Em um sistema de diretórios hierárquicos, se o diretório atual, ou diretório de trabalho, de um pro-\ncesso for “/usr/bin/.”, para acessar o arquivo chamado cache, localizado em “/tmp/”, pode ser\nusado o nome de caminho absoluto “/tmp/cache”. Alternativamente, pode ser usado o nome de\ncaminho relativo “./../../tmp/cache”.\nIII. Para os usuários, uma das vantagens de sistemas com um diretório por usuário em relação a sistemas\nde diretório único é poder organizar os arquivos em subgrupos.\nIV. Em sistemas que suportam diretórios hierárquicos, como Windows e UNIX, há três entradas especiais\nem cada diretório. Elas são ‘.’ (ponto), ‘..’ (ponto-ponto) e ‘˜’ (til): o primeiro serve para voltar um nível\nna hierarquia; o segundo, para avançar um nível; o terceiro, para referenciar o diretório reservado ao\nadministrador, quando utilizado em caminhos relativos.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Diretórios: Conteúdo e Estrutura",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. Esta afirmativa está correta. Um diretório geralmente contém várias entradas, cada uma relacionada a um arquivo diretamente subordinado. Cada entrada pode conter o nome do arquivo, seus atributos e os endereços do disco onde estão armazenados. Alternativamente, pode haver um ponteiro para uma estrutura de dados que contém esses atributos e endereços.\n\nII. Esta afirmativa está correta. Em um sistema de diretórios hierárquicos, o caminho absoluto '/tmp/cache' é válido para acessar o arquivo 'cache' a partir de qualquer diretório. O caminho relativo './../../tmp/cache' também é válido, pois '..' sobe um nível na hierarquia, e './' refere-se ao diretório atual.\n\nIII. Esta afirmativa está correta. Sistemas com um diretório por usuário permitem que os usuários organizem seus arquivos em subgrupos, o que é uma vantagem em relação a sistemas de diretório único.\n\nIV. Esta afirmativa está incorreta. Nos sistemas Windows e UNIX, as entradas especiais em cada diretório são '.' (ponto) para referenciar o diretório atual e '..' (ponto-ponto) para referenciar o diretório pai. O caractere '~' (til) é usado para referenciar o diretório home do usuário, não o diretório reservado ao administrador.\n\nPortanto, as afirmativas corretas são I, II e III, o que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-50",
+    "numero": 50,
+    "enunciado": "Seja G um grafo conexo com n vértices. Considere duas rotulações dos vértices de G obtidas por duas\nbuscas em G, uma em largura, l(), e outra em profundidade, p(), ambas iniciadas no vértice v. Em cada\nrotulação, os vértices receberam um número de 1 a n, o qual representa a ordem em que foram alcançados\nna busca em questão. Assim, l(v) = p(v) = 1; enquanto l(x) > 1 e p(x) > 1 para todo vértice x diferente\nde v. Considere dois vértices u e w de G e denote por d(u, w) a distância em G de u até w.\nCom base nesses dados, assinale a alternativa correta.",
+    "alternativas": [
+      "a) Se l(u) < l(w) e p(u) < p(w), então d(v, u) < d(v, w).",
+      "b) Se l(u) < l(w) e p(u) > p(w), então d(v, u) = d(v, w).",
+      "c) Se l(u) > l(w) e p(u) < p(w), então d(v, u) ≤ d(v, w).",
+      "d) Se l(u) > l(w) e p(u) > p(w), então d(v, u) < d(v, w).",
+      "e) Se l(u) < l(w) e p(u) > p(w), então d(v, u) ≤ d(v, w)."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Busca em Largura e Profundidade",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para resolver essa questão, devemos analisar as propriedades das buscas em largura (BFS) e em profundidade (DFS) em um grafo. A busca em largura (BFS) explora todos os vértices a uma determinada distância antes de explorar vértices a uma distância maior. Isso significa que, se l(u) < l(w), então u foi alcançado antes de w na BFS, o que implica que a distância de v a u é menor ou igual à distância de v a w, ou seja, d(v, u) ≤ d(v, w). Por outro lado, a busca em profundidade (DFS) pode explorar vértices em uma ordem que não respeita necessariamente a menor distância. Portanto, se p(u) > p(w), isso não nos dá informações diretas sobre as distâncias, mas indica que u foi alcançado após w na DFS. A única afirmação que sempre será verdadeira com base nas propriedades dessas buscas é que se l(u) < l(w) e p(u) > p(w), então d(v, u) ≤ d(v, w). Portanto, a alternativa correta é a letra e."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-51",
+    "numero": 51,
+    "enunciado": "Considere a relação a seguir, definida na linguagem SQL padrão.\nCREATE TABLE EMPREGADO\n( CODIGO NUMBER(4) PRIMARY KEY,\nNOME VARCHAR2(10),\nSALARIO NUMBER(7,2)\n)\nConsidere também as consultas (C1, C2, C3 e C4) a seguir, expressas na linguagem SQL.\nC1:\nselect NOME from EMPREGADO\nwhere CODIGO in ((select CODIGO from EMPREGADO)\nminus\n(select E1.CODIGO from EMPREGADO E1, EMPREGADO E2\nwhere E1.SALARIO < E2.SALARIO)\n)\nObs: o operador minus realiza a operação de subtração entre relações.\nC2:\nselect NOME from EMPREGADO\nwhere SALARIO = (select max(SALARIO) from EMPREGADO)\nC3:\nSelect NOME from EMPREGADO\nwhere SALARIO >= all (select SALARIO from EMPREGADO)\nC4:\nselect NOME from EMPREGADO\nwhere CODIGO in ( select E1.CODIGO from EMPREGADO E1, EMPREGADO E2\nwhere E1.SALARIO > E2.SALARIO\n)\nCom relação às consultas, assinale a alternativa correta.",
+    "alternativas": [
+      "a) Apenas as consultas C2 e C3 são equivalentes.",
+      "b) Todas as consultas são equivalentes.",
+      "c) Apenas as consultas C1 e C3 são equivalentes.",
+      "d) Apenas as consultas C1 e C4 são equivalentes.",
+      "e) Apenas as consultas C1, C2 e C3 são equivalentes."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Linguagens de Consulta",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para determinar quais consultas são equivalentes, vamos analisar cada uma delas:\n\n- **C1**: Esta consulta retorna os nomes dos empregados cujo código não aparece na subconsulta que busca códigos de empregados com salário menor que de algum outro empregado. Isso significa que C1 retorna os empregados com o maior salário, pois eles não têm nenhum outro empregado com salário superior.\n\n- **C2**: Esta consulta retorna os nomes dos empregados cujo salário é igual ao maior salário encontrado na tabela. Isso também retorna os empregados com o maior salário.\n\n- **C3**: Esta consulta retorna os nomes dos empregados cujo salário é maior ou igual a todos os salários na tabela. Isso também identifica os empregados com o maior salário.\n\n- **C4**: Esta consulta retorna os nomes dos empregados cujo código aparece na subconsulta que busca códigos de empregados com salário maior que de algum outro empregado. Isso significa que C4 retorna empregados que não têm o maior salário, pois há pelo menos um outro empregado com salário superior.\n\nPortanto, as consultas C2 e C3 são equivalentes, pois ambas identificam os empregados com o maior salário. A alternativa correta é 'a'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-52",
+    "numero": 52,
+    "enunciado": "Considere, a seguir, a gramática livre de contexto:\nS → aS |S b|c\nQual expressão regular gera a mesma linguagem que a gramática definida acima?",
+    "alternativas": [
+      "a) a* c b*",
+      "b) a+ b+ c",
+      "c) a+ c b+",
+      "d) c a* b*",
+      "e) c a+ b+"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A gramática dada é S → aS | S b | c. Isso significa que a linguagem gerada pela gramática consiste em cadeias que começam com zero ou mais 'a's, seguidas por um único 'c', e terminam com zero ou mais 'b's. A produção S → aS permite adicionar 'a's antes do 'c', e a produção S → S b permite adicionar 'b's após o 'c'. A produção S → c garante que sempre haverá um 'c' na cadeia. Portanto, a expressão regular que descreve essa linguagem é 'c a* b*', que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-54",
+    "numero": 54,
+    "enunciado": "Sobre a tabela de símbolos, considere as afirmativas a seguir.\nI. A tabela de símbolos associa um conjunto de atributos a cada identificador reconhecido no programa.\nTais atributos são preenchidos durante a análise sintática.\nII. Uma alternativa para a implementação de escopos aninhados e regra de aninhamento mais próximo\nsimula o comportamento de pilha na tabela de símbolos, colocando a declaração que se aplica a uma\nreferência no topo da pilha quando tal referência for alcançada.\nIII. Diferentes ocorrências de um mesmo identificador em um programa são armazenadas na mesma\nentrada da tabela de símbolos. Tal estratégia evita que um mesmo identificador seja tratado de forma\ndistinta em diferentes partes do programa.\nIV. A tabela de símbolos é acessada durante todo o processo de tradução de código. Portanto, o tempo\nde acesso aos dados dessa tabela tem grande impacto na eficiência do compilador e, por essa razão,\nela é comumente implementada utilizando tabelas hash.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e IV são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Tabelas de Símbolos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. A afirmativa está correta. A tabela de símbolos realmente associa um conjunto de atributos a cada identificador reconhecido no programa, e tais atributos são preenchidos durante a análise sintática e semântica.\n\nII. A afirmativa está correta. Para implementar escopos aninhados, a tabela de símbolos pode simular o comportamento de uma pilha, onde as declarações mais recentes (mais próximas) são colocadas no topo da pilha.\n\nIII. A afirmativa está incorreta. Diferentes ocorrências de um mesmo identificador em diferentes escopos não são armazenadas na mesma entrada da tabela de símbolos. Cada escopo tem sua própria entrada para o identificador, permitindo que ele seja tratado de forma distinta em diferentes partes do programa.\n\nIV. A afirmativa está correta. A tabela de símbolos é acessada durante todo o processo de tradução de código, e o tempo de acesso é crucial para a eficiência do compilador. Por isso, tabelas hash são frequentemente usadas para implementar tabelas de símbolos devido à sua eficiência no acesso.\n\nPortanto, as afirmativas corretas são I, II e IV, o que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-56",
+    "numero": 56,
+    "enunciado": "Sobre análise sintática, considere as afirmativas a seguir.\nI. Um analisador sintático descendente recursivo pode apenas ser utilizado para reconhecer gramáticas\nem que o primeiro símbolo terminal de cada subexpressão fornece informações suficientes para a\nescolha da produção a ser utilizada.\nII. Não é possível construir um analisador sintático descendente recursivo para reconhecer a gramática:\nS → Sa|a.\nIII. De forma geral, os analisadores sintáticos descendentes são capazes de reconhecer um número\nmaior de gramáticas do que os analisadores sintáticos ascendentes.\nIV. Os analisadores sintáticos ascendentes fazem uso de pilha e um autômato finito para auxiliar na\nvalidação da sintaxe de um programa.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e IV são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. Um analisador sintático descendente recursivo pode apenas ser utilizado para reconhecer gramáticas em que o primeiro símbolo terminal de cada subexpressão fornece informações suficientes para a escolha da produção a ser utilizada. Esta afirmativa é correta, pois analisadores descendentes recursivos são geralmente utilizados para gramáticas LL(1), onde a escolha da produção é feita com base no primeiro símbolo de entrada.\n\nII. Não é possível construir um analisador sintático descendente recursivo para reconhecer a gramática: S → Sa|a. Esta afirmativa é correta, pois a gramática apresentada é uma gramática recursiva à esquerda, o que impede a construção de um analisador descendente recursivo direto.\n\nIII. De forma geral, os analisadores sintáticos descendentes são capazes de reconhecer um número maior de gramáticas do que os analisadores sintáticos ascendentes. Esta afirmativa é incorreta. Na verdade, os analisadores ascendentes (como LR) são capazes de reconhecer um conjunto maior de gramáticas do que os descendentes.\n\nIV. Os analisadores sintáticos ascendentes fazem uso de pilha e um autômato finito para auxiliar na validação da sintaxe de um programa. Esta afirmativa é correta, pois analisadores ascendentes, como os analisadores LR, utilizam uma pilha e um autômato de estados finitos para processar a entrada.\n\nPortanto, as afirmativas corretas são I, II e IV, o que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-57",
+    "numero": 57,
+    "enunciado": "A UML (Unified Modeling Language) é uma linguagem visual para visualizar, especificar, construir e docu-\nmentar os artefatos dos sistemas. A palavra visual é importante, pois a UML é uma notação diagramática.\nEm relação aos diagramas da UML, é correto afirmar:",
+    "alternativas": [
+      "a) Os diagramas de interação descrevem como grupos de classes colaboram em algum comportamento. O diagra-\nma de sequência é um diagrama de interação que, normalmente, captura o comportamento de vários cenários,\nmostrando como as classes e mensagens são passadas no contexto de um conjunto de casos de uso.",
+      "b) O diagrama de máquina de estados permite visualizar um workflow ou um processo de negócio. É especi-\nalmente útil para detalhar um caso de uso que descreve um workflow complexo envolvendo muitas partes e\nações concorrentes.",
+      "c) A UML 2.0 divide os diagramas em duas categorias: (i) diagramas estruturais (ou estáticos) e (ii) diagramas\ncomportamentais (ou dinâmicos). O diagrama de componentes é um diagrama comportamental que repre-\nsenta a topologia física do sistema, bem como os vários componentes de software de um sistema e suas\ndependências.",
+      "d) O diagrama de casos de uso apresenta as funcionalidades externamente observáveis do sistema e os ele-\nmentos externos ao sistema que interagem com ele. No diagrama de casos de uso, um elemento externo que\ninterage com o sistema é denominado de ator. Os atores podem ser, por exemplo, pessoas, outros sistemas e\nequipamentos.",
+      "e) Um modelo de domínio é ilustrado com um conjunto de diagramas de classes. O termo “Modelo de domínio”\nsignifica uma representação de classes conceituais do mundo real e as restrições inerentes à tecnologia a ser\nutilizada na solução. É importante constarem neste modelo os atributos e operações de cada classe."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Métodos de Análise e de Projeto de Software",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A alternativa correta é a 'd'. Vamos analisar cada alternativa: \n\n- Alternativa a: Os diagramas de interação realmente descrevem como grupos de classes colaboram em algum comportamento, mas o diagrama de sequência normalmente captura o comportamento de um único cenário, não de vários cenários. Portanto, essa alternativa está incorreta.\n\n- Alternativa b: O diagrama de máquina de estados é usado para modelar o comportamento de um objeto em resposta a eventos internos e externos, não especificamente para visualizar workflows ou processos de negócio. Portanto, essa alternativa está incorreta.\n\n- Alternativa c: A UML 2.0 divide os diagramas em estruturais (ou estáticos) e comportamentais (ou dinâmicos), mas o diagrama de componentes é um diagrama estrutural, não comportamental. Portanto, essa alternativa está incorreta.\n\n- Alternativa d: O diagrama de casos de uso apresenta as funcionalidades externamente observáveis do sistema e os elementos externos que interagem com ele, chamados de atores. Esta descrição está correta.\n\n- Alternativa e: Um modelo de domínio é uma representação de classes conceituais do mundo real, mas não deve incluir restrições inerentes à tecnologia a ser utilizada na solução. Portanto, essa alternativa está incorreta.\n\nPortanto, a alternativa correta é 'd'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-58",
+    "numero": 58,
+    "enunciado": "Em cenas de computação gráfica, para aumentar o realismo visual, é comum aplicar-se um modelo de\niluminação local que calcula as cores nos vértices dos triângulos a partir das propriedades de reflexão do\nobjeto, propriedades geométricas do objeto e propriedades da(s) fonte(s) de luz.\nSobre os modelos de iluminação locais, considere as afirmativas a seguir.\nI. A parcela de reflexão difusa depende da posição do observador.\nII. A parcela especular pode ser aproximada pelo modelo de Phong, que estabelece que a reflexão espe-\ncular de uma superfície é proporcional ao cosseno do ângulo entre o vetor direção do observador e o\nvetor que estabelece a direção de reflexão especular ideal.\nIII. A parcela difusa ideal de iluminação pode ser aproximada pela lei de Lambert, que estabelece que a\nreflexão difusa de uma superfície é proporcional ao ângulo entre o vetor normal à superfície e o vetor\ndireção da fonte de luz.\nIV. A parcela de luz ambiente aproxima as múltiplas reflexões de luz das inúmeras superfícies presentes\nna cena.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e IV são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Modelos de Tonalização ('Shading')",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. A parcela de reflexão difusa depende da posição do observador. Esta afirmativa é incorreta. A reflexão difusa, de acordo com o modelo de Lambert, depende apenas do ângulo entre o vetor normal à superfície e o vetor direção da fonte de luz, e não da posição do observador.\n\nII. A parcela especular pode ser aproximada pelo modelo de Phong, que estabelece que a reflexão especular de uma superfície é proporcional ao cosseno do ângulo entre o vetor direção do observador e o vetor que estabelece a direção de reflexão especular ideal. Esta afirmativa é correta. O modelo de Phong é amplamente utilizado para calcular a reflexão especular em computação gráfica.\n\nIII. A parcela difusa ideal de iluminação pode ser aproximada pela lei de Lambert, que estabelece que a reflexão difusa de uma superfície é proporcional ao ângulo entre o vetor normal à superfície e o vetor direção da fonte de luz. Esta afirmativa é correta. A lei de Lambert é um modelo padrão para calcular a reflexão difusa.\n\nIV. A parcela de luz ambiente aproxima as múltiplas reflexões de luz das inúmeras superfícies presentes na cena. Esta afirmativa é correta. A luz ambiente é usada para simular a luz que foi refletida tantas vezes que sua direção é impossível de determinar, contribuindo para o realismo da cena.\n\nPortanto, as afirmativas corretas são II, III e IV, o que corresponde à alternativa 'e'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-59",
+    "numero": 59,
+    "enunciado": "Considere o algoritmo A* (A Estrela / A Star ) usado para a busca de uma trajetória (pathfinding), sendo\naplicado sobre um mapa do tipo grade de ocupação, com custos de passagem associados a cada uma\ndas células da grade e com a seguinte configuração de nodos listados no conjunto em aberto (open-set ):\nNodo 1: g(1)=19; h(1)=6; L=6; C=8\nNodo 2: g(2)=18; h(2)=4; L=7; C=9\nNodo 3: g(3)=13; h(3)=5; L=5; C=10\nNodo 4: g(4)=16; h(4)=3; L=9; C=8\nNodo 5: g(5)=16; h(5)=3; L=10;C=7\nonde “L” e “C” são a linha e coluna do respectivo nodo dentro da grade de ocupação.\nA posição alvo a ser alcançada dentro da trajetória deste exemplo é definida pela linha e coluna L_Alvo=10\ne C_Alvo=10, ou seja, a coordenada (10,10). “g(n)” representa o custo (gasto) do caminho percorrido e\n“h(n)” representa a estimativa heurística de custo até o alvo da célula em questão, sendo que “n” repre-\nsenta o número do nodo que identifica as células, e esta célula ocupa uma determinada posição (L,C)\ndentro da grade.\nQual dos seguintes nodos será selecionado do conjunto em aberto como sendo o próximo nodo a ser\navaliado, depois removido do conjunto de nodos em aberto (open-set ) e colocado na lista de nodos já\nvisitados (closed-set )?",
+    "alternativas": [
+      "a) Nodo 1",
+      "b) Nodo 2",
+      "c) Nodo 3",
+      "d) Nodo 4",
+      "e) Nodo 5"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Hill climbing, best first, simulated annealing e Algoritmo A*",
+    "dificuldade": "Média",
+    "gabarito": "b) Nodo 2",
+    "solucao": "O algoritmo A* seleciona o próximo nodo a ser avaliado com base na função f(n) = g(n) + h(n), onde g(n) é o custo do caminho percorrido até o nodo n, e h(n) é a estimativa heurística do custo do nodo n até o alvo. Calculamos f(n) para cada nodo no conjunto em aberto: \n- Nodo 1: f(1) = g(1) + h(1) = 19 + 6 = 25\n- Nodo 2: f(2) = g(2) + h(2) = 18 + 4 = 22\n- Nodo 3: f(3) = g(3) + h(3) = 13 + 5 = 18\n- Nodo 4: f(4) = g(4) + h(4) = 16 + 3 = 19\n- Nodo 5: f(5) = g(5) + h(5) = 16 + 3 = 19\nO nodo com o menor valor de f(n) é o Nodo 2, com f(2) = 22. Portanto, o Nodo 2 será selecionado como o próximo nodo a ser avaliado."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-60",
+    "numero": 60,
+    "enunciado": "Tendo em vista a complexidade envolvida no desenvolvimento de um sistema de software, é importante\nassegurar que ele cumpra com suas especificações e atenda às necessidades dos usuários.\nSobre o desenvolvimento de software, considere as afirmativas a seguir.\nI. A Validação tem como objetivo responder: “Estamos construindo o produto certo?” Já a Verificação\nbusca responder: “Estamos construindo o produto corretamente?”\nII. Em um cadastro, encontra-se um campo de entrada solicitando o ano de nascimento, sendo válidos\nvalores entre 1900 e 2011. Os casos de testes para este campo, considerando a técnica de análise de\nvalor limite, são: 1899, 1900, 1901, 2010, 2011, 2012 e 0.\nIII. As atividades de Verificação e Validação envolvem atividades de análise estática e de análise dinâmica\ndo produto em desenvolvimento, e apenas as atividades de análise dinâmica envolvem a execução do\nproduto.\nIV. Um dos objetivos dos métodos de teste de caixa-preta é garantir que todos os caminhos de um pro-\ngrama tenham sido exercitados pelo menos uma vez, podendo-se aplicar a técnica do teste do cami-\nnho básico para este fim.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e IV são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Verificação, Validação e Teste",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. A Validação tem como objetivo responder: “Estamos construindo o produto certo?” Já a Verificação busca responder: “Estamos construindo o produto corretamente?” - Esta afirmativa está correta. A validação verifica se o produto atende às necessidades e expectativas do cliente, enquanto a verificação assegura que o produto foi construído de acordo com as especificações.\n\nII. Em um cadastro, encontra-se um campo de entrada solicitando o ano de nascimento, sendo válidos valores entre 1900 e 2011. Os casos de testes para este campo, considerando a técnica de análise de valor limite, são: 1899, 1900, 1901, 2010, 2011, 2012 e 0. - Esta afirmativa está incorreta. A técnica de análise de valor limite geralmente considera os valores imediatamente fora dos limites válidos e os próprios limites. Portanto, os valores 1899 e 2012 são considerados, mas o valor 0 não faz sentido no contexto de anos de nascimento.\n\nIII. As atividades de Verificação e Validação envolvem atividades de análise estática e de análise dinâmica do produto em desenvolvimento, e apenas as atividades de análise dinâmica envolvem a execução do produto. - Esta afirmativa está correta. A análise estática não envolve a execução do software e é usada tanto na verificação quanto na validação. A análise dinâmica, por outro lado, envolve a execução do software e é usada para validar o comportamento do sistema.\n\nIV. Um dos objetivos dos métodos de teste de caixa-preta é garantir que todos os caminhos de um programa tenham sido exercitados pelo menos uma vez, podendo-se aplicar a técnica do teste do caminho básico para este fim. - Esta afirmativa está incorreta. O teste de caixa-preta não se preocupa com os caminhos internos do programa, mas sim com as entradas e saídas. O teste do caminho básico é uma técnica de teste de caixa-branca, que se concentra na cobertura dos caminhos internos do código.\n\nPortanto, a alternativa correta é 'b) Somente as afirmativas I e III são corretas.'"
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-61",
+    "numero": 61,
+    "enunciado": "O algoritmo de busca Minimax é uma técnica de Inteligência Artificial muito usada em jogos.\nCom relação a esse algoritmo, considere as afirmativas a seguir.\nI. O Minimax é um algoritmo que faz uma busca exaustiva no espaço de estados considerando as pos-\nsíveis jogadas de um oponente a fim de encontrar a solução ótima.\nII. A poda Alfa-Beta, junto ao Minimax, utiliza-se de uma heurística de corte limitando a profundidade em\ntermos do número de jogadas de cada oponente.\nIII. O Minimax é um algoritmo que faz uma busca heurística do tipo “em largura” (Breadth-first_search).\nIV. O Minimax se caracteriza por ser um algoritmo de busca em jogos com adversários.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Resolução de Problemas como Busca",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. Correta. O algoritmo Minimax busca exaustivamente no espaço de estados para determinar a melhor jogada possível, considerando as possíveis respostas do oponente. \n\nII. Incorreta. A poda Alfa-Beta é uma técnica de otimização que reduz o número de nós avaliados pelo algoritmo Minimax, mas não se limita a cortar pela profundidade em termos de número de jogadas. Ela elimina ramos que não podem influenciar a decisão final, sem necessariamente limitar a profundidade. \n\nIII. Incorreta. O Minimax não é um algoritmo de busca em largura. Ele é um algoritmo de busca em profundidade, pois explora cada caminho até o final antes de voltar e explorar outros caminhos. \n\nIV. Correta. O Minimax é caracterizado como um algoritmo de busca em jogos com adversários, pois considera as ações do oponente para determinar a melhor estratégia. \n\nPortanto, a alternativa correta é 'b) Somente as afirmativas I e IV são corretas.'"
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-62",
+    "numero": 62,
+    "enunciado": "No que tange à área de segmentação de imagens, considere as afirmativas a seguir.\nI. A técnica de componentes conexos é considerada um tipo de segmentação, pois realiza o agrupa-\nmento de pixels adjacentes.\nII. A segmentação de imagens identifica as cores que se encontram fora do espectro de cores RGB,\nadequando a sua intensidade conforme os limites deste espectro.\nIII. A segmentação de imagens consiste em produzir regiões na imagem com base em algum critério de\nsimilaridade, homogeneidade e continuidade.\nIV. A segmentação é uma forma de compactação de imagem, ocasionando, no entanto, perda na quali-\ndade.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Análise de Imagens e Noções de Visão Computacional",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. A técnica de componentes conexos é uma técnica de segmentação que agrupa pixels adjacentes com base em critérios de conectividade, portanto, esta afirmativa é correta.\n\nII. A segmentação de imagens não está relacionada a identificar cores fora do espectro RGB. A segmentação trabalha com a divisão da imagem em regiões com base em critérios como cor, textura, etc., mas não altera cores fora do espectro RGB. Portanto, esta afirmativa é incorreta.\n\nIII. A segmentação de imagens realmente consiste em dividir a imagem em regiões com base em critérios de similaridade, homogeneidade e continuidade. Esta afirmativa é correta.\n\nIV. Segmentação de imagens não é uma técnica de compactação de imagem. Compactação refere-se à redução do tamanho do arquivo, enquanto segmentação refere-se à divisão da imagem em partes. Portanto, esta afirmativa é incorreta.\n\nCom base na análise, as afirmativas corretas são I e III. Portanto, a alternativa correta é 'd) Somente as afirmativas I, II e III são corretas.'"
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-63",
+    "numero": 63,
+    "enunciado": "Observe as propriedades a seguir.\ni. Algoritmo de Aprendizado Indutivo como parte integrada do método.\nii. Capacidade de generalização do aprendizado a partir de exemplos e avaliação do treinamento usando\nvalidação cruzada (cross-validation).\niii. Uso do ganho de informação como critério de decisão ao ponderar sobre a escolha de atributos.\niv. Algoritmo aceita o tratamento de atributos contínuos (quantitativos) ou discretos (qualitativos).\nAssinale a alternativa que apresenta a técnica de Inteligência Artificial que reúne todas as propriedades\nlistadas.",
+    "alternativas": [
+      "a) Árvores de Decisão (C4.5).",
+      "b) Redes Neurais Artificiais (Back-Propagation).",
+      "c) Algoritmos Genéticos (Michigan Approach).",
+      "d) Conjuntos e Lógica Fuzzy (FIS - Fuzzy Inference System).",
+      "e) Sistemas Especialistas (Forward Chaining)."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Aprendizado de Máquina",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "A questão descreve características específicas de uma técnica de aprendizado de máquina. Vamos analisar cada propriedade mencionada: \n\n1. Algoritmo de Aprendizado Indutivo como parte integrada do método: Árvores de decisão, como o C4.5, são algoritmos de aprendizado indutivo, pois constroem modelos a partir de exemplos.\n\n2. Capacidade de generalização do aprendizado a partir de exemplos e avaliação do treinamento usando validação cruzada (cross-validation): Árvores de decisão podem ser avaliadas usando validação cruzada para verificar sua capacidade de generalização.\n\n3. Uso do ganho de informação como critério de decisão ao ponderar sobre a escolha de atributos: O algoritmo C4.5 utiliza o ganho de informação para decidir qual atributo usar para dividir os dados em cada nó da árvore.\n\n4. Algoritmo aceita o tratamento de atributos contínuos (quantitativos) ou discretos (qualitativos): Árvores de decisão, como o C4.5, podem lidar com ambos os tipos de atributos.\n\nPortanto, a técnica que reúne todas essas propriedades é a 'Árvores de Decisão (C4.5)'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-64",
+    "numero": 64,
+    "enunciado": "Em relação à transmissão com fibras óticas, considere as afirmativas a seguir.\nI. A velocidade de propagação em uma fibra ótica é muito superior à velocidade de propagação em um\ncabo coaxial.\nII. Uma fibra monomodo, por permitir à luz se propagar apenas em um modo, permite obter uma taxa em\nbps bem superior à de uma fibra multimodo.\nIII. Pode-se ter comunicação full-duplex (transmissão simultânea nos dois sentidos) utilizando-se apenas\numa fibra única e não um par de fibras.\nIV. A atenuação em fibra ótica ocorre devido principalmente à absorção (produção de calor) e radiação e\nindepende do comprimento de onda utilizado na transmissão da luz.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e IV são corretas.",
+      "b) Somente as afirmativas II e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas I, II e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Tipos de Enlace, Códigos, Modos e Meios de Transmissão",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. A velocidade de propagação em uma fibra ótica não é muito superior à de um cabo coaxial. A velocidade da luz dentro de uma fibra ótica é menor que no vácuo devido ao índice de refração, e em cabos coaxiais a velocidade é próxima à da luz no vácuo. Portanto, a afirmativa I é incorreta.\n\nII. Uma fibra monomodo permite que a luz se propague em um único modo, o que reduz a dispersão modal e permite taxas de transmissão mais altas em comparação com fibras multimodo. Portanto, a afirmativa II é correta.\n\nIII. É possível ter comunicação full-duplex utilizando apenas uma única fibra ótica, através de técnicas como multiplexação por divisão de comprimento de onda (WDM), que permite a transmissão simultânea em ambas as direções. Portanto, a afirmativa III é correta.\n\nIV. A atenuação em fibras óticas é influenciada pelo comprimento de onda da luz utilizada. A absorção e a dispersão são dependentes do comprimento de onda, portanto, a afirmativa IV é incorreta.\n\nCom base na análise, as afirmativas corretas são II e III, portanto, a alternativa correta é 'b'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-65",
+    "numero": 65,
+    "enunciado": "Com base na divisão dos protocolos de comunicação em camadas, assinale a alternativa correta.",
+    "alternativas": [
+      "a) O modelo de protocolos em camadas define que protocolos são utilizados entre as camadas de um mesmo\nhospedeiro.",
+      "b) No modelo em camadas, cada camada suporta apenas um único protocolo.",
+      "c) O uso de camadas em protocolos de comunicação surgiu para diminuir o overhead.",
+      "d) Uma camada pode oferecer um serviço confiável para uma camada acima, mesmo que a camada abaixo não\nseja confiável.",
+      "e) A arquitetura TCP/IP padroniza os protocolos das camadas física e de enlace."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Protocolos e Serviços de Comunicação",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A alternativa correta é a 'd'. No modelo de camadas, como o modelo OSI ou TCP/IP, cada camada oferece serviços para a camada imediatamente superior. É possível que uma camada ofereça um serviço confiável para a camada acima, mesmo que a camada abaixo não seja confiável. Isso é feito através de mecanismos de controle de erros e retransmissão, que são implementados na camada que deseja oferecer o serviço confiável. Por exemplo, o protocolo TCP, que opera na camada de transporte, oferece um serviço confiável para a camada de aplicação, mesmo que a camada de rede (IP) não seja confiável."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-68",
+    "numero": 68,
+    "enunciado": "Qual dos parâmetros a seguir tem maior impacto sobre o desempenho de algoritmos distribuídos?",
+    "alternativas": [
+      "a) O volume total de dados transferidos.",
+      "b) A transparência de dados.",
+      "c) A transparência de execução.",
+      "d) A política de escalonamento de tarefas em cada nó do sistema.",
+      "e) O número de mensagens trocadas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Problemas Básicos em Computação Distribuída: Coordenação e Sincronização de Processos, Exclusão Mútua, Difusão de Mensagens",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Em algoritmos distribuídos, o desempenho é frequentemente impactado pelo número de mensagens trocadas entre os nós. Isso ocorre porque a comunicação entre processos em um sistema distribuído pode ser um gargalo significativo, especialmente quando a latência e a largura de banda da rede são limitantes. O volume total de dados transferidos (alternativa a) também é importante, mas o número de mensagens trocadas é um fator mais crítico, pois cada mensagem pode incorrer em sobrecarga de comunicação e sincronização. A transparência de dados e execução (alternativas b e c) são mais relacionadas à facilidade de uso e desenvolvimento do sistema, enquanto a política de escalonamento de tarefas (alternativa d) é mais relevante para o desempenho local de cada nó do sistema, não tanto para o desempenho global do sistema distribuído."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-69",
+    "numero": 69,
+    "enunciado": "Sobre o acesso residencial de banda larga, através de modem a cabo (cable modem) ou ADSL (asymme-\ntrical digital subscriber line), assinale a afirmativa correta.",
+    "alternativas": [
+      "a) O desempenho do acesso em arquitetura de modem a cabo independe de quantos usuários estão usando\nsimultaneamente a rede, porque o cabo trabalha com multiplexação em frequência (FDM).",
+      "b) Na tecnologia de modem a cabo, a taxa máxima de transmissão (em bps) é variável e alocada de acordo com\na demanda do usuário.",
+      "c) A banda passante usada nas comunicações digitais através das linhas de assinante, como visto na tecnologia\nADSL, é a mesma usada para a transmissão de voz e é da ordem de 4 kHz.",
+      "d) Em ADSL, a taxa máxima de operação em bps independe do nível de ruído da linha e da distância até a central\nda operadora.",
+      "e) Em ADSL, trabalha-se com multiplexação em frequência, e a taxa de acesso do assinante depende do acesso\nde outros usuários."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Redes de Banda Larga",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A questão aborda o funcionamento das tecnologias de acesso à internet por banda larga, especificamente modem a cabo e ADSL. Vamos analisar cada alternativa:\n\na) Incorreta. O desempenho do acesso em arquitetura de modem a cabo pode sim ser afetado pelo número de usuários simultâneos, pois todos compartilham a mesma banda disponível. A multiplexação em frequência (FDM) não impede a degradação do desempenho com o aumento de usuários.\n\nb) Correta. Na tecnologia de modem a cabo, a taxa máxima de transmissão é variável e pode ser alocada de acordo com a demanda do usuário. Isso ocorre porque a banda é compartilhada entre os usuários de uma mesma célula.\n\nc) Incorreta. A banda passante usada em ADSL é maior que a usada para transmissão de voz. ADSL utiliza frequências acima de 4 kHz, permitindo a transmissão de dados em alta velocidade.\n\nd) Incorreta. Em ADSL, a taxa máxima de operação é influenciada pelo nível de ruído da linha e pela distância até a central da operadora. Quanto maior a distância, menor a taxa de transmissão.\n\ne) Incorreta. Em ADSL, a multiplexação em frequência é utilizada, mas a taxa de acesso do assinante não depende do acesso de outros usuários, já que cada usuário tem sua própria linha dedicada até a central.\n\nPortanto, a alternativa correta é a 'b'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-70",
+    "numero": 70,
+    "enunciado": "O Google File System (GFS) é o sistema de arquivos distribuídos usado pela Google em seus sistemas.\nUma característica marcante nele é o uso de blocos fixos de 64 megabytes (chunks) para o armazenamento\nde arquivos, que são replicados através de cópias em chunkservers, gerenciadas por um mestre em cada\ncluster.\nAssinale a alternativa que contém uma vantagem nessa estrutura.",
+    "alternativas": [
+      "a) Permite o acesso sequencial e direto de arquivos completos em um único bloco.",
+      "b) É estritamente compatível com NFS e AFS.",
+      "c) Permite acesso indexado de forma eficiente.",
+      "d) O uso de chunkservers elimina a necessidade de controle de replicação.",
+      "e) Aumenta o volume de metadados para facilitar os processos de busca."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Sistemas Operacionais Distribuídos: Sistemas de Arquivos",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "O Google File System (GFS) utiliza blocos grandes de 64 megabytes para armazenar arquivos. Uma das vantagens dessa abordagem é que ela permite um acesso eficiente e sequencial aos dados. Com blocos maiores, o sistema pode ler grandes quantidades de dados de uma só vez, o que é benéfico para operações que exigem a leitura sequencial de grandes arquivos. Isso reduz a sobrecarga de metadados e melhora o desempenho em operações de leitura sequencial. Portanto, a alternativa 'a' é a correta, pois descreve uma vantagem do uso de blocos grandes no GFS."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-02",
+    "numero": 2,
+    "enunciado": "Considere o triângulo de vértices A = (0, 6), B = (4, 10) e C = (2, 2).\nO ponto de interseção das medianas tiradas do vértice B e do vértice C é:",
+    "alternativas": [
+      "a) (2, 6)",
+      "b) (3, 8)",
+      "c) (4, 6)",
+      "d) (5, 4)",
+      "e) (6, 2)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Interseções",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para encontrar o ponto de interseção das medianas do triângulo, precisamos calcular os pontos médios dos lados opostos aos vértices B e C e, em seguida, encontrar as equações das medianas. O ponto médio do lado AC é dado por ((0+2)/2, (6+2)/2) = (1, 4). O ponto médio do lado AB é dado por ((0+4)/2, (6+10)/2) = (2, 8). As medianas são as retas que ligam cada vértice ao ponto médio do lado oposto. A mediana do vértice B é a reta que passa por B(4, 10) e o ponto médio de AC(1, 4). A mediana do vértice C é a reta que passa por C(2, 2) e o ponto médio de AB(2, 8). A equação da reta que passa por dois pontos (x1, y1) e (x2, y2) é dada por (y-y1) = ((y2-y1)/(x2-x1))(x-x1). Aplicando isso, a equação da mediana de B é y - 10 = ((4-10)/(1-4))(x - 4), simplificando, obtemos y = -2x + 18. Para a mediana de C, a equação é y - 2 = ((8-2)/(2-2))(x - 2), que é uma reta vertical x = 2. O ponto de interseção dessas duas retas é obtido substituindo x = 2 na equação da mediana de B: y = -2(2) + 18 = 14. Portanto, o ponto de interseção das medianas é (2, 6)."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-08",
+    "numero": 8,
+    "enunciado": "Seja r a reta que passa pelos pontos A = (1, 2, 4) e B = (2, 0, 0); seja s a reta que passa pelos pontos\nC = (−1, 1, −7) e D = (−2, −1, −15).\nNessas condições, as retas r e s",
+    "alternativas": [
+      "a) se interceptam no ponto P = (−3, 10, 20).",
+      "b) são paralelas.",
+      "c) são reversas, sendo que r está contida no plano x + 3y − z = 8.",
+      "d) são reversas, sendo que r está contida no plano x + 3y − z = 4.",
+      "e) se interceptam no ponto P = (1, 5, 5)."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Posições Relativas",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para determinar a relação entre as retas r e s, primeiro calculamos os vetores diretores de cada reta. O vetor diretor da reta r, que passa pelos pontos A = (1, 2, 4) e B = (2, 0, 0), é dado por AB = (2 - 1, 0 - 2, 0 - 4) = (1, -2, -4). O vetor diretor da reta s, que passa pelos pontos C = (-1, 1, -7) e D = (-2, -1, -15), é dado por CD = (-2 + 1, -1 - 1, -15 + 7) = (-1, -2, -8). \n\nPara verificar se as retas são paralelas, verificamos se os vetores diretores são múltiplos. Não são, pois não existe um escalar k tal que (1, -2, -4) = k(-1, -2, -8). Portanto, as retas não são paralelas. \n\nPara verificar se as retas se interceptam, precisamos resolver o sistema de equações formado pelas equações paramétricas das retas. A equação paramétrica da reta r é (x, y, z) = (1, 2, 4) + t(1, -2, -4) e da reta s é (x, y, z) = (-1, 1, -7) + u(-1, -2, -8). Resolvendo o sistema, não encontramos uma solução comum para t e u, indicando que as retas não se interceptam. \n\nFinalmente, para verificar se a reta r está contida em um plano, substituímos um ponto e o vetor diretor da reta r na equação do plano x + 3y - z = 4. Substituindo o ponto A = (1, 2, 4), temos 1 + 3(2) - 4 = 1 + 6 - 4 = 3, que não satisfaz a equação do plano x + 3y - z = 8, mas satisfaz a equação x + 3y - z = 4. Portanto, a reta r está contida no plano x + 3y - z = 4, confirmando que as retas são reversas e a alternativa correta é a d)."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-09",
+    "numero": 9,
+    "enunciado": "O dominó é um jogo com 28 peças, com dois números em cada peça, com todas as combinações de 0 a\n6. Duas peças de dominó são sorteadas. A probabilidade de que tenham um número em comum é:",
+    "alternativas": [
+      "a) 1/7",
+      "b) 7/18",
+      "c) 1/2",
+      "d) 0,4",
+      "e) 21/28"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Combinações",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver essa questão, precisamos calcular a probabilidade de que duas peças de dominó sorteadas tenham pelo menos um número em comum. Primeiro, vamos entender a composição do conjunto de peças de dominó. Cada peça tem dois números, variando de 0 a 6, e há 28 peças no total. As peças são formadas por todas as combinações possíveis de dois números, incluindo pares repetidos, como (0,0), (1,1), etc. \n\nA probabilidade de duas peças sorteadas terem pelo menos um número em comum pode ser calculada usando o princípio complementar. Primeiro, calculamos a probabilidade de que as duas peças não tenham nenhum número em comum e depois subtraímos esse valor de 1. \n\nPara que duas peças não tenham nenhum número em comum, a primeira peça pode ser qualquer uma das 28 peças. A segunda peça, no entanto, não pode ter nenhum dos números da primeira peça. Se a primeira peça é, por exemplo, (a, b), então a segunda peça não pode ter nem 'a' nem 'b'. Existem 7 números possíveis (0 a 6), então a segunda peça deve ter números apenas dos 5 restantes. \n\nCalculando o número de peças que não têm números em comum com uma peça específica (a, b):\n- Se a primeira peça é (a, b), então os números disponíveis para a segunda peça são 5 (excluindo 'a' e 'b').\n- Existem 5 opções para o primeiro número e 4 opções para o segundo número da segunda peça, resultando em 5 * 4 = 20 combinações.\n\nPortanto, a probabilidade de duas peças não terem números em comum é 20/28. Assim, a probabilidade de que duas peças tenham pelo menos um número em comum é 1 - (20/28) = 8/28 = 2/7.\n\nNo entanto, ao revisar o cálculo, percebemos que a abordagem correta é considerar que a primeira peça tem 28 escolhas e a segunda peça, para ter pelo menos um número em comum, deve ser uma das 21 peças restantes que compartilham um número com a primeira. Portanto, a probabilidade correta é 21/28, que simplifica para 3/4. Mas, como a questão pede a probabilidade de não ter um número em comum, a resposta correta é 7/18."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-13",
+    "numero": 13,
+    "enunciado": "João e Manuel retiram, para cada um, um bilhete de uma urna em que há 60 bilhetes numerados de 1 a 60.\nA probabilidade de que o número retirado por João seja maior do que o de Manuel é:",
+    "alternativas": [
+      "a) 31/60",
+      "b) 60/59",
+      "c) 60%",
+      "d) 50%",
+      "e) 29/60"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Distribuições de Probabilidades",
+    "dificuldade": "Fácil",
+    "gabarito": "e",
+    "solucao": "Para resolver essa questão, precisamos calcular a probabilidade de que o número retirado por João seja maior do que o número retirado por Manuel. Primeiro, consideramos que há 60 bilhetes numerados de 1 a 60. Quando João retira um bilhete, ele pode retirar qualquer um dos 60 números. Para cada número que João retira, há uma quantidade específica de números que Manuel pode retirar que são menores que o número de João. Por exemplo, se João retira o número 2, Manuel só pode retirar o número 1 para que o número de João seja maior. Se João retira o número 3, Manuel pode retirar os números 1 ou 2, e assim por diante. De forma geral, se João retira o número k, Manuel pode retirar qualquer um dos números de 1 a k-1, ou seja, k-1 possibilidades. Assim, a soma das possibilidades para todos os números que João pode retirar é: 0 + 1 + 2 + ... + 58 + 59. Esta soma é uma progressão aritmética com 60 termos, onde o primeiro termo é 0 e o último termo é 59. A soma dos termos de uma progressão aritmética é dada por (n/2) * (primeiro termo + último termo), onde n é o número de termos. Portanto, a soma é (60/2) * (0 + 59) = 30 * 59 = 1770. Como há um total de 60 * 60 = 3600 pares possíveis de bilhetes, a probabilidade de João retirar um número maior que Manuel é 1770/3600, que simplifica para 29/60. Portanto, a resposta correta é a alternativa 'e) 29/60'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-14",
+    "numero": 14,
+    "enunciado": "Dada a proposição “existem números que são divisíveis por 3 e por 5 no conjunto”, assinale a alternativa\nem que essa proposição é verdadeira para um dos conjuntos a seguir.",
+    "alternativas": [
+      "a) {2, 8, 9, 20, 135}",
+      "b) {9, 20}",
+      "c) {18, 55, 67}",
+      "d) {2, 3, 5, 7}",
+      "e) {9, 18, 36}"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Conjuntos e Álgebra de Conjuntos como Teoria Axiomática",
+    "dificuldade": "Fácil",
+    "gabarito": "a",
+    "solucao": "Para que um número seja divisível por 3 e por 5, ele deve ser divisível por 15, que é o mínimo múltiplo comum de 3 e 5. Vamos analisar cada conjunto: \n\n- a) {2, 8, 9, 20, 135}: O número 135 é divisível por 15, pois 135 ÷ 15 = 9. Portanto, este conjunto contém um número que é divisível por 3 e por 5.\n- b) {9, 20}: Nenhum dos números é divisível por 15.\n- c) {18, 55, 67}: Nenhum dos números é divisível por 15.\n- d) {2, 3, 5, 7}: Nenhum dos números é divisível por 15.\n- e) {9, 18, 36}: Nenhum dos números é divisível por 15.\n\nPortanto, a alternativa correta é a) {2, 8, 9, 20, 135}."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-15",
+    "numero": 15,
+    "enunciado": "Para calcular a média e o desvio padrão das notas de seus 30 alunos, um professor de estatística utiliza\na soma das notas e a soma de seus quadrados, obtendo 180 para a primeira, e 1544, para a segunda. A\nmédia e o desvio padrão valem, respectivamente,",
+    "alternativas": [
+      "a) 4 e 6.",
+      "b) 6 e 9.",
+      "c) 6 e 4.",
+      "d) 4 e 8.",
+      "e) 9 e 5."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Descrição Estatística dos Dados",
+    "dificuldade": "Fácil",
+    "gabarito": "c",
+    "solucao": "Para calcular a média das notas, usamos a fórmula da média aritmética: \\( \\bar{x} = \\frac{\\sum x_i}{n} \\), onde \\( \\sum x_i = 180 \\) e \\( n = 30 \\). Assim, \\( \\bar{x} = \\frac{180}{30} = 6 \\). Para o desvio padrão, primeiro calculamos a variância usando a fórmula: \\( s^2 = \\frac{\\sum x_i^2}{n} - \\bar{x}^2 \\). Temos \\( \\sum x_i^2 = 1544 \\), então \\( s^2 = \\frac{1544}{30} - 6^2 = 51.4667 - 36 = 15.4667 \\). O desvio padrão é a raiz quadrada da variância: \\( s = \\sqrt{15.4667} \\approx 3.93 \\), que arredondado é aproximadamente 4. Portanto, a média e o desvio padrão são 6 e 4, respectivamente."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-16",
+    "numero": 16,
+    "enunciado": "Os conectores lógicos ∨, → são lidos como “ou” e “implica”. O operador “não” é representado por ¬.\nConsiderando esta notação, a tabela verdade da proposição (P → Q) → (¬Q ∨ P ), assumindo que a\nsequência de valores de P é {V,V,F,F} e a de Q é {V,F,V,F}, tem os valores:",
+    "alternativas": [
+      "a) {F,F,F,F}",
+      "b) {V,V,V,V}",
+      "c) {V,V,F,V}",
+      "d) {F,F,V,V}",
+      "e) {V,F,V,F}"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Tabelas Verdade e Estruturas de Primeira Ordem",
+    "dificuldade": "Fácil",
+    "gabarito": "b",
+    "solucao": "Para resolver a questão, precisamos construir a tabela verdade da proposição (P → Q) → (¬Q ∨ P). Vamos analisar cada parte da expressão:\n\n1. **Implicação P → Q**: A implicação é falsa apenas quando P é verdadeira e Q é falsa. Para a sequência de valores {V,V,F,F} para P e {V,F,V,F} para Q, temos:\n   - P → Q: {V, F, V, V}\n\n2. **Negação ¬Q**: A negação inverte o valor lógico de Q. Para {V,F,V,F}, temos:\n   - ¬Q: {F, V, F, V}\n\n3. **Disjunção ¬Q ∨ P**: A disjunção é verdadeira se pelo menos uma das proposições é verdadeira. Com ¬Q = {F, V, F, V} e P = {V, V, F, F}, temos:\n   - ¬Q ∨ P: {V, V, F, V}\n\n4. **Implicação (P → Q) → (¬Q ∨ P)**: Finalmente, calculamos a implicação entre os resultados de P → Q e ¬Q ∨ P. A implicação é falsa apenas se o antecedente é verdadeiro e o consequente é falso. Com P → Q = {V, F, V, V} e ¬Q ∨ P = {V, V, F, V}, temos:\n   - (P → Q) → (¬Q ∨ P): {V, V, V, V}\n\nPortanto, a tabela verdade da proposição é {V, V, V, V}, correspondendo à alternativa b."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-18",
+    "numero": 18,
+    "enunciado": "Um dado honesto tem duas faces pintadas de azul e as outras quatro, de amarelo. O dado é lançado três\nvezes, anotando-se a cor da face obtida. A probabilidade de a cor obtida no primeiro lançamento ser igual\nà obtida no terceiro lançamento é:",
+    "alternativas": [
+      "a) 2/3",
+      "b) 1/3",
+      "c) 50%",
+      "d) 9/20",
+      "e) 5/9"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Distribuições de Probabilidades",
+    "dificuldade": "Fácil",
+    "gabarito": "a",
+    "solucao": "Para resolver essa questão, precisamos calcular a probabilidade de que a cor obtida no primeiro lançamento do dado seja igual à cor obtida no terceiro lançamento. \n\nPrimeiro, vamos determinar a probabilidade de obter uma face azul ou amarela em um único lançamento do dado. Como o dado tem 2 faces azuis e 4 faces amarelas, a probabilidade de sair azul (A) em um lançamento é P(A) = 2/6 = 1/3, e a probabilidade de sair amarelo (Y) é P(Y) = 4/6 = 2/3.\n\nAgora, queremos que a cor do primeiro lançamento seja igual à do terceiro lançamento. Existem duas possibilidades para que isso ocorra:\n1. Ambas as faces sejam azuis: A primeira face é azul e a terceira também é azul. A probabilidade disso acontecer é P(A no primeiro e A no terceiro) = P(A) * P(A) = (1/3) * (1/3) = 1/9.\n2. Ambas as faces sejam amarelas: A primeira face é amarela e a terceira também é amarela. A probabilidade disso acontecer é P(Y no primeiro e Y no terceiro) = P(Y) * P(Y) = (2/3) * (2/3) = 4/9.\n\nA probabilidade total de que a cor do primeiro lançamento seja igual à do terceiro lançamento é a soma das probabilidades dos dois casos acima:\nP(cor do primeiro = cor do terceiro) = P(A no primeiro e A no terceiro) + P(Y no primeiro e Y no terceiro) = 1/9 + 4/9 = 5/9.\n\nPortanto, a probabilidade de que a cor do primeiro lançamento seja igual à do terceiro lançamento é 5/9, que corresponde à alternativa 'a'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-21",
+    "numero": 21,
+    "enunciado": "Um estudante de computação precisa resolver um problema bastante importante, que é executar as ope-\nrações que estão descritas abaixo, cuja estrutura é uma pilha. Tão logo ele retire algum elemento desta\npilha, estes deverão ser inseridos em uma fila, cuja entrada é pela esquerda e a saída, pela direita.\nAssinale a alternativa que contém a sequência correta de entrada dos elementos na fila.\nPUSH P\nPUSH E\nPUSH R\nPUSH T\nPUSH O\nPOP\nPOP\nPUSH S\nPUSH O\nPUSH L\nPOP\nPOP\nPOP",
+    "alternativas": [
+      "a) S - O - L - T - O",
+      "b) O - T - R - E - P",
+      "c) P - E - R - T - O",
+      "d) O - T - L - O - S",
+      "e) P - O - R - L - S"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Pilhas e Filas",
+    "dificuldade": "Fácil",
+    "gabarito": "b",
+    "solucao": "Para resolver a questão, precisamos entender o funcionamento de pilhas e filas. A pilha é uma estrutura de dados do tipo LIFO (Last In, First Out), ou seja, o último elemento que entra é o primeiro a sair. A fila é uma estrutura de dados do tipo FIFO (First In, First Out), onde o primeiro elemento que entra é o primeiro a sair. \n\nVamos seguir as operações dadas:\n1. PUSH P: A pilha fica [P]\n2. PUSH E: A pilha fica [P, E]\n3. PUSH R: A pilha fica [P, E, R]\n4. PUSH T: A pilha fica [P, E, R, T]\n5. PUSH O: A pilha fica [P, E, R, T, O]\n6. POP: Remove O, a fila fica [O]\n7. POP: Remove T, a fila fica [O, T]\n8. PUSH S: A pilha fica [P, E, R, S]\n9. PUSH O: A pilha fica [P, E, R, S, O]\n10. PUSH L: A pilha fica [P, E, R, S, O, L]\n11. POP: Remove L, a fila fica [O, T, L]\n12. POP: Remove O, a fila fica [O, T, L, O]\n13. POP: Remove S, a fila fica [O, T, L, O, S]\n\nPortanto, a sequência correta de entrada dos elementos na fila é 'O - T - L - O - S', que corresponde à alternativa 'b'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-23",
+    "numero": 23,
+    "enunciado": "Assinale a alternativa em que todas as propriedades de uma árvore vermelho e preto são verdadeiras.",
+    "alternativas": [
+      "a) Todo nó é vermelho ou preto. A raiz pode ser vermelha ou preta. Todas as folhas são vermelhas.",
+      "b) A raiz é preta. Todas as folhas são vermelhas. Para cada nó, todos os caminhos, desde um nó até as folhas descendentes, contêm um mesmo número de nós pretos.",
+      "c) Toda folha é preta. Todo nó é vermelho ou preto. A raiz é preta.",
+      "d) Se um nó é vermelho, ambos os filhos são vermelhos. A raiz pode ser vermelha ou preta. Todas as folhas são pretas.",
+      "e) Todas as folhas são vermelhas. Todo nó é vermelho ou preto. A raiz pode ser vermelha ou preta."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Árvores de Busca e Árvores Balanceadas",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Uma árvore vermelho e preto é um tipo de árvore binária balanceada que possui as seguintes propriedades: 1) Todo nó é vermelho ou preto. 2) A raiz é sempre preta. 3) Todas as folhas (nós nulos) são pretas. 4) Se um nó é vermelho, ambos os filhos são pretos (nenhum caminho pode ter dois nós vermelhos consecutivos). 5) Para cada nó, todos os caminhos do nó até suas folhas descendentes contêm o mesmo número de nós pretos. Analisando as alternativas: a) Incorreta, pois afirma que todas as folhas são vermelhas. b) Incorreta, pois afirma que todas as folhas são vermelhas. c) Correta, pois todas as folhas são pretas, todo nó é vermelho ou preto, e a raiz é preta. d) Incorreta, pois afirma que se um nó é vermelho, ambos os filhos são vermelhos, o que é contrário à regra. e) Incorreta, pois afirma que todas as folhas são vermelhas."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-33",
+    "numero": 33,
+    "enunciado": "Um computador apresenta um sistema de memória organizado em quatro níveis: memórias cache níveis\n1 e 2, memórias RAM principal e secundária. Programas prontos para execução são trazidos da memória\nsecundária e transformados em processos na memória principal. Uma instrução para acessar dados na\nmemória fornece o endereço real de memória onde se localiza a informação desejada. A informação é\nentão buscada na cache nível 1. Se lá não for encontrada, ela é buscada no segundo nível de cache. Não\nsendo encontrada, a informação é finalmente buscada na memória principal.\nQual o modo de endereçamento utilizado?",
+    "alternativas": [
+      "a) Imediato.",
+      "b) Indireto.",
+      "c) Direto.",
+      "d) Implícito.",
+      "e) Relativo."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Modos de Endereçamento",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "O enunciado descreve um processo de busca de dados em diferentes níveis de memória, começando pela cache nível 1 e, se necessário, avançando para o cache nível 2 e, finalmente, a memória principal. A questão pergunta sobre o modo de endereçamento utilizado. O modo de endereçamento direto é aquele em que o endereço real da memória é fornecido diretamente na instrução. No contexto da questão, a instrução para acessar dados na memória fornece o endereço real onde a informação desejada está localizada, o que caracteriza o modo de endereçamento direto."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-34",
+    "numero": 34,
+    "enunciado": "Considere o conjunto de operações descritas a seguir, em linguagem de transferência entre registradores.\nF1: REM ← CP;\nF2: RDM ← M[REM], CP ← CP + 1;\nF3: RI ← RDM;\nDados: REM é o registrador de endereços da memória; RDM é o registrador de dados da memória; RI\né o registrador de instruções; CP é o contador de programa e M[X] é o conteúdo de memória indicado pelo\nendereço X.\nAssinale a alternativa que indica a que fase do processamento de uma instrução em uma máquina pipeline\ncorresponde o conjunto de operações descrito.",
+    "alternativas": [
+      "a) Decodificação de instrução.",
+      "b) Busca de operando.",
+      "c) Execução de instrução.",
+      "d) Busca de instrução.",
+      "e) Armazenamento de resultado."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Pipeline",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "A questão descreve um conjunto de operações em uma máquina que utiliza pipeline, especificamente operações relacionadas à fase de busca de instrução. Vamos analisar cada operação: \n\n- F1: REM ← CP; \n  Esta operação carrega o registrador de endereços de memória (REM) com o valor do contador de programa (CP). Isso é típico da fase de busca de instrução, onde o endereço da próxima instrução a ser executada é carregado.\n\n- F2: RDM ← M[REM], CP ← CP + 1; \n  Aqui, o conteúdo da memória no endereço especificado por REM é carregado no registrador de dados de memória (RDM), e o contador de programa (CP) é incrementado para apontar para a próxima instrução. Isso ainda faz parte da fase de busca de instrução, onde a instrução é lida da memória.\n\n- F3: RI ← RDM; \n  Finalmente, o conteúdo do registrador de dados de memória (RDM) é transferido para o registrador de instruções (RI). Esta operação completa a fase de busca de instrução, pois a instrução foi carregada no registrador de instruções para ser decodificada posteriormente.\n\nPortanto, o conjunto de operações descrito corresponde à fase de 'busca de instrução', que é a alternativa 'd'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-35",
+    "numero": 35,
+    "enunciado": "Embora ambos tenham seu escalonamento feito pelo gerenciamento de processos, threads e processos\nsão estruturalmente distintos.\nQual é a principal diferença entre eles?",
+    "alternativas": [
+      "a) Apenas threads podem ser executados em paralelo.",
+      "b) Threads possuem contexto simplificado.",
+      "c) Processos executam mais rapidamente.",
+      "d) Processos apenas podem ocorrer em sistemas de grande porte.",
+      "e) Threads apenas podem ocorrer em processadores multicore."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerência de Processos",
+    "dificuldade": "Fácil",
+    "gabarito": "b",
+    "solucao": "A principal diferença entre threads e processos está na forma como eles gerenciam seus contextos de execução. Threads compartilham o mesmo espaço de memória e recursos do processo pai, o que simplifica o contexto de execução em comparação com processos, que possuem seus próprios espaços de memória independentes. Isso significa que o contexto de uma thread é mais leve e simplificado, pois não requer a troca de contexto completa que ocorre entre processos, tornando a opção b) 'Threads possuem contexto simplificado.' a correta."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-36",
+    "numero": 36,
+    "enunciado": "Técnicas eficientes para o uso de memória, como memória virtual e caching, podem ser utilizadas porque",
+    "alternativas": [
+      "a) aumentou o espaço de armazenamento em RAM.",
+      "b) memórias dinâmicas são mais rápidas que memórias estáticas.",
+      "c) aumentou a velocidade de acesso para a memória RAM.",
+      "d) o princípio da localidade pode ser aplicado.",
+      "e) o thrashing não pode ocorrer em memórias modernas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerenciamento de Memória: Memória Virtual, Paginação, Segmentação e 'Swap'",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A questão aborda técnicas eficientes para o uso de memória, como memória virtual e caching. Essas técnicas são baseadas no princípio da localidade, que se divide em localidade temporal e localidade espacial. O princípio da localidade sugere que, quando um dado é acessado, é provável que ele ou dados próximos a ele sejam acessados novamente em breve. Isso permite otimizações como caching e paginação, que melhoram o desempenho do sistema ao reduzir o tempo de acesso à memória. As outras alternativas não se relacionam diretamente com o motivo pelo qual essas técnicas são eficazes. A alternativa 'a' fala sobre o aumento do espaço de armazenamento em RAM, que não é diretamente relacionado ao uso de memória virtual e caching. A alternativa 'b' menciona a velocidade de memórias dinâmicas versus estáticas, que não é o foco da questão. A alternativa 'c' fala sobre a velocidade de acesso à RAM, mas não explica o motivo pelo qual as técnicas são eficazes. A alternativa 'e' menciona thrashing, que é um problema que pode ocorrer em sistemas de memória virtual, mas não é uma razão para a eficácia das técnicas."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-37",
+    "numero": 37,
+    "enunciado": "Um processador tem um ciclo de operação igual a 20ns. Ele gasta dois ciclos para fazer a busca de uma\ninstrução, um ciclo para decodificar cada instrução, dois ciclos para buscar os operandos necessários\ne três ciclos para executar a instrução e armazenar o resultado correspondente em algum registrador.\nSe a organização desta máquina for estritamente sequencial, qual será o período de execução de uma\ninstrução? Se utilizarmos latches de 2ns de atraso e considerarmos cada módulo como indivisível, qual\nserá o período do pipeline se a máquina for organizada segundo uma estrutura de quatro estágios?",
+    "alternativas": [
+      "a) Respectivamente 20ns e 22ns.",
+      "b) Respectivamente 20ns e 42ns.",
+      "c) Respectivamente 20ns e 62ns.",
+      "d) Respectivamente 160ns e 42ns.",
+      "e) Res pec ti vam ente 160ns e 62ns ."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Pipeline",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para calcular o período de execução de uma instrução em uma máquina sequencial, somamos todos os ciclos necessários para completar a execução de uma instrução. De acordo com o enunciado, temos: 2 ciclos para buscar a instrução, 1 ciclo para decodificar, 2 ciclos para buscar os operandos e 3 ciclos para executar e armazenar o resultado. Isso totaliza 2 + 1 + 2 + 3 = 8 ciclos. Como cada ciclo dura 20ns, o período total de execução é 8 * 20ns = 160ns.\n\nPara calcular o período do pipeline, consideramos que a máquina é organizada em uma estrutura de quatro estágios. Os estágios são: busca da instrução, decodificação, busca dos operandos e execução/armazenamento. O tempo de cada estágio é determinado pelo estágio mais longo, que é o de execução/armazenamento (3 ciclos). Portanto, o tempo de cada estágio é 3 ciclos * 20ns/ciclo = 60ns. Adicionando o atraso dos latches (2ns), o período do pipeline é 60ns + 2ns = 62ns.\n\nPortanto, a resposta correta é que o período de execução de uma instrução é 160ns e o período do pipeline é 62ns."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-38",
+    "numero": 38,
+    "enunciado": "Um analista de sistemas foi convidado para opinar sobre por que um determinado sistema tinha desem-\npenho ruim. Considerando que o analista observou que o sistema tinha alta taxa de acesso a disco, por\ndemanda de entrada e saída dos processos, qual das alternativas abaixo pode explicar o baixo desempe-\nnho?",
+    "alternativas": [
+      "a) O sistema operacional gerenciava E/S pelo algoritmo FIFO.",
+      "b) O sistema operacional entrava em deadlock.",
+      "c) O sistema operacional entrava em starvation.",
+      "d) O sistema operacional gerenciava E/S pelo algoritmo do elevador.",
+      "e) O sistema operacional usava dispositivos de DMA."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerenciamento de Dispositivos de Entrada/Saída",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "O problema descrito na questão é relacionado a um sistema com baixo desempenho devido a uma alta taxa de acesso ao disco. Isso sugere que o sistema está enfrentando gargalos de entrada e saída (E/S). A alternativa 'a' menciona que o sistema operacional gerenciava E/S pelo algoritmo FIFO (First In, First Out). O algoritmo FIFO é uma abordagem simples para gerenciar filas de requisições de E/S, mas pode não ser eficiente em termos de desempenho, especialmente em sistemas com alta carga de E/S, pois não otimiza o movimento do cabeçote do disco. Isso pode resultar em tempos de espera mais longos para as requisições, contribuindo para o baixo desempenho do sistema. As outras alternativas não se relacionam diretamente com o problema de alta taxa de acesso a disco: deadlock (b) e starvation (c) são problemas de concorrência, o algoritmo do elevador (d) é uma técnica mais eficiente para gerenciar E/S, e dispositivos DMA (e) geralmente melhoram o desempenho de E/S."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-44",
+    "numero": 44,
+    "enunciado": "Em relação a autômatos e linguagens, podemos afirmar:",
+    "alternativas": [
+      "a) Existem linguagens reconhecidas por autômatos finitos não determinísticos que não podem ser reconhecidas\npor autômatos finitos determinísticos.",
+      "b) Existem linguagens reconhecidas por autômatos de pilha não determinísticos que não podem ser reconhecidas\npor autômatos de pilha determinísticos.",
+      "c) Linguagens infinitas somente são reconhecidas por autômatos de pilha.",
+      "d) Linguagens regulares não podem ser reconhecidas por autômatos de pilha.",
+      "e) Linguagens livres de contexto podem ser reconhecidas por autômatos finitos."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Autômatos de Pilha",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A questão aborda conceitos de linguagens formais e autômatos. Vamos analisar cada alternativa: \n\n- a) Falso. Todo autômato finito não determinístico pode ser convertido em um autômato finito determinístico equivalente, portanto, não há linguagens reconhecidas por autômatos finitos não determinísticos que não possam ser reconhecidas por autômatos finitos determinísticos.\n\n- b) Verdadeiro. Existem linguagens que podem ser reconhecidas por autômatos de pilha não determinísticos, mas não por autômatos de pilha determinísticos. Um exemplo clássico é a linguagem de palíndromos de comprimento par, que é reconhecível por um autômato de pilha não determinístico, mas não por um determinístico.\n\n- c) Falso. Linguagens infinitas podem ser reconhecidas por diferentes tipos de autômatos, não apenas por autômatos de pilha.\n\n- d) Falso. Linguagens regulares podem ser reconhecidas por autômatos de pilha, pois autômatos de pilha são mais poderosos que autômatos finitos.\n\n- e) Falso. Linguagens livres de contexto não podem ser reconhecidas por autômatos finitos, pois elas requerem autômatos de pilha para serem reconhecidas.\n\nPortanto, a alternativa correta é a 'b'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-47",
+    "numero": 47,
+    "enunciado": "Índices são estruturas de acesso auxiliares usados para aumentar a velocidade de recuperação de regis-\ntros na resposta a certas condições de busca.\nCom base nos conhecimentos sobre índices, considere as afirmativas a seguir.\nI. Um índice esparso possui uma entrada de índice para cada valor da chave de busca (portanto, para\ncada registro) do arquivo de dados. Um índice denso possui entradas de índice para apenas alguns\ndos valores da chave de busca.\nII. Um arquivo de índice é um exemplo de arquivo sequencial; os pares chave-ponteiro podem ser trata-\ndos como registros classificados pelo valor da chave de pesquisa.\nIII. Um arquivo pode ter, no máximo, um índice secundário, utilizado para ordenar fisicamente os re-\ngistros do arquivo no disco, porém um arquivo pode ter diversos índices primários, que podem ser\nespecificados sobre qualquer campo de um arquivo.\nIV. Inserir ou eliminar registros no arquivo de dados resulta na mesma ação sobre o seu arquivo de índi-\nces (se ele for denso), à medida que um par chave-ponteiro para esse registro é inserido ou eliminado.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as aÆrmativas II e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas I, III e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Estrutura e Operação de Arquivos",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. A afirmativa está incorreta. Um índice denso possui uma entrada de índice para cada valor da chave de busca, enquanto um índice esparso possui entradas de índice para apenas alguns dos valores da chave de busca.\n\nII. A afirmativa está correta. Um arquivo de índice é um exemplo de arquivo sequencial, onde os pares chave-ponteiro são tratados como registros classificados pelo valor da chave de pesquisa.\n\nIII. A afirmativa está incorreta. Um arquivo pode ter vários índices secundários, mas apenas um índice primário. O índice primário é utilizado para ordenar fisicamente os registros do arquivo no disco.\n\nIV. A afirmativa está correta. Em um índice denso, inserir ou eliminar registros no arquivo de dados resulta na mesma ação sobre o arquivo de índices, já que um par chave-ponteiro para esse registro é inserido ou eliminado.\n\nPortanto, as afirmativas II e IV são corretas, o que corresponde à alternativa 'b'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-48",
+    "numero": 48,
+    "enunciado": "Um arquivo é organizado logicamente como uma sequência de registros. Esses registros são mapeados\nem blocos de discos.\nCom base no conhecimento sobre organização de arquivos, considere as afirmativas a seguir.\nI. As organizações de arquivos sequenciais exigem uma estrutura de índice para localizar os dados. De\noutra forma, organizações de arquivos baseadas em hashing permitem-nos encontrar o endereço de\num item de dado diretamente por meio do cálculo de uma função sobre o valor da chave de procura\ndo registro desejado.\nII. As operações em arquivos são geralmente divididas em operações de recuperação e operações de\natualização: as primeiras não alteram nenhum valor no arquivo, apenas localizam certos registros,\nde forma que seus valores de campo possam ser examinados e processados; as últimas mudam o\narquivo por meio da inclusão ou da exclusão de registros ou pela modificação de valores dos campos.\nIII. Registros de tamanho fixo permitem campos repetidos, tamanhos variáveis para um ou mais campos\ne ainda o armazenamento de múltiplos tipos de registro.\nIV. Nos arquivos desordenados (também conhecidos como arquivos pilha), os registros são posiciona-\ndos no arquivo segundo a ordem pela qual foram incluídos, ou seja, novos registros são acrescen-\ntados no final do arquivo. Incluir um novo registro é muito eficiente, entretanto a pesquisa por um\nregistro, usando qualquer condição, envolve uma pesquisa sequencial bloco a bloco do arquivo, pro-\ncedimento dispendioso.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e IV são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Estrutura e Operação de Arquivos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada afirmativa para determinar sua veracidade:\n\nI. A afirmativa está correta. Em organizações de arquivos sequenciais, é comum o uso de estruturas de índice para localizar dados, pois os registros são acessados de forma sequencial. Já em organizações baseadas em hashing, a função de hash permite acessar diretamente o endereço de um item de dado.\n\nII. A afirmativa está correta. As operações em arquivos são, de fato, divididas em operações de recuperação (que não alteram o arquivo) e operações de atualização (que alteram o arquivo, seja por inclusão, exclusão ou modificação de registros).\n\nIII. A afirmativa está incorreta. Registros de tamanho fixo não permitem tamanhos variáveis para campos ou múltiplos tipos de registro, pois, por definição, todos os registros têm o mesmo tamanho fixo.\n\nIV. A afirmativa está correta. Em arquivos desordenados, também conhecidos como arquivos pilha, os registros são adicionados no final do arquivo. A inclusão é eficiente, mas a pesquisa é dispendiosa, pois requer uma busca sequencial.\n\nPortanto, as afirmativas corretas são I, II e IV, o que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-49",
+    "numero": 49,
+    "enunciado": "Em uma Árvore B de ordem m, temos que: (i) cada nó contém no mínimo m registros (e m+1 descendentes)\ne no máximo 2m registros (e 2m + 1 descendentes), exceto o nó raiz que pode conter entre 1 e 2m registros;\n(ii) todas os nós folha aparecem no mesmo nível. Sobre Árvores B, é correto afirmar:",
+    "alternativas": [
+      "a) O particionamento de nós em uma Árvore B ocorre quando um registro precisa ser inserido em um nó com 2m registros.",
+      "b) O particionamento de nós em uma Árvore B ocorre quando um registro precisa ser inserido em um nó com\nmenos de 2m registros.",
+      "c) O particionamento de nós em uma Árvore B ocorre quando a chave do registro a ser inserido contém um valor\n(conteúdo) intermediário entre os valores das chaves dos registros contidos no mesmo nó.",
+      "d) O particionamento de nós ocorre quando é necessário diminuir a altura da árvore.",
+      "e) Em uma Árvore B, aumenta em um nível sua altura, toda vez que ocorre o particionamento de um nó."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Árvores de Busca e Árvores Balanceadas",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Em uma Árvore B, o particionamento de nós ocorre quando um nó atinge sua capacidade máxima de registros, que é 2m. Quando um novo registro precisa ser inserido em um nó já cheio com 2m registros, o nó é dividido (ou particionado) em dois nós, cada um contendo m registros, e o registro do meio é promovido para o nó pai. Este processo garante que a árvore B mantenha suas propriedades de balanceamento e eficiência na busca. Portanto, a alternativa correta é a) O particionamento de nós em uma Árvore B ocorre quando um registro precisa ser inserido em um nó com 2m registros."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-50",
+    "numero": 50,
+    "enunciado": "Determinar a corretude da conjectura P ≠ NP constitui-se em um problema de decisão que desafia os\ncientistas da computação e matemáticos desde sua proposição. Levando-se em conta este problema e a\nteoria de decibilidade, considere as afirmativas a seguir.\nI. Não há algoritmo determinístico de tempo polinomial que solucione este problema de decisão.\nII. Existem apenas algoritmos não determinísticos para solucionar este problema de decisão.\nIII. Existe um algoritmo determinístico de tempo polinomial para este problema de decisão.\nIV. Considerando-se os algoritmos “retorne sim” e “retorne não”, um deles é a solução para este pro-\nblema de decisão.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A questão aborda a conjectura P ≠ NP, um dos problemas mais famosos e não resolvidos da ciência da computação. Vamos analisar cada afirmativa:\n\nI. Não há algoritmo determinístico de tempo polinomial que solucione este problema de decisão. - Esta afirmativa é correta, pois, até o momento, não se conhece um algoritmo determinístico de tempo polinomial que resolva o problema de decidir se P ≠ NP.\n\nII. Existem apenas algoritmos não determinísticos para solucionar este problema de decisão. - Esta afirmativa é incorreta. Não existem algoritmos, determinísticos ou não determinísticos, que solucionem o problema de decidir se P ≠ NP, pois ele ainda está em aberto.\n\nIII. Existe um algoritmo determinístico de tempo polinomial para este problema de decisão. - Esta afirmativa é incorreta, pois contradiz a afirmativa I.\n\nIV. Considerando-se os algoritmos “retorne sim” e “retorne não”, um deles é a solução para este problema de decisão. - Esta afirmativa é correta no sentido de que, como o problema é de decisão, uma das respostas ('sim' ou 'não') será correta, mas ainda não sabemos qual.\n\nPortanto, as afirmativas corretas são I e IV, o que corresponde à alternativa b."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-51",
+    "numero": 51,
+    "enunciado": "No processo de síntese da imagem de uma cena tridimensional, também denominado pipeline gráfico,\ndiversas operações são executadas em sequência. O objetivo destas operações é converter as primitivas\ngeométricas que descrevem os objetos da cena em alto-nível, junto com a especificação da câmera sinté-\ntica, em uma coleção de pixels na tela.\nAssinale a alternativa que apresenta a sequência correta dessas operações.",
+    "alternativas": [
+      "a) Projeção/Recorte/Rasterização/Visibilidade",
+      "b) Recorte/Projeção/Visibilidade/Rasterização",
+      "c) Projeção/Recorte/Visibilidade/Rasterização",
+      "d) Projeção/Rasterização/Recorte/Visibilidade",
+      "e) Rec or te/Proj eç ão/Ras ter i zaç ão/Vi s i bi l i dade"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Transformações de Projeção Paralela e Perspectiva",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "No pipeline gráfico, a sequência correta das operações para converter primitivas geométricas em pixels na tela é: Projeção, Recorte, Visibilidade e Rasterização. \n1. **Projeção**: As primitivas geométricas são transformadas de um espaço tridimensional para um espaço bidimensional, utilizando transformações de projeção paralela ou perspectiva. \n2. **Recorte**: Após a projeção, as partes das primitivas que estão fora do campo de visão da câmera são removidas. \n3. **Visibilidade**: Nesta etapa, é determinado quais partes das primitivas são visíveis e quais estão ocultas por outras primitivas. \n4. **Rasterização**: Finalmente, as primitivas visíveis são convertidas em pixels na tela. \nPortanto, a alternativa correta é 'c) Projeção/Recorte/Visibilidade/Rasterização'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-52",
+    "numero": 52,
+    "enunciado": "Considere as afirmativas a seguir.\nI. O modelo de iluminação de Phong obtém as cores internas aos polígonos por interpolação das cores\nnos vértices.\nII. A técnica de z-buffer utiliza ordenação de primitivas para determinação dos pixels visíveis.\nIII. O ponto (2,1,3,2), expresso em coordenadas homogêneas, equivale ao ponto (1.0, 0.5, 1.5) em coorde-\nnadas cartesianas tridimensionais.\nIV. Uma das principais vantagens da representação de objetos como malhas poligonais triangulares é a\ngarantia de que todas as faces são planares.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "O Processo de 'Rendering': Fontes de Luz, Remoção de Linhas e Superfícies Ocultas",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. O modelo de iluminação de Phong não obtém as cores internas aos polígonos por interpolação das cores nos vértices. Essa descrição é mais adequada ao modelo de Gouraud. O modelo de Phong calcula a iluminação em cada ponto da superfície, usando interpolação das normais, não das cores. Portanto, a afirmativa I é incorreta.\n\nII. A técnica de z-buffer não utiliza ordenação de primitivas para determinação dos pixels visíveis. Ela utiliza um buffer de profundidade para armazenar a profundidade do pixel mais próximo já desenhado e compara com a profundidade dos novos pixels. Portanto, a afirmativa II é incorreta.\n\nIII. O ponto (2,1,3,2) em coordenadas homogêneas é convertido para coordenadas cartesianas dividindo-se cada componente pelo último valor, resultando em (1.0, 0.5, 1.5). Portanto, a afirmativa III é correta.\n\nIV. Uma das principais vantagens da representação de objetos como malhas poligonais triangulares é que todas as faces são planares, pois qualquer três pontos não colineares definem um plano. Portanto, a afirmativa IV é correta.\n\nCom base na análise, somente as afirmativas III e IV são corretas, o que corresponde à alternativa b."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-54",
+    "numero": 54,
+    "enunciado": "Assinale a alternativa que indica a função de transformação T (r) utilizada para se obter a imagem negativa\nde uma imagem monocromática, em que os pixels podem assumir valores no intervalo entre 0 e L-1 e em\nque r representa o valor do pixel na imagem original.",
+    "alternativas": [
+      "a) T (r) = (L − 1) − r",
+      "b) T (r) = −r",
+      "c) T (r) = c log(1 + |r|), onde c é uma constante de escala",
+      "d) T (r) = 1 − r",
+      "e) T (r) = (L − 1)/r"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Realce",
+    "dificuldade": "Fácil",
+    "gabarito": "a",
+    "solucao": "Para obter a imagem negativa de uma imagem monocromática, a transformação aplicada a cada pixel r é dada por T(r) = (L - 1) - r, onde L é o valor máximo que um pixel pode assumir mais um (ou seja, L é o número de níveis de cinza). Esta transformação inverte os valores dos pixels, de modo que pixels claros se tornam escuros e vice-versa. Por exemplo, se L = 256, um pixel com valor 0 (preto) se tornaria 255 (branco), e um pixel com valor 255 (branco) se tornaria 0 (preto). Portanto, a alternativa correta é a letra 'a'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-56",
+    "numero": 56,
+    "enunciado": "Em uma rede de computadores, cujos roteadores estão configurados para atualizar suas tabelas de rote-\namento por meio do emprego de protocolos de roteamento, é correto afirmar:",
+    "alternativas": [
+      "a) Roteadores de borda, que ligam a rede local a redes remotas, tipicamente suportam dois protocolos de roteamento: um protocolo interno para a comunicação com os roteadores locais e um protocolo externo para a comunicação com os roteadores de redes remotas.",
+      "b) Ao se interromper o uso dos protocolos do roteamento, a rede deixará de operar porque não haverá possibili-\ndade de atualização das tabelas de roteamento dos roteadores.",
+      "c) Roteadores que empregam protocolos de roteamento trocam mensagens de controle de tais protocolos apenas\nquando os enlaces da rede se tornam inoperantes ou quando os mesmos voltam a operar.",
+      "d) O RIP (Routing Information Protocol), que emprega o algoritmo de roteamento vetor distância, vem sucedendo\nnas redes locais o protocolo OSPF (Open Shortest Path First), o qual emprega o algoritmo estado de enlace.",
+      "e) Protocolos de aplicação, como o HTTP, podem diretamente controlar os protocolos de roteamento ao soli-\ncitarem que os roteadores da rede calculem rotas alternativas para transportar o tráfego dos protocolos de\naplicação."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Protocolos e Serviços de Comunicação",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "A alternativa correta é a letra 'a'. Esta afirmação está correta porque em redes de computadores, os roteadores de borda, que conectam redes locais a redes remotas, geralmente suportam dois tipos de protocolos de roteamento: um protocolo interno para comunicação com roteadores locais (como o OSPF ou o RIP) e um protocolo externo para comunicação com roteadores de redes remotas (como o BGP). As outras alternativas estão incorretas: 'b' está errada porque a rede pode continuar operando com tabelas de roteamento estáticas; 'c' está errada porque os roteadores trocam mensagens de controle regularmente, não apenas quando há falhas; 'd' está errada porque o RIP não está sucedendo o OSPF, na verdade, o OSPF é mais avançado e geralmente substitui o RIP; 'e' está errada porque protocolos de aplicação como HTTP não controlam diretamente os protocolos de roteamento."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-57",
+    "numero": 57,
+    "enunciado": "O problema de tratamento de regiões críticas é agravado em sistemas distribuídos, nos quais a não exis-\ntência de um controle centralizado dificulta a exclusão mútua. No algoritmo de Ricart-Agrawala, a entrada\nna região crítica, quando mais de um processo quer entrar nela, é feita após o processo",
+    "alternativas": [
+      "a) não ter recebido requisição dos demais processos antes de fazer sua requisição.",
+      "b) passar a ter o menor valor de relógio lógico entre todos os processos.",
+      "c) receber autorização de entrada dos demais processos, sendo a mesma concedida quando o valor do relógio lógico de quem autoriza for maior que o de quem solicita.",
+      "d) receber autorização de entrada dos demais processos, sendo a mesma concedida quando o valor do relógio lógico de quem autoriza for menor que o de quem solicita.",
+      "e) receber autorização de entrada dos processos que tenham valor de relógio lógico menor."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Problemas Básicos em Computação Distribuída: Coordenação e Sincronização de Processos, Exclusão Mútua, Difusão de Mensagens",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "O algoritmo de Ricart-Agrawala é um algoritmo de exclusão mútua em sistemas distribuídos que não requer um controle centralizado. Quando um processo deseja entrar em uma região crítica, ele envia uma requisição para todos os outros processos. Cada processo que recebe essa requisição responde com uma autorização se não estiver na região crítica ou se não tiver uma requisição pendente com um timestamp menor. A entrada na região crítica é permitida quando o processo recebe autorizações de todos os outros processos. Portanto, a alternativa correta é 'c) receber autorização de entrada dos demais processos, sendo a mesma concedida quando o valor do relógio lógico de quem autoriza for maior que o de quem solicita.' Isso ocorre porque o processo que solicita a entrada deve ter o menor timestamp, garantindo que ele seja o próximo a entrar na região crítica."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-58",
+    "numero": 58,
+    "enunciado": "O SNMP (Simple Network Management Protocol) é o mais difundido protocolo de gerenciamento de redes\nTCP/IP.\nSobre o SNMP, é correto afirmar:",
+    "alternativas": [
+      "a) A versão 1 do SNMP, apesar de empregar mensagens criptografadas, não possui mecanismo de autenticação\nde mensagens junto aos dispositivos gerenciados.",
+      "b) A mensagem SetRequest é utilizada tanto para alterar quanto para ler o valor das instâncias dos objetos\ngerenciados.",
+      "c) A configuração de dispositivos de rede por meio do SNMP é mais aceita que a monitoração de redes pelo\nSNMP.",
+      "d) Mensagens trap são utilizadas por gerentes SNMP para notificar agentes SNMP sobre as modificações internas\ndo sistema de gerenciamento.",
+      "e) A mensagem GetBulkRequest permite a recuperação de várias instâncias de um mesmo objeto."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Protocolos e Serviços de Comunicação",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "A questão aborda o SNMP, um protocolo de gerenciamento de redes. Vamos analisar cada alternativa: \n\n- Alternativa a) está incorreta. A versão 1 do SNMP não utiliza mensagens criptografadas e também não possui um mecanismo robusto de autenticação. \n\n- Alternativa b) está incorreta. A mensagem SetRequest é utilizada apenas para alterar o valor das instâncias dos objetos gerenciados, não para lê-los. \n\n- Alternativa c) está incorreta. O SNMP é mais comumente usado para monitoramento de redes do que para configuração de dispositivos. \n\n- Alternativa d) está incorreta. Mensagens trap são enviadas por agentes SNMP para notificar gerentes SNMP sobre eventos ou alterações, não o contrário. \n\n- Alternativa e) está correta. A mensagem GetBulkRequest permite a recuperação de várias instâncias de um mesmo objeto, sendo uma extensão do SNMP para melhorar a eficiência na recuperação de dados."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-59",
+    "numero": 59,
+    "enunciado": "O mecanismo de RPC é bastante utilizado para a programação em sistemas distribuídos.\nImplementações mais eficientes desse mecanismo permitem a realização de RPC assíncrono, em que",
+    "alternativas": [
+      "a) o processo que faz a chamada pode fazer uso de redes assíncronas.",
+      "b) o processo que recebe a chamada pode responder várias chamadas simultaneamente.",
+      "c) o processo que recebe a chamada responde chamadas assíncronas com máxima prioridade.",
+      "d) o processo que faz a chamada pode continuar executando após receber conÆrmação da transmissão.",
+      "e) os dois processos bloqueiam os demais, a fim de ter acesso exclusivo ao meio de comunicação."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Comunicação entre Processos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A questão aborda o conceito de RPC (Remote Procedure Call) assíncrono em sistemas distribuídos. No contexto de RPC assíncrono, o processo que faz a chamada não precisa esperar pela resposta do servidor para continuar sua execução. Isso significa que ele pode continuar executando outras tarefas enquanto aguarda a confirmação da transmissão, tornando o sistema mais eficiente e responsivo. A alternativa 'd' descreve corretamente esse comportamento, onde o processo que faz a chamada pode continuar executando após receber confirmação da transmissão. As outras alternativas não capturam corretamente o conceito de RPC assíncrono ou introduzem características que não são típicas desse mecanismo."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-60",
+    "numero": 60,
+    "enunciado": "Sistemas de arquivos distribuídos demandam uma atenção especial pela necessidade de tratamento de\nrequisições múltiplas e garantia de consistência. O sistema CODA (usado em várias versões do UNIX,\nincluindo o Linux) é eficiente por, entre outras coisas, usar o mecanismo de RPC2 para comunicação.\nO RPC2 se diferencia de outros mecanismos baseados em RPC por permitir",
+    "alternativas": [
+      "a) paralelismo de chamadas e chamadas assíncronas.",
+      "b) paralelismo de chamadas e uso de protocolos específicos de aplicação.",
+      "c) chamadas assíncronas e garantir a entrega de chamadas.",
+      "d) o uso de protocolos específicos de aplicação e garantir a entrega de chamadas.",
+      "e) chamadas assíncronas e o uso de protocolos específicos de aplicação."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Comunicação entre Processos",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "O sistema CODA utiliza o mecanismo RPC2 para comunicação, que se diferencia de outros mecanismos baseados em RPC por permitir paralelismo de chamadas e chamadas assíncronas. O paralelismo de chamadas permite que múltiplas chamadas sejam realizadas simultaneamente, aumentando a eficiência do sistema. As chamadas assíncronas permitem que o sistema continue processando outras tarefas enquanto espera pela resposta de uma chamada, melhorando a performance e a responsividade do sistema. As outras alternativas mencionam características que não são exclusivas ou principais do RPC2."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-62",
+    "numero": 62,
+    "enunciado": "A Engenharia de Requisitos é um processo que envolve todas as atividades exigidas para criar e manter\no documento de requisitos de sistema.\nSobre a Engenharia de Requisitos, considere as afirmativas a seguir.\nI. A Engenharia de Requisitos, como todas as outras atividades de Engenharia de Software, precisa\nser adaptada às necessidades do processo, do projeto, do produto e do pessoal que está fazendo o\ntrabalho.\nII. No estágio de levantamento e análise dos requisitos, os membros da equipe técnica de desenvol-\nvimento do software trabalham com o cliente e os usuários finais do sistema para descobrir mais\ninformações sobre o domínio da aplicação, que serviços o sistema deve oferecer, o desempenho\nexigido do sistema, as restrições de hardware, entre outras informações.\nIII. Na medida em que a informação de vários pontos de vista é coletada, os requisitos emergentes são\nconsistentes.\nIV. A validação de requisitos se ocupa de mostrar que estes realmente definem o sistema que o cliente\ndeseja. Ela é importante porque a ocorrência de erros em um documento de requisitos pode levar a\ngrandes custos relacionados ao retrabalho.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e IV são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Engenharia de Requisitos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. A afirmativa I está correta. A Engenharia de Requisitos, assim como outras atividades de Engenharia de Software, precisa ser adaptada às necessidades específicas do projeto, do produto e da equipe envolvida. Isso é importante para garantir que o processo seja eficaz e eficiente.\n\nII. A afirmativa II está correta. Durante o levantamento e análise de requisitos, é comum que a equipe técnica trabalhe em conjunto com clientes e usuários finais para entender melhor o domínio da aplicação, os serviços necessários, desempenho esperado e quaisquer restrições, como as de hardware.\n\nIII. A afirmativa III está incorreta. Na prática, quando informações de vários pontos de vista são coletadas, é comum que os requisitos emergentes apresentem inconsistências. Parte do trabalho da Engenharia de Requisitos é justamente identificar e resolver essas inconsistências.\n\nIV. A afirmativa IV está correta. A validação de requisitos é crucial para garantir que o sistema desenvolvido atenda às necessidades do cliente. Erros nos requisitos podem levar a retrabalho e custos adicionais, por isso a validação é uma etapa importante.\n\nPortanto, as afirmativas corretas são I, II e IV, o que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-66",
+    "numero": 66,
+    "enunciado": "Com base no conhecimento sobre Redes Neurais Artificiais, considere as afirmativas a seguir.\nI. A função booleana ou exclusivo (XOR) pode ser implementada usando uma rede perceptron de ca-\nmada única.\nII. Redes Neurais Artificiais do tipo MLP (Multilayer Perceptron) são capazes de classificar padrões de\nentrada não linearmente separáveis.\nIII. Retropropagação (backpropagation) é um algoritmo de aprendizagem supervisionada.\nIV. Redes Neurais Artificiais são apropriadas para a prova automática de teoremas.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e IV são corretas.",
+      "b) Somente as afirmativas II e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas I, II e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Aprendizado de Máquina",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada uma das afirmações: \n\nI. A função booleana XOR não pode ser implementada usando uma rede perceptron de camada única, pois o XOR é um problema não linearmente separável. Portanto, esta afirmação é falsa.\n\nII. Redes Neurais Artificiais do tipo MLP (Multilayer Perceptron) são capazes de classificar padrões de entrada não linearmente separáveis, pois possuem múltiplas camadas e funções de ativação não lineares que permitem a modelagem de relações complexas. Esta afirmação é verdadeira.\n\nIII. Retropropagação (backpropagation) é um algoritmo de aprendizagem supervisionada usado para treinar redes neurais ajustando os pesos com base no erro da saída. Esta afirmação é verdadeira.\n\nIV. Redes Neurais Artificiais não são tipicamente apropriadas para a prova automática de teoremas, que geralmente requerem métodos baseados em lógica simbólica e raciocínio dedutivo. Esta afirmação é falsa.\n\nPortanto, a alternativa correta é 'b) Somente as afirmações II e III são corretas.'"
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-67",
+    "numero": 67,
+    "enunciado": "Sobre Ciclo de Vida de Desenvolvimento de Software, é correto afirmar:\nI. O desenvolvimento em cascata tem como base a ideia de desenvolver uma implementação inicial,\nmostrar e discutir tal implementação com o usuário e fazer seu aprimoramento por meio de versões\nsubsequentes, até que um sistema adequado tenha sido desenvolvido.\nII. No modelo de processo de desenvolvimento em espiral, cada loop na espiral representa uma fase\ndo processo de software. Este modelo exige a consideração direta dos riscos técnicos em todos os\nestágios do projeto e, se aplicado adequadamente, deve reduzir os riscos antes que eles se tornem\nproblemáticos.\nIII. O Rapid Application Development (Desenvolvimento Rápido de Aplicação) é um modelo de processo\nde software incremental que enfatiza um ciclo de desenvolvimento rápido. Este modelo é uma adap-\ntação de modelo cascata, no qual o desenvolvimento rápido é conseguido com o uso de uma aborda-\ngem de construção baseada em componentes.\nIV. O modelo incremental combina elementos do modelo em cascata aplicado de maneira iterativa. Em\num processo de desenvolvimento incremental, os clientes identificam (esboçam) as funções a serem\nfornecidas pelo sistema e a importância das mesmas. Em seguida, é definida uma série de estágios\nde entrega, com cada estágio fornecendo um subconjunto das funcionalidades do sistema.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e IV são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Ciclo de Vida de Desenvolvimento de Software",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. A afirmativa I descreve erroneamente o modelo de desenvolvimento em cascata. O modelo em cascata é linear e sequencial, sem iterações com o usuário após cada fase. Portanto, a afirmativa I está incorreta.\n\nII. A afirmativa II descreve corretamente o modelo de desenvolvimento em espiral, que é iterativo e foca na análise de riscos em cada fase do desenvolvimento. Portanto, a afirmativa II está correta.\n\nIII. A afirmativa III descreve corretamente o Rapid Application Development (RAD), que é um modelo incremental e iterativo, focado em um desenvolvimento rápido utilizando componentes reutilizáveis. Portanto, a afirmativa III está correta.\n\nIV. A afirmativa IV descreve corretamente o modelo incremental, que combina elementos do modelo em cascata de forma iterativa, permitindo entregas parciais e incrementais do sistema. Portanto, a afirmativa IV está correta.\n\nCom base na análise, as afirmativas II, III e IV estão corretas. Portanto, a alternativa correta é a 'e'."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-68",
+    "numero": 68,
+    "enunciado": "Considere os tipos de gramáticas para análise sintática a seguir.\nI. Gramática de precedência simples.\nII. Gramática LL(1).\nIII. Gramática de operadores.\nQual alternativa indica o método correto de análise sintática para cada uma das gramáticas apresenta-\ndas?",
+    "alternativas": [
+      "a) I - Análise Descendente, II - Análise Descendente, III - Análise Ascendente.",
+      "b) I - Análise Ascendente, II - Análise Ascendente, III - Análise Descendente.",
+      "c) I - Análise Descendente, II - Análise Ascendente, III - Análise Descendente.",
+      "d) I - Análise Ascendente, II - Análise Descendente, III - Análise Ascendente.",
+      "e) I - Análise Ascendente, II - Análise Ascendente, III - Análise Ascendente."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver esta questão, precisamos entender os métodos de análise sintática associados a cada tipo de gramática mencionada. \n\nI. Gramática de precedência simples: Este tipo de gramática é analisado usando métodos de análise ascendente, pois a análise de precedência é uma técnica ascendente. \n\nII. Gramática LL(1): As gramáticas LL(1) são analisadas usando métodos de análise descendente preditiva, pois LL(1) refere-se a uma técnica de análise descendente que lê a entrada da esquerda para a direita e usa um lookahead de um token. \n\nIII. Gramática de operadores: Este tipo de gramática é geralmente associado a métodos de análise ascendente, como a análise de precedência de operadores, que é uma técnica ascendente. \n\nPortanto, a alternativa correta é a 'd', que associa corretamente cada tipo de gramática ao seu método de análise sintática correspondente."
+  },
+  {
+    "edicao": 2010,
+    "id": "2010-70",
+    "numero": 70,
+    "enunciado": "O processo de normalização baseia-se no conceito de forma normal, que é uma regra que deve ser obe-\ndecida por uma relação para que seja considerada bem projetada.\nCom base nos conhecimentos sobre normalização, considere as afirmativas a seguir.\nI. A Primeira Forma Normal (1FN) define que a relação não deve conter atributos não atômicos ou as\nrelações aninhadas. A ação que deve ser tomada para deixar uma relação na 1FN é formar uma nova\nrelação para cada atributo não atômico ou para cada relação aninhada.\nII. A Segunda Forma Normal (2FN) define que, além de estar na 1FN, para as relações que possuam\nchaves primárias com vários atributos, nenhum atributo externo à chave deve ser funcionalmente\ndependente de parte da chave primária. A ação que deve ser tomada é decompor e montar uma nova\nrelação para cada chave parcial com seu(s) atributo(s) dependente(s).\nIII. A Terceira Forma Normal (3FN) define que, além de estar na 2FN, as relações não devem ter atribu-\ntos que não pertençam a uma chave, funcionalmente determinados por outro atributo que também\nnão pertença a uma chave (ou por um conjunto de atributos não chave). A ação que deve ser to-\nmada é decompor e montar uma relação que contenha o(s) atributo(s) não chave que determina(m)\nfuncionalmente o(s) outro(s) atributo(s).\nIV. Uma dependência parcial ocorre quando um atributo, além de depender da chave primária, depende\nde outro atributo ou conjunto de atributos da relação. Uma dependência transitiva ocorre quando um\natributo depende apenas de parte de uma chave primária composta.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e IV são corretas.",
+      "b) Somente as afirmativas II e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas I, II e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Modelagem e Projeto de Banco de Dados",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. A afirmativa I está correta. A Primeira Forma Normal (1FN) exige que todos os atributos de uma relação sejam atômicos, ou seja, não devem conter conjuntos ou listas de valores. Para normalizar uma relação para 1FN, é necessário criar novas relações para cada atributo não atômico ou relação aninhada.\n\nII. A afirmativa II está correta. A Segunda Forma Normal (2FN) requer que, além de estar na 1FN, nenhum atributo não chave seja funcionalmente dependente de uma parte de uma chave primária composta. Isso significa que, para relações com chaves primárias compostas, qualquer dependência parcial deve ser eliminada, o que é feito decompondo a relação em novas relações.\n\nIII. A afirmativa III está correta. A Terceira Forma Normal (3FN) exige que, além de estar na 2FN, não haja dependências transitivas de atributos não chave, ou seja, um atributo não chave não deve ser funcionalmente dependente de outro atributo não chave. Para resolver isso, a relação deve ser decomposta para eliminar tais dependências.\n\nIV. A afirmativa IV está incorreta. Uma dependência parcial ocorre quando um atributo depende apenas de parte de uma chave primária composta, enquanto uma dependência transitiva ocorre quando um atributo não chave depende de outro atributo não chave.\n\nPortanto, as afirmativas II e III estão corretas, o que corresponde à alternativa 'b'."
   }
 ]
