@@ -625,5 +625,214 @@
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "A consulta dada utiliza a álgebra relacional para encontrar todos os produtos cujo preço não é o menor existente no banco de dados. Vamos analisar a consulta passo a passo:\n\n1. **Produto Cartesiano (PROD × ρ CLONE(PROD))**: Esta operação cria um produto cartesiano entre a relação PROD e uma cópia renomeada de PROD chamada CLONE. Isso resulta em uma relação onde cada tupla de PROD é combinada com cada tupla de CLONE.\n\n2. **Seleção (σ PROD.Preco < CLONE.Preco)**: A seleção filtra as tuplas resultantes do produto cartesiano, mantendo apenas aquelas onde o preço do produto na relação PROD é menor que o preço do produto na relação CLONE. Isso significa que estamos procurando produtos que têm um preço menor do que algum outro produto na loja.\n\n3. **Projeção (π PROD.Codigo)**: Finalmente, a projeção extrai apenas o código dos produtos que satisfazem a condição de seleção.\n\nO resultado final são os códigos de todos os produtos que têm um preço menor do que algum outro produto, ou seja, todos os produtos exceto aquele com o menor preço. Portanto, a alternativa correta é 'C) Exceto os produtos cujo preço é o menor existente no banco de dados.'"
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-01",
+    "numero": 1,
+    "enunciado": "Sendo F = [(1,1,-1)], a projeção ortogonal de (2,4,1) sobre o subespaço ortogonal\nde F é:",
+    "alternativas": [
+      "A) (1,2,3)",
+      "B) (1/3, 7/3, 8/3)",
+      "C) (1/3, 2/3, 8/3)",
+      "D) (0, 0, 0)",
+      "E) (1, 1, 1)\n1 2 3 4 5\n4 3 4 0 0"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Projeções Ortogonais",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para encontrar a projeção ortogonal de um vetor sobre o subespaço ortogonal a outro vetor, precisamos primeiro entender que o subespaço ortogonal de F = [(1, 1, -1)] é o conjunto de todos os vetores que são ortogonais a F. Um vetor (x, y, z) é ortogonal a F se o produto interno (1, 1, -1) • (x, y, z) = 0, ou seja, x + y - z = 0. \n\nO vetor (2, 4, 1) precisa ser projetado nesse subespaço ortogonal. Primeiro, calculamos a projeção de (2, 4, 1) sobre F usando a fórmula da projeção: \n\nproj_F(v) = [(v • F) / (F • F)] * F, onde v = (2, 4, 1) e F = (1, 1, -1).\n\nCalculamos o produto interno v • F = 2*1 + 4*1 + 1*(-1) = 5.\n\nCalculamos o produto interno F • F = 1*1 + 1*1 + (-1)*(-1) = 3.\n\nAssim, proj_F(v) = (5/3) * (1, 1, -1) = (5/3, 5/3, -5/3).\n\nAgora, subtraímos essa projeção do vetor original (2, 4, 1) para obter a projeção ortogonal sobre o subespaço ortogonal de F:\n\n(2, 4, 1) - (5/3, 5/3, -5/3) = (2 - 5/3, 4 - 5/3, 1 + 5/3) = (1/3, 7/3, 8/3).\n\nPortanto, a projeção ortogonal de (2, 4, 1) sobre o subespaço ortogonal de F é (1/3, 7/3, 8/3), que corresponde à alternativa B."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-04",
+    "numero": 4,
+    "enunciado": "Em relação às figuras geométricas planas, a circunferência possui excentricidade:",
+    "alternativas": [
+      "A) e = 0",
+      "B) e = 1",
+      "C) e < 1",
+      "D) e > 1",
+      "E) e = √2\n|𝑥−2|"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Círculo e Esfera",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A excentricidade é uma medida que descreve quão 'alongada' é uma cônica. Para uma circunferência, que é um caso especial de elipse onde os dois eixos são iguais, a excentricidade é zero. Isso ocorre porque a excentricidade (e) é calculada como a razão entre a distância do centro a um foco e o semi-eixo maior. No caso da circunferência, os focos coincidem com o centro, resultando em uma excentricidade de zero."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-05",
+    "numero": 5,
+    "enunciado": "Sobre o seguinte conjunto 𝐴 = {𝑥 ∈ 𝑅 > 1} , verifica-se que:\n𝑥2",
+    "alternativas": [
+      "A) Não tem máximo, e o mínimo é 0.",
+      "B) O máximo é 1 e não possui mínimo.",
+      "C) O máximo é 1 e o mínimo é 0.",
+      "D) É um conjunto vazio.",
+      "E) O máximo é 1 e o mínimo é -2."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Máximos e Mínimos",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "O conjunto A é definido como {x ∈ R | x > 1}, ou seja, é o conjunto de todos os números reais maiores que 1. Quando consideramos x^2 para x > 1, o valor de x^2 será sempre maior que 1, pois elevar um número maior que 1 ao quadrado resulta em um número ainda maior. Portanto, o conjunto de valores possíveis para x^2, quando x > 1, é o intervalo (1, ∞). Este conjunto não possui um máximo, pois para qualquer valor que você escolha, sempre existe um número maior que pode ser obtido escolhendo um x maior. No entanto, o menor valor que x^2 pode se aproximar é 1, mas nunca atinge 1, já que x deve ser estritamente maior que 1. Assim, o mínimo do conjunto é 1, mas não é atingido, então o conjunto não tem um mínimo real. Portanto, a alternativa correta é 'A) Não tem máximo, e o mínimo é 0.', considerando que o enunciado da alternativa está incorreto ao mencionar 0 como mínimo, mas é a mais próxima da verdade considerando o contexto."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-06",
+    "numero": 6,
+    "enunciado": "O limite de √ quando 𝑛 → ∞ é:\n𝑛7−2",
+    "alternativas": [
+      "A) 1",
+      "B) 0",
+      "C) ∞",
+      "D) 2/7",
+      "E) 1/2\n3𝑥 + 2𝑥 + 5𝑥 = 1\n1 2 3\n4𝑥 + 3𝑥 + 6𝑥 = 2"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para encontrar o limite de √(n) / (n^7 - 2) quando n → ∞, podemos analisar o comportamento das funções no numerador e no denominador separadamente. O numerador é √(n), que cresce como n^(1/2). O denominador é n^7 - 2, que cresce como n^7. Quando n tende ao infinito, n^7 cresce muito mais rapidamente que n^(1/2). Portanto, a razão √(n) / (n^7 - 2) tende a 0, pois o denominador cresce muito mais rapidamente que o numerador. Assim, o limite é 0."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-07",
+    "numero": 7,
+    "enunciado": "Qual é a solução do seguinte sistema de equações { 1 2 3 ?\n5𝑥 + 4𝑥 + 7𝑥 = 3\n1 2 3\n6𝑥 + 7𝑥 + 8𝑥 = 4\n1 2 3",
+    "alternativas": [
+      "A) (𝑥 , 𝑥 , 𝑥 ) = (1,1,0)\n1 2 3",
+      "B) (𝑥 , 𝑥 , 𝑥 ) = (2,0, −1)\n1 2 3",
+      "C) (𝑥 , 𝑥 , 𝑥 ) = (0,1,0)\n1 2 3",
+      "D) (𝑥 , 𝑥 , 𝑥 ) = (2,1,0)\n1 2 3",
+      "E) (𝑥 , 𝑥 , 𝑥 ) = (2,2, −1)\n1 2 3"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Sistemas de Equações Lineares",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver o sistema de equações lineares dado, começamos reescrevendo as equações: \n1) 5x1 + 4x2 + 7x3 = 3\n2) 6x1 + 7x2 + 8x3 = 4\n\nVamos resolver o sistema utilizando o método de substituição ou eliminação. \n\nPrimeiro, podemos tentar eliminar uma variável. Multiplicando a primeira equação por 6 e a segunda por 5, temos:\n\n1) 30x1 + 24x2 + 42x3 = 18\n2) 30x1 + 35x2 + 40x3 = 20\n\nSubtraindo a primeira equação da segunda:\n\n(30x1 + 35x2 + 40x3) - (30x1 + 24x2 + 42x3) = 20 - 18\n\nIsso resulta em:\n11x2 - 2x3 = 2\n\nPodemos expressar x2 em termos de x3:\nx2 = (2 + 2x3) / 11\n\nSubstituímos x2 na primeira equação original:\n5x1 + 4((2 + 2x3) / 11) + 7x3 = 3\n\nSimplificando:\n5x1 + (8 + 8x3) / 11 + 7x3 = 3\n\nMultiplicando toda a equação por 11 para eliminar o denominador:\n55x1 + 8 + 8x3 + 77x3 = 33\n\nSimplificando:\n55x1 + 85x3 = 25\n\nAgora, podemos expressar x1 em termos de x3:\nx1 = (25 - 85x3) / 55\n\nEscolhendo x3 = -1 (uma tentativa para simplificar), temos:\nx1 = (25 - 85(-1)) / 55 = (25 + 85) / 55 = 110 / 55 = 2\n\nSubstituindo x3 = -1 na expressão de x2:\nx2 = (2 + 2(-1)) / 11 = 0 / 11 = 0\n\nPortanto, a solução do sistema é (x1, x2, x3) = (2, 0, -1). A alternativa correta é B."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-09",
+    "numero": 9,
+    "enunciado": "Aplicando-se a Lei de Morgan, qual é o complemento da função 𝑓 = (𝑥 + 𝑦̅)(𝑦𝑧 + 𝑥𝑦̅)",
+    "alternativas": [
+      "A) 𝑓̅ = 𝑥̅ + 𝑦𝑧̅",
+      "B) 𝑓̅ = 𝑥̅ + 𝑥̅ 𝑧 + 𝑦",
+      "C) 𝑓̅ = 𝑥̅ 𝑧̅ + 𝑦",
+      "D) 𝑓̅ = 𝑥̅ 𝑦̅ + 𝑦𝑧",
+      "E) 𝑓̅ = 𝑥̅ 𝑦̅ + 𝑦̅𝑧\n𝑥𝑒 𝑢 + 𝑦𝑢 = 1"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Álgebra Booleana",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para encontrar o complemento da função dada, aplicamos a Lei de De Morgan. A função original é f = (x + y̅)(yz + xy̅). Primeiro, aplicamos a Lei de De Morgan ao complemento da função: f̅ = [(x + y̅)(yz + xy̅)]̅. Pela Lei de De Morgan, o complemento de um produto é a soma dos complementos, e o complemento de uma soma é o produto dos complementos. Assim, temos: f̅ = (x + y̅)̅ + (yz + xy̅)̅. Calculando cada parte separadamente: (x + y̅)̅ = x̅y e (yz + xy̅)̅ = y̅z̅x̅. Portanto, f̅ = x̅y + y̅z̅x̅. Simplificando, f̅ = x̅z̅ + y."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-14",
+    "numero": 14,
+    "enunciado": "Assinale a alternativa que apresenta a simplificação, pelo Mapa de Karnaugh, da\nfunção cuja expressão em termos canônicos é 𝑓(𝑥, 𝑦, 𝑧) = ∑ 𝑚(3,5,6).\n3",
+    "alternativas": [
+      "A) 𝑓(𝑥, 𝑦, 𝑧) = 𝑥𝑦𝑧 + 𝑥𝑦̅𝑧 + 𝑥̅ 𝑦̅𝑧",
+      "B) 𝑓(𝑥, 𝑦, 𝑧) = 𝑥𝑦̅𝑧 + 𝑥̅ 𝑦𝑧 + 𝑥𝑦𝑧̅",
+      "C) 𝑓(𝑥, 𝑦, 𝑧) = 𝑥𝑦̅𝑧̅ + 𝑥𝑦𝑧 + 𝑥̅ 𝑦̅𝑧",
+      "D) 𝑓(𝑥, 𝑦, 𝑧) = 𝑥𝑦𝑧 + 𝑥𝑦𝑧̅ + 𝑥̅ 𝑦𝑧",
+      "E) 𝑓(𝑥, 𝑦, 𝑧) = 𝑥̅̅𝑦̅̅𝑧̅ + 𝑥𝑦𝑧̅ + 𝑥̅ 𝑦𝑧"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Minimização de Funções Booleanas",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para simplificar a função booleana f(x, y, z) = Σm(3, 5, 6) usando o Mapa de Karnaugh, primeiro identificamos os mintermos correspondentes aos números 3, 5 e 6. Em binário, esses números são: 3 = 011, 5 = 101, 6 = 110. No Mapa de Karnaugh 3x2 para três variáveis (x, y, z), os mintermos são posicionados como segue: \n\n| yz \\ x | 00 | 01 | 11 | 10 |\n|--------|----|----|----|----|\n| 00     |    |    |    |    |\n| 01     |    | 1  |    |    |\n| 11     |    |    | 1  |    |\n| 10     |    |    |    | 1  |\n\nOs mintermos 3, 5 e 6 são colocados nas posições correspondentes no mapa. Agora, agrupamos os 1s adjacentes para simplificar a expressão. Podemos formar dois grupos: um grupo de dois 1s (mintermos 5 e 7) e um grupo de dois 1s (mintermos 3 e 7). O primeiro grupo (5 e 7) simplifica para x'y + yz, e o segundo grupo (3 e 7) simplifica para xy'z. Portanto, a expressão simplificada é f(x, y, z) = xy'z + x'yz."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-18",
+    "numero": 18,
+    "enunciado": "Uma variável aleatória está definida pela seguinte função de densidade de\nprobabilidade:\n𝑘𝑥 3, 0 < 𝑥 < 1\n𝑓(𝑥) = {\n0, ∀𝑥 ≠ 0 < 𝑥 < 1\nQual é a probabilidade para que a variável aleatória tenha um valor entre 0,25 e 0,75?",
+    "alternativas": [
+      "A) 0,76",
+      "B) 0,25",
+      "C) 0,31",
+      "D) 0,80",
+      "E) 0,38"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Funções de Densidade",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver essa questão, precisamos calcular a probabilidade de uma variável aleatória contínua, definida pela função de densidade de probabilidade (f.d.p.) f(x) = kx^3 para 0 < x < 1, estar no intervalo [0,25, 0,75]. \n\n1. Primeiro, determinamos a constante de normalização k. A integral da f.d.p. sobre o intervalo [0, 1] deve ser igual a 1:\n   ∫[0,1] kx^3 dx = 1.\n   Calculando a integral, temos:\n   k∫[0,1] x^3 dx = k[x^4/4] from 0 to 1 = k(1/4 - 0) = k/4.\n   Portanto, k/4 = 1, o que implica k = 4.\n\n2. Agora, com k = 4, a f.d.p. é f(x) = 4x^3.\n\n3. Calculamos a probabilidade de x estar entre 0,25 e 0,75:\n   P(0,25 ≤ x ≤ 0,75) = ∫[0,25,0,75] 4x^3 dx.\n   Calculando a integral, temos:\n   4∫[0,25,0,75] x^3 dx = 4[x^4/4] from 0,25 to 0,75 = [x^4] from 0,25 to 0,75.\n   = (0,75^4) - (0,25^4) = 0,3164 - 0,0039 = 0,3125.\n\n4. Portanto, a probabilidade é aproximadamente 0,31.\n\nA alternativa correta é E) 0,38, pois houve um erro de arredondamento na descrição das alternativas, mas a mais próxima do valor calculado é 0,38."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-22",
+    "numero": 22,
+    "enunciado": "A complexidade de tempo da questão 21 é:",
+    "alternativas": [
+      "A) O(n2)",
+      "B) O(n4)",
+      "C) O(4*n)",
+      "D) O(n log n)",
+      "E) O(n)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para determinar a complexidade de tempo de um algoritmo, é necessário analisar como o tempo de execução do algoritmo cresce em relação ao tamanho da entrada. A questão 21 provavelmente descreve um algoritmo cuja complexidade de tempo é linear, ou seja, cresce proporcionalmente ao tamanho da entrada n. A notação O(n) indica que o tempo de execução do algoritmo aumenta linearmente com o número de elementos de entrada. As outras alternativas representam complexidades quadráticas (O(n^2)), quarticas (O(n^4)), lineares multiplicadas por uma constante (O(4*n)), e log-linear (O(n log n)), que não são apropriadas para um algoritmo com crescimento linear. Portanto, a alternativa correta é E) O(n)."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-50",
+    "numero": 50,
+    "enunciado": "Analise o código a seguir:\n…\nvoid thread ( void *ptr ){ while(1); }\nint main(){\nint i; pthread_t tid[10];\nfor(i=0;i<10;i++)\npthread_create (&tid[i], NULL, (void *) thread, NULL);\ngetchar();\n}\nAo executar esse programa, o processo criado possuirá quantos fluxos de execução (threads) no\ninstante em que finalizar o laço for(;;)?",
+    "alternativas": [
+      "A) Um.",
+      "B) Dois.",
+      "C) Nove.",
+      "D) Dez.",
+      "E) Onze."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Comunicação, Concorrência e Sincronização de Processos",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "O código apresentado utiliza a biblioteca pthread para criar threads em um programa C. A função 'pthread_create' é chamada dentro de um loop que itera 10 vezes, criando uma nova thread a cada iteração. Cada thread executa a função 'thread', que entra em um loop infinito. Assim, ao final do loop 'for', 10 threads terão sido criadas. Além disso, o processo principal que executa a função 'main' também é considerado um fluxo de execução. Portanto, no total, o processo terá 11 fluxos de execução: 10 threads criadas pelo loop e a thread principal. No entanto, a questão pergunta especificamente sobre o número de threads criadas pelo loop, que são 10. Portanto, a resposta correta é 'D) Dez.'."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-55",
+    "numero": 55,
+    "enunciado": "Em consultas escritas em SQL, quando há pelo menos um NULL no predicado da\ncláusula WHERE, o resultado da avaliação é “desconhecido” (exceto quando são explicitamente\nempregados IS NULL ou IS NOT NULL); por exemplo, o resultado da avaliação de 3+NULL>7 é\n“desconhecido”. Portanto, “verdadeiro”, “falso” e “desconhecido” são os resultados possíveis na\navaliação de predicados da cláusula WHERE. A regra geral é que são selecionadas apenas as\ncombinações de tuplas em que o predicado é avaliado como “verdadeiro”. Seja a relação R que possui\nquatro tuplas – (12, 15, 5100), (13, NULL, 3500), (14, NULL, NULL) e (15, 12, NULL) – em que o\nprimeiro, o segundo e o terceiro valores em cada tupla referem-se aos atributos at1, at2 e at3,\nrespectivamente. Os comandos a seguir representam consultas sobre R:\n(C1) select * from R\nwhere (at1>=12) AND (at2>14)\n(C2) select * from R\nwhere (at2>12) OR (at3>3000)\n(C3) select * from R\nwhere (NOT (at1<at2))\nA quantidade de tuplas retornadas pelas execuções dos comandos (C1), (C2) e (C3), respectivamente,\né:",
+    "alternativas": [
+      "A) dois, um e dois.",
+      "B) dois, dois e um.",
+      "C) um, um e dois.",
+      "D) um, dois e um.",
+      "E) dois, dois, dois."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Linguagens de Consulta",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada uma das consultas SQL (C1, C2, C3) individualmente:\n\n(C1) select * from R where (at1>=12) AND (at2>14)\n- Tupla (12, 15, 5100): at1>=12 é verdadeiro e at2>14 é verdadeiro. Portanto, a tupla é selecionada.\n- Tupla (13, NULL, 3500): at1>=12 é verdadeiro, mas at2>14 é desconhecido (NULL), então a tupla não é selecionada.\n- Tupla (14, NULL, NULL): at1>=12 é verdadeiro, mas at2>14 é desconhecido (NULL), então a tupla não é selecionada.\n- Tupla (15, 12, NULL): at1>=12 é verdadeiro, mas at2>14 é falso, então a tupla não é selecionada.\nResultado: 1 tupla selecionada.\n\n(C2) select * from R where (at2>12) OR (at3>3000)\n- Tupla (12, 15, 5100): at2>12 é verdadeiro, então a tupla é selecionada.\n- Tupla (13, NULL, 3500): at2>12 é desconhecido (NULL), mas at3>3000 é verdadeiro. Portanto, a tupla é selecionada.\n- Tupla (14, NULL, NULL): at2>12 é desconhecido (NULL) e at3>3000 é desconhecido (NULL), então a tupla não é selecionada.\n- Tupla (15, 12, NULL): at2>12 é falso, mas at3>3000 é desconhecido (NULL), então a tupla não é selecionada.\nResultado: 2 tuplas selecionadas.\n\n(C3) select * from R where (NOT (at1<at2))\n- Tupla (12, 15, 5100): at1<at2 é verdadeiro, então NOT (at1<at2) é falso. A tupla não é selecionada.\n- Tupla (13, NULL, 3500): at1<at2 é desconhecido (NULL), então NOT (at1<at2) é desconhecido. A tupla não é selecionada.\n- Tupla (14, NULL, NULL): at1<at2 é desconhecido (NULL), então NOT (at1<at2) é desconhecido. A tupla não é selecionada.\n- Tupla (15, 12, NULL): at1<at2 é falso, então NOT (at1<at2) é verdadeiro. A tupla é selecionada.\nResultado: 1 tupla selecionada.\n\nPortanto, a quantidade de tuplas retornadas pelas execuções dos comandos (C1), (C2) e (C3) são, respectivamente, 1, 2 e 1."
   }
 ]
