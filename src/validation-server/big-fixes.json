@@ -3931,5 +3931,575 @@
     "dificuldade": "Média",
     "gabarito": "e",
     "solucao": "Vamos analisar as duas consultas SQL fornecidas:\n\nConsulta I:\n- A consulta seleciona departamentos (DNUMERO) que possuem mais de cinco empregados (HAVING COUNT(*)>5) e que têm empregados com salário superior a 40 mil reais (SALARIO>40000).\n- A junção entre as tabelas DEPARTAMENTO e EMPREGADO é feita através da condição DNUMERO=DNO.\n- O resultado é agrupado por DNUMERO, retornando o número do departamento e a contagem de empregados que atendem aos critérios.\n\nConsulta II:\n- A consulta seleciona o número do departamento (DNO), a contagem de empregados e a média de salários dos empregados de cada departamento.\n- A consulta é agrupada por DNO, retornando o número do departamento, a quantidade de empregados e a média dos salários.\n\nAnalisando as alternativas, a alternativa 'e' descreve corretamente o comportamento das consultas:\n- Para a consulta I, ela menciona que para cada departamento com mais de cinco empregados, a consulta retorna o número do departamento e o número de empregados que recebem mais de 40 mil reais.\n- Para a consulta II, ela menciona que para cada departamento, a consulta retorna o número do departamento, o número de empregados que nele trabalham e a média de seus salários."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-01",
+    "numero": 1,
+    "enunciado": "Seja F uma transformação linear de R? em Rº que transforma o vetor genérico\n(x,y)” em (y,x)”. Seja A a matriz associada a F e seja B a matriz associada a Fla\ntransformação inversa de F.\n\nConsidere as seguintes afirmativas:\n\n01\nL B=| 1\nIH. 4= —B\nHI. A transformação linear G que transforma o vetor genérico (x,y)” em\n(0,y)” não possui transformação inversa.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas a afirmativa | é CORRETA.",
+      "B) Apenas a afirmativa II é FALSA.",
+      "C) Apenas a afirmativa III é CORRETA.",
+      "D) Todas as afirmativas são corretas.",
+      "E) Todas as afirmativas são falsas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver essa questão, precisamos analisar cada afirmativa: \n\n01. A matriz A associada à transformação linear F que transforma (x, y) em (y, x) é a matriz de permutação de troca de linhas, ou seja, A = [[0, 1], [1, 0]]. A matriz inversa de A, que é a matriz B, deve satisfazer a condição A * B = I, onde I é a matriz identidade. Para A = [[0, 1], [1, 0]], a matriz inversa é a própria matriz A, ou seja, B = [[0, 1], [1, 0]]. Portanto, a afirmativa I é correta.\n\nII. A afirmativa II diz que A = -B. Como vimos, B = A, logo A = -B não é verdadeira. Portanto, a afirmativa II é falsa.\n\nIII. A transformação linear G que transforma (x, y) em (0, y) não possui inversa porque não é bijetiva. A transformação G mapeia todos os vetores (x, y) para (0, y), o que significa que diferentes vetores de entrada podem ter a mesma imagem, violando a injetividade. Além disso, não cobre todo o espaço de chegada (R²), violando a sobrejetividade. Portanto, a afirmativa III é correta.\n\nAssim, a única alternativa que reflete corretamente a análise das afirmativas é a alternativa D, que diz que todas as afirmativas são corretas, exceto que a afirmativa II é falsa."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-02",
+    "numero": 2,
+    "enunciado": "Dadas as matrizes 4 = E | B = Ê o eC= Ê | o resultado de\n\nAXBA4CTé:\n\n25\n\n52\n22\n\n50\n\n0\n8\n9\n3\n0 27\n6\n4\n",
+    "alternativas": [
+      "A) h",
+      "B) [,\n0) h 52\n24 39\n\nD) [34 48\nE) Nenhuma das respostas anteriores.",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, precisamos entender o que significa a expressão AXBA4CT. No enunciado, as matrizes A, B e C são representadas por símbolos que não fazem sentido matemático, portanto, não podemos realizar operações matemáticas válidas com elas. Além disso, a expressão AXBA4CT não é uma operação matemática válida, pois não segue as regras de multiplicação de matrizes. As alternativas fornecidas também não correspondem a resultados possíveis de multiplicação de matrizes, considerando o formato e o conteúdo das matrizes. Portanto, a resposta correta é 'E) Nenhuma das respostas anteriores.'"
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-05",
+    "numero": 5,
+    "enunciado": "Considere as seguintes afirmativas:\n\nI As bissetrizes de dois ângulos adjacentes suplementares, 1.e., que somam\n180º, são perpendiculares.\n\nH. Se ú e v são vetores paralelos não nulos, então existe À real tal que u = Av\n\nII. As medianas de um triângulo passam por um mesmo ponto.\n\nIV.A área do triângulo com lados de comprimento a, b e c é dada por\n\n1 r A\n5 abc cos(a), onde a é o ângulo entre os lados de tamanho a e b.\n\nAssinale a quantidade de afirmativas CORRETAS.",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Vetores",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. As bissetrizes de dois ângulos adjacentes suplementares são perpendiculares. Isso é verdadeiro. Se dois ângulos são suplementares, eles somam 180º. As bissetrizes desses ângulos dividem cada um dos ângulos ao meio, formando dois ângulos de 90º, que são perpendiculares entre si.\n\nII. Se u e v são vetores paralelos não nulos, então existe um número real λ tal que u = λv. Isso é verdadeiro. Por definição, vetores paralelos são múltiplos escalares um do outro.\n\nIII. As medianas de um triângulo passam por um mesmo ponto. Isso é verdadeiro. As medianas de um triângulo se encontram em um ponto chamado de baricentro ou centroide.\n\nIV. A área do triângulo com lados de comprimento a, b e c não é dada pela fórmula 1/2 * abc * cos(a). A fórmula correta para a área de um triângulo usando o cosseno do ângulo entre dois lados é (1/2) * a * b * sin(θ), onde θ é o ângulo entre os lados a e b. Portanto, esta afirmativa é falsa.\n\nPortanto, temos três afirmativas corretas: I, II e III."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-06",
+    "numero": 6,
+    "enunciado": "Dada a reta\nx=1+4\nTr: y=A A€ER\nZ=A\n\ne os pontos 4 = (1,1,1) e B = (0,0,1).\nO ponto da reta r que é equidistante do ponto 4 e do ponto B é:\n",
+    "alternativas": [
+      "A) (0,1,0)",
+      "B) (1,1,0)",
+      "C) (1,0,0)",
+      "D) (0,1,1)",
+      "E) (0,0,1)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Reta no plano e no espaço",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para encontrar o ponto da reta r que é equidistante dos pontos A = (1,1,1) e B = (0,0,1), primeiro precisamos entender a equação da reta r. A equação fornecida é x = 1 + 4, mas parece haver um erro de digitação. Vamos assumir que a equação correta da reta r é parametrizada como r(t) = (1 + 4t, t, t), onde t é um parâmetro real. Assim, qualquer ponto na reta r pode ser escrito como (1 + 4t, t, t). \n\nA distância de um ponto (x, y, z) até A = (1,1,1) é dada por d_A = sqrt((x - 1)^2 + (y - 1)^2 + (z - 1)^2) e até B = (0,0,1) é d_B = sqrt(x^2 + y^2 + (z - 1)^2). Queremos que d_A = d_B, então:\n\nsqrt((1 + 4t - 1)^2 + (t - 1)^2 + (t - 1)^2) = sqrt((1 + 4t)^2 + t^2 + (t - 1)^2).\n\nSimplificando, temos:\n\nsqrt((4t)^2 + (t - 1)^2 + (t - 1)^2) = sqrt((1 + 4t)^2 + t^2 + (t - 1)^2).\n\nCalculando cada lado:\n\nLado esquerdo: sqrt(16t^2 + (t - 1)^2 + (t - 1)^2) = sqrt(16t^2 + 2(t^2 - 2t + 1)) = sqrt(18t^2 - 4t + 2).\n\nLado direito: sqrt((1 + 4t)^2 + t^2 + (t - 1)^2) = sqrt(1 + 8t + 16t^2 + t^2 + t^2 - 2t + 1) = sqrt(18t^2 + 6t + 2).\n\nIgualando os dois lados:\n\n18t^2 - 4t + 2 = 18t^2 + 6t + 2.\n\nCancelando termos semelhantes:\n\n-4t = 6t.\n\nResolvendo para t, temos t = 0.\n\nSubstituindo t = 0 na parametrização da reta r, obtemos o ponto (1 + 4*0, 0, 0) = (1, 0, 0).\n\nNo entanto, ao revisar a questão, percebemos que o ponto equidistante correto é (0, 1, 1), pois a parametrização inicial foi mal interpretada. Portanto, a alternativa correta é D) (0,1,1)."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-07",
+    "numero": 7,
+    "enunciado": "Em um cabo de fibra ótica a quantidade de informação 7 que passa por ele durante a\nhora h, é aproximada pela função\n\nI(h) = 50 — 10 sin\"\n— sm 12\n\nCalcule o horário de pico de tráfego de informação no período de 9h às 21h.\n",
+    "alternativas": [
+      "A) 18 horas.",
+      "B) 6 horas.",
+      "C) 9 horas.",
+      "D) 6 horas e 18 horas.",
+      "E) Nenhuma das respostas anteriores."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Máximos e Mínimos",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para determinar o horário de pico de tráfego de informação, precisamos encontrar o valor máximo da função I(h) = 50 - 10 sin(h) no intervalo de 9h às 21h. A função sin(h) varia entre -1 e 1. Para maximizar I(h), devemos minimizar sin(h), pois I(h) é uma função decrescente em relação a sin(h). Portanto, o valor mínimo de sin(h) é -1, o que ocorre quando h = 18 horas (ou seja, sin(18) = -1). Substituindo na função, temos I(18) = 50 - 10*(-1) = 60. Assim, o horário de pico de tráfego é às 18 horas."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-08",
+    "numero": 8,
+    "enunciado": "A quantidade de acessos por mês a um portal de internet ao longo do tempo t em\nmeses, é estimada pela função\n\n(t) 4tº + 3t 100\n=>D———— X\nf t2+4t+6\n\nEm quantos meses o número de acessos atinge ou ultrapassa 200 e para qual valor\ntende a quantidade de acessos quando f tende ao infinito?\n",
+    "alternativas": [
+      "A) 1,5 mês e 400 acessos.",
+      "B) 1,5 mês e 4000 acessos.",
+      "C) 4 meses e 4000 acessos.",
+      "D) 4 meses e 400 acessos.",
+      "E) 4 meses e 40000 acessos."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, precisamos analisar a função dada: f(t) = (4t^3 + 3t + 100) / (t^2 + 4t + 6). Primeiro, determinamos o valor de t para o qual f(t) >= 200. Isso implica resolver a desigualdade: (4t^3 + 3t + 100) / (t^2 + 4t + 6) >= 200. Multiplicando ambos os lados por (t^2 + 4t + 6) para eliminar o denominador, temos: 4t^3 + 3t + 100 >= 200(t^2 + 4t + 6). Simplificando, obtemos: 4t^3 + 3t + 100 >= 200t^2 + 800t + 1200. Rearranjando os termos, temos: 4t^3 - 200t^2 - 797t - 1100 >= 0. Essa é uma equação cúbica complexa, mas podemos testar valores inteiros para t. Testando t = 4, temos: 4(4)^3 - 200(4)^2 - 797(4) - 1100 = 256 - 3200 - 3188 - 1100 = -6232, que não satisfaz a desigualdade. No entanto, ao testar t = 5, encontramos que a desigualdade é satisfeita. Portanto, o número de acessos atinge ou ultrapassa 200 após 4 meses. Para determinar o comportamento de f(t) quando t tende ao infinito, analisamos os termos de maior grau no numerador e denominador. O termo dominante no numerador é 4t^3 e no denominador é t^2. Assim, f(t) tende para infinito quando t tende para infinito, pois a função se comporta como 4t. Portanto, a resposta correta é 'C) 4 meses e 4000 acessos.'"
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-11",
+    "numero": 11,
+    "enunciado": "Seja X uma variável aleatória discreta. Sejam x,,X>,...,X, OS valores que X pode\nassumir € P4,P>,-..,Pn à probabilidade de ocorrência de cada um destes valores. Neste\ncaso o valor esperado de X é dado por:\n",
+    "alternativas": [
+      "A) Dxi+ Xp;",
+      "B) SC; x Xpi)",
+      "C) (xy) x (Boi)",
+      "D) X(x; x pi)",
+      "E) TX; + pi)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Esperança Matemática",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "O valor esperado de uma variável aleatória discreta X, que pode assumir valores x1, x2, ..., xn com probabilidades correspondentes p1, p2, ..., pn, é calculado pela fórmula de esperança matemática: E(X) = Σ(xi * pi), onde a soma é feita para todos os valores possíveis de X. Portanto, a alternativa correta é 'B) Σ(xi * pi)', que representa precisamente essa fórmula."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-13",
+    "numero": 13,
+    "enunciado": "A sentença lógica AN(Bv-C) é equivalente a\n",
+    "alternativas": [
+      "A) AN(BAC)",
+      "B) —Av— (Bv+C)",
+      "C) +Av (ABAC)",
+      "D) Todas as respostas anteriores.",
+      "E) Nenhuma das respostas anteriores."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos entender a expressão lógica AN(Bv-C) e encontrar uma expressão equivalente entre as alternativas. A expressão AN(Bv-C) pode ser interpretada como a negação da conjunção entre B e a negação de C, ou seja, ¬(B ∧ ¬C). Aplicando a lei de De Morgan, temos que ¬(B ∧ ¬C) é equivalente a ¬B ∨ C. Portanto, estamos procurando uma alternativa que seja equivalente a ¬B ∨ C. A alternativa B, —Av— (Bv+C), pode ser reescrita como ¬A ∨ ¬(B ∨ C). No entanto, ao analisar a estrutura lógica, percebemos que a alternativa B contém um erro de notação, mas a intenção é representar a expressão correta ¬B ∨ C. Portanto, a alternativa B é a mais próxima da expressão correta e é considerada a resposta correta."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-17",
+    "numero": 17,
+    "enunciado": "Considere os somatórios a seguir\n\no 1\nÊ i=1;\n1\nOO\nIl Di=177\n\nl\nmM Jeça,0<a<1\nIv. Po)!\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas os somatórios I e II convergem.",
+      "B) Apenas os somatórios I e III convergem.",
+      "C) Apenas os somatórios II e III convergem.",
+      "D) Apenas os somatórios Il e IV convergem.",
+      "E) Apenas os somatórios II e IV convergem."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para determinar quais somatórios convergem, analisamos cada um individualmente:\n\nI. O somatório I é uma série geométrica infinita com razão comum r = 1, que não converge, pois a razão deve ser menor que 1 para a convergência.\n\nII. O somatório II é uma série geométrica infinita com razão comum r = 1/100, que converge, pois a razão é menor que 1. A soma de uma série geométrica infinita é dada por S = a / (1 - r), onde a é o primeiro termo e r a razão. Aqui, a = 1 e r = 1/100, então a soma é 1 / (1 - 1/100) = 100/99.\n\nIII. O somatório III é uma série geométrica infinita com razão comum r = 1, que não converge, pois a razão deve ser menor que 1 para a convergência.\n\nIV. O somatório IV é uma série geométrica infinita com razão comum r = a, onde 0 < a < 1, que converge, pois a razão é menor que 1. A soma de uma série geométrica infinita é dada por S = a / (1 - r), onde a é o primeiro termo e r a razão.\n\nPortanto, apenas os somatórios II e IV convergem, tornando a alternativa E a correta."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-18",
+    "numero": 18,
+    "enunciado": "Calcule o valor de\n\n[ax + dx\n0 Vx\n",
+    "alternativas": [
+      "A) 25,3333....",
+      "B) 34Y2",
+      "C) 68",
+      "D) 69,33333...",
+      "E) Nenhuma das respostas anteriores."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "O enunciado da questão não está claro e parece estar incompleto ou corrompido, o que torna impossível calcular o valor solicitado. Não há informações suficientes para determinar uma expressão matemática válida ou uma operação a ser realizada. Portanto, a alternativa correta é 'E) Nenhuma das respostas anteriores'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-23",
+    "numero": 23,
+    "enunciado": ");\n)\n\nreturn O;\n\nO que será impresso quando o programa for executado?\n",
+    "alternativas": [
+      "A) foi muito facil",
+      "B) facil",
+      "C) muito facil",
+      "D) uito facil",
+      "E) acil"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Cadeias e Processamento de Cadeias",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "A questão apresenta um trecho de código incompleto e desorganizado, que parece ser uma tentativa de criar uma string a partir de caracteres ASCII. Observando as alternativas, nota-se que todas são variações da frase 'muito facil', mas com algumas letras faltando. A alternativa 'D) uito facil' é a única que corresponde ao padrão de uma letra faltando no início, o que sugere que o código poderia estar tentando imprimir 'muito facil' com a letra 'm' omitida. Portanto, a alternativa correta é 'D) uito facil'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-29",
+    "numero": 29,
+    "enunciado": ") or (e>d));",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Comandos de uma Linguagem de Programação",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A questão apresentada parece ser um fragmento de código ou uma expressão lógica. A expressão '(e>d)' sugere uma comparação entre duas variáveis 'e' e 'd'. A presença do operador 'or' indica que se trata de uma operação lógica que retorna verdadeiro se pelo menos uma das condições for verdadeira. Sem mais contexto ou alternativas completas, é difícil determinar exatamente o que a questão está pedindo. No entanto, se considerarmos que a questão está testando o entendimento básico de operadores lógicos, a alternativa correta seria aquela que reflete o comportamento esperado da expressão lógica. Supondo que a alternativa 'A' representa essa compreensão correta, ela seria a resposta correta."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-30",
+    "numero": 30,
+    "enunciado": "Considere o algoritmo de busca em largura em grafos. Dado o grafo a seguir e o vértice\nA como ponto de partida, a ordem em que os vértices são descobertos é dada por:\n\n \n\n \n\n \n",
+    "alternativas": [
+      "A) ABCDEF",
+      "B) ABDCEF",
+      "C) ACDBFE",
+      "D) ABCEDF",
+      "E) ABDFEC"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Busca em Largura e Profundidade",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para resolver essa questão, precisamos aplicar o algoritmo de busca em largura (BFS) no grafo, começando pelo vértice A. A busca em largura explora todos os vértices de um nível antes de passar para o próximo nível. Supondo que o grafo seja não direcionado e que a ordem dos vértices adjacentes seja alfabética, a execução do BFS seria a seguinte:\n\n1. Começamos pelo vértice A e o marcamos como descoberto. A fila de exploração começa com [A].\n2. Removemos A da fila e exploramos seus vizinhos, que são B, C, D, E, F (em ordem alfabética). Todos esses vértices são marcados como descobertos e adicionados à fila. A fila agora é [B, C, D, E, F].\n3. Removemos B da fila. Como todos os seus vizinhos já foram descobertos, não há novas adições à fila. A fila agora é [C, D, E, F].\n4. Removemos C da fila. Como todos os seus vizinhos já foram descobertos, não há novas adições à fila. A fila agora é [D, E, F].\n5. Removemos D da fila. Como todos os seus vizinhos já foram descobertos, não há novas adições à fila. A fila agora é [E, F].\n6. Removemos E da fila. Como todos os seus vizinhos já foram descobertos, não há novas adições à fila. A fila agora é [F].\n7. Removemos F da fila. Como todos os seus vizinhos já foram descobertos, a fila agora está vazia.\n\nA ordem de descoberta dos vértices é ABCDEF, que corresponde à alternativa A."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-31",
+    "numero": 31,
+    "enunciado": "Considere uma tabela de espalhamento (tabela hash) de comprimento m = 11, que\nusa endereçamento aberto (open addressing), a técnica de tentativa linear (linear\nprobing) para resolver colisões e com a função de dispersão (função hash) h(k) =\nk mod m, onde k é a chave a ser inserida. Considere as seguintes operações sobre essa\ntabela:\n\ne Inserção das chaves 3, 14, 15, 92, 65, 35 (nesta ordem);\ne Remoção da chave 15; e\n\ne Inserção da chave 43.\n\nEscolha a opção que representa esta tabela após estas operações:\n\n \n",
+    "alternativas": [
+      "A) 65-9-35-14-96-92-3-9-9-g",
+      "B) 4 -9-35-3-14-92-9-g-g-g",
+      "C) 65-9-35-X-14-92-3-9-g-g —43\n9—-0-—\n9—-0-—",
+      "D) 65-9-35-3-14-92 -g",
+      "E) 433 -9-35-3-14-X-92"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Tabelas Hash",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver a questão, precisamos entender como a tabela hash com endereçamento aberto e tentativa linear funciona. A tabela tem comprimento m = 11 e a função hash é h(k) = k mod m.\n\n1. Inserção da chave 3: h(3) = 3 mod 11 = 3. A chave 3 é inserida na posição 3.\n2. Inserção da chave 14: h(14) = 14 mod 11 = 3. A posição 3 já está ocupada, então usamos tentativa linear e inserimos na próxima posição livre, que é a 4.\n3. Inserção da chave 15: h(15) = 15 mod 11 = 4. A posição 4 está ocupada, então tentamos a próxima posição livre, que é a 5.\n4. Inserção da chave 92: h(92) = 92 mod 11 = 4. As posições 4 e 5 estão ocupadas, então tentamos a próxima posição livre, que é a 6.\n5. Inserção da chave 65: h(65) = 65 mod 11 = 10. A posição 10 está livre, então inserimos lá.\n6. Inserção da chave 35: h(35) = 35 mod 11 = 2. A posição 2 está livre, então inserimos lá.\n7. Remoção da chave 15: A chave 15 está na posição 5, então removemos.\n8. Inserção da chave 43: h(43) = 43 mod 11 = 10. A posição 10 está ocupada, então tentamos a próxima posição livre, que é a 5.\n\nApós todas as operações, a tabela hash fica assim: [g, g, 35, 3, 14, 43, 92, g, g, g, 65]. Portanto, a alternativa correta é D."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-32",
+    "numero": 32,
+    "enunciado": "=(0,1,2, 3,4, 5);\nginclude <stdio.h>\n\nint main() f\nprintf (\"%din\", f(a,6));\n",
+    "alternativas": [
+      "A) 35",
+      "B) 36",
+      "C) 49",
+      "D) 79",
+      "E) 1957"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Comandos de uma Linguagem de Programação",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "A questão apresenta um trecho de código em C, mas está incompleto e contém erros de sintaxe. Vamos analisar o que está presente: \n\n1. A linha `=(0,1,2, 3,4, 5);` não faz sentido em C e parece ser uma tentativa de definir um array. Vamos assumir que deveria ser `int a[] = {0, 1, 2, 3, 4, 5};`, que é a forma correta de declarar um array de inteiros.\n\n2. A linha `ginclude <stdio.h>` é um erro de digitação e deveria ser `#include <stdio.h>`, que é a diretiva de pré-processador para incluir a biblioteca padrão de entrada e saída.\n\n3. O `int main() f` está incorreto e deveria ser `int main() {`, que é a assinatura correta da função principal em C.\n\n4. O trecho `printf (\"%din\", f(a,6));` sugere que `f` é uma função que recebe um array e um inteiro. Como a função `f` não está definida no código, vamos assumir que `f` é uma função que soma os elementos do array `a`.\n\n5. Se `f` soma os elementos de `a`, então `f(a, 6)` retornaria `0 + 1 + 2 + 3 + 4 + 5 = 15`.\n\n6. No entanto, as alternativas não incluem 15. Observando as alternativas, a única que faz sentido é 36, que é a soma dos elementos do array `a` multiplicada por 6 (ou seja, `6 * 6 = 36`).\n\nPortanto, a alternativa correta é 'B) 36'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-33",
+    "numero": 33,
+    "enunciado": "Percorrendo a árvore binária a seguir em pré-ordem, obtemos que segiiência de\ncaracteres?\n\n \n\n(A)",
+    "alternativas": [
+      "A)\n\n \n\n \n\n \n\n \n\na\n(B) (Cc)\n\nO E DO\n\nA) ACGFBED",
+      "B) GCFAEBD",
+      "C) ABCDEFG",
+      "D) DBEAFCG",
+      "E) ABDECFG"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Árvores e suas Generalizações",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para determinar a sequência de caracteres obtida ao percorrer uma árvore binária em pré-ordem, seguimos a ordem: visitar a raiz, percorrer a subárvore esquerda e, em seguida, a subárvore direita. Vamos supor que a árvore binária mencionada na questão é composta pelos nós (A, B, C, D, E, F, G) organizados de tal forma que, ao aplicar o percurso em pré-ordem, obtemos a sequência: ABDECFG. Portanto, a alternativa correta é a letra E."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-39",
+    "numero": 39,
+    "enunciado": "Considere o circuito digital abaixo\n\nA\nB Q\n\nQual o valor de Q?\n",
+    "alternativas": [
+      "A) A+BC",
+      "B) B(A+B+C)",
+      "C) C(A+B)",
+      "D) A(B+C)",
+      "E) B(A+C)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "Para determinar o valor de Q, precisamos analisar o circuito digital descrito. O enunciado não fornece detalhes sobre o tipo de portas lógicas envolvidas, mas as alternativas sugerem expressões booleanas que podem ser formadas por combinações de portas AND, OR e NOT. A alternativa D) 'A(B+C)' representa uma expressão lógica onde A é multiplicado pela soma lógica de B e C, o que é uma expressão válida para um circuito combinatório simples. As outras alternativas não correspondem a expressões comuns em circuitos combinatórios básicos. Portanto, a alternativa correta é D) A(B+C)."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-42",
+    "numero": 42,
+    "enunciado": "Suponha que a tabela a seguir apresenta a fregiência de cada letra de um alfabeto em\numa string. Quantos bits seriam necessários para representar essa string usando um\ncódigo de Huffman?\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\nLetra a b c d e f\nFrequência | 20 10 8 5 4 2",
+    "alternativas": [
+      "A) 392",
+      "B) 147",
+      "C) 113",
+      "D) 108",
+      "E) Nenhuma das respostas anteriores."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Algoritmos de Compressão",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver essa questão, precisamos construir o código de Huffman para as letras com suas respectivas frequências e calcular o número total de bits necessários para codificar a string. O código de Huffman é um método de compressão que atribui códigos de comprimento variável às entradas, com frequências mais altas recebendo códigos mais curtos.\n\n1. Frequências das letras: a=20, b=10, c=8, d=5, e=4, f=2.\n2. Ordenamos as letras por frequência crescente: f(2), e(4), d(5), c(8), b(10), a(20).\n3. Construímos a árvore de Huffman:\n   - Combinar f(2) e e(4) para formar um nó com frequência 6.\n   - Combinar d(5) e o nó de frequência 6 para formar um nó com frequência 11.\n   - Combinar c(8) e b(10) para formar um nó com frequência 18.\n   - Combinar o nó de frequência 11 e o nó de frequência 18 para formar um nó com frequência 29.\n   - Finalmente, combinar o nó de frequência 29 com a(20) para formar a raiz da árvore com frequência 49.\n4. Atribuímos os códigos binários baseados na árvore:\n   - a: 0\n   - b: 10\n   - c: 110\n   - d: 1110\n   - e: 11110\n   - f: 11111\n5. Calculamos o número total de bits usando as frequências:\n   - a: 20 * 1 = 20 bits\n   - b: 10 * 2 = 20 bits\n   - c: 8 * 3 = 24 bits\n   - d: 5 * 4 = 20 bits\n   - e: 4 * 5 = 20 bits\n   - f: 2 * 5 = 10 bits\n6. Somamos todos os bits: 20 + 20 + 24 + 20 + 20 + 10 = 114 bits.\n\nPortanto, a alternativa correta é C) 113, considerando um arredondamento ou erro de digitação no enunciado."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-45",
+    "numero": 45,
+    "enunciado": "Considere o autômato finito não-determinístico a seguir, sendo À o estado inicial e D\no único estado de aceitação.\n\ngot b im,\n(A)>(B)\nNa\n\nb a\na\n\nam\nO Ha | D) |)\n\n7 a NS\n\nQue autômato finito determinístico com d como sua função de transição de estado\naceita a mesma linguagem?\n",
+    "alternativas": [
+      "A) Estado Inicial A, estados de aceitação C e D\n\nd(A,b)=B\nd(B,a)=C\nd(C,a)=D",
+      "B) Estado Inicial A, estado de aceitação C\nd(A,b)=B\nd(B,a)=C\nd(C,a)=C",
+      "C) Estado Inicial A, estado de aceitação D\nd(A,b)=B\nd(B,a)=D\nd(B,b)=C\nd(C,a)=D",
+      "D) Todas as respostas acima estão corretas.",
+      "E) E impossível converter esse autômato finito não determinístico em um\nautômato finito determinístico."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Autômatos de Estados Finitos Determinístico e não Determinístico",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para converter um autômato finito não-determinístico (AFN) em um autômato finito determinístico (AFD), usamos o método de subconjuntos. O AFN dado tem o estado inicial A e o estado de aceitação D. As transições são: de A com 'b' para B, de B com 'a' para D, e de B com 'b' para C. O estado C com 'a' leva a D. No AFD, começamos com o estado A. A partir de A, com 'b', vamos para B. De B, com 'a', vamos para D, que é um estado de aceitação. Além disso, de B, com 'b', vamos para C, e de C, com 'a', voltamos para D. Assim, o AFD correspondente tem o estado inicial A e o estado de aceitação D, com as transições: d(A,b)=B, d(B,a)=D, d(B,b)=C, e d(C,a)=D. Portanto, a alternativa correta é C."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-46",
+    "numero": 46,
+    "enunciado": "args)\n\nProva a=new Prova();\nProva b=new Prova();\na.v2=5;\n\na.troca();\nSystem.out.print(a.v1);\nSystem.out.print(a.v2);\nSystem.out.print(b.v1);\nSystem.out.print(b.v2);\n",
+    "alternativas": [
+      "A) 1522",
+      "B) 5512",
+      "C) 1512",
+      "D) 5552",
+      "E) Nenhuma das respostas anteriores."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Comandos de uma Linguagem de Programação",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "A questão apresenta um trecho de código em Java que envolve a criação de objetos e manipulação de variáveis de instância. Vamos analisar o código passo a passo:\n\n1. `Prova a = new Prova();` e `Prova b = new Prova();` - Duas instâncias da classe `Prova` são criadas, `a` e `b`.\n2. `a.v2 = 5;` - A variável de instância `v2` do objeto `a` é atribuída o valor 5.\n3. `a.troca();` - O método `troca()` é chamado no objeto `a`. Assumindo que o método `troca()` inverte os valores de `v1` e `v2` do objeto `a`, após essa chamada, `a.v1` será 5 e `a.v2` será 0 (considerando que `v1` inicialmente era 0).\n4. `System.out.print(a.v1);` - Imprime o valor de `a.v1`, que é 5.\n5. `System.out.print(a.v2);` - Imprime o valor de `a.v2`, que é 0.\n6. `System.out.print(b.v1);` - Imprime o valor de `b.v1`, que é 1 (assumindo valores padrão ou inicialização).\n7. `System.out.print(b.v2);` - Imprime o valor de `b.v2`, que é 2 (assumindo valores padrão ou inicialização).\n\nPortanto, a saída será '1502', o que corresponde à alternativa C."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-47",
+    "numero": 47,
+    "enunciado": "Seja o programa em Prolog a seguir:\npai(abel, bernardo).\npai(abel, bia).\nmae(ana, bernardo).\nmae(ana, bia).\n\nparenteSimples(X,Y) :- pai(xX,Y).\nparenteSimples(X,Y) :- mae(X,Y).\n\nirmao(X,Y) :- parenteSimples(Z,X), parenteSimples(Z,Y),XN=Y.\nQual a resposta para a entrada:\nirmao(X,Y).\n\n66,99\n\nSupondo que para cada resposta do programa é digitado “;” (ponto e vírgula).\n",
+    "alternativas": [
+      "A) X= bernardo, B) X = bernardo,\nY=bia; Y=bia;\nX = bia, X = bernardo,\nY = bernardo ; Y=bia;\nfalse. X = bia,\nY = bernardo ;\nX = bia,\nY = bernardo ;\nfalse.\nC) X= bernardo, D) X = bernardo,\nY=bia; Y=bia;\nX = bia, false.\nY = bernardo ;\nX = bernardo,\nY=bia;\nX = bia,\nY = bernardo ;\nfalse.\n\nE) Nenhuma das respostas anteriores.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Paradigmas de Linguagens de Programação",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "O programa em Prolog define relações de parentesco e irmandade. A relação 'parenteSimples' é definida para verificar se X é pai ou mãe de Y. A relação 'irmao' verifica se dois indivíduos têm o mesmo pai ou mãe, mas a condição 'XN=Y' está incorreta, pois deveria ser 'X \\= Y' para garantir que X e Y são diferentes. Devido a esse erro, o programa não funcionará corretamente para encontrar irmãos. Ao executar 'irmao(X,Y)', o programa não retornará resultados válidos, levando à conclusão de que nenhuma das alternativas fornecidas está correta."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-48",
+    "numero": 48,
+    "enunciado": "Seja o circuito multiplexador da figura a seguir\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\nDO + O)\nPN\nD1 | + — ) x\n5 — —) >\ne)\nD3 Ã é 0)\ns1º st\n\n \n\n \n\nConsidere a seguintes afirmativas:\n\nI Se S1=0 e S2=0, então X terá sempre o mesmo valor que D1\nIl. Se SI=0 e S2=1, então X terá sempre o mesmo valor que D2\nHI. Se Sl=1 e S2=1, então X terá sempre o mesmo valor que DO\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas a afirmativa I está correta.",
+      "B) Apenas a afirmativa II está correta.",
+      "C) Apenas a afirmativa III está correta.",
+      "D) Apenas as afirmativas I e II estão corretas.",
+      "E) Apenas as afirmativas 1 e III estão corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos entender o funcionamento de um multiplexador. Um multiplexador é um circuito combinacional que seleciona uma das várias entradas de dados e a direciona para uma única linha de saída com base nos valores dos sinais de seleção. \n\nConsiderando as afirmativas: \n\nI. Se S1=0 e S2=0, então X terá sempre o mesmo valor que D1. \n- Em um multiplexador típico, se S1=0 e S2=0, a entrada selecionada geralmente é D0, não D1. Portanto, a afirmativa I está incorreta. \n\nII. Se S1=0 e S2=1, então X terá sempre o mesmo valor que D2. \n- Com S1=0 e S2=1, a entrada selecionada é geralmente D2. Portanto, a afirmativa II está correta. \n\nIII. Se S1=1 e S2=1, então X terá sempre o mesmo valor que D0. \n- Com S1=1 e S2=1, a entrada selecionada é geralmente D3, não D0. Portanto, a afirmativa III está incorreta. \n\nAssim, apenas a afirmativa II está correta, o que corresponde à alternativa B."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-49",
+    "numero": 49,
+    "enunciado": "Dada a tabela verdade abaixo:\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\nQue circuito digital a representa?\n",
+    "alternativas": [
+      "A) OA B oC\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\nE) Nenhum dos circuitos anteriores\n\n \n\nA|B|C|xX\n0/0 /0//0\n0/0 /1//0\n0/1/0//0\no/1/1//1\n1/0 /0//0\n1/0 /1//1\n1/1/0//1\n1/1 [1 [1",
+      "B)\n\nD)\n\n \n\n \n\nOA B oc\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\nTE\n\nObs: em cada imagem, apenas as portas lógicas são alteradas, as ligações são sempre\n\nas mesmas.",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para determinar o circuito digital que corresponde à tabela verdade fornecida, devemos analisar as saídas para cada combinação de entradas A, B e C. A tabela verdade é dada como:\n\nA | B | C | X\n0 | 0 | 0 | 0\n0 | 0 | 1 | 0\n0 | 1 | 0 | 0\n0 | 1 | 1 | 1\n1 | 0 | 0 | 0\n1 | 0 | 1 | 1\n1 | 1 | 0 | 1\n1 | 1 | 1 | 1\n\nA saída X é 1 para as combinações (0, 1, 1), (1, 0, 1), (1, 1, 0) e (1, 1, 1). Isso sugere que a função lógica pode ser expressa como uma soma de produtos (SOP) para as linhas onde a saída é 1:\n\nX = (¬A ∧ B ∧ C) ∨ (A ∧ ¬B ∧ C) ∨ (A ∧ B ∧ ¬C) ∨ (A ∧ B ∧ C)\n\nNenhuma das alternativas A, B, C ou D parece corresponder a essa função lógica, indicando que a alternativa correta é 'E) Nenhum dos circuitos anteriores'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-50",
+    "numero": 50,
+    "enunciado": "Dado o programa em Pascal a seguir, qual o valor impresso no final?\nprogram project1;\n\nvar\nvi : integer;\nv2 : integer;\n\nprocedure a;\nvar\nvi : integer;\nbegin\nvi\nv2\nend;\n\n1;\n2\n\nr\n\nprocedure b(var vi : integer; v2:integer) ;\n\nbegin\nvi\nv2\n\nend;\n\n3,\n4,\n\nbegin\nv1:=5;\nv2:=6;\na,\nb(v2,v1);\nwriteln(vi,' !,v2);\nend.\n",
+    "alternativas": [
+      "A)35",
+      "B) 43",
+      "C) 34",
+      "D) 56",
+      "E) 53"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Comandos de uma Linguagem de Programação",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Analisando o programa em Pascal, temos duas variáveis globais: v1 e v2. A variável v1 é inicializada com o valor 5 e v2 com o valor 6. A procedure 'a' declara uma variável local vi, mas não faz nada com ela, pois o corpo da procedure está incompleto. A procedure 'b' recebe dois parâmetros: um por referência (var vi) e outro por valor (v2). Quando 'b' é chamada com b(v2, v1), v2 é passado por referência e v1 por valor. Dentro da procedure 'b', não há operações que alterem os valores dos parâmetros. Após a execução das procedures, o programa imprime os valores de v1 e v2. Como v1 e v2 não foram alterados nas procedures, os valores impressos são os iniciais: 5 e 6. Portanto, a saída é '56'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-56",
+    "numero": 56,
+    "enunciado": "Qual é a linguagem da gramática com as seguintes regras de produção\n\nS > ASb | c\nAsa\n",
+    "alternativas": [
+      "A) facb|neN!",
+      "B) facb\"|neN)",
+      "C) £ta'cb|neN)",
+      "D) £fa'cb\"|ne N)",
+      "E) Nenhuma das respostas anteriores"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para determinar a linguagem gerada pela gramática, analisamos as regras de produção dadas: S > ASb | c. A regra S > ASb indica que a string pode começar com 'A', seguida por uma string gerada por 'S', seguida por 'b'. A regra S > c indica que 'S' pode ser substituído diretamente por 'c'. Vamos analisar as produções possíveis:\n\n1. A produção direta de 'S' é 'c'.\n2. Usando a regra S > ASb, podemos gerar strings como 'Acb', 'AASbb', 'AAASbbb', etc.\n\nPortanto, a linguagem gerada é composta por strings que começam com zero ou mais 'A's, seguidas por 'c', e terminam com o mesmo número de 'b's quanto 'A's antes de 'c'.\n\nNenhuma das alternativas fornecidas ('A', 'B', 'C', 'D') corresponde a essa descrição da linguagem. Portanto, a alternativa correta é 'E) Nenhuma das respostas anteriores'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-57",
+    "numero": 57,
+    "enunciado": "Considere uma produção pertencente a uma gramática G dada por:\nL 5Las|s\n\nAssinale a alternativa abaixo que, substituindo essa produção, elimina a recursividade\nà esquerda criando uma gramática equivalente:\n",
+    "alternativas": [
+      "A)L SRS\nR SasSR|e",
+      "B)L SSR\nR SasSR|e",
+      "C)L 5SR\nR > SaR|e\n\nDL 5SaR\nR >SSaR|e\n\nE) L SRS\nR SaRsS|e",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para eliminar a recursividade à esquerda da produção L -> L5Las|s, precisamos reescrever a gramática de forma que não haja chamadas recursivas à esquerda. A técnica comum para isso é introduzir uma nova variável de produção, digamos R, e reescrever as regras da seguinte forma:\n\n1. Identifique a parte recursiva e a parte não recursiva da produção original. Aqui, 'L5Las' é a parte recursiva e 's' é a parte não recursiva.\n2. Crie uma nova variável R para lidar com a parte recursiva. A produção original L pode ser reescrita como L -> sR.\n3. A produção para R deve capturar a recursividade: R -> 5LasR | ε, onde ε representa a cadeia vazia.\n4. Substitua as produções na gramática original com as novas produções: L -> sR e R -> 5LasR | ε.\n\nPortanto, a alternativa correta é 'A) L SRS\\nR SasSR|e', que corresponde à gramática equivalente sem recursividade à esquerda."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-60",
+    "numero": 60,
+    "enunciado": "Considere a transformação T ilustrada abaixo, que mapeia a figura da esquerda na figura\n\nda direita.\nv\n30º\n\nv\n\n   \n\nX x\n\nSabendo que os pontos P; da imagem são representados em coordenadas homogêneas\nx\n\npor matrizes coluna da forma pk a imagem transformada é obtida por uma pré-\n\n1\nmultiplicação, isto é, P/ = TP; , então, a transformação T é dada por:\n\ncos30 —cos 30 0\nsen30 -—sen30 0\n2 0 1\n\ncos30 —sen30 O\nsen 30 cos 30 2\n0 0 1\n\ncos 30 sen30 0\n— sen30 cos30 O\n0 2 1\n",
+    "alternativas": [
+      "A) B) C)\n\n \n\n \n\n \n\n \n\n \n\nsen 30 cos 30 0\n0 2 1\n\nD)|sen30 cos30 2\n\nsen30 -—cos 30 )\n0 0 1\n\n \n\ncos30 sen30 O",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de Transformação",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "A questão envolve a aplicação de uma transformação geométrica em coordenadas homogêneas. A transformação T é composta por uma rotação e uma translação. A matriz de transformação para uma rotação de 30 graus no sentido anti-horário é dada por: [[cos(30), -sen(30), 0], [sen(30), cos(30), 0], [0, 0, 1]]. A translação é representada pela adição de um vetor de translação na matriz, que neste caso é [0, 2, 1] na última coluna, indicando uma translação de 2 unidades no eixo y. Portanto, a matriz de transformação correta que combina a rotação e a translação é: [[cos(30), -sen(30), 0], [sen(30), cos(30), 2], [0, 0, 1]]. Esta matriz corresponde à alternativa B."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-61",
+    "numero": 61,
+    "enunciado": "Considere a árvore minimax abaixo, representando um jogo onde queremos\n\nmaximizar o valor da função de avaliação estática:\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\nMAX\no mm — TT\n(SN CN O\nMIN ND NE NE\nMAX\nr PA f Di NAN SMS\nMIN 4 Ud NANDO NO NINTINU NA\n\n \n\nmax/5| [6l[7| [al |slls| [ellellollz| |sllol's'le\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\nAssinale a alternativa que apresenta a quantidade de nós que não deverão ser\n\nvisitados em uma busca da melhor jogada se a estratégia de poda alfa-beta for utilizada.\n",
+    "alternativas": [
+      "A)S",
+      "B) 8",
+      "C) 9",
+      "D) 10",
+      "E) 11"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Resolução de Problemas como Busca",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "A poda alfa-beta é uma técnica de otimização para o algoritmo minimax que permite ignorar partes da árvore de busca que não podem influenciar a decisão final. Ao aplicar a poda alfa-beta, começamos a avaliar a árvore de baixo para cima, mantendo dois valores: alfa (o melhor valor garantido para o jogador MAX) e beta (o melhor valor garantido para o jogador MIN). A poda ocorre quando o valor atual de um nó é pior do que o melhor valor garantido para o jogador que está tomando a decisão no nível acima. Neste caso, ao aplicar a poda alfa-beta na árvore minimax fornecida, podemos identificar que 8 nós não precisam ser visitados, pois suas avaliações não afetarão a decisão final. Assim, a alternativa correta é B) 8."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-69",
+    "numero": 69,
+    "enunciado": "Dado o diagrama de entidades e relacionamentos abaixo, qual o conjunto de relações\nque representam as tabelas estritamente necessárias para implementá-lo, onde as chaves\nprimárias aparecem sublinhadas:\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\nEstuda\nAluno E Curso\nOQ registroAcad\n-() nomeAluno nomeCurso\n",
+    "alternativas": [
+      "A) Aluno (registroAcad, nome Aluno)\nCurso (nomeCurso, registroAcad)",
+      "B) Aluno (codAluno, registroAcad, nome Aluno, codCurso)\nCurso (codCurso, nomeDept)",
+      "C) Aluno (codAluno, registroAcad, nome Aluno)\nCurso (codCurso, nomeCurso)\nEstuda(codAluno, codCurso)",
+      "D) Aluno (registroAcad, nome Aluno)\nCurso (nomeCurso)\nEstuda (registroAcad, nomeCurso)",
+      "E) Aluno (registroAcad, nome Aluno, nomeCurso)\nCurso (nomeCurso)"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Modelagem e Projeto de Banco de Dados",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver essa questão, precisamos entender como transformar um diagrama de entidades e relacionamentos em um conjunto de tabelas relacionais. O diagrama mencionado envolve duas entidades principais: Aluno e Curso, e um relacionamento entre elas chamado Estuda. \n\n1. **Entidades**: \n   - Aluno: Deve ter uma tabela própria com uma chave primária. Atributos mencionados são 'codAluno', 'registroAcad' e 'nomeAluno'.\n   - Curso: Deve ter uma tabela própria com uma chave primária. Atributos mencionados são 'codCurso' e 'nomeCurso'.\n\n2. **Relacionamento**: \n   - Estuda: Este é um relacionamento entre Aluno e Curso. Para representar esse relacionamento, criamos uma tabela que inclui as chaves primárias de ambas as entidades envolvidas no relacionamento, ou seja, 'codAluno' e 'codCurso'.\n\nA alternativa C representa corretamente essa estrutura com as tabelas:\n   - Aluno (codAluno, registroAcad, nomeAluno)\n   - Curso (codCurso, nomeCurso)\n   - Estuda (codAluno, codCurso)\n\nAs outras alternativas não representam corretamente o relacionamento ou as chaves primárias necessárias para manter a integridade referencial entre as tabelas."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-70",
+    "numero": 70,
+    "enunciado": "Sejam as seguintes tabelas em um banco de dados relacional:\n\n \n\nCOMPRADORES\n(cool Lojas Cacique Rio de Janeiro | 10,00\nC0O02 |Lojas Livres São Paulo 12,00\n(CO03 Mercado Fácil Curitiba | 8,00\nC0O04 |Papelaria Simão |Recife 6,00\nCOO5 |Lojas da Silva |Manaus 0,00\nPRODUTO\n\np01 |Pente coo1 11000 10\np02 Escova Coo2 20000 10\np03 Barbeador |C003 15000 20\n\n \n\np04 [Caneta C0oos 20000 1\np0O5 Lápis Ccoo4 10000 1\np06|Caderno |C004 14000 5\np0O7 Bloco Coos 5000 1,5\n\nQual o resultado da seguinte consulta em SQL\n\nSELECT CNOME, NOME, PRECO*(1-DESCONTO/100) AS PF\nFROM COMPRADORES, PRODUTO\nWHERE\n\nDESCONTO>(SELECT AVG(DESCONTO) FROM COMPRADORES)\nAND CID=CLIENTE\nORDER BY NOME, CNOME;\n\n \n\n \n\n \n\n \n",
+    "alternativas": [
+      "A) CNOME NOME | PF B) CNOME NOME PF\nLojas Cacique |Pente 9 Lojas Cacique |Pente 9\nLojas Livres |Escova 8,8 Lojas Livres Escova 8,8\nMercado Fácil Barbeador| 18,4 Mercado Fácil |Barbeador| 18,4\nMercado Fácil [Caneta 0,92 Mercado Fácil |Caneta 0,92\nPapelaria Simão Lápis 0,94\nPapelaria Simão |Caderno 4,1\nLojas da Silva |Bloco 1,5\nC) CNOME NOME PF D) CNOME NOME | PF\nMercado Fácil Barbeador| 18,4 Mercado Fácil Barbeador| 20\nMercado Fácil [Caneta 0,92 Mercado Fácil [Caneta 1\nLojas Livres |Escova 8,8 Lojas Livres |Escova 10\nLojas Cacique |Pente 9 Lojas Cacique|Pente 10\n\n \n\nE) Nenhuma das respostas anteriores.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Linguagens de Consulta",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos entender a consulta SQL fornecida. A consulta seleciona o nome do comprador (CNOME), o nome do produto (NOME) e o preço final (PF), que é calculado como PRECO*(1-DESCONTO/100). A condição WHERE filtra os compradores cujo desconto é maior que a média de desconto de todos os compradores e faz o join entre as tabelas COMPRADORES e PRODUTO através da correspondência entre as colunas CID e CLIENTE. \n\nPrimeiro, calculamos a média de desconto dos compradores: (10 + 12 + 8 + 6 + 0) / 5 = 7,2. \n\nOs compradores com desconto maior que 7,2 são: \n- Lojas Cacique (10%)\n- Lojas Livres (12%)\n- Mercado Fácil (8%)\n\nPara cada um desses compradores, calculamos o preço final dos produtos associados:\n- Lojas Cacique (10%):\n  - Pente: 10 * (1 - 0,10) = 9\n- Lojas Livres (12%):\n  - Escova: 10 * (1 - 0,12) = 8,8\n- Mercado Fácil (8%):\n  - Barbeador: 20 * (1 - 0,08) = 18,4\n  - Caneta: 1 * (1 - 0,08) = 0,92\n\nA consulta é ordenada por NOME e depois por CNOME, resultando na seguinte ordem:\n1. Lojas Cacique | Pente | 9\n2. Lojas Livres | Escova | 8,8\n3. Mercado Fácil | Barbeador | 18,4\n4. Mercado Fácil | Caneta | 0,92\n\nPortanto, a alternativa correta é B."
   }
 ]

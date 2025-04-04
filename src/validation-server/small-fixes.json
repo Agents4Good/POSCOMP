@@ -3057,5 +3057,328 @@
     "dificuldade": "Fácil",
     "gabarito": "d",
     "solucao": "O trecho de código C possui os seguintes erros semânticos:\n1. Falta de ponto e vírgula após a declaração do vetor 'int v[10]'. Em C, cada declaração deve terminar com um ponto e vírgula.\n2. A linha 'i 3;' está incorreta. Deveria ser 'i = 3;' para atribuir o valor 3 à variável 'i'.\n3. A linha 'v[f] = 45;' está incorreta porque 'f' é uma variável do tipo float e não pode ser usada como índice de um vetor. O índice de um vetor deve ser um valor inteiro.\n4. O 'while' está incompleto. Falta a condição para o loop 'while', o que é necessário para que o código seja semanticamente correto.\nPortanto, há 4 erros semânticos no código."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-03",
+    "numero": 3,
+    "enunciado": "Se (xmod7=3) e (xmod5 =1), onde x >0, qual o menor valor inteiro\npossível para x?\n",
+    "alternativas": [
+      "A) 17",
+      "B) 25",
+      "C) 31",
+      "D) Existe um valor inteiro para x, que é diferente dos anteriores.",
+      "E) Não existe um valor inteiro para x."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Relações de Equivalência",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para resolver o problema, precisamos encontrar o menor valor inteiro positivo de x que satisfaça as duas congruências: x ≡ 3 (mod 7) e x ≡ 1 (mod 5). Isso significa que x deve deixar resto 3 quando dividido por 7 e resto 1 quando dividido por 5. \n\nPodemos usar o método de tentativa e erro, começando com o menor número que satisfaça a primeira congruência e verificando se ele também satisfaz a segunda. \n\nComeçamos com x = 3, mas 3 mod 5 = 3, não 1. \nTentamos x = 10 (7 + 3), mas 10 mod 5 = 0, não 1. \nTentamos x = 17 (14 + 3), e 17 mod 5 = 2, não 1. \nTentamos x = 24 (21 + 3), e 24 mod 5 = 4, não 1. \nFinalmente, tentamos x = 31 (28 + 3), e 31 mod 5 = 1, que satisfaz ambas as condições. \n\nPortanto, o menor valor inteiro positivo para x que satisfaz ambas as condições é 31."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-04",
+    "numero": 4,
+    "enunciado": "Considere um conjunto S definido como a interseção de n semi-espaços planos\nHi(x,y,2)<0, 1I<i<n, onde H;(x,y,27) =a;x+b;y+c;iz+d;. Então, pode-se\ndizer que para o ponto p = (xp, Yp» Zp):\n",
+    "alternativas": [
+      "A) (min;sien Hi(Xp, Yp» Zp)) 206 pes",
+      "B) (max,<i<n Hi(xp,Yp»Zp)) <0Spes",
+      "C) (min, cien Hi(xp, Yp:Zp)) <0S p ÉS",
+      "D) (min;sien Hi(Xp, Yp» Zp)) <0Spes",
+      "E) (max,<i<n Hi(xp,Yp»Zp)) <0OS pés"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Interseções",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "A questão trata da interseção de semi-espaços definidos por inequações lineares. Um ponto p = (xp, yp, zp) está dentro da interseção de todos os semi-espaços Hi se satisfizer todas as inequações Hi(xp, yp, zp) < 0 para i variando de 1 a n. A alternativa correta é aquela que expressa que o máximo dos valores de Hi(xp, yp, zp) para i de 1 a n deve ser menor que 0, ou seja, (max, 1 ≤ i ≤ n Hi(xp, yp, zp)) < 0. Isso garante que o ponto p está dentro de todos os semi-espaços, pois se o maior valor é negativo, todos os outros também são. Portanto, a alternativa correta é a B."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-09",
+    "numero": 9,
+    "enunciado": "Considere duas variáveis aleatórias discretas 4 e B independentes. Sejam oZ e og as\nvariâncias de 4 e B respectivamente.\n\nSe k e p são constantes, o que pode ser dito a respeito da variância de\n(k + 4) — (p + B)?\n",
+    "alternativas": [
+      "A) 04 — og",
+      "B) o2 + og",
+      "C) (k +97) x (04 + 08)",
+      "D) (k— p) x (04 — 08)",
+      "E) Kkx 04) +(p xo)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Variância e Coeficientes de Correlação",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos calcular a variância da expressão (k + 4) - (p + B). Sabemos que a variância de uma constante é zero, ou seja, Var(k) = 0 e Var(p) = 0. Portanto, a variância de (k + 4) é igual à variância de 4, que é oZ. Da mesma forma, a variância de (p + B) é igual à variância de B, que é og. Como as variáveis 4 e B são independentes, a variância da diferença entre duas variáveis independentes é a soma das variâncias individuais. Assim, Var((k + 4) - (p + B)) = Var(4) + Var(B) = oZ + og. Portanto, a alternativa correta é B) o2 + og."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-14",
+    "numero": 14,
+    "enunciado": "Se é verdade que as três sentenças a seguir são verdade\n\np> q\nr3s\n(PAD) ST\n\nentão é verdade que:\n",
+    "alternativas": [
+      "A)as3(tVp)",
+      "B) r>5>+s",
+      "C) aq > ar",
+      "D) Todas as respostas anteriores.",
+      "E) Nenhuma das respostas anteriores."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para resolver essa questão, precisamos analisar as sentenças fornecidas e as alternativas. As sentenças dadas são: 'p > q', 'r3s', e '(PAD) ST'. No entanto, essas sentenças não são claras ou não seguem uma notação lógica padrão. Vamos analisar as alternativas:\n\n- A) 'as3(tVp)': Esta alternativa não faz sentido lógico ou matemático claro.\n- B) 'r>5>+s': Esta alternativa não segue uma notação lógica ou matemática padrão.\n- C) 'aq > ar': Esta alternativa também não faz sentido lógico ou matemático claro.\n- D) 'Todas as respostas anteriores.': Esta alternativa não pode ser correta, pois nenhuma das alternativas anteriores faz sentido lógico.\n- E) 'Nenhuma das respostas anteriores.': Esta é a única alternativa que resta e faz sentido, dado que nenhuma das outras alternativas é válida.\n\nPortanto, a alternativa correta é 'E) Nenhuma das respostas anteriores.'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-19",
+    "numero": 19,
+    "enunciado": "Dado um conjunto S = fa,b,c,d?, quantas são as possíveis relações de equivalência\nem S?\n",
+    "alternativas": [
+      "A) 4",
+      "B) 7",
+      "C) 8",
+      "D) 15",
+      "E) 16"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Relações de Equivalência",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Uma relação de equivalência em um conjunto é uma relação que é reflexiva, simétrica e transitiva. Para determinar o número de relações de equivalência possíveis em um conjunto com n elementos, podemos utilizar o conceito de partições do conjunto. Cada partição do conjunto corresponde a uma relação de equivalência distinta. No caso do conjunto S = {a, b, c, d}, que possui 4 elementos, precisamos contar o número de maneiras de particionar este conjunto. Este número é dado pelo número de Bell B_n para n = 4. O número de Bell B_4 é 15, o que significa que existem 15 partições possíveis do conjunto S. Portanto, existem 15 relações de equivalência possíveis em S."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-20",
+    "numero": 20,
+    "enunciado": "Três empresas, X, Y e Z estão competindo por clientes, usando uma campanha de\nmarketing.\nComo resultado dessa campanha, houve a seguinte mudança de clientes:\n\ne 7% dos clientes de X trocam para Y\ne 5% dos clientes de X trocam para Z\ne 14% dos clientes de Y trocam para X\ne 8% dos clientes de Y trocam para Z\ne 3% dos clientes de Z trocam para X\ne 5% dos clientes de Z trocam para Y\n\nSe no início da campanha a distribuição de clientes era\n\ne 39% para X\ne 26% para Y\ne 35% para Z\n\nQue operação matricial pode ser usada para representar o cálculo da distribuição de\nclientes após o fim da campanha?\n\n \n\n  \n\n \n\n \n\n \n\n0,39 0,12 0,14 0,03\n0,26 0,07 0,22 005\n0,35 0,05 0,08 0,08\n0,12 0,14 0,03 0,39\nB) |0,07 0,22 aro x 025\n0,05 0,08 0,08 0,35\n0,39 0,88 0,14 0,03\nC) 026 x Da? 0,78 005\n0,35 0,05 0,08 0,92\n0,88 0,14 0,03 0,39\nD) |0,07 0,78 005 x 025\n0,05 0,08 0,92 0,35\n\nE) Nenhuma das respostas anteriores.",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver essa questão, precisamos modelar a troca de clientes entre as empresas X, Y e Z usando uma matriz de transição. A matriz de transição T é uma matriz 3x3 onde cada elemento T[i][j] representa a proporção de clientes que se movem da empresa j para a empresa i. \n\nDado o enunciado, temos as seguintes trocas: \n- 7% dos clientes de X trocam para Y, então 93% permanecem em X. \n- 5% dos clientes de X trocam para Z. \n- 14% dos clientes de Y trocam para X, então 86% permanecem em Y. \n- 8% dos clientes de Y trocam para Z. \n- 3% dos clientes de Z trocam para X, então 92% permanecem em Z. \n- 5% dos clientes de Z trocam para Y.\n\nAssim, a matriz de transição T é:\n\n| 0.93  0.14  0.03 |\n| 0.07  0.86  0.05 |\n| 0.05  0.08  0.92 |\n\nA distribuição inicial de clientes é dada pelo vetor coluna:\n\n| 0.39 |\n| 0.26 |\n| 0.35 |\n\nPara encontrar a distribuição de clientes após a campanha, multiplicamos a matriz de transição T pelo vetor de distribuição inicial. Nenhuma das alternativas fornecidas corresponde corretamente a essa matriz de transição e operação, portanto, a resposta correta é 'E) Nenhuma das respostas anteriores'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-21",
+    "numero": 21,
+    "enunciado": "A sequência de Fibonacci é uma sequência de inteiros, cujo primeiro termo é 0, o\nsegundo termo é 1, e a partir do terceiro, cada termo é igual à soma dos dois anteriores.\nO seguinte algoritmo recursivo retorna o n-ésimo termo da sequência\n\nProcedimento F(n)\nsen < 3 então retornar n-1\nsenão retornar F(n-1) + F(n-2)\n\nA chamada externa é F(n), sendo n > 0.\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) O algoritmo não está correto, pois não retorna o n-ésimo termo da sequência.",
+      "B) O algoritmo é ótimo, no que diz respeito ao número de passos.",
+      "C) O número de passos efetuados pelo algoritmo é linear em n.",
+      "D) O número de passos efetuados pelo algoritmo é polinomial em n.",
+      "E) O número de passos efetuados pelo algoritmo é exponencial em n."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise de Algoritmos Iterativos e Recursivos",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "O algoritmo apresentado é uma implementação recursiva do cálculo do n-ésimo termo da sequência de Fibonacci. A função F(n) é definida de forma que, se n for menor que 3, retorna n-1. Isso está correto, pois F(1) deve retornar 0 e F(2) deve retornar 1, que são os dois primeiros termos da sequência de Fibonacci. Para n maior ou igual a 3, a função retorna a soma dos dois termos anteriores, ou seja, F(n-1) + F(n-2), que é a definição clássica da sequência de Fibonacci. No entanto, a implementação recursiva sem memoização ou otimização resulta em um número de chamadas recursivas que cresce exponencialmente com n. Isso ocorre porque a função recalcula muitos valores repetidamente. Por exemplo, para calcular F(5), a função calcula F(4) e F(3), mas para calcular F(4), ela novamente calcula F(3) e F(2), e assim por diante, resultando em um número exponencial de chamadas. Portanto, o número de passos efetuados pelo algoritmo é exponencial em n."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-27",
+    "numero": 27,
+    "enunciado": "Considere as estruturas de dados a seguir.\n\ne Uma lista é um conjunto de dados onde cada elemento contido na lista ocupa\nsozinho uma posição de 1 até n, onde n é a quantidade de elementos na lista.\nUma inserção ou remoção pode ser realizada em qualquer posição da lista.\n\ne Uma fila é um caso especial de lista onde a inserção só pode ser realizada em\numa extremidade e uma remoção na outra.\n\ne Uma pilha é um caso especial de lista onde uma inserção ou uma remoção só\npodem ser realizadas em uma extremidade.\n\nAnalise as afirmativas seguintes sobre essas estruturas de dados:\n\nI. Uma fila pode ser implementada usando duas pilhas;\nI. Uma pilha pode ser implementada usando duas filas;\nHI. Uma lista pode ser implementada usando uma fila e uma pilha.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas a afirmativa I está correta.",
+      "B) Apenas a afirmativa II está correta.",
+      "C) Apenas a afirmativa III está correta.",
+      "D) Apenas as afirmativas I e II estão corretas.",
+      "E) Apenas as afirmativas 1 e III estão corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Pilhas e Filas",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. Uma fila pode ser implementada usando duas pilhas.\n   - Isso é verdade. Podemos usar duas pilhas para simular o comportamento de uma fila. A ideia básica é usar uma pilha para enfileirar elementos e a outra para desenfileirar. Quando precisamos desenfileirar, transferimos todos os elementos da primeira pilha para a segunda, invertendo a ordem, e então removemos o elemento do topo da segunda pilha.\n\nII. Uma pilha pode ser implementada usando duas filas.\n   - Isso também é verdade. Podemos usar duas filas para simular uma pilha. A ideia é manter a ordem dos elementos de tal forma que o último elemento inserido seja o primeiro a ser removido. Isso pode ser feito movendo elementos entre as duas filas de forma a manter essa propriedade.\n\nIII. Uma lista pode ser implementada usando uma fila e uma pilha.\n   - Isso é falso. Uma lista permite inserções e remoções em qualquer posição, enquanto uma fila e uma pilha têm restrições específicas sobre onde inserções e remoções podem ocorrer. Não há uma maneira direta de usar apenas uma fila e uma pilha para implementar uma lista com inserções e remoções arbitrárias.\n\nPortanto, as afirmativas I e II estão corretas, tornando a alternativa D a correta."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-28",
+    "numero": 28,
+    "enunciado": "Considere uma árvore binária de busca T com n nós e altura h. A altura de uma árvore é\no número máximo de nós de um caminho entre a raiz e as folhas. Analise as afirmativas\na seguir:\n\nIL h<l+logn;\n\nII. Todo nó que pertence à subárvore esquerda de um nó x tem valor maior que o\npai de x.\n\nHI. Uma busca em ordem simétrica (in-order) em T produz uma ordenação\ncrescente dos elementos de T.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas a afirmativa I está correta;",
+      "B) Apenas a afirmativa II está correta;",
+      "C) Apenas a afirmativa III está correta;",
+      "D) Apenas as afirmativas 1 e II estão corretas;",
+      "E) Apenas as afirmativas 1 e III estão corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Árvores de Busca e Árvores Balanceadas",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. 'h < l + log n' - Esta afirmativa está incorreta. A altura h de uma árvore binária de busca não tem uma relação direta com 'l + log n'. A altura de uma árvore binária de busca pode variar de log(n) (no caso de uma árvore perfeitamente balanceada) até n-1 (no caso de uma árvore degenerada, semelhante a uma lista encadeada). Portanto, não há uma garantia de que h seja sempre menor que 'l + log n'.\n\nII. 'Todo nó que pertence à subárvore esquerda de um nó x tem valor maior que o pai de x.' - Esta afirmativa está incorreta. Em uma árvore binária de busca, todos os nós na subárvore esquerda de um nó x têm valores menores que x, e não maiores que o pai de x.\n\nIII. 'Uma busca em ordem simétrica (in-order) em T produz uma ordenação crescente dos elementos de T.' - Esta afirmativa está correta. A característica de uma árvore binária de busca é que, ao realizar uma travessia in-order, os elementos são visitados em ordem crescente.\n\nPortanto, a única afirmativa correta é a III."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-35",
+    "numero": 35,
+    "enunciado": "Seja o alfabeto X = (a, b) e a linguagem regular\nL=(o| veX*eonºdea'sem q é par 3.\nQual das expressões regulares abaixo gera essa linguagem?\n",
+    "alternativas": [
+      "A) (ab*a b*)*",
+      "B) ((aa)*|b*)*",
+      "C) (b*| (aa )* | b*)*",
+      "D) (b*a b*ab*)*",
+      "E) (aa |b)*"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "A questão pede para identificar a expressão regular que gera a linguagem L, que consiste em cadeias sobre o alfabeto X = {a, b} com um número par de 'a's. A expressão regular que gera cadeias com um número par de 'a's é (aa|b)*. Isso ocorre porque a expressão (aa) representa dois 'a's juntos, garantindo que sempre que 'a' aparece, ele aparece em pares, e 'b' pode aparecer em qualquer quantidade, inclusive zero. As outras alternativas não garantem que o número de 'a's seja par. Por exemplo, a alternativa A permite um número ímpar de 'a's, a alternativa B não garante que o número de 'a's seja par, a alternativa C não é uma expressão regular válida, e a alternativa D também não garante um número par de 'a's."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-36",
+    "numero": 36,
+    "enunciado": "Considere as seguintes afirmativas relativas à ocorrência de \"deadlocks\" (ou\nimpasses).\n\nI.\n\nII.\n\nHI.\n\nA estratégia de tratamento de \"deadlocks\" conhecida como prevenção requer\nque se determine uma condição suficiente a que eles ocorram. Uma vez\ndeterminada a condição, os algoritmos de manipulação dos recursos\ncompartilhados em questão devem ser projetados de forma que,\ngarantidamente, ela jamais ocorra.\n\nA estratégia de tratamento de \"deadlocks\" conhecida como detecção requer\nque se determine uma condição suficiente a que eles ocorram. Uma vez\ndeterminada a condição, o tratamento por detecção consiste em verificar sua\nvalidade e, em caso afirmativo, concluir que existe um \"deadlock\".\n\nAs estratégias conhecidas como prevenção e detecção para o tratamento de\n\"deadlocks\" são complementares uma à outra: Enquanto a primeira guia o\nprojeto dos algoritmos de compartilhamento de recursos para que \"deadlocks\"\njamais ocorram, a segunda trata de impedir que ocorram quaisquer condições\nnecessárias à ocorrência de \"deadlocks\".\n\nIV. Para que ocorra um \"deadlock\" é necessário que haja um ciclo de espera\n\nenvolvendo um determinado conjunto de processos. Uma estratégia comum\nde prevenção é a criação de algoritmos de compartilhamento de recursos que\nimpeçam a ocorrência desses ciclos.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas a afirmativa I é verdadeira.",
+      "B) Apenas a afirmativa II é verdadeira.",
+      "C) Apenas as afirmativas I e III são verdadeiras.",
+      "D) Apenas as afirmativas II e III são verdadeiras.",
+      "E) Apenas as afirmativas Il e IV são verdadeiras."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Alocação de Recursos",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. A estratégia de prevenção de deadlocks realmente envolve a garantia de que uma condição suficiente para a ocorrência de deadlocks nunca ocorra. Isso está correto, pois a prevenção de deadlocks é baseada na negação de uma ou mais das quatro condições necessárias para que um deadlock ocorra (exclusão mútua, posse e espera, não-preempção e espera circular).\n\nII. Esta afirmativa está incorreta. A estratégia de detecção de deadlocks não se baseia em determinar uma condição suficiente para que eles ocorram, mas sim em identificar quando um deadlock já ocorreu, através de algoritmos que detectam a presença de ciclos de espera.\n\nIII. Esta afirmativa está incorreta. A prevenção e a detecção de deadlocks não são complementares no sentido descrito. A prevenção visa evitar a ocorrência de deadlocks, enquanto a detecção identifica deadlocks após sua ocorrência, mas não impede as condições necessárias para que eles ocorram.\n\nIV. Esta afirmativa está correta no que diz respeito à necessidade de um ciclo de espera para a ocorrência de um deadlock. No entanto, a descrição de prevenção como simplesmente impedir ciclos de espera é uma simplificação excessiva, pois a prevenção pode atuar em qualquer uma das condições necessárias para deadlocks, não apenas em ciclos de espera.\n\nPortanto, a única afirmativa completamente correta é a I. A alternativa correta é 'A) Apenas a afirmativa I é verdadeira.'"
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-37",
+    "numero": 37,
+    "enunciado": "Considere as afirmativas abaixo:\n\nI.\nII.\n\nFortran, Pascal e Java são linguagens de terceira geração.\nC++ e Java permitem a criação de classes e o uso de herança múltipla.\n\nII. Prolog é uma linguagem funcional pura.\nIV. PHP, Perl e Ruby são linguagens de sexta geração.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A)",
+      "B)",
+      "C)",
+      "D)",
+      "E)\n\nApenas a afirmativa I é verdadeira.\n\nApenas a afirmativa II é verdadeira.\n\nApenas a afirmativa III é verdadeira.\n\nApenas as afirmativas 1 e IV são verdadeiras.\nApenas as afirmativas II e III são verdadeiras."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Paradigmas de Linguagens de Programação",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. Fortran, Pascal e Java são linguagens de terceira geração. Esta afirmativa é verdadeira. Linguagens de terceira geração são linguagens de programação de alto nível, e Fortran, Pascal e Java se enquadram nessa categoria.\n\nII. C++ e Java permitem a criação de classes e o uso de herança múltipla. Esta afirmativa é falsa. Embora C++ permita herança múltipla, Java não permite herança múltipla de classes, apenas de interfaces.\n\nIII. Prolog é uma linguagem funcional pura. Esta afirmativa é falsa. Prolog é uma linguagem de programação lógica, não funcional. Linguagens funcionais puras são aquelas que evitam efeitos colaterais e Prolog não se enquadra nessa categoria.\n\nIV. PHP, Perl e Ruby são linguagens de sexta geração. Esta afirmativa é falsa. Essas linguagens são geralmente classificadas como linguagens de quarta geração, que são linguagens de script ou de propósito geral de alto nível.\n\nPortanto, apenas a afirmativa I é verdadeira."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-38",
+    "numero": 38,
+    "enunciado": "Após a execução do pedaço de programa a seguir, escrito na linguagem de montagem\ndo 8086, que valores estarão em AL e BL?\n\n; à1f 25-10 then VAR = 30\nMOV AL, 25\n\nMOV BL, 10\n\nCMP AL, BL\n\nJNZ roti\n\nMOV AL, 30\n\nMOV VAR, AL\n\nrotd:\n\nVAR DB 0",
+    "alternativas": [
+      "A) AL=15 BL=10",
+      "B) AL=25 BL=10",
+      "C) AL=15 BL=30",
+      "D) AL=25 BL=30",
+      "E) AL=30 BL=10"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Linguagens de Montagem",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "O programa em linguagem de montagem do 8086 realiza as seguintes operações: \n1. MOV AL, 25: Carrega o valor 25 no registrador AL.\n2. MOV BL, 10: Carrega o valor 10 no registrador BL.\n3. CMP AL, BL: Compara o valor de AL com BL. Como 25 não é igual a 10, a flag de zero (ZF) não é definida.\n4. JNZ roti: 'Jump if Not Zero' (pular se não for zero). Como a comparação não resultou em zero, o programa salta para o rótulo 'roti'.\n5. Como o salto foi realizado, as instruções subsequentes (MOV AL, 30 e MOV VAR, AL) não são executadas.\nPortanto, os valores finais nos registradores são AL = 25 e BL = 10."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-44",
+    "numero": 44,
+    "enunciado": "Dada a seguinte expressão em LISP, qual o seu resultado?\n(CAR (CDR (CDR (ABCDE)))\n",
+    "alternativas": [
+      "A) A",
+      "B) B",
+      "C) €",
+      "D) D",
+      "E) nil"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Cadeias e Processamento de Cadeias",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "A expressão LISP dada é (CAR (CDR (CDR '(A B C D E)))). Em LISP, a função CDR retorna a lista sem o primeiro elemento, e CAR retorna o primeiro elemento da lista. Primeiro, aplicamos CDR na lista '(A B C D E), resultando em '(B C D E). Aplicando CDR novamente, obtemos '(C D E). Finalmente, aplicando CAR, obtemos 'D', que é o primeiro elemento da lista '(C D E). Portanto, a resposta correta é 'D'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-51",
+    "numero": 51,
+    "enunciado": "A questão abaixo refere-se ao seguinte trecho de programa.\n\nbegin\n\nend\n\nread (a,b,c)\n\ntipo = “escaleno”\n\nif (a=b) or (b=c) or (a=c) then\ntipo = “isosceles”;\n\nif (a=b) and (b=c) then\ntipo = “equilátero”;\n\nif (a>=b+c) or (b>=a+c) or (c>=a+b) then\n\ntipo = “não é um triângulo”;\n\nif (a<=0) or (b<=0) or (c<=0) then\ntipo = “dados inválidos”;\n\nwrite (tipo)\n\nConsidere as seguintes afirmativas:\n\nI É possível exercitar todos os comandos do programa com 5 casos de teste.\n\nIH. Um limite superior do número de caminhos linearmente independentes do\ngrafo de fluxo do programa é 4.\n\nII. Admitindo que os nós do grafo de fluxo possam representar condições\ncompostas, e que, portanto, cada comando do programa acima possa ser\nrepresentado num único nó, o número de regiões de seu grafo de fluxo é 4.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas a afirmativa I é verdadeira.",
+      "B) Apenas a afirmativa II é verdadeira.",
+      "C) Apenas a afirmativa III é verdadeira.",
+      "D) Apenas as afirmativas 1 e II são verdadeiras.",
+      "E) Todas as afirmativas são verdadeiras."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Verificação, Validação e Teste",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, precisamos analisar cada afirmativa: \n\nI. Para exercitar todos os comandos do programa, precisamos de casos de teste que cubram todas as condições possíveis: \n- Caso 1: a, b, c são todos iguais (equilátero). \n- Caso 2: a, b são iguais, mas diferentes de c (isósceles). \n- Caso 3: a, b, c são todos diferentes e formam um triângulo (escaleno). \n- Caso 4: a, b, c não formam um triângulo (não é um triângulo). \n- Caso 5: a, b, c têm algum valor não positivo (dados inválidos). \nPortanto, 5 casos de teste são suficientes para cobrir todas as condições.\n\nII. O limite superior do número de caminhos linearmente independentes no grafo de fluxo do programa é dado pelo número de regiões do grafo, que é igual ao número de arestas menos o número de nós mais 2. O programa possui 4 condições if, cada uma representando um nó, e 5 caminhos possíveis (um para cada tipo de triângulo ou erro). Portanto, o número de regiões é 5, que é o limite superior dos caminhos linearmente independentes.\n\nIII. Se considerarmos que cada comando do programa pode ser representado por um único nó, temos 4 condições if, o que resulta em 4 regiões no grafo de fluxo, considerando que cada condição pode ser verdadeira ou falsa.\n\nPortanto, todas as afirmativas são verdadeiras."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-58",
+    "numero": 58,
+    "enunciado": "Qual das afirmativas abaixo está INCORRETA?\n",
+    "alternativas": [
+      "A) Se uma transformação linear afim T é aplicada sobre uma superfície, então o\nvetor normal N a um ponto da superfície é mapeado em TN.",
+      "B) Algoritmos para compressão de imagens digitais costumam ser mais\neficientes, isto é, conseguem maior compressão, quando as imagens a serem\ncomprimidas possuem grandes áreas com a mesma cor.\n\n€) Modelos locais de iluminação de cenas sintéticas são incapazes de reproduzir\nefeitos globais tais como sombras.\n\nD) Duas cores com saturações diferentes podem ter a mesma luminosidade.\n\nE) Uma transformação linear afim sempre transforma objetos convexos em\nobjetos convexos.",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de Transformação",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "A afirmativa A está incorreta porque, ao aplicar uma transformação linear afim T sobre uma superfície, o vetor normal N a um ponto da superfície não é simplesmente mapeado em TN. Transformações lineares afins podem incluir translações, rotações, escalamentos e cisalhamentos, que afetam a orientação e o comprimento do vetor normal. Portanto, o vetor resultante não é apenas TN, mas deve ser recalculado considerando a matriz de transformação e, se necessário, normalizado novamente."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-62",
+    "numero": 62,
+    "enunciado": "Os mecanismos de controle de congestionamento e controle de fluxo desempenham\n\num papel fundamental no projeto de uma rede de computadores. Considere as\nafirmativas a seguir sobre os dois mecanismos.\n\nI. O mecanismo de controle de congestionamento regula (ou seja, aumenta e\ndiminui dinamicamente) a taxa com a qual o transmissor envia dados pela\nrede.\n\nIl. O mecanismo de controle de congestionamento garante que o receptor irá\nreceber todos os dados enviados pelo transmissor.\n\nII. O mecanismo de controle de fluxo regula (ou seja, aumenta e diminui\ndinamicamente) a taxa com a qual o transmissor envia dados pela rede.\n\nIV. O mecanismo de controle de fluxo garante que o receptor irá receber todos os\ndados enviados pelo transmissor.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas as alternativas I, II e II são verdadeiras.",
+      "B) Apenas as alternativas I e III são verdadeiras.",
+      "C) Apenas as alternativas Il e IV são verdadeiras.",
+      "D) Apenas as alternativas III e IV são verdadeiras.",
+      "E) Todas as alternativas são verdadeiras."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Protocolos e Serviços de Comunicação",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos entender as diferenças entre controle de congestionamento e controle de fluxo em redes de computadores. \n\nA afirmativa I está correta: o controle de congestionamento regula a taxa de envio de dados para evitar sobrecarga na rede. \n\nA afirmativa II está incorreta: o controle de congestionamento não garante que o receptor receberá todos os dados, ele apenas ajusta a taxa de envio para evitar congestionamento. \n\nA afirmativa III está correta: o controle de fluxo regula a taxa de envio de dados, mas com o objetivo de não sobrecarregar o receptor. \n\nA afirmativa IV está incorreta: o controle de fluxo não garante a entrega de todos os dados, ele apenas ajusta a taxa para que o receptor consiga processar os dados recebidos sem ser sobrecarregado. \n\nPortanto, apenas as afirmativas I e III são verdadeiras, o que torna a alternativa B a correta."
   }
 ]

@@ -10296,5 +10296,442 @@
     "dificuldade": "Média",
     "gabarito": "b",
     "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. A afirmativa I está correta. A Primeira Forma Normal (1FN) exige que todos os atributos de uma relação sejam atômicos, ou seja, não devem conter conjuntos ou listas de valores. Para normalizar uma relação para 1FN, é necessário criar novas relações para cada atributo não atômico ou relação aninhada.\n\nII. A afirmativa II está correta. A Segunda Forma Normal (2FN) requer que, além de estar na 1FN, nenhum atributo não chave seja funcionalmente dependente de uma parte de uma chave primária composta. Isso significa que, para relações com chaves primárias compostas, qualquer dependência parcial deve ser eliminada, o que é feito decompondo a relação em novas relações.\n\nIII. A afirmativa III está correta. A Terceira Forma Normal (3FN) exige que, além de estar na 2FN, não haja dependências transitivas de atributos não chave, ou seja, um atributo não chave não deve ser funcionalmente dependente de outro atributo não chave. Para resolver isso, a relação deve ser decomposta para eliminar tais dependências.\n\nIV. A afirmativa IV está incorreta. Uma dependência parcial ocorre quando um atributo depende apenas de parte de uma chave primária composta, enquanto uma dependência transitiva ocorre quando um atributo não chave depende de outro atributo não chave.\n\nPortanto, as afirmativas II e III estão corretas, o que corresponde à alternativa 'b'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-10",
+    "numero": 10,
+    "enunciado": "Qual é o número possível de anagramas que se pode montar com as letras da palavra\nPOSCOMP, mesmo que a palavra formada não exista?\n",
+    "alternativas": [
+      "A) 7!",
+      "B) 7!/(2! x 21)",
+      "C) 3!x (21+ 2)",
+      "D) 2!x2!x 1x 1!x1!",
+      "E) 7x 2x2!"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Permutações",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para calcular o número de anagramas possíveis da palavra 'POSCOMP', devemos considerar que a palavra possui 7 letras, onde a letra 'P' se repete duas vezes. O número total de anagramas de uma palavra é dado pelo fatorial do número total de letras dividido pelo fatorial do número de repetições de cada letra. Assim, o número de anagramas é dado por 7! / 2!, onde 7! (fatorial de 7) representa o total de permutações das letras e 2! (fatorial de 2) ajusta para a repetição da letra 'P'. Calculando, temos: 7! = 5040 e 2! = 2, portanto, o número de anagramas é 5040 / 2 = 2520."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-12",
+    "numero": 12,
+    "enunciado": "Chama-se palíndromo um número que não se altera quando invertida a ordem de seus\nalgarismos. Exemplos: 515, 7887, 30503. Quantos são os palíndromos de exatamente 5\nalgarismos?\n",
+    "alternativas": [
+      "A) 20",
+      "B) 500",
+      "C) 900",
+      "D) 1000",
+      "E) Nenhuma das respostas anteriores."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Permutações",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para formar um palíndromo de 5 algarismos, o número deve ter a forma ABCBA, onde A, B e C são dígitos. O dígito A não pode ser zero, pois o número deve ter exatamente 5 algarismos. Portanto, A pode ser qualquer dígito de 1 a 9, totalizando 9 possibilidades. Os dígitos B e C podem ser qualquer dígito de 0 a 9, cada um com 10 possibilidades. Assim, o número total de palíndromos de 5 algarismos é 9 (para A) * 10 (para B) * 10 (para C) = 900."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-15",
+    "numero": 15,
+    "enunciado": "Existem três suspeitos de invadir uma rede de computadores: André, Bruna e Carlos.\nSabe-se que a invasão foi efetivamente cometida por um ou por mais de um deles, já\nque podem ter agido individualmente ou não. Sabe-se, ainda, que:\n\nI Se André é inocente, então Bruna é culpada.\nII. Ou Carlos é culpado ou Bruna é culpada, mas não os dois.\nII. Carlos não é inocente.\n\nCom base nestas considerações, conclui-se que:\n",
+    "alternativas": [
+      "A) Somente André é inocente.",
+      "B) Somente Bruna é culpada.",
+      "C) Somente Carlos é culpado.",
+      "D) São culpados apenas Bruna e Carlos.",
+      "E) São culpados apenas André e Carlos."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar as condições dadas:\n\n1. Se André é inocente, então Bruna é culpada. Isso pode ser escrito como: ¬A → B.\n2. Ou Carlos é culpado ou Bruna é culpada, mas não os dois. Isso é uma disjunção exclusiva: (C ∨ B) ∧ ¬(C ∧ B).\n3. Carlos não é inocente, ou seja, Carlos é culpado: C.\n\nA partir da condição 3, sabemos que Carlos é culpado (C é verdadeiro).\n\nAgora, analisando a condição 2 com C verdadeiro, temos que B deve ser falso para satisfazer a disjunção exclusiva, pois se B fosse verdadeiro, ambos C e B seriam verdadeiros, o que violaria a condição de disjunção exclusiva. Portanto, Bruna é inocente (B é falso).\n\nCom B falso, analisamos a condição 1: ¬A → B. Como B é falso, para a implicação ser verdadeira, ¬A deve ser falso, o que significa que A deve ser verdadeiro. Portanto, André é culpado.\n\nAssim, concluímos que os culpados são André e Carlos, e Bruna é inocente.\n\nPortanto, a alternativa correta é 'D) São culpados apenas Bruna e Carlos.'"
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-16",
+    "numero": 16,
+    "enunciado": "Uma urna contém 6 bolas brancas e 4 bolas vermelhas iguais em tudo menos na cor.\nRetiramos uma bola, anotamos a cor, recolocamos a bola na urna e retiramos mais uma\nbola. Qual a probabilidade do resultado ser uma bola vermelha seguida de uma branca?\n",
+    "alternativas": [
+      "A) 10%",
+      "B) 12%",
+      "C) 18%",
+      "D) 24%",
+      "E) 36%"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Distribuições de Probabilidades",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "Para resolver essa questão, precisamos calcular a probabilidade de retirar uma bola vermelha seguida de uma bola branca, com reposição. \n\n1. Primeiro, calculamos a probabilidade de retirar uma bola vermelha. A urna contém 6 bolas brancas e 4 bolas vermelhas, totalizando 10 bolas. A probabilidade de retirar uma bola vermelha é o número de bolas vermelhas dividido pelo total de bolas: P(Vermelha) = 4/10 = 0,4. \n\n2. Como a bola é recolocada na urna, a situação inicial é restaurada. Agora, calculamos a probabilidade de retirar uma bola branca. A probabilidade de retirar uma bola branca é o número de bolas brancas dividido pelo total de bolas: P(Branca) = 6/10 = 0,6. \n\n3. Como os eventos são independentes (devido à reposição), a probabilidade de ambos os eventos ocorrerem em sequência é o produto das probabilidades individuais: P(Vermelha e depois Branca) = P(Vermelha) * P(Branca) = 0,4 * 0,6 = 0,24. \n\n4. Convertendo a probabilidade para porcentagem, temos 0,24 * 100% = 24%. \n\nPortanto, a probabilidade do resultado ser uma bola vermelha seguida de uma branca é 24%, correspondendo à alternativa D."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-22",
+    "numero": 22,
+    "enunciado": "Deseja-se efetuar uma busca para localizar uma certa chave fixa x, em uma tabela\ncontendo n elementos. A busca considerada pode ser a linear ou binária. No primeiro\ncaso pode-se considerar que a tabela esteja ordenada ou não. No segundo caso a tabela\nestá, de forma óbvia, ordenada.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) A busca binária sempre localiza x, efetuando menos comparações que a busca\nlinear.",
+      "B) A busca linear ordenada sempre localiza x, efetuando menos comparações que\na não ordenada.",
+      "C) A busca linear não ordenada sempre localiza x, com menos comparações que a\nordenada.",
+      "D) A busca binária requer O(log n) comparações, no máximo, para localizar x.",
+      "E) A busca linear ordenada nunca requer mais do que n/2 comparações para\nlocalizar x."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Algoritmos para Pesquisa e Ordenação",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "A busca binária é um algoritmo eficiente para encontrar um elemento em uma lista ordenada. Ela funciona dividindo repetidamente o espaço de busca pela metade, o que resulta em um número de comparações que cresce logaritmicamente com o número de elementos n na lista. Portanto, a complexidade da busca binária é O(log n). As outras alternativas estão incorretas: A) A busca binária não garante menos comparações que a busca linear em todos os casos, especialmente se a lista for pequena. B) e C) A busca linear, seja ordenada ou não, tem complexidade O(n) e não garante menos comparações em todos os casos. E) A busca linear ordenada pode requerer até n comparações no pior caso."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-24",
+    "numero": 24,
+    "enunciado": "Assinalar a afirmativa correta, em relação a um grafo completo G com n > 2 vértices.\n",
+    "alternativas": [
+      "A) O grau de cada vértice é n.",
+      "B) O número cromático de G é igual a n-1.",
+      "C) G não pode ser um grafo bipartido.",
+      "D) G possui caminho hamiltoniano.",
+      "E) G possui ciclo euleriano."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Grafos orientados e não-orientados",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Um grafo completo G com n vértices é um grafo onde cada par de vértices está conectado por uma aresta. Isso implica que o grau de cada vértice é n-1, não n, portanto a alternativa A está incorreta. O número cromático de um grafo completo é n, pois cada vértice precisa de uma cor diferente, então a alternativa B está incorreta. Um grafo completo com mais de dois vértices não pode ser bipartido, pois um grafo bipartido não pode ter arestas entre todos os pares de vértices, tornando a alternativa C correta. Um grafo completo possui um caminho hamiltoniano, pois é possível visitar todos os vértices exatamente uma vez e retornar ao ponto de partida, o que torna a alternativa D correta. Finalmente, um grafo completo possui um ciclo euleriano se e somente se todos os vértices têm grau par, o que é verdade para n ímpar, mas não para n > 2 em geral, tornando a alternativa E incorreta. Portanto, a alternativa correta é D."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-25",
+    "numero": 25,
+    "enunciado": "Dada uma rede de interconexão estática com topologia hipercúbica de dimensão seis,\ncom 64 nós, considere as afirmativas a seguir:\n\nI. Os nós com numeração binária igual a 010101 e 101010 são vizinhos.\n\nII. São necessários 192 canais (links) para a construção desta rede.\n\nHI. Existem 5 nós conectados diretamente ao nó 111000.\n\nIV. O maior caminho mínimo entre dois nós da rede é igual a 6.\n\nV. Se cada canal (link) da rede tem taxa de transmissão de 100 Mb/s, a largura de\nbanda da bisseção é igual a 3,2 Gb/s.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas a afirmativa IV está correta.",
+      "B) Apenas as afirmativas III e IV estão corretas.",
+      "C) Apenas as afirmativas Ie V estão corretas.",
+      "D) Apenas as afirmativas II, IV e V estão corretas.",
+      "E) Todas as afirmativas estão corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Grafos orientados e não-orientados",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para resolver a questão, precisamos analisar cada afirmativa sobre a rede hipercúbica de dimensão seis:\n\nI. Os nós com numeração binária igual a 010101 e 101010 são vizinhos. Em um hipercubo, dois nós são vizinhos se diferem em exatamente um bit. Aqui, os nós 010101 e 101010 diferem em todos os bits, então não são vizinhos. Portanto, a afirmativa I é falsa.\n\nII. São necessários 192 canais (links) para a construção desta rede. Um hipercubo de dimensão d tem 2^d nós e cada nó está conectado a d outros nós, resultando em (d * 2^d) / 2 links, pois cada link é contado duas vezes. Para d = 6, temos (6 * 64) / 2 = 192 links. Portanto, a afirmativa II é verdadeira.\n\nIII. Existem 5 nós conectados diretamente ao nó 111000. Em um hipercubo de dimensão 6, cada nó está conectado a 6 outros nós, não 5. Portanto, a afirmativa III é falsa.\n\nIV. O maior caminho mínimo entre dois nós da rede é igual a 6. O diâmetro de um hipercubo de dimensão d é d, então para d = 6, o maior caminho mínimo é 6. Portanto, a afirmativa IV é verdadeira.\n\nV. Se cada canal (link) da rede tem taxa de transmissão de 100 Mb/s, a largura de banda da bisseção é igual a 3,2 Gb/s. A bisseção de um hipercubo de dimensão d é 2^(d-1) links. Para d = 6, temos 2^5 = 32 links. Com 100 Mb/s por link, a largura de banda é 32 * 100 Mb/s = 3200 Mb/s = 3,2 Gb/s. Portanto, a afirmativa V é verdadeira.\n\nA única afirmativa correta é a IV, portanto a alternativa correta é A."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-26",
+    "numero": 26,
+    "enunciado": "Considere uma arquitetura de memória com as seguintes características:\n\ne Memória logicamente particionada em segmentos paginados.\ne Endereços virtuais de 32 bits:\n\no 8 para segmentos\n\no 11 para páginas\n\no O restante para o endereçamento na página\ne Endereços físicos de 20 bits e páginas de 8KB;\n\nCaso o particionamento lógico fosse o de paginação pura, a relação entre o número de\npáginas virtuais e o número de frames seria equivalente a:\n",
+    "alternativas": [
+      "A) 8192",
+      "B) 4096",
+      "C) 1024",
+      "D) 128",
+      "E) 32"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Organização de Memória",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para resolver essa questão, precisamos entender a estrutura de endereçamento da memória virtual e física descrita no enunciado. Temos endereços virtuais de 32 bits, onde 8 bits são usados para identificar segmentos, 11 bits para identificar páginas dentro de um segmento, e o restante para endereçamento dentro da página. Isso significa que temos 32 - 8 - 11 = 13 bits para endereçamento dentro da página. Como as páginas são de 8KB, que é 2^13 bytes, isso confirma que 13 bits são usados para o deslocamento dentro da página. \n\nCom paginação pura, não há segmentação, então usamos todos os 32 bits para endereçamento de páginas e deslocamento. O número de páginas virtuais é determinado pelos bits restantes após o deslocamento. Com 13 bits para deslocamento, restam 32 - 13 = 19 bits para endereçamento de páginas virtuais. Portanto, o número de páginas virtuais é 2^19 = 524288.\n\nOs endereços físicos são de 20 bits, e com páginas de 8KB (2^13 bytes), temos 20 - 13 = 7 bits para identificar os frames. Isso significa que o número de frames físicos é 2^7 = 128.\n\nA relação entre o número de páginas virtuais (524288) e o número de frames físicos (128) é 524288 / 128 = 4096. Portanto, a alternativa correta é 'A) 8192'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-34",
+    "numero": 34,
+    "enunciado": "Dado um conjunto C contendo n inteiros distintos, qual das seguintes estruturas de\ndados em memória principal permite construir um algoritmo para encontrar o valor\nmáximo de C em tempo constante?\n",
+    "alternativas": [
+      "A) Um vetor não ordenado.",
+      "B) Um vetor ordenado.",
+      "C) Uma árvore binária de busca balanceada.",
+      "D) Uma lista encadeada simples ordenada em ordem crescente.",
+      "E) Uma árvore rubro-negra."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Estruturas de Dados Lineares e suas Generalizações",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para encontrar o valor máximo de um conjunto C de n inteiros distintos em tempo constante, é necessário que a estrutura de dados permita acesso direto ao maior elemento sem necessidade de percorrer ou comparar elementos. Um vetor ordenado em ordem crescente atende a esse requisito, pois o maior elemento estará sempre na última posição do vetor. Assim, acessar o último elemento do vetor ordenado é uma operação de tempo constante O(1). As outras estruturas de dados mencionadas nas alternativas não garantem acesso direto ao maior elemento em tempo constante: um vetor não ordenado requereria uma busca linear O(n); uma árvore binária de busca balanceada, uma lista encadeada simples ordenada e uma árvore rubro-negra requerem percorrer a estrutura até o maior elemento, resultando em complexidade maior que O(1)."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-40",
+    "numero": 40,
+    "enunciado": "Assinale a alternativa FALSA\n",
+    "alternativas": [
+      "A) O conjunto de todas as Máquinas de Turing é enumerável.",
+      "B) O conjunto de todas as Expressões Regulares é enumerável.",
+      "C) Toda Linguagem Regular é enumerável.",
+      "D) Todo Conjunto Finito é enumerável.",
+      "E) Nenhum Conjunto Infinito é enumerável."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Máquinas de Turing",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver esta questão, precisamos entender o conceito de conjuntos enumeráveis. Um conjunto é dito enumerável (ou contável) se seus elementos podem ser colocados em correspondência bijetiva com os números naturais. Isso significa que podemos listar os elementos do conjunto de maneira que cada elemento corresponda a um número natural único. \n\nAnalisando as alternativas:\n\nA) O conjunto de todas as Máquinas de Turing é enumerável. Isso é falso. O conjunto de todas as Máquinas de Turing não é enumerável, pois é possível mostrar que existem mais linguagens do que Máquinas de Turing, o que implica que não podemos listar todas as Máquinas de Turing.\n\nB) O conjunto de todas as Expressões Regulares é enumerável. Isso é verdadeiro. Expressões regulares podem ser descritas por cadeias finitas de caracteres, e o conjunto de todas as cadeias finitas de caracteres é enumerável.\n\nC) Toda Linguagem Regular é enumerável. Isso é verdadeiro. Linguagens regulares são descritas por autômatos finitos ou expressões regulares, ambos dos quais são enumeráveis.\n\nD) Todo Conjunto Finito é enumerável. Isso é verdadeiro. Por definição, conjuntos finitos são enumeráveis, pois podemos listar todos os seus elementos.\n\nE) Nenhum Conjunto Infinito é enumerável. Isso é falso. Existem conjuntos infinitos que são enumeráveis, como o conjunto dos números naturais ou o conjunto dos números inteiros.\n\nPortanto, a alternativa E é a única falsa, pois existem conjuntos infinitos que são enumeráveis."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-41",
+    "numero": 41,
+    "enunciado": "Quais das seguintes propriedades não se aplicam a árvores rubro-negras?\n",
+    "alternativas": [
+      "A) Todo nó é vermelho ou preto.",
+      "B) Todo nó folha é preto.",
+      "C) Se um nó é preto, ambos seus filhos são vermelhos.",
+      "D) Se um nó é vermelho, ambos seus filhos são negros.",
+      "E) Todos os caminhos simples entre um nó e suas folhas descendentes contêm o\nmesmo número de nós pretos."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Árvores de Busca e Árvores Balanceadas",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Árvores rubro-negras são um tipo de árvore binária de busca balanceada que possuem as seguintes propriedades: (A) Todo nó é vermelho ou preto; (B) Todo nó folha (nulo) é preto; (D) Se um nó é vermelho, ambos seus filhos são negros; (E) Todos os caminhos simples de um nó até suas folhas descendentes contêm o mesmo número de nós pretos. A alternativa (C) afirma que 'Se um nó é preto, ambos seus filhos são vermelhos', o que é incorreto. Em uma árvore rubro-negra, um nó preto pode ter filhos de qualquer cor, desde que a propriedade (D) seja mantida para nós vermelhos. Portanto, a alternativa correta é (C), pois essa propriedade não se aplica a árvores rubro-negras."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-43",
+    "numero": 43,
+    "enunciado": "Considere as afirmativas abaixo:\n\nIA linguagem Java possui tipos de dados primitivos.\n\nI. Nas linguagens de programação de terceira geração, o desempenho de uma\noperação com uma matriz é independente da forma como elas são organizadas\nem memória.\n\nHI. Uma estrutura de dados do tipo união (union) é representada em memória da\nmesma forma que um registro (record).\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas a afirmativa I é verdadeira.",
+      "B) Apenas a afirmativa II é verdadeira.",
+      "C) Apenas a afirmativa III é verdadeira.",
+      "D) Todas as afirmativas são verdadeiras.",
+      "E) Nenhuma das afirmativas é verdadeira."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Conceitos",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. A linguagem Java possui tipos de dados primitivos. Esta afirmativa é verdadeira. Java possui tipos de dados primitivos como int, char, boolean, etc.\n\nII. Nas linguagens de programação de terceira geração, o desempenho de uma operação com uma matriz é independente da forma como elas são organizadas em memória. Esta afirmativa é falsa. O desempenho de operações com matrizes pode ser afetado pela organização em memória, especialmente devido a questões de localidade de cache e acesso sequencial vs. acesso aleatório.\n\nIII. Uma estrutura de dados do tipo união (union) é representada em memória da mesma forma que um registro (record). Esta afirmativa é falsa. Em uma união, todos os membros compartilham o mesmo espaço de memória, enquanto em um registro, cada membro tem seu próprio espaço de memória.\n\nPortanto, apenas a afirmativa I é verdadeira."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-52",
+    "numero": 52,
+    "enunciado": "Considere as seguintes afirmativas sobre os modelos prescritivos de processos de\ndesenvolvimento de software\n\nI Uma das vantagens do modelo de prototipação é servir como base para\nentendimento dos requisitos do sistema.\n\nI. Um dos problemas do modelo RAD (Rapid Application Development) é a\nnecessidade de conseguir recursos suficientes para a montagem de vários\ngrupos operando em paralelo.\n\nHI. O caso negócio (Business Case) é um dos produtos da fase de Concepção do\nProcesso Unificado (Unified Process).\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas a afirmativa I é verdadeira",
+      "B) Apenas a afirmativa II é verdadeira",
+      "C) Apenas a afirmativa III é verdadeira",
+      "D) Apenas as afirmativas I e II são verdadeiras",
+      "E) Todas as afirmativas são verdadeiras"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Processo de Desenvolvimento de Software",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. O modelo de prototipação é conhecido por ajudar no entendimento dos requisitos do sistema, pois permite que um protótipo do sistema seja desenvolvido rapidamente para que os usuários possam interagir e fornecer feedback. Isso ajuda a esclarecer e refinar os requisitos. Portanto, a afirmativa I é verdadeira.\n\nII. O modelo RAD (Rapid Application Development) é caracterizado pelo desenvolvimento rápido de aplicações com o uso de componentes reutilizáveis e prototipagem. Um dos desafios do RAD é a necessidade de recursos suficientes para montar vários grupos de desenvolvimento que possam trabalhar em paralelo, o que pode ser um problema em termos de alocação de pessoal e infraestrutura. Portanto, a afirmativa II é verdadeira.\n\nIII. No Processo Unificado, a fase de Concepção inclui a definição do caso de negócio (Business Case), que é um documento que justifica o projeto em termos de valor de negócio e viabilidade. Portanto, a afirmativa III é verdadeira.\n\nComo todas as afirmativas são verdadeiras, a alternativa correta é 'E'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-53",
+    "numero": 53,
+    "enunciado": "Considere as afirmativas abaixo:\n\nI. Requisitos não-funcionais não são mensuráveis.\n\nII. Requisitos funcionais descrevem as funções que o software deverá executar.\n\nII. Requisitos não-funcionais expressam condições que o software deve atender\nou qualidades específicas que o software deve ter.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Somente as afirmativas I e II são verdadeiras.",
+      "B) Somente as afirmativas II e II são verdadeiras.",
+      "C) Somente a afirmativa III é verdadeira.",
+      "D) As afirmativas I, Il e II são falsas.",
+      "E) Todas as afirmativas são verdadeiras."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Engenharia de Requisitos",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. 'Requisitos não-funcionais não são mensuráveis.' - Esta afirmativa é falsa. Requisitos não-funcionais são mensuráveis, pois eles devem ser especificados de forma que possam ser testados e verificados. Exemplos incluem desempenho, segurança e usabilidade, que podem ser medidos por métricas específicas.\n\nII. 'Requisitos funcionais descrevem as funções que o software deverá executar.' - Esta afirmativa é verdadeira. Requisitos funcionais especificam o que o sistema deve fazer, descrevendo as interações entre o sistema e seus usuários ou outros sistemas.\n\nIII. 'Requisitos não-funcionais expressam condições que o software deve atender ou qualidades específicas que o software deve ter.' - Esta afirmativa é verdadeira. Requisitos não-funcionais definem critérios que podem ser usados para julgar a operação de um sistema, ao invés de comportamentos específicos, como confiabilidade, eficiência, usabilidade, etc.\n\nPortanto, a alternativa correta é 'B) Somente as afirmativas II e II são verdadeiras.'"
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-54",
+    "numero": 54,
+    "enunciado": "Em relação à arquitetura cliente/servidor, usada na implementação de sistemas\ndistribuídos, analise as seguintes afirmativas:\n\nIA arquitetura cliente/servidor define um modelo de interação entre processos\nclientes e servidores que resolve o problema do rendezvous: clientes iniciam a\ncomunicação e servidores esperam por requisições.\n\nI. Em servidores sem estado (informações de estado não são mantidas entre o\nprocessamento de requisições), o significado de uma mensagem do cliente\nnão deve depender da sequência de mensagens anteriores.\n\nHI. Um programa cliente individual opera como um programa convencional, ele\nnão precisa gerenciar concorrência explicitamente na comunicação com o\nservidor.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas a afirmativa I é verdadeira",
+      "B) Apenas a afirmativa II é verdadeira",
+      "C) Apenas a afirmativa III é verdadeira",
+      "D) Apenas as afirmativas I e II são verdadeiras",
+      "E) Todas as afirmativas são verdadeiras"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Comunicação entre Processos",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. A afirmativa I está correta. Em servidores sem estado, cada requisição é tratada de forma independente, ou seja, o servidor não mantém informações sobre o estado entre requisições. Isso significa que o significado de uma mensagem do cliente não deve depender da sequência de mensagens anteriores, pois o servidor não tem memória do que aconteceu antes.\n\nII. A afirmativa II também está correta. A arquitetura cliente/servidor é um modelo de interação onde o cliente inicia a comunicação e o servidor espera por requisições. Isso resolve o problema do rendezvous, pois o servidor está sempre pronto para receber e processar requisições assim que elas chegam.\n\nIII. A afirmativa III está incorreta. Um programa cliente pode precisar gerenciar concorrência, especialmente se estiver lidando com múltiplas requisições ou conexões simultâneas ao servidor. Em muitos casos, o cliente precisa lidar com threads ou processos para gerenciar essas comunicações de forma eficiente.\n\nPortanto, apenas as afirmativas I e II são verdadeiras, tornando a alternativa D a correta."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-55",
+    "numero": 55,
+    "enunciado": "A análise léxica é usualmente implementada a partir de:\n",
+    "alternativas": [
+      "A) Gramática regular",
+      "B) Gramática livre de contexto",
+      "C) Gramática sensível ao contexto",
+      "D) Gramática irrestrita",
+      "E) Gramática de pilha"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A análise léxica é a primeira fase de um compilador e é responsável por ler a entrada de caracteres e produzir uma sequência de tokens. Esta fase é geralmente implementada usando autômatos finitos, que são descritos por gramáticas regulares. Gramáticas regulares são adequadas para descrever a estrutura de tokens, pois são simples e eficientes para serem processadas por máquinas de estados finitos. Portanto, a alternativa correta é 'A) Gramática regular'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-59",
+    "numero": 59,
+    "enunciado": "Sobre o conceito de segmentação de imagens, é CORRETO afirmar:\n",
+    "alternativas": [
+      "A) Processo que agrupa partes de uma imagem em regiões homogêneas com\nrespeito a uma ou mais características (brilho, tons de cinza, cor, textura).",
+      "B) Operação que objetiva particionar uma imagem em um conjunto de regiões de\nmesmo tamanho.",
+      "C) Processo que objetiva identificar objetos na imagem de acordo com uma\ndescrição prévia com base em uma ou mais características (brilho, tons de\ncinza, cor, textura).",
+      "D) É a mesma coisa que detecção de bordas de imagens.",
+      "E) Nenhuma das opções acima."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Análise de Imagens e Noções de Visão Computacional",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A segmentação de imagens é um processo fundamental no processamento de imagens que envolve a divisão de uma imagem em partes ou regiões que são homogêneas em relação a uma ou mais características, como brilho, tons de cinza, cor ou textura. A alternativa A descreve corretamente este processo, pois menciona o agrupamento de partes da imagem em regiões homogêneas com respeito a essas características. A alternativa B está incorreta porque a segmentação não se refere a particionar uma imagem em regiões de mesmo tamanho, mas sim em regiões homogêneas. A alternativa C descreve um processo mais relacionado ao reconhecimento de padrões ou objetos, que é uma etapa posterior à segmentação. A alternativa D está incorreta porque a detecção de bordas é uma técnica que pode ser usada como parte do processo de segmentação, mas não é sinônimo de segmentação. A alternativa E está incorreta porque a alternativa A é correta."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-63",
+    "numero": 63,
+    "enunciado": "Um dos problemas importantes na Internet é o endereçamento de processos, ou seja,\naplicações em execução em um determinado computador.\n\nConsidere as afirmativas a seguir.\n\nI. Todo pacote transmitido precisa conter o endereço IP e a porta do processo\ndestino.\n\nII. Pacotes do protocolo TCP não precisam conter o endereço IP nem a porta do\nprocesso do transmissor.\n\nHI. A tupla endereço IP de origem e destino e porta de origem e destino\nidentificam unicamente uma conexão TCP.\n\nIV. Um processo que utiliza o protocolo UDP para se comunicar nunca recebe\npacotes fora da ordem em que foram transmitidos.\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) Apenas as alternativas I e II são verdadeiras.",
+      "B) Apenas as alternativas II e III são verdadeiras.",
+      "C) Apenas as alternativas 1 e III são verdadeiras.",
+      "D) Apenas as alternativas I, II e IV são verdadeiras.",
+      "E) Todas as alternativas são verdadeiras."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Protocolos e Serviços de Comunicação",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. Todo pacote transmitido precisa conter o endereço IP e a porta do processo destino. - Esta afirmativa é verdadeira. Em protocolos de transporte como TCP e UDP, é necessário especificar o endereço IP e a porta de destino para que o pacote chegue corretamente ao processo desejado no computador de destino.\n\nII. Pacotes do protocolo TCP não precisam conter o endereço IP nem a porta do processo do transmissor. - Esta afirmativa é falsa. Pacotes TCP contêm tanto o endereço IP quanto a porta do transmissor e do receptor, pois isso é necessário para estabelecer e manter a conexão.\n\nIII. A tupla endereço IP de origem e destino e porta de origem e destino identificam unicamente uma conexão TCP. - Esta afirmativa é verdadeira. A combinação desses quatro elementos (IP de origem, IP de destino, porta de origem e porta de destino) é usada para identificar de forma única uma conexão TCP.\n\nIV. Um processo que utiliza o protocolo UDP para se comunicar nunca recebe pacotes fora da ordem em que foram transmitidos. - Esta afirmativa é falsa. O protocolo UDP não garante a ordem de entrega dos pacotes, pois é um protocolo sem conexão e não orientado a fluxo.\n\nPortanto, as alternativas corretas são I e III, o que corresponde à alternativa C."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-64",
+    "numero": 64,
+    "enunciado": "Assinale a alternativa que indica apenas estilos de interação com o usuário em um\nprojeto de interface:\n",
+    "alternativas": [
+      "A) Linguagem de comandos, linguagem natural e Seleção de Menu.",
+      "B) Navegação, Linguagem de Consulta, Interfaces Gráficas.",
+      "C) Internet, Computação Móvel, Processamento em “batch”.",
+      "D) Voz, Imagem, Texto.",
+      "E) Mouse, Touch Screen, Teclado."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Processo de Desenvolvimento de Software",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A questão pede para identificar estilos de interação com o usuário em um projeto de interface. Analisando as alternativas: \n\n- A) Linguagem de comandos, linguagem natural e Seleção de Menu: Todas são formas de interação entre o usuário e o sistema. Linguagem de comandos permite que o usuário insira comandos textuais, linguagem natural permite interações mais humanas e intuitivas, e seleção de menu é uma forma gráfica de interação. \n\n- B) Navegação, Linguagem de Consulta, Interfaces Gráficas: Navegação e interfaces gráficas são estilos de interação, mas linguagem de consulta é mais relacionada a bancos de dados e não é um estilo de interação com o usuário. \n\n- C) Internet, Computação Móvel, Processamento em “batch”: Esses são contextos ou ambientes de computação, não estilos de interação. \n\n- D) Voz, Imagem, Texto: Embora possam ser usados em interfaces, eles são mais meios de comunicação do que estilos de interação. \n\n- E) Mouse, Touch Screen, Teclado: Esses são dispositivos de entrada, não estilos de interação. \n\nPortanto, a alternativa A é a correta, pois lista estilos de interação com o usuário."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-65",
+    "numero": 65,
+    "enunciado": "Considere o diagrama de caso de uso abaixo:\n\nCaso de Uso €\n\n«<exend=> 1\n\nAtor 1 TD\nCaso de Uso À\n«<include==\n“3\nCaso de Uso D\n..\n\n+\n£\nL\nL\n=\n\nCaso de Uso B «<include=>\n+\n\nAtor 2\n\nAssinale a alternativa FALSA:\n",
+    "alternativas": [
+      "A) O Ator 1 pode participar do Caso de Uso B.",
+      "B) O Ator 1 pode participar do Caso de Uso D.",
+      "C) O Ator 2 pode participar do Caso de Uso A.",
+      "D) O Ator 2 pode participar do Caso de Uso B.",
+      "E) O Ator 2 pode participar do Caso de Uso €."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Métodos de Análise e de Projeto de Software",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, é necessário entender o diagrama de caso de uso, que é uma ferramenta da Engenharia de Software usada para representar as interações entre atores e casos de uso em um sistema. No diagrama fornecido, temos dois atores: Ator 1 e Ator 2, e quatro casos de uso: A, B, D e €. O diagrama sugere que Ator 1 tem uma relação de 'include' com o Caso de Uso B, e Ator 2 tem uma relação de 'include' com o Caso de Uso A. A relação 'include' indica que o caso de uso base incorpora o comportamento de outro caso de uso. A alternativa B afirma que 'O Ator 1 pode participar do Caso de Uso D.' No entanto, não há nenhuma indicação no diagrama de que Ator 1 tenha qualquer relação direta ou indireta com o Caso de Uso D. Portanto, a alternativa B é a falsa."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-66",
+    "numero": 66,
+    "enunciado": "Considere o diagrama de classes abaixo:\n\n     \n    \n      \n\n   \n\nDepartamento\n- nomeDept: String\n[O\n\nFuncionário\n\n   \n\n  \n\n- nome : String\n\n|\n\nProfessor\n\n- titulação : String\n\nAssinale a alternativa FALSA:\n",
+    "alternativas": [
+      "A) Todo Professor está associado a um Departamento.",
+      "B) Todo Funcionario está associado a um Departamento.",
+      "C) Um Departamento pode ter nenhum Professor associado.",
+      "D) Um Departamento pode ter nenhum Funcionário associado.",
+      "E) Todo Departamento tem ao menos um Funcionário."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Métodos de Análise e de Projeto de Software",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para resolver esta questão, analisamos o diagrama de classes e as relações entre as classes 'Departamento', 'Funcionário' e 'Professor'. A questão pede para identificar a alternativa FALSA. Vamos analisar cada uma das alternativas:\n\nA) Todo Professor está associado a um Departamento. - Esta afirmação é verdadeira, pois, em um diagrama de classes típico, um Professor (que é um tipo de Funcionário) estaria associado a um Departamento.\n\nB) Todo Funcionário está associado a um Departamento. - Esta afirmação é verdadeira, pois a classe 'Funcionário' geralmente está associada a um 'Departamento'.\n\nC) Um Departamento pode ter nenhum Professor associado. - Esta afirmação é verdadeira, pois é possível que um Departamento exista sem Professores associados, especialmente se for um departamento administrativo.\n\nD) Um Departamento pode ter nenhum Funcionário associado. - Esta afirmação é verdadeira, pois um Departamento pode ser criado antes de ter Funcionários associados.\n\nE) Todo Departamento tem ao menos um Funcionário. - Esta afirmação é FALSA, pois um Departamento pode ser criado sem ter Funcionários associados inicialmente. Portanto, a alternativa E é a correta para a questão, pois é a única que não necessariamente se aplica a todos os casos.\n\nPortanto, a alternativa FALSA é a E."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-67",
+    "numero": 67,
+    "enunciado": "Considere a relação abaixo, obtida via processo de engenharia reversa em\ndocumentos de uma empresa.\n\nEmp (CodEmp, CodDept, CodMag, Nome, Sala, NomeDept, NomeMáquina)\n\nAtravés de um processo de normalização (não necessariamente completo), chegou-se\nao seguinte conjunto de relações:\n\nR1 (CodEmp, Nome, CodDept, CodMag)\nR2 (CodDept, NomeDept, Sala)\nR3 (CodMag, NomeMáquina).\n\nConsidere que as seguintes dependências funcionais se aplicam a estas relações:\n\nCodEmp — Nome\nCodDept — (NomeDept, Sala)\nCodMáquina — NomeMáquina\n\nAssinale a alternativa CORRETA:\n",
+    "alternativas": [
+      "A) A relação Emp encontra-se na segunda forma normal (2FN).",
+      "B) Todas as três relações R1, R2 e R3 encontram-se na segunda forma normal\n(QFN).",
+      "C) Somente as relações R1 e R3 encontram-se na segunda forma normal (2FN).",
+      "D) Somente a relação R3 encontra-se na terceira forma normal (3FN).",
+      "E) Nenhuma das afirmativas anteriores é verdadeira."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Modelagem e Projeto de Banco de Dados",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para determinar a forma normal das relações, precisamos verificar as dependências funcionais e as chaves candidatas de cada relação. A relação Emp original possui as seguintes dependências funcionais: CodEmp — Nome, CodDept — (NomeDept, Sala), CodMáquina — NomeMáquina. Com base nessas dependências, podemos analisar cada relação resultante do processo de normalização:\n\n1. R1 (CodEmp, Nome, CodDept, CodMag): A chave candidata é CodEmp, pois CodEmp determina Nome. Não há dependências parciais, já que CodEmp é a chave e determina todos os atributos. Portanto, R1 está na 2FN.\n\n2. R2 (CodDept, NomeDept, Sala): A chave candidata é CodDept, pois CodDept determina NomeDept e Sala. Não há dependências parciais, já que CodDept é a chave e determina todos os atributos. Portanto, R2 está na 2FN.\n\n3. R3 (CodMag, NomeMáquina): A chave candidata é CodMag, pois CodMag determina NomeMáquina. Não há dependências parciais, já que CodMag é a chave e determina todos os atributos. Portanto, R3 está na 2FN.\n\nTodas as três relações R1, R2 e R3 estão na segunda forma normal (2FN). Portanto, a alternativa correta é B."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-68",
+    "numero": 68,
+    "enunciado": "Com relação às operações da álgebra relacional está ERRADO afirmar que o\ncomando:\n",
+    "alternativas": [
+      "A) SELECT extrai tuplas específicas de uma relação específica.",
+      "B) UNION constrói uma relação consistindo em todas as tuplas que aparecem em\num par de relações específicas que são compatíveis.",
+      "C) PROJECT extrai atributos específicos de uma relação específica.",
+      "D) JOIN constrói uma relação a partir de duas relações específicas, consistindo\nem todas as possibilidades de pares de tuplas, uma de cada uma das relações\nespecíficas.",
+      "E) DIFFERENCE constrói uma relação a partir de duas relações específicas que\nsão compatíveis, consistindo em todas as tuplas que aparecem na primeira\nrelação e não aparecem na segunda."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Linguagens de Consulta",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "A questão pede para identificar a afirmação ERRADA sobre operações da álgebra relacional. Vamos analisar cada alternativa:\n\nA) SELECT extrai tuplas específicas de uma relação específica. - CORRETA: A operação SELECT (ou σ) é usada para selecionar tuplas que satisfazem uma condição específica.\n\nB) UNION constrói uma relação consistindo em todas as tuplas que aparecem em um par de relações específicas que são compatíveis. - CORRETA: A operação UNION combina todas as tuplas de duas relações compatíveis (mesmo número de atributos e tipos de dados compatíveis).\n\nC) PROJECT extrai atributos específicos de uma relação específica. - CORRETA: A operação PROJECT (ou π) é usada para selecionar colunas específicas de uma relação.\n\nD) JOIN constrói uma relação a partir de duas relações específicas, consistindo em todas as possibilidades de pares de tuplas, uma de cada uma das relações específicas. - ERRADA: A operação JOIN combina tuplas de duas relações com base em uma condição de junção, não em todas as possibilidades de pares de tuplas. O que está descrito na alternativa é um produto cartesiano, não um JOIN.\n\nE) DIFFERENCE constrói uma relação a partir de duas relações específicas que são compatíveis, consistindo em todas as tuplas que aparecem na primeira relação e não aparecem na segunda. - CORRETA: A operação DIFFERENCE (ou -) retorna tuplas que estão na primeira relação, mas não na segunda.\n\nPortanto, a alternativa D está errada, pois descreve incorretamente a operação JOIN."
   }
 ]
