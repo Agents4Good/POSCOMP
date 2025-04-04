@@ -4501,5 +4501,1639 @@
     "dificuldade": "Média",
     "gabarito": "B",
     "solucao": "Para resolver a questão, precisamos entender a consulta SQL fornecida. A consulta seleciona o nome do comprador (CNOME), o nome do produto (NOME) e o preço final (PF), que é calculado como PRECO*(1-DESCONTO/100). A condição WHERE filtra os compradores cujo desconto é maior que a média de desconto de todos os compradores e faz o join entre as tabelas COMPRADORES e PRODUTO através da correspondência entre as colunas CID e CLIENTE. \n\nPrimeiro, calculamos a média de desconto dos compradores: (10 + 12 + 8 + 6 + 0) / 5 = 7,2. \n\nOs compradores com desconto maior que 7,2 são: \n- Lojas Cacique (10%)\n- Lojas Livres (12%)\n- Mercado Fácil (8%)\n\nPara cada um desses compradores, calculamos o preço final dos produtos associados:\n- Lojas Cacique (10%):\n  - Pente: 10 * (1 - 0,10) = 9\n- Lojas Livres (12%):\n  - Escova: 10 * (1 - 0,12) = 8,8\n- Mercado Fácil (8%):\n  - Barbeador: 20 * (1 - 0,08) = 18,4\n  - Caneta: 1 * (1 - 0,08) = 0,92\n\nA consulta é ordenada por NOME e depois por CNOME, resultando na seguinte ordem:\n1. Lojas Cacique | Pente | 9\n2. Lojas Livres | Escova | 8,8\n3. Mercado Fácil | Barbeador | 18,4\n4. Mercado Fácil | Caneta | 0,92\n\nPortanto, a alternativa correta é B."
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-03",
+    "numero": 3,
+    "enunciado": "Quantos anagramas distintos podem ser formados com a palavra cochilo? Um",
+    "alternativas": [
+      "(a) 5040",
+      "(b) 2520",
+      "(c) 630",
+      "(d) 1260",
+      "(e) 120"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-06",
+    "numero": 6,
+    "enunciado": "Considere que custo total para se produzir x peças por dia em uma fábrica\n4\n2",
+    "alternativas": [
+      "(a) 12 peças/dia",
+      "(b) 20 peças/dia",
+      "(c) 15 peças/dia",
+      "(d) 10 peças/dia",
+      "(e) 100 peças/dia"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-10",
+    "numero": 10,
+    "enunciado": "Considere as seguintes proposições:",
+    "alternativas": [
+      "(a) Somente (I)≡(III)",
+      "(b) Somente (I)≡(II)",
+      "(c) Somente (I)≡(II)≡(III)",
+      "(d) (I)≡(III) e (II)≡(III) mas (III)(cid:54)≡(IV)",
+      "(e) (I), (II), (III) e (IV) são todas equivalentes."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-16",
+    "numero": 16,
+    "enunciado": "Seis amigos reúnem-se para disputar partidas de xadrez em três tabuleiros dife-",
+    "alternativas": [
+      "(a) 15",
+      "(b) 30",
+      "(c) 90",
+      "(d) 120",
+      "(e) 720\nAs duas questões a seguir são baseadas no seguinte enunciado:\n- Um algoritmo probabilístico A resolve problemas de dois tipos:\n{Problemas do tipo 1}: os quais são resolvidos corretamente com probabilidade\ne correspondem a 1/3 do total de problemas.\n{Problemas do tipo 2}: os quais são resolvidos corretamente com probabilidade\ne correspondem a 2/3 do total de problemas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-21",
+    "numero": 21,
+    "enunciado": "Considere dois sistemas A e B compostos por um processador, cache e memória\nno-write al locate (escritas não utilizam a cache)\nal locate e LRU",
+    "alternativas": [
+      "(a) Somente as afirmações (II), (III) e (IV) são verdadeiras",
+      "(b) Somente as afirmações (I), (III) e (VI) são verdadeiras",
+      "(c) Somente as afirmações (I), (III) e (IV) são verdadeiras",
+      "(d) Somente as afirmações (II), (V) e (VI) são verdadeiras",
+      "(e) Todas as afirmações são verdadeiras"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-22",
+    "numero": 22,
+    "enunciado": "Para a representação de número ponto flutuante no padrão IEEE, quais das\nfracionária são zeros, o número representado é + infinito ou -infinito;",
+    "alternativas": [
+      "(a) somente I.",
+      "(b) somente I e IV.",
+      "(c) somente I, II e IV.",
+      "(d) somente IV.",
+      "(e) todas são verdadeiras."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-24",
+    "numero": 24,
+    "enunciado": "Num processador superescalar com emissão dinˆamica de instruções para o estágio",
+    "alternativas": [
+      "(a) Somente as alternativas (I), (II) e (IV) são verdadeiras.",
+      "(b) Somente as alternativas (I), (III) e (IV) são verdadeiras.",
+      "(c) Somente as alternativas (I), (II) e (V) são verdadeiras.",
+      "(d) Somente as alternativas (I), (III) e (V) são verdadeiras.",
+      "(e) Todas as alternativas são verdadeiras."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-29",
+    "numero": 29,
+    "enunciado": "Considere a função Pot que calcula xn , para x real e n inteiro:\nFunction Pot(x: real; n: integer): real;\nbegin\nif x = 0\nthen\nPot := 0\nelse\nif n = 0\nthen\nPot := 1\nelse\nif n < 0\nthen\nPot := 1/Pot(x,abs(n))\nelse\nif odd(n)\nthen\nPot := x * sqr(Pot(x,(n-1) div 2))\nelse\nPot := sqr(Pot(x,n div 2))\nend;",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-33",
+    "numero": 33,
+    "enunciado": "Como o procedimento abaixo deve ser completado para que ele seja capaz de\n....\ntype VetorType = array[0..100] of integer;\nprocedure Ordena(n: integer; var a: VetorType);\nvar i,j,x: integer;\nbegin\nfor i := 2 to n do\nbegin\nx := a[i];\nj := i - 1;\n___________________;\nWhile x < a[j] do\nbegin\na[i+j] := a[j];\n__________________;\nend;\n____________________;\nend;\nend;",
+    "alternativas": [
+      "(a) a[j] := x; j := j - 1; a[j] := x;",
+      "(b) a[i] := x; j := j + 1; a[i] := x;",
+      "(c) a[0] := x; j := j - 1; a[j+1] := x;",
+      "(d) a[i] := x; j := j - 1; a[j+1] := x;",
+      "(e) a[0] := x; j := j + 1; a[j] := x;"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-34",
+    "numero": 34,
+    "enunciado": "as sequências",
+    "alternativas": [
+      "(a) T1 possui altura mínima dentre todas as árvores binárias com 9 nós.",
+      "(b) T1 é uma árvore AVL.",
+      "(c) T1 é uma árvore rubro-negra.",
+      "(d) T2 possui altura mínima dentre todas as árvores binárias com 11 nós.",
+      "(e) T2 é uma árvore rubro-negra."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-35",
+    "numero": 35,
+    "enunciado": "Que valores são impressos quando o seguinte algoritmo, escrito em Pascal, é\nx:=y+a+1;\ny:=x+b+1\na:=1; b:=2;\nMist(a,b);\nWrite(a,b)",
+    "alternativas": [
+      "(a) 1 2",
+      "(b) 3 1",
+      "(c) 3 5",
+      "(d) 1 7",
+      "(e) 4 7"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-36",
+    "numero": 36,
+    "enunciado": "Seja G = (V , E ) um grafo simples conexo não-euleriano. Queremos construir um\numa aresta.\npar de vértices correspondentes.\nvértice a todo vértice de grau ímpar de G.",
+    "alternativas": [
+      "(a) Somente (II) e (IV)",
+      "(b) Somente (II), (IV) e (V)",
+      "(c) Somente (III), (V) e (VI)",
+      "(d) Somente (II), (IV), (V) e (VI)",
+      "(e) Somente (I), (III), (IV) e (V)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-37",
+    "numero": 37,
+    "enunciado": "Considere o programa:\nprogram p;\nvar n: integer;\nfunction f(n: integer; var k:integer): integer;\nvar p,q:integer;\nbegin (* f *)\nif n < 2\nthen begin\nf := n;\nk := 0\nend\nelse begin\nf := f(n-1, p) + f(n-2, q);\nk := p + q + 1\nend;\nwrite(n,’ ’,k,’; ’)\nend (* f *);\nbegin\nn := 4;\nwrite(f(3,n),n)\nend.",
+    "alternativas": [
+      "(a) 1 0; 0 0; 2 1; 1 0; 3 2; 2 4",
+      "(b) 1 4; 0 0; 2 1; 1 0; 3 2; 2 2",
+      "(c) 1 0; 0 0; 2 1; 1 0; 3 2; 2 2",
+      "(d) 1 0; 0 0; 2 1; 1 0; 3 2; 2 3",
+      "(e) 1 4; 0 4; 2 4; 1 4; 3 4; 2 4"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-43",
+    "numero": 43,
+    "enunciado": "Considere uma relação A com 1000 registros e taxa de ocupação de 5 registros por",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-45",
+    "numero": 45,
+    "enunciado": "Considere os seguintes esquemas de relação:\nDepartamentos (codDepto, nome, gerente)\nEmpregados (codEmp, nome, codDepto, salario)\nSELECT d.codDepto\nFROM Empregados e, Departamentos d\nWHERE e.codDepto = d.codDepto\nGROUP BY d.codDepto\nHAVING AVG(sal) > ALL (SELECT e.sal\nFROM Empregados e, Departamentos d\nWHERE e.codDepto = d.codDepto\nAND d.nome = ’vendas)",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-48",
+    "numero": 48,
+    "enunciado": "com uma linha de uma imagem contendo",
+    "alternativas": [
+      "(a) [. . . 3 4 5 6 7 8 9 10 . . .] e representa o filtro da média com 2-vizinhos mais próximos",
+      "(b) [. . . 0 0 0 0 0 0 0 0 . . .] e representa o laplaciano no espaço discreto",
+      "(c) [. . . 0 0 0 0 0 0 0 0 . . .] e representa uma erosão morfológica",
+      "(d) [. . . 1 1 1 1 1 1 1 1 . . .] e é equivalente a um filtro passa-baixas",
+      "(e) [. . . 7 9 11 13 15 17 19 . . .] e é equivalente a um filtro passa-altas"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-49",
+    "numero": 49,
+    "enunciado": "Considere as afirmações abaixo:",
+    "alternativas": [
+      "(a) Apenas I - II - III são verdadeiras",
+      "(b) Apenas II - IV - V são verdadeiras",
+      "(c) Todas são verdadeiras",
+      "(d) Todas são falsas",
+      "(e) Apenas I - II são verdadeiras."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-56",
+    "numero": 56,
+    "enunciado": "Suponha que são dados 3 valores inteiros, A, B e C, em ordem decrescente,",
+    "alternativas": [
+      "(a) (5, 3, 4), (0, 0, 0), (10, 5, 5)",
+      "(b) (101, 20, 5), (1, 0, 0), (30, 1, -1)",
+      "(c) (3, 4, 7), (12, 9, 6), (1,1,1)",
+      "(d) (2, 2, 2), (3, 5, 8), (5, 5, 5)",
+      "(e) (0,0,0), (minint, maxint, maxint), (0, 0, -1) onde maxint representa o maior inteiro\npossível e minint, o menor."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-57",
+    "numero": 57,
+    "enunciado": "O código abaixo implementa uma função que calcula o MDC de dois números\nfunction mdc (int a, int b)\nint temp, value;\na := abs(a);\nb := abs(b);\nif (a = 0) then\nvalue := b; // b é o MDC\nelse if (b = 0) then\nexceção;\nelse\nrepeat\ntemp := b;\nb := a mod b;\na := temp;\nuntil (b = 0)\nvalue := a;\nend if;\nreturn value;\nend mdc",
+    "alternativas": [
+      "(a) {(0, 3), (4, −2), (5, 4)}",
+      "(b) {(0, −1), (4, 0), (−1, 0)}",
+      "(c) {(6, 3), (4, 2), (0, 0)}",
+      "(d) {(12, 9), (0, 2), (4, 0)}",
+      "(e) {(3, 5), (−1, −1), (9, 4)}"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-60",
+    "numero": 60,
+    "enunciado": "Avaliação de interface de usuário, em sentido amplo, envolve coletar dados sobre\nconsultores.\nrealização de tarefas em laboratório.\ndo design em atividades naturais do usuário em seu contexto.\nde usuários típicos visando prever problemas de usabilidade.",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-63",
+    "numero": 63,
+    "enunciado": "Considere o programa Prolog:\nblabla([ ],L,L).\nblabla([X|L1],L2,[X|L3]):- blabla(L1,L2,L3).",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-67",
+    "numero": 67,
+    "enunciado": "Considere os seguintes parˆametros de Qualidade de Serviço (QoS) para trans-\nAplicação Confiabilidade Atraso Jitter Largura de banda",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-04",
+    "numero": 4,
+    "enunciado": "Dada a matriz de transformação linear\n1 3 2\nA = 2 1 1\n0 1\n3 2 3\nPSfrag replacements @ A\nMáquina Cliente",
+    "alternativas": [
+      "(a) o vetor (1, 0, 0) é mapeMaeddoiapara (1, 3, 2).",
+      "(b) o vetor (1, 0, 1) é mapPealadyoerpara (3, 0, 2).\nBu(cid:11)er",
+      "(c) o vetor (0, 1, 0) é mapeado para (3, 1, 2).\nMarcador",
+      "(d) o vetor (0, 0, 1)dée Ámgaupa eBaadixoopara (3, 2, 3).\n(MAB)",
+      "(e) o vetor (1, 1, 0) é mapeado para (3, 2, 3).\nMarcador\nde Á gua Alto\n(MAA)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-05",
+    "numero": 5,
+    "enunciado": "Seja T um tabuleiro xadrez n m. Denominamos um circuito equestre em T a\nn;m Máquina Servidora (cid:2) n;m\nMedia\nn;m\nexaStearvmerente uma vez, e que começa e termina numa mesma\n5;5\né:\nP\n1\nP\n2\n(I)\n(II)\n(III)\n(IV)\nFigura 1: Exemplo de movimentos válidos de um cavalo.",
+    "alternativas": [
+      "(a) 0",
+      "(b) 1",
+      "(c) 5",
+      "(d) 25",
+      "(e) 5!"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-06",
+    "numero": 6,
+    "enunciado": "Considere a função f (x) = 1=x. Seja A a área compreendida entre o gráfico de f e o\n1\n1",
+    "alternativas": [
+      "(a) A < e A < V .\n1\n1 1\n(c) A < e V = .\n1 1\n1 1\n(e) A = e V < .\n1 1",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-07",
+    "numero": 7,
+    "enunciado": "Considere as afirmações a seguir:\n(I) Se f : R R é uma função tal que f (x) = f ( x) para todo x R e f é derivável\n(cid:0)! (cid:0) 2\nno ponto a = 0, então f 0(0) = 0.\n1\ne lim n!0 a n = 0, então lim n!0 a nb n não existe.\ne\n= 3.\n2 !",
+    "alternativas": [
+      "(a) Somente as afirmações (I), (III) e (V) são verdadeiras.\n(c) Somente as afirmações (I) e (V) são verdadeiras.\n(e) Somente as afirmações (II), (III) e (IV) são verdadeiras.\n(MAB)\nMarcador",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-08",
+    "numero": 8,
+    "enunciado": "Na figura abaixo, a curva é o gráfico dadefuÁngçuaãoAlfto(x) = x2 e a região marcada no\nf Má2quina Se(cid:20)rvid(cid:20)ora (cid:20) (cid:20) g\nMedia\nServer\nP\n0\nR P 1\nP\n2\n(I)\n(II)\n(III)\ni i+1 (IV)",
+    "alternativas": [
+      "(a)\n(i+1)2\n3",
+      "(b) 2i+1\n2",
+      "(c) 3i+2\n3",
+      "(d) 3i2 +3i+1\n3",
+      "(e) i + 1"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-10",
+    "numero": 10,
+    "enunciado": "Uma equação do segundo grau em x e y, da forma ax2 + by 2 + cxy + dx + ey + f = 0,",
+    "alternativas": [
+      "(a) Uma curva arbitrária.\n(c) Uma reta.\n(e) Simultaneamente duas parábolas.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-11",
+    "numero": 11,
+    "enunciado": "Denote por x; y o produto escalar dos vetores x = (x ; x ; x ) e y = (y ; y ; y ) em\nh i 1 2 3 1 2 3\nh i 2",
+    "alternativas": [
+      "(a) a circunferência de raio r e centro 1\n(c) um plano com vetor normal 1\n(e) um hiperbolóide",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-12",
+    "numero": 12,
+    "enunciado": "Determine qual das seguintes proposições não pode ser provada a partir da premissa:\n((a b) c) (c d)\n^ _ ^ !",
+    "alternativas": [
+      "(a) (a d) (b d)\n_ ^ _\n: _ : ! ^\n(c) (a b) d\n^ ! :\n: !\n(e) d b\n: !",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-14",
+    "numero": 14,
+    "enunciado": "Considere a seguinte proposição:\nP : x[B x [Lx C x]]\n8 ! ^\n:",
+    "alternativas": [
+      "(a) x [B x [Lx C x]].\n8 : ! ^",
+      "(b) x[B x [ Lx C x]].\n9 ^ : _ :",
+      "(c) x[B x [Lx C x]].\n8 ! : ^",
+      "(d) x[ B x [ Lx C x]].\n9 : ^ : _ :",
+      "(e) x[ B x [Lx C x]].\n9 : _ ^"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-19",
+    "numero": 19,
+    "enunciado": "Considere(MquAeAt)odos os relês do circuito representado na figura abaixo funcionam inde-\nMedia\nServer\nP\n0\nP\nP1 A 1 2 B\n2\n(I)\n(II) 3 4\n(III)\n(IV)",
+    "alternativas": [
+      "(a) p2",
+      "(b) 2p2",
+      "(c) p4",
+      "(d) 2p2 p4\n(cid:0)",
+      "(e) 4p"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-20",
+    "numero": 20,
+    "enunciado": "Seja R o reticulado no plano formado pelos pares de números inteiros no intervalo\n(cid:0)\nR = (i; j ) Z2 : 2n i 2n e 2n j 2n ;\n2 (cid:0) (cid:20) (cid:20) (cid:0) (cid:20) (cid:20)\nS = (x; y) R2 : x2 + y2 = n2 :\n(cid:8) 2 (cid:9)",
+    "alternativas": [
+      "(a) 0; 5 (4n + 1)2\n(cid:1)",
+      "(b) 0; 5 4 (i; j ) Z2 : i2 + j 2 < n2 e i > 0; j > 0 .\n(cid:1) (cid:1) jf 2 gj",
+      "(c) 0; 5 (cid:25)n2\n(cid:1)",
+      "(d) 0; 5\n(cid:25)n2\n(cid:1) (4n+1)2",
+      "(e) 0; 5 (i; j ) Z2 : i2 + j 2 < n2 .\n(cid:1) jf 2 gj\nQUESTÕES DE FUNDAMENTOS DA COMPUTAÇÃO"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-21",
+    "numero": 21,
+    "enunciado": "Considere uma cpu usando uma estrutura pipeline com 5 estágios (IF, ID, EX, MEM,\nI1: lw $2, 100($5)\nI2: add $1, $2, $3\nI3: sub $3, $2, $1\nI4: sw $2, 50($1)\nI5: add $2, $3, $3\nI6: sub $2, $2, $4",
+    "alternativas": [
+      "(a) 30",
+      "(b) 17",
+      "(c) 16",
+      "(d) 11",
+      "(e) 10"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-22",
+    "numero": 22,
+    "enunciado": "Para a representação de número ponto (cid:13)utuante no padrão IEEE, quais das afirmações\n(I) Quando a fração e o expoente são zero, o número representado é zero.\n(II) Quando o expoente é zero, o número representado é desnormalizado.\n+ ou .\n1 (cid:0)1\na representação não é número.",
+    "alternativas": [
+      "(a) Somente as afirmações (II), (III) e (IV).",
+      "(b) Somente as afirmações (I), (II) e (IV).",
+      "(c) Somente as afirmações (I), (II) e (III).",
+      "(d) Somente as afirmações (I), (III) e (IV).",
+      "(e) Todas as afirmações."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-25",
+    "numero": 25,
+    "enunciado": "Uma lista ligada possui a seguinte definição de nó:\ntype ap = no;\n\"\nno = record\ninfo : integer;\nlink : ap\nend;\nprocedure inverte(var h: no);\n\"\nvar p,q : no;\n\"\nbegin\nif h <> NIL\nthen begin\np := h link;\n:\n\"\nh link := NIL;\n:\n\"\nwhile p <> NIL do\nbegin\n;\n;\n;\n;\nend\nend\nend;",
+    "alternativas": [
+      "(a) p link:=h; q:=p link; h:=p; p:=q;\n: :\n\" \"\n: :\n\" \"\n(c) p link:=h; h:=p; p:=q; q:=p link;\n: :\n\" \"\n: :\n\" \"\n(e) p link:=h; h:=p; q:=p link; p:=q;\n: :\n\" \"",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-29",
+    "numero": 29,
+    "enunciado": "Considere as seguintes afirmações:\n(I) O paradigma da programação funcional é baseado em funções matemáticas e com-\nposição de funções.\ncada do cálculo de predicados e seu método de inferência é uma forma restrita de\nResolução.\ne usam um processo de inferência lógica para produzir resultados.",
+    "alternativas": [
+      "(a) Somente (I) e (V).\n(c) Somente (I), (II) e (V).\n(e) Todas as afirmações são verdadeiras.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-30",
+    "numero": 30,
+    "enunciado": "Dadas duas funções f ; g : N R, dizemos que f = o(g) se lim n!1 f (n)=g(n) = 0.\n!\n2",
+    "alternativas": [
+      "(a) para todo (cid:15) > 0, existe n > 0 tal que T (n) log n < (cid:15) para todo n > n .\n0 j (cid:0) 2 j 0\n0 (cid:20) 2 0\n(c) existem constantes c > 0 e n > 0 tais que T (n) c log n para todo n > n .\n0 (cid:20) 2 0\n1 2 0 1 2 (cid:20) (cid:20) 2 2\npara todo n > n .\n0\n(e) existem constantes c > 0 e n > 0 tais que T (n) c log n para todo n > n .\n0 (cid:21) 2 0",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-31",
+    "numero": 31,
+    "enunciado": "Considere o programa :\nif n < 1 then FUN := 1\nelse begin\nx := n * FUN (n-1);\nm := m-1;\nFUN := m+x;\nend;\nreadln (m,n);\nwriteln (m, n, FUN ( n ) );",
+    "alternativas": [
+      "(a) 5, 4, 5\n(c) 1, 4, 14400\n(e) 1, 4, 120",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-32",
+    "numero": 32,
+    "enunciado": "Considere o algoritmo máximo(v; i; f ) que devolve o índice de um elemento máximo de\nv[i]; : : : ; v[f ] :\nmáximo(v; i; f )\nse i = f , devolva i\np máximo(v; i; (i + f )=2 )\nb c\nq máximo(v; (i + f )=2 + 1; f )\nb c\nse v[p] v[q], devolva p\n(cid:21)\ndevolva q\nmáximo(v(cid:0)\n; i; f ) é",
+    "alternativas": [
+      "(a) n log n\n2",
+      "(b) n=2",
+      "(c) n 1\n(cid:0)",
+      "(d) log n\n2",
+      "(e) 2n"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-34",
+    "numero": 34,
+    "enunciado": "Seja A = a ; : : : ; a uma sequência de n números, todos distintos entre si. Dados\n1 n\nj i\n(cid:20) (cid:20)",
+    "alternativas": [
+      "(a) n\n2\n(c) n(cid:0) (cid:1) 1\n(cid:0)\n(e) n2",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-35",
+    "numero": 35,
+    "enunciado": "Em uma estrutura de árvore binária de busca, foram inseridos os elementos \\h\",\\a\",\\b\",",
+    "alternativas": [
+      "(a) 2\n(c) 4\n(e) 3",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-36",
+    "numero": 36,
+    "enunciado": "Quatro tarefas, A, B, C e D, estão prontas para serem executadas num único proces-",
+    "alternativas": [
+      "(a) C, D, B, A\n(c) C, B, D, A\n(e) O tempo médio de resposta independe da ordem.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-37",
+    "numero": 37,
+    "enunciado": "Qual das alternativas a seguir melhor define uma Região Crítica em Sistemas Opera-",
+    "alternativas": [
+      "(a) Um trecho de programa que deve ser executado em paralelo com a Região Crítica\nde outro programa.",
+      "(b) Um trecho de programa cujas instruções podem ser executadas em paralelo e em\nqualquer ordem.",
+      "(c) Um trecho de programa onde existe o compartilhamento de algum recurso que\nnão permite o acesso concomitante por mais de um programa.\n(PdS) frUamg rterpelcahcoemdeenptsrograma onde existe algum recurso cujo acesso é dado por uma\nprioridade.\nMáquina Cliente\n(e) Um trecho dMeedpiraograma onde existe algum recurso a que somente o sistema ope-\nracional podPelayteerr acesso.",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-38",
+    "numero": 38,
+    "enunciado": "Á rvores binárias pB ou(cid:11) de er m ser usadas para guardar e recuperar informações com número\nMarcador\n(MAB)\nMarcador\nde Á gua Alto\n(MAA)\nMáquina Servidora\n(I)\nMedia\nServer (II)\nP\n0\nP\n1\nP\n2\n(III) (IV)",
+    "alternativas": [
+      "(a) Somente (I) e (IV) são árvores binárias AVL.",
+      "(b) Somente (I) é árvore binária AVL.",
+      "(c) Somente (I), (II) e (III) são árvores binárias AVL.",
+      "(d) Somente (II) e (III) são árvores binárias AVL.",
+      "(e) Todas (I), (II), (III) e (IV) são árvores binárias AVL.\nMedia"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-39",
+    "numero": 39,
+    "enunciado": "Os grafos GSe=rver(V ; E ) e H = (V ; E ) são isomorfos. Assinale a alternativa que\nG G H H\nP\n1\nP\n2\n(I)\n(II)\n(III)\n(IV) G H",
+    "alternativas": [
+      "(a) As sequências dos graus dos vértices de G e H são iguais.\n(c) Existe uma bijeção de V em V que preserva adjacências.\nG H\n(e) Ambos os grafos admitem um circuito que passa por cada aresta exatamente uma\nvez.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-40",
+    "numero": 40,
+    "enunciado": "Dadas as seguintes afirmações\n(I) Qualquer grafo conexo com n vértices deve ter pelo menos n 1 arestas.\n(cid:0)\nm;n",
+    "alternativas": [
+      "(a) Somente a afirmação (I).\n(c) Somente as afirmações (II) e (III).\n(e) Todas as afirmações.\nQUESTÕES DE TECNOLOGIA DA COMPUTAÇÃO",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-41",
+    "numero": 41,
+    "enunciado": "Qual das seguintes afirmações é verdadeira?",
+    "alternativas": [
+      "(a) Nem toda relação que está na FNBC (Forma Normal de \\Boyce-Codd\") está\ntambém na 3FN (Terceira Forma Normal).\n(c) Se a relação R está na 3FN e toda chave candidata é simples, então não podemos\nafirmar que R está na FNBC.\ntrivial somente se XY = R .\n(e) Uma dependência funcional multivalorada na relação R, na forma X(cid:16)Y, é dita\ntrivial se Y X ou XY = R\n(cid:18)",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-42",
+    "numero": 42,
+    "enunciado": "Em um banco de dados relacional, considere os esquemas de relação:\nPessoa (CPF, Profissao)\n(cid:15)\nTrabalha (CPF, CGC, Periodo)\n(cid:15)\nFirma (CGC, nome, endereco)\n(cid:15)",
+    "alternativas": [
+      "(a) Interseção de Pessoa, Trabalha e Firma.\n(c) União de Pessoa, Trabalha e Firma.\n(e) Nada pode ser afirmado porque os dados não foram fornecidos.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-43",
+    "numero": 43,
+    "enunciado": "Em um banco de dados relacional, considere os esquemas de relação:\nPessoa (CPF, Profissao)\n(cid:15)\nTrabalha (CPF, CGC, Periodo)\n(cid:15)\nFirma (CGC, nome, endereco)\n(cid:15)\nC1 Quais as profissões de todas as pessoas?\nC2 Qual a profissão da pessoa de CPF = ’X’, onde X é um CPF válido?\nC3 Qual o endereço da firma de CGC diferente de ’Z’, onde Z é um CGC válido?\nC4 Quais os períodos na década 1990-1999 em que ningúem trabalhou, onde o banco\nde dados contém informações entre 1980 e 2005?",
+    "alternativas": [
+      "(a) A consulta C1 porque só exige uma pro jeção na relação Pessoa sem precisar olhar\no índice.\nacessar Pessoa.\n(c) A consulta C3 porque pode ser processada sequencialmente sobre a relação Firma\ndescartando-se a tupla com CGC de valor Z.\nrelação Trabalha.\n(e) Nada se pode afirmar porque rapidez, neste caso, não pode ser medida.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-44",
+    "numero": 44,
+    "enunciado": "Sejam T1 e T2 duas transações sendo processadas por um SGBD. Os termos lockR\n(I) O trecho mostra um exemplo de aplicação do protocolo 2PL (two phase lock ou\ntranca em 2 fases).",
+    "alternativas": [
+      "(a) Somente (I) e (III)\n(c) Somente (II) e (III)\n(e) Somente (V)",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-45",
+    "numero": 45,
+    "enunciado": "No processo de geração de um código executável (em linguagem de máquina) a par-",
+    "alternativas": [
+      "(a) B C H G A D F E\n(c) B C H G A D E F\n(e) B C H A G D E F",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-46",
+    "numero": 46,
+    "enunciado": "No que diz respeito à geração de imagens por RayTracing, qual das afirmações a seguir",
+    "alternativas": [
+      "(a) O número de raios lançados independe do número de ob jetos da cena.\n(c) O lançamento de raios é dependente da posição da câmera.\n(e) Este método pode ser facilmente paralelizado.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-47",
+    "numero": 47,
+    "enunciado": "Requisitos são capacidades e condições para as quais um sistema deve ter conformidade.\n(I) No Processo Unificado, requisitos são categorizados de acordo com o modelo\nFURPS+, onde o U do acrônimo representa requisitos de usabilidade.\ncasos de uso é basicamente um ato de escrever estórias de uso de um sistema.\ncasos de uso, que ilustra os nomes dos casos de uso, atores e seus relacionamentos.",
+    "alternativas": [
+      "(a) Somente as afirmações (I) e (II) estão corretas.\n(c) Somente as afirmações (I) e (III) estão corretas.\n(e) Somente a afirmação (III) está correta.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-48",
+    "numero": 48,
+    "enunciado": "Qual das alternativas a seguir não representa um artefato da disciplina de Requisitos",
+    "alternativas": [
+      "(a) Modelo de Casos de Uso.\n(c) Modelo do Domínio.\n(e) Glossário.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-49",
+    "numero": 49,
+    "enunciado": "Considere as seguintes afirmações sobre o ob jetivo da atividade de validação de soft-\n(I) Verificar se o produto está sendo corretamente constrú(cid:16)do.",
+    "alternativas": [
+      "(a) Somente a afirmação (II).\n(c) Somente as afirmações (I) e (II).\n(e) Afirmações (I), (II) e (III).",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-50",
+    "numero": 50,
+    "enunciado": "Considere as seguintes afirmações sobre o diagrama de classes e outros modelos UML\n(I) O diagrama de classes pode representar as classes sob diferentes perspectivas, tais\ncomo a conceitual, a de especificação e a de implementação.\nmensagens.",
+    "alternativas": [
+      "(a) Somente a afirmação (I).\n(c) Somente as afirmações (I) e (III).\n(e) Afirmações (I), (II) e (III).",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-51",
+    "numero": 51,
+    "enunciado": "A Atividade de Teste é considerada uma atividade dinâmica, pois implica na execução",
+    "alternativas": [
+      "(a) de pro jeto.\n(c) inicial de desenvolvimento.\n(e) de validação.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-52",
+    "numero": 52,
+    "enunciado": "Dentre as definições a seguir, conceitos de computação evolutiva da Inteligência Arti-",
+    "alternativas": [
+      "(a) A computação evolutiva deve ser entendida como um conjunto de técnicas e pro-\ncedimentos genéricos e adaptáveis, a serem aplicados na solução de problemas\ncomplexos, para os quais outras técnicas conhecidas são ineficazes ou nem sequer\nsão aplicáveis.\nções potenciais, aplicam processos de seleção baseados na adaptação de um in-\ndivíduo e também empregam outros operadores \\genéticos.\"\n(c) A roleta é um método de seleção no qual se atribui a cada indivíduo de uma po-\npulação uma probabilidade de passar para a próxima geração proporcional ao seu\nfitness, medido em relação à somatória do fitness de todos os indivíduos da popu-\nlação. Assim, algoritmos genéticos são métodos de busca puramente aleatórios.\nlução natural e da genética. Um indivíduo da população é representado por um\núnico cromossomo, o qual contém a codificação (genótipo) de uma possível solução\ndo problema (fenótipo).\n(e) O processo de evolução executado por um algoritmo genético corresponde a um\nprocedimento de busca em um espaço de soluções potenciais para o problema.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-53",
+    "numero": 53,
+    "enunciado": "Considere as cláusulas:",
+    "alternativas": [
+      "(a) L(C; C; g(A; C ); D)\n(c) L(x; C; g(A; C ); D)\n(e) L(A; A; g(A; A); D)",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-54",
+    "numero": 54,
+    "enunciado": "Considere h(x) como uma função heurística que define a distância de x até a meta;",
+    "alternativas": [
+      "(a) n h(n) hr (n).\n9 (cid:20)\n8 (cid:20)\n(c) n h(n) > hr (n).\n8\n9\n(e) n h(n) < hr (n).\n9",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-55",
+    "numero": 55,
+    "enunciado": "Inspeção de Usabilidade é o nome genérico para um conjunto de métodos baseados em",
+    "alternativas": [
+      "(a) Avaliação Heurística.\n(c) Walktrough Cognitivo.\n(e) Revisões de Guidelines.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-58",
+    "numero": 58,
+    "enunciado": "Considere o esquema abaixo para download de um (cid:13)uxo de áudio na Internet. Considere\nMáquina Cliente Máquina Servidora\nBu(cid:11)er\nPlayer Server\nde Á gua Baixo de Á gua Alto\n(MAB) (MAA)",
+    "alternativas": [
+      "(a) MAA 40 KB e MAB 980 KB.\n(cid:21) (cid:20)\n(cid:21) (cid:20)\n(c) MAA 40 KB e MAB 960 KB.\n(cid:21) (cid:20)\n(cid:21) (cid:20)\n(e) MAA 20 KB e MAB 1 MB.\n(cid:21) (cid:20)",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-59",
+    "numero": 59,
+    "enunciado": "O processo de análise de imagens é uma sequência de etapas que são iniciadas a partir",
+    "alternativas": [
+      "(a) pré-processamento, aquisição, segmentação, representação, reconhecimento.\n(c) aquisição, pré-processamento, representação, segmentação, reconhecimento.\n(e) pré-processamento, aquisição, representação, segmentação, reconhecimento.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-60",
+    "numero": 60,
+    "enunciado": "O termo imagem se refere a uma função bidimensional de intensidade de luz, denotada",
+    "alternativas": [
+      "(a) translação e escala.\n(c) resolução e ampliação.\n(e) resolução e quantização.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-61",
+    "numero": 61,
+    "enunciado": "Qual a capacidade máxima segundo o Teorema de Nyquist de um canal de 2 MHz sem",
+    "alternativas": [
+      "(a) 4 Mbps\n(c) 8 Mbps\n(e) 16 Mbps",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-67",
+    "numero": 67,
+    "enunciado": "Sejam as afirmações:\n(I) O HTTP e o FTP são protocolos da camada de aplicação e utilizam o protocolo\nde transporte TCP.\nferência e outra para envio dos dados transferidos (controle fora da banda).\nconexões não persistentes. O modo default do HTTP/1.1 usa conexões persistentes.",
+    "alternativas": [
+      "(a) (I), (II) e (III) são verdadeiras.\n(c) Somente (I) é verdadeira.\n(e) (I), (II) e (III) são falsas.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-68",
+    "numero": 68,
+    "enunciado": "Segundo o W3C (World Wide Web Consortium), um Serviço Web é um sistema de",
+    "alternativas": [
+      "(a) A interface do Serviço Web é descrita em WSDL.\n(c) O transporte das mensagens é feito tipicamente pelo HTTP.\n(e) Cliente e Servidor devem ser escritos na mesma linguagem de programação.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-69",
+    "numero": 69,
+    "enunciado": "Considere o diagrama espaço-tempo da Figura 2; ele representa uma computação dis-\n0 10 20 30 40 50 60 70 80 90 100\n0\n0 7\nP\n1\nP\n2\n0 5 10 15 20 25 30 35\nFigura 2: Diagrama espaço-tempo.",
+    "alternativas": [
+      "(a) P (14; 21; 28; 35; 42; 49; 56; 63; 70) P (40; 45; 50)\n1 2\n1 2\n(c) P (8; 15; 22; 29; 36; 61; 68; 75; 88) P (40; 69; 74)\n1 2\n1 2\n(e) P (8; 15; 22; 29; 36; 49; 56; 63; 70) P (40; 45; 50)\n1 2",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-12",
+    "numero": 12,
+    "enunciado": "Num espaço fiPnito de probabilidades Ω com distribuição P : Ω → (0, 1), dados os eventos",
+    "alternativas": [
+      "(a) (I), (II)",
+      "(b) (I), (III)",
+      "(c) (I), (III), (IV)",
+      "(d) (II), (III)",
+      "(e) (III), (IV)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-15",
+    "numero": 15,
+    "enunciado": "Para fazermos uma caixa, removemos de uma folha quadrada de lado a um quadrado\nx x\nx x\nx x\nx x",
+    "alternativas": [
+      "(a) a solução de (a − 2x)(a − 6x) = 0 no intervalo (a/3, ∞)",
+      "(b) a solução de (a − 2x)(a − 6x) = 0 no intervalo (−∞, a/3)",
+      "(c) x = a/3",
+      "(d) a solução positiva de x(a − 2x)2 = 0",
+      "(e) o valor que maximiza a área da base da caixa, ou seja, o valor máximo da função\n(a − 2x)2."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-17",
+    "numero": 17,
+    "enunciado": "Um reservatório cˆonico de altura H e raio R é preenchido com água de modo que V\n3\nR\nH\nr\nh\nh H\ndh 4 dV",
+    "alternativas": [
+      "(a) =\ndt πR2 dt\n(cid:18) (cid:19)\ndh 12 dV",
+      "(b) =\ndt πR2 dt\n(cid:18) (cid:19)\ndh H 2 dV",
+      "(c) = 3\ndt s πR2 dt\n(cid:18) (cid:19)\ndh H 2 dV",
+      "(d) =\ndt s πR2 dt\n(cid:18) (cid:19)\ndh 12V",
+      "(e) =\ndt πR2"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-18",
+    "numero": 18,
+    "enunciado": "O valor do parˆametro m, para que o sistema\nx + y + (1 − m)z = 0\nx + (m − 1)y − z = 0\n\nx + my + z = 0\n",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-22",
+    "numero": 22,
+    "enunciado": "Quanto vale k no fim da execução do seguinte trecho de código?\nk = 0;\nfor (i=1; i <= n; i++)\nfor(j = i; j <= n; j++)\nk = k + 1;",
+    "alternativas": [
+      "(a) n − 1",
+      "(b) n",
+      "(c) (n2 − n)/2",
+      "(d) n(n + 1)/2",
+      "(e) n3"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-23",
+    "numero": 23,
+    "enunciado": "O programa abaixo, quando executado para A(1, 2), faz quantas chamadas recursivas\nint A (int m, int n) {\nif (m == 0) return n + 1;\nelse if (n == 0) return A (m - 1, 1);\nelse return A (m - 1, A (m, n - 1));\n}",
+    "alternativas": [
+      "(a) 6",
+      "(b) 5",
+      "(c) 4",
+      "(d) 3",
+      "(e) 2"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-27",
+    "numero": 27,
+    "enunciado": "Considere o seguinte programa com dois processos concorrentes. O escalonador poderá\nprograma P\nint x = 0;\nint y = 0;\nprocesso A {\nwhile (x == 0);\nprint(‘‘a’’);\ny = 1;\ny = 0;\nprint(‘‘d’’);\ny = 1;\n}\nprocesso B {\nprint(‘‘b’’);\nx = 1;\nwhile (y == 0);\nprint(\"c\");\n}",
+    "alternativas": [
+      "(a) adbc ou bcad",
+      "(b) badc ou bacd",
+      "(c) abdc ou abcd",
+      "(d) dbca ou dcab",
+      "(e) Nenhuma das opções anteriores."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-34",
+    "numero": 34,
+    "enunciado": "Um algoritmo é executado em 10 segundos para uma entrada de tamanho 50. Se o",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-35",
+    "numero": 35,
+    "enunciado": "Considere as seguintes definições de ordens de percurso de uma árvore binária:\nse a árvore binária não for vazia, então:\n{visitar a raiz;\npercorrer a sub-árvore esquerda em Ordem B;\npercorrer a sub-árvore direita em Ordem B;\n}\nse a árvore binária não for vazia, então:\n{visitar a raiz;\npercorrer a sub-árvore direita em Ordem A;\npercorrer a sub-árvore esquerda em Ordem A;\n}\nA\nB E\nC D F K\nG I L M\nH J",
+    "alternativas": [
+      "(a) A B D C E K L M F I J G H",
+      "(b) A B C D E F G H I J K L M",
+      "(c) A B D C E K L M F G H I J",
+      "(d) A B E C D F K G I L M H J",
+      "(e) A B D C E F I J G H K L M"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-37",
+    "numero": 37,
+    "enunciado": "Qual é a função implementada pelo circuito CMOS mostrado na figura abaixo?\nVDD\nA B\nC D\nF\nA C\nB D",
+    "alternativas": [
+      "(a) F = (A · B ) + (C · D)",
+      "(b) F = (A + B ) · (C + D)",
+      "(c) F = (A · B ) + (C · D)",
+      "(d) F = (A + B ) · (C + D)",
+      "(e) F = (A · B ) + (C · D)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-40",
+    "numero": 40,
+    "enunciado": "Dado o trecho de programa abaixo:\nvar z:integer;\nbegin\nz:=x+a ;\nx:=y+1;\ny:=y+z;\nend;\nbegin\na:= 2;\nb:= 3;\nP (a,b);\nwriteln(a,b);\nend;\nT 1\nvalor referência\nvalor\nT 2\nreferência\n2 3 4 3",
+    "alternativas": [
+      "(a)\n2 7 4 7\n2 3 2 7",
+      "(b)\n4 3 4 7\n2 3 4 7",
+      "(c)\n2 3 4 7\n2 3 2 3",
+      "(d)\n2 3 2 3\n4 7 4 7",
+      "(e)\n4 7 4 7"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-41",
+    "numero": 41,
+    "enunciado": "Considere as seguintes tabelas em uma base de dados relacional, contendo\ninformações sobre empregados, departamentos e a vinculação entre eles:\nFROM Departamento D, Empregado E\nWHERE D.CodDepto=E.CodDepto AND\nE.CodEmp IS NULL\nFROM Departamento D\nWHERE EXISTS\n(SELECT *\nFROM Empregado E\nWHERE CodDepto=D.CodDepto)\nFROM Departamento D)\nEXCEPT\n(SELECT NomeDepto\nFROM Departamento D, Empregado E\nWHERE D.CodDepto=E.CodDepto)\nFROM Departamento D, Empregado E\nWHERE D.CodDepto<>E.CodDepto\nFROM Departamento D\nWHERE CodDepto IN\n(SELECT CodDepto\nFROM Empregado E)",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-42",
+    "numero": 42,
+    "enunciado": "Considere um modelo entidade-relacionamento de uma indústria. Este modelo\nrepresenta peças com suas propriedades, bem como a composição de peças (peças\npodem ser usadas na composição de outras peças). Este modelo entidade-\nrelacionamento contém:\nx Uma entidade Peça, com atributos código e nome e peso.\nx Um auto-relacionamento de Peça, chamado Composição. Neste auto-\nrelacionamento uma peça tem papel de componente e outra peça papel de\ncomposto. O auto-relacionamento tem cardinalidade n:n e tem um atributo\nquantidade, que informa quantas unidades da peça componente são usadas na\npeça composto.\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nQuantidade)\nPeca.CodPecaComposto referencia Peca\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nCodPecaComponente,Quantidade)\nPeca.CodPecaComposto referencia Peca\nPeca.CodPecaComponente referencia Peca\nComponente (CodPeca, NomePeca, PesoPeca, CodPecaComposto\nQuantiade)\nComponente.CodPecaComposto referencia Composto",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-44",
+    "numero": 44,
+    "enunciado": "Considere as seguintes tabelas em uma base de dados relacional, contendo\ninformações sobre empregados, departamentos e a vinculação entre eles:\nEmpregado E\nE.SalarioEmp > 300",
+    "alternativas": [
+      "a) Para departamentos com mais que 20 empregados que tenham salário maior que\n300, obter o código do departamento e a média salarial dos empregados do\ndepartamento.",
+      "b) Para departamentos que tem mais que 20 empregados nos quais todos empregados\ntem salário maior que 300, obter o código do departamento e a média salarial dos\nempregados que ganham mais que 300.",
+      "c) Para departamentos que tem mais que 20 empregados nos quais todos empregados\ntem salário maior que 300, obter o código do departamento e a média salarial dos\nempregados do departamento.",
+      "d) Para departamentos que tem mais que 20 empregados, obter o código do\ndepartamento e a média salarial dos empregados que ganham mais que 300.",
+      "e) Para departamentos com mais que 20 empregados que tenham salário maior que\n300, obter o código do departamento e a média salarial dos empregados do\ndepartamento que ganham mais que 300."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-45",
+    "numero": 45,
+    "enunciado": "Transações em SGBD relacionais normalmente preenchem os requisitos ACID\n(atomicidade, consistência, isolamento e durabilidade). Considere as seguintes\nafirmações:\ntransação T não são vistas por outras transações, até que a transação T encerre.\npodem ser protegidos para alteração por outra transação.\nsobre a base de dados não pode ser desfeito.",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-57",
+    "numero": 57,
+    "enunciado": "Considere: todas as etapas do processo de visualização de objetos 2D; uma window\ndelimitada pelo par de coordenadas (0,0)-(60,60); uma viewport delimitada pelo par\nde coordenadas (0,0)-(100,80); e os seguintes parâmetros de instanciamento,\naplicados nesta ordem: (1°) Escala em X: 1, Escala em Y: 2; (2°) Rotação: 0°; (3°)\nTranslação X: 10, Translação Y: 0\nAssumindo que, nas opções apresentadas abaixo, os retângulos pontilhados\nrepresentam a viewport, qual dos desenhos a seguir mais se parece com o desenho do\ntriângulo cuja definição no sistema de referência do universo é dada pelos pares de\ncoordenadas (10,0)-(10,30)-(40,0)? Considere ainda que as coordenadas que definem\nwindow e viewport correspondem, respectivamente, aos limites inferior esquerdo e\nsuperior direito de ambas.",
+    "alternativas": [
+      "a) b) c)\nNenhuma das\nopções acima.\nd) e)",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-61",
+    "numero": 61,
+    "enunciado": "Considere as seguintes afirmações sobre as linguagens usadas para análise sintática:\nI – Os analisadores LL(1) aceitam linguagens com produções que apresentem\nrecursões a esquerda\nII – Os analisadores LR(1) reconhecem uma classe de linguagens maior que os\nanalisadores LALR(1)\nIII – Os analisadores SLR(1) reconhecem uma classe de linguagens menor que os\nanalisadores LR(0)",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
   }
 ]

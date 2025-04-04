@@ -10733,5 +10733,442 @@
     "dificuldade": "Fácil",
     "gabarito": "D",
     "solucao": "A questão pede para identificar a afirmação ERRADA sobre operações da álgebra relacional. Vamos analisar cada alternativa:\n\nA) SELECT extrai tuplas específicas de uma relação específica. - CORRETA: A operação SELECT (ou σ) é usada para selecionar tuplas que satisfazem uma condição específica.\n\nB) UNION constrói uma relação consistindo em todas as tuplas que aparecem em um par de relações específicas que são compatíveis. - CORRETA: A operação UNION combina todas as tuplas de duas relações compatíveis (mesmo número de atributos e tipos de dados compatíveis).\n\nC) PROJECT extrai atributos específicos de uma relação específica. - CORRETA: A operação PROJECT (ou π) é usada para selecionar colunas específicas de uma relação.\n\nD) JOIN constrói uma relação a partir de duas relações específicas, consistindo em todas as possibilidades de pares de tuplas, uma de cada uma das relações específicas. - ERRADA: A operação JOIN combina tuplas de duas relações com base em uma condição de junção, não em todas as possibilidades de pares de tuplas. O que está descrito na alternativa é um produto cartesiano, não um JOIN.\n\nE) DIFFERENCE constrói uma relação a partir de duas relações específicas que são compatíveis, consistindo em todas as tuplas que aparecem na primeira relação e não aparecem na segunda. - CORRETA: A operação DIFFERENCE (ou -) retorna tuplas que estão na primeira relação, mas não na segunda.\n\nPortanto, a alternativa D está errada, pois descreve incorretamente a operação JOIN."
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-07",
+    "numero": 7,
+    "enunciado": "A distˆancia da origem à reta 4x − 3y − 15 = 0 é:",
+    "alternativas": [
+      "(a) 1/3",
+      "(b) 3",
+      "(c) -3",
+      "(d) -1/3",
+      "(e) 2/3"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-09",
+    "numero": 9,
+    "enunciado": "Assinale a proposição logicamente equivalente a ¬(p ∨ q) ∨ (¬p ∧ q)",
+    "alternativas": [
+      "(a) ¬p ∧ (q ∨ ¬q)",
+      "(b) ¬p",
+      "(c) (p ∨ q) ∧ (p ∨ ¬q)",
+      "(d) (p ∨ q) ∨ (p ∧ ¬q)",
+      "(e) p"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-28",
+    "numero": 28,
+    "enunciado": "Qual das seguintes afirmações é falsa?",
+    "alternativas": [
+      "(a) Todo autˆomato finito não determinístico com transições vazias pode ser reduzido\npara um autˆomato finito determinístico.",
+      "(b) Nem todo autˆomato com pilha não determinístico pode ser reduzido para um\nautˆomato com pilha determinístico.",
+      "(c) Toda máquina de Turing com N ≥ 1 fitas pode ser reduzida para uma máquina\nde Turing padrão.",
+      "(d) Para se provar que uma linguagem é regular basta usar o lema do bombeamento\n(pumping lemma ) de linguagens regulares.",
+      "(e) Máquinas de Turing aceitam linguagens geradas por gramáticas irrestritas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-44",
+    "numero": 44,
+    "enunciado": "Assinalar a opção correta acerca das sentenças abaixo:\nI. Os níveis de isolamento de uma transação SQL são: Read Uncommitted, Read\nCommitted, Repeatable Read e Serializable.\nII. Atomicidade e Durabilidade são garantidas pelo Gerenciador de Recuperação do\nSGBD.\nIII. São propriedades de uma transação: Atomicidade, Consistência, Integridade e\nDurabilidade.",
+    "alternativas": [
+      "(a) Apenas I é verdadeira.",
+      "(b) Apenas I e II são verdadeiras.",
+      "(c) Apenas II e III são verdadeiras.",
+      "(d) Apenas I e III são verdadeiras.",
+      "(e) Todas são verdadeiras"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-66",
+    "numero": 66,
+    "enunciado": "Os endereços IP são divididos em classes. Qual afirmação é incorreta?",
+    "alternativas": [
+      "(a) Existem mais redes classe B do que classe A",
+      "(b) Uma rede classe C permite mais hosts do que uma rede classe B",
+      "(c) A classe D é dedicada a endereços multicast",
+      "(d) Máscaras podem dividir o campo Rede do endereço IP em Rede e Sub-rede para\nfacilitar o roteamento interno",
+      "(e) NAT (Tradução de Endereço de Rede) é utilizada em redes com vários hosts que\nse conectam à Internet através de poucos endereços IP"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-15",
+    "numero": 15,
+    "enunciado": "Quantas cadeias de 7 bits contêm pelo menos 3 zeros consecutivos?",
+    "alternativas": [
+      "(a) 81",
+      "(b) 80",
+      "(c) 48",
+      "(d) 47",
+      "(e) 16"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-64",
+    "numero": 64,
+    "enunciado": "O DNS (Domain Name System) é um serviço de diretórios na Internet que:",
+    "alternativas": [
+      "(a) Traduz o nome de um hospedeiro (host) para seu endereço IP.",
+      "(b) Localiza a instituição à qual um dado host pertence.",
+      "(c) Retorna a porta da conexão TCP do host.",
+      "(d) Retorna a porta da conexão UDP do host.",
+      "(e) Traduz o endereço IP de um hospedeiro para um nome de domínio na Internet."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-13",
+    "numero": 13,
+    "enunciado": "Quantas cadeias de 7 bits não contêm 3 zeros consecutivos?",
+    "alternativas": [
+      "(a) 44",
+      "(b) 48",
+      "(c) 80",
+      "(d) 81",
+      "(e) 123"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-28",
+    "numero": 28,
+    "enunciado": "Qual das seguintes expressões posfixas é equivalente à expressão infixa A+(B/C)*((D-E)/F)?",
+    "alternativas": [
+      "(a) ABC/-DE*F+/",
+      "(b) ABC/DE-/F+*",
+      "(c) ABC/DE-F/*+",
+      "(d) ABC/D-EF*/+",
+      "(e) ABD/CE+/F-*"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-30",
+    "numero": 30,
+    "enunciado": "Ao segmentar um processador, transformando-o num pipeline, obtém-se:",
+    "alternativas": [
+      "(a) redução no número de ciclos necessários para executar uma instrução",
+      "(b) redução no número de ciclos necessários para executar um programa",
+      "(c) redução no número de ciclos necessários para tratar uma exceção",
+      "(d) redução no número de ciclos necessários para tratar uma interrupção",
+      "(e) o circuito do processador fica mais simples"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-43",
+    "numero": 43,
+    "enunciado": "Na álgebra relacional, a operação de junção interna entre duas tabelas A e B e com\ncritério de junção C tem a função de:",
+    "alternativas": [
+      "a) Concatenar cada linha da tabela A com cada linha da tabela B sempre que o\ncritério de junção C for verdadeiro. Linhas de A e B para as quais o critério de\njunção não é verdadeiro não aparecem no resultado.",
+      "b) Concatenar cada linha da tabela A com cada linha da tabela B sempre que o\ncritério de junção C for verdadeiro. Caso para uma linha de A não exista nenhuma\nlinha em B que torne o critério verdadeiro, a linha de A aparece no resultado\nconcatenada com campos vazios (NULL).",
+      "c) Concatenar cada linha da tabela A com cada linha da tabela B sempre que o\ncritério de junção C for verdadeiro. Caso para uma linha de B não exista nenhuma\nlinha em A que torne o critério verdadeiro, a linha de A aparece no resultado\nconcatenada com campos vazios (NULL).",
+      "d) Concatenar cada linha da tabela A com cada linha da tabela B.",
+      "e) Concatenar a tabela A com a tabela B, isto é, formar uma tabela formada por\nlinhas que aparecem em A ou B."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-46",
+    "numero": 46,
+    "enunciado": "A construção de sistemas é difícil devido à sua complexidade. Um fator crucial para\ngerenciar esta complexidade é o processo adotado para o desenvolvimento. O\nconjunto básico de atividades e a ordem em que são realizadas neste processo definem\no que é também denominado de ciclo de vida do software. Analise as seguintes\nafirmações sobre processos de software:\nI. Um modelo de processo de software é uma representação abstrata de um\nprocesso; Exemplos de modelo de processos de software genéricos são o\nmodelo waterfall (cascata) e o spiral (espiral);\nII. O modelo de processo waterfall ainda é hoje em dia um dos mais difundidos\ne tem por característica principal a codificação de uma versão executável do\nsistema desde as fases iniciais do desenvolvimento, de modo que o sistema\nfinal é incrementalmente construído, daí a alusão à idéia de “cascata”\n(waterfall);\nIII. Em um processo de software incremental, o desenvolvimento do sistema é\niterativo e partes de suas funcionalidades (denominadas “incrementos”) são\nentregues na medida em que são desenvolvidas; assim, estas entregas parciais\ntentam priorizar as necessidades mais urgentes do usuário e podem auxiliar a\nrevisão e a uma melhor definição das partes ainda não entregues;\nLevando-se em conta as três afirmações I, II e III acima, identifique a única",
+    "alternativas": [
+      "a) apenas a I e a II estão corretas;",
+      "b) apenas a II e a III estão corretas;",
+      "c) apenas a I e a III estão corretas;",
+      "d) as afirmações I, II e III estão corretas;",
+      "e) apenas a III está correta."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-47",
+    "numero": 47,
+    "enunciado": "Qual das alternativas abaixo não é um dos diagramas existentes na linguagem de\nmodelagem UML (Unified Modeling Language) :",
+    "alternativas": [
+      "a) Diagramas de Casos de Uso (use case diagrams)",
+      "b) Diagramas de Classes (class diagrams);",
+      "c) Diagramas de Seqüência (sequence diagrams)",
+      "d) Diagramas Entidade-Relacionamento (entity-relationship diagrams);",
+      "e) Diagramas de Estado (statechart diagram)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-56",
+    "numero": 56,
+    "enunciado": "Considerando as declarações abaixo, é incorreto afirmar:",
+    "alternativas": [
+      "a) Filtros passa-altas são utilizados para detecção de bordas em imagens",
+      "b) A transformada discreta de Fourier nos permite obter uma representação de uma\nimagem no domínio freqüência",
+      "c) Filtragem no domínio espacial é realizada por meio de uma operação chamada\n“convolução”",
+      "d) Os filtros Gaussiano e Laplaciano são exemplos de filtro passa-baixas",
+      "e) O filtro da mediana pode ser utilizado para redução de ruído em uma imagem"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-58",
+    "numero": 58,
+    "enunciado": "Identifique a declaração incorreta:",
+    "alternativas": [
+      "a) As operações de ajuste de brilho e contraste são operações lineares",
+      "b) A equalização de histograma é uma transformação não-linear e específica para\ncada imagem",
+      "c) A transformação necessária para calcular o negativo de uma imagem pode ser\naplicada simultaneamente (i.e., em paralelo) a todos pixels da imagem original",
+      "d) A equalização de histograma pode ser obtida a partir de um histograma\ncumulativo da imagem original",
+      "e) O objetivo da equalização de histograma é reduzir o constrastre nas regiões da\nimagem que correspondem à porção do histograma com maior concentração de\npixels"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-59",
+    "numero": 59,
+    "enunciado": "Considerando o pipeline de visualização 3D e o equacionamento da câmera sintética,\nindique qual das afirmações abaixo está correta:",
+    "alternativas": [
+      "a) A transformação de câmera pode ser representada como uma seqüência de\ntransformações geométricas aplicadas ao conjunto de vértices que definem os\nobjetos geométricos de uma cena",
+      "b) A transformação de câmera corresponde à última etapa do pipeline de\nvisualização 3D",
+      "c) As coordenadas dos objetos da cena, após a transformação de câmera, são\nrelativas ao ponto indicado como posição do observador",
+      "d) Considerando w como sendo o vetor da base que determina a direção do eixo z\nda câmera, pode-se afirmar que w é sempre obtido a partir da posição da\ncâmera e da origem do SRU",
+      "e) A transformação de câmera é a operação responsável pelo mapeamento de\nobjetos 3D no espaço 2D"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-60",
+    "numero": 60,
+    "enunciado": "A técnica de iluminação denominada ray-tracing",
+    "alternativas": [
+      "a) determina o grau de visibilidade de superfícies traçando raios de luz imaginários\npartindo de todos os vértices que definem as superfícies dos objetos da cena",
+      "b) utiliza o modelo de iluminação local de Phong no cálculo parcial da iluminação",
+      "c) considera a interação entre os objetos da cena no cálculo da iluminação, mas só\nfunciona com uma única fonte de luz",
+      "d) apesar de possuir uma fase de pré-processamento custosa, onde é montada uma\nestrutura de árvore de iluminação, é bastante eficiente em situações em que a\ncâmera se move e as fontes de luz e os objetos permanecem estáticos",
+      "e) se baseia no cálculo recursivo da iluminação transmitida e refletida por cada\nobjeto, sendo que sua eficiência aumenta a medida em que aumenta o nível de\ntransparência dos objetos envolvidos"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-64",
+    "numero": 64,
+    "enunciado": "Assinale a opção que melhor completa o parágrafo abaixo:\nSistemas distribuídos e computadores paralelos com múltiplos processadores\nfortemente acoplados possuem algumas características comuns, como a existência de\nvários processadores e a possibilidade de executar tarefas simultâneas, uma em cada\nprocessador, em um dado instante de tempo. Mas um sistema distribuído diferencia-se\nde um sistema multiprocessador fortemente acoplado principalmente porque o sistema\ndistribuído:",
+    "alternativas": [
+      "a) apresenta suporte de rede de alta velocidade e um relógio global compartilhado.",
+      "b) exige um sistema operacional de rede e hardware padronizado nos computadores.",
+      "c) não apresenta memória compartilhada nem relógio global.",
+      "d) possui memória secundária compartilhada e protocolos de sincronização de estado.",
+      "e) exige um ambiente de administração único e medidas especiais de segurança contra\nassociações ilícitas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-65",
+    "numero": 65,
+    "enunciado": "Considere dois sistemas computacionais formados por múltiplos computadores que\nmanipulam dados comuns. No primeiro, existe um computador central, chamado\nservidor, que é o único responsável pelos serviços de leitura e escrita desses dados.\nNo segundo, existe um grupo de computadores responsáveis pelos serviços de leitura\ne escrita, e cada um desses servidores deve manter uma réplica idêntica dos dados.\nEntre as vantagens e desvantagens de um único servidor em relação a vários\nservidores, podemos afirmar que o servidor único apresenta:\ni. Vantagem de maior velocidade de execução das operações de escrita e leitura\ne desvantagem de maior custo de armazenamento\nii. Vantagem de não necessitar de coordenação distribuída para ordenação das\noperações de escrita e desvantagem de menor velocidade nas leituras devido a\nserialização de operações\niii. Vantagem de manter mais facilmente a consistência dos dados mas\ndesvantagem de perda de disponibilidade em caso de falha do servidor.",
+    "alternativas": [
+      "a) (ii) e (iii)",
+      "b) apenas (ii)",
+      "c) apenas (i)",
+      "d) (i), (iii)",
+      "e) (i), (ii) e (iii)"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-67",
+    "numero": 67,
+    "enunciado": "Os tipos mais comuns de defeitos em sistemas distribuídos provocados por falhas\nfísicas de componentes ou interferência eletro-magnética são:",
+    "alternativas": [
+      "a) perda de arquivos, colapso de servidores, captura de senhas",
+      "b) captura de senhas, sobrecarga de servidores, mensagens duplicadas",
+      "c) perda de mensagens, mensagens com vírus e mensagens órfãs",
+      "d) colapso de servidores, queda do enlace e perda de mensagens",
+      "e) páginas web com endereço errado, spam e mensagens duplicadas"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-68",
+    "numero": 68,
+    "enunciado": "O protocolo padrão para gerenciamento de redes TCP/IP, definido pelo IETF, é:",
+    "alternativas": [
+      "a) SMTP",
+      "b) HTTP",
+      "c) SNMP",
+      "d) COPS",
+      "e) SSH"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-69",
+    "numero": 69,
+    "enunciado": "Qual das opções abaixo melhor caracteriza o protocolo IP?",
+    "alternativas": [
+      "a) Orientado a conexão, com suporte a QoS, com mecanismo de retransmissão",
+      "b) Não orientado a conexão, sem suporte a QoS, sem mecanismo de retransmissão",
+      "c) Orientado a conexão, sem suporte a QoS, sem mecanismo de retransmissão",
+      "d) Orientado a conexão, sem suporte a QoS, com mecanismo de retransmissão",
+      "e) Não orientado a conexão, com suporte a QoS, sem mecanismo de retransmissão"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-70",
+    "numero": 70,
+    "enunciado": "Assinale a alternativa que apresenta um protocolo de roteamento baseado no\nalgoritmo vetor-distância e é classificado como IGP (Interior Gateway Protocol):",
+    "alternativas": [
+      "a) OSPF",
+      "b) ICMP",
+      "c) BGP",
+      "d) RIP",
+      "e) RSVP"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
   }
 ]
