@@ -12024,14 +12024,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) 729",
-      "b) 537",
-      "c) 540",
-      "d) 183",
-      "e) 216"
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
@@ -12050,14 +12043,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) Algumas pessoas não gostam de matemática.",
-      "b) Todas as pessoas não gostam de matemática.",
-      "c) Existe uma pessoa que gosta de matemática.",
-      "d) Existe uma pessoa que não gosta de matemática.",
-      "e) Todas as pessoas gostam de matemática."
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
@@ -12076,14 +12062,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): A comida não é boa.\n\\(C\\): O serviço não é bom.",
-      "b) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): O serviço não é bom.\n\\(C\\): A comida é boa.",
-      "c) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): O serviço não é bom.\n\\(C\\): A comida não é boa.",
-      "d) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): A comida é boa.\n\\(C\\): O serviço não é bom.",
-      "e) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): A comida não é boa.\n\\(C\\): O serviço é bom."
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
@@ -12102,14 +12081,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) 15",
-      "b) 2/15",
-      "c) 1/15",
-      "d) 30",
-      "e) 15/2"
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
@@ -12128,14 +12100,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) permitir a execução de mais de uma instrução por ciclo de relógio",
-      "b) aumentar a velocidade do relógio",
-      "c) simplificar o conjunto de instruções",
-      "d) reduzir o número de instruções estáticas nos programas",
-      "e) simplificar a implementação do processador"
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
@@ -12154,14 +12119,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) aumenta o tráfego de instruções e /ou dados no barramento de memória",
-      "b) aumenta o tráfego de instruções e/ou dados entre memória e disco",
-      "c) diminui o tráfego de instruções e/ou dados no barramento de memória",
-      "d) diminui o tráfego de instruções e/ou dados entre memória e disco",
-      "e) permite acessos concorrentes à memória RAM"
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
@@ -12180,14 +12138,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) Nenhuma modificação é necessária no kernel.",
-      "b) O sistema operacional escalona a thread.",
-      "c) O escalonamento pode ser específico para a aplicação.",
-      "d) A criação e o gerenciamento das threads são mais eficientes.",
-      "e) Maior portabilidade da aplicação."
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
@@ -12206,14 +12157,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) erros que podem ocorrer durante a execução do programa",
-      "b) erros nos resultados gerados pelo programa",
-      "c) erros de sintaxe do programa",
-      "d) erros aritméticos",
-      "e) todos os erros citados acima"
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
@@ -12232,14 +12176,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) somente I e III",
-      "b) somente II, III e IV",
-      "c) somente I, II e IV",
-      "d) somente II, IV e V",
-      "e) todas"
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
@@ -12258,14 +12195,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) \\(1\\)",
-      "b) \\(n-1\\)",
-      "c) \\(n\\)",
-      "d) \\(n+1\\)",
-      "e) \\(nlogn\\)"
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
@@ -12284,14 +12214,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) bolha",
-      "b) shellsort",
-      "c) mergesort",
-      "d) quicksort",
-      "e) heapsort"
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
@@ -12310,14 +12233,7 @@
     "subarea": "",
     "dificuldade": "",
     "gabarito": "",
-    "solucao": "",
-    "alternatives": [
-      "a) Divisão",
-      "b) Junção interna",
-      "c) Junção externa",
-      "d) União",
-      "e) Projeção"
-    ]
+    "solucao": ""
   },
   {
     "edicao": 2003,
