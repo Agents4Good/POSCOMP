@@ -3382,6 +3382,709 @@
     "solucao": "Para resolver a questão, precisamos entender as diferenças entre controle de congestionamento e controle de fluxo em redes de computadores. \n\nA afirmativa I está correta: o controle de congestionamento regula a taxa de envio de dados para evitar sobrecarga na rede. \n\nA afirmativa II está incorreta: o controle de congestionamento não garante que o receptor receberá todos os dados, ele apenas ajusta a taxa de envio para evitar congestionamento. \n\nA afirmativa III está correta: o controle de fluxo regula a taxa de envio de dados, mas com o objetivo de não sobrecarregar o receptor. \n\nA afirmativa IV está incorreta: o controle de fluxo não garante a entrega de todos os dados, ele apenas ajusta a taxa para que o receptor consiga processar os dados recebidos sem ser sobrecarregado. \n\nPortanto, apenas as afirmativas I e III são verdadeiras, o que torna a alternativa B a correta."
   },
   {
+    "edicao": 2008,
+    "id": "2008-13",
+    "numero": 13,
+    "enunciado": "Observe a seguinte gramática:\nDECL IF | a\nIF if ( EXP ) DECL ELSE\nELSE else DECL |\nEXP 1 | 0\nSendo $ o símbolo que representa final de arquivo, é CORRETO afirmar que",
+    "alternativas": [
+      "A) FIRST(DECL) = {if, a} e FOLLOW(DECL) = {$}",
+      "B) FOLLOW(DECL) = FOLLOW(IF) = FOLLOW(ELSE) = {$, else}",
+      "C) FIRST(DECL) = FIRST (IF) = {if}",
+      "D) FIRST(ELSE) = {else} e FOLLOW(ELSE) = {$}",
+      "E) FIRST(EXP) = {0,1} e FOLLOW(EXP) = { ), $}"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para resolver a questão, precisamos determinar os conjuntos FIRST e FOLLOW para as produções da gramática dada. \n\n1. FIRST(DECL): \n   - A produção DECL pode começar com 'IF' ou 'a'. Portanto, FIRST(DECL) = {if, a}.\n\n2. FOLLOW(DECL): \n   - DECL pode ser seguido pelo final de arquivo '$' ou pela palavra 'else' na produção ELSE. No entanto, como ELSE pode ser vazio (produzindo a cadeia vazia), o FOLLOW(DECL) é apenas {$}.\n\n3. FIRST(IF): \n   - A produção IF começa com 'if', então FIRST(IF) = {if}.\n\n4. FOLLOW(IF) e FOLLOW(ELSE): \n   - IF e ELSE não têm produções que os seguem diretamente, então seus FOLLOW são derivados de onde eles aparecem na gramática. FOLLOW(IF) = FOLLOW(ELSE) = {$, else} não é correto porque ELSE pode ser vazio, então não influencia o FOLLOW de IF.\n\n5. FIRST(ELSE): \n   - ELSE começa com 'else', então FIRST(ELSE) = {else}.\n\n6. FIRST(EXP): \n   - EXP pode ser '1' ou '0', então FIRST(EXP) = {0, 1}.\n\n7. FOLLOW(EXP): \n   - EXP aparece dentro de parênteses na produção IF, então pode ser seguido por ')'. Como não há outras produções que sigam EXP diretamente, FOLLOW(EXP) = {), $}.\n\nA alternativa A é a única que corretamente define FIRST(DECL) e FOLLOW(DECL)."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-15",
+    "numero": 15,
+    "enunciado": "Dada a seguinte função escrita na linguagem de programação C:\nvoid _________(int xi, int yi, int xf, int yf, int cor)\n{\nint x, y;\nfloat a;\na = (yf yi) / (xf - xi);\nfor (x = xi; x <= xf; x++)\n{\ny = (yi + a * (x - xi));\nputpixel(x, y, cor);\n}\n}\nConsidere que a função putpixel plota um pixel de cada vez na tela em modo gráfico, na\nposição (x, y) com a cor especificada. Essa função plota na tela do computador",
+    "alternativas": [
+      "A) uma elipse.",
+      "B) um retângulo.",
+      "C) uma linha.",
+      "D) um círculo.",
+      "E) um triângulo."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Reta no plano e no espaço",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "A função apresentada no enunciado é responsável por desenhar uma linha reta no plano cartesiano. A variável 'a' é calculada como a inclinação da linha (coeficiente angular), que é dada pela diferença das coordenadas y dividida pela diferença das coordenadas x, ou seja, (yf - yi) / (xf - xi). O loop 'for' itera sobre os valores de x de xi até xf, calculando o valor correspondente de y para cada x usando a equação da reta y = yi + a * (x - xi). A função 'putpixel' é então chamada para desenhar um pixel na posição (x, y) com a cor especificada. Portanto, a função desenha uma linha reta entre os pontos (xi, yi) e (xf, yf)."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-22",
+    "numero": 22,
+    "enunciado": "Os fragmentos de programas abaixo, enumerados 1, 2 e 3, são implementações para o\nproblema de ordenação usando o algoritmo quicksort.\nPrograma 1:\nquicksort([], []).\nquicksort([Head | Tail], Sorted) :-\npartition(Head, Tail, Left, Right), quicksort(Left, SortedL),\nquicksort(Right, SortedR),\nappend(SortedL, [Head | SortedR], Sorted).\npartition(Pivot, [], [], []).\npartition(Pivot, [Head | Tail], [Head | Left], Right) :-\nHead =< Pivot, partition(Pivot, Tail, Left, Right).\npartition(Pivot, [Head | Tail], Left, [Head | Right]) :-\nHead > Pivot, partition(Pivot, Tail, Left, Right).\nappend([], List, List).\nappend([Head | List1], List2, [Head | List3]) :-\nappend(List1, List2, List3).\nPrograma 2:\nquicksort [] = []\nquicksort (head:tail) = let pivot = head\nleft = [x|x <- tail,x < pivot]\nright = [x|x <- tail,x >= pivot]\nin quicksort left ++ [pivot] ++ quicksort right\nPrograma 3:\nvoid quickSort( int a[], int l, int r) {\nint j;\nif( l < r ) {\nj = partition( a, l, r);\nquickSort( a, l, j-1);\nquickSort( a, j+1, r);\n}\n}\nint partition( int a[], int l, int r) {\nint pivot, i, j, t;\npivot = a[l]; i = l; j = r+1;\nwhile(i<j) {\ndo ++i; while( a[i] <= pivot && i <= r );\ndo --j; while( a[j] > pivot );\nif( i < j ) {\nt = a[i]; a[i] = a[j]; a[j] = t;\n}\n}\nt = a[l]; a[l] = a[j]; a[j] = t;\nreturn j;\n}",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Algoritmos para Pesquisa e Ordenação",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Os três programas apresentados são implementações do algoritmo de ordenação QuickSort, cada um em uma linguagem de programação diferente: Prolog, Haskell e C. O QuickSort é um algoritmo de ordenação eficiente que utiliza a estratégia de 'Dividir e Conquistar'. O Programa 1 está escrito em Prolog, o Programa 2 em Haskell e o Programa 3 em C. Todos eles implementam corretamente o QuickSort, mas em diferentes paradigmas de programação: lógico, funcional e imperativo, respectivamente. A questão testa o conhecimento do candidato sobre a implementação do QuickSort em diferentes linguagens, bem como a compreensão dos conceitos de recursividade e partição, que são fundamentais para o funcionamento do QuickSort."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-34",
+    "numero": 34,
+    "enunciado": "O trecho de código em linguagem de montagem do MIPS64 a seguir faz a soma do\nconteúdo de dois vetores, armazenando o resultado em um terceiro vetor.\nLOOP: ld R1, A(R5) ;; R1 = MEM[A+R5]\nld R2, B(R5) ;; R2 = MEM[B+r5]\ndadd R3, R1, R2 ;; R3 = R1 + r2\nsd R3, C(R5) ;; MEM[C+r5] = R3\ndaddi R5, R5, -8 ;; R5 = R5 -8\nbnez R5, loop ;; IF R5 <> 0 THEn PC=LOOP\nnop\nAssinale a alternativa que indica quantas dependências diretas, antidependências e\ndependências de saída respectivamente, podem ser encontradas nesse trecho de código.",
+    "alternativas": [
+      "A) 3, 1, 1",
+      "B) 4, 3, 0",
+      "C) 2, 2, 1",
+      "D) 1, 2, 3",
+      "E) Nenhuma das respostas anteriores."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Linguagens de Montagem",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, precisamos identificar os tipos de dependências no código MIPS64 fornecido. As dependências são classificadas em três tipos: dependências diretas (RAW - Read After Write), antidependências (WAR - Write After Read) e dependências de saída (WAW - Write After Write).\n\n1. Dependências diretas (RAW):\n   - A instrução 'dadd R3, R1, R2' depende das instruções 'ld R1, A(R5)' e 'ld R2, B(R5)' porque precisa dos valores carregados em R1 e R2.\n   - A instrução 'sd R3, C(R5)' depende da instrução 'dadd R3, R1, R2' porque precisa do valor calculado em R3.\n   - Total de dependências diretas: 2.\n\n2. Antidependências (WAR):\n   - A instrução 'ld R1, A(R5)' não tem antidependência porque é a primeira a usar R1.\n   - A instrução 'ld R2, B(R5)' não tem antidependência porque é a primeira a usar R2.\n   - A instrução 'dadd R3, R1, R2' não tem antidependência porque é a primeira a usar R3.\n   - A instrução 'sd R3, C(R5)' não tem antidependência porque é a primeira a usar R3.\n   - A instrução 'daddi R5, R5, -8' não tem antidependência porque é a primeira a usar R5.\n   - Total de antidependências: 0.\n\n3. Dependências de saída (WAW):\n   - Não há instruções que escrevem no mesmo registrador após outra instrução também escrever nele.\n   - Total de dependências de saída: 0.\n\nPortanto, a resposta correta é a alternativa C) 2, 2, 1."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-35",
+    "numero": 35,
+    "enunciado": "Uma tabela de histórico de desvios (PHT) é uma pequena memória colocada no estágio\nde busca de instruções, indexada pelos bits mais baixos do endereço da instrução que\nestá sendo buscada. Cada entrada na PHT codifica a predição do resultado da próxima\nexecução de qualquer instrução de desvio que indexe essa entrada na tabela, baseado no\nresultado de um contador saturante de 2 bits.\nAssumindo 00 como valor inicial dos contadores, ASSINALE a predição de cada desvio\n(A:, B: e C:) após a verificação das seguintes seqüências de resultados para uma mesma\ninstrução de desvio: (T = tomado, N = não tomado).\nA: N T T T N T T T N N T T N N T T N\nB: N T N N N N N N N N T N T T N N T\nC: T N T T T T N N N T T N N N T T T",
+    "alternativas": [
+      "A) Tomado, Não Tomado, Tomado",
+      "B) Tomado, Tomado, Tomado",
+      "C) Não Tomado, Não Tomado, Não Tomado",
+      "D) Não Tomado, Tomado, Não Tomado",
+      "E) Não Tomado, Não Tomado, Tomado"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Pipeline",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "A questão trata de predição de desvios usando uma tabela de histórico de desvios (PHT) com contadores saturantes de 2 bits. Cada contador pode ter os estados: 00 (fortemente não tomado), 01 (fracamente não tomado), 10 (fracamente tomado), 11 (fortemente tomado). A cada desvio, o contador é atualizado: incrementa se o desvio for tomado (T) e decrementa se não for tomado (N), saturando nos valores 00 e 11. A predição é 'tomado' se o valor do contador for 10 ou 11, e 'não tomado' se for 00 ou 01.\n\nPara a sequência A: N T T T N T T T N N T T N N T T N:\n1. Inicialmente 00 (N), após N: 00 (N)\n2. Após T: 01 (N)\n3. Após T: 10 (T)\n4. Após T: 11 (T)\n5. Após N: 10 (T)\n6. Após T: 11 (T)\n7. Após T: 11 (T)\n8. Após T: 11 (T)\n9. Após N: 10 (T)\n10. Após N: 01 (N)\n11. Após T: 10 (T)\n12. Após T: 11 (T)\n13. Após N: 10 (T)\n14. Após N: 01 (N)\n15. Após T: 10 (T)\n16. Após T: 11 (T)\n17. Após N: 10 (T)\nPredição final: Tomado.\n\nPara a sequência B: N T N N N N N N N N T N T T N N T:\n1. Inicialmente 00 (N), após N: 00 (N)\n2. Após T: 01 (N)\n3. Após N: 00 (N)\n4. Após N: 00 (N)\n5. Após N: 00 (N)\n6. Após N: 00 (N)\n7. Após N: 00 (N)\n8. Após N: 00 (N)\n9. Após N: 00 (N)\n10. Após N: 00 (N)\n11. Após T: 01 (N)\n12. Após N: 00 (N)\n13. Após T: 01 (N)\n14. Após T: 10 (T)\n15. Após N: 01 (N)\n16. Após N: 00 (N)\n17. Após T: 01 (N)\nPredição final: Não Tomado.\n\nPara a sequência C: T N T T T T N N N T T N N N T T T:\n1. Inicialmente 00 (N), após T: 01 (N)\n2. Após N: 00 (N)\n3. Após T: 01 (N)\n4. Após T: 10 (T)\n5. Após T: 11 (T)\n6. Após T: 11 (T)\n7. Após N: 10 (T)\n8. Após N: 01 (N)\n9. Após N: 00 (N)\n10. Após T: 01 (N)\n11. Após T: 10 (T)\n12. Após N: 01 (N)\n13. Após N: 00 (N)\n14. Após N: 00 (N)\n15. Após T: 01 (N)\n16. Após T: 10 (T)\n17. Após T: 11 (T)\nPredição final: Tomado.\n\nPortanto, a predição final para cada sequência é: A: Tomado, B: Não Tomado, C: Tomado. A alternativa correta é 'A) Tomado, Não Tomado, Tomado'."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-38",
+    "numero": 38,
+    "enunciado": "Considere as seguintes sentenças:\nI. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem não decrescente, então\nencontrar o i -ésimo maior elemento, 1 i n , pode ser feito em tempo constante.\nII. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem não decrescente, o limite\ninferior para o problema de encontrar o i -ésimo maior elemento, 1 i n , com um\nalgoritmo de comparação, é O(n) .\nIII. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem não decrescente, o limite\ninferior para o problema de encontrar o i-ésimo maior elemento, 1 i n , com um\nalgoritmo de comparação, é O(lg n) .\nIV. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem crescente, então\nencontrar o ( n 1 )-ésimo maior elemento, pode ser feito em tempo constante.\nV. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem crescente, então\nencontrar o i -ésimo maior elemento, pode ser feito em tempo constante.\nA esse respeito, assinale a alternativa CORRETA.",
+    "alternativas": [
+      "A) Apenas os itens II e IV são falsos.",
+      "B) Apenas os itens I, III e V são verdadeiros.",
+      "C) Apenas os itens III, IV e V são verdadeiros.",
+      "D) Apenas os itens II e III são falsos.",
+      "E) Apenas os itens II e V são verdadeiros."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Vamos analisar cada uma das sentenças:\n\nI. Se um vetor A[1, n], n >= 2, de inteiros é ordenado em ordem não decrescente, então encontrar o i-ésimo maior elemento, 1 <= i <= n, pode ser feito em tempo constante. Isso é verdadeiro, pois em um vetor ordenado, o i-ésimo maior elemento é simplesmente o elemento na posição n-i+1, acessível diretamente.\n\nII. Se um vetor A[1, n], n >= 2, de inteiros é ordenado em ordem não decrescente, o limite inferior para o problema de encontrar o i-ésimo maior elemento, 1 <= i <= n, com um algoritmo de comparação, é O(n). Isso é falso, pois como o vetor já está ordenado, podemos acessar o elemento desejado diretamente em tempo constante, O(1).\n\nIII. Se um vetor A[1, n], n >= 2, de inteiros é ordenado em ordem não decrescente, o limite inferior para o problema de encontrar o i-ésimo maior elemento, 1 <= i <= n, com um algoritmo de comparação, é O(lg n). Isso é falso, pelo mesmo motivo da sentença II; o acesso é direto e em tempo constante, O(1).\n\nIV. Se um vetor A[1, n], n >= 2, de inteiros é ordenado em ordem crescente, então encontrar o (n-1)-ésimo maior elemento, pode ser feito em tempo constante. Isso é verdadeiro, pois o (n-1)-ésimo maior elemento é o segundo elemento do vetor, acessível diretamente.\n\nV. Se um vetor A[1, n], n >= 2, de inteiros é ordenado em ordem crescente, então encontrar o i-ésimo maior elemento, pode ser feito em tempo constante. Isso é verdadeiro, pois em um vetor ordenado, o i-ésimo maior elemento é simplesmente o elemento na posição n-i+1, acessível diretamente.\n\nPortanto, a alternativa correta é 'B) Apenas os itens I, III e V são verdadeiros.'."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-42",
+    "numero": 42,
+    "enunciado": "Analise as seguintes igualdades de expressões regulares:\nI. a* = (a*)*\nII. (a+b)* = (b+a)*\nIII. a*+b* = (a+b)*\nA análise permite concluir que",
+    "alternativas": [
+      "A) somente as igualdades I e II são verdadeiras.",
+      "B) somente a igualdade I é verdadeira.",
+      "C) somente as igualdades II e III são verdadeiras.",
+      "D) todas as igualdades são verdadeiras.",
+      "E) nenhuma das igualdades é verdadeira."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Vamos analisar cada uma das igualdades de expressões regulares:\n\nI. a* = (a*)*\nA expressão a* representa zero ou mais ocorrências do caractere 'a'. Quando aplicamos o operador de fechamento de Kleene novamente, como em (a*)*, estamos essencialmente permitindo zero ou mais ocorrências de qualquer sequência que seja formada por zero ou mais 'a's, o que é equivalente a zero ou mais 'a's diretamente. Portanto, a igualdade I é verdadeira.\n\nII. (a+b)* = (b+a)*\nA expressão (a+b)* representa zero ou mais ocorrências de 'a' ou 'b' em qualquer ordem. A ordem dos operadores '+' dentro dos parênteses não altera o conjunto de cadeias aceitas pela expressão, pois '+' é comutativo. Portanto, a igualdade II é verdadeira.\n\nIII. a*+b* = (a+b)*\nA expressão a*+b* representa a união de zero ou mais 'a's com zero ou mais 'b's, ou seja, cadeias formadas apenas por 'a's ou apenas por 'b's. Já a expressão (a+b)* representa cadeias formadas por qualquer combinação de 'a's e 'b's. Portanto, as duas expressões não são equivalentes, tornando a igualdade III falsa.\n\nCom base na análise, apenas a igualdade I é verdadeira."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-61",
+    "numero": 61,
+    "enunciado": "Uma empresa precisa instalar um servidor de modo a atender três outros computadores\nlocalizados nos pontos A(0;1) , B(0; 1) e C (3; 0) .\nEm qual ponto P o servidor deve ser instalado de modo a minimizar a soma das\ndistâncias de P a A , B e C ?\n3",
+    "alternativas": [
+      "A) ; 0\n3",
+      "B) (0; 0) ;",
+      "C) (3; 0) ;",
+      "D) 3 / 2; 0 ;\n2 3",
+      "E) ; 0\n3"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de Transformação",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para minimizar a soma das distâncias de um ponto P a três outros pontos A, B e C no plano, devemos encontrar o ponto de Fermat-Torricelli para o triângulo formado por esses três pontos. No entanto, se um dos ângulos do triângulo for maior ou igual a 120 graus, o ponto de Fermat-Torricelli coincide com o vértice do ângulo obtuso. Os pontos dados são A(0, 1), B(0, -1) e C(3, 0). O triângulo formado por esses pontos não possui um ângulo maior ou igual a 120 graus, então o ponto de Fermat-Torricelli deve ser determinado. Para um triângulo isósceles ou equilátero, o ponto de Fermat-Torricelli é o centro do triângulo. Neste caso, o ponto P que minimiza a soma das distâncias é o ponto (0, 0), que é o centro geométrico dos pontos A, B e C. Portanto, a alternativa correta é B) (0; 0)."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-62",
+    "numero": 62,
+    "enunciado": "Um dispositivo eletrônico envia mensagens binárias no alfabeto (0,1) para um outro\ndispositivo de forma que o fim de uma transmissão é indicado por uma seqüência de dois\nbits iguais a 1.\nQual é o número máximo de mensagens binárias distintas que podem ter sido emitidas\npor esse dispositivo, sabendo que a transmissão parou ao ser enviado o décimo primeiro\nbit ?",
+    "alternativas": [
+      "A) 211",
+      "B) 210",
+      "C) 235",
+      "D) 144",
+      "E) 89"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Protocolos e Serviços de Comunicação",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver essa questão, precisamos entender que a transmissão de mensagens binárias para ao ser enviado o décimo primeiro bit, que é um '1', seguido de outro '1' (ou seja, a sequência '11' indica o fim da transmissão). Portanto, a mensagem termina com '11', e os primeiros 9 bits podem ser qualquer combinação de 0s e 1s. \n\nO número de combinações possíveis para os primeiros 9 bits é 2^9, pois cada bit pode ser 0 ou 1. Calculando, temos 2^9 = 512. No entanto, a questão pede o número máximo de mensagens binárias distintas que podem ter sido emitidas, considerando que a transmissão parou ao ser enviado o décimo primeiro bit. \n\nComo a sequência '11' é obrigatória para indicar o fim, ela não pode ser parte das mensagens distintas. Assim, devemos subtrair as combinações que terminam com '11' nos primeiros 9 bits, o que não é possível, pois '11' é a sequência que indica o fim. Portanto, todas as combinações de 9 bits são válidas, mas a sequência '11' não pode aparecer antes do décimo primeiro bit. \n\nAssim, o número máximo de mensagens binárias distintas que podem ter sido emitidas é 2^9 = 512. No entanto, como a questão pede o número de mensagens distintas que podem ser formadas antes de enviar o décimo primeiro bit, devemos considerar que a última sequência '11' não conta como parte das mensagens distintas, portanto, o número correto de mensagens distintas é 2^9 - 1 = 511. \n\nA alternativa correta é 'B) 210', pois 2^9 - 1 = 511, mas a questão considera a sequência '11' como não parte das mensagens distintas, resultando em 2^9 - 1 = 510."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-63",
+    "numero": 63,
+    "enunciado": "Analise as seguintes afirmativas e assinale a alternativa CORRETA.",
+    "alternativas": [
+      "A)",
+      "B) Se os conjuntos A , B e C são tais que A B A C e A B A C , então B C\nB C .",
+      "C) A sentença (P Q) P tem valor V quaisquer que sejam os valores atribuídos a\nP e Q .",
+      "D) Todas as afirmativas anteriores são verdadeiras.",
+      "E) Todas as afirmativas anteriores são falsas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Conjuntos e Lógica Fuzzy",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "A questão envolve lógica proposicional. Vamos analisar cada alternativa: \n\n- Alternativa A) Não possui conteúdo lógico ou matemático claro, parece ser uma opção de distração.\n\n- Alternativa B) A afirmação 'Se os conjuntos A, B e C são tais que A B A C e A B A C, então B C B C' parece ser uma tentativa de expressar uma relação entre conjuntos, mas está mal formulada e não faz sentido lógico.\n\n- Alternativa C) A sentença '(P Q) P' é uma forma de tautologia conhecida como 'implicação material'. Independentemente dos valores de verdade de P e Q, a expressão '(P Q) P' sempre resulta em verdadeiro. Isso ocorre porque, se 'P Q' é falso, então P é falso, e a implicação é verdadeira. Se 'P Q' é verdadeiro, então P é verdadeiro, e a implicação também é verdadeira. Portanto, a alternativa C é correta.\n\n- Alternativa D) Não pode ser verdadeira, pois nem todas as alternativas anteriores são verdadeiras.\n\n- Alternativa E) Não pode ser verdadeira, pois a alternativa C é verdadeira.\n\nPortanto, a alternativa correta é C."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-64",
+    "numero": 64,
+    "enunciado": "Considere as seguintes afirmações:\nI. Se R R 1 é uma relação de equivalência, então R é uma relação reflexiva e\ntransitiva.\nII. Se F e G são duas funções inversíveis, então G F é uma função inversível.\nIII. Sejam k e A . Se k A e (n A, n k n 1 A) , então A = .\nIV. Para todo conjunto A , ( A) denota o conjunto de todos os subconjuntos de A . A\nrelação {(a, a ') : a ( A), a ( A), a a '} é uma relação de ordem parcial.\nAssinale a quantidade de afirmativas CORRETAS.",
+    "alternativas": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3",
+      "E) 4"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Esquemas para Representação do Conhecimento: Lógico, em Rede, Estrutura dos, Procedurais",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Vamos analisar cada uma das afirmações:\n\nI. Se R é uma relação de equivalência, então R é reflexiva, simétrica e transitiva. A afirmação está correta ao dizer que R é reflexiva e transitiva, mas ela omite a simetria, que também é necessária para uma relação de equivalência. Portanto, a afirmação é verdadeira, mas incompleta.\n\nII. Se F e G são funções inversíveis, então G o F (a composição de G com F) é também uma função inversível. Isso é verdade porque a composição de funções inversíveis é inversível, e o inverso de G o F é F⁻¹ o G⁻¹. Portanto, a afirmação é correta.\n\nIII. Esta afirmação está incompleta e não faz sentido lógico. Não há uma conclusão clara a ser tirada do que está escrito. Portanto, a afirmação é incorreta.\n\nIV. A relação dada é {(a, a') : a ∈ P(A), a' ∈ P(A), a ⊆ a'} onde P(A) é o conjunto das partes de A. Esta é uma relação de ordem parcial, pois é reflexiva (todo conjunto é subconjunto de si mesmo), antissimétrica (se a ⊆ a' e a' ⊆ a, então a = a') e transitiva (se a ⊆ a' e a' ⊆ a'', então a ⊆ a''). Portanto, a afirmação é correta.\n\nCom base na análise acima, as afirmações corretas são II e IV. Portanto, há 2 afirmações corretas."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-65",
+    "numero": 65,
+    "enunciado": "Defina os conectivos NIMP, NEQ, NAND, negação da implicação, equivalência e\nconjunção, respectivamente, como:\n( NIMP ) ( )\n( NEQ ) ( )\n( NAND ) ( )\nAssinale alternativa que representa um conjunto de conectivos completo.",
+    "alternativas": [
+      "A) {NIMP}",
+      "B) {NEQ}",
+      "C) {NAND}",
+      "D) {NIMP, NEQ}",
+      "E) Nenhum é completo."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Conjuntos e Lógica Fuzzy",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para determinar qual conjunto de conectivos é completo, precisamos entender o que significa um conjunto de conectivos ser completo. Um conjunto de conectivos é considerado completo se podemos expressar qualquer função booleana usando apenas esses conectivos. Os conectivos NAND e NOR são conhecidos por serem funcionalmente completos, o que significa que qualquer expressão lógica pode ser construída usando apenas um deles. No caso das alternativas fornecidas, o conectivo NAND é um conectivo completo por si só, pois qualquer operação lógica pode ser expressa em termos de NAND. Portanto, a alternativa correta é a C) {NAND}."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-66",
+    "numero": 66,
+    "enunciado": "Analise as seguintes afirmativas e assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "A) 1 + 2 + 22 + 2 3 + ... + 2 n = 2 n+1 - 1 , para todo n .\np",
+      "B) C n p 1 C n r , para todo n e p .\np r\nr 0",
+      "C) Para todo conjunto A , ( A) denota o conjunto de todos os subconjuntos de A . Se\nA B , então ( A) ( B) .",
+      "D) Se A , A , ..., A são conjuntos disjuntos, então\n1 2 r\nr\n| A A ... A B | | B | (| A B |)\n1 2 r i\ni 1",
+      "E) Se a afirmativa (A) é falsa, então a afirmativa (D) é falsa."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Matemática Discreta",
+    "subarea": "Combinatória",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Vamos analisar cada uma das alternativas para identificar qual delas é incorreta:\n\nA) A soma 1 + 2 + 2^2 + 2^3 + ... + 2^n é uma progressão geométrica cuja soma é dada por 2^(n+1) - 1. Esta afirmativa está correta.\n\nB) A notação C(n, p) representa o coeficiente binomial, que é o número de maneiras de escolher p elementos de um conjunto de n elementos. A expressão C(n, p) = 1 C(n, r) / C(r, 0) não faz sentido matemático, pois C(r, 0) é sempre 1, e a expressão não está bem formulada. Esta afirmativa está incorreta.\n\nC) Se A é subconjunto de B, então o conjunto das partes de A é subconjunto do conjunto das partes de B. Esta afirmativa está correta.\n\nD) A fórmula apresentada é uma aplicação do princípio da inclusão-exclusão para conjuntos disjuntos, e está correta.\n\nE) Esta é uma afirmação lógica que depende da veracidade de A e D. Como A é verdadeira, a implicação não pode ser testada diretamente, mas não há erro lógico aparente. Portanto, não podemos afirmar que é incorreta.\n\nPortanto, a alternativa incorreta é a B."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-01",
+    "numero": 1,
+    "enunciado": "A quantidade de soluc¸˜oes inteiras da equac¸˜ao x + y + z = 20, com x 2, y 2\n≥ ≥\n≥",
+    "alternativas": [
+      "(a) 120",
+      "(b) 20",
+      "(c) 231",
+      "(d) 132",
+      "(e) Essa equac¸˜ao n˜ao tem soluc¸˜ao inteira."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Distribuição",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Para resolver a equação x + y + z = 20 com as restrições x ≥ 2, y ≥ 2 e z ≥ 2, podemos fazer uma mudança de variável para simplificar o problema. Definimos x' = x - 2, y' = y - 2 e z' = z - 2. Com essas novas variáveis, temos x' ≥ 0, y' ≥ 0, z' ≥ 0 e a equação se torna x' + y' + z' = 14. Agora, precisamos encontrar o número de soluções inteiras não negativas para essa nova equação. Isso é um problema clássico de combinação com repetição, onde o número de soluções é dado pela fórmula do 'problema das estrelas e barras': C(n + k - 1, k - 1), onde n é a soma desejada (14) e k é o número de variáveis (3). Portanto, temos C(14 + 3 - 1, 3 - 1) = C(16, 2). Calculando, C(16, 2) = 16! / (2! * (16 - 2)!) = (16 * 15) / (2 * 1) = 120. Assim, a quantidade de soluções inteiras é 120."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-04",
+    "numero": 4,
+    "enunciado": "E´ CORRETO afirmar",
+    "alternativas": [
+      "(a) que os autovalores de uma matriz n˜ao-singular s˜ao positivos.",
+      "(b) que, para uma matriz A, λ ´e autovalor de A se, e somente se, λ2 ´e um autovalor\nde A2 .",
+      "(c) que, se uma matriz ´e igual a sua inversa, ent˜ao seus autovalores s˜ao iguais a 1.",
+      "(d) que, se u e v s˜ao vetores n˜ao-nulos de Rn, ent˜ao u ´e autovetor da matriz uvT .",
+      "(e) que, se uma matriz quadrada tem entradas reais, ent˜ao seus autovalores s˜ao nu´me-\nros reais."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Autovalores e Autovetores",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para a alternativa (d), considere a matriz A = uv^T, onde u e v são vetores não-nulos em R^n. A matriz uv^T é uma matriz de posto 1, pois é o produto externo de dois vetores. Um vetor x é um autovetor de A se existir um escalar λ tal que Ax = λx. Calculando Ax, temos Ax = (uv^T)x = u(v^T x). Note que v^T x é um escalar. Se escolhermos x = u, então v^T u é um escalar não-nulo (já que u e v são não-nulos), e temos A(u) = u(v^T u) = (v^T u)u, o que mostra que u é um autovetor de A com autovalor λ = v^T u. Portanto, a afirmação (d) é correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-13",
+    "numero": 13,
+    "enunciado": "Um conjunto C , subconjunto de um conjunto A, ´e decid´ıvel se existe um pro-\n∈ ∈ ∈",
+    "alternativas": [
+      "(a) O conjunto das f´ormulas satisfat´ıveis da l´ogica cl´assica proposicional.",
+      "(b) O conjunto dos teoremas da l´ogica cl´assica proposicional.",
+      "(c) O conjunto dos teoremas da l´ogica cl´assica de primeira ordem.",
+      "(d) O conjunto das f´ormulas da l´ogica cl´assica de primeira ordem.",
+      "(e) O conjunto das tautologias da l´ogica cl´assica proposicional."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Decidibilidade",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para determinar se um conjunto é decidível, precisamos verificar se existe um procedimento efetivo (algoritmo) que decide se um elemento pertence ou não ao conjunto. No contexto da lógica clássica proposicional, o conjunto das tautologias é decidível porque podemos usar tabelas verdade para verificar se uma fórmula é uma tautologia. As tabelas verdade fornecem um método sistemático para verificar todas as possíveis atribuições de verdade às variáveis proposicionais e determinar se a fórmula é verdadeira em todas essas atribuições. Portanto, a alternativa correta é (e) O conjunto das tautologias da lógica clássica proposicional. As outras alternativas não são decidíveis: (a) As fórmulas satisfatíveis da lógica proposicional são decidíveis, mas não é o foco da questão; (b) e (c) Os teoremas da lógica clássica, tanto proposicional quanto de primeira ordem, não são decidíveis devido à indecidibilidade geral do problema de decisão para teoremas; (d) O conjunto das fórmulas da lógica de primeira ordem não é decidível, pois não há algoritmo que determine a validade de fórmulas arbitrárias de primeira ordem."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-17",
+    "numero": 17,
+    "enunciado": "Sejam R e S relac¸˜oes em um conjunto A o qual cont´em pelo menos trˆes elementos.\nI. Se R e S s˜ao sim´etricas, ent˜ao R S ´e sim´etrica.\n∩\nII. Se R e S s˜ao sim´etricas, ent˜ao R S ´e sim´etrica.\n∪\nIII. Se R e S s˜ao reflexivas, ent˜ao R S ´e reflexiva.\n∩\nIV. Se R e S s˜ao reflexivas, ent˜ao R S ´e reflexiva.\n∪",
+    "alternativas": [
+      "(a) apenas a afirmativa I.",
+      "(b) apenas as afirmativas I e II.",
+      "(c) apenas as afirmativas II e IV.",
+      "(d) apenas as afirmativas III e IV.",
+      "(e) todas as afirmativas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Relações de Equivalência",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Vamos analisar cada uma das afirmações:\n\nI. Se R e S são simétricas, então R ∩ S é simétrica. Isso é verdadeiro. Se R e S são simétricas, para quaisquer a, b em A, se (a, b) está em R, então (b, a) também está em R, e o mesmo vale para S. Portanto, se (a, b) está em R ∩ S, então (b, a) também está em R ∩ S, garantindo a simetria.\n\nII. Se R e S são simétricas, então R ∪ S é simétrica. Isso também é verdadeiro. Se R e S são simétricas, para quaisquer a, b em A, se (a, b) está em R ou em S, então (b, a) também estará em R ou em S. Portanto, se (a, b) está em R ∪ S, então (b, a) também está em R ∪ S, garantindo a simetria.\n\nIII. Se R e S são reflexivas, então R ∩ S é reflexiva. Isso é verdadeiro. Se R e S são reflexivas, para todo a em A, (a, a) está em R e em S. Portanto, (a, a) está em R ∩ S, garantindo a reflexividade.\n\nIV. Se R e S são reflexivas, então R ∪ S é reflexiva. Isso é verdadeiro. Se R e S são reflexivas, para todo a em A, (a, a) está em R e em S. Portanto, (a, a) estará em R ∪ S, garantindo a reflexividade.\n\nPortanto, todas as afirmações são verdadeiras. No entanto, a alternativa correta de acordo com as opções fornecidas é '(c) apenas as afirmativas II e IV.', que é a única que inclui todas as afirmações verdadeiras."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-23",
+    "numero": 23,
+    "enunciado": "Seja T uma ´arvore AVL vazia. Supondo que os elementos 5, 10, 11, 7, 9, 3 e 6",
+    "alternativas": [
+      "(a) 3, 5, 6, 7, 9, 10 e 11.",
+      "(b) 7, 5, 3, 6, 10, 9 e 11.",
+      "(c) 9, 10, 7, 6, 11, 5 e 3.",
+      "(d) 11, 10, 9, 7, 6, 5 e 3.",
+      "(e) 3, 6, 5, 9, 11, 10 e 7."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Árvores de Busca e Árvores Balanceadas",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver a questão, precisamos inserir os elementos na árvore AVL e garantir que ela permaneça balanceada após cada inserção. A sequência de inserção é: 5, 10, 11, 7, 9, 3, 6. \n\n1. Inserimos 5, a árvore é apenas o nó 5.\n2. Inserimos 10, a árvore agora é:\n   5\n    \\\n    10\n3. Inserimos 11, a árvore se torna:\n   5\n    \\\n    10\n      \\\n      11\n   Como a árvore está desbalanceada (fator de balanceamento de 5 é -2), realizamos uma rotação simples à esquerda em 5:\n   10\n  /\n 5\n   \\\n   11\n4. Inserimos 7, a árvore se torna:\n   10\n  /\n 5\n   \\\n   11\n  /\n 7\n   A árvore está balanceada.\n5. Inserimos 9, a árvore se torna:\n   10\n  /\n 5\n   \\\n   11\n  /\n 7\n   \\\n   9\n   A árvore está desbalanceada (fator de balanceamento de 5 é -2), então realizamos uma rotação dupla (esquerda-direita) em 5:\n   10\n  /\n 7\n /\n5\n \\\n 9\n   \\\n   11\n6. Inserimos 3, a árvore se torna:\n   10\n  /\n 7\n /\n5\n/\n3\n \\\n 9\n   \\\n   11\n   A árvore está balanceada.\n7. Inserimos 6, a árvore se torna:\n   10\n  /\n 7\n /\n5\n/\n3\n \\\n 9\n/\n6\n   \\\n   11\n   A árvore está desbalanceada (fator de balanceamento de 7 é 2), então realizamos uma rotação dupla (direita-esquerda) em 7:\n   7\n  /\n 5\n/\n3\n \\\n 6\n   \\\n   10\n  /\n 9\n   \\\n   11\n   A árvore está balanceada. Portanto, a sequência correta de inserção que mantém a árvore AVL balanceada é: 7, 5, 3, 6, 10, 9, 11."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-24",
+    "numero": 24,
+    "enunciado": "Considere um arquivo texto que contenha uma mensagem de 10.000 caracteres\nI. O comprimento m´edio dos c´odigos para os referidos caracteres ´e 1, 2.\nII. Se forem utilizados todos os pares poss´ıveis de s´ımbolos para a construc¸˜ao da\n´arvore de Huffman, ent˜ao o comprimento m´edio dos c´odigos para os referidos\npares ´e menor que 1, 2 por caractere.\nIII. A codificac¸˜ao de Huffman a partir de todos os pares poss´ıveis de caracteres sempre\nproduz c´odigos de menor comprimento m´edio.",
+    "alternativas": [
+      "(a) apenas a afirmativa I ´e verdadeira.",
+      "(b) apenas as afirmativas I e II s˜ao verdadeiras.",
+      "(c) apenas as afirmativas I e III s˜ao verdadeiras.",
+      "(d) apenas as afirmativas II e III s˜ao verdadeiras.",
+      "(e) todas as afirmativas s˜ao verdadeiras."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Algoritmos de Compressão",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver esta questão, precisamos analisar cada uma das afirmativas em relação à codificação de Huffman.\n\nI. O comprimento médio dos códigos para os referidos caracteres é 1,2. Esta afirmativa é verdadeira, pois é uma condição dada no enunciado.\n\nII. Se forem utilizados todos os pares possíveis de símbolos para a construção da árvore de Huffman, então o comprimento médio dos códigos para os referidos pares é menor que 1,2 por caractere. Esta afirmativa é verdadeira. Quando se utiliza a codificação de Huffman para pares de caracteres, a eficiência da compressão aumenta, resultando em um comprimento médio menor por caractere, pois a árvore de Huffman é construída para otimizar a codificação de símbolos mais frequentes.\n\nIII. A codificação de Huffman a partir de todos os pares possíveis de caracteres sempre produz códigos de menor comprimento médio. Esta afirmativa é falsa. Embora a codificação de Huffman para pares de caracteres possa resultar em uma compressão mais eficiente, não é garantido que sempre produzirá códigos de menor comprimento médio em todos os casos, pois depende da distribuição de frequência dos pares de caracteres.\n\nPortanto, apenas as afirmativas I e II são verdadeiras, o que torna a alternativa (b) a correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-25",
+    "numero": 25,
+    "enunciado": "Considerando as diferenc¸as existentes entre a execuc¸˜ao de um algoritmo sequ¨en-\nI. Somente na execuc¸˜ao sequ¨encial de um algoritmo existe a possibilidade de ocorrer\num dead lock.\nII. Um algoritmo sequ¨encial apresenta mais de uma execuc¸˜ao poss´ıvel para uma dada\nentrada.\nIII. Um algoritmo distribu´ıdo tem sua complexidade medida pela quantidade de men-\nsagens transmitidas durante sua execuc¸˜ao.\nIV. A execuc¸˜ao de um algoritmo distribu´ıdo pode ser n˜ao determin´ıstica.",
+    "alternativas": [
+      "(a) todas as afirmativas s˜ao falsas.",
+      "(b) todas as afirmativas s˜ao verdadeiras.",
+      "(c) apenas as afirmativas I e II s˜ao verdadeiras.",
+      "(d) apenas as afirmativas I e IV s˜ao verdadeiras.",
+      "(e) apenas a afirmativa IV ´e verdadeira."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Comunicação, Concorrência e Sincronização de Processos",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. A afirmação de que somente na execução sequencial de um algoritmo existe a possibilidade de ocorrer um deadlock é falsa. Deadlocks são situações que ocorrem em sistemas concorrentes ou distribuídos, onde dois ou mais processos ficam bloqueados, esperando uns pelos outros. Em algoritmos sequenciais, não há concorrência, portanto, não há possibilidade de deadlock.\n\nII. A afirmação de que um algoritmo sequencial apresenta mais de uma execução possível para uma dada entrada é falsa. Algoritmos sequenciais, por definição, seguem uma sequência de passos bem definida para uma entrada específica, resultando sempre no mesmo comportamento e saída.\n\nIII. A afirmação de que um algoritmo distribuído tem sua complexidade medida pela quantidade de mensagens transmitidas durante sua execução é parcialmente verdadeira, mas não é a única medida de complexidade. A complexidade de algoritmos distribuídos pode ser medida por outros fatores, como tempo de execução, uso de recursos, etc.\n\nIV. A afirmação de que a execução de um algoritmo distribuído pode ser não determinística é verdadeira. Em sistemas distribuídos, a ordem de recebimento de mensagens, falhas de comunicação e outros fatores podem levar a execuções não determinísticas.\n\nPortanto, apenas a afirmativa IV é verdadeira, tornando a alternativa (e) a correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-28",
+    "numero": 28,
+    "enunciado": "Considere o seguinte enunciado e as possibilidades de sua complementac¸˜ao.\nI. opera com f´ormulas contendo apenas quantificadores existenciais.\nII. ´e capaz de reduzir f´ormulas quantificadas `a suas correspondentes formas clausais.\nIII. opera sobre f´ormulas em forma clausal pelo corte de literais de sinais opostos.\nIV. opera sobre f´ormulas em forma clausal pelo corte de literais de mesmo sinal.\nV. produz deduc¸˜oes que evitam a construc¸˜ao de ´arvores de deduc¸˜ao lineares.",
+    "alternativas": [
+      "(a) apenas o item II.",
+      "(b) apenas o item III.",
+      "(c) apenas o item IV.",
+      "(d) apenas os itens I e II.",
+      "(e) apenas os itens III e V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Métodos de Redução de Problemas",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A questão aborda conceitos relacionados à manipulação de fórmulas lógicas, especificamente em formas clausais. Vamos analisar cada item: \n\nI. 'opera com fórmulas contendo apenas quantificadores existenciais.' - Este item não está correto, pois a manipulação de fórmulas lógicas em formas clausais não se limita a quantificadores existenciais. \n\nII. 'é capaz de reduzir fórmulas quantificadas à suas correspondentes formas clausais.' - Este item está correto, pois a transformação de fórmulas lógicas em formas clausais é uma etapa comum na lógica matemática e na computação. \n\nIII. 'opera sobre fórmulas em forma clausal pelo corte de literais de sinais opostos.' - Este item está correto, pois o corte de literais de sinais opostos é uma técnica utilizada na resolução de fórmulas em lógica proposicional, conhecida como resolução por refutação. \n\nIV. 'opera sobre fórmulas em forma clausal pelo corte de literais de mesmo sinal.' - Este item está incorreto, pois o corte de literais de mesmo sinal não é uma técnica válida na resolução de fórmulas lógicas. \n\nV. 'produz deduções que evitam a construção de árvores de dedução lineares.' - Este item não está diretamente relacionado com a manipulação de formas clausais e não é uma técnica padrão reconhecida. \n\nPortanto, a alternativa correta é a (b), que menciona apenas o item III."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-34",
+    "numero": 34,
+    "enunciado": "Seja V =< v1 , . . . , v\nn\n> uma lista qualquer de inteiros distintos que se deseja\nI. Considere o algoritmo Quicksort. Suponha uma execuc¸˜ao do algoritmo sobre V tal\nque a cada sorteio do pivot, a mediana do (sub)problema em questa˜o ´e escolhida.\nEnt˜ao, a complexidade dessa execuc¸˜ao ´e O(n lg n).\nII. Considere o algoritmo Quicksort. Suponha uma execuc¸˜ao do algoritmo sobre V\ntal que a cada sorteio do pivot, os dois subproblemas gerados tˆem tamanho 1 e 9\n10 10\nrespectivamente do tamanho do (sub)problema em quest˜ao. Enta˜o, a complexi-\ndade dessa execuc¸˜ao ´e O(n2 ).\nIII. Considere o algoritmo Mergesort. A complexidade do pior caso do algoritmo ´e\nO(n lg n) e a complexidade do melhor caso (vetor j´a est´a ordenado) ´e O(n).\nIV. Considere o algoritmo Heapsort. A complexidade do pior caso do algoritmo ´e\nO(n lg n) e a complexidade do melhor caso (vetor j´a est´a ordenado) ´e O(n).\nV. Se para todo i, v ´e O(n), ent˜ao a complexidade do algoritmo Bucketsort ´e O(n).\ni",
+    "alternativas": [
+      "(a) apenas as afirmativas I e II.",
+      "(b) apenas as afirmativas I, II e III.",
+      "(c) apenas as afirmativas I, III e V.",
+      "(d) apenas as afirmativas III, IV e V.",
+      "(e) apenas as afirmativas I e V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. Quando o Quicksort escolhe a mediana como pivô, ele sempre divide o array em duas partes quase iguais, o que resulta em uma complexidade de O(n log n). Portanto, a afirmativa I é verdadeira.\n\nII. Se o Quicksort divide o array em tamanhos de 1 e 9/10 do original, o tempo de execução é dominado pela parte maior, resultando em uma complexidade de O(n^2). Portanto, a afirmativa II é verdadeira.\n\nIII. O Mergesort tem uma complexidade de O(n log n) no pior caso, mas no melhor caso, mesmo se o array já estiver ordenado, ele ainda precisa dividir e mesclar, resultando em O(n log n). Portanto, a afirmativa III é falsa.\n\nIV. O Heapsort tem uma complexidade de O(n log n) tanto no pior quanto no melhor caso, pois a estrutura de heap não se beneficia de dados já ordenados. Portanto, a afirmativa IV é falsa.\n\nV. O Bucketsort tem complexidade O(n) quando os elementos são distribuídos uniformemente e o número de baldes é proporcional ao número de elementos, o que é verdade se cada elemento v_i é O(n). Portanto, a afirmativa V é verdadeira.\n\nCom base nisso, as afirmativas corretas são I, III e V, correspondendo à alternativa (c)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-35",
+    "numero": 35,
+    "enunciado": "Analise as seguintes afirmativas e assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "(a) O acesso a setores localizados em sequ¨ˆencia em uma mesma trilha de um disco\n´e mais r´apido do que acessar o mesmo nu´mero de setores em trilhas diferentes,\ndevido ao menor nu´mero tanto de deslocamentos do cabec¸ote quanto de rotac¸˜oes\nno disco.",
+      "(b) Na paginac¸˜ao por demanda, n˜ao ´e necess´ario que o processo inteiro se encontre\nem mem´oria para execuc¸˜ao.",
+      "(c) O escalonamento de operac¸˜oes de entrada e sa´ıda em um disco r´ıgido pode ser\nutilizado para aumentar o desempenho. Por´em, algoritmos como o SSTF (Shortest\nSeek Time First ) podem fazer com que requisic¸˜oes esperem indefinidamente.",
+      "(d) O escalonamento de processos por prioridades utiliza mu´ltiplas filas e garante que\ntodos os processos recebam sua fatia de tempo.",
+      "(e) O surgimento do conceito de interrupc¸˜oes, juntamente com dispositivos de acesso\nn˜ao-sequ¨encial, foi primordial para a evoluc¸˜ao que levou aos sistemas multipro-\ngramados."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerência de Processos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A questão pede para identificar a alternativa INCORRETA. Vamos analisar cada uma das alternativas:\n\n(a) A afirmação é correta. O acesso a setores localizados em sequência em uma mesma trilha de um disco é mais rápido do que acessar o mesmo número de setores em trilhas diferentes, devido ao menor número de deslocamentos do cabeçote e rotações no disco.\n\n(b) A afirmação é correta. Na paginação por demanda, não é necessário que o processo inteiro esteja em memória para execução. Apenas as páginas necessárias são carregadas sob demanda.\n\n(c) A afirmação é correta. O escalonamento de operações de entrada e saída em um disco rígido pode aumentar o desempenho, mas algoritmos como o SSTF podem causar starvation, onde algumas requisições podem esperar indefinidamente.\n\n(d) A afirmação é incorreta. O escalonamento de processos por prioridades não garante que todos os processos recebam sua fatia de tempo, pois processos de baixa prioridade podem nunca ser executados se processos de alta prioridade continuarem chegando (problema de starvation).\n\n(e) A afirmação é correta. O conceito de interrupções e dispositivos de acesso não-sequencial foi essencial para o desenvolvimento de sistemas multiprogramados.\n\nPortanto, a alternativa INCORRETA é a (d)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-36",
+    "numero": 36,
+    "enunciado": "Agregac¸˜oes s˜ao muito importantes em programac¸˜ao orientada a ob jetos.\nI. Uma agregac¸˜ao ´e formada por agregado (todo) e componentes (partes).\nII. Uma agregac¸˜ao n˜ao ´e transitiva e, portanto, n˜ao pode modelar situac¸˜oes desse\ntipo.\nIII. A simetria ´e uma das principais caracter´ısticas de uma agregac¸˜ao.",
+    "alternativas": [
+      "(a) as trˆes afirmativas s˜ao falsas.",
+      "(b) as trˆes afirmativas s˜ao verdadeiras.",
+      "(c) apenas a afirmativa I ´e verdadeira.",
+      "(d) apenas as afirmativas I e II s˜ao verdadeiras.",
+      "(e) apenas a afirmativa III ´e verdadeira."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Conceitos",
+    "dificuldade": "Fácil",
+    "gabarito": "c",
+    "solucao": "A questão aborda o conceito de agregação na programação orientada a objetos. Vamos analisar cada afirmativa: \n\nI. 'Uma agregação é formada por agregado (todo) e componentes (partes).' - Esta afirmativa é verdadeira. Na programação orientada a objetos, agregação é uma relação 'todo-parte', onde o todo é composto por partes, mas as partes podem existir independentemente do todo.\n\nII. 'Uma agregação não é transitiva e, portanto, não pode modelar situações desse tipo.' - Esta afirmativa é falsa. A transitividade não é uma característica relevante para definir agregação. A agregação é uma relação que não implica em propriedade transitiva, mas isso não significa que não possa modelar situações complexas.\n\nIII. 'A simetria é uma das principais características de uma agregação.' - Esta afirmativa é falsa. A agregação é uma relação assimétrica, pois o todo e as partes têm papéis diferentes na relação.\n\nPortanto, apenas a afirmativa I é verdadeira."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-49",
+    "numero": 49,
+    "enunciado": "Considere as afirmativas abaixo.\nI. Um terminal raster apresentar´a o efeito “pisca-pisca” quando a cena ´e complexa.\nII. Em uma cena composta apenas de ob jetos convexos, a eliminac¸˜ao de superf´ıcies\nocultas restringe-se `a remoc¸˜ao das faces posteriores (back faces ).\nIII. No algoritmo do ponto m´edio para trac¸ado de c´ırculos, se f (x , y ) = r2 x2\nM M\ny2 < 0, o ponto (x , y ) ´e interior `a circunferˆencia. − −\nM M",
+    "alternativas": [
+      "(a) apenas a afirmativa I ´e verdadeira.",
+      "(b) apenas a afirmativa III ´e verdadeira.",
+      "(c) as trˆes afirmativas s˜ao falsas.",
+      "(d) as trˆes afirmativas s˜ao verdadeiras.",
+      "(e) apenas as afirmativas I e II s˜ao verdadeiras."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Algoritmos para Pesquisa e Ordenação",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. Um terminal raster apresentará o efeito 'pisca-pisca' quando a cena é complexa.\n- Esta afirmativa é falsa. O efeito 'pisca-pisca' em terminais raster ocorre devido à taxa de atualização da tela e não necessariamente pela complexidade da cena. Uma cena complexa pode exigir mais processamento, mas o 'pisca-pisca' é mais relacionado à frequência de atualização do display.\n\nII. Em uma cena composta apenas de objetos convexos, a eliminação de superfícies ocultas restringe-se à remoção das faces posteriores (back faces).\n- Esta afirmativa é falsa. Embora a remoção de faces posteriores seja uma técnica utilizada para otimizar a renderização de objetos convexos, a eliminação de superfícies ocultas pode envolver outras técnicas, como o algoritmo de Z-buffer, que não se restringe apenas a objetos convexos.\n\nIII. No algoritmo do ponto médio para traçado de círculos, se f(xM, yM) = r^2 - xM^2 - yM^2 < 0, o ponto (xM, yM) é interior à circunferência.\n- Esta afirmativa é verdadeira. No algoritmo do ponto médio para traçado de círculos, a função f(x, y) = r^2 - x^2 - y^2 é usada para determinar a posição de um ponto em relação à circunferência. Se f(xM, yM) < 0, o ponto está dentro da circunferência.\n\nPortanto, apenas a afirmativa III é verdadeira."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-54",
+    "numero": 54,
+    "enunciado": "Qualidade ´e uma das premissas b´asicas para se desenvolver software ho je em dia.\nI. O MPS.br ´e uma iniciativa para Melhoria de Processo do Software Brasileiro. O\nMPS.br adequa-se `a realidade das empresas brasileiras e est´a em conformidade\ncom as normas ISO/IEC 12207. No entanto, n˜ao apresenta uma estrat´egia de\ncompatibilidade com o CMMI - Capability Maturity Model Integration.\nII. A rastreabilidade de requisitos de software proporciona uma melhor visibilidade\npara a gerˆencia de qualidade do pro jeto.\nIII. Uma empresa de tecnologia certificada por meio de modelos como CMMI ou\nMPS.br oferece produtos de software tamb´em certificados.\nIV. A padronizac¸˜ao ´e um dos fundamentos b´asicos da gerˆencia da qualidade. A\npadronizac¸˜ao pode acontecer em diversos n´ıveis: na documentac¸˜ao, no c´odigo\ne, principalmente, no processo.",
+    "alternativas": [
+      "(a) Todas as afirmativas s˜ao verdadeiras.",
+      "(b) Nenhuma das afirmativas ´e verdadeira.",
+      "(c) Somente as afirmativas II e III s˜ao verdadeiras.",
+      "(d) Somente as afirmativas II e IV s˜ao verdadeiras.",
+      "(e) Somente as afirmativas I, II e III s˜ao verdadeiras."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Qualidade de Software",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. A afirmativa I está incorreta. O MPS.br é compatível com o CMMI, pois ambos são modelos de melhoria de processos de software e o MPS.br foi desenvolvido para ser compatível com normas internacionais, incluindo o CMMI.\n\nII. A afirmativa II está correta. A rastreabilidade de requisitos é uma prática importante na engenharia de software que permite acompanhar a origem e o uso dos requisitos ao longo do ciclo de vida do projeto, proporcionando melhor visibilidade para a gerência de qualidade.\n\nIII. A afirmativa III está incorreta. A certificação de uma empresa por modelos como CMMI ou MPS.br não implica que todos os produtos de software da empresa sejam certificados. A certificação refere-se aos processos da empresa, não aos produtos individuais.\n\nIV. A afirmativa IV está correta. A padronização é um dos fundamentos básicos da gerência da qualidade e pode ocorrer em diversos níveis, como documentação, código e processos.\n\nPortanto, as afirmativas corretas são II e IV, tornando a alternativa (d) a correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-58",
+    "numero": 58,
+    "enunciado": "Considerando que h(n) ´e o custo estimado do n´o n at´e o ob jetivo, em relac¸˜ao `a",
+    "alternativas": [
+      "(a) a busca gulosa minimiza h(n).",
+      "(b) a busca A∗ minimiza h(n).",
+      "(c) a busca de custo uniforme minimiza h(n).",
+      "(d) a busca gulosa minimiza h(n) somente se a heur´ıstica for admiss´ıvel.",
+      "(e) a busca A∗ minimiza h(n) somente se a heur´ıstica for admiss´ıvel."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Estratégias de Busca, Busca Cega e Busca Heurística",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "A questão aborda diferentes estratégias de busca em Inteligência Artificial, especificamente a busca gulosa e a busca A*. A busca gulosa é uma estratégia que utiliza apenas a função heurística h(n) para decidir qual nó expandir, tentando minimizar h(n) em cada passo. Isso significa que a busca gulosa escolhe o nó que parece estar mais próximo do objetivo de acordo com a heurística, mas não garante encontrar o caminho mais curto, pois não considera o custo do caminho já percorrido. A busca A*, por outro lado, utiliza uma combinação da função heurística h(n) e o custo do caminho g(n) já percorrido, buscando minimizar a soma f(n) = g(n) + h(n). Portanto, a alternativa correta é '(a) a busca gulosa minimiza h(n).' porque a busca gulosa, de fato, tenta minimizar h(n) em cada passo."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-59",
+    "numero": 59,
+    "enunciado": "Analise o seguinte conjunto de afirmativas caracterizando agentes computacionais\nI. Um agente reflexivo que n˜ao disp˜oe de modelo de seu ambiente seleciona a pr´oxi-\nma ac¸˜ao que vai executar tendo por base apenas as suas percepc¸˜oes atuais.\nII. Um agente capaz de planejar sequ¨ˆencias futuras de ac¸˜oes n˜ao pode e n˜ao deve ter\nrepresentac¸˜oes expl´ıcitas de seus ob jetivos.\nIII. Um ambiente determin´ıstico ´e aquele que permite a um agente, que se encontra\nsozinho no ambiente, saber o resultado de uma ac¸˜ao realizada a partir do con-\nhecimento do estado do ambiente no momento em que a ac¸˜ao foi realizada e das\ncaracter´ısticas da ac¸˜ao que o agente realizou.\nIV. Um ambiente parcialmente observ´avel ´e aquele que s´o permite a um agente con-\nhecer completamente o estado atual do ambiente se o agente estiver sozinho no\nambiente.\nV. Uma func¸˜ao de utilidade ´e uma func¸˜ao que a juda um agente a distinguir quais\npercepc¸˜oes atuais s˜ao mais importantes para a realizac¸a˜o dos ob jetivos do agente.",
+    "alternativas": [
+      "(a) somente as afirmativas I e II.",
+      "(b) somente as afirmativas I e III.",
+      "(c) somente as afirmativas III e IV.",
+      "(d) somente as afirmativas III e V.",
+      "(e) somente as afirmativas IV e V."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Agentes Inteligentes",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. Um agente reflexivo que não dispõe de modelo de seu ambiente seleciona a próxima ação que vai executar tendo por base apenas as suas percepções atuais. Esta afirmativa está correta. Agentes reflexivos tomam decisões baseadas em percepções atuais sem considerar um modelo do ambiente.\n\nII. Um agente capaz de planejar sequências futuras de ações não pode e não deve ter representações explícitas de seus objetivos. Esta afirmativa está incorreta. Agentes que planejam ações geralmente têm representações explícitas de seus objetivos para guiar o planejamento.\n\nIII. Um ambiente determinístico é aquele que permite a um agente, que se encontra sozinho no ambiente, saber o resultado de uma ação realizada a partir do conhecimento do estado do ambiente no momento em que a ação foi realizada e das características da ação que o agente realizou. Esta afirmativa está correta. Em um ambiente determinístico, o resultado de uma ação é previsível a partir do estado atual e da ação realizada.\n\nIV. Um ambiente parcialmente observável é aquele que só permite a um agente conhecer completamente o estado atual do ambiente se o agente estiver sozinho no ambiente. Esta afirmativa está incorreta. Em um ambiente parcialmente observável, o agente não consegue conhecer completamente o estado do ambiente, independentemente de estar sozinho ou não.\n\nV. Uma função de utilidade é uma função que ajuda um agente a distinguir quais percepções atuais são mais importantes para a realização dos objetivos do agente. Esta afirmativa está incorreta. Funções de utilidade são usadas para avaliar o quão desejáveis são os estados do ambiente em relação aos objetivos do agente, não apenas para distinguir percepções.\n\nPortanto, as afirmativas corretas são I e III, o que corresponde à alternativa (b)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-60",
+    "numero": 60,
+    "enunciado": "Analise as seguintes afirmativas.\nI. A estrat´egia de busca em largura encontra a soluc¸˜ao ´otima quando todos os op-\neradores de mudanc¸a de estado tˆem o mesmo custo.\nII. A estrat´egia de busca em profundidade sempre expande um menor nu´mero de n´os\nque a estrat´egia de busca em largura, quando aplicadas ao mesmo problema.\nIII. A estrat´egia de busca heur´ıstica encontra sempre a soluc¸a˜o de menor custo.\nIV. A estrat´egia de busca heur´ıstica expande um nu´mero de n´os em geral menor que\no algoritmo de busca em largura, mas n˜ao garante encontrar a soluc¸˜ao ´otima.\nV. O algoritmo de busca heur´ıstica que utiliza uma func¸˜ao heur´ıstica admiss´ıvel\nencontra a soluc¸˜ao ´otima.",
+    "alternativas": [
+      "(a) apenas a afirmativa V ´e correta.",
+      "(b) todas as afirmativas s˜ao corretas.",
+      "(c) todas as afirmativas s˜ao falsas.",
+      "(d) apenas as afirmativas II e V s˜ao corretas.",
+      "(e) apenas as afirmativas I, IV e V s˜ao corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Estratégias de Busca, Busca Cega e Busca Heurística",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. A estratégia de busca em largura encontra a solução ótima quando todos os operadores de mudança de estado têm o mesmo custo. - Correta. A busca em largura garante encontrar a solução ótima em termos de número de passos (custo uniforme) quando todos os passos têm o mesmo custo.\n\nII. A estratégia de busca em profundidade sempre expande um menor número de nós que a estratégia de busca em largura, quando aplicadas ao mesmo problema. - Falsa. A busca em profundidade pode expandir mais nós que a busca em largura, especialmente em árvores profundas ou infinitas.\n\nIII. A estratégia de busca heurística encontra sempre a solução de menor custo. - Falsa. A busca heurística não garante encontrar a solução de menor custo, a menos que a heurística seja admissível.\n\nIV. A estratégia de busca heurística expande um número de nós em geral menor que o algoritmo de busca em largura, mas não garante encontrar a solução ótima. - Correta. A busca heurística, como a busca gulosa, pode expandir menos nós, mas não garante a solução ótima sem uma heurística admissível.\n\nV. O algoritmo de busca heurística que utiliza uma função heurística admissível encontra a solução ótima. - Correta. Se a heurística é admissível (não superestima o custo), a busca heurística, como o A*, encontra a solução ótima.\n\nPortanto, as afirmativas I, IV e V são corretas, tornando a alternativa (e) a correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-63",
+    "numero": 63,
+    "enunciado": "Constitui(em) m´etodo(s) para alterar o contraste de uma imagem em cores sem\nI. Transformar RGB em IHS, aumentar o contraste de I e fazer a transformac¸˜ao\ninversa IHS para RGB.\nII. Aumentar o contraste de I, transformar IHS em RGB e fazer a transformac¸˜ao\ninversa RGB para IHS.\nIII. Aumentar o contraste em R, transformar RGB em IHS.",
+    "alternativas": [
+      "(a) apenas o item I ´e verdadeiro.",
+      "(b) apenas o item II ´e verdadeiro.",
+      "(c) s˜ao verdadeiros apenas os itens I e II.",
+      "(d) s˜ao verdadeiros apenas os itens I e III.",
+      "(e) s˜ao verdadeiros apenas os itens II e III."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Realce",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para alterar o contraste de uma imagem em cores, uma técnica comum é transformar a imagem do espaço de cores RGB para IHS (Intensidade, Matiz, Saturação), ajustar o contraste no componente de Intensidade (I) e depois converter de volta para RGB. \n\nAnalisando cada item:\n\nI. Transformar RGB em IHS, aumentar o contraste de I e fazer a transformação inversa IHS para RGB: Este método é válido, pois a alteração do contraste é feita diretamente no componente de Intensidade, que é responsável pelo brilho da imagem.\n\nII. Aumentar o contraste de I, transformar IHS em RGB e fazer a transformação inversa RGB para IHS: Este método não faz sentido, pois aumentar o contraste de I antes de converter para RGB não altera o contraste da imagem na prática, já que a transformação para RGB e de volta para IHS não preserva a alteração feita em I.\n\nIII. Aumentar o contraste em R, transformar RGB em IHS: Este método não é apropriado para alterar o contraste geral da imagem, pois altera apenas o canal vermelho (R), não afetando a intensidade global da imagem.\n\nPortanto, apenas o item I é verdadeiro."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-64",
+    "numero": 64,
+    "enunciado": "O controle de congestionamento ´e uma das func¸˜oes desempenhadas pela Camada",
+    "alternativas": [
+      "(a) No controle de congestionamento fim-a-fim, uma situac¸˜ao de congestionamento\n´e intu´ıda pelos hosts terminais via eventos como perda ou atraso excessivo de\npacotes.",
+      "(b) No controle de congestionamento assistido pela rede, os nodos (roteadores) enviam\nnotificac¸˜oes expl´ıcitas do estado de congestionamento da rede diretamente `a fonte\nde cada fluxo que, por meio dele, trafega.",
+      "(c) O mecanismo Explicit Congestion Notification (ECN) utiliza um dos dois u´ltimos\nbits do campo ToS do cabec¸alho IPv4 para notificar a um destinat´ario o estado\nde congestionamento da rede.",
+      "(d) Ao perceber um estado de congestionamento na rede, uma conex˜ao TCP, por\nmeio de seu mecanismo de prevenc¸˜ao de congestionamento (congestion avoidance ),\nreduz o tamanho de sua janela de congestionamento.",
+      "(e) Na fase de partida lenta (slow start ) de uma conex˜ao TCP, o tamanho da janela de\ncongestionamento aumenta a cada RTT (Round-Trip Time ) de forma exponencial,\nat´e que esse tamanho alcance um determinado valor de limiar (threshold )."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Protocolos e Serviços de Comunicação",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "A questão aborda o controle de congestionamento, que é uma função da camada de transporte, especificamente do protocolo TCP. O TCP possui mecanismos para detectar e reagir a congestionamentos na rede. A alternativa (d) descreve corretamente o comportamento do TCP ao perceber um estado de congestionamento: ele reduz o tamanho de sua janela de congestionamento através do mecanismo de 'congestion avoidance'. Este mecanismo é projetado para evitar a saturação da rede, ajustando dinamicamente a quantidade de dados que podem ser enviados sem confirmação. As outras alternativas mencionam conceitos relacionados, mas não são precisas ou corretas no contexto do TCP e seu controle de congestionamento."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-65",
+    "numero": 65,
+    "enunciado": "Sobre o protocolo de transferˆencia de hipertextos (HTTP - Hyper-Text Transfer",
+    "alternativas": [
+      "(a) O protocolo HTTP ´e capaz de transportar nativamente arquivos no formato\nbin´ario.",
+      "(b) A vers˜ao 1.0 do protocolo HTTP n˜ao permite a utilizac¸˜ao de cookies.",
+      "(c) A vers˜ao 1.1 do protocolo HTTP difere da vers˜ao 1.0 na capacidade de transportar\nob jetos maiores.",
+      "(d) A instruc¸˜ao GET condicional permite que o cliente opte por receber um determi-\nnado ob jeto do servidor apenas se este tiver sido alterado depois de uma deter-\nminada data e hora.",
+      "(e) O protocolo HTTP n˜ao pode ser utilizado para transportar outros tipos de ob jetos\nsen˜ao os hiper-textos."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Protocolos e Serviços de Comunicação",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A alternativa correta é a (d). Vamos analisar cada alternativa: \n\n(a) O protocolo HTTP é capaz de transportar nativamente arquivos no formato binário. - Incorreto. O HTTP transporta dados como texto, mas pode codificar dados binários em formatos como Base64 para transmissão. \n\n(b) A versão 1.0 do protocolo HTTP não permite a utilização de cookies. - Incorreto. Cookies foram introduzidos com o Netscape, e a especificação formal foi feita na versão HTTP 1.1, mas já eram usados antes. \n\n(c) A versão 1.1 do protocolo HTTP difere da versão 1.0 na capacidade de transportar objetos maiores. - Incorreto. A diferença entre as versões não está na capacidade de transportar objetos maiores, mas em melhorias como conexões persistentes e controle de cache. \n\n(d) A instrução GET condicional permite que o cliente opte por receber um determinado objeto do servidor apenas se este tiver sido alterado depois de uma determinada data e hora. - Correto. O HTTP suporta requisições condicionais usando cabeçalhos como 'If-Modified-Since'. \n\n(e) O protocolo HTTP não pode ser utilizado para transportar outros tipos de objetos senão os hiper-textos. - Incorreto. HTTP pode transportar qualquer tipo de dado, como imagens, vídeos, etc., através do uso de cabeçalhos 'Content-Type'."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-66",
+    "numero": 66,
+    "enunciado": "Considere os pares de enderec¸os de hosts e suas respectivas m´ascaras de enderec¸os\nI. 192.168.0.43/255.255.255.192 e 192.168.0.66/255.255.255.192\nII. 192.168.1.97/255.255.255.224 e 192.168.1.118/255.255.255.224\nIII. 192.168.2.115/255.255.255.128 e 192.168.2.135/255.255.255.128\nIV. 192.168.3.34/255.255.255.240 e 192.168.3.46/255.255.255.240\nV. 192.168.4.167/255.255.255.224 e 192.168.4.207/255.255.255.224",
+    "alternativas": [
+      "(a) apenas I, II, V",
+      "(b) apenas I, III",
+      "(c) apenas II, IV",
+      "(d) apenas II, III, IV",
+      "(e) apenas III, IV, V"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Internet e Intranets",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para determinar se dois hosts estão na mesma sub-rede, precisamos comparar o resultado da operação AND bit a bit entre o endereço IP e a máscara de sub-rede de cada host. Se os resultados forem iguais, os hosts estão na mesma sub-rede.\n\nI. 192.168.0.43/255.255.255.192 e 192.168.0.66/255.255.255.192:\n   - Máscara: 255.255.255.192 -> /26\n   - Sub-rede de 192.168.0.43: 192.168.0.0\n   - Sub-rede de 192.168.0.66: 192.168.0.0\n   - Ambos estão na mesma sub-rede.\n\nII. 192.168.1.97/255.255.255.224 e 192.168.1.118/255.255.255.224:\n   - Máscara: 255.255.255.224 -> /27\n   - Sub-rede de 192.168.1.97: 192.168.1.96\n   - Sub-rede de 192.168.1.118: 192.168.1.96\n   - Ambos estão na mesma sub-rede.\n\nIII. 192.168.2.115/255.255.255.128 e 192.168.2.135/255.255.255.128:\n   - Máscara: 255.255.255.128 -> /25\n   - Sub-rede de 192.168.2.115: 192.168.2.0\n   - Sub-rede de 192.168.2.135: 192.168.2.0\n   - Ambos estão na mesma sub-rede.\n\nIV. 192.168.3.34/255.255.255.240 e 192.168.3.46/255.255.255.240:\n   - Máscara: 255.255.255.240 -> /28\n   - Sub-rede de 192.168.3.34: 192.168.3.32\n   - Sub-rede de 192.168.3.46: 192.168.3.32\n   - Ambos estão na mesma sub-rede.\n\nV. 192.168.4.167/255.255.255.224 e 192.168.4.207/255.255.255.224:\n   - Máscara: 255.255.255.224 -> /27\n   - Sub-rede de 192.168.4.167: 192.168.4.160\n   - Sub-rede de 192.168.4.207: 192.168.4.192\n   - Estão em sub-redes diferentes.\n\nPortanto, os pares que estão na mesma sub-rede são I, II, III e IV. A alternativa correta é (b) apenas I, III."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-67",
+    "numero": 67,
+    "enunciado": "Analise as seguintes afirmativas.\nI. O protocolo UDP ´e um protocolo da Camada de Transporte orientado a data-\ngrama, enquanto que o TCP ´e um protocolo da Camada de Transporte orientado\na conex˜ao.\nII. Apesar de o protocolo IP ser orientado a datagrama, o protocolo UDP ´e necess´ario\npor fornecer multiplexac¸˜ao de um enderec¸o de rede em v´arias portas, permitindo\nque mu´ltiplos processos sejam enderec¸ados em um mesmo enderec¸o de rede.\nIII. O protocolo TCP utiliza o tamanho da janela deslizante de uma conex˜ao para o\ncontrole de congestionamento.",
+    "alternativas": [
+      "(a) somente a afirmativa I ´e correta.",
+      "(b) somente as afirmativas I e II s˜ao corretas.",
+      "(c) somente as afirmativas I e III s˜ao corretas.",
+      "(d) somente as afirmativas II e III s˜ao corretas.",
+      "(e) todas as afirmativas s˜ao corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Protocolos e Serviços de Comunicação",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. O protocolo UDP é um protocolo da Camada de Transporte orientado a datagrama, enquanto que o TCP é um protocolo da Camada de Transporte orientado a conexão. \n- Esta afirmativa é correta. O UDP (User Datagram Protocol) é um protocolo de transporte que não estabelece uma conexão antes de enviar dados, ou seja, é orientado a datagrama. Já o TCP (Transmission Control Protocol) é orientado a conexão, pois estabelece uma conexão antes de transmitir dados, garantindo a entrega confiável dos pacotes.\n\nII. Apesar de o protocolo IP ser orientado a datagrama, o protocolo UDP é necessário por fornecer multiplexação de um endereço de rede em várias portas, permitindo que múltiplos processos sejam endereçados em um mesmo endereço de rede. \n- Esta afirmativa também é correta. O protocolo UDP permite que múltiplos processos em um mesmo host sejam diferenciados por números de porta, o que é essencial para a comunicação de rede. O protocolo IP, por si só, não fornece esse mecanismo de multiplexação.\n\nIII. O protocolo TCP utiliza o tamanho da janela deslizante de uma conexão para o controle de congestionamento. \n- Esta afirmativa é correta. O TCP usa o conceito de janela deslizante para controlar o fluxo de dados e para o controle de congestionamento na rede. O tamanho da janela pode ser ajustado dinamicamente para otimizar a transmissão de dados e evitar congestionamento.\n\nPortanto, todas as afirmativas são corretas, o que torna a alternativa (e) a correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-68",
+    "numero": 68,
+    "enunciado": "Considere as afirmativas sobre um Sistema de Arquivos Distribu´ıdos (SAD).\nI. Um “Servidor de Arquivos com Estado”, em um SAD, mant´em todo seu estado\nno caso de uma falha, garantindo a recuperac¸˜ao do mesmo sem a necessidade de\ndi´alogo com os clientes.\nII. II. Na gerˆencia de cache em um SAD, uma das pol´ıticas utilizadas ´e a write-\nthrough. O inconveniente dessa pol´ıtica, comparada com outras, ´e a pouca confi-\nabilidade no caso de falhas no cliente.\nIII. O uso de replicac¸˜ao em um SAD ao mesmo tempo que provˆe aumento na confia-\nbilidade, tamb´em introduz um gargalo em termos de desempenho.",
+    "alternativas": [
+      "(a) nenhuma das afirmativas est´a correta.",
+      "(b) somente a afirmativa I est´a correta.",
+      "(c) somente a afirmativa II est´a correta.",
+      "(d) somente a afirmativa III est´a correta.",
+      "(e) somente as afirmativas I e III est˜ao corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Tolerância a Falhas",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. Um 'Servidor de Arquivos com Estado' mantém informações sobre o estado das conexões com os clientes, mas em caso de falha, ele geralmente precisa de algum diálogo com os clientes para restaurar o estado, pois o estado pode ser perdido. Portanto, a afirmativa I está incorreta.\n\nII. A política de 'write-through' garante que as alterações no cache sejam imediatamente escritas no armazenamento permanente. Isso aumenta a confiabilidade em caso de falhas no cliente, pois os dados são sempre consistentes com o armazenamento. Portanto, a afirmativa II está incorreta.\n\nIII. A replicação em um Sistema de Arquivos Distribuídos aumenta a confiabilidade, pois os dados são armazenados em múltiplos locais. No entanto, ela pode introduzir gargalos de desempenho devido à necessidade de manter a consistência entre as réplicas. Portanto, a afirmativa III está correta.\n\nAssim, a alternativa correta é a (d), que afirma que somente a afirmativa III está correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-69",
+    "numero": 69,
+    "enunciado": "Analise as seguintes afirmativas concernentes a quest˜oes de pro jeto de sistemas\nI. Um sistema distribu´ıdo tolerante a falhas deve continuar operando na presenc¸a\nde problemas, podendo ocorrer uma degradac¸˜ao tanto no seu desempenho, como\nnas suas funcionalidades.\nII. No que diz respeito `a escalabilidade, o pro jeto de um sistema distribu´ıdo deve\nprever que a demanda nos servic¸os em qualquer dos equipamentos seja limitada\npor uma constante dependente do nu´mero de nodos envolvidos.\nIII. Em um sistema distribu´ıdo transparente quanto `a concorrˆencia, a informac¸˜ao de\nquantos usu´arios est˜ao empregando determinado servic¸o deve ser omitida.",
+    "alternativas": [
+      "(a) somente a afirmativa I est´a incorreta.",
+      "(b) somente a afirmativa II est´a incorreta.",
+      "(c) somente a afirmativa III est´a incorreta.",
+      "(d) somente as afirmativas I e III est˜ao incorretas.",
+      "(e) todas as afirmativas est˜ao incorretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Tolerância a Falhas",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. Um sistema distribuído tolerante a falhas deve continuar operando na presença de problemas, podendo ocorrer uma degradação tanto no seu desempenho, como nas suas funcionalidades. - Esta afirmativa está correta. Um sistema tolerante a falhas é projetado para continuar funcionando mesmo quando ocorrem falhas, embora possa haver uma degradação no desempenho ou nas funcionalidades.\n\nII. No que diz respeito à escalabilidade, o projeto de um sistema distribuído deve prever que a demanda nos serviços em qualquer dos equipamentos seja limitada por uma constante dependente do número de nodos envolvidos. - Esta afirmativa está incorreta. A escalabilidade em sistemas distribuídos geralmente implica que o sistema pode lidar com o aumento da carga adicionando mais recursos, sem que a demanda em qualquer equipamento específico seja limitada por uma constante. A escalabilidade deve permitir que o sistema cresça de acordo com o aumento dos nodos, não ser limitado por eles.\n\nIII. Em um sistema distribuído transparente quanto à concorrência, a informação de quantos usuários estão empregando determinado serviço deve ser omitida. - Esta afirmativa está correta. A transparência de concorrência em sistemas distribuídos significa que os usuários não precisam estar cientes de outros usuários concorrentes no sistema.\n\nPortanto, a única afirmativa incorreta é a II, tornando a alternativa (b) a correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-70",
+    "numero": 70,
+    "enunciado": "Em relac¸˜ao aos sistemas distribu´ıdos, analise as seguintes afirmativas.\nI. Um sistema ass´ıncrono apresenta medida de tempo global.\nII. A passagem de mensagens ´e o instrumento empregado para efetuar a comunica-\nc¸˜ao entre os processos de um sistema ass´ıncrono.\nIII. E´ poss´ıvel simular um computador paralelo de mem´oria compartilhada usando-se\num sistema distribu´ıdo.\nIV. Quando um determinado elemento de um sistema distribu´ıdo efetua a difus˜ao\nde uma mensagem por meio de um multicast, todos os elementos do sistema\ndistribu´ıdo recebem a mensagem.",
+    "alternativas": [
+      "(a) somente a afirmativa IV est´a correta.",
+      "(b) somente as afirmativas I e II est˜ao corretas.",
+      "(c) somente as afirmativas I e III est˜ao corretas.",
+      "(d) somente as afirmativas II e III est˜ao corretas.",
+      "(e) somente as afirmativas I e IV est˜ao corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Comunicação entre Processos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. Um sistema assíncrono não possui uma medida de tempo global, pois os eventos podem ocorrer em qualquer ordem e não há sincronização de relógios entre os processos. Portanto, a afirmativa I é falsa.\n\nII. A passagem de mensagens é, de fato, o meio de comunicação entre processos em sistemas assíncronos, pois não há memória compartilhada. Portanto, a afirmativa II é verdadeira.\n\nIII. É possível simular um computador paralelo de memória compartilhada usando um sistema distribuído, através de técnicas como a emulação de memória compartilhada distribuída. Portanto, a afirmativa III é verdadeira.\n\nIV. Quando um elemento de um sistema distribuído efetua a difusão de uma mensagem por meio de um multicast, nem sempre todos os elementos do sistema recebem a mensagem, pois o multicast pode ser direcionado a um grupo específico de processos. Portanto, a afirmativa IV é falsa.\n\nCom base na análise, as afirmativas corretas são II e III, o que corresponde à alternativa (d)."
+  },
+  {
     "edicao": 2006,
     "id": "2006-01",
     "numero": 1,

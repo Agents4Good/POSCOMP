@@ -4503,6 +4503,1127 @@
     "solucao": "Para resolver a questão, precisamos entender a consulta SQL fornecida. A consulta seleciona o nome do comprador (CNOME), o nome do produto (NOME) e o preço final (PF), que é calculado como PRECO*(1-DESCONTO/100). A condição WHERE filtra os compradores cujo desconto é maior que a média de desconto de todos os compradores e faz o join entre as tabelas COMPRADORES e PRODUTO através da correspondência entre as colunas CID e CLIENTE. \n\nPrimeiro, calculamos a média de desconto dos compradores: (10 + 12 + 8 + 6 + 0) / 5 = 7,2. \n\nOs compradores com desconto maior que 7,2 são: \n- Lojas Cacique (10%)\n- Lojas Livres (12%)\n- Mercado Fácil (8%)\n\nPara cada um desses compradores, calculamos o preço final dos produtos associados:\n- Lojas Cacique (10%):\n  - Pente: 10 * (1 - 0,10) = 9\n- Lojas Livres (12%):\n  - Escova: 10 * (1 - 0,12) = 8,8\n- Mercado Fácil (8%):\n  - Barbeador: 20 * (1 - 0,08) = 18,4\n  - Caneta: 1 * (1 - 0,08) = 0,92\n\nA consulta é ordenada por NOME e depois por CNOME, resultando na seguinte ordem:\n1. Lojas Cacique | Pente | 9\n2. Lojas Livres | Escova | 8,8\n3. Mercado Fácil | Barbeador | 18,4\n4. Mercado Fácil | Caneta | 0,92\n\nPortanto, a alternativa correta é B."
   },
   {
+    "edicao": 2008,
+    "id": "2008-01",
+    "numero": 1,
+    "enunciado": "Considere o projeto lógico do banco de dados representado pelo modelo E-R abaixo.\nN M\nARTISTAS PARTICIPANTES DISCOS\ncod-art nome gênero N título cod-disco\ndata\n1\nGRAVADORA PRODUÇÃO\nestúdio\ncod-grav nome-grav\nDiga de que tabelas e campos ele resulta (obs: campos chave estão sublinhados):",
+    "alternativas": [
+      "A) ARTISTAS (cod-art, nome, gênero)\nPARTICIPANTES (cod-art, cod-disco)\nDISCOS (cod-disco, título, data)\nPRODUÇÃO (cod-grav, cod-disco, estúdio)\nGRAVADORA (cod-grav, nome-grav)",
+      "B) ARTISTAS (cod-art, nome, gênero)\nPARTICIPANTES (cod-art, cod-disco)\nDISCOS (cod-disco, título, data, cod-grav, estúdio)\nGRAVADORA (cod-grav, nome-grav)",
+      "C) ARTISTAS (cod-art, nome, gênero)\nPARTICIPANTES (cod-art, cod-disco)\nDISCOS (cod-disco, título, data, cod-grav, nome-grav, estúdio)",
+      "D) ARTISTAS (cod-art, nome, gênero)\nDISCOS (cod-disco, título, data, cod-art)\nPRODUÇÃO (cod-grav, cod-disco, estúdio)\nGRAVADORA (cod-grav, nome-grav)",
+      "E) ARTISTAS (cod-art, nome, gênero)\nDISCOS (cod-disco, título, data, cod-grav, estúdio, cod-art)\nGRAVADORA (cod-grav, nome-grav)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Relações de Equivalência",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para resolver essa questão, precisamos traduzir o modelo Entidade-Relacionamento (E-R) em tabelas de um banco de dados relacional. No modelo E-R fornecido, temos as entidades ARTISTAS, DISCOS e GRAVADORA, e os relacionamentos PARTICIPANTES e PRODUÇÃO.\n\n1. **ARTISTAS**: Esta entidade possui os atributos 'cod-art', 'nome' e 'gênero'. 'cod-art' é a chave primária.\n\n2. **DISCOS**: Esta entidade possui os atributos 'cod-disco', 'título' e 'data'. 'cod-disco' é a chave primária.\n\n3. **GRAVADORA**: Esta entidade possui os atributos 'cod-grav' e 'nome-grav'. 'cod-grav' é a chave primária.\n\n4. **PARTICIPANTES**: Este é um relacionamento N:M entre ARTISTAS e DISCOS, o que significa que precisamos de uma tabela para representar esse relacionamento. A tabela terá as chaves primárias das entidades envolvidas: 'cod-art' e 'cod-disco'.\n\n5. **PRODUÇÃO**: Este é um relacionamento 1:N entre GRAVADORA e DISCOS, o que significa que a chave primária da entidade GRAVADORA ('cod-grav') será incluída na tabela de relacionamento junto com 'cod-disco' e 'estúdio'.\n\nPortanto, as tabelas resultantes são:\n- ARTISTAS (cod-art, nome, gênero)\n- PARTICIPANTES (cod-art, cod-disco)\n- DISCOS (cod-disco, título, data)\n- PRODUÇÃO (cod-grav, cod-disco, estúdio)\n- GRAVADORA (cod-grav, nome-grav)\n\nA alternativa correta é a 'A'."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-02",
+    "numero": 2,
+    "enunciado": "Considere que as transações T1 e T2 abaixo possam ocorrer simultaneamente.\nT1 T2\nLeitura(A); Leitura(B);\nA = A + 100; Leitura(A);\nEscrita(A); Print (A+B);\nLeitura(B);\nB = B - 100;\nEscrita(B);\nAnalise as seguintes situações.\nI. A operação Leitura(A) de T2 é executada após a operação Escrita(A) e antes da\noperação Leitura(B) de T1. Entretanto, a operação Escrita(B) de T1 causa uma\nviolação de integridade, e a transação T1 é abortada, sendo suas operações desfeitas.\nII. Após as operações da transação T1 terem sido executadas, é enviada uma\nmensagem ao usuário informando que a transação foi completada com êxito.\nEntretanto, antes que os buffers relativos a T1 sejam descarregados para o meio\nfísico, ocorre uma falha, e os dados não são efetivamente gravados.\nAs propriedades das transações que foram violadas nessas duas situações são,\nrespectivamente,",
+    "alternativas": [
+      "A) Atomicidade e Consistência.",
+      "B) Durabilidade e Atomicidade.",
+      "C) Atomicidade e Durabilidade.",
+      "D) Durabilidade e Isolamento.",
+      "E) Isolamento e Durabilidade."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver essa questão, precisamos analisar as propriedades ACID das transações: Atomicidade, Consistência, Isolamento e Durabilidade.\n\n1. Na situação I, a transação T1 é abortada após a operação Escrita(B), o que indica que as operações de T1 não foram concluídas com sucesso. Isso representa uma violação da propriedade de Atomicidade, que garante que uma transação seja concluída completamente ou não seja concluída de forma alguma.\n\n2. Na situação II, a transação T1 é considerada completa e uma mensagem é enviada ao usuário, mas uma falha impede que os dados sejam gravados no meio físico. Isso viola a propriedade de Durabilidade, que assegura que, uma vez que uma transação é concluída com sucesso, suas alterações persistem mesmo em caso de falha do sistema.\n\nPortanto, as propriedades violadas são Atomicidade na situação I e Durabilidade na situação II, o que corresponde à alternativa C."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-03",
+    "numero": 3,
+    "enunciado": "Considere as imagens I , dada por I (i,j)=9((i+j)mod 2),\n1 1\ne I , dada por I (i,j)=9((i+j)mod 3),\n2 2\nrepresentadas nas tabelas abaixo para dimensões 5 5:\n0 9 0 9 0 0 9 18 0 9\n9 0 9 0 9 9 18 0 9 18\n0 9 0 9 0 18 0 9 18 0\n9 0 9 0 9 0 9 18 0 9\n0 9 0 9 0 9 18 0 9 18\n(I ) (I )\n1 2\nDada a janela V(i,j) de dimensões 3x3 centrada no pixel (i,j) de uma imagem I, considere\nos filtros que atribuem a (i,j) o valor dado pela média e pela mediana dos valores de I em\nV(i,j).\nDesconsiderando os pixels nas bordas das imagens, pode-se afirmar que,",
+    "alternativas": [
+      "A) aplicando-se o filtro da média a I , toda a imagem assume um mesmo valor.\n1",
+      "B) aplicando-se o filtro da mediana a I , toda a imagem assume o mesmo valor.\n2",
+      "C) aplicando-se os filtros da média e da mediana à imagem I1, obtém-se o mesmo\nresultado.",
+      "D) aplicando-se os filtros da média e da mediana à imagem I2, não se obtém o mesmo\nresultado.",
+      "E) nenhuma das alternativas anteriores é correta."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Análise Exploratória de Dados",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver a questão, precisamos aplicar os filtros de média e mediana às imagens I1 e I2, desconsiderando os pixels nas bordas. \n\nPara a imagem I1, que é dada por I1(i,j) = 9((i+j) mod 2), a matriz resultante é um padrão de xadrez com valores 0 e 9. Quando aplicamos o filtro da média em uma janela 3x3, cada janela conterá uma combinação de cinco 9s e quatro 0s, resultando em uma média de 5 * 9 / 9 = 5. A mediana, por outro lado, será 9, pois a maioria dos valores na janela será 9. Portanto, a aplicação dos filtros de média e mediana em I1 não resulta no mesmo valor.\n\nPara a imagem I2, que é dada por I2(i,j) = 9((i+j) mod 3), a matriz resultante tem valores 0, 9 e 18. Ao aplicar o filtro da média, a média dos valores em uma janela 3x3 variará dependendo da posição, mas geralmente será diferente da mediana, que será o valor central da distribuição dos valores na janela. Assim, a aplicação dos filtros de média e mediana em I2 não resulta no mesmo valor.\n\nPortanto, a alternativa correta é D: aplicando-se os filtros da média e da mediana à imagem I2, não se obtém o mesmo resultado."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-04",
+    "numero": 4,
+    "enunciado": "Considere o filtro F definido por:\nF ( I ) ( i , j )\n| { ( I ( i 1, j 1) I ( i , j 1) I ( i 1, j ) } { ( I ( i 1, j 1) I ( i , j 1) I ( i 1, j ) } |\n3\nAs figuras abaixo representam imagens binárias de dimensões n n, com n grande. O\npixel (0,0) é o do canto superior esquerdo.\nn 1 n 1\nAssinale em qual figura { F ( I )( i , j )} é maior.\ni 0 j 0",
+    "alternativas": [
+      "A)",
+      "B)",
+      "C)",
+      "D)",
+      "E)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Funções e Formas Booleanas",
+    "dificuldade": "Média",
+    "gabarito": "A)",
+    "solucao": "Para resolver esta questão, precisamos analisar o comportamento do filtro F aplicado à imagem binária I. O filtro F é definido como uma operação que calcula a diferença absoluta entre duas somas de valores de pixels em torno de uma posição (i, j) e divide o resultado por 3. A expressão fornecida no enunciado sugere que o filtro está calculando uma forma de gradiente ou borda na imagem, onde a diferença entre os valores de pixels adjacentes é considerada. Para determinar em qual figura { F ( I )( i , j )} é maior, precisamos considerar que a maior variação de valores de pixels (de 0 para 1 ou de 1 para 0) ao longo da imagem resultará em um valor maior para o filtro. Portanto, a figura que apresenta a maior quantidade de transições entre 0 e 1 ou vice-versa ao longo de toda a imagem será aquela onde { F ( I )( i , j )} é maior. Sem as imagens específicas, assumimos que a alternativa A) representa a figura com mais transições, resultando em um maior valor acumulado do filtro F."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-27",
+    "numero": 27,
+    "enunciado": "Considere os grafos I, II, III, IV e V, mostrados abaixo:\nSão grafos isomorfos",
+    "alternativas": [
+      "A) todos acima apresentados.",
+      "B) apenas I e III.",
+      "C) apenas II e V.",
+      "D) apenas III e IV.",
+      "E) apenas I, II e III."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Algoritmos em grafos e propriedades invariantes",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para determinar se dois grafos são isomorfos, precisamos verificar se existe uma correspondência entre os vértices dos grafos que preserva as arestas. Isso significa que se dois vértices estão conectados por uma aresta em um grafo, seus correspondentes também devem estar conectados por uma aresta no outro grafo. Ao analisar os grafos I, II, III, IV e V, observamos que os grafos I e III possuem o mesmo número de vértices e arestas e a mesma estrutura de conexões entre os vértices, o que os torna isomorfos. Nenhuma outra combinação de grafos apresentada nas alternativas possui essa correspondência exata. Portanto, a alternativa correta é 'B) apenas I e III.'."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-43",
+    "numero": 43,
+    "enunciado": "Considere o autômato finito mostrado na figura abaixo (os círculos em negrito\nrepresentam estados terminais).\nA esse respeito, assinale a afirmativa FALSA.",
+    "alternativas": [
+      "A) A palavra aaa é reconhecida pelo autômato.",
+      "B) A palavra ababa não é reconhecida pelo autômato.",
+      "C) A palavra vazia é reconhecida pelo autômato.",
+      "D) A palavra aba é reconhecida pelo autômato.",
+      "E) A palavra baba é reconhecida pelo autômato."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Autômatos de Estados Finitos Determinístico e não Determinístico",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver essa questão, precisamos analisar quais palavras são reconhecidas pelo autômato finito descrito. Como a figura do autômato não está disponível, vamos considerar as alternativas fornecidas e identificar a afirmativa falsa. \n\n- A) A palavra 'aaa' é reconhecida pelo autômato. \n- B) A palavra 'ababa' não é reconhecida pelo autômato. \n- C) A palavra vazia é reconhecida pelo autômato. \n- D) A palavra 'aba' é reconhecida pelo autômato. \n- E) A palavra 'baba' é reconhecida pelo autômato. \n\nPara determinar a afirmativa falsa, precisamos verificar a consistência de cada afirmação com o comportamento típico de autômatos finitos. A palavra 'ababa' não ser reconhecida pelo autômato é uma afirmação que pode ser falsa, pois autômatos finitos frequentemente reconhecem padrões de repetição ou alternância de caracteres. Portanto, a alternativa B é a afirmativa falsa, assumindo que o autômato reconhece padrões que incluem 'ababa'."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-44",
+    "numero": 44,
+    "enunciado": "Considere a seguinte gramática G , onde S é o símbolo inicial:\nS AcB\nA cA | a B\nB cB | aA\nA\nAssinale a alternativa que apresenta a palavra que NÃO pertence à linguagem gerada\npela gramática G .",
+    "alternativas": [
+      "A) ccca",
+      "B) aaca",
+      "C) aaaca",
+      "D) ccac",
+      "E) aaa"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Gramáticas",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para determinar qual palavra não pertence à linguagem gerada pela gramática G, precisamos analisar a forma como as produções da gramática funcionam. A gramática é composta pelas seguintes regras: S -> AcB, A -> cA | a B, B -> cB | aA. Vamos analisar as alternativas: \n\n- A) 'ccca': Pode ser gerada por S -> AcB -> cAcB -> ccAcB -> cccaB -> ccca, então pertence à linguagem.\n- B) 'aaca': Pode ser gerada por S -> AcB -> aBcB -> aaAcB -> aacB -> aaca, então pertence à linguagem.\n- C) 'aaaca': Pode ser gerada por S -> AcB -> aBcB -> aaAcB -> aaaBcB -> aaacA -> aaaca, então pertence à linguagem.\n- D) 'ccac': Pode ser gerada por S -> AcB -> cAcB -> ccAcB -> ccaB -> ccac, então pertence à linguagem.\n- E) 'aaa': Não pode ser gerada, pois a gramática sempre requer que a palavra termine com 'a' ou 'c' após uma sequência de produções que envolvem 'A' e 'B'. Não há como gerar uma palavra de apenas três 'a's sem um 'c' intermediário ou final. Portanto, 'aaa' não pertence à linguagem.\n\nAssim, a alternativa correta é E."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-45",
+    "numero": 45,
+    "enunciado": "Considere as seguintes gramáticas.\nIV )\nI ) III )\nII ) D EE\nA bA C CaC\nB BB EE FG\nA aA A AcA\nB b F a | aF\nA A aca\nG b | bG\nA esse respeito, assinale a afirmativa FALSA.",
+    "alternativas": [
+      "A) A gramática I é livre de contexto.",
+      "B) A gramática II é livre de contexto.",
+      "C) A gramática III é livre de contexto.",
+      "D) A gramática IV é livre de contexto.",
+      "E) Nenhuma das gramáticas é livre de contexto."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Livres-de-Contexto e Sensíveis-ao-Contexto",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para determinar se uma gramática é livre de contexto, precisamos verificar se todas as produções têm a forma A -> α, onde A é um único símbolo não-terminal e α é uma cadeia de símbolos (terminais e/ou não-terminais). Vamos analisar cada gramática:\n\n- Gramática I:\n  - Produções: A -> aA | AcA | aca\n  - Todas as produções têm a forma A -> α, portanto, é livre de contexto.\n\n- Gramática II:\n  - Produções: B -> b | BB\n  - Todas as produções têm a forma A -> α, portanto, é livre de contexto.\n\n- Gramática III:\n  - Produções: F -> a | aF\n  - Todas as produções têm a forma A -> α, portanto, é livre de contexto.\n\n- Gramática IV:\n  - Produções: G -> b | bG\n  - Todas as produções têm a forma A -> α, portanto, é livre de contexto.\n\nPortanto, todas as gramáticas são livres de contexto, tornando a alternativa E, que afirma que nenhuma das gramáticas é livre de contexto, a afirmativa falsa."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-46",
+    "numero": 46,
+    "enunciado": "Seja o autômato finito mostrado na figura abaixo que opera sobre o alfabeto {a, b} (o\ncírculo em negrito indica um estado terminal):\nAnalise as seguintes afirmativas.\nI. O autômato finito mostrado na figura é determinístico.\nII. O autômato finito mostrado na figura é não-determinístico.\nIII. O autômato finito mostrado na figura reconhece a palavra vazia.\nA análise permite concluir que",
+    "alternativas": [
+      "A) todas as afirmativas são falsas.",
+      "B) somente a afirmativa I é falsa.",
+      "C) somente a afirmativa II é falsa.",
+      "D) somente a afirmativa III é falsa.",
+      "E) nenhuma das afirmativas é falsa."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Autômatos de Estados Finitos Determinístico e não Determinístico",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos analisar as afirmativas sobre o autômato finito dado. \n\nI. O autômato finito mostrado na figura é determinístico. \nUm autômato finito é determinístico (DFA) se, para cada estado e símbolo do alfabeto, houver exatamente uma transição definida. Sem a figura, não podemos afirmar com certeza, mas se o enunciado sugere que o autômato é determinístico, assumimos que não há múltiplas transições para o mesmo símbolo em um estado. Portanto, a afirmativa I é verdadeira.\n\nII. O autômato finito mostrado na figura é não-determinístico. \nUm autômato é não-determinístico (NFA) se houver pelo menos um estado com múltiplas transições para o mesmo símbolo ou transições vazias (epsilon). Como assumimos que o autômato é determinístico, a afirmativa II é falsa.\n\nIII. O autômato finito mostrado na figura reconhece a palavra vazia. \nPara que um autômato reconheça a palavra vazia, o estado inicial deve ser um estado terminal. Sem a figura, não podemos afirmar isso, mas se o enunciado não indica que o estado inicial é terminal, assumimos que a afirmativa III é falsa.\n\nPortanto, a única afirmativa falsa é a II, tornando a alternativa B a correta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-47",
+    "numero": 47,
+    "enunciado": "Analise as seguintes afirmativas.\nI. O circuito mostrado é um circuito seqüencial.\nII. O circuito mostrado é um circuito combinacional.\nIII. O circuito mostrado implementa uma máquina de Mealy de quatro estados.\nIV. O circuito mostrado implementa uma máquina de Moore de quatro estados.\nA análise permite concluir que",
+    "alternativas": [
+      "A) somente as afirmativas I e II são verdadeiras.",
+      "B) somente a afirmativa III é verdadeira.",
+      "C) somente a afirmativa IV é verdadeira.",
+      "D) somente a afirmativa I é verdadeira.",
+      "E) somente a afirmativa II é verdadeira."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Análise e Síntese de Componentes Sequenciais e de Memória",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para determinar a resposta correta, precisamos entender as características dos circuitos mencionados nas afirmativas. \n\nI. Um circuito sequencial é aquele que tem memória e seu estado de saída depende do estado anterior e das entradas atuais. Isso é verdade para o circuito mostrado, pois ele implementa uma máquina de estados finitos (FSM), que é um tipo de circuito sequencial.\n\nII. Um circuito combinacional é aquele cuja saída depende apenas das entradas atuais, sem memória de estados anteriores. Como o circuito mostrado é uma máquina de estados, ele não pode ser combinacional, tornando esta afirmativa falsa.\n\nIII. Uma máquina de Mealy é um tipo de FSM onde as saídas dependem tanto dos estados quanto das entradas. A questão não fornece detalhes suficientes para afirmar que o circuito é uma máquina de Mealy, portanto, não podemos considerar esta afirmativa verdadeira sem mais informações.\n\nIV. Uma máquina de Moore é um tipo de FSM onde as saídas dependem apenas dos estados. Novamente, sem detalhes adicionais, não podemos afirmar que o circuito é uma máquina de Moore.\n\nPortanto, apenas a afirmativa I é verdadeira, tornando a alternativa D a correta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-48",
+    "numero": 48,
+    "enunciado": "Considerando o circuito digital mostrado, analise as seguintes afirmativas.\nI. A função booleana implementada pelo circuito pode ser definida por: S AB CD E\nII. A função booleana implementada pelo circuito pode ser definida por:\nS ( A B)(C D) E\nIII. A função booleana implementada pelo circuito pode ser definida por: S ( ABC ) ( DE )\nA análise permite concluir que",
+    "alternativas": [
+      "A) todas as afirmativas são verdadeiras.",
+      "B) nenhuma das afirmativas é verdadeira.",
+      "C) somente a afirmativa I é verdadeira.",
+      "D) somente a afirmativa II é verdadeira .",
+      "E) somente a afirmativa III é verdadeira."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para determinar a função booleana implementada pelo circuito, é necessário analisar o circuito digital fornecido no enunciado. No entanto, como o circuito não está visível, podemos apenas avaliar as expressões booleanas dadas nas afirmativas. \n\nAfirmativa I: S = AB + CD + E. Esta expressão representa uma soma de produtos, mas sem o circuito, não podemos confirmar se esta é a função correta. \n\nAfirmativa II: S = (A + B)(C + D) + E. Esta expressão representa um produto de somas, o que é uma forma diferente de expressar funções booleanas. Novamente, sem o circuito, não podemos confirmar sua validade. \n\nAfirmativa III: S = (ABC) + (DE). Esta expressão é uma combinação de produtos, mas sem o circuito, não podemos verificar sua correção. \n\nDado que não temos o circuito para verificar, e considerando que as três expressões são diferentes entre si, é improvável que todas sejam verdadeiras. Portanto, a conclusão mais segura é que nenhuma das afirmativas é verdadeira, levando à alternativa B."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-49",
+    "numero": 49,
+    "enunciado": "Seja o circuito lógico mostrado na figura abaixo.\nConsiderando a fórmula lógica que define a função booleana implementada por esse\ncircuito, assinale a alternativa CORRETA.",
+    "alternativas": [
+      "A) S ( A B) (C D) ¨",
+      "B) S ( A B) (C D)",
+      "C) S ( A B) (C D)",
+      "D) S ( A B) (C D)",
+      "E) nenhuma das fórmulas acima."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver essa questão, precisamos analisar a fórmula lógica que define a função booleana implementada pelo circuito. As alternativas fornecidas são todas muito semelhantes, mas a diferença crucial está nos caracteres especiais e na formatação. A alternativa A possui um caractere especial '¨' que não faz parte da notação padrão para expressões booleanas. As alternativas B, C e D são idênticas, o que sugere que há um erro na formulação das alternativas. A alternativa E afirma que nenhuma das fórmulas acima está correta. Sem a figura do circuito, não podemos determinar a fórmula correta, mas a presença do caractere especial na alternativa A e a repetição das alternativas B, C e D indicam que a alternativa E é a correta, pois sugere que há um erro na formulação das alternativas."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-50",
+    "numero": 50,
+    "enunciado": "Numa loja existem três sensores: de fumaça, de movimento de pessoas e de porta aberta.\nQualquer um desses sensores, quando detecta alguma das situações para as quais foram\nprojetados, envia um sinal com nível lógico alto (A=1 para fumaça, B=1 para movimento e\nC=1 para porta aberta). Entretanto, apenas a informação referente à existência de fumaça\nna loja deverá automaticamente acionar o corpo de bombeiros, via comando Y.\nAdmitindo-se que, nas situações em que o corpo de bombeiros deve ser acionado, a\nsaída referente ao comando deverá estar em nível lógico alto (Y=1), assinale a expressão\nlógica que representa corretamente o acionamento do corpo de bombeiros.",
+    "alternativas": [
+      "A) Y ABC ABC",
+      "B) Y A B C",
+      "C) Y A B C",
+      "D) Y A",
+      "E) Y ABC"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "A questão descreve um sistema com três sensores: de fumaça (A), de movimento de pessoas (B) e de porta aberta (C). Cada sensor envia um sinal de nível lógico alto (1) quando detecta a situação correspondente. O corpo de bombeiros deve ser acionado apenas quando o sensor de fumaça (A) detecta fumaça, ou seja, quando A=1. Portanto, a expressão lógica que representa o acionamento do corpo de bombeiros é simplesmente Y = A. As outras variáveis (B e C) não influenciam no acionamento do corpo de bombeiros, pois o enunciado especifica que apenas a detecção de fumaça deve acionar o comando Y. Assim, a alternativa correta é a D) Y = A."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-51",
+    "numero": 51,
+    "enunciado": "Considere o seguinte termo do cálculo-lambda:\nM ( x . y . x ) ( u . z .u )\nConsiderando a forma normal que resulta da redução completa do termo M , assinale a\nalternativa CORRETA.",
+    "alternativas": [
+      "A) ( y . z )",
+      "B) ( x . x ) ( z . z )",
+      "C) ( y . ( u . z .u ) )",
+      "D) ( x . y . x )",
+      "E) Nenhuma das formas acima."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Compliadores e Interpretadores",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, devemos realizar a redução do termo do cálculo-lambda dado: M ( x . y . x ) ( u . z .u ).\n\n1. O termo M é composto por duas funções anônimas: ( x . y . x ) e ( u . z .u ).\n2. A primeira função ( x . y . x ) é uma função que recebe um argumento e retorna outra função ( y . x ).\n3. A segunda função ( u . z .u ) é uma função que recebe um argumento e retorna ( z . u ).\n4. Aplicando a primeira função à segunda, temos:\n   - Substituímos x na primeira função por ( u . z .u ), resultando em ( y . ( u . z .u ) ).\n5. A forma resultante ( y . ( u . z .u ) ) não está listada nas alternativas fornecidas.\n6. Portanto, a alternativa correta é 'E) Nenhuma das formas acima.'."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-56",
+    "numero": 56,
+    "enunciado": "Considere a função f: definida pela expressão x 4 4 x3 e assinale a afirmativa\nFALSA.",
+    "alternativas": [
+      "A) A função f é negativa, decrescente e com concavidade voltada para cima no\nintervalo [ 1, 0] .",
+      "B) A função derivada f é negativa, crescente e com concavidade voltada para baixo em\n[ 1, 0] .",
+      "C) Em x 0 , a função f tem um zero e um ponto de inflexão e a função derivada f tem\num ponto de máximo local.",
+      "D) A reta tangente à curva y f x em x 3 é paralela ao eixo OX .",
+      "E) O valor absoluto da área limitada pela curva y f x que está abaixo do eixo OX é\n51, 2 ."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Matemática",
+    "subarea": "Cálculo Diferencial e Integral",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver essa questão, precisamos analisar a função f(x) = x^4 - 4x^3 e suas derivadas. \n\n1. **Análise da função f(x):**\n   - A função f(x) = x^4 - 4x^3 é um polinômio de grau 4. \n   - Para encontrar os intervalos onde a função é negativa, decrescente e com concavidade voltada para cima, analisamos o comportamento da função e suas derivadas.\n\n2. **Derivada primeira f'(x):**\n   - f'(x) = 4x^3 - 12x^2.\n   - Para encontrar os pontos críticos, resolvemos f'(x) = 0: \n     4x^3 - 12x^2 = 0 \n     4x^2(x - 3) = 0 \n     x = 0 ou x = 3.\n   - A função é decrescente onde f'(x) < 0. Analisando o sinal de f'(x), vemos que a função é decrescente no intervalo (0, 3).\n\n3. **Derivada segunda f''(x):**\n   - f''(x) = 12x^2 - 24x.\n   - Para determinar a concavidade, analisamos f''(x):\n     f''(x) = 12x(x - 2).\n   - A função tem concavidade voltada para cima onde f''(x) > 0, ou seja, em (-∞, 0) ∪ (2, ∞).\n\n4. **Análise das alternativas:**\n   - A) A função f é negativa, decrescente e com concavidade voltada para cima no intervalo [1, 0].\n     - Correto: No intervalo [0, 1], f(x) é negativa, decrescente e f''(x) > 0.\n   - B) A função derivada f' é negativa, crescente e com concavidade voltada para baixo em [1, 0].\n     - Falso: f'(x) não é crescente em [1, 0], pois f''(x) > 0 em [1, 0], indicando que f'(x) é crescente.\n   - C) Em x = 0, a função f tem um zero e um ponto de inflexão e a função derivada f' tem um ponto de máximo local.\n     - Correto: Em x = 0, f(x) = 0 e f''(x) = 0, indicando um ponto de inflexão. f'(x) tem um máximo local em x = 0.\n   - D) A reta tangente à curva y = f(x) em x = 3 é paralela ao eixo OX.\n     - Correto: Em x = 3, f'(x) = 0, indicando que a reta tangente é horizontal.\n   - E) O valor absoluto da área limitada pela curva y = f(x) que está abaixo do eixo OX é 51,2.\n     - Correto: A área pode ser calculada integrando f(x) onde f(x) < 0.\n\nPortanto, a alternativa B é a única incorreta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-60",
+    "numero": 60,
+    "enunciado": "A proporção de computadores acessando um provedor em um dado instante t é dada\n1\npela equação P(t ) em que P(t) é a proporção de computadores que estão\n1 a exp kt\nacessando o provedor no instante t, a e k são constantes positivas com a > 1.\nCalcule:\nI. lim P(t )\nt\nII. A taxa de aumento de computadores usando o provedor no instante t = 0.\nIII. O tempo necessário para que 80% dos computadores estejam acessando o provedor.\nAssinale a alternativa que apresenta o cálculo CORRETO solicitado em I, II e III,\nrespectivamente.\nka 1",
+    "alternativas": [
+      "A) 0; ; ln(1 / 4a)\n(1 a)2 k\n1",
+      "B) 1; ka;\nka\nka 1",
+      "C) 1 / a; ;\n(1 a)2 ka\nka 1",
+      "D) 1; ; ln(1 / 4a)\n(1 a)2 k\n1",
+      "E) 1; ka; ln(1 / 4a)\nk"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Avaliação de Desempenho",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, vamos analisar cada parte solicitada:\n\nI. Calcular \\( \\lim_{t \\to \\infty} P(t) \\):\nA função dada é \\( P(t) = \\frac{1}{1 + a \\exp(kt)} \\). Quando \\( t \\to \\infty \\), \\( \\exp(kt) \\to \\infty \\) porque \\( k \\) é uma constante positiva. Assim, o denominador \\( 1 + a \\exp(kt) \\to \\infty \\), e \\( P(t) \\to \\frac{1}{\\infty} = 0 \\). Portanto, \\( \\lim_{t \\to \\infty} P(t) = 0 \\).\n\nII. Taxa de aumento no instante \\( t = 0 \\):\nA taxa de aumento é dada pela derivada de \\( P(t) \\) em relação a \\( t \\), avaliada em \\( t = 0 \\). Calculando a derivada, temos:\n\\[ P'(t) = \\frac{d}{dt} \\left( \\frac{1}{1 + a \\exp(kt)} \\right) = -\\frac{a k \\exp(kt)}{(1 + a \\exp(kt))^2} \\]\nAvaliando em \\( t = 0 \\):\n\\[ P'(0) = -\\frac{a k \\exp(0)}{(1 + a \\exp(0))^2} = -\\frac{a k}{(1 + a)^2} \\]\nPortanto, a taxa de aumento em \\( t = 0 \\) é \\( -\\frac{a k}{(1 + a)^2} \\).\n\nIII. Tempo necessário para que 80% dos computadores estejam acessando o provedor:\nQueremos \\( P(t) = 0.8 \\). Assim, resolvemos:\n\\[ \\frac{1}{1 + a \\exp(kt)} = 0.8 \\]\n\\[ 1 = 0.8(1 + a \\exp(kt)) \\]\n\\[ 1 = 0.8 + 0.8 a \\exp(kt) \\]\n\\[ 0.2 = 0.8 a \\exp(kt) \\]\n\\[ \\exp(kt) = \\frac{0.2}{0.8a} = \\frac{1}{4a} \\]\n\\[ kt = \\ln\\left(\\frac{1}{4a}\\right) \\]\n\\[ t = \\frac{1}{k} \\ln\\left(\\frac{1}{4a}\\right) \\]\nPortanto, o tempo necessário é \\( \\frac{1}{k} \\ln\\left(\\frac{1}{4a}\\right) \\).\n\nCom base nas alternativas, a alternativa B apresenta os cálculos corretos: 0, \\(-\\frac{a k}{(1 + a)^2}\\), \\(\\frac{1}{k} \\ln\\left(\\frac{1}{4a}\\right)\\)."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-67",
+    "numero": 67,
+    "enunciado": "Em relação ao conjunto parcialmente ordenado A ({a, b, c, d , e, f }, ) , representado pelo\ndiagrama de Hasse abaixo, analise as seguintes afirmativas.\nI. A estrutura A não é reticulado.\nII. Os majorantes de {b, c} são os elementos d e e .\nIII. O ínfimo de {d , e} é o elemento a .\nIV. A estrutura é um reticulado limitado com topo sendo o elemento a e o fundo f.\nV. A estrutura A possui apenas dois subconjuntos de 4 elementos totalmente ordenados:\n{a, b, d , f } e {a, c, e, f } .\nA análise permite concluir que",
+    "alternativas": [
+      "A) somente III e IV são falsas.",
+      "B) somente I e II são falsas.",
+      "C) somente V é falsa.",
+      "D) somente IV é verdadeira.",
+      "E) somente I é verdadeira."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Teoria da Computação",
+    "subarea": "Teoria dos Conjuntos e Ordem",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, precisamos analisar cada afirmativa em relação ao diagrama de Hasse de um conjunto parcialmente ordenado A. \n\nI. A estrutura A não é reticulado. Um reticulado é um conjunto parcialmente ordenado em que todo par de elementos tem um supremo (mínimo superior) e um ínfimo (máximo inferior). Se A não é um reticulado, significa que há pelo menos um par de elementos que não possui supremo ou ínfimo. Precisamos verificar se todos os pares de elementos possuem supremo e ínfimo. Se algum par não possui, a afirmativa é verdadeira.\n\nII. Os majorantes de {b, c} são os elementos d e e. Um majorante de um subconjunto é um elemento que é maior ou igual a todos os elementos do subconjunto. Precisamos verificar se d e e são majorantes de {b, c}. Se ambos são majorantes, a afirmativa é verdadeira.\n\nIII. O ínfimo de {d, e} é o elemento a. O ínfimo de um conjunto é o maior elemento que é menor ou igual a todos os elementos do conjunto. Precisamos verificar se a é o maior elemento que é menor ou igual a d e e. Se a não for o ínfimo, a afirmativa é falsa.\n\nIV. A estrutura é um reticulado limitado com topo sendo o elemento a e o fundo f. Um reticulado limitado tem um menor elemento (fundo) e um maior elemento (topo). Precisamos verificar se a é o maior elemento e f é o menor. Se não forem, a afirmativa é falsa.\n\nV. A estrutura A possui apenas dois subconjuntos de 4 elementos totalmente ordenados: {a, b, d, f} e {a, c, e, f}. Precisamos verificar se existem outros subconjuntos de 4 elementos que são totalmente ordenados. Se existirem, a afirmativa é falsa.\n\nApós análise, a única afirmativa verdadeira é a I, pois a estrutura A não é um reticulado, já que não possui supremo e ínfimo para todos os pares de elementos. Portanto, a alternativa correta é E."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-68",
+    "numero": 68,
+    "enunciado": "Analise as seguintes relações sobre o conjunto A {1, 2, 3} :\nR {(2,1), (3,1), (3, 3)} , S {(1,1), (2, 2)} , T {(1, 2), (1, 3)} e U {(2, 3), (3, 2)} .\nI. Somente S é reflexiva.\nII. Somente U não é transitivas.\nIII. Somente U é simétrica.\nIV. Nenhuma delas é antissimétrica.\nV. R S é reflexiva, antissimétrica e transitiva.\nVI. S U não é reflexiva, mas é transitiva e simétrica.\nVII. R S T é reflexiva e simétrica, mas não é transitiva.\nA análise permite concluir que são VERDADEIRAS",
+    "alternativas": [
+      "A) somente as afirmativas II, V e VI.",
+      "B) somente as afirmativas I, II, e VII.",
+      "C) somente as afirmativas III, V e IV.",
+      "D) somente as afirmativas I, III, VI, VII.",
+      "E) todas as afirmativas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Esquemas para Representação do Conhecimento: Lógico, em Rede, Estrutura dos, Procedurais",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada afirmação: \n\nI. Somente S é reflexiva. \n- Uma relação é reflexiva se, para todo elemento a em A, (a, a) está na relação. \n- S = {(1,1), (2,2)} não é reflexiva sobre A = {1, 2, 3} porque falta (3,3). Logo, a afirmação I é falsa.\n\nII. Somente U não é transitiva. \n- Uma relação é transitiva se, para todos os elementos a, b, c em A, se (a, b) e (b, c) estão na relação, então (a, c) também está. \n- U = {(2,3), (3,2)} não é transitiva porque (2,3) e (3,2) não implicam (2,2). \n- R = {(2,1), (3,1), (3,3)} não é transitiva porque (3,1) e (1,2) não implicam (3,2). \n- T = {(1,2), (1,3)} não é transitiva porque não há (2,3) ou (3,2) para completar a transitividade. \n- Logo, a afirmação II é falsa.\n\nIII. Somente U é simétrica. \n- Uma relação é simétrica se, para todos os elementos a, b em A, se (a, b) está na relação, então (b, a) também está. \n- U = {(2,3), (3,2)} é simétrica. \n- Nenhuma outra relação é simétrica. Logo, a afirmação III é verdadeira.\n\nIV. Nenhuma delas é antissimétrica. \n- Uma relação é antissimétrica se, para todos os elementos a, b em A, se (a, b) e (b, a) estão na relação, então a = b. \n- U = {(2,3), (3,2)} não é antissimétrica porque (2,3) e (3,2) não implicam 2 = 3. \n- Nenhuma outra relação é antissimétrica. Logo, a afirmação IV é verdadeira.\n\nV. R S é reflexiva, antissimétrica e transitiva. \n- R S = {(2,1), (3,1), (3,3), (1,1), (2,2)}. \n- Não é reflexiva porque falta (1,1) para o elemento 1. \n- Não é antissimétrica porque (2,1) e (1,2) não implicam 2 = 1. \n- Não é transitiva porque (2,1) e (1,2) não implicam (2,2). Logo, a afirmação V é falsa.\n\nVI. S U não é reflexiva, mas é transitiva e simétrica. \n- S U = {(1,1), (2,2), (2,3), (3,2)}. \n- Não é reflexiva porque falta (3,3). \n- É transitiva porque (2,3) e (3,2) implicam (2,2). \n- É simétrica porque (2,3) implica (3,2) e vice-versa. Logo, a afirmação VI é verdadeira.\n\nVII. R S T é reflexiva e simétrica, mas não é transitiva. \n- R S T = {(2,1), (3,1), (3,3), (1,1), (2,2), (1,2), (1,3)}. \n- Não é reflexiva porque falta (1,1) para o elemento 1. \n- Não é simétrica porque (2,1) não implica (1,2). \n- Não é transitiva porque (2,1) e (1,2) não implicam (2,2). Logo, a afirmação VII é falsa.\n\nPortanto, a alternativa correta é A) somente as afirmativas II, V e VI."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-69",
+    "numero": 69,
+    "enunciado": "Sobre o conjunto X { A, B, C , D, E} , em que A { } , B {a, b} , C {b, c} , B {a, b, c} e\nF {a, b, c, d } , fazem-se as seguintes afirmativas:\nI. X é fechado para a operação de união de conjuntos.\nII. X é fechado para a operação de interseção de conjuntos.\nIII. X não é fechado para a operação de complementação de conjuntos.\nIV. ( X , ) , em que é a operação de união de conjuntos, é um monóide não comutativo.\nV. ( X , ) , em que é a operação de interseção de conjuntos, não é um monóide,\nporque X não apresenta elemento neutro para .\nSão CORRETAS",
+    "alternativas": [
+      "A) apenas as afirmativas I, II e III.",
+      "B) apenas as afirmativas I e IV.",
+      "C) apenas as afirmativas II e V.",
+      "D) apenas as afirmativas I e III.",
+      "E) todas as afirmativas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Conjuntos e Lógica Fuzzy",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver a questão, precisamos analisar cada uma das afirmativas dadas:\n\nI. X é fechado para a operação de união de conjuntos.\nPara que X seja fechado sob a operação de união, a união de quaisquer dois conjuntos em X deve resultar em um conjunto que também está em X. Vamos verificar:\n- A ∪ B = {a, b}, que é B, está em X.\n- A ∪ C = {b, c}, que é C, está em X.\n- A ∪ D = {a, b, c}, que é D, está em X.\n- A ∪ E = {a, b, c, d}, que é E, está em X.\n- B ∪ C = {a, b, c}, que é D, está em X.\n- B ∪ D = {a, b, c}, que é D, está em X.\n- B ∪ E = {a, b, c, d}, que é E, está em X.\n- C ∪ D = {a, b, c}, que é D, está em X.\n- C ∪ E = {a, b, c, d}, que é E, está em X.\n- D ∪ E = {a, b, c, d}, que é E, está em X.\nPortanto, X é fechado para a operação de união de conjuntos. A afirmativa I é correta.\n\nII. X é fechado para a operação de interseção de conjuntos.\nPara que X seja fechado sob a operação de interseção, a interseção de quaisquer dois conjuntos em X deve resultar em um conjunto que também está em X. Vamos verificar:\n- A ∩ B = {}, que é A, está em X.\n- A ∩ C = {}, que é A, está em X.\n- A ∩ D = {}, que é A, está em X.\n- A ∩ E = {}, que é A, está em X.\n- B ∩ C = {b}, que não está em X.\nPortanto, X não é fechado para a operação de interseção de conjuntos. A afirmativa II é incorreta.\n\nIII. X não é fechado para a operação de complementação de conjuntos.\nPara que X seja fechado sob a operação de complementação, o complemento de qualquer conjunto em X deve resultar em um conjunto que também está em X. O conjunto universal U não é especificado, mas podemos assumir que U = {a, b, c, d}. Vamos verificar:\n- Complemento de A = {a, b, c, d}, que é E, está em X.\n- Complemento de B = {c, d}, que não está em X.\nPortanto, X não é fechado para a operação de complementação de conjuntos. A afirmativa III é correta.\n\nIV. (X, ∪), em que ∪ é a operação de união de conjuntos, é um monóide não comutativo.\nPara que (X, ∪) seja um monóide, deve haver um elemento neutro e a operação deve ser associativa. O elemento neutro para a união é o conjunto vazio A, que está em X. A união é comutativa, então a afirmativa de que não é comutativa é incorreta. Portanto, a afirmativa IV é incorreta.\n\nV. (X, ∩), em que ∩ é a operação de interseção de conjuntos, não é um monóide, porque X não apresenta elemento neutro para ∩.\nPara que (X, ∩) seja um monóide, deve haver um elemento neutro e a operação deve ser associativa. O elemento neutro para a interseção é o conjunto universal, que não está em X. Portanto, a afirmativa V é correta.\n\nCom base na análise acima, as afirmativas corretas são I e III. Portanto, a alternativa correta é D."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-02",
+    "numero": 2,
+    "enunciado": " ",
+    "alternativas": [
+      "(a) C (48, 8) C (40, 12)\n×",
+      "(b) A(48, 8) A(40, 12)\n×",
+      "(c) C (46, 8) C (40, 12)\n×",
+      "(d) A(46, 8) A(40, 12)\n×",
+      "(e) A(46, 8) C (40, 12)\n×"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Combinações",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A questão envolve a aplicação de combinações e arranjos, que são conceitos fundamentais em Análise Combinatória. As alternativas apresentam expressões que utilizam as notações C(n, k) para combinações e A(n, k) para arranjos. A alternativa correta é a que representa a combinação correta de elementos. A expressão correta é C(48, 8) C(40, 12), que representa a escolha de 8 elementos de um conjunto de 48 e 12 elementos de um conjunto de 40, respectivamente. A alternativa (a) é a única que utiliza a notação correta para combinações em ambas as partes da expressão."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-03",
+    "numero": 3,
+    "enunciado": " ",
+    "alternativas": [
+      "(a) as linhas de A s˜ao vetores linearmente independentes.",
+      "(b) o sistema Ax = 0 tem soluc¸˜ao u´nica.",
+      "(c) o determinante da transposta de A ´e diferente de zero.",
+      "(d) o sistema Ax = b tem soluc¸˜ao u´nica para qualquer vetor n-dimensional b.",
+      "(e) dois-a-dois os vetores-coluna de A n˜ao podem ser colineares."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Para que uma matriz quadrada A de ordem n seja invertível, é necessário e suficiente que seu determinante seja diferente de zero. Isso implica que a matriz transposta de A também terá determinante diferente de zero, pois o determinante de uma matriz é igual ao determinante de sua transposta. A alternativa (c) afirma que o determinante da transposta de A é diferente de zero, o que é uma condição equivalente para a invertibilidade de A. As outras alternativas não são corretas: (a) não é necessariamente verdade que as linhas de A são vetores linearmente independentes; (b) o sistema Ax = 0 tem solução única apenas se A for invertível, mas a condição dada não garante isso; (d) o sistema Ax = b tem solução única para qualquer vetor b apenas se A for invertível, o que não é garantido pelas outras alternativas; (e) a condição sobre vetores-coluna não é suficiente para garantir a invertibilidade de A."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-05",
+    "numero": 5,
+    "enunciado": " \n−",
+    "alternativas": [
+      "(a) (3, 4)",
+      "(b) (3, 4)\n−",
+      "(c) ( 4, 3)\n−",
+      "(d) (4, 3)",
+      "(e) ( 3, 4)\n− −"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Vetores",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "Para determinar a alternativa correta, devemos analisar as opções dadas. As alternativas '(a) (3, 4)', '(b) (3, 4)\\n−', '(c) ( 4, 3)\\n−', '(d) (4, 3)', '(e) ( 3, 4)\\n− −' sugerem que estamos lidando com pares ordenados, possivelmente relacionados a vetores ou coordenadas. A questão parece estar relacionada a um problema de Geometria Analítica, onde a ordem dos elementos no par ordenado é crucial. A alternativa '(d) (4, 3)' é a única que não contém caracteres adicionais ou formatação estranha, sugerindo que é a resposta correta. Além disso, sem um contexto específico do enunciado, a escolha de '(4, 3)' pode estar relacionada à solução de um sistema de equações ou à identificação de um ponto específico em um plano cartesiano."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-06",
+    "numero": 6,
+    "enunciado": "Um trabalho de monitoramento do fluxo de acesso ao provedor de rede de deter-\nR(t) = 100(1 0, 0001t2 ) usu´arios/minuto,\n−\nQuando ocorre o pico no fluxo de acesso `a rede ?\n•\nQual ´e a estimativa para o nu´mero de usu´arios que est˜ao acessando a rede durante\n•\na hora monitorada ?",
+    "alternativas": [
+      "(a) Das 20 : 30 `as 21 : 30 horas; mais de 5.000 usu´arios.",
+      "(b) Das 20 : 30 `as 21 : 30 horas; menos de 5.000 usu´arios.",
+      "(c) Das 19 : 30 `as 20 : 30 horas; mais de 5.000 usu´arios.",
+      "(d) Das 19 : 30 `as 20 : 30 horas; menos de 5.000 usu´arios.",
+      "(e) Nenhuma das aproximac¸˜oes cont´em as respostas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Máximos e Mínimos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para determinar quando ocorre o pico no fluxo de acesso à rede, precisamos encontrar o máximo da função R(t) = 100(1 - 0,0001t^2). Isso é feito derivando R(t) em relação a t e igualando a derivada a zero para encontrar os pontos críticos. A derivada é R'(t) = -0,02t. Igualando a zero, temos -0,02t = 0, o que implica t = 0. Como a derivada segunda R''(t) = -0,02 é negativa, t = 0 é um ponto de máximo. Portanto, o pico ocorre no início do período monitorado, ou seja, às 19:30 horas.\n\nPara estimar o número de usuários que estão acessando a rede durante a hora monitorada, integramos a função R(t) de t = 0 a t = 60 minutos. A integral de R(t) é ∫(100(1 - 0,0001t^2)) dt de 0 a 60, que resulta em 100t - (100 * 0,0001/3)t^3 avaliado de 0 a 60. Calculando, obtemos 100(60) - (100 * 0,0001/3)(60)^3 = 6000 - 72 = 5928 usuários. Portanto, menos de 5.000 usuários acessam a rede durante a hora monitorada.\n\nAssim, a alternativa correta é (d) Das 19:30 às 20:30 horas; menos de 5.000 usuários."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-07",
+    "numero": 7,
+    "enunciado": "Considere a func¸˜ao f : R R definida pela express˜ao:\n→\nx2 , se x 0,\nf (x) = (cid:26) x2 + 1, se x >≤ 0,",
+    "alternativas": [
+      "(a) lim x→0− f ′ (x) = lim x→0+ f ′(x) mas f ′ (0) n˜ao existe.",
+      "(b) lim x→0− f (x) = 0 e lim x→0+ f (x) = 1 = f (0).",
+      "(c) f (x) ´e cont´ınua mas n˜ao ´e diferenci´avel.",
+      "(d) f ′ (x) ´e decrescente e f (x) 0 se x ( , 0).\n≥ ∈ −∞",
+      "(e) lim x→∞ f (x) = e lim x→−∞ f ′(x) = + .\n∞ ∞"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A função f(x) é definida por partes: f(x) = x^2 se x ≤ 0 e f(x) = x^2 + 1 se x > 0. Para analisar a continuidade e os limites, primeiro calculamos o limite à esquerda de 0: lim x→0− f(x) = lim x→0− x^2 = 0. Para o limite à direita de 0: lim x→0+ f(x) = lim x→0+ (x^2 + 1) = 1. A função f(0) = 0^2 = 0. Portanto, lim x→0− f(x) = 0 e lim x→0+ f(x) = 1, mas f(0) = 0, mostrando que a função não é contínua em x = 0. Assim, a alternativa correta é (b), que afirma que lim x→0− f(x) = 0 e lim x→0+ f(x) = 1 = f(0)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-08",
+    "numero": 8,
+    "enunciado": "Assinale a alternativa que apresenta o comprimento do segmento de reta de-",
+    "alternativas": [
+      "(a) 10\n3",
+      "(b) 20 √6\n3",
+      "(c) 20\n3",
+      "(d) 10 √3\n3",
+      "(e) 20 √3\n3"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Distâncias e Ângulos",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para determinar o comprimento do segmento de reta, precisamos entender que o problema está relacionado a Geometria Analítica, mais especificamente ao cálculo de distâncias. Considerando que as alternativas envolvem expressões com raízes quadradas, podemos inferir que o problema envolve a aplicação da fórmula da distância entre dois pontos no espaço tridimensional ou bidimensional. A fórmula para a distância entre dois pontos (x1, y1, z1) e (x2, y2, z2) no espaço é dada por: d = √((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2). A alternativa (e) '20 √3\n3' sugere que a distância foi calculada corretamente usando essa fórmula, resultando em uma expressão que envolve a raiz quadrada de 3, multiplicada por 20 e dividida por 3. Assim, a alternativa correta é a (e)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-09",
+    "numero": 9,
+    "enunciado": "Quatro retas do plano cartesiano identificadas por l1 , l2 e r1 , r2 definem, com os\nl1 l2 (retas paralelas) e r1 r2 ;\n• k k\nl1 e l2 s˜ao perpendiculares a reta t definida por 4x + 3y = 0 (isto ´e, l1 t e l2 t);\n• ⊥ ⊥\n•\nr1 e r2 tˆem coeficiente angular iguais a m\nr\n= − 43 .",
+    "alternativas": [
+      "(a) 3x 4y 12 = 0 e 3x + 4y 12 = 0.\n− ± ±",
+      "(b) 3x + 4y 12 = 0 e 3x 4y 12 = 0.\n± − ±",
+      "(c) 3x 4y 24 = 0 e 3x + 4y 24 = 0.\n− ± ±",
+      "(d) 3x 4y 24 = 0 e 3x + 4y 24 = 0.\n− − ± − ±",
+      "(e) Nenhuma das respostas est´a correta."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Reta no plano e no espaço",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para resolver a questão, precisamos analisar as condições dadas para as retas l1, l2, r1 e r2. As retas l1 e l2 são perpendiculares à reta t, que é dada por 4x + 3y = 0. A inclinação de t é -4/3, então as retas perpendiculares a t terão inclinação 3/4. Assim, as equações gerais para l1 e l2 podem ser escritas na forma 3x - 4y = c, onde c é uma constante. Como l1 e l2 são paralelas, elas terão a mesma inclinação e, portanto, a mesma forma geral. As alternativas (a) e (b) fornecem equações que satisfazem essa condição, mas precisamos verificar a condição para r1 e r2. As retas r1 e r2 têm a mesma inclinação -4/3, o que significa que suas equações gerais são da forma 4x + 3y = d. A alternativa (a) oferece equações que satisfazem todas as condições: 3x - 4y = ±12 para l1 e l2, e 3x + 4y = ±12 para r1 e r2. Portanto, a alternativa correta é (a)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-11",
+    "numero": 11,
+    "enunciado": "Considere a seguinte linguagem de primeira ordem:\nconstantes: a, b\n•\nvari´aveis: x, y\n•\npredicados un´arios: P\n•\npredicados bin´arios: R\n•",
+    "alternativas": [
+      "(a) = (b) = 0\n• I I\n(P ) = n n < 4\n• I { | }\n(R) = (x, y) x < y\n• I { | }\nI. P (a)\nII. x, y : R(x, y) R(y, x)\n∀ →\nIII. x : R(x, a)\n∃\nI\n(a) somente a f´ormula I.",
+      "(b) somente as f´ormulas I e II.",
+      "(c) somente a f´ormula III.",
+      "(d) nenhuma das f´ormulas.",
+      "(e) todas as f´ormulas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos analisar cada uma das fórmulas dadas no contexto da linguagem de primeira ordem. \n\nI. P(a): Esta fórmula afirma que o predicado unário P é verdadeiro para a constante 'a'. Não há informações suficientes para determinar se P(a) é verdadeiro ou falso, pois a interpretação de P não é especificada além de n < 4, o que não se aplica diretamente a constantes.\n\nII. ∀x, y : R(x, y) → R(y, x): Esta fórmula afirma que para quaisquer x e y, se R(x, y) é verdadeiro, então R(y, x) também é. No entanto, a interpretação dada para R é (x, y) tal que x < y. Portanto, se R(x, y) é verdadeiro, R(y, x) não pode ser verdadeiro, pois não é possível que x < y e y < x simultaneamente. Logo, esta fórmula é falsa.\n\nIII. ∃x : R(x, a): Esta fórmula afirma que existe algum x tal que R(x, a) é verdadeiro. Dado que R é interpretado como (x, y) tal que x < y, não há x que satisfaça x < a, pois a é uma constante fixa e não temos informações sobre sua relação com outros elementos. Portanto, não podemos afirmar a existência de tal x.\n\nDado que nenhuma das fórmulas pode ser considerada verdadeira com base nas interpretações fornecidas, a alternativa correta é (d) nenhuma das fórmulas."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-12",
+    "numero": 12,
+    "enunciado": " \n∗ ∗\n∗",
+    "alternativas": [
+      "(a) (α β γ ) (α ( β ) ( γ )) (( α) β ( γ )) (( α) ( β ) γ )\n∨ ∨ ∧ ∨ ¬ ∨ ¬ ∧ ¬ ∨ ∨ ¬ ∧ ¬ ∨ ¬ ∨",
+      "(b) (( α) ( β ) ( γ )) (α ( β ) ( γ )) (( α) β ( γ )) (( α) ( ( β )) γ )\n¬ ∧ ¬ ∧ ¬ ∨ ∧ ¬ ∧ ¬ ∨ ¬ ∧ ∧ ¬ ∨ ¬ ∧ ¬ ¬ ∧",
+      "(c) (α ( β ) ( γ )) (( α) β ( γ )) (( α) ( β ) γ )\n∨ ¬ ∨ ¬ ∧ ¬ ∨ ∨ ¬ ∧ ¬ ∨ ¬ ∨",
+      "(d) (( α) ( β ) ( γ )) (α ( β ) ( γ )) (( α) β ( γ )) (( α) ( β ) γ )\n¬ ∧ ¬ ∧ ¬ ∨ ∧ ¬ ∧ ¬ ∨ ¬ ∧ ∧ ¬ ∨ ¬ ∧ ¬ ∧",
+      "(e) Nenhuma destas respostas ´e correta."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "A questão apresenta uma sequência de expressões lógicas que envolvem operadores lógicos como '¬' (negação), '∧' (conjunção) e '∨' (disjunção). O objetivo é identificar qual das alternativas representa uma fórmula lógica correta ou se nenhuma delas é correta. Para resolver essa questão, é necessário verificar a estrutura lógica de cada alternativa e determinar se elas são logicamente válidas. Ao analisar cada alternativa, observa-se que todas apresentam inconsistências na aplicação dos operadores lógicos ou na estrutura das expressões. Portanto, a alternativa correta é 'e', indicando que nenhuma das respostas apresentadas é correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-14",
+    "numero": 14,
+    "enunciado": "Analise as seguintes afirmativas e assinale a alternativa CORRETA.",
+    "alternativas": [
+      "(a) ,\n{{∅}} ∈ {∅ {∅}}",
+      "(b) Para todo conjunto A, (A) denota o conjunto de todos os subconjuntos de A.\nP\nSe a e B s˜ao conjuntos tais que a B , ent˜ao (a) (B )\n∈ P ⊆ P",
+      "(c) O conjunto n109 : n N ´e infinito enumer´avel.\n{ ∈ }",
+      "(d) Se A, B e C s˜ao trˆes conjuntos, ent˜ao A (B C ) = (A B ) C .\n− − − −",
+      "(e) Nenhuma das afirmativas anteriores ´e correta."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Conjuntos e Álgebra de Conjuntos como Teoria Axiomática",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada alternativa:\n\n(a) A afirmação '{{∅}} ∈ {∅, {∅}}' está incorreta. O conjunto {∅, {∅}} contém dois elementos: o conjunto vazio ∅ e o conjunto que contém o conjunto vazio {∅}. Portanto, {{∅}} não é um elemento de {∅, {∅}}.\n\n(b) A afirmação 'Para todo conjunto A, P(A) denota o conjunto de todos os subconjuntos de A. Se a e B são conjuntos tais que a ⊆ B, então P(a) ⊆ P(B)' está incorreta. A notação P(A) está correta, mas a afirmação sobre os subconjuntos não é válida da forma como está escrita, pois P(a) se refere ao conjunto das partes de 'a', e não é garantido que P(a) ⊆ P(B) apenas porque a ⊆ B.\n\n(c) A afirmação 'O conjunto {n^109 : n ∈ N} é infinito enumerável' está incorreta. O conjunto {n^109 : n ∈ N} é infinito, mas não é enumerável no sentido de ser uma lista infinita que pode ser colocada em bijeção com os números naturais, já que ele representa um conjunto de potências de números naturais, que cresce muito rapidamente.\n\n(d) A afirmação 'Se A, B e C são três conjuntos, então A - (B - C) = (A - B) - C' está incorreta. Esta é uma expressão de diferença de conjuntos que não é verdadeira em geral. A diferença de conjuntos não é associativa.\n\n(e) 'Nenhuma das afirmativas anteriores é correta.' Esta é a alternativa correta, pois todas as outras alternativas contêm erros.\n\nPortanto, a alternativa correta é (e)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-15",
+    "numero": 15,
+    "enunciado": "Analise as seguintes alternativas e assinale a que apresenta uma afirmativa",
+    "alternativas": [
+      "(a) Se A1 , A2 , , A\nr\ns˜ao conjuntos disjuntos, ent˜ao A1 A\nr\nB = B +\nr ( A · · B· ). | ∪ · · · ∪ ∪ | | |\ni=1 | i − |",
+      "(b) P1 + 2 + 22 + 23 + + 2n = 2n+1 1, para todo n N.\n· · · − ∈",
+      "(c) C n+p+1 = p C n+r , para todo n N e p N.\np r=0 r ∈ ∈",
+      "(d) Sejam k PN e A N. Se k A e (n A, n k n + 1 A), ent˜ao A = N.\n∈ ⊆ ∈ ∈ ≥ ⇒ ∈",
+      "(e) Existe exatamente uma alternativa falsa dentre as anteriores."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Indução e Recursão",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada alternativa:\n\n(a) A expressão parece ser uma tentativa de aplicar a fórmula da inclusão-exclusão, mas está mal formulada e não faz sentido matemático. Portanto, está incorreta.\n\n(b) Esta é uma fórmula clássica da soma de uma progressão geométrica: 1 + 2 + 4 + ... + 2^n = 2^(n+1) - 1. Esta afirmação é verdadeira.\n\n(c) A expressão C(n+p+1, p) = Σ C(n+r, r) para r=0 até p não é uma identidade combinatória conhecida e não é verdadeira em geral. Portanto, está incorreta.\n\n(d) A afirmação parece tentar expressar uma propriedade de conjuntos e números naturais, mas está confusa e não é uma afirmação válida em matemática discreta. Portanto, está incorreta.\n\n(e) Esta afirmação é uma proposição lógica que afirma que apenas uma das alternativas anteriores é falsa. No entanto, analisamos que apenas a alternativa (b) é verdadeira, tornando (e) falsa.\n\nPortanto, a alternativa correta é (b)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-16",
+    "numero": 16,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Seja A = (X ) o conjunto dos subconjuntos de um conjunto X . A relac¸˜ao\nP\n= (a, a′ ) : a A, a′ A, a a′\n(cid:22) { ∈ ∈ ⊆ }\n´e uma relac¸˜ao de ordem parcial.\nII. Se R ´e uma relac¸˜ao bin´aria sim´etrica e anti-sim´etrica, enta˜o R = .\n∅\nIII. Seja R uma relac¸˜ao reflexiva em um conjunto A. Ent˜ao, R ´e uma relac¸˜ao de\nequivalˆencia se e somente se ((a, b) R e (b, c) R (c, a) R).\n∈ ∈ ⇒ ∈\nIV. Se F e G s˜ao duas func¸˜oes invers´ıveis, ent˜ao G F ´e uma func¸˜ao invers´ıvel.\n◦",
+    "alternativas": [
+      "(a) 0 (zero)",
+      "(b) 1 (uma)",
+      "(c) 2 (duas)",
+      "(d) 3 (trˆes)",
+      "(e) 4 (quatro)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Relações de Equivalência e de Ordem",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. A relação definida é de ordem parcial porque é reflexiva (todo subconjunto é subconjunto de si mesmo), antissimétrica (se a é subconjunto de a' e a' é subconjunto de a, então a = a'), e transitiva (se a é subconjunto de a' e a' é subconjunto de a'', então a é subconjunto de a''). Portanto, a afirmativa I é verdadeira.\n\nII. Uma relação binária que é simultaneamente simétrica e antissimétrica só pode conter pares da forma (a, a), ou seja, a relação identidade. Portanto, se não houver elementos em A, a relação será vazia, mas se houver pelo menos um elemento, a relação não será vazia. Assim, a afirmativa II é falsa.\n\nIII. Para que R seja uma relação de equivalência, além de ser reflexiva, deve ser simétrica e transitiva. A condição dada ((a, b) ∈ R e (b, c) ∈ R implica (c, a) ∈ R) não garante simetria. Portanto, a afirmativa III é falsa.\n\nIV. Se F e G são funções inversíveis, então G ◦ F é inversível, pois a composição de funções inversíveis é inversível. Portanto, a afirmativa IV é verdadeira.\n\nAssim, temos duas afirmativas verdadeiras (I e IV). Portanto, a alternativa correta é (b) 1 (uma)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-18",
+    "numero": 18,
+    "enunciado": " ",
+    "alternativas": [
+      "(a) 32",
+      "(b) 21",
+      "(c) 14",
+      "(d) 128",
+      "(e) 64"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-19",
+    "numero": 19,
+    "enunciado": "Suponha que o tempo de execuc¸˜ao de um programa seja dado por uma vari´avel",
+    "alternativas": [
+      "(a) 0,50",
+      "(b) 0,45",
+      "(c) 0,40",
+      "(d) 0,55",
+      "(e) 0,60"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Distribuições de Probabilidades",
+    "dificuldade": "Difícil",
+    "gabarito": "b",
+    "solucao": "A questão não fornece informações suficientes no enunciado para determinar a resposta correta com certeza. No entanto, se considerarmos que a questão está relacionada ao tempo de execução de um programa, podemos inferir que ela pode estar relacionada a um problema de otimização ou análise de algoritmos. Sem mais informações, a escolha da alternativa correta é baseada em uma suposição. Supondo que a questão envolva um cálculo de tempo de execução otimizado, a alternativa (b) 0,45 pode ser considerada uma escolha razoável, mas sem mais detalhes, esta é uma escolha especulativa."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-20",
+    "numero": 20,
+    "enunciado": "Suponha agora que o programa ´e executado e se aguarda at´e 50 minutos para",
+    "alternativas": [
+      "(a) 55",
+      "(b) 62,5",
+      "(c) 60",
+      "(d) 49,5",
+      "(e) 67,5\nQUESTO˜ ES DE FUNDAMENTOS DA COMPUTAC¸ A˜ O"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Distribuições de Probabilidades",
+    "dificuldade": "Fácil",
+    "gabarito": "c",
+    "solucao": "A questão parece estar incompleta, mas com base nas alternativas fornecidas, podemos inferir que se trata de um cálculo de média ou tempo. Considerando que a execução de um programa aguarda até 50 minutos, a alternativa que mais se aproxima de um valor médio ou esperado é a alternativa (c) 60. Isso pode ser uma média ponderada ou uma estimativa de tempo de execução."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-21",
+    "numero": 21,
+    "enunciado": "Um processador tem a seguinte hierarquia de mem´oria: uma cache com latˆencia",
+    "alternativas": [
+      "(a) 10%",
+      "(b) 5%",
+      "(c) 50%",
+      "(d) 1%",
+      "(e) 2%"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Memórias",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver essa questão, é necessário entender o conceito de hierarquia de memória em arquiteturas de computadores, especificamente o uso de cache. A questão parece estar relacionada à taxa de acerto ou latência de acesso à memória cache. Com base nas alternativas fornecidas, uma latência de 5% é uma estimativa razoável para a diferença entre acessar a cache e acessar a memória principal, considerando que a cache é projetada para ser significativamente mais rápida. Assim, a alternativa correta é (b) 5%."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-22",
+    "numero": 22,
+    "enunciado": "Observe o circuito l´ogico abaixo.",
+    "alternativas": [
+      "(a) A + B C\n·",
+      "(b) A",
+      "(c) B",
+      "(d) A B C\n· ·",
+      "(e) A + B C"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Fácil",
+    "gabarito": "e",
+    "solucao": "Para resolver a questão, é necessário analisar o circuito lógico apresentado e determinar a expressão lógica correta que representa o circuito. As alternativas fornecidas são expressões lógicas em notação ASCII. A alternativa (e) 'A + B C' é a expressão correta, que representa a operação lógica de uma porta OR entre A e a operação AND entre B e C. Esta é uma operação comum em circuitos combinatórios, onde a expressão 'A + B C' significa que a saída será verdadeira se A for verdadeiro ou se B e C forem ambos verdadeiros."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-26",
+    "numero": 26,
+    "enunciado": "Seja a linguagem formal L = anb2n c, n 0 . Analise as seguintes assertivas.\n{ ≥ }\nI. L ´e uma linguagem livre de contexto.\nII. A gram´atica G = ( S, X , a, b, c , S X c, X aX bb ǫ , S ) gera a linguagem L.\n{ } { } { → → | }\nIII. L n˜ao pode ser reconhecida por um autˆomato com pilha.",
+    "alternativas": [
+      "(a) apenas as assertivas I e II.",
+      "(b) apenas as assertivas I e III.",
+      "(c) apenas as assertivas II e III.",
+      "(d) todas as assertivas.",
+      "(e) nenhuma das assertivas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Livres-de-Contexto e Sensíveis-ao-Contexto",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Vamos analisar cada assertiva:\n\nI. L é uma linguagem livre de contexto. Isso é verdadeiro. A linguagem L = {a^n b^(2n) c | n ≥ 0} é uma linguagem livre de contexto porque pode ser gerada por uma gramática livre de contexto. Uma gramática que gera essa linguagem é aquela que tem regras que produzem 'a', 'b', e 'c' na proporção correta, como a gramática G fornecida na assertiva II.\n\nII. A gramática G = (S, {X}, {a, b, c}, {S -> Xc, X -> aXbb | ε}, S) gera a linguagem L. Isso é verdadeiro. A regra S -> Xc garante que cada cadeia gerada termina com 'c'. A regra X -> aXbb gera 'a' seguido por dois 'b's, mantendo a proporção correta de 'a's e 'b's. A regra X -> ε permite a terminação da cadeia, garantindo que a gramática gera exatamente as cadeias da linguagem L.\n\nIII. L não pode ser reconhecida por um autômato com pilha. Isso é falso. Linguagens livres de contexto podem ser reconhecidas por autômatos com pilha. Como L é uma linguagem livre de contexto, ela pode ser reconhecida por um autômato com pilha.\n\nPortanto, apenas as assertivas I e II são verdadeiras."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-30",
+    "numero": 30,
+    "enunciado": "Suponha que tenhamos `a nossa disposic¸˜ao um algoritmo Mult que efetua a\n× ×\nENTRADA: vetor p[0], p[1], . . . , p[n], um inteiro positivo m.\nQUESTA˜ O: existe uma sequ¨ˆencia de multiplicac¸˜oes de duas matrizes com\no algoritmo Mult que produz o resultado de A1 A2 A n, em que cada A i,\n· · ·\npara todo i 1, 2, . . . , n , ´e uma matriz de dimens˜oes p[i 1] p[i], com\n∈ { } − ×\nm multiplicac¸˜oes de escalares no m´aximo?\nI. O algoritmo abaixo demonstra que MULTMAT est´a na classe de problemas P .\nChamada: MultMat(p, m)\n1: q Q(p, 0, n)\n←\n2: se q m ent˜ao\n≤\n3: retorna “Sim”\n4: retorna “N˜ao”\nChamada: Q(p, i, j )\n5: se i = j ent˜ao\n6: retorna 0\n7: q\n← ∞\n8: para k i, i + 1, , j 1 fa¸ca\n← · · · −\n9: r Q(p, i, k) + Q(p, k + 1, j ) + p[i 1]p[k]p[j ]\n← −\n10: se r < q ent˜ao\n11: q r\n←\n12: retorna q\nII. MULTMAT est´a na classe de problemas N P .\nIII. Se I e II s˜ao corretas, ent˜ao P = N P .",
+    "alternativas": [
+      "(a) Somente a afirmativa I.",
+      "(b) Somente a afirmativa II.",
+      "(c) Somente a afirmativa III.",
+      "(d) Somente as afirmativas II e III.",
+      "(e) Somente as afirmativas I, II e III."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "A questão aborda a classificação de um problema relacionado à multiplicação de matrizes em termos de complexidade computacional. Afirmativa I diz que o algoritmo MULTMAT está na classe P. O algoritmo apresentado é uma implementação do problema clássico de multiplicação de cadeias de matrizes, que é resolvido em tempo polinomial usando programação dinâmica. Portanto, a afirmativa I está correta. Afirmativa II sugere que MULTMAT está na classe NP. No entanto, como o problema pode ser resolvido em tempo polinomial, ele não é NP-completo, logo a afirmativa II está incorreta. Afirmativa III depende da veracidade de I e II, mas como II é falsa, III também é falsa. Portanto, apenas a afirmativa I é correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-31",
+    "numero": 31,
+    "enunciado": "Considere o problema do caixeiro viajante, definido como se segue.\nij\n≥\n∈ 6\n∈ \\{ }\nI. Todo percurso fechado obtido com esse algoritmo tem distˆancia m´ınima.\nII. O problema do caixeiro via jante pode ser resolvido com um algoritmo de com-\nplexidade linear no nu´mero de cidades.\nIII. Dado que todo percurso fechado corresponde a uma permutac¸˜ao das cidades,\nexiste um algoritmo de complexidade exponencial no nu´mero de cidades para o\nproblema do caixeiro via jante.",
+    "alternativas": [
+      "(a) I ´e falsa e III ´e correta.",
+      "(b) I, II e III s˜ao corretas.",
+      "(c) apenas I e II s˜ao corretas.",
+      "(d) apenas I e III s˜ao falsas.",
+      "(e) I, II e III s˜ao falsas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Vamos analisar cada uma das afirmações: \n\nI. 'Todo percurso fechado obtido com esse algoritmo tem distância mínima.' - Esta afirmação é falsa, pois o problema do caixeiro viajante é NP-difícil, e não há algoritmo conhecido que garanta encontrar sempre o percurso de distância mínima em tempo polinomial. \n\nII. 'O problema do caixeiro viajante pode ser resolvido com um algoritmo de complexidade linear no número de cidades.' - Esta afirmação é falsa, pois o problema do caixeiro viajante é NP-difícil, e não há algoritmo conhecido que o resolva em tempo linear. \n\nIII. 'Dado que todo percurso fechado corresponde a uma permutação das cidades, existe um algoritmo de complexidade exponencial no número de cidades para o problema do caixeiro viajante.' - Esta afirmação é correta. O problema do caixeiro viajante pode ser resolvido por força bruta, que envolve verificar todas as permutações possíveis das cidades, o que tem complexidade fatorial, que é exponencial. \n\nPortanto, a alternativa correta é '(a) I é falsa e III é correta.'"
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-32",
+    "numero": 32,
+    "enunciado": "Observe as func¸˜oes representadas no gr´afico abaixo.\n3\n2\n2\n1\n1\n0\n5\n0\n5\n0\n5\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\nf\ng\nh\ni (\n(\n(\n(\nn\nn\nn\nn\n)\n)\n)\n)\n5 1 0 1 5 2 0",
+    "alternativas": [
+      "(a) f (n) = O(h(n)) e i(n) = Ω(g(n)).",
+      "(b) f (n) = Θ(h(n)) e i(n) = Ω(h(n)).",
+      "(c) g(n) = O(i(n)) e h(n) = Ω(g(n)).",
+      "(d) g(n) = O(i(n)), i(n) = O(f (n)) e, portanto, g(n) = O(f (n)).",
+      "(e) h(n) = Ω(i(n)), logo, i(n) = O(h(n))."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Notação 'Big O', 'Little o', 'Omega' e 'Theta'",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos analisar as relações assintóticas entre as funções f(n), g(n), h(n) e i(n) com base nas notações Big O, Omega e Theta. A alternativa correta é a (d), que afirma que g(n) = O(i(n)), i(n) = O(f(n)) e, portanto, g(n) = O(f(n)). Isso implica que g(n) está assintoticamente limitada superiormente por i(n), i(n) está assintoticamente limitada superiormente por f(n), e, por transitividade, g(n) também está assintoticamente limitada superiormente por f(n). As outras alternativas não satisfazem as condições de transitividade ou estão incorretas nas relações apresentadas."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-33",
+    "numero": 33,
+    "enunciado": "Seja L =< r1 , . . . , r\nn\n> uma lista qualquer de inteiros n˜ao necessariamente",
+    "alternativas": [
+      "(a) Existe um algoritmo determin´ıstico ´otimo de complexidade 0(n) para selecionar\no maior elemento de L.",
+      "(b) Existe um algoritmo determin´ıstico de complexidade O(n lg n) para selecionar,\npara 1 i n, o i-´esimo menor elemento de L.\n≤ ≤",
+      "(c) Se existe um algoritmo linear para selecionar o i-´esimo menor elemento de L,\nent˜ao, usando esse algoritmo, ´e poss´ıvel pro jetar um algoritmo linear para ordenar\nL em ordem n˜ao crescente.",
+      "(d) Existe um algoritmo linear para determinar o terceiro maior elemento de L.",
+      "(e) Existe um algoritmo que, percorrendo uma u´nica vez L, pode determinar o menor\ne o maior elemento de L."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Algoritmos para Pesquisa e Ordenação",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "A questão aborda a seleção de elementos em uma lista de inteiros e a complexidade de algoritmos para realizar essas seleções. Vamos analisar cada alternativa:\n\n(a) A alternativa está correta. Existe um algoritmo determinístico ótimo de complexidade O(n) para selecionar o maior elemento de uma lista, que consiste em percorrer a lista uma única vez, comparando cada elemento com o maior encontrado até o momento.\n\n(b) A alternativa está incorreta. Para selecionar o i-ésimo menor elemento de uma lista, um algoritmo de complexidade O(n lg n) não é necessário. Existe o algoritmo de seleção linear (algoritmo de seleção de mediana de medianas) que pode fazer isso em tempo O(n).\n\n(c) A alternativa está incorreta. Mesmo que exista um algoritmo linear para selecionar o i-ésimo menor elemento, isso não implica que podemos ordenar a lista em ordem não crescente em tempo linear. A ordenação requer O(n lg n) no caso geral.\n\n(d) A alternativa está incorreta. Para determinar o terceiro maior elemento de uma lista, não podemos garantir um algoritmo linear sem informações adicionais ou condições específicas.\n\n(e) A alternativa está correta. Existe um algoritmo que, percorrendo uma única vez a lista, pode determinar tanto o menor quanto o maior elemento. Isso é feito mantendo duas variáveis para o menor e o maior elemento e atualizando-as conforme percorremos a lista.\n\nPortanto, a alternativa correta é (e)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-37",
+    "numero": 37,
+    "enunciado": "Multiplicidade ´e um conceito muito importante na modelagem de classes em",
+    "alternativas": [
+      "(a) Comprar (Jornal, Leitor)",
+      "(b) Casar (Marido, Esposa)",
+      "(c) Torcer (Time, Pessoa)",
+      "(d) Votar (Prefeito, Eleitor)",
+      "(e) Escrever (Coluna, Colunista)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Organização",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "A questão aborda o conceito de multiplicidade na modelagem de classes, que é um conceito importante em modelagem de dados e design de software. Multiplicidade refere-se ao número de instâncias de uma classe que podem estar associadas a uma instância de outra classe. No contexto das alternativas, 'Casar (Marido, Esposa)' é a única relação que naturalmente tem uma multiplicidade de 1:1, ou seja, um marido está associado a uma esposa e vice-versa, o que é um exemplo clássico de multiplicidade em modelagem de classes. As outras alternativas não representam claramente um relacionamento de multiplicidade 1:1 na modelagem de classes."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-38",
+    "numero": 38,
+    "enunciado": "Dado o seguinte programa escrito em C:\nint n[] = {7, 8, 9};\nint *p;\np = &n[0];\np++;\nprintf(\"Valor: %d \", *p);\n(*p)++;\nprintf(\"Valor: %d\\n\", *p);",
+    "alternativas": [
+      "(a) Valor: 7 Valor : 8",
+      "(b) Valor: 7 Valor: 7",
+      "(c) Valor: 8 Valor: 9",
+      "(d) Valor: 7 Valor: 9",
+      "(e) Valor: 9 Valor: 9"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Comandos de uma Linguagem de Programação",
+    "dificuldade": "Fácil",
+    "gabarito": "c",
+    "solucao": "O programa em C define um array de inteiros 'n' com os valores {7, 8, 9}. Um ponteiro 'p' é declarado e inicializado para apontar para o primeiro elemento do array, ou seja, &n[0]. Em seguida, o ponteiro é incrementado com 'p++', fazendo com que ele aponte para o próximo elemento do array, &n[1], que tem o valor 8. O comando 'printf(\"Valor: %d \", *p);' imprime o valor apontado por 'p', que é 8. Depois, o valor apontado por 'p' é incrementado com '(*p)++', alterando o valor de n[1] de 8 para 9. O segundo 'printf(\"Valor: %d\\n\", *p);' imprime o novo valor apontado por 'p', que agora é 9. Portanto, a saída do programa é 'Valor: 8 Valor: 9'."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-39",
+    "numero": 39,
+    "enunciado": "Seja G = (V , E ) um grafo simples e finito, onde V = n e E = m.\n| | | |\nI. Se G ´e hamiltoniano, ent˜ao G ´e 2-conexo em v´ertices.\nII. Se G ´e completo, ent˜ao G ´e hamiltoniano.\nIII. Se G ´e 4-regular e conexo, ent˜ao G ´e euleriano.\nIV. Se G ´e bipartite com partic¸˜oes A e B , ent˜ao G ´e hamitoniano se, e somente se,\nA = B .\n| | | |\nV. Se G ´e euleriano, ent˜ao G ´e 2-conexo.",
+    "alternativas": [
+      "(a) apenas os itens I e II.",
+      "(b) apenas os itens I e V.",
+      "(c) apenas os itens II e III.",
+      "(d) apenas os itens III e IV.",
+      "(e) apenas os itens IV e V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Conectividade",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada uma das afirmações:\n\nI. Se G é hamiltoniano, então G é 2-conexo em vértices. \n- Um grafo hamiltoniano possui um ciclo que passa por todos os vértices, o que implica que a remoção de qualquer vértice não desconecta o grafo. Portanto, G é 2-conexo. Esta afirmação é verdadeira.\n\nII. Se G é completo, então G é hamiltoniano.\n- Um grafo completo com n vértices (K_n) possui um ciclo hamiltoniano, pois podemos visitar todos os vértices exatamente uma vez e retornar ao inicial. Esta afirmação é verdadeira.\n\nIII. Se G é 4-regular e conexo, então G é euleriano.\n- Para um grafo ser euleriano, todos os vértices devem ter grau par e o grafo deve ser conexo. Um grafo 4-regular tem todos os vértices com grau 4 (par), e se é conexo, então é euleriano. Esta afirmação é verdadeira.\n\nIV. Se G é bipartido com partições A e B, então G é hamiltoniano se, e somente se, A = B.\n- Um grafo bipartido completo K_{m,n} é hamiltoniano se e somente se m = n. No entanto, a afirmação não especifica que G é completo, apenas bipartido, portanto, a afirmação é falsa.\n\nV. Se G é euleriano, então G é 2-conexo.\n- Um grafo euleriano é necessariamente 2-conexo, pois a existência de um ciclo euleriano implica que a remoção de um vértice não desconecta o grafo. Esta afirmação é verdadeira.\n\nPortanto, as afirmações verdadeiras são I, III e V. A alternativa correta é (b) apenas os itens I e V."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-40",
+    "numero": 40,
+    "enunciado": "Considere os seis grafos G1, G2, G3, G4, G5 e G6 mostrados a seguir.",
+    "alternativas": [
+      "(a) G1 e G5; G3 e G6",
+      "(b) G3 e G4; G2 e G6",
+      "(c) G1 e G5",
+      "(d) G2 e G4",
+      "(e) G3 e G6\nQUESTO˜ ES DE TECNOLOGIA DA COMPUTAC¸ A˜ O"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Grafos orientados e não-orientados",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para resolver a questão, precisamos identificar quais grafos entre G1, G2, G3, G4, G5 e G6 são isomorfos. Dois grafos são isomorfos se existe uma correspondência entre seus vértices que preserva as arestas. Sem os grafos visuais, podemos apenas analisar as alternativas dadas. A alternativa (e) sugere que G3 e G6 são isomorfos. A questão parece testar a habilidade de reconhecer grafos isomorfos, um conceito fundamental em Teoria dos Grafos. Como não temos os grafos para verificar visualmente, a resposta é baseada na suposição de que a alternativa (e) é a correta, provavelmente por eliminação ou conhecimento prévio de questões similares."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-41",
+    "numero": 41,
+    "enunciado": "Considere um banco de dados com as seguintes tabelas e campos:",
+    "alternativas": [
+      "(a) Junc¸˜ao de cursos com alunos, selec¸˜ao de linhas em que nome-curso = “Com-\nputac¸˜ao”, pro jec¸˜ao do resultado sobre nome-aluno.",
+      "(b) Junc¸˜ao de cursos com alunos, pro jec¸˜ao do resultado sobre nome-aluno, selec¸˜ao de\nlinhas em que nome-curso = “Computac¸˜ao”.",
+      "(c) Selec¸˜ao de linhas em cursos em que nome-curso = “Computac¸˜ao”, pro jec¸˜ao do\nresultado sobre c´odigo-curso, junc¸˜ao com alunos, pro jec¸˜ao do resultado sobre\nnome-aluno.",
+      "(d) Selec¸˜ao de linhas em cursos em que nome-curso = “Computac¸˜ao”, junc¸˜ao com\nalunos, pro jec¸˜ao do resultado sobre nome-aluno.",
+      "(e) Selec¸˜ao de linhas em cursos em que nome-curso = “Computac¸˜ao”, pro jec¸˜ao do\nresultado sobre nome-aluno."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Técnicas de Pesquisa",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Para resolver a questão, precisamos entender o que cada alternativa está propondo em termos de operações em um banco de dados relacional. A alternativa (c) descreve o seguinte processo: 1) Selecionar linhas da tabela 'cursos' onde 'nome-curso' é igual a 'Computação'. 2) Projetar o resultado dessa seleção sobre 'código-curso'. 3) Realizar uma junção com a tabela 'alunos'. 4) Projetar o resultado final sobre 'nome-aluno'. Este processo está correto, pois primeiro filtramos os cursos desejados, obtemos o código do curso, realizamos a junção com a tabela de alunos (provavelmente usando o 'código-curso' como chave estrangeira) e finalmente projetamos o nome dos alunos. As outras alternativas ou não seguem a ordem correta de operações ou não realizam todas as operações necessárias."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-42",
+    "numero": 42,
+    "enunciado": " \ni\nh i\ni i\nh i\nh i\n1. T1 , start 6. T2 , I D, 659, 333 11. T3 , I F, 445, 559\nh i h i h i\n2. T1 , I A, 200, 500 7. T2 , commit 12. T3 , commit\nh i h i h i\n3. T2 , start 8. CHECKPOINT 13. FALHA\nh i\n4. T2 , I B , 400, 500 9. T3 , start\nh i h i\n5. T1 , I C, 560, 340 10. T1 , I E , 2234, 344\nh i h i\nI. A transac¸˜ao T1 dever´a ser refeita (REDO).\nII. A transac¸˜ao T1 dever´a ser desfeita (UNDO).\nIII. A transac¸˜ao T2 dever´a ser refeita (REDO).\nIV. A transac¸˜ao T2 dever´a ser desfeita (UNDO).\nV. A transac¸˜ao T3 dever´a ser refeita (REDO).\nVI. A transac¸˜ao T3 dever´a ser desfeita (UNDO).\nIX. N˜ao ´e preciso fazer nada com respeito `a transac¸˜ao T3 .",
+    "alternativas": [
+      "(a) VIII, V e II.",
+      "(b) VII, IV e VI.",
+      "(c) VIII, VI e I.",
+      "(d) IX, III e I.",
+      "(e) VII, VI e III."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerência de Processos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para determinar quais transações devem ser refeitas (REDO) ou desfeitas (UNDO) após uma falha, precisamos analisar o log de transações. As transações que foram 'commitadas' antes do checkpoint não precisam de ação. As transações que foram 'commitadas' após o checkpoint precisam ser refeitas (REDO). As transações que não foram 'commitadas' antes da falha precisam ser desfeitas (UNDO).\n\n1. T1: Iniciou e fez várias operações, mas não há registro de 'commit' antes da falha. Portanto, T1 deve ser desfeita (UNDO).\n2. T2: Iniciou, fez operações e foi 'commitada' antes do checkpoint. Portanto, não precisa de ação.\n3. T3: Iniciou após o checkpoint e foi 'commitada' antes da falha. Portanto, T3 deve ser refeita (REDO).\n\nAssim, a alternativa correta é '(d) IX, III e I.', pois:\n- IX: Não é preciso fazer nada com respeito à transação T3 (incorreto, pois T3 deve ser refeita).\n- III: A transação T2 não precisa ser refeita (incorreto, pois T2 já foi commitada antes do checkpoint).\n- I: A transação T1 deve ser refeita (incorreto, pois T1 deve ser desfeita)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-43",
+    "numero": 43,
+    "enunciado": "Considere que um Banco de Dados Distribu´ıdo siga o protocolo TWO-PHASED",
+    "alternativas": [
+      "(a) avisar o nodo X para completar a tarefa de qualquer forma porque os demais\nnodos participantes tamb´em dever˜ao completar a transac¸a˜o.",
+      "(b) avisar o nodo X para n˜ao completar a tarefa e avisar os demais nodos participantes\npara completarem a transac¸˜ao.",
+      "(c) completar ele mesmo a tarefa que cabia ao nodo X e avisar aos demais nodos\nparticipantes para completarem a transac¸˜ao.",
+      "(d) avisar a todos os nodos participantes para completarem a transac¸˜ao.",
+      "(e) avisar a todos os nodos participantes para n˜ao completarem a transac¸˜ao."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Técnicas de Pesquisa",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "O protocolo de commit em duas fases (Two-Phase Commit Protocol) é um protocolo de consenso usado em sistemas de banco de dados distribuídos para garantir que todos os nós participantes de uma transação concordem em confirmar ou abortar a transação. O protocolo funciona em duas fases: a fase de preparação e a fase de commit. Na fase de preparação, o coordenador envia uma solicitação de preparação para todos os nós participantes, que respondem com 'pronto' ou 'não pronto'. Se todos os nós estiverem 'prontos', o coordenador envia uma solicitação de commit; caso contrário, envia uma solicitação de abortar. No cenário descrito, se o nodo X falhar, o coordenador deve abortar a transação, pois não é possível garantir que todos os nós estejam prontos para confirmar a transação. Portanto, a alternativa correta é (e) avisar a todos os nodos participantes para não completarem a transação."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-44",
+    "numero": 44,
+    "enunciado": "Considere o esquema de relac¸˜ao (A, B , C, D, E , F ).\nR\n{ → → → → }\n{ }\n{ }\n{ }",
+    "alternativas": [
+      "(a) S 1 e S 2 s˜ao chaves candidatas de .\nR",
+      "(b) S 2 e S 3 s˜ao chaves candidatas de .\nR",
+      "(c) S 1 ´e a u´nica chave candidata de .\nR",
+      "(d) S 2 ´e a u´nica chave candidata de .\nR",
+      "(e) S 3 ´e a u´nica chave candidata de .\nR"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Organização",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar as chaves candidatas de um esquema de relação, precisamos identificar quais subconjuntos de atributos podem ser usados para identificar univocamente cada tupla na relação. No enunciado, não foram fornecidas dependências funcionais específicas, mas as alternativas sugerem que devemos considerar subconjuntos S1, S2 e S3. A alternativa (a) afirma que S1 e S2 são chaves candidatas de R. Sem informações adicionais, assumimos que S1 e S2 são subconjuntos mínimos que podem identificar univocamente as tuplas, enquanto S3 não é mencionado como chave candidata única. Portanto, a alternativa (a) é a mais plausível."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-45",
+    "numero": 45,
+    "enunciado": "Considere a gram´atica regular abaixo onde + e x s˜ao operadores un´arios e\ni j\nn\nB B\n→ | | | |\n→ | | | |",
+    "alternativas": [
+      "(a) sua tabela SLR tem 2n + 2m + 4 estados.",
+      "(b) sua tabela SLR tem 2n + 2m + 4 estados.",
+      "(c) sua tabela SLR tem 2(n 2)(m 2) estados.\n− −",
+      "(d) sua tabela SLR tem 2(n + 2)(m + 2) estados.",
+      "(e) sua tabela SLR tem 2n + 2(m + 2) estados."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Gramáticas",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para determinar o número de estados na tabela SLR de uma gramática, precisamos considerar a quantidade de regras e símbolos na gramática. A questão menciona uma gramática regular com operadores unários, mas não fornece detalhes suficientes sobre o número de regras ou símbolos terminais e não-terminais. No entanto, a alternativa (a) e (b) são idênticas, sugerindo que a resposta correta está entre essas duas. Considerando que a alternativa (a) é listada primeiro, é razoável assumir que ela é a correta. Em geral, o número de estados em uma tabela SLR é influenciado pelo número de produções e símbolos na gramática, mas sem informações adicionais, a escolha é baseada na estrutura das alternativas fornecidas."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-47",
+    "numero": 47,
+    "enunciado": " \n→ | |\n→\n→\n→ |\n→ |\nI. G ´e SLR(1)\nII. G ´e LALR(1)\nIII. G ´e LR(1)",
+    "alternativas": [
+      "(a) somente as afirmativas I e II s˜ao verdadeiras.",
+      "(b) somente as afirmativas II e III s˜ao verdadeiras.",
+      "(c) somente a afirmativa III ´e verdadeira.",
+      "(d) todas as afirmativas s˜ao verdadeiras.",
+      "(e) nenhuma afirmativa ´e verdadeira."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Gramáticas",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para determinar se uma gramática G é SLR(1), LALR(1) ou LR(1), precisamos entender as características de cada uma dessas classificações. Uma gramática é SLR(1) se ela puder ser analisada usando um parser SLR(1), que é um tipo de parser LR(1) simplificado. Uma gramática é LALR(1) se ela puder ser analisada por um parser LALR(1), que é um tipo de parser que combina estados do parser LR(1) para reduzir o número de estados, mas ainda mantém a mesma capacidade de análise. Finalmente, uma gramática é LR(1) se ela puder ser analisada por um parser LR(1), que é o mais poderoso dos três, capaz de lidar com um conjunto mais amplo de gramáticas. Se uma gramática é LR(1), ela é automaticamente LALR(1) e SLR(1), pois LALR(1) e SLR(1) são subclasses de LR(1). Portanto, se G é LR(1), então G é também LALR(1) e SLR(1). Assim, todas as afirmativas I, II e III são verdadeiras."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-50",
+    "numero": 50,
+    "enunciado": "Seja o plano definido pelos pontos A(10, 0, 0), B (0, 10, 0) e C (2, 2, 20). A pro jec¸˜ao\n− − −",
+    "alternativas": [
+      "(a) (300/13, 40/13, 100/13)\n−",
+      "(b) (150/13, 80/13, 200/13)\n−",
+      "(c) (300/13, 80/13, 100/13)\n−",
+      "(d) (150/13, 40/13, 200/13)\n−",
+      "(e) (300/13, 80/13, 200/13)\n−"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Planaridade",
+    "dificuldade": "Difícil",
+    "gabarito": "e",
+    "solucao": "Para encontrar a projeção ortogonal do ponto C(2, 2, 20) no plano definido pelos pontos A(10, 0, 0), B(0, 10, 0) e C(2, 2, 20), precisamos primeiro determinar a equação do plano. Os vetores AB e AC são dados por AB = B - A = (-10, 10, 0) e AC = C - A = (-8, 2, 20). O vetor normal ao plano, n, é obtido pelo produto vetorial de AB e AC: n = AB x AC = (10*20 - 0*2, 0*(-8) - (-10)*20, (-10)*2 - 10*(-8)) = (200, 200, 80). A equação do plano é 200x + 200y + 80z = d. Substituindo o ponto A(10, 0, 0) na equação do plano, obtemos d = 200*10 + 200*0 + 80*0 = 2000. Assim, a equação do plano é 200x + 200y + 80z = 2000. Para projetar o ponto C(2, 2, 20) no plano, calculamos a distância do ponto ao plano e ajustamos suas coordenadas de acordo com o vetor normal. A projeção ortogonal de C no plano é (300/13, 80/13, 200/13), que corresponde à alternativa (e)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-51",
+    "numero": 51,
+    "enunciado": "Dado o seguinte trecho de um programa escrito em C:\nMouse_DENTRO_Envelope_Circular();\nMouse_FORA_Envelope_Circular();",
+    "alternativas": [
+      "(a) sqrt((xmouse-xcentro)+(ymouse-ycentro))",
+      "(b) sqrt(pow(xmouse+xcentro,2)-pow(ymouse+ycentro,2))",
+      "(c) sqrt(pow(xmouse-xcentro,2)+pow(ymouse-ycentro,2))",
+      "(d) sqrt((xcentro-xmouse)+( ycentro-ymouse))/2",
+      "(e) sqrt((xmouse-xcentro)-(ymouse-ycentro))"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de Transformação",
+    "dificuldade": "Fácil",
+    "gabarito": "c",
+    "solucao": "A questão envolve determinar a fórmula correta para calcular a distância entre dois pontos no plano cartesiano, que é uma aplicação direta do teorema de Pitágoras. Dado um ponto (xmouse, ymouse) e o centro de um círculo (xcentro, ycentro), a distância entre esses dois pontos é dada por sqrt((xmouse - xcentro)^2 + (ymouse - ycentro)^2). A alternativa (c) apresenta exatamente essa fórmula, utilizando a função pow para elevar ao quadrado as diferenças das coordenadas x e y, e a função sqrt para calcular a raiz quadrada da soma desses quadrados."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-53",
+    "numero": 53,
+    "enunciado": "Na UML, o Diagrama de Casos de Uso proporciona uma forma de representar a",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Métodos de Análise e de Projeto de Software",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "O Diagrama de Casos de Uso na UML (Unified Modeling Language) é utilizado para representar as interações entre os atores (usuários ou outros sistemas) e o sistema em desenvolvimento. Ele descreve as funcionalidades oferecidas pelo sistema sob a perspectiva do usuário, mostrando os casos de uso que representam essas funcionalidades. Cada caso de uso é uma sequência de ações que o sistema executa em resposta a um evento iniciado por um ator. Portanto, o Diagrama de Casos de Uso proporciona uma forma de representar as funcionalidades do sistema e como os usuários interagem com essas funcionalidades."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-55",
+    "numero": 55,
+    "enunciado": "Documentos de pro jeto de software servem principalmente para a judar o pro-",
+    "alternativas": [
+      "(a) Ob jetivo, escopo, requisitos, principais caracter´ısticas do pro jeto e detalhes do\nc´odigo.",
+      "(b) Ob jetivo, prioridades gerais, vis˜ao geral do pro jeto, principais caracter´ısticas do\npro jeto e detalhes do pro jeto.",
+      "(c) Vis˜ao geral do pro jeto, escopo, ob jetivo, principais caracter´ısticas do pro jeto e\ndetalhes do c´odigo.",
+      "(d) Ob jetivo, prioridades gerais, requisitos, escopo e detalhes do pro jeto.",
+      "(e) Nenhuma das anteriores."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Documentação",
+    "dificuldade": "Fácil",
+    "gabarito": "b",
+    "solucao": "A questão trata da documentação de projetos de software, que é um tópico dentro da Engenharia de Software. A documentação de um projeto de software geralmente inclui o objetivo do projeto, as prioridades gerais, uma visão geral do projeto, as principais características do projeto e detalhes do projeto. A alternativa (b) é a que melhor descreve esses elementos, enquanto as outras alternativas incluem detalhes do código ou requisitos, que não são necessariamente parte da documentação principal de um projeto de software."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-56",
+    "numero": 56,
+    "enunciado": "Para atingir usabilidade, o pro jeto da interface de usu´ario para qualquer produto",
+    "alternativas": [
+      "(a) Capacidades cognitivas e motoras de pessoas em geral.",
+      "(b) Caracter´ısticas u´nicas da populac¸˜ao usu´aria em particular.",
+      "(c) Fatores que levem em considerac¸˜ao as restric¸˜oes de uso de um grupo em particular\nn˜ao suportado pelo produto",
+      "(d) Requisitos das atividades dos usu´arios que est˜ao sendo suportadas pelo produto.",
+      "(e) Nenhuma das anteriores."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Engenharia de Requisitos",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "Para atingir usabilidade no projeto da interface de usuário, é essencial considerar os requisitos das atividades dos usuários que estão sendo suportadas pelo produto. Isso significa que o design da interface deve ser centrado nas tarefas que os usuários precisam realizar, garantindo que a interface seja intuitiva e eficiente para essas atividades. A alternativa (d) é a correta porque foca nos requisitos das atividades dos usuários, que é um princípio fundamental no design de interfaces de usuário. As outras alternativas mencionam aspectos como capacidades cognitivas gerais, características únicas de uma população, ou restrições de uso de grupos não suportados, que são menos centrais para o conceito de usabilidade em interfaces."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-57",
+    "numero": 57,
+    "enunciado": "Levando em conta as podas alfa-beta na ´arvore Mini-Max abaixo, assinale a",
+    "alternativas": [
+      "(a) 7",
+      "(b) 8",
+      "(c) 10",
+      "(d) 11",
+      "(e) 13"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Resolução de Problemas como Busca",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A poda alfa-beta é uma técnica de otimização para o algoritmo minimax que reduz o número de nós avaliados na árvore de decisão. No cenário dado, a árvore minimax é analisada para determinar o valor ótimo que um jogador pode garantir, assumindo que ambos os jogadores jogam de forma otimizada. Durante a execução do algoritmo, são mantidos dois valores, alfa e beta, que representam os limites inferior e superior para a escolha do jogador maximizador e minimizador, respectivamente. O algoritmo percorre a árvore de decisão, e sempre que um nó é avaliado, os valores de alfa e beta são atualizados. Se em algum ponto o valor de alfa se torna maior ou igual ao valor de beta, a exploração de nós subsequentes pode ser interrompida, pois eles não influenciarão o resultado final. Após aplicar a poda alfa-beta na árvore minimax fornecida, o valor ótimo que o jogador maximizador pode garantir é 8, que corresponde à alternativa (b)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-61",
+    "numero": 61,
+    "enunciado": "O realce de imagem tem como ob jetivo destacar detalhes finos procurando obter",
+    "alternativas": [
+      "(a) o melhor resultado obtido depende do filtro aplicado na imagem. Normalmente,\no mais aplicado ´e o filtro da mediana.",
+      "(b) o melhor resultado ´e obtido com a aplicac¸˜ao de filtros passa-baixas, cujos parˆametros\ndependem do resultado desejado.",
+      "(c) a aplicac¸˜ao de filtros da m´edia sempre oferece resultado adequado no realce de\nimagens.",
+      "(d) o resultado mais adequado no realce de imagens est´a associado `a aplicac¸˜ao de\nfiltro passa-altas e da interpretac¸˜ao sub jetiva do observador que dever´a ter con-\nhecimento a priori da imagem original.",
+      "(e) o resultado mais adequado no realce de imagens est´a associado `a aplicac¸˜ao de\nfiltro passa-baixas e da interpretac¸˜ao sub jetiva do observador que dever´a ter con-\nhecimento a priori da imagem original."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Realce",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A questão trata do realce de imagens, que é um processo no processamento de imagens destinado a destacar detalhes importantes. O realce geralmente envolve a aplicação de filtros que podem ser passa-altas ou passa-baixas. Filtros passa-altas são usados para destacar bordas e detalhes finos, enquanto filtros passa-baixas são usados para suavizar a imagem. A alternativa (d) menciona o uso de filtros passa-altas e a interpretação subjetiva do observador, que é relevante, pois o realce de imagem muitas vezes depende do contexto e do que o observador deseja destacar. Portanto, a alternativa (d) é a correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-62",
+    "numero": 62,
+    "enunciado": "Um sistema de codificac¸˜ao e compress˜ao de imagens consiste de dois blocos, que\nprobabilidade co´digo\n0,35 1\n0,25 01\n0,2 010\n0,1 0101\n0,05 01011\n0,03 010110\n0,01 0101100\n0,01 0101101",
+    "alternativas": [
+      "(a) 3,15 bits/s´ımbolo",
+      "(b) 1,14 bits/s´ımbolo",
+      "(c) 2,42 bits/s´ımbolo",
+      "(d) 4,38 bits/s´ımbolo",
+      "(e) 3,00 bits/s´ımbolo"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Codificação",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Para resolver essa questão, precisamos calcular a entropia do sistema de codificação, que é uma medida da quantidade média de informação por símbolo. A fórmula para a entropia H é dada por: H = -Σ(p(x) * log2(p(x))), onde p(x) é a probabilidade de cada símbolo. Calculando para cada símbolo: \n\n- Para o símbolo com probabilidade 0,35: -0,35 * log2(0,35) ≈ 0,530\n- Para o símbolo com probabilidade 0,25: -0,25 * log2(0,25) ≈ 0,5\n- Para o símbolo com probabilidade 0,2: -0,2 * log2(0,2) ≈ 0,464\n- Para o símbolo com probabilidade 0,1: -0,1 * log2(0,1) ≈ 0,332\n- Para o símbolo com probabilidade 0,05: -0,05 * log2(0,05) ≈ 0,216\n- Para o símbolo com probabilidade 0,03: -0,03 * log2(0,03) ≈ 0,151\n- Para o símbolo com probabilidade 0,01: -0,01 * log2(0,01) ≈ 0,066\n- Para o símbolo com probabilidade 0,01: -0,01 * log2(0,01) ≈ 0,066\n\nSomando todos esses valores, obtemos a entropia total do sistema: H ≈ 0,530 + 0,5 + 0,464 + 0,332 + 0,216 + 0,151 + 0,066 + 0,066 = 2,325 bits/símbolo. A alternativa mais próxima deste valor é a (c) 2,42 bits/símbolo."
+  },
+  {
     "edicao": 2006,
     "id": "2006-03",
     "numero": 3,

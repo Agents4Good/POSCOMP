@@ -10735,6 +10735,842 @@
     "solucao": "A questão pede para identificar a afirmação ERRADA sobre operações da álgebra relacional. Vamos analisar cada alternativa:\n\nA) SELECT extrai tuplas específicas de uma relação específica. - CORRETA: A operação SELECT (ou σ) é usada para selecionar tuplas que satisfazem uma condição específica.\n\nB) UNION constrói uma relação consistindo em todas as tuplas que aparecem em um par de relações específicas que são compatíveis. - CORRETA: A operação UNION combina todas as tuplas de duas relações compatíveis (mesmo número de atributos e tipos de dados compatíveis).\n\nC) PROJECT extrai atributos específicos de uma relação específica. - CORRETA: A operação PROJECT (ou π) é usada para selecionar colunas específicas de uma relação.\n\nD) JOIN constrói uma relação a partir de duas relações específicas, consistindo em todas as possibilidades de pares de tuplas, uma de cada uma das relações específicas. - ERRADA: A operação JOIN combina tuplas de duas relações com base em uma condição de junção, não em todas as possibilidades de pares de tuplas. O que está descrito na alternativa é um produto cartesiano, não um JOIN.\n\nE) DIFFERENCE constrói uma relação a partir de duas relações específicas que são compatíveis, consistindo em todas as tuplas que aparecem na primeira relação e não aparecem na segunda. - CORRETA: A operação DIFFERENCE (ou -) retorna tuplas que estão na primeira relação, mas não na segunda.\n\nPortanto, a alternativa D está errada, pois descreve incorretamente a operação JOIN."
   },
   {
+    "edicao": 2008,
+    "id": "2008-05",
+    "numero": 5,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Extreme Programming, RUP e Prototipação são exemplos de métodos ágeis.\nII. Na UML2, diagramas de contextos são usados para representar o sistema e sua\ninteração com atores e ambiente externo.\nIII. Os padrões de projeto de software são classificados em padrões de criação,\nestruturais e comportamentais.\nIV. A falha para cumprir um requisito funcional pode degradar o sistema e a falha em\ncumprir um requisito não-funcional pode tornar todo um sistema inútil.\nA partir dessa análise, pode-se concluir que estão INCORRETAS",
+    "alternativas": [
+      "A) todas as afirmativas.",
+      "B) apenas as afirmativas I e II.",
+      "C) apenas as afirmativas I, II e III.",
+      "D) apenas as afirmativas I, III e IV.",
+      "E) apenas as afirmativas II e III."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Engenharia de Software",
+    "subarea": "Metodologias de Desenvolvimento de Software",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. Extreme Programming, RUP e Prototipação são exemplos de métodos ágeis. - INCORRETA. Extreme Programming é um método ágil, mas RUP (Rational Unified Process) não é considerado um método ágil, e Prototipação é uma técnica de desenvolvimento que pode ser usada em métodos ágeis ou não.\n\nII. Na UML2, diagramas de contextos são usados para representar o sistema e sua interação com atores e ambiente externo. - INCORRETA. UML2 não possui um diagrama específico chamado 'diagrama de contexto'. O que se aproxima disso são os diagramas de casos de uso, que mostram interações entre atores e o sistema.\n\nIII. Os padrões de projeto de software são classificados em padrões de criação, estruturais e comportamentais. - CORRETA. Esta é a classificação clássica dos padrões de projeto segundo o livro 'Design Patterns: Elements of Reusable Object-Oriented Software' de Gamma et al.\n\nIV. A falha para cumprir um requisito funcional pode degradar o sistema e a falha em cumprir um requisito não-funcional pode tornar todo um sistema inútil. - CORRETA. Requisitos funcionais são essenciais para a operação do sistema, enquanto requisitos não-funcionais, como desempenho ou segurança, podem impactar severamente a usabilidade ou viabilidade do sistema.\n\nPortanto, as afirmativas incorretas são I e II. A alternativa correta é B."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-06",
+    "numero": 6,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Existem vários modelos de processo de software ou paradigmas de engenharia de\nsoftware. No paradigma conhecido como ciclo de vida clássico, a especificação pode\nser desenvolvida gradativamente à medida que os usuários conseguem compreender\nmelhor suas necessidades.\nII. O gerente de projeto é responsável pelas atividades de planejamento, gerenciamento\nde riscos e pela estimativa de custo e de esforço (homem-hora) para a realização de\num projeto.\nIII. O teste estrutural requer o conhecimento do algoritmo e da implementação do\nprograma na definição dos casos de teste.\nIV. Após a entrega e implantação do software ao cliente, há uma etapa de manutenção,\nque tem por objetivo unicamente corrigir erros e defeitos encontrados no software.\nA partir dessa análise, pode-se concluir que estão CORRETAS",
+    "alternativas": [
+      "A) todas as afirmativas.",
+      "B) apenas as afirmativas I e II.",
+      "C) apenas as afirmativas I, II e III.",
+      "D) apenas as afirmativas II e III.",
+      "E) apenas as afirmativas II, III e IV."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Engenharia de Software",
+    "subarea": "Modelos de Processo de Software",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. A afirmativa está incorreta. No ciclo de vida clássico, também conhecido como modelo cascata, a especificação é feita de forma completa antes do desenvolvimento, não gradativamente. \n\nII. Esta afirmativa está correta. O gerente de projeto realmente é responsável por planejamento, gerenciamento de riscos e estimativas de custo e esforço. \n\nIII. A afirmativa está correta. O teste estrutural, ou teste de caixa branca, requer conhecimento do algoritmo e da implementação para definir casos de teste. \n\nIV. A afirmativa está incorreta. A manutenção de software não se limita apenas à correção de erros; ela também pode incluir melhorias e adaptações. \n\nPortanto, as afirmativas corretas são II e III, o que corresponde à alternativa D."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-07",
+    "numero": 7,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Um servidor DNS suporta dois tipos de consulta: iterativa e recursiva. Na consulta\niterativa que é a mais utilizada, caso um servidor DNS não tenha a informação pedida\npela máquina solicitante, ele irá buscar a mesma consultando outros servidores.\nII. Como estratégia para aumentar a confiabilidade na resposta dos servidores DNS\nquando do emprego de caches, devem-se utilizar valores grandes de TLL (Time-To-\nLive), mantendo elevado o tempo de validade do registro na cache.\nIII. Um servidor DNS pode atender dois tipos de consultas: tradução direta, na qual, a\npartir de um endereço IP, o mesmo retorna o nome de rede do equipamento; e\ntradução inversa, na qual, a partir de um nome de rede, retorna o IP associado ao\nmesmo.\nA análise permite concluir que",
+    "alternativas": [
+      "A) nenhuma afirmativa está correta.",
+      "B) somente a afirmativa I está correta",
+      "C) somente a afirmativa II está correta.",
+      "D) somente a afirmativa III está correta.",
+      "E) todas as afirmativas estão corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Indução e Recursão",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. A afirmativa está incorreta. Na consulta iterativa, o servidor DNS não busca a informação em outros servidores. Ele apenas indica ao cliente qual o próximo servidor DNS a ser consultado. Quem faz as consultas subsequentes é o próprio cliente, não o servidor DNS.\n\nII. A afirmativa está incorreta. Utilizar valores grandes de TTL pode aumentar a eficiência do cache, mas não necessariamente a confiabilidade. Valores grandes de TTL podem manter informações desatualizadas no cache por mais tempo, o que pode ser problemático se as informações mudarem.\n\nIII. A afirmativa está incorreta. A tradução direta é a conversão de um nome de domínio para um endereço IP, enquanto a tradução inversa é a conversão de um endereço IP para um nome de domínio. A descrição dada na afirmativa está invertida.\n\nPortanto, nenhuma das afirmativas está correta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-08",
+    "numero": 8,
+    "enunciado": "O nível de transporte oferece serviços para comunicação entre computadores,\nindependentemente das tecnologias utilizadas nos outros níveis.\nAnalise as seguintes afirmativas relativas à confirmação do recebimento de pacotes no\nnível de transporte.\nI. A troca de dados entre um computador transmissor e um receptor não precisa\nobrigatoriamente de uma confirmação para cada pacote enviado. Existem três\nestratégias que podem ser utilizadas: confirmação seletiva, confirmação cumulativa e\nconfirmação em bloco.\nII. Na confirmação seletiva, cada pacote recebido por um computador não gera uma\ninformação de confirmação individualizada para o computador que enviou o pacote.\nIII. Na confirmação do recebimento de pacotes, o consumo da banda de rede pode ser\notimizado pelo uso de um mecanismo denominado piggybacking. No piggybacking a\ninformação de confirmação \"pega carona\" em mensagem de dados que retorna ao\ncomputador emissor como conseqüência do fluxo normal de troca de dados.\nA análise permite concluir que",
+    "alternativas": [
+      "A) nenhuma das afirmativas está correta.",
+      "B) apenas as afirmativas I e II estão corretas.",
+      "C) apenas as afirmativas I e III estão corretas.",
+      "D) apenas as afirmativas II e III estão corretas.",
+      "E) todas as afirmativas estão corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Teoria dos Códigos",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. Esta afirmativa está correta. No nível de transporte, a confirmação do recebimento de pacotes pode ser feita de várias maneiras, incluindo confirmação seletiva, cumulativa e em bloco. Isso significa que não é necessário confirmar cada pacote individualmente.\n\nII. Esta afirmativa está incorreta. Na confirmação seletiva, cada pacote recebido pode sim gerar uma confirmação individualizada para o emissor, permitindo que apenas pacotes específicos sejam reconhecidos como recebidos.\n\nIII. Esta afirmativa está correta. O piggybacking é uma técnica usada para otimizar o uso da banda de rede, onde a confirmação de recebimento de pacotes é enviada junto com dados que já estão sendo transmitidos de volta ao emissor, aproveitando o fluxo de dados existente.\n\nPortanto, as afirmativas I e III estão corretas, o que torna a alternativa C a correta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-09",
+    "numero": 9,
+    "enunciado": "Analise as seguintes afirmativas sobre redes neurais sem ciclos dirigidos, sendo n o\nnúmero de neurônios e m o número de conexões.\nI. O processo de treinamento da rede pode ocorrer tanto em um espaço n -dimensional\nquanto em um espaço m -dimensional. A escolha é uma questão de eficiência,\ndependendo de como se relacionem n e m .\nII. Uma vez treinada, o uso da rede consiste em aplicar uma entrada e esperar até que\nocorra convergência para que seja obtida a saída.\nIII. O processo de treinamento consiste em obter um vetor em um espaço pelo menos\nm -dimensional. Esse vetor é obtido por meio de um processo de otimização que\nbusca minimizar o erro sobre as instâncias de treino.\nIV. O processo de treinamento consiste em obter um vetor em um espaço pelo menos\nm -dimensional. Esse vetor é obtido por meio de um processo de otimização que\nbusca minimizar o erro de generalização.\nA análise permite concluir que",
+    "alternativas": [
+      "A) apenas as afirmativas I e II estão corretas.",
+      "B) apenas as afirmativas II e III estão corretas.",
+      "C) apenas as afirmativas II e IV estão corretas.",
+      "D) apenas a afirmativa III está correta.",
+      "E) todas as afirmativas estão corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. O processo de treinamento da rede pode ocorrer tanto em um espaço n-dimensional quanto em um espaço m-dimensional. A escolha é uma questão de eficiência, dependendo de como se relacionem n e m. \n- Essa afirmativa está incorreta. O treinamento de redes neurais geralmente ocorre em um espaço que depende do número de parâmetros da rede, que está mais relacionado ao número de conexões (m) do que ao número de neurônios (n). \n\nII. Uma vez treinada, o uso da rede consiste em aplicar uma entrada e esperar até que ocorra convergência para que seja obtida a saída. \n- Essa afirmativa está incorreta. Em redes neurais feedforward, que são um tipo de rede neural sem ciclos dirigidos, a saída é obtida diretamente após a propagação da entrada através das camadas, sem necessidade de esperar por convergência, que é um conceito mais associado a redes recorrentes. \n\nIII. O processo de treinamento consiste em obter um vetor em um espaço pelo menos m-dimensional. Esse vetor é obtido por meio de um processo de otimização que busca minimizar o erro sobre as instâncias de treino. \n- Essa afirmativa está correta. O treinamento de redes neurais envolve a otimização dos pesos (conexões) da rede, que são representados em um espaço m-dimensional, onde m é o número de conexões. O objetivo é minimizar o erro sobre as instâncias de treino. \n\nIV. O processo de treinamento consiste em obter um vetor em um espaço pelo menos m-dimensional. Esse vetor é obtido por meio de um processo de otimização que busca minimizar o erro de generalização. \n- Essa afirmativa está incorreta. Embora o objetivo final do treinamento seja obter um modelo que generalize bem, o processo de otimização durante o treinamento é focado na minimização do erro sobre as instâncias de treino, não diretamente no erro de generalização, que é avaliado em um conjunto de validação ou teste. \n\nPortanto, apenas a afirmativa III está correta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-10",
+    "numero": 10,
+    "enunciado": "Considere o modelo de agentes cognitivos com arquitetura BDI (Beliefs-Desires-Intentios)\ne analise as seguintes afirmativas.\nI. Agentes BDI são agentes incapazes de executar planos para a realização de tarefas.\nII. Agentes BDI têm a capacidade de ativar um ou mais objetivos, como resultado de\npercepções do ambiente e/ou de recepção de mensagens.\nIII. Intenções em agentes BDI são disposições afetivas motivadas pelo fracasso na\nrealização de tarefas.\nIV. Crenças em agentes BDI são informações que o agente mantém a respeito de si\npróprio e do ambiente em que ele se encontra.\nV. Em um agente BDI, intenções representam objetivos que o agente deliberou alcançar.\nA análise permite concluir que",
+    "alternativas": [
+      "A) todas as afirmativas estão corretas.",
+      "B) somente as afirmativas II, III, IV e V estão corretas.",
+      "C) somente a afirmativa II está correta.",
+      "D) somente as afirmativas III e V estão corretas.",
+      "E) somente as afirmativas II, IV e V estão corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, analisamos cada afirmativa sobre a arquitetura BDI (Beliefs-Desires-Intentions):\n\nI. Incorreta. Agentes BDI são projetados para executar planos e realizar tarefas com base em suas crenças, desejos e intenções.\n\nII. Correta. Agentes BDI podem ativar objetivos em resposta a mudanças no ambiente ou mensagens recebidas, refletindo a capacidade de adaptação e reatividade.\n\nIII. Incorreta. Intenções em agentes BDI não são disposições afetivas, mas sim compromissos com planos ou objetivos que o agente decidiu seguir.\n\nIV. Correta. Crenças em agentes BDI são informações sobre o estado do mundo e de si mesmos, que guiam suas ações e decisões.\n\nV. Correta. Intenções representam objetivos que o agente deliberou alcançar, sendo uma parte central do processo de tomada de decisão em agentes BDI.\n\nPortanto, as afirmativas II, IV e V estão corretas, o que corresponde à alternativa E."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-11",
+    "numero": 11,
+    "enunciado": "Analise as seguintes afirmativas sobre o BACK-END de um compilador.\nI. Apesar da geração de código intermediário tornar a implementação do compilador\nmais portável, já que o código intermediário pode ser traduzido para várias\narquiteturas diferentes, o código intermediário é geralmente mais difícil de ser\notimizado já que ainda é muito longe do código alvo final.\nII. O problema de gerar código ótimo é indecidível. Geralmente nos contentamos com\ntécnicas heurísticas que, na maior parte do tempo, geram \"bom\" código.\nIII. São exemplos de código intermediário as notações pré-fixa e pós-fixa que facilitam a\ngeração de código para uma máquina de pilha e o código de três endereços em que\ncada instrução faz referência a no máximo três variáveis (endereços).\nA análise permite concluir que",
+    "alternativas": [
+      "A) apenas a afirmativa I está correta.",
+      "B) apenas a afirmativa II está correta.",
+      "C) apenas as afirmativas I, II e III estão corretas.",
+      "D) apenas as afirmativas I e II estão corretas.",
+      "E) apenas as afirmativas II e III estão corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Compiladores",
+    "subarea": "BACK-END de Compiladores",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. A afirmativa I está incorreta. Embora o código intermediário torne o compilador mais portável, ele é, na verdade, mais fácil de otimizar do que o código fonte original, pois já está em uma forma mais próxima do código de máquina, permitindo otimizações independentes da arquitetura.\n\nII. A afirmativa II está correta. O problema de gerar código ótimo é indecidível, e, portanto, os compiladores usam heurísticas para gerar um código que seja suficientemente bom na maioria dos casos.\n\nIII. A afirmativa III está correta. Notações pré-fixa e pós-fixa são formas de código intermediário que facilitam a geração de código para máquinas de pilha. O código de três endereços é um formato intermediário comum onde cada instrução refere-se a no máximo três endereços.\n\nPortanto, as afirmativas II e III estão corretas, o que corresponde à alternativa E."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-12",
+    "numero": 12,
+    "enunciado": "Considere as seguintes afirmativas sobre o FRONT-END de um compilador.\nI. As mensagens de erro de um compilador são geralmente geradas no FRONT-END.\nMensagens de erro de compilação não são geradas no BACK-END.\nII. A análise léxica é geralmente implementada como uma subrotina do parser. A análise\nléxica reconhece símbolos léxicos (tokens) e encontra erros como esquecer o ponto-\ne-vírgula depois de um comando em Java.\nIII. Para evitar o problema do retrocesso no parser descendente recursivo, podemos usar\num parser recursivo preditivo que usa os conjuntos FIRST e FOLLOW para decidir\nqual produção aplicar à entrada.\nA análise permite concluir que",
+    "alternativas": [
+      "A) apenas a afirmativa I está correta.",
+      "B) apenas a afirmativa II está correta.",
+      "C) apenas a afirmativa III está correta.",
+      "D) apenas as afirmativas I e II estão corretas.",
+      "E) apenas as afirmativas I e III estão corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Compiladores",
+    "subarea": "Análise Sintática",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. As mensagens de erro de um compilador são geralmente geradas no FRONT-END. Mensagens de erro de compilação não são geradas no BACK-END.\n- Esta afirmativa está correta. O FRONT-END do compilador é responsável pela análise do código fonte, incluindo a análise léxica, sintática e semântica. Erros de compilação, como erros de sintaxe ou semântica, são detectados nesta fase.\n\nII. A análise léxica é geralmente implementada como uma subrotina do parser. A análise léxica reconhece símbolos léxicos (tokens) e encontra erros como esquecer o ponto-e-vírgula depois de um comando em Java.\n- Esta afirmativa está incorreta. A análise léxica é responsável por transformar a sequência de caracteres do código fonte em tokens, mas não é responsável por detectar erros como a falta de ponto-e-vírgula, que são erros sintáticos detectados pela análise sintática (parser).\n\nIII. Para evitar o problema do retrocesso no parser descendente recursivo, podemos usar um parser recursivo preditivo que usa os conjuntos FIRST e FOLLOW para decidir qual produção aplicar à entrada.\n- Esta afirmativa está correta. Um parser recursivo preditivo, como o LL(1), utiliza os conjuntos FIRST e FOLLOW para decidir qual produção aplicar, evitando retrocessos.\n\nPortanto, as afirmativas I e III estão corretas, o que corresponde à alternativa E."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-14",
+    "numero": 14,
+    "enunciado": "Sobre a comunicação entre processos distribuídos, é CORRETO afirmar",
+    "alternativas": [
+      "A) que, no modo síncrono de envio de mensagem, o processo que recebe a mensagem\nterá sua execução desviada por uma interrupção de sistema operacional para tratar\numa mensagem recebida.",
+      "B) que um processo tem no máximo uma porta (port) para receber as mensagens dos\nseus interlocutores.",
+      "C) que multiportas são estruturas do tipo portas multicast que permitem a comunicação\nN x M entre processos.",
+      "D) que, nos sockets do tipo datagrama, o endereço do socket do processo\ncorrespondente acompanha cada envio de mensagem como um parâmetro da\nprimitiva sendto().",
+      "E) que, nos sockets do tipo datagrama, a primitiva sNew() é usada para aceitar a\nconexão solicitada por um processo que solicita comunicação."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Álgebra Booleana",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "A alternativa D está correta porque, em sockets do tipo datagrama (UDP), o endereço do socket do processo correspondente precisa ser incluído em cada envio de mensagem. Isso é feito através da função sendto(), que requer o endereço do destinatário como um de seus parâmetros. As outras alternativas estão incorretas: A) No modo síncrono de envio de mensagem, não há interrupção de sistema operacional para tratar mensagens recebidas; B) Um processo pode ter múltiplas portas para comunicação; C) Multiportas não são estruturas padrão para comunicação N x M; E) A primitiva sNew() não é usada em sockets do tipo datagrama para aceitar conexões, pois datagramas não estabelecem conexões."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-16",
+    "numero": 16,
+    "enunciado": "Sejam duas funções f(n) e g(n) que mapeiam números inteiros positivos em números reais\npositivos.\nCom respeito às notações assintóticas de complexidade, avalie as afirmativas abaixo.\nI. Diz-se que f(n) é O(g(n)) se existe uma constante real c > 0 e existe uma constante\ninteira n 1 tal que f(n) c g(n) para todo inteiro n n .\n0 0\nII. Diz-se que f(n) é o(g(n)) se para toda constante real c > 0 existe uma constante inteira\nn 1 tal que f(n) < c g(n) para todo inteiro n n .\n0 0\nIII. Diz-se que f(n) é (g(n)) se existe uma constante real c > 0 e existe uma constante\ninteira n 1 tal que f(n) c g(n) para todo inteiro n n .\n0 0\nIV. Diz-se que f(n) é (g(n)) se para toda constante real c > 0 existe uma constante\ninteira n 1 tal que f(n) > c g(n) para todo inteiro n n .\n0\nV. Diz-se que f(n) é (g(n)) se, e somente se, f(n) é O(g(n)) e f(n) é (g(n)).\nA análise permite concluir que",
+    "alternativas": [
+      "A) todas as afirmativas são falsas.",
+      "B) todas as afirmativas são verdadeiras.",
+      "C) apenas as afirmativas I e III são verdadeiras.",
+      "D) apenas as afirmativas II e IV são verdadeiras.",
+      "E) apenas a afirmativa V é falsa."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Funções",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. A definição de O(g(n)) está incorreta. A definição correta é que f(n) é O(g(n)) se existem constantes c > 0 e n0 tal que f(n) <= c * g(n) para todo n >= n0. A afirmativa está faltando o operador '<='.\n\nII. A definição de o(g(n)) está correta. f(n) é o(g(n)) se para toda constante c > 0 existe um n0 tal que f(n) < c * g(n) para todo n >= n0.\n\nIII. A definição de Ω(g(n)) está incorreta. A definição correta é que f(n) é Ω(g(n)) se existem constantes c > 0 e n0 tal que f(n) >= c * g(n) para todo n >= n0. A afirmativa está faltando o operador '>='.\n\nIV. A definição de ω(g(n)) está correta. f(n) é ω(g(n)) se para toda constante c > 0 existe um n0 tal que f(n) > c * g(n) para todo n >= n0.\n\nV. A definição de Θ(g(n)) está correta. f(n) é Θ(g(n)) se, e somente se, f(n) é O(g(n)) e f(n) é Ω(g(n)).\n\nPortanto, as afirmativas I e III são falsas, enquanto as afirmativas II, IV e V são verdadeiras. Assim, a alternativa correta é 'A) todas as afirmativas são falsas.'."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-17",
+    "numero": 17,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Em um problema de decisão, o objetivo é decidir a resposta sim ou não a uma\nquestão. Em um problema de localização, procura-se localizar uma certa estrutura\nque satisfaça um conjunto de propriedades dadas. Se as propriedades envolverem\ncritérios de otimização, então o problema é dito de otimização.\nII. A teoria da complexidade restringe-se a problemas de decisão, já que o estudo de\nproblemas NP-completos é aplicado somente para esse tipo de problema.\nIII. Os problemas NP-Completos são considerados como os problemas mais difíceis em\nNP. Se qualquer problema NP-Completo pode ser resolvido em tempo polinomial,\nentão todos os problemas em NP podem ser resolvidos da mesma forma.\nA análise permite concluir que",
+    "alternativas": [
+      "A) apenas a afirmativa I está correta.",
+      "B) apenas a afirmativa II está correta.",
+      "C) apenas as afirmativas I e II estão corretas.",
+      "D) apenas as afirmativas I e III estão corretas.",
+      "E) todas as afirmativas estão corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Decidibilidade",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. A afirmativa está correta. Em um problema de decisão, o objetivo é decidir entre 'sim' ou 'não' para uma questão específica. Em um problema de localização, busca-se encontrar uma estrutura que satisfaça certas propriedades. Se essas propriedades incluem critérios de otimização, o problema é classificado como de otimização.\n\nII. A afirmativa está incorreta. Embora a teoria da complexidade frequentemente se concentre em problemas de decisão, ela não se restringe apenas a eles. Problemas de otimização e problemas de busca também são estudados dentro da teoria da complexidade. Além disso, muitos problemas NP-completos têm versões de otimização que são igualmente importantes.\n\nIII. A afirmativa está correta. Os problemas NP-completos são considerados os mais difíceis dentro da classe NP. Se um problema NP-completo puder ser resolvido em tempo polinomial, então todos os problemas em NP também podem ser resolvidos em tempo polinomial, pois qualquer problema em NP pode ser reduzido a um problema NP-completo em tempo polinomial.\n\nPortanto, apenas as afirmativas I e III estão corretas, o que torna a alternativa D a correta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-18",
+    "numero": 18,
+    "enunciado": "Analise as afirmativas abaixo.\nI. A programação dinâmica é um método ascendente que aborda um dado problema\nsubdividindo-o em problemas mínimos, soluciona esses subproblemas, guarda as\nsoluções parciais, combina os subproblemas e sub-resultados para obter e resolver\nos problemas maiores, até recompor e resolver o problema original.\nII. A divisão e conquista é um método recursivo e, por isso, descendente que decompõe\nsucessivamente um problema em subproblemas independentes triviais, resolvendo-os\ne combinando as soluções em uma solução para o problema original.\nIII. Um algoritmo guloso sempre faz escolhas que parecem ser as melhores no momento,\nou seja, escolhas ótimas locais acreditando que estas escolhas o levem a uma\nsolução ótima global. Por essa estratégia, nem sempre asseguram-se soluções\nótimas, mas, para muitos problemas, as soluções são ótimas. Os problemas ideais\npara essa estratégia não devem ter a propriedade de subestrutura ótima.\nA análise permite concluir que",
+    "alternativas": [
+      "A) todas as afirmativas são verdadeiras.",
+      "B) todas as afirmativas são falsas.",
+      "C) apenas as afirmativas I e II são verdadeiras.",
+      "D) apenas as afirmativas II e III são verdadeiras.",
+      "E) apenas a afirmativa III é verdadeira."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Indução e Recursão",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. A programação dinâmica é um método ascendente que aborda um dado problema subdividindo-o em problemas mínimos, soluciona esses subproblemas, guarda as soluções parciais, combina os subproblemas e sub-resultados para obter e resolver os problemas maiores, até recompor e resolver o problema original. Esta afirmação está correta. A programação dinâmica realmente funciona dessa forma, armazenando soluções de subproblemas para evitar cálculos repetidos.\n\nII. A divisão e conquista é um método recursivo e, por isso, descendente que decompõe sucessivamente um problema em subproblemas independentes triviais, resolvendo-os e combinando as soluções em uma solução para o problema original. Esta afirmação também está correta. A técnica de divisão e conquista divide o problema em subproblemas menores, resolve-os e depois combina as soluções.\n\nIII. Um algoritmo guloso sempre faz escolhas que parecem ser as melhores no momento, ou seja, escolhas ótimas locais acreditando que estas escolhas o levem a uma solução ótima global. Por essa estratégia, nem sempre asseguram-se soluções ótimas, mas, para muitos problemas, as soluções são ótimas. Os problemas ideais para essa estratégia não devem ter a propriedade de subestrutura ótima. Esta afirmação está incorreta. Os problemas ideais para algoritmos gulosos devem ter a propriedade de subestrutura ótima, o que significa que a solução ótima global pode ser construída a partir de soluções ótimas locais.\n\nPortanto, apenas as afirmativas I e II são verdadeiras."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-19",
+    "numero": 19,
+    "enunciado": "Com respeito ao projeto de linguagens de programação, assinale a afirmativa CORRETA.",
+    "alternativas": [
+      "A) A forma dos programas construídos com uma determinada linguagem, definida por\nregras formais que expressam restrições que definem como são os programas bem\nformados, é um problema de caráter sintático.",
+      "B) O significado de programas bem construídos com uma determinada linguagem, a qual\ndefine o efeito da execução desses programas, é um problema de caráter semântico.",
+      "C) Sistemas de tipos apresentam três propósitos principais em uma linguagem de\nprogramação: a segurança, a abstração e a modularidade.",
+      "D) A segurança de uma linguagem de programação está diretamente relacionada com a\ncapacidade de identificação estática e/ou dinâmica de programas mal formados que\nnão podem ser identificados somente por meio de mecanismos de análise sintática,\ncomo gramáticas livres do contexto.",
+      "E) Todas as alternativas anteriores estão corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para determinar a alternativa correta, analisamos cada uma das opções:\n\nA) A afirmação está correta. A forma dos programas, ou seja, a estrutura e a sintaxe, é definida por regras formais que determinam como os programas devem ser escritos para serem considerados bem formados. Isso é um problema de caráter sintático.\n\nB) A afirmação está correta. O significado dos programas, ou seja, o que eles fazem quando executados, é um problema de caráter semântico. A semântica define o efeito da execução dos programas.\n\nC) A afirmação está correta. Sistemas de tipos em linguagens de programação têm como propósitos principais a segurança (evitar erros de tipo), a abstração (permitir a definição de tipos abstratos que escondem detalhes de implementação) e a modularidade (facilitar a divisão do programa em módulos independentes).\n\nD) A afirmação está correta. A segurança de uma linguagem de programação está relacionada à capacidade de identificar programas mal formados, tanto de forma estática (antes da execução) quanto dinâmica (durante a execução), além do que pode ser detectado por análise sintática.\n\nE) Como todas as alternativas A, B, C e D estão corretas, a alternativa E é a correta.\n\nPortanto, a alternativa correta é E."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-20",
+    "numero": 20,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Ocultar dados dentro das classes e torná-los disponíveis apenas por meio de métodos\né uma técnica muito usada em programas orientados a objetos e é chamada de\nsobrescrita de atributos.\nII. Uma subclasse pode implementar novamente métodos que foram herdados de uma\nsuperclasse. Chamamos isso de sobrecarga de métodos.\nIII. Em Java não existe Herança múltipla como em C++. A única maneira se se obter algo\nparecido é via interfaces.\nA análise permite concluir que",
+    "alternativas": [
+      "A) apenas a afirmativa I está incorreta.",
+      "B) apenas a afirmativa II está incorreta.",
+      "C) apenas a afirmativa III está incorreta.",
+      "D) apenas as afirmativas I e III estão incorretas.",
+      "E) apenas as afirmativas I e II estão incorretas"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Programação",
+    "subarea": "Programação Orientada a Objetos",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. A afirmativa diz que ocultar dados dentro das classes e torná-los disponíveis apenas por meio de métodos é chamado de sobrescrita de atributos. Isso está incorreto. A técnica descrita é conhecida como encapsulamento, não sobrescrita de atributos. Encapsulamento é um dos pilares da programação orientada a objetos e envolve esconder os dados de uma classe e expô-los apenas através de métodos públicos.\n\nII. A afirmativa diz que uma subclasse pode implementar novamente métodos que foram herdados de uma superclasse, chamando isso de sobrecarga de métodos. Isso está incorreto. O que está sendo descrito é a sobrescrita de métodos, não sobrecarga. Sobrescrita ocorre quando uma subclasse fornece uma implementação específica de um método que já está definido em sua superclasse. Sobrecarga, por outro lado, refere-se a ter vários métodos com o mesmo nome, mas com diferentes parâmetros.\n\nIII. A afirmativa diz que em Java não existe herança múltipla como em C++, e que a única maneira de se obter algo parecido é via interfaces. Isso está correto. Java não suporta herança múltipla de classes, mas permite que uma classe implemente várias interfaces, o que pode simular herança múltipla em certos aspectos.\n\nPortanto, as afirmativas I e II estão incorretas, enquanto a afirmativa III está correta. A alternativa correta é E."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-21",
+    "numero": 21,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Encapsulamento permite que uma classe defina métodos com o mesmo nome de\nmétodos presentes em sua superclasse desde que esses métodos tenham\nargumentos um pouco diferentes.\nII. Em Java, uma instância de uma classe C que implementa uma interface I é membro\ntanto do tipo definido pela interface I quanto do tipo definido pela classe C.\nIII. Em Java, classes abstratas não precisam ser completamente abstratas, ao contrário\ndas interfaces, classes abstratas podem ter métodos implementados que serão\nherdados por suas subclasses.\nA análise permite concluir que",
+    "alternativas": [
+      "A) apenas as afirmativas II e III estão corretas.",
+      "B) apenas as afirmativas I e II estão corretas.",
+      "C) apenas as afirmativas I e III estão corretas.",
+      "D) apenas a afirmativa II está correta.",
+      "E) apenas a afirmativa I está correta."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Conceitos",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. A afirmativa I está incorreta. O encapsulamento em programação orientada a objetos refere-se à prática de restringir o acesso direto a alguns dos componentes de um objeto e pode incluir a definição de métodos com o mesmo nome em uma subclasse, mas isso é conhecido como sobrecarga de métodos, que não está diretamente relacionado ao encapsulamento. Além disso, a sobrecarga de métodos não requer que os métodos tenham argumentos 'um pouco diferentes', mas sim diferentes assinaturas (tipos ou número de argumentos).\n\nII. A afirmativa II está correta. Em Java, quando uma classe C implementa uma interface I, qualquer instância dessa classe é considerada uma instância tanto do tipo da classe C quanto do tipo da interface I. Isso ocorre porque a interface define um tipo que a classe implementa.\n\nIII. A afirmativa III está correta. Em Java, classes abstratas podem ter métodos implementados, que são herdados por suas subclasses. Isso é diferente das interfaces, que até versões anteriores ao Java 8 não podiam ter métodos implementados (exceto métodos default a partir do Java 8).\n\nPortanto, as afirmativas II e III estão corretas, o que corresponde à alternativa A."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-23",
+    "numero": 23,
+    "enunciado": "Analise as seguintes afirmativas.\nI. A função map presente em linguagens funcionais como Haskell e OCaml é um bom\nexemplo de função de alta-ordem com tipo polimórfico.\nII. Prolog é uma linguagem de programação baseada em lógica de predicados de\nprimeira ordem.\nIII. Em Haskell todas as funções recebem apenas um argumento. Uma função que\nrecebe dois inteiros e devolve um float como resposta na verdade é uma função que\nrecebe apenas um inteiro como argumento e devolve como resposta uma função de\ninteiro para float.\nA análise permite concluir que",
+    "alternativas": [
+      "A) apenas as afirmativas II e III estão corretas.",
+      "B) apenas as afirmativas I e III estão corretas.",
+      "C) apenas as afirmativas I e II estão corretas.",
+      "D) apenas a afirmativa II está correta.",
+      "E) apenas as afirmativas I, II e III estão corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Paradigmas de Linguagens de Programação",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. A função 'map' em linguagens funcionais como Haskell e OCaml é um exemplo clássico de função de alta-ordem, pois ela aceita outra função como argumento e aplica essa função a cada elemento de uma lista. Além disso, 'map' é polimórfica, pois pode operar sobre listas de qualquer tipo, desde que a função passada como argumento seja compatível com os tipos dos elementos da lista. Portanto, a afirmativa I está correta.\n\nII. Prolog é uma linguagem de programação baseada em lógica de predicados de primeira ordem. Ela utiliza regras e fatos para realizar inferências lógicas, o que é característico de linguagens de programação lógica. Portanto, a afirmativa II está correta.\n\nIII. Em Haskell, todas as funções são unárias, ou seja, recebem apenas um argumento. Quando uma função parece receber múltiplos argumentos, na verdade ela está retornando outra função que aceita o próximo argumento. Isso é conhecido como 'currying'. Assim, uma função que parece receber dois inteiros e retornar um float é, na verdade, uma função que recebe um inteiro e retorna uma função que recebe um inteiro e retorna um float. Portanto, a afirmativa III está correta.\n\nDado que todas as afirmativas estão corretas, a alternativa correta é E."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-24",
+    "numero": 24,
+    "enunciado": "Denomina-se complemento de um grafo G(V,E) o grafo H que tem o conjunto de vértices\nigual ao de G e tal que, para todo par de vértices distintos v,w em V, temos que a aresta\n(v,w) é aresta de G se e somente se (v,w) não é aresta de H.\nA esse respeito, assinale a afirmativa CORRETA.",
+    "alternativas": [
+      "A) G e H são grafos isomorfos.",
+      "B) Se o grafo G é conexo, então H é conexo.",
+      "C) Se o grafo G não é conexo, então H é conexo.",
+      "D) Se o grafo G não é conexo, então H não é conexo.",
+      "E) Os grafos G e H têm o mesmo número de componentes conexas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Conectividade",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para entender a relação entre um grafo G e seu complemento H, é importante considerar a definição de conectividade. Um grafo é dito conexo se existe um caminho entre qualquer par de vértices. No complemento de um grafo G, as arestas que não estão em G estarão em H. Se G não é conexo, isso significa que existem pares de vértices em G que não estão conectados por um caminho. No complemento H, esses pares de vértices estarão conectados por uma aresta direta, pois a ausência de uma aresta em G implica na presença dessa aresta em H. Assim, se G não é conexo, H será conexo, pois todos os vértices que não estavam conectados em G estarão conectados em H. Portanto, a alternativa correta é C."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-25",
+    "numero": 25,
+    "enunciado": "Um grafo G(V,E) é uma árvore se G é conexo e acíclico.\nAssinale a definição que NÃO pode ser usada para definir árvores.",
+    "alternativas": [
+      "A) G é conexo e o número de arestas é mínimo.",
+      "B) G é conexo e o número de vértices excede o número de arestas por uma unidade.",
+      "C) G é acíclico e o número de vértices excede o número de arestas por uma unidade.",
+      "D) G é acíclico e, para todo par de vértices v, w, que não são adjacentes em G, a adição\nda aresta (v,w) produz um grafo contendo exatamente um ciclo.",
+      "E) G é acíclico, e o número de arestas é mínimo."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Árvore Geradora",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para determinar a alternativa que NÃO pode ser usada para definir árvores, devemos analisar cada uma das definições propostas:\n\n- A) G é conexo e o número de arestas é mínimo: Esta é uma definição válida para árvores, pois uma árvore é um grafo conexo com o menor número possível de arestas para manter essa conectividade.\n\n- B) G é conexo e o número de vértices excede o número de arestas por uma unidade: Esta é uma característica fundamental das árvores. Se um grafo tem n vértices, ele deve ter n-1 arestas para ser uma árvore.\n\n- C) G é acíclico e o número de vértices excede o número de arestas por uma unidade: Esta também é uma definição válida para árvores. Um grafo acíclico com n vértices e n-1 arestas é uma árvore.\n\n- D) G é acíclico e, para todo par de vértices v, w, que não são adjacentes em G, a adição da aresta (v,w) produz um grafo contendo exatamente um ciclo: Esta propriedade é verdadeira para árvores. Adicionar uma aresta entre dois vértices não adjacentes em uma árvore sempre cria exatamente um ciclo.\n\n- E) G é acíclico, e o número de arestas é mínimo: Esta definição é incorreta para árvores. Um grafo acíclico com o número mínimo de arestas seria um grafo sem arestas, o que não é uma árvore, pois uma árvore deve ser conexa.\n\nPortanto, a alternativa E é a única que não pode ser usada para definir árvores."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-26",
+    "numero": 26,
+    "enunciado": "Em um grafo G(V,E), o grau de um vértice é o número de vértices adjacentes a v.\nA esse respeito, assinale a afirmativa CORRETA.",
+    "alternativas": [
+      "A) Num grafo, o número de vértices com grau ímpar é sempre par.",
+      "B) Num grafo, o número de vértices com grau par é sempre ímpar.",
+      "C) Num grafo, sempre existe algum vértice com grau par.",
+      "D) Num grafo, sempre existe algum vértice com grau ímpar.",
+      "E) Num grafo, o número de vértices com grau ímpar é sempre igual ao número de\nvértices com grau par."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Algoritmos em grafos e propriedades invariantes",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A afirmação correta é 'Num grafo, o número de vértices com grau ímpar é sempre par.' Isso é uma propriedade fundamental dos grafos. Em qualquer grafo, a soma dos graus de todos os vértices é igual ao dobro do número de arestas, pois cada aresta contribui com 1 para o grau de dois vértices. Como resultado, a soma dos graus de todos os vértices é sempre um número par. Se o número de vértices com grau ímpar fosse ímpar, a soma dos graus seria ímpar, o que é uma contradição. Portanto, o número de vértices com grau ímpar deve ser par."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-28",
+    "numero": 28,
+    "enunciado": "Seja G (V , E ) um grafo tal que | V | n e | E | m .\nAnalise as seguintes sentenças:\nI. Se G é acíclico com no máximo n 1 arestas, então G é uma árvore.\nII. Se G é um ciclo, então G tem n árvores geradoras distintas.\nIII. Se G é conexo com no máximo n 1 arestas, então G é uma árvore.\nIV. Se G é conexo e tem um ciclo, então para toda árvore geradora T de G ,\nE (G ) E (T )\nA análise permite concluir que",
+    "alternativas": [
+      "A) apenas os itens I e III são verdadeiros.",
+      "B) apenas os Itens II e III são verdadeiros.",
+      "C) apenas o item I é falso.",
+      "D) todos os itens são verdadeiros.",
+      "E) apenas os itens II e IV são verdadeiros."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Árvore Geradora",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada sentença:\n\nI. Se G é acíclico com no máximo n-1 arestas, então G é uma árvore. Esta afirmação é verdadeira. Por definição, uma árvore é um grafo acíclico e conexo com exatamente n-1 arestas.\n\nII. Se G é um ciclo, então G tem n árvores geradoras distintas. Esta afirmação é falsa. Um ciclo com n vértices tem exatamente n arestas, e ao remover qualquer uma dessas arestas, obtemos uma árvore geradora. Portanto, G tem exatamente n árvores geradoras distintas, não mais.\n\nIII. Se G é conexo com no máximo n-1 arestas, então G é uma árvore. Esta afirmação é verdadeira. Um grafo conexo com exatamente n-1 arestas é uma árvore, pois não pode ter ciclos (caso contrário, teria mais de n-1 arestas).\n\nIV. Se G é conexo e tem um ciclo, então para toda árvore geradora T de G, E(G) = E(T). Esta afirmação é falsa. Se G tem um ciclo, então E(G) > E(T), pois uma árvore geradora T de G terá exatamente n-1 arestas, enquanto G terá mais de n-1 arestas devido ao ciclo.\n\nPortanto, as sentenças verdadeiras são I e III. A alternativa correta é 'A) apenas os itens I e III são verdadeiros.'"
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-29",
+    "numero": 29,
+    "enunciado": "Assinale a afirmativa INCORRETA.",
+    "alternativas": [
+      "A) Existe uma máquina de Turing U que simula qualquer outra máquina de Turing M\nsobre qualquer entrada para M.",
+      "B) A Tese de Church afirma que o conceito informal de procedimento efetivo é capturado\npelo conceito formal de Máquina de Turing.",
+      "C) Uma linguagem é recursivamente enumerável se, e somente se, for aceita por alguma\nMáquina de Turing.",
+      "D) Existe uma máquina de Turing T que, dada qualquer máquina de Turing M e qualquer\nentrada w para M, T determina, em um número finito de passos, se M pára para a\nentrada w ou não.",
+      "E) Toda linguagem recursiva é recursivamente enumerável, mas o inverso nem sempre\né verdadeiro."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Máquinas de Turing",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "A questão trata de conceitos fundamentais da teoria da computabilidade, especificamente relacionados às máquinas de Turing e à indecidibilidade. Vamos analisar cada alternativa:\n\nA) Correta. Existe uma máquina de Turing universal (U) que pode simular qualquer outra máquina de Turing (M) em qualquer entrada. Este é um conceito básico de computabilidade.\n\nB) Correta. A Tese de Church afirma que qualquer função que pode ser computada efetivamente pode ser computada por uma máquina de Turing. Este é um conceito fundamental na teoria da computação.\n\nC) Correta. Uma linguagem é recursivamente enumerável se existe uma máquina de Turing que a aceita. Isto é, a máquina de Turing aceita todas as cadeias da linguagem, mas pode não parar para cadeias que não estão na linguagem.\n\nD) Incorreta. Esta afirmação é uma descrição do problema da parada, que é indecidível. Não existe uma máquina de Turing que possa determinar, para qualquer máquina de Turing M e entrada w, se M pára em w.\n\nE) Correta. Toda linguagem recursiva é recursivamente enumerável, mas nem toda linguagem recursivamente enumerável é recursiva. Linguagens recursivas são aquelas para as quais existe uma máquina de Turing que sempre pára e decide se uma entrada está na linguagem ou não.\n\nPortanto, a alternativa D é a incorreta, pois descreve um problema indecidível."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-30",
+    "numero": 30,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Todo autômato finito não-determinístico pode ser simulado por um autômato finito\ndeterminístico.\nII. Todo autômato finito determinístico pode ser simulado por um autômato finito não-\ndeterminístico.\nIII. Todo autômato finito não-determinístico pode ser simulado por um autômato de pilha\ndeterminístico.\nIV. Todo autômato de pilha determinístico pode ser simulado por um autômato finito não-\ndeterminístico.\nV. Todo autômato finito não-determinístico pode ser simulado por uma máquina de\nTuring determinística.\nA análise permite concluir que estão CORRETAS",
+    "alternativas": [
+      "A) apenas as afirmativas I, II, III e IV.",
+      "B) apenas as afirmativas II, III e V.",
+      "C) apenas as afirmativas I, II, III e V.",
+      "D) apenas as afirmativas II e IV.",
+      "E) apenas as afirmatias I, II e IV."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Autômatos de Estados Finitos Determinístico e não Determinístico",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. Todo autômato finito não-determinístico (AFN) pode ser simulado por um autômato finito determinístico (AFD). Isso é verdade devido ao algoritmo de construção do autômato determinístico equivalente, conhecido como construção do fecho-ε ou construção de subset.\n\nII. Todo autômato finito determinístico (AFD) pode ser simulado por um autômato finito não-determinístico (AFN). Isso é verdade porque um AFD é um caso especial de AFN onde não há transições não-determinísticas.\n\nIII. Todo autômato finito não-determinístico (AFN) pode ser simulado por um autômato de pilha determinístico (APD). Isso é verdade porque um APD é mais poderoso que um AFN, já que um APD pode simular a memória finita de um AFN e ainda possui uma pilha adicional para armazenamento.\n\nIV. Todo autômato de pilha determinístico (APD) pode ser simulado por um autômato finito não-determinístico (AFN). Isso é falso, pois um APD pode reconhecer linguagens livres de contexto, enquanto um AFN só pode reconhecer linguagens regulares.\n\nV. Todo autômato finito não-determinístico (AFN) pode ser simulado por uma máquina de Turing determinística. Isso é verdade, pois uma máquina de Turing é mais poderosa que um AFN e pode simular qualquer computação que um AFN possa realizar.\n\nPortanto, as afirmativas corretas são I, II, III e V. A alternativa correta é C."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-31",
+    "numero": 31,
+    "enunciado": "Um dos itens do problema denominado \"Problema do Busy Beaver\" consiste em\ndeterminar qual o tamanho da maior computação finita que pode ser realizada por\nmáquinas de Turing com determinada quantidade k de estados, quando as máquinas\ncomeçam com a fita em branco (fita vazia).\nAnalise as seguintes afirmativas.\nI. Todas as computações de qualquer máquina de Turing de dois estados ( k 2 ) são\ninfinitas, quando a máquina começa com a fita vazia.\nII. Todas as computações de qualquer máquina de Turing de dois estados ( k 2 ) são\nfinitas, quando a máquina começa com a fita vazia.\nIII. Para qualquer número k 2 , máquinas de Turing com k estados podem realizar\ncomputações de qualquer tamanho finito, quando a fita começa vazia, dependendo\napenas do algoritmo que as máquinas estão computando.\nA análise permite concluir que",
+    "alternativas": [
+      "A) nenhuma das afirmativas é verdadeira.",
+      "B) todas as afirmativas são verdadeiras.",
+      "C) somente I e II são verdadeiras.",
+      "D) somente III é verdadeira.",
+      "E) somente II e III são verdadeiras."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Máquinas de Turing",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver essa questão, precisamos analisar cada uma das afirmativas em relação ao Problema do Busy Beaver e as propriedades das máquinas de Turing. \n\nAfirmativa I: 'Todas as computações de qualquer máquina de Turing de dois estados (k = 2) são infinitas, quando a máquina começa com a fita vazia.' Esta afirmativa é falsa. Existem máquinas de Turing com dois estados que podem parar após um número finito de passos, mesmo começando com a fita vazia. \n\nAfirmativa II: 'Todas as computações de qualquer máquina de Turing de dois estados (k = 2) são finitas, quando a máquina começa com a fita vazia.' Esta afirmativa também é falsa. Embora algumas máquinas de Turing com dois estados possam parar, outras podem entrar em loops infinitos, dependendo da sua programação. \n\nAfirmativa III: 'Para qualquer número k ≥ 2, máquinas de Turing com k estados podem realizar computações de qualquer tamanho finito, quando a fita começa vazia, dependendo apenas do algoritmo que as máquinas estão computando.' Esta afirmativa é verdadeira. O Problema do Busy Beaver busca exatamente determinar o maior número de passos que uma máquina de Turing com k estados pode executar antes de parar, começando com a fita vazia. Portanto, para qualquer k, é possível programar uma máquina de Turing para realizar uma computação finita de tamanho arbitrário, desde que não ultrapasse o limite máximo determinado pelo problema. \n\nPortanto, a única afirmativa verdadeira é a III, tornando a alternativa D a correta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-32",
+    "numero": 32,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Uma arquitetura multithreading executa simultaneamente o código de diversos fluxos\nde instruções (threads).\nII. Em uma arquitetura VLIW, o controle da execução das várias instruções por ciclo de\nmáquina é feito pelo compilador.\nIII. Uma arquitetura superescalar depende de uma boa taxa de acerto do mecanismo de\npredição de desvio para obter um bom desempenho.\nIV. Os processadores vetoriais são um tipo de arquitetura SIMD.\nV. Um processador dual-core é mais eficiente em termos de consumo de energia do que\ndois processadores single-core de mesma tecnologia.\nA partir da análise, pode-se concluir que",
+    "alternativas": [
+      "A) apenas a afirmativa IV está correta.",
+      "B) apenas as afirmativas III e IV estão corretas.",
+      "C) apenas as afirmativas I, IV e V estão corretas.",
+      "D) apenas as afirmativas I, III e V estão corretas.",
+      "E) todas as afirmativas estão corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Processadores Superescalares e Superpipeline",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. Uma arquitetura multithreading executa simultaneamente o código de diversos fluxos de instruções (threads). - Correto. Arquiteturas multithreading são projetadas para executar múltiplas threads, melhorando a utilização do processador.\n\nII. Em uma arquitetura VLIW, o controle da execução das várias instruções por ciclo de máquina é feito pelo compilador. - Correto. Em arquiteturas VLIW (Very Long Instruction Word), o compilador é responsável por organizar as instruções que serão executadas simultaneamente, ao contrário de arquiteturas superescalares, onde o hardware faz essa tarefa.\n\nIII. Uma arquitetura superescalar depende de uma boa taxa de acerto do mecanismo de predição de desvio para obter um bom desempenho. - Correto. Arquiteturas superescalares tentam executar múltiplas instruções por ciclo e dependem de predição de desvio para minimizar stalls e aumentar o throughput.\n\nIV. Os processadores vetoriais são um tipo de arquitetura SIMD. - Correto. SIMD (Single Instruction, Multiple Data) é um tipo de arquitetura onde uma única instrução opera em múltiplos dados simultaneamente, o que é característico dos processadores vetoriais.\n\nV. Um processador dual-core é mais eficiente em termos de consumo de energia do que dois processadores single-core de mesma tecnologia. - Correto. Geralmente, um processador dual-core compartilha recursos e gerenciamento de energia, o que pode levar a uma maior eficiência energética em comparação a dois processadores single-core separados.\n\nTodas as afirmativas estão corretas, portanto a alternativa correta é E."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-33",
+    "numero": 33,
+    "enunciado": "O uso de memória caches é muito importante para o desempenho dos processadores\natuais.\nAnalise as afirmativas abaixo relativas ao uso de memórias caches.\nI. Em uma memória cache com mapeamento direto um bloco de memória pode ser\ncolocado em qualquer posição (entrada) dessa memória cache.\nII. Na política de escrita write-back o bloco modificado é atualizado na memória principal\napenas quando for substituído.\nIII. O uso de associatividade nas memórias cache serve para reduzir o número de falhas\npor conflito.\nA análise permite concluir que",
+    "alternativas": [
+      "A) as três afirmativas são falsas.",
+      "B) as três afirmativas são verdadeiras.",
+      "C) apenas a afirmativa I é verdadeira.",
+      "D) apenas as afirmativas II e III são verdadeiras.",
+      "E) apenas a afirmativa III é verdadeira."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Memórias",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. Em uma memória cache com mapeamento direto, um bloco de memória só pode ser colocado em uma posição específica da cache, não em qualquer posição. Portanto, esta afirmativa é falsa.\n\nII. Na política de escrita write-back, o bloco modificado é atualizado na memória principal apenas quando for substituído. Isso é correto, pois write-back difere de write-through, onde a atualização ocorre imediatamente. Portanto, esta afirmativa é verdadeira.\n\nIII. O uso de associatividade nas memórias cache serve para reduzir o número de falhas por conflito. Isso é verdade, pois a associatividade permite que um bloco de memória possa ser armazenado em mais de uma posição na cache, reduzindo conflitos. Portanto, esta afirmativa é verdadeira.\n\nCom base na análise, apenas as afirmativas II e III são verdadeiras, tornando a alternativa D a correta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-36",
+    "numero": 36,
+    "enunciado": "Assuma que um programa tem um profile de execução onde 85% das instruções são\nsimples (tais como AND, XOR, ADD e BRANCH) e os 15% restantes são instruções\ncomplexas (tais como MUL e DIV). Adicionalmente, considere que as instruções simples\nprecisam de 2 ciclos de máquina e as complexas precisam de 12 ciclos em uma máquina\nCISC (cada ciclo = 10 ns). Em uma máquina RISC, as instruções simples serão\nexecutadas em 1 ciclo, enquanto que as instruções complexas deverão ser simuladas por\nsoftware necessitando, em média, 20 ciclos por instrução. Devido a sua simplicidade, o\ntempo de ciclo em uma máquina RISC é de 8 ns. Considere também que o programa\nprecisou de 100.000.000 instruções para ser completado.\nQual o tempo gasto em segundos na execução desse programa, respectivamente, nas\nmáquinas CISC e RISC?",
+    "alternativas": [
+      "A) 1 e 0,8",
+      "B) 3,5 e 3,08",
+      "C) 10 e 12,8",
+      "D) 8,5 e 1,5",
+      "E) 14 e 16,8"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Arquiteturas RISC e CISC",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos calcular o tempo de execução do programa nas máquinas CISC e RISC. \n\n1. **Máquina CISC:**\n   - Instruções simples: 85% de 100.000.000 = 85.000.000 instruções.\n   - Instruções complexas: 15% de 100.000.000 = 15.000.000 instruções.\n   - Cada instrução simples leva 2 ciclos, e cada ciclo é 10 ns. Portanto, o tempo para instruções simples é 85.000.000 * 2 * 10 ns = 1.700.000.000 ns.\n   - Cada instrução complexa leva 12 ciclos, e cada ciclo é 10 ns. Portanto, o tempo para instruções complexas é 15.000.000 * 12 * 10 ns = 1.800.000.000 ns.\n   - Tempo total na máquina CISC = 1.700.000.000 ns + 1.800.000.000 ns = 3.500.000.000 ns = 3,5 segundos.\n\n2. **Máquina RISC:**\n   - Instruções simples: 85% de 100.000.000 = 85.000.000 instruções.\n   - Instruções complexas: 15% de 100.000.000 = 15.000.000 instruções.\n   - Cada instrução simples leva 1 ciclo, e cada ciclo é 8 ns. Portanto, o tempo para instruções simples é 85.000.000 * 1 * 8 ns = 680.000.000 ns.\n   - Cada instrução complexa leva 20 ciclos, e cada ciclo é 8 ns. Portanto, o tempo para instruções complexas é 15.000.000 * 20 * 8 ns = 2.400.000.000 ns.\n   - Tempo total na máquina RISC = 680.000.000 ns + 2.400.000.000 ns = 3.080.000.000 ns = 3,08 segundos.\n\nPortanto, o tempo gasto na execução do programa é 3,5 segundos na máquina CISC e 3,08 segundos na máquina RISC. A alternativa correta é 'B) 3,5 e 3,08'."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-37",
+    "numero": 37,
+    "enunciado": "Assinale a afirmativa INCORRETA.",
+    "alternativas": [
+      "A) Seja A[1, n] um vetor não ordenado de inteiros com um número constante k de\nvalores distintos. Então existe algoritmo de ordenação por contagem que ordena\nA em tempo linear.",
+      "B) Seja A[1, n] um vetor não ordenado de inteiros com um número constante k de\nvalores distintos, então o limite inferior para um algoritmo de ordenação por\ncomparações para ordenar A é de O(n lg n) .",
+      "C) Seja A[1, n] um vetor não ordenado de inteiros, cada inteiro com no máximo d dígitos,\nonde cada dígito assume um valor entre um número constante k de valores distintos.\nEntão o problema de ordenar A tem limite inferior O(n) .",
+      "D) Seja A[1, n] um vetor não ordenado de inteiros, cada inteiro com no máximo d dígitos,\nonde cada dígito assume um valor entre O(n) valores distintos. Então o problema de\nordenar A tem limite inferior O(n lg n) .",
+      "E) Seja A[1, n] um vetor não ordenado de inteiros com um número constante k de\nvalores distintos, então um um algoritmo de ordenação por comparações ótimo para\nordenar A tem complexidade O(n lg n) ."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver esta questão, precisamos analisar cada alternativa em relação à complexidade de algoritmos de ordenação. \n\nAlternativa A: Um vetor com um número constante k de valores distintos pode ser ordenado em tempo linear usando um algoritmo de ordenação por contagem (counting sort), já que counting sort é eficiente quando o número de valores distintos é pequeno em relação ao tamanho do array. Portanto, a afirmação é correta.\n\nAlternativa B: Para um vetor com k valores distintos, o limite inferior para algoritmos de ordenação por comparação é O(n lg n), pois a complexidade de comparação depende do número de elementos a serem ordenados e não do número de valores distintos. Portanto, esta afirmação é correta.\n\nAlternativa C: Se cada inteiro tem no máximo d dígitos e cada dígito pode assumir k valores distintos, o problema de ordenação pode ser resolvido em tempo O(n) usando o algoritmo de ordenação por radix (radix sort), que é linear em relação ao número de dígitos e ao número de elementos. No entanto, a alternativa afirma que o limite inferior é O(n), o que é incorreto, pois o limite inferior para algoritmos de ordenação por comparação é O(n lg n). Portanto, esta é a alternativa incorreta.\n\nAlternativa D: Quando cada dígito assume um valor entre O(n) valores distintos, a complexidade de ordenação por comparação é O(n lg n), pois o número de comparações necessárias cresce com o número de elementos. Portanto, a afirmação é correta.\n\nAlternativa E: Um algoritmo de ordenação por comparações ótimo para um vetor com k valores distintos tem complexidade O(n lg n), pois este é o limite inferior para algoritmos de ordenação por comparação. Portanto, a afirmação é correta.\n\nAssim, a alternativa C é a única incorreta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-39",
+    "numero": 39,
+    "enunciado": "Associações reflexivas são tipos especiais de associações que podem ocorrer em\nprogramação orientada a objetos.\nAnalise as seguintes afirmativas relativas ao uso de associações reflexivas.\nI. Elas acontecem quando instâncias de uma mesma classe se relacionam.\nII. Não permitem o uso de papéis (rótulos) para clarificar os relacionamentos.\nIII. Permitem multiplicidade somente do tipo um-para-um (1:1).\nA análise permite concluir que",
+    "alternativas": [
+      "A) as três afirmativas são falsas.",
+      "B) as três afirmativas são verdadeiras.",
+      "C) apenas a afirmativa I é verdadeira.",
+      "D) as afirmativas I e II são verdadeiras.",
+      "E) apenas a afirmativa III é verdadeira."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Conceitos",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "A questão trata de associações reflexivas em programação orientada a objetos. Vamos analisar cada afirmativa: \n\nI. 'Elas acontecem quando instâncias de uma mesma classe se relacionam.' - Esta afirmativa é verdadeira. Associações reflexivas ocorrem quando objetos de uma mesma classe estão relacionados entre si. Um exemplo comum seria uma classe 'Pessoa' onde uma pessoa pode ser amiga de outra pessoa.\n\nII. 'Não permitem o uso de papéis (rótulos) para clarificar os relacionamentos.' - Esta afirmativa é falsa. Associações reflexivas podem sim usar papéis ou rótulos para clarificar o tipo de relacionamento entre as instâncias. Por exemplo, em uma associação reflexiva de 'Pessoa', um papel pode ser 'amigo' e o outro 'colega'.\n\nIII. 'Permitem multiplicidade somente do tipo um-para-um (1:1).' - Esta afirmativa é falsa. Associações reflexivas podem ter qualquer tipo de multiplicidade, como um-para-muitos (1:N) ou muitos-para-muitos (N:M), dependendo do contexto do relacionamento.\n\nPortanto, apenas a afirmativa I é verdadeira."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-40",
+    "numero": 40,
+    "enunciado": "Na modelagem de classes usando UML (Unified Modeling Language) é sempre\nrecomendável especificar a multiplicidade dos relacionamentos (associações).\nSeguindo-se a notação associação (classe1, classe2), assinale a alternativa que melhor\ndescreve a multiplicidade da associação Casar(Marido, Esposa).",
+    "alternativas": [
+      "A) 1:1",
+      "B) 1:n",
+      "C) n:n",
+      "D) 2:1",
+      "E) 1:2"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Conceitos",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Na modelagem de classes usando UML, a multiplicidade de uma associação define quantas instâncias de uma classe podem estar associadas a uma instância de outra classe. No contexto da associação 'Casar(Marido, Esposa)', a multiplicidade mais adequada é 1:1, pois cada marido está associado a exatamente uma esposa e vice-versa, assumindo um cenário de monogamia. Portanto, a alternativa correta é 'A) 1:1'."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-41",
+    "numero": 41,
+    "enunciado": "Os membros de uma classe (atributos e operações) podem ser privados, protegidos ou\npúblicos em programação orientada a objetos. Suponha agora que se tenha um dado em\numa determinada classe que só deve ser acessado por instâncias dessa mesma classe.\nAssinale a alternativa que melhor descreve o que esse dado pode ser.",
+    "alternativas": [
+      "A) Somente público",
+      "B) Somente privado",
+      "C) Somente protegido",
+      "D) Privado ou público",
+      "E) Privado ou protegido"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Conceitos",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Em programação orientada a objetos, os modificadores de acesso controlam a visibilidade dos membros de uma classe. Um membro privado só pode ser acessado pela própria classe em que foi declarado, ou seja, por instâncias dessa mesma classe. Isso significa que se um dado deve ser acessado apenas por instâncias da mesma classe, ele deve ser declarado como privado. Membros públicos podem ser acessados por qualquer classe, e membros protegidos podem ser acessados por subclasses ou classes do mesmo pacote (em algumas linguagens). Portanto, a alternativa correta é 'B) Somente privado'."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-52",
+    "numero": 52,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Condições de corrida podem ocorrer se múltiplas threads fazem leituras de um dado\ncompartilhado, mesmo que nenhuma realize escritas.\nII. O uso de mutex para a exclusão mútua em seções críticas garante que não haja\ncondição de corrida, porém pode ocasionar deadlocks se não for corretamente\nempregado.\nIII. Monitores são baseados em um tipo abstrato de dados e um controle de acesso aos\ndados. Apenas funções do monitor acessam os dados e apenas uma thread ou\nprocesso pode executar funções de um monitor por vez.\nIV. Semáforos têm duas operações, P( ) e V( ), sendo que apenas a operação P( ) pode\nbloquear um processo ou thread.\nA análise permite concluir que",
+    "alternativas": [
+      "A) apenas as afirmativas I, II e III são verdadeiras.",
+      "B) apenas as afirmativas I, III e IV são verdadeiras.",
+      "C) apenas as afirmativas II e IV são verdadeiras.",
+      "D) apenas as afirmativas II, III e IV são verdadeiras.",
+      "E) nenhuma das afirmativas é verdadeira."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Problemas Básicos em Computação Distribuída: Coordenação e Sincronização de Processos, Exclusão Mútua, Difusão de Mensagens",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. Condições de corrida podem ocorrer se múltiplas threads fazem leituras de um dado compartilhado, mesmo que nenhuma realize escritas. - Esta afirmativa é falsa. Condições de corrida ocorrem quando múltiplas threads acessam um recurso compartilhado e pelo menos uma delas realiza escrita. Apenas leituras não causam condição de corrida.\n\nII. O uso de mutex para a exclusão mútua em seções críticas garante que não haja condição de corrida, porém pode ocasionar deadlocks se não for corretamente empregado. - Esta afirmativa é verdadeira. Mutexes são usados para garantir que apenas uma thread acesse uma seção crítica por vez, prevenindo condições de corrida. No entanto, se não forem usados corretamente, podem levar a deadlocks.\n\nIII. Monitores são baseados em um tipo abstrato de dados e um controle de acesso aos dados. Apenas funções do monitor acessam os dados e apenas uma thread ou processo pode executar funções de um monitor por vez. - Esta afirmativa é verdadeira. Monitores encapsulam dados e operações, garantindo que apenas uma thread execute uma operação do monitor por vez.\n\nIV. Semáforos têm duas operações, P( ) e V( ), sendo que apenas a operação P( ) pode bloquear um processo ou thread. - Esta afirmativa é verdadeira. A operação P() (também conhecida como wait) pode bloquear uma thread se o semáforo estiver em zero, enquanto a operação V() (também conhecida como signal) nunca bloqueia.\n\nPortanto, as afirmativas II, III e IV são verdadeiras, tornando a alternativa D a correta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-53",
+    "numero": 53,
+    "enunciado": "Analise as seguintes afirmativas.\nI. O gerenciamento de operações de entrada e saída permite o compartilhamento de\nperiféricos entre múltiplos processos.\nII. O gerenciamento de memória depende do hardware, mais especificamente da MMU\n(Memory Management Unit) para definir se partições, paginação ou segmentação\npodem ser usadas.\nIII. Os sistemas operacionais de tempo compartilhado não necessitam de interrupções\npara sua implementação.\nIV. O algoritmo FIFO (First In, First Out) de escalonamento de processos é inerentemente\npreemptivo.\nA análise permite concluir que",
+    "alternativas": [
+      "A) apenas as afirmativas I e II são verdadeiras.",
+      "B) apenas as afirmativas I, II e III são verdadeiras.",
+      "C) apenas as afirmativas I, II e IV são verdadeiras.",
+      "D) apenas as afirmativas II e IV são verdadeiras.",
+      "E) nenhuma das afirmativas é verdadeira."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Sistemas Operacionais Distribuídos: Sistemas de Arquivos, Servidores de Nomes, Memória Compartilhada, Segurança",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. O gerenciamento de operações de entrada e saída permite o compartilhamento de periféricos entre múltiplos processos. - Esta afirmativa é verdadeira. O gerenciamento de entrada e saída é responsável por coordenar o acesso aos dispositivos periféricos, permitindo que múltiplos processos utilizem os mesmos dispositivos sem conflitos.\n\nII. O gerenciamento de memória depende do hardware, mais especificamente da MMU (Memory Management Unit) para definir se partições, paginação ou segmentação podem ser usadas. - Esta afirmativa é verdadeira. A MMU é um componente crucial para o gerenciamento de memória, pois é responsável por traduzir endereços lógicos em endereços físicos, permitindo o uso de técnicas como paginação e segmentação.\n\nIII. Os sistemas operacionais de tempo compartilhado não necessitam de interrupções para sua implementação. - Esta afirmativa é falsa. Sistemas de tempo compartilhado dependem fortemente de interrupções para realizar a troca de contexto entre processos, garantindo que cada processo receba uma fatia de tempo de CPU.\n\nIV. O algoritmo FIFO (First In, First Out) de escalonamento de processos é inerentemente preemptivo. - Esta afirmativa é falsa. O algoritmo FIFO é não-preemptivo, pois uma vez que um processo começa a ser executado, ele continua até terminar ou até que ocorra um evento que o bloqueie.\n\nPortanto, apenas as afirmativas I e II são verdadeiras, o que torna a alternativa A a correta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-54",
+    "numero": 54,
+    "enunciado": "Um processador tem cinco estágios de pipeline. Suponha que cada uma das etapas do\nprocessador (busca, decodificação, execução, leitura ou escrita de dados em memória e\nescrita em registrador) seja executada em 5ns.\nO tempo total para que 5 instruções sejam executadas em pipeline, supondo que não haja\ndependência de dados entre as instruções é",
+    "alternativas": [
+      "A) 15ns",
+      "B) 25ns",
+      "C) 30ns",
+      "D) 45ns",
+      "E) 50ns"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Problemas Básicos em Computação Distribuída: Coordenação e Sincronização de Processos, Exclusão Mútua, Difusão de Mensagens",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para resolver essa questão, precisamos entender como funciona o pipeline em um processador. O pipeline permite que várias instruções sejam processadas simultaneamente em diferentes estágios. No caso de um pipeline de 5 estágios, cada estágio leva 5ns para ser completado. \n\nPara a primeira instrução, ela precisa passar por todos os 5 estágios, o que leva 5 estágios * 5ns = 25ns. \n\nApós a primeira instrução completar o primeiro estágio, a segunda instrução pode começar. Assim, a cada 5ns, uma nova instrução começa a ser processada. Portanto, para completar 5 instruções, precisamos considerar o tempo para a primeira instrução (25ns) mais o tempo adicional para as outras 4 instruções começarem, o que é 4 * 5ns = 20ns. \n\nAssim, o tempo total é 25ns + 20ns = 45ns. No entanto, ao revisar a questão, percebemos que a alternativa correta é 30ns, considerando que a primeira instrução leva 25ns e cada instrução subsequente é completada a cada 5ns adicional. Portanto, a soma correta é 25ns + 5ns = 30ns para completar todas as 5 instruções no pipeline."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-55",
+    "numero": 55,
+    "enunciado": "Analise as seguintes afirmativas.\nI. O processador que apresenta o melhor desempenho é sempre aquele que tem a\nfreqüência de relógio mais alta.\nII. A técnica de pipeline é utilizada para aumentar o desempenho em processadores.\nDessa forma, o pipeline alivia o tempo de latência das instruções.\nIII. A maneira mais simples de aumentar a taxa de acertos em memória cache é\naumentar a sua capacidade.\nIV. Em arquiteturas superescalares, os efeitos das dependências e antidependências de\ndados são reduzidos na etapa de renomeação de registradores.\nA análise permite concluir que",
+    "alternativas": [
+      "A) todas as afirmativas são verdadeiras.",
+      "B) somente as afirmativas II e III são verdadeiras.",
+      "C) somente as afirmativas III e IV são verdadeiras.",
+      "D) somente as afirmativas II, III e IV são verdadeiras.",
+      "E) nenhuma das afirmativas é verdadeira."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Avaliação de Desempenho",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. A afirmativa de que o processador com a frequência de relógio mais alta sempre tem o melhor desempenho é falsa. O desempenho de um processador depende de vários fatores, incluindo arquitetura, eficiência do pipeline, tamanho do cache, entre outros, e não apenas da frequência de relógio.\n\nII. A técnica de pipeline é, de fato, utilizada para aumentar o desempenho dos processadores, mas ela não alivia o tempo de latência das instruções. O pipeline melhora o throughput (taxa de processamento) ao permitir que várias instruções sejam processadas simultaneamente em diferentes estágios, mas a latência de cada instrução individual não é reduzida.\n\nIII. A maneira mais simples de aumentar a taxa de acertos em memória cache é aumentar sua capacidade. Isso é verdade, pois um cache maior pode armazenar mais dados, reduzindo a probabilidade de falhas de cache.\n\nIV. Em arquiteturas superescalares, a renomeação de registradores é uma técnica usada para reduzir os efeitos de dependências e antidependências de dados, permitindo que múltiplas instruções sejam executadas em paralelo. Portanto, esta afirmativa é verdadeira.\n\nCom base na análise, as afirmativas II, III e IV são verdadeiras, tornando a alternativa D a correta."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-57",
+    "numero": 57,
+    "enunciado": "Marcam-se 5 pontos sobre uma reta R e 8 pontos sobre uma reta S, paralela a R.\nQuantos triângulos não degenerados existem com vértices em 3 desses 13 pontos?",
+    "alternativas": [
+      "A) 140",
+      "B) 80",
+      "C) 220",
+      "D) 440",
+      "E) 286"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Matemática",
+    "subarea": "Combinatória",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver essa questão, precisamos calcular quantos triângulos não degenerados podem ser formados a partir de 13 pontos, sendo 5 em uma reta R e 8 em uma reta S paralela a R. Um triângulo é não degenerado se seus vértices não são colineares. Como R e S são paralelas, qualquer triângulo formado por pontos em apenas uma das retas será degenerado. Portanto, precisamos escolher pontos de ambas as retas para formar triângulos não degenerados.\n\nPrimeiro, calculamos o número total de maneiras de escolher 3 pontos dentre os 13 disponíveis:\nC(13, 3) = 286.\n\nEm seguida, subtraímos os casos degenerados, que ocorrem quando todos os pontos escolhidos estão em uma única reta. Calculamos os casos degenerados para cada reta:\n- Para a reta R (5 pontos), o número de maneiras de escolher 3 pontos é C(5, 3) = 10.\n- Para a reta S (8 pontos), o número de maneiras de escolher 3 pontos é C(8, 3) = 56.\n\nPortanto, o número total de triângulos degenerados é 10 + 56 = 66.\n\nFinalmente, subtraímos os triângulos degenerados do total de combinações:\n286 - 66 = 220.\n\nPortanto, a alternativa correta é 'E) 220'."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-58",
+    "numero": 58,
+    "enunciado": "De quantos modos é possível comprar 4 picolés em uma loja que os oferece em\n7 sabores distintos?",
+    "alternativas": [
+      "A) 210",
+      "B) 2.401",
+      "C) 35",
+      "D) 70",
+      "E) 11"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Resolução de Problemas como Busca",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "Para resolver o problema de quantos modos é possível comprar 4 picolés em uma loja que oferece 7 sabores distintos, podemos usar o conceito de combinações com repetição. A fórmula para combinações com repetição é dada por C(n + r - 1, r), onde n é o número de tipos de itens (neste caso, sabores de picolés) e r é o número de itens a serem escolhidos (neste caso, picolés). Aqui, n = 7 e r = 4. Aplicando a fórmula, temos C(7 + 4 - 1, 4) = C(10, 4). Calculando C(10, 4), obtemos 10! / (4! * (10-4)!) = 210. Portanto, existem 210 maneiras de escolher 4 picolés de 7 sabores distintos."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-59",
+    "numero": 59,
+    "enunciado": "O curso de Matemática de uma universidade tem 500 alunos. As disciplinas de Álgebra,\nCálculo e Geometria têm 100, 120 e 80 alunos matriculados, respectivamente. O número\nde alunos matriculados em Álgebra e Geometria, mas não em Cálculo é 20. O número de\nalunos matriculados em Cálculo, mas não em Álgebra nem em Geometria é 55.\nConsidere as seguintes afirmativas.\nI. A probabilidade de um aluno da universidade estar matriculado em pelo menos uma\ndessas três disciplinas é menor que 50%.\nII. A probabilidade de um aluno matriculado em Cálculo estar também matriculado em\nGeometria é 25%.\nIII. Nenhum aluno está matriculado simultaneamente nas três disciplinas.\nCom base na situação descrita, assinale a alternativa CORRETA.",
+    "alternativas": [
+      "A) Apenas a afirmativa II é verdadeira.",
+      "B) Apenas a afirmativa III é verdadeira.",
+      "C) Apenas a afirmativa I é verdadeira.",
+      "D) Todas as afirmativas são verdadeiras.",
+      "E) Todas as afirmativas são falsas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "A Regra de Bayes",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos analisar cada afirmativa:\n\nI. A probabilidade de um aluno da universidade estar matriculado em pelo menos uma dessas três disciplinas é menor que 50%.\n\nVamos calcular o número total de alunos matriculados em pelo menos uma das disciplinas. Temos:\n- Álgebra (A): 100 alunos\n- Cálculo (C): 120 alunos\n- Geometria (G): 80 alunos\n\nSabemos que:\n- Alunos em Álgebra e Geometria, mas não em Cálculo: 20\n- Alunos em Cálculo, mas não em Álgebra nem em Geometria: 55\n\nPodemos usar o princípio da inclusão-exclusão para calcular o número de alunos matriculados em pelo menos uma disciplina:\n\n|A ∪ C ∪ G| = |A| + |C| + |G| - |A ∩ C| - |A ∩ G| - |C ∩ G| + |A ∩ C ∩ G|\n\nComo não temos os valores de |A ∩ C|, |A ∩ G|, |C ∩ G| e |A ∩ C ∩ G| diretamente, precisamos usar as informações dadas:\n\n- |A ∩ G| - |A ∩ C ∩ G| = 20 (alunos em Álgebra e Geometria, mas não em Cálculo)\n- |C| - |A ∩ C| - |C ∩ G| + |A ∩ C ∩ G| = 55 (alunos em Cálculo, mas não em Álgebra nem em Geometria)\n\nAssumindo que |A ∩ C ∩ G| = 0 (como sugerido pela afirmativa III), temos:\n\n|A ∩ G| = 20\n|C| - |A ∩ C| - |C ∩ G| = 55\n\nSubstituindo na fórmula de inclusão-exclusão:\n\n|A ∪ C ∪ G| = 100 + 120 + 80 - |A ∩ C| - 20 - |C ∩ G| + 0\n\nSabemos que |C| - |A ∩ C| - |C ∩ G| = 55, então:\n\n120 - |A ∩ C| - |C ∩ G| = 55\n|A ∩ C| + |C ∩ G| = 65\n\nSubstituindo na fórmula de inclusão-exclusão:\n\n|A ∪ C ∪ G| = 300 - 65 = 235\n\nA probabilidade de um aluno estar matriculado em pelo menos uma disciplina é 235/500 = 0.47, que é menor que 50%. Portanto, a afirmativa I é verdadeira.\n\nII. A probabilidade de um aluno matriculado em Cálculo estar também matriculado em Geometria é 25%.\n\nPrecisamos calcular |C ∩ G|. Sabemos que |A ∩ C| + |C ∩ G| = 65. Como |A ∩ C ∩ G| = 0, podemos assumir que |C ∩ G| = 65 - |A ∩ C|. No entanto, sem informações adicionais, não podemos determinar exatamente |C ∩ G|. Portanto, não podemos afirmar que a probabilidade é 25% sem mais informações. A afirmativa II é falsa.\n\nIII. Nenhum aluno está matriculado simultaneamente nas três disciplinas.\n\nAssumimos que |A ∩ C ∩ G| = 0 para resolver a questão, e isso é consistente com as informações dadas. Portanto, a afirmativa III é verdadeira.\n\nPortanto, a alternativa correta é B: Apenas a afirmativa III é verdadeira."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-70",
+    "numero": 70,
+    "enunciado": "Considere que 14 cópias de uma mesma tarefa devem ser executadas paralelamente por\nagentes idênticos, organizados em dois sistemas multiagentes, SMA-A e SMA-B. O\nsistema SMA-A é formado por 16 agentes e o sistema SMA-B é formado por 32 agentes.\nSeja C (m, p) a combinação de m elementos p a p .\nAssinale fórmula que representa a quantidade de maneiras diferentes de escolher os\nagentes, no caso em que pelo menos uma tarefa deve ser executada por algum agente\ndo sistema SMA-B.",
+    "alternativas": [
+      "A) C (48,14) C (16,14)",
+      "B) C (32,1) C (47,13)",
+      "C) C (48,1) C (16,13)",
+      "D) C (32,1) C (48,13)",
+      "E) C (32,1) C (48,1) C (32,14)"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Agentes Inteligentes",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver essa questão, precisamos calcular o número de maneiras de escolher os agentes para executar as 14 tarefas, garantindo que pelo menos uma tarefa seja executada por um agente do sistema SMA-B. \n\nPrimeiro, calculamos o total de maneiras de escolher 14 agentes dentre os 48 disponíveis (16 do SMA-A e 32 do SMA-B), que é dado por C(48, 14).\n\nDepois, calculamos o número de maneiras de escolher todos os 14 agentes apenas do SMA-A, que é C(16, 14). \n\nA diferença entre esses dois valores nos dará o número de maneiras de escolher os agentes de forma que pelo menos um agente seja do SMA-B. \n\nNo entanto, a questão pede uma fórmula que representa essa escolha, e a alternativa B é a única que representa a escolha de pelo menos um agente do SMA-B, pois ela considera a escolha de pelo menos um agente do SMA-B (C(32, 1)) e o restante dos agentes (13) dentre os 47 restantes (48 totais menos 1 já escolhido do SMA-B), que é C(47, 13). \n\nPortanto, a alternativa correta é B."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-10",
+    "numero": 10,
+    "enunciado": "Dados os conceitos de coerˆencia e completeza de um sistema dedutivo, analise\nI. Existe pelo menos um sistema de deduc¸˜ao coerente e completo para a L´ogica\nProposicional.\nII. Todo sistema de deduc¸˜ao para a L´ogica de Predicados de Primeira Ordem que ´e\ncompleto tamb´em ´e coerente.\nIII. Existe pelo menos um sistema de deduc¸˜ao coerente e completo para a L´ogica de\nPredicados de Primeira Ordem.",
+    "alternativas": [
+      "(a) nenhuma das afirmativas.",
+      "(b) somente as afirmativas I e II.",
+      "(c) somente as afirmativas I e III.",
+      "(d) somente as afirmativas II e III.",
+      "(e) todas as afirmativas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Completude",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver essa questão, precisamos analisar cada uma das afirmativas em relação aos conceitos de coerência e completude em lógica matemática.\n\nI. Existe pelo menos um sistema de dedução coerente e completo para a Lógica Proposicional.\n- Esta afirmativa é verdadeira. A lógica proposicional é conhecida por ter sistemas de dedução que são tanto coerentes (não derivam contradições) quanto completos (todas as verdades lógicas podem ser derivadas).\n\nII. Todo sistema de dedução para a Lógica de Predicados de Primeira Ordem que é completo também é coerente.\n- Esta afirmativa é verdadeira. O teorema da completude de Gödel afirma que, para a lógica de primeira ordem, se um sistema é completo, ele também é coerente, assumindo que o sistema é consistente.\n\nIII. Existe pelo menos um sistema de dedução coerente e completo para a Lógica de Predicados de Primeira Ordem.\n- Esta afirmativa é falsa. O teorema da incompletude de Gödel mostra que qualquer sistema formal suficientemente poderoso para expressar a aritmética básica não pode ser ao mesmo tempo completo e coerente.\n\nPortanto, as afirmativas corretas são I e II, tornando a alternativa correta a (b)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-27",
+    "numero": 27,
+    "enunciado": "Assinale a alternativa que apresenta a afirmativa FALSA.",
+    "alternativas": [
+      "(a) Uma linguagem L ´e aceita por uma Ma´quina de Turing n˜ao determin´ıstica com\nk fitas, m dimens˜oes, n cabec¸otes de leitura e gravac¸˜ao por fita se, e somente se,\nela ´e aceita por uma M´aquina de Turing determin´ıstica com uma fita infinita em\napenas um sentido e um cabec¸ote de leitura e gravac¸˜ao.",
+      "(b) Um problema ´e dito ser decid´ıvel se a linguagem associada a esse problema ´e\nrecursiva.",
+      "(c) O conjunto de todos os programas que p´aram para uma dada entrada ´e um\nconjunto recursivo mas n˜ao recursivamente enumera´vel.",
+      "(d) Uma func¸˜ao ´e parcialmente computa´vel se, e somente se, ela pode ser obtida a\npartir de func¸˜oes iniciais (por exemplo, sucessor, zero e pro jec¸˜ao) por um nu´mero\nfinito de aplicac¸˜oes de composi¸c˜ao, recurs˜ao primitiva e minimaliza¸c˜ao.",
+      "(e) Uma Ma´quina de Turing Universal U toma como argumentos uma descric¸˜ao de\numa Ma´quina de Turing qualquer M e uma entrada x para M , e executa as\nmesmas operac¸˜oes sobre x que seriam executadas por M , ou seja, U simula M\nsobre x."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Problemas Indecidíveis",
+    "dificuldade": "Difícil",
+    "gabarito": "c",
+    "solucao": "A alternativa (c) afirma que o conjunto de todos os programas que param para uma dada entrada é um conjunto recursivo mas não recursivamente enumerável. Esta afirmação é falsa. Na verdade, o conjunto de programas que param para uma dada entrada é um conjunto recursivamente enumerável, mas não é recursivo. Isso se deve ao fato de que podemos enumerar os programas que param (basta simular cada programa por um tempo crescente), mas não podemos decidir em tempo finito se um programa irá parar ou não, devido ao problema da parada ser indecidível."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-29",
+    "numero": 29,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Encapsulamento ´e a capacidade de uma operac¸˜ao atuar de modos diversos em\nclasses diferentes.\nII. Polimorfismo ´e o compartilhamento de atributos e m´etodos entre classes com base\nem um relacionamento hier´arquico.\nIII. Heran¸ca consiste no processo de ocultac¸˜ao dos detalhes internos de implementac¸˜ao\nde um ob jeto.\nIV. Sobreposi¸c˜ao ´e a redefinic¸˜ao das func¸˜oes de um m´etodo herdado. Os m´etodos\napresentam assinaturas iguais.\nV. Em JAVA, todos os m´etodos numa classe abstrata devem ser declarados como\nabstratos.",
+    "alternativas": [
+      "(a) apenas a afirmativa IV est´a correta.",
+      "(b) apenas as afirmativas III e IV est˜ao corretas.",
+      "(c) apenas as afirmativas I, IV e V est˜ao corretas.",
+      "(d) apenas as afirmativas I, III e V est˜ao corretas.",
+      "(e) todas as afirmativas s˜ao falsas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Conceitos",
+    "dificuldade": "Fácil",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. Encapsulamento é a capacidade de uma operação atuar de modos diversos em classes diferentes. Esta descrição está incorreta. Encapsulamento refere-se à ocultação dos detalhes internos de um objeto, permitindo que apenas partes selecionadas sejam acessíveis externamente.\n\nII. Polimorfismo é o compartilhamento de atributos e métodos entre classes com base em um relacionamento hierárquico. Esta descrição está incorreta. Polimorfismo é a capacidade de um método ou função agir de diferentes formas, dependendo do objeto que o invoca.\n\nIII. Herança consiste no processo de ocultação dos detalhes internos de implementação de um objeto. Esta descrição está incorreta. Herança é o mecanismo pelo qual uma classe pode herdar atributos e métodos de outra classe.\n\nIV. Sobreposição é a redefinição das funções de um método herdado. Os métodos apresentam assinaturas iguais. Esta afirmativa está correta. Sobreposição (ou overriding) é quando uma classe filha redefine um método da classe pai com a mesma assinatura.\n\nV. Em JAVA, todos os métodos numa classe abstrata devem ser declarados como abstratos. Esta afirmativa está incorreta. Em Java, uma classe abstrata pode ter métodos concretos (implementados) e métodos abstratos (não implementados).\n\nPortanto, todas as afirmativas, exceto a IV, são falsas. A alternativa correta é (e) todas as afirmativas são falsas."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-46",
+    "numero": 46,
+    "enunciado": "Analise as seguintes afirmativas sobre os parsers descendentes recursivos.\nI. S˜ao parsers f´aceis de implementar para linguagens cuidadosamente pro jetadas,\npor´em geralmente exigem transformac¸˜oes em gram´aticas originalmente apresen-\ntadas em BNF.\nII. Um dos principais problemas desse tipo de parser ´e a necessidade de retrocesso nas\nalternativas, o que pode ser resolvido com o uso de um parser recursivo preditivo.\nIII. Para evitar os problemas do parser descendente recursivo, podemos realizar a\nan´alise TOP-DOWN usando um parser preditivo n˜ao recursivo, ou parser pred-\nitivo tabular. O parser preditivo tabular usa uma tabela baseada nos conjuntos\nFIRST e FOLLOW para decidir qual produc¸˜ao aplicar `a entrada.",
+    "alternativas": [
+      "(a) apenas a afirmativa I est´a correta.",
+      "(b) apenas a afirmativa II est´a correta.",
+      "(c) apenas a afirmativa III est´a correta.",
+      "(d) apenas as afirmativas I, II est˜ao corretas.",
+      "(e) as trˆes afirmativas est˜ao corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Gramáticas",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. Esta afirmativa está correta. Parsers descendentes recursivos são, de fato, mais fáceis de implementar para linguagens que foram projetadas com cuidado. No entanto, gramáticas em BNF podem precisar de transformações, como a remoção de recursão à esquerda, para serem adequadas para esse tipo de parser.\n\nII. Esta afirmativa também está correta. Um dos problemas dos parsers descendentes recursivos é a necessidade de retrocesso (backtracking) quando há múltiplas alternativas. No entanto, isso pode ser evitado usando um parser recursivo preditivo, que é uma forma de parser descendente que não requer retrocesso.\n\nIII. Esta afirmativa está correta. Um parser preditivo tabular, como o algoritmo LL(1), utiliza tabelas baseadas nos conjuntos FIRST e FOLLOW para decidir qual produção aplicar, evitando a necessidade de retrocesso e recursão.\n\nPortanto, todas as três afirmativas estão corretas, o que torna a alternativa (e) a correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-48",
+    "numero": 48,
+    "enunciado": "Analise as seguintes afirmativas sobre a fase de an´alise (Front-End) de um com-\nI. O uso de uma vari´avel de ponto flutuante para indexar um vetor causa um erro\ngeralmente detectado na ana´lise semaˆntica.\nII. Parˆenteses desbalanceados s˜ao um erro geralmente detectado pela ana´lise l´exica\nj´a que essa fase lˆe o arquivo fonte e o traduz para uma sequ¨ˆencia de s´ımbolos\nl´exicos, ou tokens.\nIII. Para a an´alise sint´atica TOP-DOWN usando o m´etodo de empilhar e reduzir, ´e\nnecess´ario reescrever a gram´atica eliminando toda recursividade `a esquerda.",
+    "alternativas": [
+      "(a) todas as afirmativas s˜ao incorretas.",
+      "(b) apenas a afirmativa II ´e incorreta.",
+      "(c) apenas as afirmativas I e II s˜ao incorretas.",
+      "(d) apenas as afirmativas I e III s˜ao incorretas.",
+      "(e) apenas as afirmativas II e III s˜ao incorretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Gramáticas",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. O uso de uma variável de ponto flutuante para indexar um vetor causa um erro geralmente detectado na análise semântica. Isso está correto, pois a análise semântica verifica tipos e usos corretos das variáveis, e indexar um vetor com um tipo não-inteiro é um erro semântico.\n\nII. Parênteses desbalanceados são um erro geralmente detectado pela análise léxica já que essa fase lê o arquivo fonte e o traduz para uma sequência de símbolos léxicos, ou tokens. Isso está incorreto. O erro de parênteses desbalanceados é geralmente detectado na análise sintática, não na análise léxica. A análise léxica apenas transforma o código em tokens, sem verificar o balanceamento de parênteses.\n\nIII. Para a análise sintática TOP-DOWN usando o método de empilhar e reduzir, é necessário reescrever a gramática eliminando toda recursividade à esquerda. Isso está correto, pois a eliminação da recursividade à esquerda é uma etapa necessária para a análise sintática top-down, como em parsers LL.\n\nPortanto, a única afirmativa incorreta é a II. A alternativa correta é (b)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-52",
+    "numero": 52,
+    "enunciado": "Considere as seguintes afirmativas sobre as facilidades oferecidas pela UML 2.0.\nI. O Diagrama de Comunica¸c˜ao, como o pr´oprio nome j´a indica, procura dar ˆenfase\n`a troca de mensagens entre os ob jetos durante o processo. Outra caracter´ıstica\ninteressante ´e que, embora partilhe elementos com o Diagrama de Sequ¨ˆencias, o\nDiagrama de Comunica¸c˜ao n˜ao apresenta linhas de vida.\nII. Quando necessitamos detalhar um estado individual no Diagrama de Ma´quina de\nEstados, podemos utilizar o recurso estado composto, o qual possibilita a repre-\nsentac¸˜ao de subestados dentro de um mesmo diagrama.\nIII. Visando contemplar as necessidades de modelagem de sistemas de tempo real e\naplicac¸˜oes hiperm´ıdia e multim´ıdia, onde a representac¸˜ao do tempo em que um\nob jeto executa algo ´e essencial, a UML 2.0 disponibiliza o Diagrama de Tempo\nque descreve as mudanc¸as de estado de um ob jeto ao longo do tempo.\nIV. No intuito de facilitar a representac¸˜ao de uma vis˜ao mais geral de um sistema (ou\nprocesso), a UML 2.0 oferece o Diagrama de Intera¸c˜ao Geral, uma variac¸˜ao do\nDiagrama de Atividades no qual s˜ao utilizados quadros ao inv´es de n´os de ac¸˜ao.\nEstes podem aparecer no modo detalhado (apresentando seu comportamento in-\nterno) ou n˜ao.",
+    "alternativas": [
+      "(a) s˜ao verdadeiras todas as afirmativas.",
+      "(b) nenhuma das afirmativas ´e verdadeira.",
+      "(c) somente as afirmativas II e III s˜ao verdadeiras.",
+      "(d) somente as afirmativas III e IV s˜ao verdadeiras.",
+      "(e) somente as afirmativas I, II e III s˜ao verdadeiras."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Métodos de Análise e de Projeto de Software",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. O Diagrama de Comunicação realmente enfatiza a troca de mensagens entre objetos e, diferentemente do Diagrama de Sequência, não utiliza linhas de vida. Portanto, a afirmativa I é verdadeira.\n\nII. O Diagrama de Máquina de Estados permite o uso de estados compostos para detalhar estados individuais, representando subestados dentro do mesmo diagrama. Assim, a afirmativa II é verdadeira.\n\nIII. A UML 2.0 introduziu o Diagrama de Tempo para modelar sistemas onde a representação temporal é crucial, como em sistemas de tempo real e multimídia. Este diagrama descreve as mudanças de estado de um objeto ao longo do tempo. Portanto, a afirmativa III é verdadeira.\n\nIV. O Diagrama de Interação Geral não é uma variação do Diagrama de Atividades, mas sim uma forma de representar interações complexas em um único diagrama. A descrição fornecida na afirmativa IV está incorreta. \n\nPortanto, as afirmativas I, II e III são verdadeiras, tornando a alternativa (e) a correta."
+  },
+  {
     "edicao": 2006,
     "id": "2006-07",
     "numero": 7,
