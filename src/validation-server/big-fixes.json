@@ -7256,5 +7256,480 @@
     "dificuldade": "",
     "gabarito": "",
     "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-01",
+    "numero": 1,
+    "enunciado": "Seja f : R → R definida por\nf(x) = x3 − 2x2 − 2, se x > −1\nx − 3, se x ≤ −1\nSe L = lim n→+∞f(an), com an = −1 +1n/n, é correto afirmar que",
+    "alternativas": [
+      "(a) L = −4",
+      "(b) L = −1",
+      "(c) L = −5",
+      "(d) L = −3",
+      "(e) L = −2"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-07",
+    "numero": 7,
+    "enunciado": "Seja f : R → R uma função derivável tal que f (−1) = 2, f (2) = 1, f' (−1) =\n0 e f' (2) = 0. Além disso, f' (x) > 0 para todo x ∈ (−∞, −1) ∪ (1, 2) e\nf' (x) < 0 para todo x ∈ (−1, 1) ∪ (2, +∞). Podemos afirmar que",
+    "alternativas": [
+      "(a) lim f (x) = +∞\nx→+∞",
+      "(b) lim f (x) = −∞\nx→−∞",
+      "(c) x = 2 é ponto de máximo global de f .",
+      "(d) x = −1 é ponto de máximo global de f .",
+      "(e) f não tem ponto de máximo global."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-10",
+    "numero": 10,
+    "enunciado": "A sequência de Fibonacci (Fn) é definida recursivamente por\nF1 = 1\nF2 = 1\nFn+1 = Fn + Fn−1, para n ≥ 2.\nSe limn→+∞Fn+1/Fn = L, podemos afirmar que",
+    "alternativas": [
+      "(a) L = 1\n√\n1 + 2",
+      "(b) L =\n2\n√\n1 + 5",
+      "(c) L =\n2\n√\n5 − 1",
+      "(d) L =\n2\n√",
+      "(e) L = 1 + 5"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-11",
+    "numero": 11,
+    "enunciado": "É correto afirmar que:",
+    "alternativas": [
+      "(a) Se f (x)dx < 0, então f (x) ≤ 0 para todo x ∈ [1, 3].\n1\n1",
+      "(b) Se f (x)dx = 0, então f (x) = 0 para todo x ∈ [0, 1].\n0 \n1 1",
+      "(c) Se f (x)dx ≤ g (x)dx, então f (x) ≤ g (x) para todo x ∈ [0, 1].\n0 0\n \n1 1",
+      "(d) Se f (x)dx = 0, então |f (x)|dx = 0.\n0 0\n \n2 0",
+      "(e) cos x dx = cos x dx.\n0 −2\n2"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-13",
+    "numero": 13,
+    "enunciado": "Seja F(x) = lnxdx e tal que F(1) = 0. É correto afirmar que",
+    "alternativas": [
+      "(a) F(x) = 1/x - 1",
+      "(b) F(x) = lnx",
+      "(c) F(x) = x lnx",
+      "(d) F(x) = x lnx - x + 1",
+      "(e) F(x) = x lnx - x - 1"
+    ],
+    "area_conhecimento": "",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-18",
+    "numero": 18,
+    "enunciado": "O sistema \n x + 2y − z = 4\n3x − y + 5z = 2\n4x + y + (a2 − 14)z = a + 2\ntem uma única solução (x, y , z). Então",
+    "alternativas": [
+      "(a) a = −4",
+      "(b) a = 4",
+      "(c) a ≠ 4 e a ≠ −4",
+      "(d) a = 4 ou a = −4",
+      "(e) a = −1"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-21",
+    "numero": 21,
+    "enunciado": "O contador da figura abaixo é:",
+    "alternativas": [
+      "(a) síncrono",
+      "(b) assíncrono",
+      "(c) isócrono",
+      "(d) anisócrono",
+      "(e) auto-sincronizado"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-22",
+    "numero": 22,
+    "enunciado": "Qual é a função do circuito da figura abaixo?",
+    "alternativas": [
+      "(a) multiplexador",
+      "(b) multiplicador",
+      "(c) deslocador",
+      "(d) somador",
+      "(e) subtrator"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-31",
+    "numero": 31,
+    "enunciado": "Considere n chaves armazenadas\n\n(I) de maneira arbitrária numa lista encadeada simples,\n(II) de maneira arbitrária numa lista encadeada dupla.\n\nConsidere também as mesmas chaves\n\n(III) armazenadas de maneira ordenada numa lista encadeada simples,\n(IV) armazenadas de maneira ordenada numa lista encadeada dupla.\n\nQual das alternativas preenche a seguinte tabela com a complexidade de busca no pior caso, em cada uma das situações I, II, III e IV descritas acima?",
+    "alternativas": [
+      "(a)",
+      "(b)",
+      "(c)",
+      "(d)",
+      "(e)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-40",
+    "numero": 40,
+    "enunciado": "Quais dos quatro grafos abaixo são Eulerianos?",
+    "alternativas": [
+      "(a) somente I e II",
+      "(b) somente I",
+      "(c) somente II",
+      "(d) somente I, II e IV",
+      "(e) nenhum deles é Euleriano"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-03",
+    "numero": 3,
+    "enunciado": "Seja n um número inteiro positivo. Considere a função f definida recursivamente por\n\n0 se n = 1\nf (n) =\nf (b n c) + 1 se n > 1\n2\nonde k é o maior inteiro menor ou igual a k. O valor de f(25) é igual a",
+    "alternativas": [
+      "(a) 5",
+      "(b) 4",
+      "(c) 6",
+      "(d) 3",
+      "(e) 2"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-06",
+    "numero": 6,
+    "enunciado": "A sequência x é definida recursivamente por\nn\n\nx = a/2\n0\nx = (x + a/x )/2 para n ≥ 0\nn+1 n n\nonde a é um número real maior do que 1. Se lim x = L podemos afirmar que\nn\nn→∞",
+    "alternativas": [
+      "(a) L = 1",
+      "(b) L = 1/a",
+      "(c) L = a",
+      "(d) L = 1/2a\n√",
+      "(e) L = a"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-08",
+    "numero": 8,
+    "enunciado": "Seja g : R → R contínua e f =(x) = g(x) − x. Definimos a sequência (xn) da seguinte maneira\n\nx0 = 1\nxn = g(xn-1) para n ≥ 1\nSe lim x = L podemos afirmar que n→∞",
+    "alternativas": [
+      "(a) L é uma raiz de f (x) = 0",
+      "(b) L é uma raiz de g(x) = 0",
+      "(c) g(L) = 1",
+      "(d) f (L) = L",
+      "(e) nenhuma das anteriores"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-09",
+    "numero": 9,
+    "enunciado": "Assinale a proposição verdadeira",
+    "alternativas": [
+      "(a) Se x é um número real tal que x2 ≤ 4 então x ≤ 2 e x ≤ −2",
+      "(b) Se x e y são números reais tais que x < y então x2 < y2",
+      "(c) Se x + y é um número racional então x e y são números racionais\n2x + 3",
+      "(d) Se x < −4 ou x > 1 então > 1\nx − 1",
+      "(e) nenhuma das anteriores"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-13",
+    "numero": 13,
+    "enunciado": "Se O = (0, 0, 0) ; A = (2, 4, 1) ; B = (3, 1, 1) e C = (1, 3, 5) então o volume do sólido acima é",
+    "alternativas": [
+      "(a) 30",
+      "(b) 35",
+      "(c) 35/2",
+      "(d) 44",
+      "(e) 21"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-15",
+    "numero": 15,
+    "enunciado": "Se lim ( + + · · · + ) = L então\nn→∞ n2 n2 n2",
+    "alternativas": [
+      "(a) L = 1",
+      "(b) L = 0",
+      "(c) L = 1/2",
+      "(d) L = ∞",
+      "(e) L = 2"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-44",
+    "numero": 44,
+    "enunciado": "Supondo a Relação PROJ (PNO, Orçam), com chave primária PNO, a Relação EMP(ENO, ENome, Cargo) com chave primária ENO, e a Relação DSG (ENO, PNO, Dur, Resp), com chave primária {ENO, PNO}, chave estrangeira PNO em relação a PROJ e chave estrangeira ENO em relação a EMP. Qual das expressões da álgebra relacional abaixo NÃO corresponde à seguinte consulta SQL:\n\nSELECT ENome\nFROM EMP, PROJ, DSG\nWHERE EMP.ENO = DSG.ENO\n AND PROJ.PNO = DSG.PNO\n AND Dur > 36",
+    "alternativas": [
+      "a) π ENome (PROJ PNO ( EMP ENO σ Dur > 36 (DSG)))",
+      "b) π ENome (PROJ PNO ((π ENome, ENO (EMP)) ENO ( σ Dur > 36 (DSG))))",
+      "c) π ENome (PROJ PNO (σ Dur > 36 (EMP ENO (DSG) )))",
+      "d) π ENome (σ Dur > 36 ((π PNO (PROJ)) PNO ( EMP ENO DSG)))",
+      "e) π ENome (PROJ PNO ( EMP ENO σ Dur > 36 (π Dur (DSG))))"
+    ],
+    "area_conhecimento": "Tecnologia da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-49",
+    "numero": 49,
+    "enunciado": "Considerando a rede de Petri abaixo, quais das alternativas são verdadeiras?\nI) O lugar A está habilitado a disparar.\nII) Apenas a transição T1 está habilitada a disparar.\nIII) A seqüência de transições (T1, T2, T3, T2) pode ser disparada, nessa ordem.\nIV) A transição T4 nunca poderá ser disparada.",
+    "alternativas": [
+      "a) Todas as alternativas.",
+      "b) Apenas as alternativas II e III.",
+      "c) Apenas as alternativas I e III.",
+      "d) Apenas as alternativas II, III e IV.",
+      "e) Apenas as alternativas II, IV."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-59",
+    "numero": 59,
+    "enunciado": "Seja a árvore binária abaixo a representação de um espaço de estados para um problema p, em que o estado inicial é a, e i e f são estados finais.\n\nUm algoritmo de busca em largura-primeiro forneceria a seguinte seqüência de estados como\nprimeira alternativa a um caminho-solução para o problema p:",
+    "alternativas": [
+      "a) a b d h e i",
+      "b) a b c d e f",
+      "c) a b e i",
+      "d) a c f",
+      "e) a b d e f"
+    ],
+    "area_conhecimento": "Tecnologia da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-23",
+    "numero": 23,
+    "enunciado": "Considere o circuito abaixo, implementado com duas portas NAND.\nQual das seguintes portas equivale a este circuito?",
+    "alternativas": [
+      "(a) NOT",
+      "(b) OR",
+      "(c) AND",
+      "(d) XOR",
+      "(e) NOR"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-24",
+    "numero": 24,
+    "enunciado": "Considere o projeto de um circuito digital que implementa uma função f com três variáveis de entrada e satisfazendo as seguintes propriedades:\nf(x,y,z)=1 se x!=y 0 caso contrário\nQual das seguintes expressões representa corretamente a função f?",
+    "alternativas": [
+      "(a) x + yz",
+      "(b) xyz + xyz",
+      "(c) xy + xy",
+      "(d) xy + yz + z",
+      "(e) xz + xy + yz"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-25",
+    "numero": 25,
+    "enunciado": "Assinale quantas sequências de caracteres a seguir são reconhecidas pelo autômato finito abaixo. As quatro sequências de caracteres (separadas por vírgulas) são: 0, +567, -89.5, -3 e 3.",
+    "alternativas": [
+      "(a) 0",
+      "(b) 1",
+      "(c) 2",
+      "(d) 3",
+      "(e) 4 "
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-36",
+    "numero": 36,
+    "enunciado": "Uma árvore binária é declarada em C como\n\ntypedef struct no *apontador;\nstruct no {\nint valor;\napontador esq, dir;\n};\n\nonde esq e dir representam ligações para os filhos esquerdo e direito de um nó da árvore, respectivamente. Qual das seguintes alternativas é uma implementação correta da operação que inverte as posições dos filhos esquerdo e direito de um nó p da árvore, onde t é um apontador auxiliar.",
+    "alternativas": [
+      "(a) t=p;\np->esq = p->dir;\np->dir = p->esq",
+      "(c) p->dir= t;p->esq=p->dir;\np->dir = t",
+      "(c) p->esq = p->dir;\nt=p->esq;p->dir = t",
+      "(d) t = p->dir;\np->esq = p->dir;\np->dir = t",
+      "(e) t = p->dir;\np->dir = p->esq;\np->esq = t"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-37",
+    "numero": 37,
+    "enunciado": "No programa abaixo, escrito em Pascal, os parâmetros do procedimento vr são passados por valor.\n\nprogram teste;\nvar x,y: integer;\n\nprocedure vr(u,v: integer);\nbegin\nu:=2*u;\nx:=u+v;\nu:=u-l;\nend;\nbegin\nx:=4;\ny:=2;\nvr(x,y);\nwriteln(x);\nend.\n\nO valor de x impresso na última linha do programa é:",
+    "alternativas": [
+      "(a) 4",
+      "(b) 5 ",
+      "(c) 7 ",
+      "(d) 8 ",
+      "(e) 10"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-38",
+    "numero": 38,
+    "enunciado": "A função abaixo computa a soma dos n primeiros números inteiros não negativos:\n\nfunction sum(n: integer) : integer;\nbegin\nif n=0 then sum:=0\nelse --------------\nend;\n\nA parte que falta para completar a condição else é:",
+    "alternativas": [
+      "(a) while n<>0 sum:=sum + sum(n+1)",
+      "(b) sum:=n + sum(n)",
+      "(c) sum:=(n-1) + sum(n-1)",
+      "(d) sum:=n + sum(n-1)",
+      "(e) sum:=(n-1) + sum(n)"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
   }
 ]

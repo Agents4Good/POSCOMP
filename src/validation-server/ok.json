@@ -12006,5 +12006,1571 @@
     "dificuldade": "",
     "gabarito": "",
     "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-05",
+    "numero": 5,
+    "enunciado": "Quantas funções sobrejetoras existem de um conjunto \\(A\\) com 6 elementos sobre um conjunto \\(B\\) com 3 elementos?",
+    "alternativas": [
+      "(a) 729",
+      "(b) 537",
+      "(c) 540",
+      "(d) 183",
+      "(e) 216"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) 729",
+      "(b) 537",
+      "(c) 540",
+      "(d) 183",
+      "(e) 216"
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-16",
+    "numero": 16,
+    "enunciado": "Assinale a forma correta da negação da seguinte frase:\n\"Algumas pessoas gostam de matemática.\"",
+    "alternativas": [
+      "(a) Algumas pessoas não gostam de matemática.",
+      "(b) Todas as pessoas não gostam de matemática.",
+      "(c) Existe uma pessoa que gosta de matemática.",
+      "(d) Existe uma pessoa que não gosta de matemática.",
+      "(e) Todas as pessoas gostam de matemática."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) Algumas pessoas não gostam de matemática.",
+      "(b) Todas as pessoas não gostam de matemática.",
+      "(c) Existe uma pessoa que gosta de matemática.",
+      "(d) Existe uma pessoa que não gosta de matemática.",
+      "(e) Todas as pessoas gostam de matemática."
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-17",
+    "numero": 17,
+    "enunciado": "Assinale o argumento válido, onde \\(S_1\\) e \\(S_2\\) indicam premissas e \\(C\\) a conclusão.",
+    "alternativas": [
+      "(a) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): A comida não é boa.\n\\(C\\): O serviço não é bom.",
+      "(b) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): O serviço não é bom.\n\\(C\\): A comida é boa.",
+      "(c) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): O serviço não é bom.\n\\(C\\): A comida não é boa.",
+      "(d) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): A comida é boa.\n\\(C\\): O serviço não é bom.",
+      "(e) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): A comida não é boa.\n\\(C\\): O serviço é bom."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): A comida não é boa.\n\\(C\\): O serviço não é bom.",
+      "(b) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): O serviço não é bom.\n\\(C\\): A comida é boa.",
+      "(c) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): O serviço não é bom.\n\\(C\\): A comida não é boa.",
+      "(d) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): A comida é boa.\n\\(C\\): O serviço não é bom.",
+      "(e) \\(S_1\\): Se a comida é boa, então o serviço é bom.\n\\(S_2\\): A comida não é boa.\n\\(C\\): O serviço é bom."
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-20",
+    "numero": 20,
+    "enunciado": "A área do triângulo \\(ABC\\) de vértices \\(A = (2, 2, 0)\\), \\(B = (−1, 0, 2)\\) e \\(C = (0, 4, 3)\\) é igual a",
+    "alternativas": [
+      "(a) 15",
+      "(b) 2/15",
+      "(c) 1/15",
+      "(d) 30",
+      "(e) 15/2"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) 15",
+      "(b) 2/15",
+      "(c) 1/15",
+      "(d) 30",
+      "(e) 15/2"
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-23",
+    "numero": 23,
+    "enunciado": "Para que serve a segmentação de um processador (pipelining)?",
+    "alternativas": [
+      "(a) permitir a execução de mais de uma instrução por ciclo de relógio",
+      "(b) aumentar a velocidade do relógio",
+      "(c) simplificar o conjunto de instruções",
+      "(d) reduzir o número de instruções estáticas nos programas",
+      "(e) simplificar a implementação do processador"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) permitir a execução de mais de uma instrução por ciclo de relógio",
+      "(b) aumentar a velocidade do relógio",
+      "(c) simplificar o conjunto de instruções",
+      "(d) reduzir o número de instruções estáticas nos programas",
+      "(e) simplificar a implementação do processador"
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-24",
+    "numero": 24,
+    "enunciado": "A interposição de um circuito de memória cache entre o processador e a memória principal (RAM)",
+    "alternativas": [
+      "(a) aumenta o tráfego de instruções e /ou dados no barramento de memória",
+      "(b) aumenta o tráfego de instruções e/ou dados entre memória e disco",
+      "(c) diminui o tráfego de instruções e/ou dados no barramento de memória",
+      "(d) diminui o tráfego de instruções e/ou dados entre memória e disco",
+      "(e) permite acessos concorrentes à memória RAM"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) aumenta o tráfego de instruções e /ou dados no barramento de memória",
+      "(b) aumenta o tráfego de instruções e/ou dados entre memória e disco",
+      "(c) diminui o tráfego de instruções e/ou dados no barramento de memória",
+      "(d) diminui o tráfego de instruções e/ou dados entre memória e disco",
+      "(e) permite acessos concorrentes à memória RAM"
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-25",
+    "numero": 25,
+    "enunciado": "São vantagens da utilização de threads no espaço do usuário, exceto:",
+    "alternativas": [
+      "(a) Nenhuma modificação é necessária no kernel.",
+      "(b) O sistema operacional escalona a thread.",
+      "(c) O escalonamento pode ser específico para a aplicação.",
+      "(d) A criação e o gerenciamento das threads são mais eficientes.",
+      "(e) Maior portabilidade da aplicação."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) Nenhuma modificação é necessária no kernel.",
+      "(b) O sistema operacional escalona a thread.",
+      "(c) O escalonamento pode ser específico para a aplicação.",
+      "(d) A criação e o gerenciamento das threads são mais eficientes.",
+      "(e) Maior portabilidade da aplicação."
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-29",
+    "numero": 29,
+    "enunciado": "Um compilador detecta:",
+    "alternativas": [
+      "(a) erros que podem ocorrer durante a execução do programa",
+      "(b) erros nos resultados gerados pelo programa",
+      "(c) erros de sintaxe do programa",
+      "(d) erros aritméticos",
+      "(e) todos os erros citados acima"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) erros que podem ocorrer durante a execução do programa",
+      "(b) erros nos resultados gerados pelo programa",
+      "(c) erros de sintaxe do programa",
+      "(d) erros aritméticos",
+      "(e) todos os erros citados acima"
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-33",
+    "numero": 33,
+    "enunciado": "Considere as seguintes afirmativas:\n\nI. O modelo matemático de uma lista é a sequência linear de itens, cuja principal propriedade estrutural é a posição relativa dos elementos dentro da sequência.\nII. A fila e a pilha são consideradas casos especiais da lista.\nIII. Numa fila a inserção e a retirada são feitas no mesmo extremo.\nIV. Numa lista a inserção e a retirada podem ser feitas em qualquer posição.\nV. Numa pilha apenas a inserção pode ser feita em qualquer posição.\n\nQuais são as afirmativas verdadeiras?",
+    "alternativas": [
+      "(a) somente I e III",
+      "(b) somente II, III e IV",
+      "(c) somente I, II e IV",
+      "(d) somente II, IV e V",
+      "(e) todas"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) somente I e III",
+      "(b) somente II, III e IV",
+      "(c) somente I, II e IV",
+      "(d) somente II, IV e V",
+      "(e) todas"
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-37",
+    "numero": 37,
+    "enunciado": "Qual é o número mínimo de comparações necessário para encontrar o menor elemento de um conjunto qualquer não ordenado de n elementos?",
+    "alternativas": [
+      "(a) 1",
+      "(b) n—1",
+      "(c) n",
+      "(d) n+1",
+      "(e) nlogn"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) \\(1\\)",
+      "(b) \\(n-1\\)",
+      "(c) \\(n\\)",
+      "(d) \\(n+1\\)",
+      "(e) \\(nlogn\\)"
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-38",
+    "numero": 38,
+    "enunciado": "Dentre os algoritmos de ordenação citados abaixo, qual é o que executa mais rápido para uma grande variedade de entrada de dados?",
+    "alternativas": [
+      "(a) bolha",
+      "(b) shellsort",
+      "(c) mergesort",
+      "(d) quicksort",
+      "(e) heapsort"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) bolha",
+      "(b) shellsort",
+      "(c) mergesort",
+      "(d) quicksort",
+      "(e) heapsort"
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-41",
+    "numero": 41,
+    "enunciado": " Considere as seguintes tabelas em uma base de dados relacional:\n\n``````````````````Departamento (CodDepto, NomeDepto)``````````````````\n``````````````````Empregado (CodEmp, NomeEmp, CodDepto)``````````````````\n\nDeseja-se obter uma tabela na qual cada linha é a concatenação de uma linha da tabela Departamento com uma linha da tabela de Empregado. Caso um departamento não possua empregados, seu linha no resultado deve conter vazio (NULL) nos campos referentes ao empregado. A operação de álgebra relacional que deve ser aplicada para combinar estas duas tabelas é:",
+    "alternativas": [
+      "(a) Divisão",
+      "(b) Junção interna",
+      "(c) Junção externa",
+      "(d) União",
+      "(e) Projeção"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": "",
+    "alternatives": [
+      "(a) Divisão",
+      "(b) Junção interna",
+      "(c) Junção externa",
+      "(d) União",
+      "(e) Projeção"
+    ]
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-44",
+    "numero": 44,
+    "enunciado": "Considere as seguintes tabelas em uma base de dados relacional:\nDepartamento (CodDepto, NomeDepto)\nEmpregado (CodEmp, NomeEmp, CodDepto,Salario)\nConsidere a seguinte consulta escrita em SQL:\nSELECT D.CodDepto,NomeDepto,SUM(E.Salario)\nFROM Departamento D, Empregado E\nWHERE D.CodDepto=E.CodDepto\nGROUP BY D.CodDepto,NomeDepto\nHAVING COUNT(*)>2 AND AVG(E.Salario)>40\nA consulta acima obtém o seguinte resultado:",
+    "alternativas": [
+      "(a) Para cada empregado que tem mais que dois departamentos, ambos com média salarial maior que\n40, obter o código de departamento, seguido do nome do departamento, seguido da soma dos salários\ndos empregados do departamento.",
+      "(b) Para cada departamento que tem mais que dois empregados e cuja média salarial é maior que 40,\nobter o código de departamento, seguido do nome do departamento, seguido da soma dos salários\ndos empregados do departamento.",
+      "(c) Para cada departamento que tem mais que dois empregados e cuja média salarial, considerando\ntodos empregados do departamento, exceto os dois primeiros, é maior que 40, obter o código de\ndepartamento, seguido do nome do departamento, seguido da soma dos salários dos empregados do\ndepartamento.",
+      "(d) A consulta não retorna nada pois está incorreta.",
+      "(e) Para cada departamento que tem mais que dois empregados e cuja média salarial é maior que 40\nobter um grupo de linhas que contém, para cada empregado do departamento, o código de seu"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-45",
+    "numero": 45,
+    "enunciado": "Considere a seguinte tabela para uma base de dados relacional:\n\nEmpregado (CodEmp, NomeEmp, CodDepto)\n\nConsidere que esta tabela tem um índice na forma de uma árvore B sobre as colunas (CodEmp,CodDepto), nesta ordem.\nQuanto a este índice, considere as seguintes afirmativas:\n\n1) Este índice pode ser usado pelo SGBD relacional para acelerar uma consulta na qual são fornecidos os valores de CodEmp e CodDepto.\n2) Este índice pode ser usado pelo SGBD relacional para acelerar uma consulta na qual é fornecido um\nvalor de CodEmp.\n3) Este índice não é adequado para ser usado pelo SGBD relacional para acelerar uma consulta na qual é fornecido um valor de CodDepto.\n4) O algoritmo que faz inserções e remoções de entradas do índice tem por objetivo garantir que o índice fique organizado de tal forma que o acesso a cada nodo da árvore implique em número de acessos semelhantes.\n5) O índice por árvore-B não é adequado para tabelas que sofrem grande número de inclusões e exclusões, pois exige reorganizações frequentes.\n\nQuanto a estas afirmativas pode se dizer que:",
+    "alternativas": [
+      "(a) Nenhuma das afirmativas está correta",
+      "(b) Apenas as afirmativas 1), 2), 3) e 4) estão corretas",
+      "(c) Todas afirmativas estão corretas",
+      "(d) Apenas as afirmativas 1), 2) e 4) estão corretas",
+      "(e) Apenas as afirmativas 1), 2) e 5) estão corretas"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-46",
+    "numero": 46,
+    "enunciado": "Considere as seguintes afirmações sobre autômatos finitos e expressões regulares:\nI. A classe de linguagens aceita por um Autômato Finito Determinístico (AFD) não é a mesma que um\nAutômato Finito Não Determinístico (AFND).\nII. Para algumas expressões regulares não é possível construir um AFD.\nIII. A expressão regular (b + ba)+ aceita os \"strings\"de b’s e a’s começando com b e não tendo dois a’s\nconsecutivos.\nSelecione a afirmativa correta:",
+    "alternativas": [
+      "(a) As afirmativas I e II são verdadeiras",
+      "(b) As afirmativas I e III são falsas",
+      "(c) Apenas a afirmativa III é verdadeira",
+      "(d) As afirmativas II e III são falsas",
+      "(e) As afirmativas I e III são verdadeiras"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-47",
+    "numero": 47,
+    "enunciado": "Considere as seguintes afirmativas sobre as linguagens usadas para análise sintática:\nI. A classe LL(1) não aceita linguagens com produções que apresentem recursões diretas a esquerda\n(ex. L→La) mas aceita linguagens com recursões indiretas (ex. L→Ra , R→Lb)\nII. A linguagem LR(1) reconhece a mesma classe de linguagens que LALR(1)\nIII. A linguagem SLR(1) reconhece uma classe de linguagens maior que LR(0)\nSelecione a afirmativa correta:",
+    "alternativas": [
+      "(a) As afirmativas I e II são verdadeiras",
+      "(b) As afirmativas I e III são verdadeiras",
+      "(c) Apenas a afirmativa III é verdadeira",
+      "(d) As afirmativas II e III são verdadeiras",
+      "(e) As afirmativas I e III são falsas"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-48",
+    "numero": 48,
+    "enunciado": "Seja a seguinte linguagem, onde ε representa o string vazio e $ representa um marcador de fim de entrada:\nS → ABCD\nA → a | ε\nB → a | ε\nC → c | ε\nD → S | c | ε\nÉ incorreto afirmar que:",
+    "alternativas": [
+      "(a) O conjunto FIRST(A) = a, ε",
+      "(b) O conjunto FIRST(D) é igual ao conjunto FIRST(S)",
+      "(c) O conjunto FOLLOW(A) = a, c, $",
+      "(d) O conjunto FOLLOW(B) = c, $",
+      "(e) O conjunto FOLLOW(D) é igual a FOLLOW(S)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-49",
+    "numero": 49,
+    "enunciado": "Sobre a técnica conhecida como Z-buffer é correto afirmar que:",
+    "alternativas": [
+      "(a) É possível realizar o cômputo das variáveis envolvidas de forma incremental.",
+      "(b) As primitivas geométricas precisam estar ordenadas de acordo com a distância em relação ao obser-\nvador.",
+      "(c) É uma técnica muito comum de detecção de colisão.",
+      "(d) As dimensões do Z-buffer são independentes das dimensões do frame buffer.",
+      "(e) Nenhuma das alternativas acima está correta."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-50",
+    "numero": 50,
+    "enunciado": "O pipeline de visualização de ob jetos tridimensionais reúne um conjunto de transformações e processos\naplicados a primitivas geométricas. Sobre essas transformações e processos pode-se dizer que:\nI. Os ob jetos devem corresponder a sólidos.\nII. As coordenadas dos vértices sofrem transformação de acordo com a posição e orientação do observa-\ndor.\nIII. Um volume de visualização correspondente a um paralelepípedo é determinado pela adoção de pro-\njeção perspectiva.\nIV. A fase final do pipeline corresponde à rasterização dos polígonos.\nSelecione a alternativa correta:",
+    "alternativas": [
+      "(a) Todas as afirmativas são verdadeiras.",
+      "(b) Apenas as afirmativas I e III são falsas.",
+      "(c) Apenas a afirmativa IV está verdadeira.",
+      "(d) As afirmativas II e III são falsas.",
+      "(e) Apenas a afirmativa IV é falsa."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-51",
+    "numero": 51,
+    "enunciado": "O processo de visualização de ob jetos 3D envolve uma série de passos desde a representação vetorial de\num ob jeto até a exibição da imagem correspondente na tela do computador pipeline 3D). Selecione a\nalternativa abaixo que reflete a ordem correta em que esses passos devem ocorrer.",
+    "alternativas": [
+      "(a) Pro jeção, transformação de câmera, recorte 3D, mapeamento para coordenadas de tela, rasterização.",
+      "(b) Transformação de câmera, mapeamento para coordenadas de tela, recorte 3D, rasterização, pro jeção.",
+      "(c) Recorte 3D, transformação de câmera, rasterização, pro jeção, mapeamento para coordenadas de tela",
+      "(d) Transformação de câmera, recorte 3D, pro jeção, mapeamento para coordenadas de tela, rasterização.",
+      "(e) Nenhuma das respostas acima está correta"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-52",
+    "numero": 52,
+    "enunciado": "As seguintes afirmações dizem respeito ao modelo de desenvolvimento em Espiral - proposto por Barry\nBoehm na década de 70:\nI. suas atividades do desenvolvimento são conduzidas por riscos ;\nII. cada ciclo da espiral inclui 4 passos: passo 1 - identificação dos ob jetivos ; passo 2 - avaliação\ndas alternativas tendo em vista os ob jetivos e os riscos (incertezas, restrições) do desenvolvimento;\npasso 3 - desenvolvimento de estratégias (simulação, prototipagem) p/ resolver riscos; e passo 4 -\nplanejamento do próximo passo e continuidade do processo determinada pelos riscos restantes;\nIII. é um modelo evolutivo em que cada passo pode ser representado por um quadrante num diagrama\ncartesiano: assim na dimensão radical da espiral tem-se o custo acumulado dos vários passos do\ndesenvolvimento enquanto na dimensão angular tem-se o progresso do pro jeto.\nLevando-se em conta as três afirmações I, II e III acima, identifique a única alternativa válida:",
+    "alternativas": [
+      "(a) apenas a I e a II estão corretas;",
+      "(b) apenas a II e a III estão corretas;",
+      "(c) apenas a I e a III estão corretas;",
+      "(d) as afirmações I, II e III estão corretas;",
+      "(e) apenas a III está correta."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-53",
+    "numero": 53,
+    "enunciado": "Engenharia de Software inclui um grande número de teorias, conceitos, modelos, técnicas e métodos. Analise as seguintes definições.\n\nI. O processo de inferir ou reconstruir um modelo de mais alto nível (projeto ou especificação) a partir de um documento de mais baixo nível (tipicamente um código fonte);\nII. Capacidade de modificação de um software (ou de um de seus componentes) após sua entrega ao cliente visando corrigir falhas, expandir a funcionalidade , modificar a performance ou outros atributos em resposta a novos requisitos do usuário ou mesmo ser adaptado a alguma mudança do ambiente de execução (plataforma, p.ex);\nIII. Modelo estabelecido pelo Software Engineering Institute (SEI) que propõe níveis de competência organizacional relacionados à qualidade do processo de desenvolvimento de software.\n\nEstas definições correspondem respectivamente aos seguintes termos:",
+    "alternativas": [
+      "(a) reengenharia, manutenibilidade, Capability Maturity Model (CMM)",
+      "(b) engenharia reversa, reparabilidade, Team Software Process (TSP)",
+      "(c) reengenharia, evolutibilidade, Personal Software Process (PSP)",
+      "(d) refactoring, reparabilidade, Team Software Process (TSP)",
+      "(e) engenharia reversa, manutenibilidade, Capability Maturity Model (CMM)"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-54",
+    "numero": 54,
+    "enunciado": "A medida da interconexão entre os módulos de uma estrutura de software é denominada e que também é\nusada em pro jetos orientados a ob jetos é :",
+    "alternativas": [
+      "(a) coesão",
+      "(b) unidade funcional",
+      "(c) ocultamento da informação",
+      "(d) abstração procedimental",
+      "(e) acoplamento"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-55",
+    "numero": 55,
+    "enunciado": "Em relação ao teste de software, qual das afirmações a seguir é INCORRETA:",
+    "alternativas": [
+      "(a) Os dados compilados quando a atividade de teste é levada a efeito proporcionam uma boa indicação\nda confiabilidade do software e alguma indicação da qualidade do software como um todo.",
+      "(b) Um bom caso de teste é aquele que tem uma elevada probabilidade de revelar um erro ainda não\ndescoberto.",
+      "(c) Um teste bem sucedido é aquele que revela um erro ainda não descoberto.",
+      "(d) A atividade de teste é o processo de executar um programa com a intenção de demonstrar a ausência\nde erros.",
+      "(e) O processo de depuração é a parte mais imprevisível do processo de teste pois um erro pode demorar\numa hora, um dia ou um mês para ser diagnosticado e corrigido."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-56",
+    "numero": 56,
+    "enunciado": "O conjunto básico de atividades e a ordem em que são realizadas no processo de construção de um software\ndefinem o que é habitualmente denominado de ciclo de vida do software. O ciclo de vida tradicional\n(também denominado waterfall ) ainda é ho je em dia um dos mais difundidos e tem por característica\nprincipal:",
+    "alternativas": [
+      "(a) o uso de formalização rigorosa em todas as etapas de desenvolvimento;",
+      "(b) a abordagem sistemática para realização das atividades do desenvolvimento de software de modo que\nelas seguem um fluxo sequencial;",
+      "(c) a codificação de uma versão executável do sistema desde as fases iniciais do desenvolvimento, de modo\nque o sistema final é incrementalmente construído, daí a alusão à idéia de \"cascata\"(waterfall );",
+      "(d) a priorização da análise dos riscos do desenvolvimento;",
+      "(e) a avaliação constante dos resultados intermediários feita pelo cliente;"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-57",
+    "numero": 57,
+    "enunciado": "Considere as seguintes afirmações sobre resolução de problemas em IA.\n\nI. A* é um conhecido algoritmo de busca heurística.\nII. O Minimax é um dos principais algoritmos para jogos de dois jogadores, como o xadrez.\nIII. Busca em espaço de estados é uma das formas de resolução de problemas em IA.\n\nSão corretas:",
+    "alternativas": [
+      "(a) Apenas III",
+      "(b) Apenas I e II",
+      "(c) Apenas I e III",
+      "(d) Apenas II e III",
+      "(e) I, II e III"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-58",
+    "numero": 58,
+    "enunciado": "Redes semânticas, frames e lógica são formalismos utilizados principalmente em:",
+    "alternativas": [
+      "(a) inferência em sistemas especialistas",
+      "(b) representação de conhecimento",
+      "(c) redes neurais",
+      "(d) descoberta de conhecimento em bases de dados",
+      "(e) IA distribuída"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-59",
+    "numero": 59,
+    "enunciado": "Considere as seguintes afirmações sobre mecanismos de inferência em sistemas baseados em regras.\nI. O encadeamento regressivo tem pouca utilidade prática, pois deve partir do possível resultado.\nII. O encadeamento progressivo tanto pode ser em amplitude quanto em profundidade.\nIII. Podem trabalhar com informações incertas ou incompletas.\nSão corretas:",
+    "alternativas": [
+      "(a) Apenas III",
+      "(b) Apenas I e II",
+      "(c) Apenas I e III",
+      "(d) Apenas II e III",
+      "(e) I, II e III"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-60",
+    "numero": 60,
+    "enunciado": "Considere as seguintes afirmações sobre redes neurais artificiais:\nI. Um perceptron elementar só computa funções linearmente separáveis.\nII. Não aceitam valores numéricos como entrada.\nIII. O \"conhecimento\"é representado principalmente através do peso das conexões.\nSão corretas:",
+    "alternativas": [
+      "(a) Apenas III",
+      "(b) Apenas I e II",
+      "(c) Apenas I e III",
+      "(d) Apenas II e III",
+      "(e) I, II e III"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-61",
+    "numero": 61,
+    "enunciado": "Qual das opções abaixo você não poderia usar para representar texturas em imagens monocromáticas?",
+    "alternativas": [
+      "(a) matrizes de co-ocorrência;",
+      "(b) medida da densidade local de bordas;",
+      "(c) medidas das sub-bandas espectrais detectadas por filtros de Gabor;",
+      "(d) nenhuma alternativa acima;",
+      "(e) as alternativas corretas são a), b) e c)."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-62",
+    "numero": 62,
+    "enunciado": "Um agente SNMP é um aplicativo que é executado:",
+    "alternativas": [
+      "(a) em um dispositivo de rede",
+      "(b) a partir de um computador específico para monitorar a rede",
+      "(c) em computadores denominados de gerentes",
+      "(d) em \"firewalls\"com o ob jetivo de proteger acesso a rede",
+      "(e) em roteadores com filtragem de pacotes com o ob jetivo de proteger acesso a rede"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-63",
+    "numero": 63,
+    "enunciado": "Algoritmos distribuídos podem usar passagem de \"token\" por um anel lógico para implementar exclusão mútua ou ordenação global de mensagens. Nesses algoritmos apenas o processo que possui o \"token\" tem a permissão de usar um recurso compartilhado ou numerar mensagens, por exemplo. Considerando o conceito acima podemos afirmar que:",
+    "alternativas": [
+      "(a) a abordagem deve tratar no mínimo dois tipos de defeitos: perda do \"token\" e colapso de processos",
+      "(b) para usar essa a abordagem os computadores precisam estar conectados em uma rede com topologia em anel",
+      "(c) nessa abordagem é impossível evitar a geração espontânea de vários \"tokens\" mesmo em sistemas livre de falhas",
+      "(d) a abordagem é adequada apenas para sistemas onde possa ser controlado o tempo que cada computador permanece com o \"token\"",
+      "(e) a abordagem é pouco robusta pois a perda do \"token\" por um processo provoca o bloqueio do algoritmo distribuído que a usa"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-64",
+    "numero": 64,
+    "enunciado": "Em relação ao paradigma de programação cliente-servidor. Qual das afirmativas abaixo é FALSA?",
+    "alternativas": [
+      "(a) Um aplicativo servidor inicia ativamente o contato com clientes arbitrários.",
+      "(b) Um aplicativo servidor aceita contato de clientes arbitrários, mas oferece um único serviço.",
+      "(c) Um aplicativo cliente é um programa arbitrário que se torna temporariamente um cliente quando for\nnecessário o acesso remoto a um serviço, mas também executa processamento local.",
+      "(d) Um aplicativo cliente pode acessar múltiplos serviços quando necessário.",
+      "(e) Um aplicativo servidor é um programa de propósito especial dedicado a fornecer um serviço, mas\npode tratar de múltiplos clientes remotos ao mesmo tempo."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-65",
+    "numero": 65,
+    "enunciado": "Considere as seguintes informações sobre IP:\nI. Uma rede IP classe C fornece até 256 endereços válidos para serem atribuídos a equipe\nII. A quantidade máxima de bits que pode ser utilizada para se definir sub-redes em uma rede IP classe\nC é seis (6).\nIII. A máscara padrão para uma rede classe B é 255.255.255.0\nQual das alternativas abaixo representa as assertivas corretas:",
+    "alternativas": [
+      "(a) Somente I.",
+      "(b) Somente II.",
+      "(c) Somente III.",
+      "(d) Somente I e II.",
+      "(e) Somente II e III."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-66",
+    "numero": 66,
+    "enunciado": "Os protocolos de transporte atribuem a cada serviço um identificador único, o qual é empregado para\nencaminhar uma requisição de um aplicativo cliente ao processo servidor correto. Nos protocolos de\ntransporte TCP e UDP, como esse identificador se denomina?",
+    "alternativas": [
+      "(a) Endereço IP",
+      "(b) Porta",
+      "(c) Conexão",
+      "(d) Identificador do processo (PID)",
+      "(e) Protocolo de aplicação"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-67",
+    "numero": 67,
+    "enunciado": "Considere as seguintes afirmações sobre SNMP:\nI. A MIB que permite a coleta de dados genéricos de desempenho de rede é denominada de RMON.\nII. Os procedimentos básicos do protocolo SNMP são três: get, set e notify.\nIII. ob jeto empregado para manter informações relativas a um dispositivo de rede é denominado de MIB\nQual das alternativas abaixo representa as assertivas corretas:",
+    "alternativas": [
+      "(a) Somente I.",
+      "(b) Somente I e II.",
+      "(c) Somente I e III.",
+      "(d) Somente II e III.",
+      "(e) I, II e II."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-68",
+    "numero": 68,
+    "enunciado": "Qual dos protocolos abaixo pode ser caracterizado como protocolo de roteamento do tipo estado de enlace?",
+    "alternativas": [
+      "(a) IGMP",
+      "(b) BGP-4",
+      "(c) OSPF",
+      "(d) ICMP",
+      "(e) RIP2"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-69",
+    "numero": 69,
+    "enunciado": "Um sistema centralizado é um concentrador de recursos; um sistema distribuído apresenta seus recursos\ndispersos. Entretanto nem todo o conjunto de recursos computacionais dispersos pode ser considerado\num sistema distribuído. Considerando um conjunto de computadores, assinale a alternativa que melhor\ncorresponde às características necessárias para considerá-lo um sistema distribuído:",
+    "alternativas": [
+      "(a) existência de memória compartilhada e relógios locais sincronizados",
+      "(b) suporte de rede e funções primitivas de comunicação",
+      "(c) suporte de rede e um relógio global",
+      "(d) existência de sistema operacional idêntico e hardware padronizado em todos os computadores",
+      "(e) existência de memória secundária compartilhada e protocolos de sincronização de estado"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-70",
+    "numero": 70,
+    "enunciado": "Entre as desvantagens e vantagens de um sistema distribuído em relação um sistema centralizado, podemos\nafirmar que um sistema distribuído apresenta:\ni. a desvantagem de possuir maior quantidade de componentes e portanto maior probabilidade de\num componente individual qualquer apresentar defeito mas a vantagem de possibilitar continuar a\ncomputação em outro computador do sistema se um dos computadores falhar.\nii. a desvantagem de maior tempo de inicialização devido a maior quantidade de computadores no\nsistema do sistema mas a vantagem de maior flexibilidade de acesso a dados remotos.\niii. a desvantagem da necessidade de máquinas homogêneas mas a vantagem de possibilitar operar num\nsistema com uma única forma de acesso a arquivos de dados. iv. a desvantagem de maior latência\npara alcançar um recurso localizado em outro computador do sistema mas a vantagem de permitir\nexecutar de programas concorrentemente.\nAssinale a alternativa correta:",
+    "alternativas": [
+      "(a) i e ii são verdadeiras",
+      "(b) iii e iv são verdadeiras",
+      "(c) i e iii são verdadeiras",
+      "(d) ii e iv são verdadeiras",
+      "(e) i e iv são verdadeiras"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-05",
+    "numero": 5,
+    "enunciado": "Todos os convidados presentes num jantar tomam chá ou café. Treze convidados bebem café, dez bebem chá e 4 bebem chá e café. Quantas pessoas tem nesse jantar?",
+    "alternativas": [
+      "(a) 19",
+      "(b) 27",
+      "(c) 23",
+      "(d) 15",
+      "(e) 10"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-07",
+    "numero": 7,
+    "enunciado": "Seja f : R → R derivável. Se existem a, b ∈ R tal que f (a)f (b) < 0 e f'(x) ≠ 0 para todo x ∈ (a, b), podemos afirmar que no intervalo (a, b) a equação f(x) = 0 tem",
+    "alternativas": [
+      "(a) duas raízes reais",
+      "(b) nenhuma raiz real",
+      "(c) uma única raiz real",
+      "(d) uma raiz imaginária",
+      "(e) somente raízes imaginárias"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-11",
+    "numero": 11,
+    "enunciado": "Uma prova de vestibular foi elaborada com 25 questões de múltipla escolha com 5 alter-\nnativas. O número de candidatos presentes `a prova foi 63127. Considere a afirmação:\nPelo menos 2 candidatos responderam de modo idêntico as k primeiras questões da\nprova. Qual é o maior valor de k para o qual podemos garantir que a afirmação é\nverdadeira.",
+    "alternativas": [
+      "(a) 10",
+      "(b) 9",
+      "(c) 8",
+      "(d) 7",
+      "(e) 6"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-16",
+    "numero": 16,
+    "enunciado": "O número de strings binárias de comprimento 7 e contendo um par de zeros consecutivos é",
+    "alternativas": [
+      "(a) 91",
+      "(b) 92",
+      "(c) 94",
+      "(d) 95",
+      "(e) 90"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-17",
+    "numero": 17,
+    "enunciado": "A média aritmética de uma lista de 50 números é 50. Se dois desses números, 51 e 97, forem suprimidos dessa lista a média dos restantes será",
+    "alternativas": [
+      "(a) 50",
+      "(b) 49",
+      "(c) 51",
+      "(d) 47",
+      "(e) 40"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-20",
+    "numero": 20,
+    "enunciado": "Três atletas A, B e C competiram, ao pares, numa corrida de d metros. Considerando\nque cada atleta teve o mesmo desempenho (ou seja, a mesma velocidade) ao competir\ncom adversários distintos, e sabendo-se que\n• A venceu B chegando 20 metros `a frente\n• B venceu C chegando 10 metros `a frente\n• A venceu C chegando 28 metros `a frente,\npodemos afirmar que a corrida tem",
+    "alternativas": [
+      "(a) 50 metros",
+      "(b) 200 metros",
+      "(c) 100 metros",
+      "(d) 150 metros",
+      "(e) 110 metros"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-42",
+    "numero": 42,
+    "enunciado": "Dentre as definições a seguir, ligadas ao conceito de normalização do modelo relacional,\nqual delas é INCORRETA?",
+    "alternativas": [
+      "a) As formas normais se baseiam em certas estruturas de dependências.",
+      "b) A primeira forma normal estabelece que os atributos da relação contêm apenas valores atômicos.",
+      "c) A normalização é um processo passo a passo reversível de substituição de uma dada coleção de\nrelações por sucessivas coleções de relações as quais possuem uma estrutura progressivamente mais\nsimples e mais regular.",
+      "d) As relações que obedecem à primeira forma normal não apresentam anomalias.",
+      "e) O objetivo da normalização é eliminar várias anomalias (ou aspectos indesejáveis) de uma\nrelação."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-43",
+    "numero": 43,
+    "enunciado": "Dentre as definições a seguir, ligadas ao conceito de visões do modelo relacional, qual delas\né INCORRETA?",
+    "alternativas": [
+      "a) Programas aplicativos do banco de dados podem ser executados sobre visões de relações da base\nde dados.",
+      "b) Uma visão relacional é uma relação virtual que nunca é materializada.",
+      "c) Uma visão relacional é uma relação virtual, derivada de relações base a partir da especificação de\noperações da álgebra relacional.",
+      "d) Uma visão é útil por representar uma percepção particular do banco de dados, compartilhado por\nmuitos aplicativos.",
+      "e) O gerenciamento de visões envolve a conversão da consulta do usuário sobre as visões para a\nconsulta sobre as relações base."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-45",
+    "numero": 45,
+    "enunciado": "Dentre as características do modelo relacional e do modelo de objetos em bancos de dados,\nqual afirmação é INCORRETA?",
+    "alternativas": [
+      "a) O relacionamento de herança é diretamente representado no modelo relacional.",
+      "b) O relacionamento binário N x M é representado de modo semelhante nos dois modelos.",
+      "c) O modelo de objetos possui mais recursos estruturais para a representação de dados que o\nrelacional.",
+      "d) O modelo de objetos provê uma representação bem próxima de linguagens de programação.",
+      "e) O modelo de objetos é mais adequado para a representação de tipos abstratos de dados."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-46",
+    "numero": 46,
+    "enunciado": "Considere C(x) uma função que define a complexidade de um problema x; E(x) uma\nfunção que define o esforço (em termos de tempo) exigido para se resolver o problema x.\nSejam dois problemas denominados p1 e p2. Assinale a alternativa correta.",
+    "alternativas": [
+      "a) Se C(p1) < C(p2) então E(p1) < E(p2)",
+      "b) Se C(p1) < C(p2) então E(p1) > E(p2)",
+      "c) E(p1+p2) < E(p1) + E(p2)",
+      "d) C(p1+p2) < C(p1) + C(p2)",
+      "e) Nenhuma das alternativas anteriores"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-47",
+    "numero": 47,
+    "enunciado": "Sobre a UML, quais das seguintes afirmações são verdadeiras?\nI) A UML é o método de desenvolvimento de software mais utilizado na atualidade.\nII) A UML é uma evolução das linguagens para especificação dos conceitos dos métodos de\nBooch, OMT e OOSE e também de outros métodos de especificação de requisitos de\nsoftware orientados a objetos ou não.\nIII) A UML é composta dos seguintes diagramas: Diagrama de Caso de Uso, Diagrama de\nClasses, Diagrama de Colaboração, Diagrama de Estados, entre outros.\nIV) Em UML pode-se representar tão somente relacionamentos de Agregação, Associação e\nComposição.",
+    "alternativas": [
+      "a) Todas as alternativas.",
+      "b) Apenas as alternativas I, II e III.",
+      "c) Apenas as alternativas III e IV.",
+      "d) Apenas as alternativas II e III.",
+      "e) Nenhuma delas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-48",
+    "numero": 48,
+    "enunciado": "Marque a alternativa onde todos os conceitos estão corretos.",
+    "alternativas": [
+      "a) Em um diagrama de fluxo de dados, uma entidade externa representa um produtor ou um\nconsumidor de informação e está fora dos limites do sistema modelado; cada processo pode ser\nrefinado, para explicitar um maior detalhamento; um DFD contém dois níveis de detalhamento; um\nprocesso é um transformador de informação e também está fora do sistema; o nível 0 de um DFD\nrepresenta o sistema como um todo e indica os principais usuários e as funções do sistema.",
+      "b) Em um diagrama de fluxo de dados uma entidade externa representa uma fonte ou destino das\ninformações processadas pelo sistema e está fora dos limites do sistema modelado; cada processo\npode ser refinado, para explicitar um maior detalhamento; um DFD pode conter vários níveis de\ndetalhamento; um processo é um transformador de informação; o nível 0 de um DFD representa o\nsistema como um todo e indica as principais fontes e destinos das informações, usualmente\nreferenciado por Diagrama de Contexto.",
+      "c) Em um diagrama de fluxo de dados uma entidade externa representa um produtor ou um\nconsumidor de informação e está fora dos limites do sistema modelado; cada processo deve ser\nrefinado, para explicitar um maior detalhamento; um DFD pode conter vários níveis de\ndetalhamento; um processo é um transformador de informação e também está fora do sistema; o\nnível 0 de um DFD representa o sistema como um todo e indica os principais usuários e as funções\ndo sistema.",
+      "d) Em um diagrama de fluxo de dados uma entidade externa representa uma fonte ou destino das\ninformações processadas pelo sistema e está fora dos limites do sistema modelado; cada processo\npode ser refinado, para explicitar um maior detalhamento; um DFD pode conter vários níveis de\ndetalhamento; um processo é um transformador de informação e também está fora do sistema; o\nnível 0 de um DFD representa o sistema como um todo e indica as principais fontes e destinos das\ninformações.",
+      "e) Nenhuma das alternativas anteriores."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-50",
+    "numero": 50,
+    "enunciado": "Quais das seguintes afirmações são verdadeiras? As Métricas de software servem para:\nI) indicar a qualidade do produto e avaliar a produtividade.\nII) auxiliar na melhoria do processo.\nIII) formar uma base para as estimativas e justificar a aquisição de ferramentas.\nIV) determinar se a utilização de um método traz benefícios ou não.",
+    "alternativas": [
+      "a) Todas as alternativas.",
+      "b) Apenas as alternativas I, II e IV.",
+      "c) Apenas as alternativas I, IV.",
+      "d) Apenas as alternativas II e III.",
+      "e) Nenhuma delas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-51",
+    "numero": 51,
+    "enunciado": "Histograma de uma imagem com K tons de cinza é :",
+    "alternativas": [
+      "a) Contagem dos pixels da imagem.",
+      "b) Contagem do número de tons de cinza que ocorreram na imagem.",
+      "c) Contagem do número de vezes que cada um dos K tons de cinza ocorreu na imagem.",
+      "d) Contagem do número de objetos encontrados na imagem.",
+      "e) Nenhuma alternativa acima."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-52",
+    "numero": 52,
+    "enunciado": "Filtro da mediana é:",
+    "alternativas": [
+      "a) Indicado para detectar bordas em imagens.",
+      "b) Indicado para atenuar ruído com preservação de bordas (i.é rápidas transições de nível em imagens).",
+      "c) Indicado para detectar formas específicas em imagens.",
+      "d) Indicado para detectar tonalidades específicas em uma imagem.",
+      "e) Nenhuma das respostas acima."
+    ],
+    "area_conhecimento": "Tecnologia da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-53",
+    "numero": 53,
+    "enunciado": "Considere uma cena representada no sistema de referência do universo (SRU), uma\nwindow definida pelo par de coordenadas (0,0)-(100,100) e uma viewport definida pelo par\nde coordenadas (20,30)-(300,100). Considere ainda que as coordenadas que definem\nwindow e viewport correspondem, respectivamente, aos limites inferior esquerdo e\nsuperior direito de ambas. Analise as afirmativas abaixo levando em consideração os\nconceitos clássicos de window e viewport e assinale a alternativa correta.\nI – Window e viewport estão definidas no SRU.\nII – No processo de mapeamento desta window para esta viewport haverá modificação na\nrelação de aspecto.\nIII – O mapeamento da window redefinida pelo par de coordenadas (0,0) – (50,50) para a\nmesma viewport (20,30)-(300,100) corresponde a uma operação de zoom out sobre o mesmo\nuniverso.",
+    "alternativas": [
+      "a) As alternativas I e II são verdadeiras",
+      "b) As alternativas I e III são falsas",
+      "c) Apenas a afirmativa III é verdadeira",
+      "d) As afirmativas II e III são verdadeiras",
+      "e) As alternativas I e II são falsas"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-54",
+    "numero": 54,
+    "enunciado": "Qual das seguintes condições não é necessária para a ocorrência de um deadlock?",
+    "alternativas": [
+      "a) Uso mutuamente exclusivo de recursos por processos.",
+      "b) Alocação parcial de recursos a processos.",
+      "c) Escalonamento preemptivo de recursos.",
+      "d) Processos em espera circular.",
+      "e) Haver compartilhamento de recursos por processos."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-55",
+    "numero": 55,
+    "enunciado": "Starvation ocorre quando:",
+    "alternativas": [
+      "a) Pelo menos um processo é continuamente postergado e não executa.",
+      "b) A prioridade de um processo é ajustada de acordo com o tempo total de execução do mesmo.",
+      "c) Pelo menos um evento espera por um evento que não vai ocorrer.",
+      "d) Dois ou mais processos são forçados a acessar dados críticos alternando estritamente entre eles.",
+      "e) O processo tenta mas não consegue acessar uma variável compartilhada."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-56",
+    "numero": 56,
+    "enunciado": "Quando trabalhando com sistemas baseados em trocas de mensagens, temporizações (time-outs) são utilizadas para:",
+    "alternativas": [
+      "a) Limitar o número de retransmissões de uma mensagem.",
+      "b) Arbitrar que uma mensagem transmitida foi perdida.",
+      "c) Temporariamente suspender a transmissão de mensagens.",
+      "d) Limitar o tamanho de uma mensagem transmitida.",
+      "e) Limitar o tempo para obter um recurso."
+    ],
+    "area_conhecimento": "Tecnologia da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-57",
+    "numero": 57,
+    "enunciado": "Sistemas de processamento de transações, tais como sistemas de reservas aéreas, devem\nprover um mecanismo que garanta que cada transação não é afetada por outras\ntransações que possam estar ocorrendo ao mesmo tempo. Transações de duas fases\nobedecem a um protocolo que garante essa atomicidade. Em transações de duas fases:",
+    "alternativas": [
+      "a) Todas as operações de leitura ocorrem antes da primeira operação de escrita.",
+      "b) Todas as ações de travamento (lock) ocorrem antes da primeira ação de destravamento.",
+      "c) Uma trava compartilhada sobre um objeto deve ser obtida antes de uma trava exclusiva sobre o\nobjeto ser obtida.",
+      "d) Qualquer objeto correntemente travado deve ser destravado antes que outro objeto possa ser\ntravado.",
+      "e) Verifica-se a disponibilidade de todas as travas antes de executar qualquer ação de travamento."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-58",
+    "numero": 58,
+    "enunciado": "Qual o significado de coerência de memórias cache em sistemas multiprocessados?",
+    "alternativas": [
+      "a) Caches em processadores diferentes sempre contêm o mesmo dado válido para a mesma linha de\ncache.",
+      "b) Caches em processadores diferentes nunca compartilham a mesma linha de cache.",
+      "c) Caches em processadores diferentes nunca interagem entre si.",
+      "d) Caches em processadores diferentes sempre lêem os mesmos dados ao mesmo tempo.",
+      "e) Caches em processadores diferentes podem possuir dados diferentes associados à mesma linha de cache."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-61",
+    "numero": 61,
+    "enunciado": "Dada a seguinte fórmula (lógica de primeira ordem):\n\n∀x ∃y | ama(x,y)\n\nqual das seguintes sentenças em linguagem natural ela representa, considerando que ama(x,y) representa que x ama y?",
+    "alternativas": [
+      "a) Alguém ama a todos.",
+      "b) Todos amam alguém.",
+      "c) Ninguém ama a todos.",
+      "d) Há alguém que todos amam.",
+      "e) Nenhuma das anteriores."
+    ],
+    "area_conhecimento": "Tecnologia da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-62",
+    "numero": 62,
+    "enunciado": "Em qual das situações abaixo um sistema de Raciocínio Baseado em Casos não deve ser\nutilizado?",
+    "alternativas": [
+      "a) Quando a experiência for tão valiosa quanto o conhecimento em livros texto.",
+      "b) Em aplicações de diagnóstico médico.",
+      "c) Quando especialistas conversam sobre seus domínios dando exemplos.",
+      "d) Quando as regras utilizadas apresentam um grande número de exceções.",
+      "e) Quando for fácil a obtenção de regras do especialista do domínio."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-63",
+    "numero": 63,
+    "enunciado": "Uma integração de Sistemas Computacionais formando uma rede, tipicamente é\nimplementada através da instalação de uma Arquitetura de Rede, que é composta de\ncamadas e protocolos, em cada um dos elementos que compõem esta rede. Considere que\nestações “conversam” quando aplicações de usuários conseguem comunicar-se, sintática e\nsemanticamente, através da Rede de Computadores. Baseados nesta premissa e em todos\nos conceitos associados à implementação e utilização das redes de computadores podemos\nafirmar como certo:",
+    "alternativas": [
+      "a) Computadores com arquiteturas de redes diferentes conseguem “conversar”.",
+      "b) Computadores com arquiteturas de rede parecidas conseguem “conversar”.",
+      "c) Computadores com arquiteturas de redes diferentes podem “conversar” através de um gateway\nou conversor de protocolos.",
+      "d) Computadores com arquiteturas diferentes podem “conversar” através de multiplexadores.",
+      "e) Nenhuma delas é uma afirmação correta."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-64",
+    "numero": 64,
+    "enunciado": "Assinale a alternativa INCORRETA:",
+    "alternativas": [
+      "a) Nos serviços orientados a conexões há a necessidade de estabelecimento de uma conexão antes da transferência dos dados.",
+      "b) Os serviços orientados a conexões são sempre confiáveis garantindo a entrega ordenada e completa dos dados transmitidos.",
+      "c) Serviços orientados a conexão podem ser implementados em subredes que funcionam no modo datagrama.",
+      "d) O controle de fluxo tem como objetivo garantir que nenhum dos parceiros de uma comunicação inunda o outro enviando pacotes mais rápido do que ele pode tratar.",
+      "e) Os serviços orientados a conexão podem ajudar no controle de congestionamento através da diminuição da taxa de transmissão durante um congestionamento em andamento."
+    ],
+    "area_conhecimento": "Tecnologia da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-65",
+    "numero": 65,
+    "enunciado": "Na criptografia com chave pública:",
+    "alternativas": [
+      "a) O sigilo é obtido através da codificação com a chave privada do remetente e decifragem com a\nchave pública do destinatário.",
+      "b) O sigilo é obtido através da codificação com a chave pública do destinatário e decifragem com a\nchave privada do destinatário.",
+      "c) O sigilo é obtido através da codificação com a chave privada do destinatário e decifragem com a\nchave pública do destinatário.",
+      "d) Para assinar digitalmente uma mensagem codifica-se a mesma com a chave pública do remetente\ne esta é decifrada com a chave privada do destinatário.",
+      "e) Para assinar digitalmente uma mensagem codifica-se a mesma com a chave pública do\ndestinatário e esta é decifrada com a chave privada do destinatário."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-66",
+    "numero": 66,
+    "enunciado": "Quanto ao TCP, é INCORRETO afirmar:",
+    "alternativas": [
+      "a) É um protocolo do nível de transporte.",
+      "b) Usa janelas deslizantes para implementar o controle de fluxo e erro.",
+      "c) É um protocolo orientado a conexão.",
+      "d) Utiliza portas para permitir a comunicação entre processos localizados em dispositivos\ndiferentes.",
+      "e) Possui um campo de checksum que valida as informações de seu cabeçalho, mas não valida as informações de payload (campo de dados)."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-67",
+    "numero": 67,
+    "enunciado": "Para a gramática a seguir, qual o conjunto de terminais que pode aparecer como primeiro terminal após o não-terminal A, em qualquer forma sentencial gerada pela gramática abaixo (isto é, não necessariamente imediatamente após A), onde ε representa a sentença vazia?\n\nS → ABCDd\nA → aA | ε\nB → bC | ε\nC → cD | ε\nD → e",
+    "alternativas": [
+      "a) {d}",
+      "b) {b}",
+      "c) {b,c,e}",
+      "d) {b,c,d,e}",
+      "e) {e}"
+    ],
+    "area_conhecimento": "Tecnologia da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-68",
+    "numero": 68,
+    "enunciado": "Qual das afirmações a seguir, relativas à análise sintática, está INCORRETA?",
+    "alternativas": [
+      "a) As gramáticas LL podem descrever mais linguagens do que as gramáticas LR .",
+      "b) Analisadores sintáticos descendentes recursivos são mais simples de implementar do que\nanalisadores sintáticos redutivos.",
+      "c) Uma das diferenças entre os diversos algoritmos de análise redutiva é a forma de identificar o\nhandle na pilha.",
+      "d) Algoritmos de análise redutiva podem ser utilizados mesmo para gramáticas ambíguas.",
+      "e) Algoritmos descendentes recursivos podem ser utilizados para algumas gramáticas ambíguas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-70",
+    "numero": 70,
+    "enunciado": "Qual das informações a seguir NÃO é colocada no registro de ativação na chamada de\nfunções?",
+    "alternativas": [
+      "a) Endereço de retorno",
+      "b) Variáveis locais estáticas",
+      "c) Estado dos registradores",
+      "d) Link para a subrotina chamadora",
+      "e) Valor de retorno da função"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-21",
+    "numero": 21,
+    "enunciado": "Uma característica de uma arquitetura RISC é:",
+    "alternativas": [
+      "(a) Uma arquitetura de alto risco pois o mercado de hardware evolui muito rapidamente",
+      "(b) Possui um grande conjunto de instruções complexas",
+      "(c) A arquitetura é constituída de milhares de processadores",
+      "(d) Possui um pequeno conjunto de instruções simples",
+      "(e) O processador é formado por válvulas e transistores"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-22",
+    "numero": 22,
+    "enunciado": "Na Álgebra Booleana",
+    "alternativas": [
+      "(a) Os dígitos são octais, de 0 a 7",
+      "(b) Os dígitos são binários 0 e 1",
+      "(c) Há dez valores motivados pelos dez dedos do ser humano",
+      "(d) Os dígitos são alfanuméricos que podem ser representados por um byte",
+      "(e) Os dígitos são hexadecimais de 0 a 15"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-26",
+    "numero": 26,
+    "enunciado": "Sobre a hierarquia de Chomsky podemos afirmar que:",
+    "alternativas": [
+      "(a) Uma linguagem que é recursivamente enumerável não pode ser uma linguagem regular",
+      "(b) As linguagens livres de contexto e as linguagens sensíveis a contexto se excluem",
+      "(c) Uma linguagem que não é regular é livre de contexto",
+      "(d) As linguagens reconhecidas por autômatos a pilha são as linguagens regulares",
+      "(e) Há linguagens que não são nem livres de contexto nem sensíveis a contexto"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-27",
+    "numero": 27,
+    "enunciado": "Suponha que T seja uma árvore AVL inicialmente vazia, e considere a inserção dos elementos 10, 20, 30, 5, 15, 2 em T, nesta ordem. Qual das sequências abaixo corresponde a um percurso de T em pré-ordem:",
+    "alternativas": [
+      "(a) 10,5,2,20,15,30",
+      "(b) 20,10,5,2,15,30",
+      "(c) 2,5,10, 15, 20,30",
+      "(d) 30,20,15,10, 5,2",
+      "(e) 15,10,5,2,20,30"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-32",
+    "numero": 32,
+    "enunciado": "Quais dos algoritmos de ordenação abaixo possuem tempo no pior caso e tempo médio de execução proporcional a O(n logn).",
+    "alternativas": [
+      "(a) Bubble sort e Quick sort",
+      "(b) Quicksort e merge sort",
+      "(c) Merge sort e bubble sort",
+      "(d) Heap sort e selection sort",
+      "(e) Merge sort e heap sort"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-33",
+    "numero": 33,
+    "enunciado": "Professor Mac Sperto propôs o seguinte algoritmo de ordenação, chamado de Super Merge, similar ao merge sort: divida o vetor em 4 partes do mesmo tamanho (ao invés de 2, como é feito no merge sort). Ordene recursivamente cada uma das partes e depois intercale-as por um procedimento semelhante ao procedimento de intercalação do merge sort. Qual das alternativas abaixo é verdadeira?",
+    "alternativas": [
+      "(a) Super Merge não está correto. Não é possível ordenar quebrando o vetor em 4 partes",
+      "(b) Super Merge está correto, mas consome tempo O(merge sort)",
+      "(c) Super Merge está correto, mas consome tempo maior que O(merge sort)",
+      "(d) Super Merge está correto, mas consome tempo menor que O(merge sort)",
+      "(e) Nenhuma das afirmações acima está correta"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-34",
+    "numero": 34,
+    "enunciado": "No que diz respeito as vantagens da arquitetura de micro-núcleo para sistemas operacionais em relação a arquiteturas de núcleo monolítico, quais das seguintes afirmações são verdadeiras?\n\nI - A arquitetura de micro-núcleo facilita a depuração do SO.\nII - A arquitetura de micro-núcleo permite um número menor de mudanças de contexto.\nIII - A arquitetura de micro-núcleo facilita a reconfiguração de serviços do SO pois a maioria deles reside em espaço de usuário.",
+    "alternativas": [
+      "(a) Apenas I",
+      "(b) Il e III",
+      "(c) I e III",
+      "(d) I e II",
+      "(e) Todas são verdadeiras"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-35",
+    "numero": 35,
+    "enunciado": "Considere um sistema distribuído onde cada nó precisa obter um bloqueio (lock) antes de acessar qualquer serviço no sistema. Qual das estratégias a seguir não seria eficaz para evitar impasses (deadlocks)?",
+    "alternativas": [
+      "(a) Associar prioridades aos nós e criar filas de prioridades para cada serviço",
+      "(b) Numerar os serviços e exigir que cada nó solicite os bloqueios dos serviços em ordem crescente",
+      "(c) Instalar um serviço de detecção de impasses no sistema distribuído e reiniciar os nós que atinjam um impasse",
+      "(d) Fazer com que cada nó reinicie sua execução se um pedido de bloqueio não é concedido após um longo tempo de espera O pedido de bloqueio é re-enviado após um tempo aleatório",
+      "(e) Forçar cada nó a obter todos os bloqueios de que necessita no início de sua execução e reiniciar a execução se algum bloqueio não é concedido"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-40",
+    "numero": 40,
+    "enunciado": "Considere um grafo G satisfazendo as seguintes propriedades:\n\n- G é conexo\n- Se removermos qualquer aresta de G, o grafo obtido é desconexo.\n\nEntão é correto afirmar que o grafo G é:",
+    "alternativas": [
+      "(a) Um circuito",
+      "(b) Não bipartido",
+      "(c) Uma árvore",
+      "(d) Hamiltoniano",
+      "(e) Euleriano"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
   }
 ]

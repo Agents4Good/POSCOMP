@@ -6002,5 +6002,708 @@
     "dificuldade": "",
     "gabarito": "",
     "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-02",
+    "numero": 2,
+    "enunciado": "Considere as seguintes afirmativas sobre números reais:\n(I) Se 2x − 1 < 1 e x + 1 > 0, então x < 0.\n(II) Se x2 − 1 < 0 ou 2x ≥ 1, então x ≥ 0.\n(III) Se x2 − 1 < 0 e 2x ≥ 1, então x ≥ 0.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "(a) Somente (I) é verdadeira.",
+      "(b) Somente (III) é verdadeira.",
+      "(c) (I) e (II) são verdadeiras.",
+      "(d) (II) e (III) são verdadeiras.",
+      "(e) (II) e (III) são falsas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-03",
+    "numero": 3,
+    "enunciado": "Assinale a proposic¸ão verdadeira.\n√",
+    "alternativas": [
+      "(a) Para todo número real positivo x, tem-se x ≥ x.",
+      "(b) Para todo número real x, tem-se |x − 2| > 0.",
+      "(c) Para todo número real não nulo e positivo, tem-se x + ≥ 2.",
+      "(d) Para cada número real x, existe um número real y tal que xy = 1.",
+      "(e) Para todo número real x, tem-se x2 − 2x + 1 = x − 1."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-04",
+    "numero": 4,
+    "enunciado": "A função de Ackermann é uma fun¸cão de N2 em N que cresce muito rapida-\nmente. Ela é dada por\nA(0, y ) = 1, para todo y\nA(1, 0) = 2\nA(x, 0) = x + 2 para x ≥ 2\nA(x + 1, y + 1) = A(A(x, y + 1), y ), para todos x, y\nCalcule o valor de A(2, 2).",
+    "alternativas": [
+      "(a) 8",
+      "(b) 7",
+      "(c) 4",
+      "(d) 1",
+      "(e) 3"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-06",
+    "numero": 6,
+    "enunciado": "Um relação binária ρ, em um conjunto A, é denominada reflexiva se (a, a) ∈ ρ\npara todo elemento a ∈ A. Quantas relações reflexivas existem em um\nconjunto A com 5 elementos?",
+    "alternativas": [
+      "(a) 220",
+      "(b) 210",
+      "(c) 25",
+      "(d) 225",
+      "(e) 20"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-08",
+    "numero": 8,
+    "enunciado": "E´ correto afirmar que a equação x7 + x5 + x3 + 1 = 0 tem",
+    "alternativas": [
+      "(a) 7 raízes reais.",
+      "(b) 5 raízes reais.",
+      "(c) 3 raízes reais.",
+      "(d) exatamente uma raiz real.",
+      "(e) somente raízes complexas imaginárias."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-09",
+    "numero": 9,
+    "enunciado": "A equação da esfera que tem centro C = (−2, 3, 5) e é tangente ao plano xy\né",
+    "alternativas": [
+      "(a) x2 + y 2 + z2 + 4x − 6y − 10z + 13 = 0",
+      "(b) x2 + y 2 + z2 + 4x − 10z + 13 = 0",
+      "(c) x2 + y 2 + z2 − 4x + 6y − 10z − 13 = 0",
+      "(d) x2 + y 2 + z2 − 4x − 6y + 10z − 13 = 0",
+      "(e) x2 + y 2 + z2 − 4x − 6y − 10z + 25 = 0"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-12",
+    "numero": 12,
+    "enunciado": "A área da região, no primeiro quadrante, delimitada pelas curvas y = 2/x, y = x/2 e y = x é igual a",
+    "alternativas": [
+      "(a) 2 ln 2",
+      "(b) ln 2\n√",
+      "(c) ln 2\n√",
+      "(d) 2 ln 2\n√",
+      "(e) 2 ln 2 − 1"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-14",
+    "numero": 14,
+    "enunciado": "O resto da divisão de 681 − 564 por 7 é igual a",
+    "alternativas": [
+      "(a) 0",
+      "(b) 1",
+      "(c) 2",
+      "(d) 3",
+      "(e) 4"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-15",
+    "numero": 15,
+    "enunciado": "Sejam f : S → T uma função, A, B ⊂ S e U, V ⊂ T . É correto afirmar que",
+    "alternativas": [
+      "(a) f (A ∩ B ) = f (A) ∩ f (B )",
+      "(b) f −1(U ∩ V ) = f −1(U ) ∩ f −1(V )",
+      "(c) f −1(f (A)) = A",
+      "(d) f (A \\ B ) = f (A) \\ f (B )",
+      "(e) f (f −1(U )) = U"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-19",
+    "numero": 19,
+    "enunciado": "Seja A uma matriz quadrada tal que A2 − A + I = 0, onde I é a matriz\nidentidade. É correto afirmar que:",
+    "alternativas": [
+      "(a) a matriz inversa de A é I .",
+      "(b) a matriz inversa de A é A − I .",
+      "(c) a matriz inversa de A é A − A2.",
+      "(d) a matriz inversa de A é I − A.",
+      "(e) a matriz A não possui matriz inversa."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-26",
+    "numero": 26,
+    "enunciado": "Considere o seguinte código para implementar exclusão mútua entre dois processos 1 e j:\nProcesso Pi\ndo\nwhile (turn != i) ; // entrada da seção crítica\nseção crítica\nturn = j; // saída da seção crítica\ncódigo restante\nwhile (1);\nEm relação ao código acima, todas as afirmativas estão corretas, exceto:",
+    "alternativas": [
+      "(a) A implementação garante exclusão mútua.",
+      "(b) A implementação garante progresso.",
+      "(c) Os processos fazem espera ativa.",
+      "(d) Exige alternância estrita.",
+      "(e) Um processo bloqueia o outro mesmo não estando na seção crítica."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-27",
+    "numero": 27,
+    "enunciado": "Uma gramática G é definida por:\nG = ({x, y, z}), {S, W, X, Y, Z}, P, S)\nna qual os membros de P são:\nS->WZ\nW-> X|Y\nX-> x|xX\nY->y|yY\nZ->z|zZ\nQual das expressões regulares abaixo corresponde a esta gramática?",
+    "alternativas": [
+      "(a) (xx*|yy*)zz*",
+      "(b) xx* | yy* | zz*",
+      "(c) xx*(yy*|zz*)",
+      "(d) (xx|yy)*zz*",
+      "(e) xx*yy*zz*"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-28",
+    "numero": 28,
+    "enunciado": "Considere o seguinte trecho de programa:\n\n1. i:= 1;\n2. while i <=n do\nbegin\n3. sum:= sum + a[i];\n4. i:=i+ 1;\nend;\n\nConsidere que:\n- I representa a inicialização da variável i:= 1 na linha 1;\n- T representa o teste da linha 2;\n- A representa os comandos da linha 3;\n- P representa o incremento na linha 4.\n\nQual é a expressão regular que representa todas as sequências de passos possíveis de serem executados por este trecho de programa?",
+    "alternativas": [
+      "(a) I(TAP)+",
+      "(b) I(TAP)*",
+      "(c) IT+A*P*",
+      "(d) IT(APT)*",
+      "(e) IT(APT)+"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-30",
+    "numero": 30,
+    "enunciado": "Em uma lista circular duplamente encadeada com n elementos, o espaço ocupado apenas pelos apontadores é (assuma que um apontador ocupa p bytes):",
+    "alternativas": [
+      "(a) np",
+      "(b) 2np",
+      "(c) 4np",
+      "(d) 6np",
+      "(e) np2"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-32",
+    "numero": 32,
+    "enunciado": "Em um heap com n vértices existem:",
+    "alternativas": [
+      "(a) exatamente |n/5| folhas",
+      "(b) aproximadamente log n folhas",
+      "(c) não mais que |n/5| folhas",
+      "(d) exatamente [n/2] folhas",
+      "(e) não menos que 2n/3 folhas"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-34",
+    "numero": 34,
+    "enunciado": "A função abaixo, escrita na linguagem C, quando executada para n = 5, faz quantas chamadas recursivas (excluindo a primeira chamada da função)?\n\nint fat (int n)\n{\nif (n == 1) return n;\nelse return (n*fat(n-1));\n}",
+    "alternativas": [
+      "(a) 6",
+      "(b) 5",
+      "(c) 4",
+      "(d) 1",
+      "(e) 0"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-35",
+    "numero": 35,
+    "enunciado": "Qual é a opção que descreve a tarefa executada pelo seguinte algoritmo escrito em Pascal?\n\nprocedure fazalgo (var x, var y)\nbegin\nx := x + y;\ny := x - y;\nx := x - y;\nend",
+    "alternativas": [
+      "(a) divide x por y utilizando a subtração e retorna o resultado em x",
+      "(b) divide y por x utilizando a subtração e retorna o resultado em x",
+      "(c) troca os valores de x e y",
+      "(d) calcula o mínimo múltiplo comum entre x e y e retorna o valor em x",
+      "(e) não altera os valores de x e y"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-36",
+    "numero": 36,
+    "enunciado": "Para que faixa de valores da variável x o seguinte segmento de código imprime a letra C?\n\nif (x <= 200)\nif (x < 100)\nif (x < 0) printf(\"A\")\nelse printf(\"B\")\nelse printf(\"C\")\nelse printf(\"D\")",
+    "alternativas": [
+      "(a) 0 < x < 100",
+      "(b) x <= 100",
+      "(c) 100 <= x <= 200",
+      "(d) x > 200",
+      "(e) 100 < x <= 200"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-39",
+    "numero": 39,
+    "enunciado": "Quais das seguintes igualdades são verdadeiras?\n\nI. n2 = O(n3)\nII. 2*n+1= O(n2)\nIII. n3 = O(n2)\nIV. 3*n+5*nlogn = O(n)\nV. logn + n = O(n)",
+    "alternativas": [
+      "(a) somente I e II",
+      "(b) somente II, III e IV",
+      "(c) somente III, IV e V",
+      "(d) somente I, II e V",
+      "(e) somente I, III e IV"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-42",
+    "numero": 42,
+    "enunciado": "Considere as seguintes tabelas em uma base de dados relacional (chaves primárias sublinhadas):\nDepartamento (CodDepto, NomeDepto)\nEmpregado (CodEmp, NomeEmp, CodDepto)\nConsidere as seguintes restrições de integridade sobre esta base de dados relacional:\n– Empregado.CodDepto é sempre diferente de NULL\n– Empregado.CodDepto é chave estrangeira da tabela Departamento com cláusulas ON DELETE\nRESTRICT e ON UPDATE RESTRICT\nQual das seguintes validações não é especificada por estas restrições de integridade:",
+    "alternativas": [
+      "(a) Sempre que uma nova linha for inserida em Empregado, deve ser garantido que o valor de Empre-\ngado.CodDepto aparece na coluna Departamento.CodDepto.",
+      "(b) Sempre que uma linha for excluída de Departamento, deve ser garantido que o valor de Departa-\nmento.CodDepto não aparece na coluna Empregado.CodDepto.",
+      "(c) Sempre que o valor de Empregado.CodDepto for alterado, deve ser garantido que o novo valor de\nEmpregado.CodDepto aparece em Departamento.CodDepto.",
+      "(d) Sempre que o valor de Departamento.CodDepto for alterado, deve ser garantido que não há uma\nlinha com o antigo valor de Departamento.CodDepto na coluna Empregado.CodDepto",
+      "(e) Sempre que uma nova linha for inserida em Departamento, deve ser garantido que o valor de Depar-\ntamento.CodDepto aparece na coluna Empregado.CodDepto"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-43",
+    "numero": 43,
+    "enunciado": "Considere a seguinte tabela em uma base de dados relacional (chave primária sublinhada):\nTabela1(CodAluno,CodDisciplina,AnoSemestre, NomeAluno, NomeDisciplina,\nCodNota, DescricaoNota)\nConsidere as seguintes dependências funcionais:\nCodAluno→NomeAluno\nCodDisciplina→NomeDisciplina\n(CodAluno,CodDisciplina,AnoSemestre)→CodNota\n(CodAluno,CodDisciplina,AnoSemestre)→DescricaoNota\nCodNota→DescricaoNota\nConsiderando as formas normais, qual das afirmativas abaixo se aplica:",
+    "alternativas": [
+      "(a) A tabela encontra-se na primeira forma normal, mas não na segunda forma normal.",
+      "(b) A tabela encontra-se na segunda forma normal, mas não na terceira forma normal.",
+      "(c) A tabela encontra-se na terceira forma normal, mas não na quarta forma normal.",
+      "(d) A tabela não está na primeira forma normal.",
+      "(e) A tabela está na quarta forma normal."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-01",
+    "numero": 1,
+    "enunciado": "Pode-se afirmar que o gráfico da função y = 2 + é o gráfico da função y =\nx − 1 x",
+    "alternativas": [
+      "(a) transladado uma unidade para a direita e duas unidades para cima;",
+      "(b) transladado uma unidade para a direita e duas unidades para baixo;",
+      "(c) transladado uma unidade para a esquerda e duas unidades para cima;",
+      "(d) transladado uma unidade para a esquerda e duas unidades para baixo;",
+      "(e) nenhuma das anteriores."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-02",
+    "numero": 2,
+    "enunciado": "A derivada da função f (x) = xx é igual a",
+    "alternativas": [
+      "(a) xxx−1",
+      "(b) xx",
+      "(c) xxln(x)",
+      "(d) xx(ln(x) + 1)",
+      "(e) xx(ln(x) + x)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-04",
+    "numero": 4,
+    "enunciado": "Para cada n ∈ N seja Dn = (0, 1/n), onde (0, 1/n) representa o intervalo aberto de extremos 0 e 1/n. O conjunto diferença D3 - D20 é igual a:",
+    "alternativas": [
+      "(a) D3",
+      "(b) D20",
+      "(c) (1/20, 1/3)",
+      "(d) [1/20, 1/3)",
+      "(e) D20 ∪ D3"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-10",
+    "numero": 10,
+    "enunciado": "Assinale o argumento válido, onde S1, S2 indicam premissas e S a conclusão:",
+    "alternativas": [
+      "(a) S1: Se o cavalo estiver cansado então ele perderá a corrida\nS2: O cavalo estava descansado\nS: O cavalo ganhou a corrida",
+      "(b) S1: Se o cavalo estiver cansado então ele perderá a corrida\nS2: O cavalo ganhou a corrida\nS: O cavalo estava descansado",
+      "(c) S1: Se o cavalo estiver cansado então ele perderá a corrida\nS2: O cavalo perdeu a corrida\nS: O cavalo estava cansado",
+      "(d) S1: Se o cavalo estiver cansado então ele perderá a corrida\nS2: O cavalo estava descansado\nS: O cavalo perdeu a corrida",
+      "(e) nenhuma das anteriores"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-12",
+    "numero": 12,
+    "enunciado": "Dado um vetor u ∈ R2, u = (−3, 4), vamos denotar por v o vetor de R2 que tem tamanho 1 e é ortogonal à u. Então v pode ser dado por",
+    "alternativas": [
+      "(a) (−4/5, 3/5)",
+      "(b) (3/5, 4/5)",
+      "(c) (−4/5, −3/5)",
+      "(d) (−4/5, 1/5)",
+      "(e) (−4/5, 2/5)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-14",
+    "numero": 14,
+    "enunciado": "A velocidade de um ponto em movimento é dada pela equação\nv(t) = te−0.01tm/s\nO espaço percorrido desde o instante que o ponto começou a se mover até a sua parada\ntotal é",
+    "alternativas": [
+      "(a) 104m",
+      "(b) 103e−0.01 m",
+      "(c) 102e−1 m",
+      "(d) (e−100 − 1)m",
+      "(e) 102m"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-18",
+    "numero": 18,
+    "enunciado": "O determinante da matriz dada abaixo é\n\n2 7 9 −1 1\n2 8 3 1 0\n−1 0 4 3 0\n2 0 0 −1 0\n3 0 0 0 0",
+    "alternativas": [
+      "(a) 96",
+      "(b) −96",
+      "(c) 86",
+      "(d) −86",
+      "(e) 46"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-19",
+    "numero": 19,
+    "enunciado": "Numa prova de múltipla escolha com 10 questões e 4 alternativas qual a chance (proba-\nbilidade) de um aluno apenas “chutando as respostas” conseguir “gabaritar” a provar\n(acertar todas as questões).",
+    "alternativas": [
+      "(a) 1/104",
+      "(b) 1/420",
+      "(c) 1/220",
+      "(d) 1/108",
+      "(e) 1/415"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-41",
+    "numero": 41,
+    "enunciado": "Supondo a Relação PROJ (PNO, Nome, Orçam), com chave primária PNO e a Relação\nDSG (ENO, PNO, Dur, Resp), com chave primária {ENO, PNO} e chave estrangeira PNO\nem relação a PROJ, a asserção abaixo NÃO expressa:\n∀g ∈ DSG, ∃j ∈ PROJ : g.PNO = j.PNO",
+    "alternativas": [
+      "a) Uma restrição que define um estado consistente do banco de dados.",
+      "b) Uma restrição a ser verificada na inserção de tuplas em DSG.",
+      "c) Uma restrição de integridade de chave primária em PROJ.",
+      "d) Uma restrição de integridade de chave estrangeira em DSG.",
+      "e) Uma restrição a ser verificada na atualização de tuplas em DSG."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-60",
+    "numero": 60,
+    "enunciado": "Sejam os seguintes predicados de uma linguagem de primeira ordem:\nN (x) : x é número;\nP (x) : x tem propriedade P;\nx < y : x é menor que y.\nE sejam os símbolos:\n∀: quantificador universal;\n=> : operador se-então;\n¬ : operador de negação.\nPara a fórmula:∀ x (N(x) =>  ¬∀ y (N(y) => y < x))), qual alternativa abaixo NÃO constitui\numa tradução possível?",
+    "alternativas": [
+      "a) Não há um número tal que todos os números são menores do que ele.",
+      "b) Para todo número, existe um outro número que é maior do que ele.",
+      "c) Para todo número, não é verdade que qualquer número seja menor do que ele.",
+      "d) Para qualquer x, se x é número, então não é verdade que todos os números são menores do que\nele.",
+      "e) Não há um número menor do que outro número."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-69",
+    "numero": 69,
+    "enunciado": "Qual o valor do atributo E.val após a análise da expressão “ 4 / 2 / 2 ” para o esquema de tradução a seguir?\n\nE → T / E1 { E.val = T.val / E1.val}\nE → T { E.val = T.val }\nT → digito { T.val = val(digito) } ",
+    "alternativas": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 8"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-28",
+    "numero": 28,
+    "enunciado": "Considere uma tabela de espalhamento (tabela de hash) com quatro posições numeradas 0,1,2 e 3. Se a sequência de quadrados perfeitos 1, 4, 9, ..., i2, ... for armazenada nessa tabela segundo a função f(x) = x mod 4, como se dará a distribuição dos elementos pelas posições da tabela, à medida que o número de entradas cresce?",
+    "alternativas": [
+      "(a) Cada posição da tabela receberá aproximadamente o mesmo número de elementos",
+      "(b) Três posições da tabela receberão, cada uma, aproximadamente um terço dos elementos",
+      "(c) Uma única posição da tabela receberá todos os elementos, e as demais posições permanecerão vazias",
+      "(d) Todas as posições da tabela receberão elementos, mas as duas primeiras receberão, cada uma, o dobro das outras",
+      "(e) As duas primeiras posições da tabela receberão, cada uma, aproximadamente a metade dos elementos, e as demais posições permanecerão vazias"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-29",
+    "numero": 29,
+    "enunciado": "Qual das seguintes afirmações sobre crescimento assintótico de funções não é verdadeira:",
+    "alternativas": [
+      "(a) 2n2+3n+1 = O(n2)",
+      "(b) Se f(n) = O(g(n)) então g(n) = O(F(n))",
+      "(c) log n2 = O(logn)",
+      "(d) Se f(n) = O(g(n)) e g(n) = O(h(n)) então F(n) = O(h(n))",
+      "(e) 2n+1= O(2n)"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-30",
+    "numero": 30,
+    "enunciado": "Considere um problema em que são dados 5 objetos com os seguintes pesos e valores:\n\npesos: (W1, W2, W3, W4, W5) = (6, 10, 9, 5, 12)\nvalores: (P1, P2, P3, P4, P5) = (8, 5, 10, 15, 7).\n\nAlém disso, é dada uma mochila que suporta até 30 unidades de peso, para transportar os objetos. O objetivo do problema é preencher a mochila de tal forma que o valor total dos objetos a serem transportados seja o maior possível, mas sem exceder o limite de peso suportado pela mochila. Assuma que é permitido colocar fração de um objeto na mochila. Qual das seguintes alternativas corresponde ao valor máximo obtido no preenchimento da mochila:",
+    "alternativas": [
+      "(a) 12.2 ",
+      "(b) 21.5 ",
+      "(c) 30.34 ",
+      "(d) 38.83 ",
+      "(e) 43.1"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-31",
+    "numero": 31,
+    "enunciado": "Considere o algoritmo da busca sequencial de um elemento em um conjunto com n elementos. A expressão que representa o tempo médio de execução desse algoritmo para uma busca bem sucedida é:",
+    "alternativas": [
+      "(a) n2",
+      "(b) n(n + 1)/2",
+      "(c) log2n",
+      "(d) (n + 1)/2",
+      "(e) nlogn"
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-39",
+    "numero": 39,
+    "enunciado": "O menor número possível de arestas em um grafo conexo com n vértices é:",
+    "alternativas": [
+      "(a) 1 ",
+      "(b) n/2 ",
+      "(c) n-1",
+      "(d) n",
+      "(e) n2      "
+    ],
+    "area_conhecimento": "Fundamentos de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
   }
 ]
