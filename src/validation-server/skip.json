@@ -1,1 +1,211 @@
-[]
+[
+  {
+    "edicao": 2024,
+    "id": "2024-28",
+    "numero": 28,
+    "enunciado": "A ponte norte e a ponte sul são chipsets que compõem a estrutura de uma\nplaca-mãe de um computador. Sobre esses dois chipsets, analise as assertivas abaixo:\n- I. A ponte norte é responsável pela comunicação entre o processador e dispositivos de entrada/saída\nde baixa velocidade, enquanto a ponte sul conecta a memória RAM e a placa de vídeo.\n- II. A ponte sul conecta o processador diretamente à memória RAM e à placa de vídeo, enquanto a\nponte norte lida com dispositivos de armazenamento e periféricos de entrada/saída.\n- III. A ponte norte faz a interface entre o processador e componentes de alta velocidade como a\nmemória RAM e a placa de vídeo, enquanto a ponte sul gerencia conexões com dispositivos de\nentrada/saída de menor velocidade.\n- IV. A ponte norte e a ponte sul são substituíveis e podem ser usadas indistintamente em qualquer função dentro do sistema de barramento do computador.\n\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I.",
+      "b) Apenas II.",
+      "c) Apenas III.",
+      "d) Apenas I e II.",
+      "e) Apenas III e IV."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Organização de Computadores",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, é necessário entender as funções da ponte norte e da ponte sul em uma placa-mãe de computador. A ponte norte é responsável por conectar o processador a componentes de alta velocidade, como a memória RAM e a placa de vídeo. Já a ponte sul gerencia conexões com dispositivos de entrada/saída de menor velocidade, como portas USB, discos rígidos e outros periféricos. \n\nAnalisando as assertivas: \n\nI. Incorreta. A descrição das funções da ponte norte e da ponte sul está trocada. A ponte norte não é responsável por dispositivos de baixa velocidade, e a ponte sul não conecta a memória RAM e a placa de vídeo. \n\nII. Incorreta. A ponte sul não conecta o processador diretamente à memória RAM e à placa de vídeo. Essa é a função da ponte norte. \n\nIII. Correta. A ponte norte faz a interface entre o processador e componentes de alta velocidade, como a memória RAM e a placa de vídeo, enquanto a ponte sul gerencia conexões com dispositivos de entrada/saída de menor velocidade. \n\nIV. Incorreta. A ponte norte e a ponte sul têm funções específicas e não são substituíveis ou intercambiáveis. \n\nPortanto, a única assertiva correta é a III."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-36",
+    "numero": 36,
+    "enunciado": "Qual das seguintes linguagens pode ser gerada por uma gramática regular?",
+    "alternativas": [
+      "a) {w ∈ {a, b}* | o número de a’s em w é maior que o número de b’s}.",
+      "b) {w ∈ {a, b}* | o número de a’s em w é o dobro do número de b’s}.",
+      "c) {w ∈ {a, b}* | o número de a’s em w é divisível por 3 e o número de b’s é ímpar}.",
+      "d) {w ∈ {a, b}* | w contém o mesmo número de a’s e b’s}.",
+      "e) {w ∈ {a, b}* | w contém números diferentes de a’s e b’s}."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Uma gramática regular é capaz de gerar linguagens que podem ser reconhecidas por autômatos finitos. As linguagens regulares são fechadas sob operações como união, concatenação e estrela de Kleene, mas não conseguem expressar relações numéricas complexas entre símbolos, como igualdade ou múltiplos. Vamos analisar cada alternativa:\n\nA) {w ∈ {a, b}* | o número de a’s em w é maior que o número de b’s}. Esta linguagem não é regular, pois requer a comparação entre contagens de símbolos, o que não pode ser feito por autômatos finitos.\n\nB) {w ∈ {a, b}* | o número de a’s em w é o dobro do número de b’s}. Esta linguagem também não é regular, pois exige uma relação numérica precisa entre os símbolos, algo que autômatos finitos não conseguem verificar.\n\nC) {w ∈ {a, b}* | o número de a’s em w é divisível por 3 e o número de b’s é ímpar}. Esta linguagem não é regular, pois combina duas condições que não podem ser verificadas simultaneamente por um autômato finito.\n\nD) {w ∈ {a, b}* | w contém o mesmo número de a’s e b’s}. Esta linguagem não é regular, pois requer a contagem e comparação exata de dois tipos de símbolos, algo que autômatos finitos não conseguem fazer.\n\nE) {w ∈ {a, b}* | w contém números diferentes de a’s e b’s}. Esta linguagem é regular, pois pode ser expressa por um autômato finito que aceita qualquer string que não tenha o mesmo número de 'a's e 'b's, o que é possível sem a necessidade de contagem precisa, apenas verificando que a string não pertence ao conjunto de strings com números iguais de 'a's e 'b's."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-15",
+    "numero": 15,
+    "enunciado": "A expressão lógica p→q é equivalente a:",
+    "alternativas": [
+      "a) ~p∧~q",
+      "b) ~p→q",
+      "c) p→~q",
+      "d) ~q->~p",
+      "e) q→p"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "A expressão lógica p→q (p implica q) é equivalente à expressão ~q→~p (negação de q implica negação de p), que é a forma contrária da implicação original. Essa equivalência é conhecida como contrapositiva. A contrapositiva de uma implicação é sempre logicamente equivalente à implicação original. Portanto, a alternativa correta é D) ~q->~p."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-18",
+    "numero": 18,
+    "enunciado": "Usando os conjuntos de dados A = {1, 4, 2, 6, 8, 10}, B = {1, 4, 6, 10},\nC = {6, 4, 1, 10}, D = {6, 4, 1}, qual das seguintes alternativas é INCORRETA?",
+    "alternativas": [
+      "a) \\(A ⊆ B\\)",
+      "b) \\(D ⊆ A\\)",
+      "c) \\(B = C\\)",
+      "d) \\(B ⊆ A\\)",
+      "e) \\(A ≠ B\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Conjuntos e Álgebra de Conjuntos como Teoria Axiomática",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para determinar qual alternativa é incorreta, precisamos analisar cada uma delas:\n\nA) A ⊆ B: O conjunto A = {1, 4, 2, 6, 8, 10} não é subconjunto de B = {1, 4, 6, 10} porque A contém os elementos 2 e 8, que não estão em B. Portanto, esta alternativa é INCORRETA.\n\nB) D ⊆ A: O conjunto D = {6, 4, 1} é um subconjunto de A = {1, 4, 2, 6, 8, 10} porque todos os elementos de D estão em A. Portanto, esta alternativa é CORRETA.\n\nC) B = C: O conjunto B = {1, 4, 6, 10} é igual ao conjunto C = {6, 4, 1, 10} porque ambos contêm os mesmos elementos, apenas em ordem diferente. Portanto, esta alternativa é CORRETA.\n\nD) B ⊆ A: O conjunto B = {1, 4, 6, 10} é um subconjunto de A = {1, 4, 2, 6, 8, 10} porque todos os elementos de B estão em A. Portanto, esta alternativa é CORRETA.\n\nE) A ≠ B: O conjunto A = {1, 4, 2, 6, 8, 10} é diferente de B = {1, 4, 6, 10} porque A contém elementos (2 e 8) que não estão em B. Portanto, esta alternativa é CORRETA.\n\nPortanto, a alternativa INCORRETA é a A."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-25",
+    "numero": 25,
+    "enunciado": "Sobre as árvores binárias de busca, é correto afirmar que:",
+    "alternativas": [
+      "a) Seja x um nó em uma árvore de busca binária. Se y é um nó na subárvore esquerda de x, então\ny.chave  x.chave. Se y é um nó na subárvore direita de x, então x.chave  y.chave.",
+      "b) A propriedade de árvore de busca que permite imprimir todas as chaves em sequência ordenada\npor meio de um simples algoritmo recursivo é denominada percurso de árvore em pré -ordem.",
+      "c) Para excluir um nó z de uma árvore de busca binária T, se z tem apenas um filho, então\nsimplesmente o removemos modificando seu pai de modo a substituir z por NIL como seu filho.",
+      "d) Para excluir um nó z de uma árvore de busca binária T, se z tem dois filhos, então elevamos o\nprimeiro filho para que ocupe a posição de z na árvore modificando o pai de z de modo a substituir\nz pelo filho de z.",
+      "e) Para encontrar um nó em uma árvore de busca binária cuja chave é um mínimo, deve -se seguir\nos ponteiros de filhos da esquerda desde a raiz até encontrar um valor NIL."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Árvores de Busca e Árvores Balanceadas",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "A questão trata das propriedades e operações em árvores binárias de busca (BST). Vamos analisar cada alternativa: \n\nA) A descrição está incorreta. Em uma árvore binária de busca, para qualquer nó x, todos os nós na subárvore esquerda de x têm valores menores que x.chave, e todos os nós na subárvore direita de x têm valores maiores que x.chave. Portanto, a relação correta seria y.chave ≤ x.chave para a subárvore esquerda e x.chave ≤ y.chave para a subárvore direita.\n\nB) O percurso que imprime as chaves em ordem crescente em uma árvore binária de busca é o percurso em ordem (in-order traversal), não o percurso em pré-ordem.\n\nC) Quando um nó z com apenas um filho é removido de uma árvore binária de busca, o filho de z substitui z, não é substituído por NIL.\n\nD) Se um nó z tem dois filhos, o procedimento correto é substituir z pelo seu sucessor ou predecessor na árvore (geralmente o menor nó na subárvore direita ou o maior na subárvore esquerda), não simplesmente elevar o primeiro filho.\n\nE) Para encontrar o nó com a chave mínima em uma árvore binária de busca, deve-se seguir os ponteiros de filhos à esquerda desde a raiz até encontrar um nó sem filho à esquerda (NIL). Esta afirmação está correta."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-38",
+    "numero": 38,
+    "enunciado": "Dada a linguagem 𝐿 = {𝑤 ∈ {𝑎, 𝑏}∗ | 𝑜 𝑡𝑒𝑟𝑐𝑒𝑖𝑟𝑜 ú𝑙𝑡𝑖𝑚𝑜 𝑠í𝑚𝑏𝑜𝑙𝑜 𝑑𝑒 𝑤 é 𝑎}, analise as\nassertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n( ) O menor Autômato Finito Não Determinístico (AFND) que reconhece L tem 4 (quatro) estados.\n( ) O Autômato Finito Determinístico (AFD) que reconhece L tem, no mínimo, 8 (oito) estados.\n( ) A menor Gramática Regular (GR) que gera L tem 3 (três) não terminais.\n( ) O conjunto regular {𝑎, 𝑏}∗{𝑎}{𝑎, 𝑏}{𝑎, 𝑏} denota L.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "a) F – F – V – V.",
+      "b) V – V – V – V.",
+      "c) F – V – F – V.",
+      "d) V – V – F – F.",
+      "e) V – F – V – F."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Autômatos de Estados Finitos Determinístico e não Determinístico",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, precisamos analisar cada uma das assertivas sobre a linguagem L = {w ∈ {a, b}* | o terceiro último símbolo de w é a}.\n\n1. **AFND com 4 estados**: Um AFND que reconhece L pode ser construído com 4 estados. O autômato pode ser projetado para verificar se o terceiro último símbolo é 'a' ao ler a string de trás para frente, usando não determinismo para adivinhar o ponto de verificação. Portanto, esta assertiva é falsa.\n\n2. **AFD com no mínimo 8 estados**: A construção de um AFD a partir de um AFND geralmente resulta em um aumento no número de estados devido à eliminação do não determinismo. Para L, um AFD precisa manter o controle dos últimos três símbolos lidos, o que resulta em 2^3 = 8 combinações possíveis de estados (considerando que cada símbolo pode ser 'a' ou 'b'). Portanto, esta assertiva é verdadeira.\n\n3. **Gramática Regular com 3 não terminais**: A gramática regular que gera L precisa ser capaz de produzir strings onde o terceiro último símbolo é 'a'. Isso pode ser feito com uma gramática que usa 3 não terminais para controlar a posição dos últimos três símbolos, mas é possível construir uma gramática com menos não terminais. Portanto, esta assertiva é falsa.\n\n4. **Conjunto regular {a, b}*{a}{a, b}{a, b} denota L**: Este conjunto regular denota strings onde o terceiro último símbolo é 'a', seguido por qualquer combinação de dois símbolos. Isso corresponde exatamente à definição de L, tornando esta assertiva verdadeira.\n\nCom base na análise acima, a ordem correta das assertivas é F – V – F – V, que corresponde à alternativa C."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-09",
+    "numero": 9,
+    "enunciado": "Se A e B são dois conjuntos finitos, realize a redução de 𝐸 = {𝐴 ∩ (𝐴 ∪ 𝐵′ )} − 𝐵′.",
+    "alternativas": [
+      "a) A",
+      "b) B",
+      "c) 𝐴 ∩ 𝐵",
+      "d) 𝐴 ∪ 𝐵",
+      "e) B’"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Conjuntos e Álgebra de Conjuntos como Teoria Axiomática",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para resolver a expressão dada, 𝐸 = {𝐴 ∩ (𝐴 ∪ 𝐵′ )} − 𝐵′, devemos simplificar passo a passo: \n1. Primeiro, consideramos a expressão dentro das chaves: 𝐴 ∩ (𝐴 ∪ 𝐵′). \n2. Pela propriedade de absorção dos conjuntos, sabemos que 𝐴 ∩ (𝐴 ∪ 𝐵′) é equivalente a 𝐴, pois a interseção de A com qualquer conjunto que contenha A é o próprio A. \n3. Assim, a expressão se reduz a 𝐸 = 𝐴 − 𝐵′. \n4. O conjunto 𝐴 − 𝐵′ é o conjunto de elementos que estão em A, mas não estão em B′. \n5. Como B′ é o complemento de B, 𝐴 − 𝐵′ é simplesmente A, pois A já não contém elementos de B′ (por definição de complemento). \nPortanto, a expressão se reduz a A, e a alternativa correta é A) A."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-15",
+    "numero": 15,
+    "enunciado": "Dado duas proposições lógicas q e p.\nA proposição lógica ~p-> q é falsa se, e somente se, quando a proposição abaixo for verdadeira:",
+    "alternativas": [
+      "a) p ou q",
+      "b) ~p",
+      "c) ~( p ou q)",
+      "d) ~( p e q)",
+      "e) ~q"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para determinar quando a proposição ~p -> q é falsa, devemos lembrar que uma implicação lógica A -> B é falsa somente quando A é verdadeira e B é falsa. No caso de ~p -> q, a proposição ~p é a antecedente (A) e q é a consequente (B). Assim, ~p -> q é falsa quando ~p é verdadeira e q é falsa. Se ~p é verdadeira, então p é falsa. Portanto, para que ~p -> q seja falsa, p deve ser falsa e q deve ser falsa. Isso significa que a proposição q deve ser falsa, o que corresponde à alternativa E) ~q."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-15",
+    "numero": 15,
+    "enunciado": "A expressão lógica ~𝑞 → ~𝑝 é equivalente a:",
+    "alternativas": [
+      "a) ~ 𝑝 ∧ ~𝑞",
+      "b) ~𝑝 ∨ 𝑞",
+      "c) ~𝑝 → 𝑞",
+      "d) 𝑝 → ~ 𝑞",
+      "e) 𝑞 → 𝑝"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos entender a equivalência lógica da expressão dada: ~𝑞 → ~𝑝. Usando a equivalência lógica, sabemos que uma implicação 𝑎 → 𝑏 é logicamente equivalente a ~𝑎 ∨ 𝑏. Portanto, a expressão ~𝑞 → ~𝑝 é equivalente a ~~𝑞 ∨ ~𝑝. Como a dupla negação ~~𝑞 é equivalente a 𝑞, a expressão se simplifica para 𝑞 ∨ ~𝑝. No entanto, a ordem dos termos em uma disjunção não altera o valor lógico, então podemos reescrever como ~𝑝 ∨ 𝑞. Assim, a alternativa correta é B) ~𝑝 ∨ 𝑞."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-40",
+    "numero": 40,
+    "enunciado": "Considere as seguintes afirmações sobre classes de problemas:\\\n- I. O problema de decisão CAM, descrito a seguir, pertence à classe de complexidade P. CAM (caminho em grafo)\\\nEntrada: uma tripla \\((G,a,b)\\) em que \n- G é um grafo\n- a e b são nodos de G\nPergunta: Existe caminho em G iniciando em a e terminando em b?\n- II. Um problema X pertence à classe de problemas NP-completos quando satisfaz às seguintes\ncondições:\n- X pertence à classe NP, e\n- todo problema Y da classe NP pode ser reduzido em tempo polinomial a X.\n- III. Se um problema de decisão X pertence à classe P, então o complemento do problema X (problema com as mesmas instâncias que X, porém com as respectivas respostas invertidas) pertence à classe NP.\\\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I.",
+      "b) Apenas III.",
+      "c) Apenas I e II.",
+      "d) Apenas II e III.",
+      "e) I, II e III."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Vamos analisar cada uma das afirmações: \n\nI. O problema CAM (caminho em grafo) é um problema de decisão que pergunta se existe um caminho entre dois nós em um grafo. Este problema pode ser resolvido utilizando algoritmos de busca em largura (BFS) ou busca em profundidade (DFS), ambos com complexidade polinomial em relação ao número de vértices e arestas do grafo. Portanto, a afirmação I está correta, pois CAM pertence à classe P.\n\nII. A definição de um problema NP-completo é que ele deve pertencer à classe NP e que todo problema na classe NP deve ser redutível a ele em tempo polinomial. A afirmação II está correta, pois descreve precisamente a definição de NP-completude.\n\nIII. Se um problema de decisão X pertence à classe P, então ele pode ser resolvido em tempo polinomial. O complemento de X, que inverte as respostas, não necessariamente pertence à classe NP, a menos que P = NP. Portanto, a afirmação III está incorreta, pois não há garantia de que o complemento de um problema em P esteja em NP.\n\nAssim, as afirmações corretas são I e II, o que nos leva à alternativa C."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-51",
+    "numero": 51,
+    "enunciado": "Sobre o controle de concorrência baseado na ordenação de timestamp (rótulo de\ntempo), considere r_ts(x) e w_ts(x) os timestamps da última transação a ler e a gravar o item de\ndados x, respectivamente. Considere que a transação T, cujo timestamp é ts(T), precisa gravar o item\nde dados x, ou seja, T emite a operação write(x). Conforme o algoritmo de ordenação baseada em\ntimestamp básica, para que as transações sejam serializáveis em conflito sem que haja o aborto e o\nreinício de T, o seguinte predicado precisa ser verdadeiro:",
+    "alternativas": [
+      "a) (r_ts(x) > ts(T)) or (w_ts(x) > ts(T))",
+      "b) (r_ts(x) > ts(T)) and (w_ts(x) > ts(T))",
+      "c) (not (r_ts(x) > ts(T))) or (w_ts(x) > ts(T))",
+      "d) (not (r_ts(x) > ts(T))) or (not (w_ts(x) > ts(T)))",
+      "e) (not (r_ts(x) > ts(T))) and not ((w_ts(x) > ts(T)))"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Sistemas de Gerenciamento de Bancos de Dados (SGBD): Arquitetura, Segurança, Integridade, Concorrência, Recuperação após Falha, Gerenciamento de Transações",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "O controle de concorrência baseado em timestamps garante que as transações sejam serializáveis em ordem de tempo. Para que uma transação T com timestamp ts(T) possa escrever no item de dados x sem ser abortada, ela deve garantir que nenhuma transação mais recente tenha lido ou escrito em x. Isso significa que ts(T) deve ser maior ou igual ao r_ts(x) e w_ts(x). A condição correta é que nem r_ts(x) nem w_ts(x) sejam maiores que ts(T), ou seja, (not (r_ts(x) > ts(T))) and (not (w_ts(x) > ts(T))). Portanto, a alternativa correta é E."
+  }
+]
