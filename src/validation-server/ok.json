@@ -3,13 +3,13 @@
     "edicao": 2024,
     "id": "2024-01",
     "numero": 1,
-    "enunciado": "Resolva o sistema abaixo utilizando o método de Gauss.\n2x – 2y + z = –3\nx + 3y – 2z = 1\n3x – y – z = 2",
+    "enunciado": "Resolva o sistema abaixo utilizando o método de Gauss.\n\\[\n\\begin{cases}\n2x - 2y + z = –3 \\\\\nx + 3y - 2z = 1 \\\\\n3x - y - z = 2\n\\end{cases}\n\\]",
     "alternativas": [
-      "a) (1/5, -1, 2/5)",
-      "b) (0, -1, 0)",
-      "c) (2/5, 0, 2/5)",
-      "d) (-7/5, -2, -21/5)",
-      "e) (-1/5, -1, -1/5)"
+      "a) \\((1/5, -1, 2/5)\\)",
+      "b) \\((0, -1, 0)\\)",
+      "c) \\((2/5, 0, 2/5)\\)",
+      "d) \\((-7/5, -2, -21/5)\\)",
+      "e) \\((-1/5, -1, -1/5)\\)"
     ],
     "area_conhecimento": "Matemática",
     "area": "Álgebra Linear",
@@ -22,7 +22,7 @@
     "edicao": 2024,
     "id": "2024-04",
     "numero": 4,
-    "enunciado": "Quantas formas existem de permutar os elementos do conjunto {1,2,3,4} de\nmaneira que o número 1 não esteja na primeira posição e o número 2 não esteja na segunda posição?",
+    "enunciado": "Quantas formas existem de permutar os elementos do conjunto \\(\\{1,2,3,4\\}\\) de\nmaneira que o número 1 não esteja na primeira posição e o número 2 não esteja na segunda posição?",
     "alternativas": [
       "a) 6.",
       "b) 8.",
@@ -41,7 +41,7 @@
     "edicao": 2024,
     "id": "2024-05",
     "numero": 5,
-    "enunciado": "Em um grafo simples não direcionado com n vértices, a quantidade máxima de\narestas é dada por n.(n−1)/2. Qual é o número máximo de arestas que um grafo não direcionado G\ncom 7 vértices pode ter sem formar um ciclo?",
+    "enunciado": "Em um grafo simples não direcionado com \\(n\\) vértices, a quantidade máxima de arestas é dada por \\(n\\times(n−1) / 2\\). Qual é o número máximo de arestas que um grafo não direcionado \\(G\\) com 7 vértices pode ter sem formar um ciclo?",
     "alternativas": [
       "a) 6.",
       "b) 7.",
@@ -60,7 +60,7 @@
     "edicao": 2024,
     "id": "2024-06",
     "numero": 6,
-    "enunciado": "Uma startup de jogos eletrônicos tem 7 jogos de ação e 5 jogos de esportes. As\nvendas dos jogos são realizadas com um pacote de 4 jogos. Quantas são as opções de venda da\nstartup em que haja pelo menos 2 jogos de esportes?",
+    "enunciado": "Uma startup de jogos eletrônicos tem 7 jogos de ação e 5 jogos de esportes. As vendas dos jogos são realizadas com um pacote de 4 jogos. Quantas são as opções de venda da\nstartup em que haja pelo menos 2 jogos de esportes?",
     "alternativas": [
       "a) 70.",
       "b) 120.",
@@ -79,13 +79,13 @@
     "edicao": 2024,
     "id": "2024-11",
     "numero": 11,
-    "enunciado": "Calcule os dois valores de k em que a distância do ponto P(2, k) até a reta\nr: x – y + 3 = 0 é √2.",
+    "enunciado": "Calcule os dois valores de \\(k\\) em que a distância do ponto \\(P(2, k)\\) até a reta \\(r: x - y + 3 = 0\\) é \\(\\sqrt2\\).",
     "alternativas": [
-      "a) k = 3 e k = 7",
-      "b) k = -1 e k = 2",
-      "c) k = 3 e k = 5",
-      "d) k = 2 e k = 3",
-      "e) k = 5 e k = 7"
+      "a) \\(k = 3\\) e \\(k = 7\\)",
+      "b) \\(k = -1\\) e \\(k = 2\\)",
+      "c) \\(k = 3\\) e \\(k = 5\\)",
+      "d) \\(k = 2\\) e \\(k = 3\\)",
+      "e) \\(k = 5\\) e \\(k = 7\\)"
     ],
     "area_conhecimento": "Matemática",
     "area": "Geometria Analítica",
@@ -98,13 +98,13 @@
     "edicao": 2024,
     "id": "2024-13",
     "numero": 13,
-    "enunciado": "A expressão lógica ~p->~q é equivalente a:",
+    "enunciado": "A expressão lógica \\(\\neg p\\rightarrow \\neg q\\) é equivalente a:",
     "alternativas": [
-      "a) ~q∧~p",
-      "b) ~q→p",
-      "c) q→~p",
-      "d) q→p",
-      "e) p→q"
+      "a) \\(\\neg q ∧ \\neg p\\)",
+      "b) \\(\\neg q→p\\)",
+      "c) \\(q→ \\neg p\\)",
+      "d) \\(q→p\\)",
+      "e) \\(p→q\\)"
     ],
     "area_conhecimento": "Matemática",
     "area": "Lógica Matemática",
@@ -117,13 +117,13 @@
     "edicao": 2024,
     "id": "2024-14",
     "numero": 14,
-    "enunciado": "Dadas duas proposições lógicas q e p, a proposição lógica ~(p ou q) é verdadeira se,\ne somente se, for falsa a proposição:",
+    "enunciado": "Dadas duas proposições lógicas \\(q\\) e \\(p\\), a proposição lógica \\(\\neg (p \\text{ ou } q)\\) é verdadeira se,\ne somente se, for falsa a proposição:",
     "alternativas": [
-      "a) p e q",
-      "b) ~p",
-      "c) ~p->q",
-      "d) ~p->~q",
-      "e) ~q"
+      "a) \\(p\\) e \\(q\\)",
+      "b) \\(\\neg p\\)",
+      "c) \\(\\neg p \\rightarrow q\\)",
+      "d) \\(\\neg p\\rightarrow \\neg q\\)",
+      "e) \\(~q\\)"
     ],
     "area_conhecimento": "Matemática",
     "area": "Lógica Matemática",
