@@ -41,6 +41,34 @@ app.post("/save", (req, res) => {
   res.json({ message: "Data appended successfully!" });
 });
 
+app.post("/save-final", (req, res) => {
+  const { problem, status } = req.body;
+
+  writeToFile(`final.json`, res, (array) => {
+    array.push(problem);
+  });
+
+  writeToFile('pending.json', res, (array) => {
+    array.shift();
+  });
+
+  res.json({ message: "Data appended successfully!" });
+});
+
+app.post("/save-skip", (req, res) => {
+  const { problem, status } = req.body;
+
+  writeToFile(`skip.json`, res, (array) => {
+    array.push(problem);
+  });
+
+  writeToFile('pending.json', res, (array) => {
+    array.shift();
+  });
+
+  res.json({ message: "Data appended successfully!" });
+});
+
 app.get("/load", (req, res) => {
   fs.readFile('pending.json', "utf8", (err, data) => {
     if (err) return res.status(500).json({ message: "Error reading file" });
