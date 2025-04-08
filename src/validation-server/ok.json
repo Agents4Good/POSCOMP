@@ -3,7 +3,7 @@
     "edicao": 2012,
     "id": "2012-04",
     "numero": 4,
-    "enunciado": "Seja o conjunto A = {a ∈ Z|100 ≤ a ≤ 90.000}.\nAssinale a alternativa que apresenta, corretamente, os elementos do conjunto A que não são divisíveis\nnem por 3, nem por 5, nem por 9.",
+    "enunciado": "Seja o conjunto \\(A = \\{a ∈ \\mathbb{Z} \\mid 100 ≤ a ≤ 90.000\\}\\).\nAssinale a alternativa que apresenta, corretamente, os elementos do conjunto \\(A\\) que não são divisíveis\nnem por 3, nem por 5, nem por 9.",
     "alternativas": [
       "a) 41.953",
       "b) 42.000",
@@ -22,7 +22,7 @@
     "edicao": 2012,
     "id": "2012-12",
     "numero": 12,
-    "enunciado": "Para aumentar a segurança no acesso às contas correntes de uma certa rede bancária, solicitou-se aos\nclientes que, além da senha numérica, fosse cadastrada outra senha composta por uma sequência de três\nsílabas distintas. Cada sílaba é composta por duas letras, sendo a primeira uma consoante e a segunda\numa vogal.\nNessas condições, e considerando o alfabeto com 26 letras, assinale a alternativa que apresenta, correta-\nmente, a quantidade de possíveis senhas a serem formadas.",
+    "enunciado": "Para aumentar a segurança no acesso às contas correntes de uma certa rede bancária, solicitou-se aos clientes que, além da senha numérica, fosse cadastrada outra senha composta por uma sequência de três sílabas distintas. Cada sílaba é composta por duas letras, sendo a primeira uma consoante e a segunda uma vogal. \\\nNessas condições, e considerando o alfabeto com 26 letras, assinale a alternativa que apresenta, corretamente, a quantidade de possíveis senhas a serem formadas.",
     "alternativas": [
       "a) 1.092.624",
       "b) 1.103.130",
@@ -44,7 +44,7 @@
     "enunciado": "Em relação à pesquisa sequencial e binária, assinale a alternativa correta.",
     "alternativas": [
       "a) A pesquisa binária em média percorre a metade dos elementos do vetor.",
-      "b) A pesquisa binária percorre no pior caso log n elementos.\n2",
+      "b) A pesquisa binária percorre no pior caso \\(log_2n\\) elementos.",
       "c) A pesquisa binária pode ser feita sobre qualquer distribuição dos elementos.",
       "d) A pesquisa sequencial exige que os elementos estejam completamente ordenados.",
       "e) A pesquisa sequencial percorre todos os elementos para encontrar a chave."
@@ -60,13 +60,13 @@
     "edicao": 2012,
     "id": "2012-24",
     "numero": 24,
-    "enunciado": "Um problema das árvores binárias de buscas convencionais é que a disposição dos elementos pode ficar\nsemelhante à de uma estrutura linear, na qual as árvores criam uma profundidade maior que sua largura,\ncomo ocorre, por exemplo, em inserção de chaves em ordem crescente. Em árvores com essa caracterís-\ntica, não há ganho substancial quanto ao tempo de busca de uma lista, por exemplo. As árvore AVL e SBB\nsão árvores projetadas para evitar esse problema e balancear o tempo de busca a seus elementos.\nQuanto às árvores AVL e SBB, assinale a alternativa que apresenta, corretamente, suas características.",
+    "enunciado": "Um problema das árvores binárias de buscas convencionais é que a disposição dos elementos pode ficar semelhante à de uma estrutura linear, na qual as árvores criam uma profundidade maior que sua largura, como ocorre, por exemplo, em inserção de chaves em ordem crescente. Em árvores com essa característica, não há ganho substancial quanto ao tempo de busca de uma lista, por exemplo. As árvore AVL e SBB são árvores projetadas para evitar esse problema e balancear o tempo de busca a seus elementos. \\\nQuanto às árvores AVL e SBB, assinale a alternativa que apresenta, corretamente, suas características.",
     "alternativas": [
-      "a) Árvores AVL utilizam altura das subárvores como critério de balanceamento, enquanto árvores SBB utilizam\norientação vertical e horizontal dos “apontadores” dos nós.",
-      "b) Árvores AVL utilizam quatro tipos diferentes de algoritmos de balanceamento, enquanto árvores SBB utilizam\napenas dois tipos genéricos (direita e esquerda), levando em consideração a origem e a propagação de uma\nviolação.",
-      "c) Árvores SBB utilizam alturas das subárvores como critério de balanceamento, enquanto árvores AVL utilizam\norientação vertical e horizontal dos “apontadores” dos nós.",
-      "d) Árvores SBB utilizam quatro tipos diferentes de algoritmos de balanceamento, enquanto árvores AVL utilizam\napenas dois tipos genéricos (direita e esquerda), levando em consideração a origem e a propagação de uma\nviolação.",
-      "e) As árvores AVL e SBB possuem diferença quanto à estrutura dos nós e à composição das chaves e das funções\nde busca, de inserção e de remoção."
+      "a) Árvores AVL utilizam altura das subárvores como critério de balanceamento, enquanto árvores SBB utilizam orientação vertical e horizontal dos “apontadores” dos nós.",
+      "b) Árvores AVL utilizam quatro tipos diferentes de algoritmos de balanceamento, enquanto árvores SBB utilizam apenas dois tipos genéricos (direita e esquerda), levando em consideração a origem e a propagação de uma violação.",
+      "c) Árvores SBB utilizam alturas das subárvores como critério de balanceamento, enquanto árvores AVL utilizam orientação vertical e horizontal dos “apontadores” dos nós.",
+      "d) Árvores SBB utilizam quatro tipos diferentes de algoritmos de balanceamento, enquanto árvores AVL utilizam apenas dois tipos genéricos (direita e esquerda), levando em consideração a origem e a propagação de uma violação.",
+      "e) As árvores AVL e SBB possuem diferença quanto à estrutura dos nós e à composição das chaves e das funções de busca, de inserção e de remoção."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Algoritmos e Estrutura de Dados",
@@ -79,7 +79,7 @@
     "edicao": 2012,
     "id": "2012-25",
     "numero": 25,
-    "enunciado": "Seja V um vetor de n inteiros não negativos, tal que o maior valor encontrado em V é m > 0.\nCom relação à ordenação de V , considere as afirmativas a seguir.\nI. O tempo de execução dos algoritmos Quicksort e Mergesort para ordenar V é Ω(n lg n) para qualquer\nvalor de m.\nII. Quando m = O(n), é possível ordenar V em tempo de execução O(n) no pior caso.\nIII. O tempo de execução de pior caso do Quicksort para ordenar V é O(n lg n) quando m = O(n).\nIV. Para instâncias onde n = O(m), o algoritmo Countingsort é mais eficiente que o Mergesort, em fun-\nção de n.\nAssinale a alternativa correta.",
+    "enunciado": "Seja \\(V\\) um vetor de \\(n\\) inteiros não negativos, tal que o maior valor encontrado em \\(V\\) é \\(m > 0\\). \\\nCom relação à ordenação de \\(V\\), considere as afirmativas a seguir. \\\nI. O tempo de execução dos algoritmos Quicksort e Mergesort para ordenar \\(V\\) é \\(Ω(n lg n)\\) para qualquer valor de m. \\\nII. Quando \\(m = O(n)\\), é possível ordenar \\(V\\) em tempo de execução \\(O(n)\\) no pior caso. \\\nIII. O tempo de execução de pior caso do Quicksort para ordenar \\(V\\) é \\(O(n lg n)\\) quando \\(m = O(n)\\). \\\nIV. Para instâncias onde \\(n = O(m)\\), o algoritmo Countingsort é mais eficiente que o Mergesort, em função de \\(n\\). \\\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -98,12 +98,12 @@
     "edicao": 2012,
     "id": "2012-30",
     "numero": 30,
-    "enunciado": "O encapsulamento dos dados tem como objetivo ocultar os detalhes da implementação de um deter-\nminado módulo. Em linguagens orientadas a objeto, o ocultamento de informação é tornado explícito\nrequerendo-se que todos os métodos e atributos em uma classe tenham um nível particular de visibili-\ndade com relação às suas subclasses e às classes clientes.\nEm relação aos atributos de visibilidade, assinale a alternativa correta.",
+    "enunciado": "O encapsulamento dos dados tem como objetivo ocultar os detalhes da implementação de um determinado módulo. Em linguagens orientadas a objeto, o ocultamento de informação é tornado explícito requerendo-se que todos os métodos e atributos em uma classe tenham um nível particular de visibilidade com relação às suas subclasses e às classes clientes. \\\nEm relação aos atributos de visibilidade, assinale a alternativa correta.",
     "alternativas": [
       "a) Um atributo ou método público é visível a qualquer classe cliente e subclasse da classe a que ele pertence.",
-      "b) Um atributo ou método protegido é visível somente à classe a que ele pertence, mas não às suas subclasses\nou aos seus clientes.",
+      "b) Um atributo ou método protegido é visível somente à classe a que ele pertence, mas não às suas subclasses ou aos seus clientes.",
       "c) Um atributo ou método privado é vísivel somente às subclasses da classe a que ele pertence.",
-      "d) Um método protegido não pode acessar os atributos privados declarados na classe a que ele pertence, sendo\nnecessária a chamada de outro método privado da classe.",
+      "d) Um método protegido não pode acessar os atributos privados declarados na classe a que ele pertence, sendo necessária a chamada de outro método privado da classe.",
       "e) Um método público pode acessar somente atributos públicos declarados na classe a que ele pertence."
     ],
     "area_conhecimento": "Fundamentos da Computação",
@@ -117,13 +117,13 @@
     "edicao": 2012,
     "id": "2012-33",
     "numero": 33,
-    "enunciado": "Arquivos são organizados em sequência de dados ou registros que são mapeados para o armazenamento\nem blocos no disco.\nSobre os métodos de acesso a arquivos, assinale a alternativa correta.",
+    "enunciado": "Arquivos são organizados em sequência de dados ou registros que são mapeados para o armazenamento em blocos no disco. \\\nSobre os métodos de acesso a arquivos, assinale a alternativa correta.",
     "alternativas": [
-      "a) O método de acesso sequencial é simples, pois consiste em acessar os dados de maneira aleatória, o que faz\ncom que seja rápido e eficiente.",
-      "b) O método de acesso sequencial é simples, pois consiste em acessar os dados através de uma estrutura de\níndice, o que faz com que seja rápido e eficiente.",
-      "c) O método de acesso direto é simples, pois consiste em acessar todos os dados do arquivo do início ao fim, na\nsequência em que foram armazenados.",
-      "d) O método de acesso direto é simples, pois consiste em acessar todos os dados do arquivo diretamente, o que\nfaz com que seja lento e pouco eficiente.",
-      "e) O método de acesso sequencial é simples, pois consiste em acessar os dados na ordem em que estão arma-\nzenados, porém não é o método mais rápido."
+      "a) O método de acesso sequencial é simples, pois consiste em acessar os dados de maneira aleatória, o que faz com que seja rápido e eficiente.",
+      "b) O método de acesso sequencial é simples, pois consiste em acessar os dados através de uma estrutura de índice, o que faz com que seja rápido e eficiente.",
+      "c) O método de acesso direto é simples, pois consiste em acessar todos os dados do arquivo do início ao fim, na sequência em que foram armazenados.",
+      "d) O método de acesso direto é simples, pois consiste em acessar todos os dados do arquivo diretamente, o que faz com que seja lento e pouco eficiente.",
+      "e) O método de acesso sequencial é simples, pois consiste em acessar os dados na ordem em que estão armazenados, porém não é o método mais rápido."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Organização de Arquivos e Dados",
@@ -136,7 +136,7 @@
     "edicao": 2012,
     "id": "2012-34",
     "numero": 34,
-    "enunciado": "Arquivos são organizados em sequência de dados ou registros, que são mapeados para blocos de arma-\nzenamento secundário. Existem três tipos de arquivos: sequencial, direto e indexado.\nSobre arquivos indexados, considere as afirmativas a seguir.\nI. Em um índice denso, existe um registro para cada valor de chave no arquivo principal.\nII. Em um índice esparso, existe um registro para cada conjunto de valores de chave no arquivo principal.\nIII. Com o índice denso, o tempo para localizar dados no arquivo principal é menor do que com o índice\nesparso\nIV. Com o índice esparso, o espaço utilizado com o arquivo de índice é maior do que com índice denso\nAssinale a alternativa correta.",
+    "enunciado": "Arquivos são organizados em sequência de dados ou registros, que são mapeados para blocos de armazenamento secundário. Existem três tipos de arquivos: sequencial, direto e indexado. \\\nSobre arquivos indexados, considere as afirmativas a seguir. \\\nI. Em um índice denso, existe um registro para cada valor de chave no arquivo principal. \\\nII. Em um índice esparso, existe um registro para cada conjunto de valores de chave no arquivo principal. \\\nIII. Com o índice denso, o tempo para localizar dados no arquivo principal é menor do que com o índice esparso. \\\nIV. Com o índice esparso, o espaço utilizado com o arquivo de índice é maior do que com índice denso. \\\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -155,13 +155,13 @@
     "edicao": 2012,
     "id": "2012-37",
     "numero": 37,
-    "enunciado": "Arquivos são organizados em dados ou registros, que são mapeados para o armazenamento em blocos\nno disco. Arquivos podem ser organizados em estruturas de diretórios.\nSobre diretórios, assinale a alternativa correta.",
+    "enunciado": "Arquivos são organizados em dados ou registros, que são mapeados para o armazenamento em blocos no disco. Arquivos podem ser organizados em estruturas de diretórios. \\\nSobre diretórios, assinale a alternativa correta.",
     "alternativas": [
-      "a) Um diretório informa quais arquivos estão no disco (ou unidade de armazenamento) e pode ser entendido como\num conjunto de referências a arquivos.",
-      "b) Um diretório contém ponteiros para seus arquivos. A forma mais simples e eficiente de organizar os arquivos\nde um sistema é colocá-los em um único diretório.",
-      "c) Um diretório linear é aquele que contém todos os arquivos de um sistema e é ideal para sistemas de grande\ncapacidade de armazenamento e multiusuários.",
-      "d) Um diretório formado por vários diretórios pode ser organizado em forma de árvore, em que cada diretório\npossui um subdiretório raiz.",
-      "e) Um diretório organizado em forma de árvore contém vários arquivos, os quais possuem caminhos absolutos,\nou seja, caminhos relativos à raiz do sistema."
+      "a) Um diretório informa quais arquivos estão no disco (ou unidade de armazenamento) e pode ser entendido como um conjunto de referências a arquivos.",
+      "b) Um diretório contém ponteiros para seus arquivos. A forma mais simples e eficiente de organizar os arquivos de um sistema é colocá-los em um único diretório.",
+      "c) Um diretório linear é aquele que contém todos os arquivos de um sistema e é ideal para sistemas de grande capacidade de armazenamento e multiusuários.",
+      "d) Um diretório formado por vários diretórios pode ser organizado em forma de árvore, em que cada diretório possui um subdiretório raiz.",
+      "e) Um diretório organizado em forma de árvore contém vários arquivos, os quais possuem caminhos absolutos, ou seja, caminhos relativos à raiz do sistema."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Organização de Arquivos e Dados",
@@ -179,7 +179,7 @@
       "a) Para a pesquisa binária funcionar, o arquivo precisa estar ordenado de acordo com algum campo aleatório.",
       "b) Para a pesquisa sequencial funcionar, o arquivo precisa estar ordenado.",
       "c) Para a pequisa binária funcionar, o arquivo precisa estar ordenado de acordo com o campo de busca.",
-      "d) Para as pesquisas sequencial e binária funcionarem, o arquivo precisa estar ordenado de acordo com o campo\nde busca.",
+      "d) Para as pesquisas sequencial e binária funcionarem, o arquivo precisa estar ordenado de acordo com o campo de busca.",
       "e) Para as pesquisas sequencial e binária funcionarem, o arquivo não precisa estar ordenado."
     ],
     "area_conhecimento": "Fundamentos da Computação",
@@ -193,7 +193,7 @@
     "edicao": 2012,
     "id": "2012-40",
     "numero": 40,
-    "enunciado": "Sobre gramáticas e linguagens, considere as afirmativas a seguir.\nI. Uma gramática na Forma Normal de Chomsky pode ser ambígua.\nII. Uma gramática ambígua pode gerar uma linguagem inerentemente não ambígua.\nIII. Uma gramática na Forma Normal de Greibach pode ser convertida para a Forma Normal de Chomsky.\nIV. O algoritmo de conversão de Gramática Livre de Contexto para Gramática na Forma Normal de\nChomsky pode ser diretamamente aplicado a uma gramática que não seja λ-livre.\nAssinale a alternativa correta.",
+    "enunciado": "Sobre gramáticas e linguagens, considere as afirmativas a seguir. \\\nI. Uma gramática na Forma Normal de Chomsky pode ser ambígua. \\\nII. Uma gramática ambígua pode gerar uma linguagem inerentemente não ambígua. \\\nIII. Uma gramática na Forma Normal de Greibach pode ser convertida para a Forma Normal de Chomsky. \\\nIV. O algoritmo de conversão de Gramática Livre de Contexto para Gramática na Forma Normal de Chomsky pode ser diretamamente aplicado a uma gramática que não seja λ-livre. \\\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -212,7 +212,7 @@
     "edicao": 2012,
     "id": "2012-41",
     "numero": 41,
-    "enunciado": "Seja um Autômato Finito Não Determinístico (AFN) com 6 estados. Aplicando-se o algoritmo de conversão\nde um AFN para um Autômato Finito Determinístico (AFD), em quantos estados, no máximo, resultaria o\nAFD considerando-se os estados inúteis?",
+    "enunciado": "Seja um Autômato Finito Não Determinístico (AFN) com 6 estados. Aplicando-se o algoritmo de conversão de um AFN para um Autômato Finito Determinístico (AFD), em quantos estados, no máximo, resultaria o AFD considerando-se os estados inúteis?",
     "alternativas": [
       "a) 12",
       "b) 36",
@@ -231,7 +231,7 @@
     "edicao": 2012,
     "id": "2012-42",
     "numero": 42,
-    "enunciado": "Assinale a alternativa que apresenta, corretamente, uma expressão regular que denota todas as strings\nde a’s e b’s que têm pelo menos dois b’s consecutivos.",
+    "enunciado": "Assinale a alternativa que apresenta, corretamente, uma expressão regular que denota todas as strings de a’s e b’s que têm pelo menos dois b’s consecutivos.",
     "alternativas": [
       "a) (a*+bb)(a+ba)*(a+b)*",
       "b) (a+ba)*bb(ba+a)*",
@@ -250,7 +250,7 @@
     "edicao": 2012,
     "id": "2012-44",
     "numero": 44,
-    "enunciado": "Uma máquina M1 opera a 1400 MHz e possui 3 tipos de instruções: A, B e C, que gastam 1, 2 e 4 ciclos,\nrespectivamente. Um determinado programa P executado nessa máquina utilizou 20% de instruções do\ntipo A, 30% de instruções do tipo B e 50% de instruções do tipo C. Uma máquina M2 possui também 3\ntipos de instruções: D, E e F, que gastam 3, 4 e 5 ciclos, respectivamente. O programa P, ao ser executado\nem M2, utilizou 30% de instruções do tipo D, 40% de instruções do tipo E e 30% de instruções do tipo F.\nAssinale a alternativa que apresenta, corretamente, a frequência de operação que a máquina M2 deve ter\npara que o programa P execute no mesmo tempo em ambas as máquinas.",
+    "enunciado": "Uma máquina M1 opera a 1400 MHz e possui 3 tipos de instruções: A, B e C, que gastam 1, 2 e 4 ciclos, respectivamente. Um determinado programa P executado nessa máquina utilizou 20% de instruções do tipo A, 30% de instruções do tipo B e 50% de instruções do tipo C. Uma máquina M2 possui também 3 tipos de instruções: D, E e F, que gastam 3, 4 e 5 ciclos, respectivamente. O programa P, ao ser executado em M2, utilizou 30% de instruções do tipo D, 40% de instruções do tipo E e 30% de instruções do tipo F. \\\nAssinale a alternativa que apresenta, corretamente, a frequência de operação que a máquina M2 deve ter para que o programa P execute no mesmo tempo em ambas as máquinas.",
     "alternativas": [
       "a) 1,6 GHz",
       "b) 1,8 GHz",
@@ -269,7 +269,7 @@
     "edicao": 2012,
     "id": "2012-46",
     "numero": 46,
-    "enunciado": "Com relação a processadores, considere as afirmativas a seguir.\nI. Arquiteturas Superescalares podem executar instruções concorrentemente em pipelines diferentes.\nII. O superpipeline permite a execução de duas tarefas em um único ciclo de clock do processador.\nIII. Multiprocessadores simétricos compartilham a utilização da memória principal.\nIV. A utilização de uma memória cache L2 compartilhada em processadores multicore é vantajosa em\nthreads que possuem alta localidade.\nAssinale a alternativa correta.",
+    "enunciado": "Com relação a processadores, considere as afirmativas a seguir. \\\nI. Arquiteturas Superescalares podem executar instruções concorrentemente em *pipelines* diferentes. \\\nII. O *superpipeline* permite a execução de duas tarefas em um único ciclo de *clock* do processador. \\\nIII. Multiprocessadores simétricos compartilham a utilização da memória principal. \\\nIV. A utilização de uma memória cache L2 compartilhada em processadores *multicore* é vantajosa em *threads* que possuem alta localidade. \\\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -288,11 +288,11 @@
     "edicao": 2012,
     "id": "2012-47",
     "numero": 47,
-    "enunciado": "O fenômeno de thrashing de um sistema é caracterizado por:",
+    "enunciado": "O fenômeno de *thrashing* de um sistema é caracterizado por:",
     "alternativas": [
       "a) Excesso de processos executando no sistema.",
       "b) Impossibilidade de uso de memória virtual.",
-      "c) Execução excessiva de coleta de lixo (garbage collection) na memória.",
+      "c) Execução excessiva de coleta de lixo (*garbage collection*) na memória.",
       "d) Falhas eventuais no atendimento ao princípio da localidade na memória.",
       "e) Uso de algoritmos de paginação que causem a anomalia de Belady."
     ],
@@ -307,7 +307,7 @@
     "edicao": 2012,
     "id": "2012-48",
     "numero": 48,
-    "enunciado": "Com relação a barramento, atribua V (verdadeiro) ou F (falso) às afirmativas a seguir.\n( ) Um barramento possui linhas de controle, de dados e de endereço.\n( ) Um barramento síncrono permite a melhor utilização de dispositivos com diferentes taxas de transfe-\nrência.\n( ) A arbitração de um barramento pode ser centralizada ou distribuída.\n( ) A largura do barramento de endereço determina a quantidade de bits que podem ser transferidos de\ncada vez.\n( ) Um barramento multiplexado permite uma menor disputa de acesso por parte dos dispositivos do\nsistema.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+    "enunciado": "Com relação a barramento, atribua V (verdadeiro) ou F (falso) às afirmativas a seguir. \\\n( ) Um barramento possui linhas de controle, de dados e de endereço. \\\n( ) Um barramento síncrono permite a melhor utilização de dispositivos com diferentes taxas de transferência. \\\n( ) A arbitração de um barramento pode ser centralizada ou distribuída. \\\n( ) A largura do barramento de endereço determina a quantidade de bits que podem ser transferidos de cada vez. \\\n( ) Um barramento multiplexado permite uma menor disputa de acesso por parte dos dispositivos do sistema. \\\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
     "alternativas": [
       "a) V, F, V, F, F.",
       "b) V, F, F, V, V.",
@@ -326,13 +326,13 @@
     "edicao": 2012,
     "id": "2012-49",
     "numero": 49,
-    "enunciado": "O gerenciamento de memória virtual (MV) pressupõe a existência de tabelas de páginas e mecanismos\npara ranqueamento de páginas, além da existência do princípio da localidade.\nConsiderando que o algoritmo de MV, utilizado em um dado sistema, permite que as páginas envolvidas\nna operação de swapping sejam de conjuntos residentes diferentes, assinale a alternativa que apresenta,\ncorretamente, o impacto disso sobre os processos em execução.",
+    "enunciado": "O gerenciamento de memória virtual (MV) pressupõe a existência de tabelas de páginas e mecanismos para ranqueamento de páginas, além da existência do princípio da localidade.\nConsiderando que o algoritmo de MV, utilizado em um dado sistema, permite que as páginas envolvidas na operação de *swapping* sejam de conjuntos residentes diferentes, assinale a alternativa que apresenta, corretamente, o impacto disso sobre os processos em execução.",
     "alternativas": [
       "a) Deve piorar a taxa de faltas de páginas por não respeitar o princípio da localidade.",
-      "b) Pode criar a ocorrência de deadlocks entre os processos que usam os conjuntos residentes envolvidos.",
+      "b) Pode criar a ocorrência de *deadlocks* entre os processos que usam os conjuntos residentes envolvidos.",
       "c) Deve melhorar a taxa de faltas de páginas por ajustar o tamanho dos vários conjuntos residentes.",
       "d) Não altera a taxa de faltas de páginas pois essas não dependem dos conjuntos residentes.",
-      "e) Força o bloqueio desnecessário de um processo que não teve falta de página enquanto o swapping estava\nsendo realizado."
+      "e) Força o bloqueio desnecessário de um processo que não teve falta de página enquanto o *swapping* estava sendo realizado."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Sistemas Operacionais",
@@ -345,7 +345,7 @@
     "edicao": 2012,
     "id": "2012-50",
     "numero": 50,
-    "enunciado": "O projetista de um sistema operacional percebeu, após medições de desempenho, que o sistema apre-\nsentava problemas no acesso ao disco, com um tempo de espera médio bastante elevado.\nAssinale a alternativa que apresenta, correta e respectivamente, uma causa plausível e sua solução.",
+    "enunciado": "O projetista de um sistema operacional percebeu, após medições de desempenho, que o sistema apresentava problemas no acesso ao disco, com um tempo de espera médio bastante elevado.\\\nAssinale a alternativa que apresenta, correta e respectivamente, uma causa plausível e sua solução.",
     "alternativas": [
       "a) Algoritmo para escalonamento de disco ineficiente; troca para algum algoritmo do tipo menor distância primeiro.",
       "b) Controle de dispositivo baseado em fila; troca para controle de dispositivo baseado em prioridade.",
@@ -364,7 +364,7 @@
     "edicao": 2012,
     "id": "2012-53",
     "numero": 53,
-    "enunciado": "Considere as tabelas, a seguir, criadas em um banco de dados relacional através da linguagem SQL.\nCREATE TABLE Empregado\n( ecod int PRIMARY KEY,\nnome varchar (32),\nsalario number (7,2),\ndcod int FOREIGN KEY REFERENCES Departamento (dcod));\nCREATE TABLE Departamento\n( dcod int PRIMARY KEY,\ndnome varchar (12),\nchefe int FOREIGN KEY REFERENCES Empregado (ecod));\nSejam as consultas (C1, C2 e C3) também em SQL, a seguir.\nC1. SELECT nome, salario FROM Empregado E, Departamento D\nWHERE E.dcod = D.dcod AND E.ecod = D.chefe;\nC2. SELECT nome, salario FROM Empregado as E INNER JOIN Departamento as D\nON E.dcod=D.dcod WHERE E.ecod = D.chefe;\nC3. SELECT nome, salario FROM E.ecod = D.chefe;\nCom relação às consultas, assinale a alternativa correta.",
+    "enunciado": "Considere as tabelas, a seguir, criadas em um banco de dados relacional através da linguagem SQL.\n\n```\nCREATE TABLE Empregado\n( ecod int PRIMARY KEY,\n  nome varchar (32),\n  salario number (7,2),\n  dcod int FOREIGN KEY REFERENCES Departamento (dcod));\nCREATE TABLE Departamento\n( dcod int PRIMARY KEY,\n  dnome varchar (12),\n  chefe int FOREIGN KEY REFERENCES Empregado (ecod));\n```\n\nSejam as consultas (C1, C2 e C3) também em SQL, a seguir.\n```\nC1. SELECT nome, salario FROM Empregado E, Departamento D\n      WHERE E.dcod = D.dcod AND E.ecod = D.chefe;\nC2. SELECT nome, salario FROM Empregado as E INNER JOIN Departamento as D\n      ON E.dcod=D.dcod WHERE E.ecod = D.chefe;\nC3. SELECT nome, salario FROM E.ecod = D.chefe;\n```\nCom relação às consultas, assinale a alternativa correta.",
     "alternativas": [
       "a) Apenas a consulta C1 retorna o nome e o salário dos chefes dos departamentos.",
       "b) Apenas a consulta C2 retorna o nome e o salário dos chefes dos departamentos.",
@@ -383,7 +383,7 @@
     "edicao": 2012,
     "id": "2012-55",
     "numero": 55,
-    "enunciado": "Suponha uma cena tridimensional composta apenas por duas esferas contidas no volume de visualiza-\nção. Uma dessas esferas está completamente encoberta pela outra em relação à visão da câmera virtual\nque utiliza projeção paralela.\nCom base no enunciado e nos conhecimentos sobre o tema, assinale a alternativa correta.",
+    "enunciado": "Suponha uma cena tridimensional composta apenas por duas esferas contidas no volume de visualização. Uma dessas esferas está completamente encoberta pela outra em relação à visão da câmera virtual\nque utiliza projeção paralela.\nCom base no enunciado e nos conhecimentos sobre o tema, assinale a alternativa correta.",
     "alternativas": [
       "a) Utilizando o algoritmo de Z-Buffer, a imagem resultante, após a rasterização de ambas as esferas, é a mesma,\nindependentemente de qual esfera é rasterizada primeiro.",
       "b) No modelo de iluminação de Phong, a iluminação de uma das esferas depende da cor da segunda esfera.",
@@ -445,7 +445,7 @@
       "a) A técnica exige dois passos de rasterização, um para marcar o mapa de profundidade e outro para a definição\ndas cores dos píxeis.",
       "b) As primitivas geométricas devem ser rasterizadas de forma ordenada, começando pela mais distante até a\nmais próxima da câmera virtual.",
       "c) A técnica não é capaz de reduzir o serrilhado proveniente das cores das texturas mapeadas sobre malha de\ntriângulos.",
-      "d) Uma das características da técnica é reutilizar informações capturadas da cena por uma amostra na computa-\nção de outras amostras, por exemplo, iluminação.",
+      "d) Uma das características da técnica é reutilizar informações capturadas da cena por uma amostra na computação de outras amostras, por exemplo, iluminação.",
       "e) A distribuição de amostras deve ser regular, por exemplo, deve seguir uma distribuição com formato matricial."
     ],
     "area_conhecimento": "Tecnologia de Computação",
@@ -481,7 +481,7 @@
     "enunciado": "O modelo de referência OSI (Open Systems Interconnection) é composto por 7 camadas.\nSobre as funções destas camadas, assinale a alternativa correta.",
     "alternativas": [
       "a) A camada física delimita quadros e realiza controle de fluxo antes de entregar os dados para as camadas\nsuperiores.",
-      "b) A camada de transporte define a rota de menor custo que os pacotes percorrerão no percurso entre o trans-\nmissor e o receptor.",
+      "b) A camada de transporte define a rota de menor custo que os pacotes percorrerão no percurso entre o transmissor e o receptor.",
       "c) A camada de apresentação realiza conversões para permitir a interação entre computadores com diferentes\nrepresentações de dados.",
       "d) A camada de sessão é responsável pelo endereçamento dos pacotes que serão transmitidos durante a vigência\nde uma sessão.",
       "e) Na hierarquia de camadas do modelo OSI, a camada de rede se posiciona entre a camada de transporte e a\ncamada de sessão."
@@ -521,7 +521,7 @@
       "a) Ao estabelecer uma conexão lógica entre o transmissor e o receptor, o TCP realiza reserva de banda para\ngarantir qualidade de serviço.",
       "b) O algoritmo three way hand shake (apresentação de três vias) é utilizado para estabelecer uma conexão lógica\nentre transmissor e receptor.",
       "c) O algoritmo de controle de congestionamento verifica o estado dos buffers de cada roteador presente no\ncaminho entre o transmissor e o receptor.",
-      "d) O TCP é utilizado em aplicações de tempo real e sensíveis à latência que necessitam de agilidade na trans-\nmissão e dispensam a confiabilidade.",
+      "d) O TCP é utilizado em aplicações de tempo real e sensíveis à latência que necessitam de agilidade na transmissão e dispensam a confiabilidade.",
       "e) Por realizar controle de fluxo, o TCP não contém vulnerabilidades que podem ser exploradas em ataques de\nnegação de serviço."
     ],
     "area_conhecimento": "Tecnologia de Computação",
@@ -554,7 +554,7 @@
     "edicao": 2012,
     "id": "2012-64",
     "numero": 64,
-    "enunciado": "Os algoritmos genéticos são técnicas de busca de Inteligência Artificial e tiveram um amplo impacto\nsobre problemas de otimização, como layout de circuitos e escalonamento de prestação de serviços.\nCom relação à versão mais comum dessa técnica, considere as afirmativas a seguir.\nI. O funcionamento dos algoritmos genéticos começam com um conjunto de k estados gerados aleato-\nriamente chamado de população.\nII. Para cada par selecionado, é escolhido ao acaso um ponto de crossover dentre as posições na cadeia\ndo indivíduo.\nIII. A função fitness de cada indivíduo deverá definir qual é o melhor ponto de crossover dos pares\nselecionados.\nIV. A fase de mutação dos algoritmos genéticos é obrigatória e deve seguir uma ordem aleatória para\ngarantir vantagens em seus resultados.\nAssinale a alternativa correta.",
+    "enunciado": "Os algoritmos genéticos são técnicas de busca de Inteligência Artificial e tiveram um amplo impacto\nsobre problemas de otimização, como layout de circuitos e escalonamento de prestação de serviços.\nCom relação à versão mais comum dessa técnica, considere as afirmativas a seguir.\nI. O funcionamento dos algoritmos genéticos começam com um conjunto de k estados gerados aleatoriamente chamado de população.\nII. Para cada par selecionado, é escolhido ao acaso um ponto de crossover dentre as posições na cadeia\ndo indivíduo.\nIII. A função fitness de cada indivíduo deverá definir qual é o melhor ponto de crossover dos pares\nselecionados.\nIV. A fase de mutação dos algoritmos genéticos é obrigatória e deve seguir uma ordem aleatória para\ngarantir vantagens em seus resultados.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -744,7 +744,7 @@
     "edicao": 2011,
     "id": "2011-27",
     "numero": 27,
-    "enunciado": "As estruturas de dados lineares (fila, pilha e lista) são muito utilizadas para resolver problemas computa-\ncionais. Cada uma dessas estruturas pode ser implementada com diferentes características e atendem a\ndiferentes tipos de problemas.\nSobre as características dessas estruturas de dados, atribua V (verdadeiro) ou F (falso) para as afirmativas\na seguir.\n( ) Em uma pilha, o último elemento a entrar é o primeiro a sair.\n( ) Em uma fila, o primeiro elemento a entrar é o último a sair.\n( ) Uma lista permite que as inserções possam ser feitas em qualquer lugar (posição), mas as remoções,\nnão.\n( ) Em uma lista circular com encadeamento simples, o primeiro elemento aponta para o segundo e para\no último.\n( ) Para remover um elemento de uma lista duplamente encadeada, deve-se alterar o encadeamento dos\nelementos anterior e próximo ao elemento removido.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+    "enunciado": "As estruturas de dados lineares (fila, pilha e lista) são muito utilizadas para resolver problemas computacionais. Cada uma dessas estruturas pode ser implementada com diferentes características e atendem a\ndiferentes tipos de problemas.\nSobre as características dessas estruturas de dados, atribua V (verdadeiro) ou F (falso) para as afirmativas\na seguir.\n( ) Em uma pilha, o último elemento a entrar é o primeiro a sair.\n( ) Em uma fila, o primeiro elemento a entrar é o último a sair.\n( ) Uma lista permite que as inserções possam ser feitas em qualquer lugar (posição), mas as remoções,\nnão.\n( ) Em uma lista circular com encadeamento simples, o primeiro elemento aponta para o segundo e para\no último.\n( ) Para remover um elemento de uma lista duplamente encadeada, deve-se alterar o encadeamento dos\nelementos anterior e próximo ao elemento removido.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
     "alternativas": [
       "a) V, F, V, F, V.",
       "b) V, F, F, V, F.",
@@ -801,7 +801,7 @@
     "edicao": 2011,
     "id": "2011-33",
     "numero": 33,
-    "enunciado": "Com base nos conhecimentos sobre projeto de circuitos sequenciais, considere as afirmativas a seguir.\nI. O projeto de circuitos sequenciais usando flip-flops é crítico devido ao problema conhecido como\ntransparência de flip-flops.\nII. Uma vez que um flip-flop é sabidamente sensível a uma das bordas do relógio, o tempo de permanên-\ncia do relógio em nível alto ou baixo não é mais crítico para o funcionamento do circuito sequencial.\nIII. Tempo de setup é o tempo durante o qual a entrada deve ser mantida estável antes da transição ativa\ndo relógio.\nIV. Um flip-flop tipo D pode ser implementado com dois latchs tipo D ou com um latch tipo D e um circuito\ndetector de borda.\nAssinale a alternativa correta.",
+    "enunciado": "Com base nos conhecimentos sobre projeto de circuitos sequenciais, considere as afirmativas a seguir.\nI. O projeto de circuitos sequenciais usando flip-flops é crítico devido ao problema conhecido como\ntransparência de flip-flops.\nII. Uma vez que um flip-flop é sabidamente sensível a uma das bordas do relógio, o tempo de permanência do relógio em nível alto ou baixo não é mais crítico para o funcionamento do circuito sequencial.\nIII. Tempo de setup é o tempo durante o qual a entrada deve ser mantida estável antes da transição ativa\ndo relógio.\nIV. Um flip-flop tipo D pode ser implementado com dois latchs tipo D ou com um latch tipo D e um circuito\ndetector de borda.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e IV são corretas.",
       "b) Somente as afirmativas II e III são corretas.",
@@ -820,7 +820,7 @@
     "edicao": 2011,
     "id": "2011-40",
     "numero": 40,
-    "enunciado": "O gerenciamento dos sistemas de entrada/saída de dados é normalmente implementado em duas cama-\ndas: uma responsável pelo controle do dispositivo e outra, pelo gerenciamento de entrada/saída.\nPor que isso representa um projeto eficiente?",
+    "enunciado": "O gerenciamento dos sistemas de entrada/saída de dados é normalmente implementado em duas camadas: uma responsável pelo controle do dispositivo e outra, pelo gerenciamento de entrada/saída.\nPor que isso representa um projeto eficiente?",
     "alternativas": [
       "a) Porque permite o uso de duas linguagens de programação na sua implementação, pois o controle do dispositivo\nexige a programação em linguagem de máquina.",
       "b) Porque permite separar as operações de entrada das operações de saída de dados.",
@@ -877,7 +877,7 @@
     "edicao": 2011,
     "id": "2011-45",
     "numero": 45,
-    "enunciado": "Arquivos são um mecanismo de abstração que permite a manipulação de dados de maneira persistente,\nconcorrente e em grandes quantidades.\nSobre o assunto, considere as afirmativas a seguir.\nI. Em arquivos restritos a acesso sequencial, a operação rewind é irrelevante e, quando presente, ape-\nnas equivale a uma operação seek apontando para o início do arquivo.\nII. Uma maneira comum de estruturar arquivos é a sequência de bytes não estruturada. Nesse modelo,\num arquivo não é organizado em registros e campos, e quaisquer significados aos seus dados devem\nser feitos pelos programas de usuário. Sua vantagem é permitir a máxima flexibilidade.\nIII. Todo sistema operacional armazena um certo conjunto de informações junto a cada arquivo, conhe-\ncidas como atributos ou metadados. Dentre as informações armazenadas pelos metadados de um\narquivo em um sistema, podem estar: identificador do arquivo; hora da criação; último acesso; última\nmudança; visibilidade; tipo de arquivo.\nIV. Alguns sistemas suportam arquivos estruturados em árvores. Nesse tipo de arquivo, cada registro\npossui uma chave. A árvore é organizada no campo de chaves do arquivo para possibilitar uma busca\nrápida pelos registros.\nAssinale a alternativa correta.",
+    "enunciado": "Arquivos são um mecanismo de abstração que permite a manipulação de dados de maneira persistente,\nconcorrente e em grandes quantidades.\nSobre o assunto, considere as afirmativas a seguir.\nI. Em arquivos restritos a acesso sequencial, a operação rewind é irrelevante e, quando presente, apenas equivale a uma operação seek apontando para o início do arquivo.\nII. Uma maneira comum de estruturar arquivos é a sequência de bytes não estruturada. Nesse modelo,\num arquivo não é organizado em registros e campos, e quaisquer significados aos seus dados devem\nser feitos pelos programas de usuário. Sua vantagem é permitir a máxima flexibilidade.\nIII. Todo sistema operacional armazena um certo conjunto de informações junto a cada arquivo, conhecidas como atributos ou metadados. Dentre as informações armazenadas pelos metadados de um\narquivo em um sistema, podem estar: identificador do arquivo; hora da criação; último acesso; última\nmudança; visibilidade; tipo de arquivo.\nIV. Alguns sistemas suportam arquivos estruturados em árvores. Nesse tipo de arquivo, cada registro\npossui uma chave. A árvore é organizada no campo de chaves do arquivo para possibilitar uma busca\nrápida pelos registros.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -896,7 +896,7 @@
     "edicao": 2011,
     "id": "2011-49",
     "numero": 49,
-    "enunciado": "Em organização de arquivos e dados, os diretórios foram criados para organizar e controlar outros arqui-\nvos.\nCom base nos conhecimentos sobre o tema, considere as afirmativas a seguir.\nI. Um diretório geralmente contém várias entradas, sendo uma por arquivo diretamente subordinado.\nCada entrada é composta pelo nome do arquivo, seus atributos e os endereços do disco onde estão\narmazenados. Alternativamente, após o nome do arquivo, pode haver um ponteiro para uma estrutura\nde dados com os atributos e os endereços.\nII. Em um sistema de diretórios hierárquicos, se o diretório atual, ou diretório de trabalho, de um pro-\ncesso for “/usr/bin/.”, para acessar o arquivo chamado cache, localizado em “/tmp/”, pode ser\nusado o nome de caminho absoluto “/tmp/cache”. Alternativamente, pode ser usado o nome de\ncaminho relativo “./../../tmp/cache”.\nIII. Para os usuários, uma das vantagens de sistemas com um diretório por usuário em relação a sistemas\nde diretório único é poder organizar os arquivos em subgrupos.\nIV. Em sistemas que suportam diretórios hierárquicos, como Windows e UNIX, há três entradas especiais\nem cada diretório. Elas são ‘.’ (ponto), ‘..’ (ponto-ponto) e ‘˜’ (til): o primeiro serve para voltar um nível\nna hierarquia; o segundo, para avançar um nível; o terceiro, para referenciar o diretório reservado ao\nadministrador, quando utilizado em caminhos relativos.\nAssinale a alternativa correta.",
+    "enunciado": "Em organização de arquivos e dados, os diretórios foram criados para organizar e controlar outros arquivos.\nCom base nos conhecimentos sobre o tema, considere as afirmativas a seguir.\nI. Um diretório geralmente contém várias entradas, sendo uma por arquivo diretamente subordinado.\nCada entrada é composta pelo nome do arquivo, seus atributos e os endereços do disco onde estão\narmazenados. Alternativamente, após o nome do arquivo, pode haver um ponteiro para uma estrutura\nde dados com os atributos e os endereços.\nII. Em um sistema de diretórios hierárquicos, se o diretório atual, ou diretório de trabalho, de um processo for “/usr/bin/.”, para acessar o arquivo chamado cache, localizado em “/tmp/”, pode ser\nusado o nome de caminho absoluto “/tmp/cache”. Alternativamente, pode ser usado o nome de\ncaminho relativo “./../../tmp/cache”.\nIII. Para os usuários, uma das vantagens de sistemas com um diretório por usuário em relação a sistemas\nde diretório único é poder organizar os arquivos em subgrupos.\nIV. Em sistemas que suportam diretórios hierárquicos, como Windows e UNIX, há três entradas especiais\nem cada diretório. Elas são ‘.’ (ponto), ‘..’ (ponto-ponto) e ‘˜’ (til): o primeiro serve para voltar um nível\nna hierarquia; o segundo, para avançar um nível; o terceiro, para referenciar o diretório reservado ao\nadministrador, quando utilizado em caminhos relativos.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -1010,12 +1010,12 @@
     "edicao": 2011,
     "id": "2011-57",
     "numero": 57,
-    "enunciado": "A UML (Unified Modeling Language) é uma linguagem visual para visualizar, especificar, construir e docu-\nmentar os artefatos dos sistemas. A palavra visual é importante, pois a UML é uma notação diagramática.\nEm relação aos diagramas da UML, é correto afirmar:",
+    "enunciado": "A UML (Unified Modeling Language) é uma linguagem visual para visualizar, especificar, construir e documentar os artefatos dos sistemas. A palavra visual é importante, pois a UML é uma notação diagramática.\nEm relação aos diagramas da UML, é correto afirmar:",
     "alternativas": [
-      "a) Os diagramas de interação descrevem como grupos de classes colaboram em algum comportamento. O diagra-\nma de sequência é um diagrama de interação que, normalmente, captura o comportamento de vários cenários,\nmostrando como as classes e mensagens são passadas no contexto de um conjunto de casos de uso.",
-      "b) O diagrama de máquina de estados permite visualizar um workflow ou um processo de negócio. É especi-\nalmente útil para detalhar um caso de uso que descreve um workflow complexo envolvendo muitas partes e\nações concorrentes.",
-      "c) A UML 2.0 divide os diagramas em duas categorias: (i) diagramas estruturais (ou estáticos) e (ii) diagramas\ncomportamentais (ou dinâmicos). O diagrama de componentes é um diagrama comportamental que repre-\nsenta a topologia física do sistema, bem como os vários componentes de software de um sistema e suas\ndependências.",
-      "d) O diagrama de casos de uso apresenta as funcionalidades externamente observáveis do sistema e os ele-\nmentos externos ao sistema que interagem com ele. No diagrama de casos de uso, um elemento externo que\ninterage com o sistema é denominado de ator. Os atores podem ser, por exemplo, pessoas, outros sistemas e\nequipamentos.",
+      "a) Os diagramas de interação descrevem como grupos de classes colaboram em algum comportamento. O diagrama de sequência é um diagrama de interação que, normalmente, captura o comportamento de vários cenários,\nmostrando como as classes e mensagens são passadas no contexto de um conjunto de casos de uso.",
+      "b) O diagrama de máquina de estados permite visualizar um workflow ou um processo de negócio. É especialmente útil para detalhar um caso de uso que descreve um workflow complexo envolvendo muitas partes e\nações concorrentes.",
+      "c) A UML 2.0 divide os diagramas em duas categorias: (i) diagramas estruturais (ou estáticos) e (ii) diagramas\ncomportamentais (ou dinâmicos). O diagrama de componentes é um diagrama comportamental que representa a topologia física do sistema, bem como os vários componentes de software de um sistema e suas\ndependências.",
+      "d) O diagrama de casos de uso apresenta as funcionalidades externamente observáveis do sistema e os elementos externos ao sistema que interagem com ele. No diagrama de casos de uso, um elemento externo que\ninterage com o sistema é denominado de ator. Os atores podem ser, por exemplo, pessoas, outros sistemas e\nequipamentos.",
       "e) Um modelo de domínio é ilustrado com um conjunto de diagramas de classes. O termo “Modelo de domínio”\nsignifica uma representação de classes conceituais do mundo real e as restrições inerentes à tecnologia a ser\nutilizada na solução. É importante constarem neste modelo os atributos e operações de cada classe."
     ],
     "area_conhecimento": "Tecnologia de Computação",
@@ -1029,7 +1029,7 @@
     "edicao": 2011,
     "id": "2011-58",
     "numero": 58,
-    "enunciado": "Em cenas de computação gráfica, para aumentar o realismo visual, é comum aplicar-se um modelo de\niluminação local que calcula as cores nos vértices dos triângulos a partir das propriedades de reflexão do\nobjeto, propriedades geométricas do objeto e propriedades da(s) fonte(s) de luz.\nSobre os modelos de iluminação locais, considere as afirmativas a seguir.\nI. A parcela de reflexão difusa depende da posição do observador.\nII. A parcela especular pode ser aproximada pelo modelo de Phong, que estabelece que a reflexão espe-\ncular de uma superfície é proporcional ao cosseno do ângulo entre o vetor direção do observador e o\nvetor que estabelece a direção de reflexão especular ideal.\nIII. A parcela difusa ideal de iluminação pode ser aproximada pela lei de Lambert, que estabelece que a\nreflexão difusa de uma superfície é proporcional ao ângulo entre o vetor normal à superfície e o vetor\ndireção da fonte de luz.\nIV. A parcela de luz ambiente aproxima as múltiplas reflexões de luz das inúmeras superfícies presentes\nna cena.\nAssinale a alternativa correta.",
+    "enunciado": "Em cenas de computação gráfica, para aumentar o realismo visual, é comum aplicar-se um modelo de\niluminação local que calcula as cores nos vértices dos triângulos a partir das propriedades de reflexão do\nobjeto, propriedades geométricas do objeto e propriedades da(s) fonte(s) de luz.\nSobre os modelos de iluminação locais, considere as afirmativas a seguir.\nI. A parcela de reflexão difusa depende da posição do observador.\nII. A parcela especular pode ser aproximada pelo modelo de Phong, que estabelece que a reflexão especular de uma superfície é proporcional ao cosseno do ângulo entre o vetor direção do observador e o\nvetor que estabelece a direção de reflexão especular ideal.\nIII. A parcela difusa ideal de iluminação pode ser aproximada pela lei de Lambert, que estabelece que a\nreflexão difusa de uma superfície é proporcional ao ângulo entre o vetor normal à superfície e o vetor\ndireção da fonte de luz.\nIV. A parcela de luz ambiente aproxima as múltiplas reflexões de luz das inúmeras superfícies presentes\nna cena.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e III são corretas.",
@@ -1048,7 +1048,7 @@
     "edicao": 2011,
     "id": "2011-59",
     "numero": 59,
-    "enunciado": "Considere o algoritmo A* (A Estrela / A Star ) usado para a busca de uma trajetória (pathfinding), sendo\naplicado sobre um mapa do tipo grade de ocupação, com custos de passagem associados a cada uma\ndas células da grade e com a seguinte configuração de nodos listados no conjunto em aberto (open-set ):\nNodo 1: g(1)=19; h(1)=6; L=6; C=8\nNodo 2: g(2)=18; h(2)=4; L=7; C=9\nNodo 3: g(3)=13; h(3)=5; L=5; C=10\nNodo 4: g(4)=16; h(4)=3; L=9; C=8\nNodo 5: g(5)=16; h(5)=3; L=10;C=7\nonde “L” e “C” são a linha e coluna do respectivo nodo dentro da grade de ocupação.\nA posição alvo a ser alcançada dentro da trajetória deste exemplo é definida pela linha e coluna L_Alvo=10\ne C_Alvo=10, ou seja, a coordenada (10,10). “g(n)” representa o custo (gasto) do caminho percorrido e\n“h(n)” representa a estimativa heurística de custo até o alvo da célula em questão, sendo que “n” repre-\nsenta o número do nodo que identifica as células, e esta célula ocupa uma determinada posição (L,C)\ndentro da grade.\nQual dos seguintes nodos será selecionado do conjunto em aberto como sendo o próximo nodo a ser\navaliado, depois removido do conjunto de nodos em aberto (open-set ) e colocado na lista de nodos já\nvisitados (closed-set )?",
+    "enunciado": "Considere o algoritmo A* (A Estrela / A Star ) usado para a busca de uma trajetória (pathfinding), sendo\naplicado sobre um mapa do tipo grade de ocupação, com custos de passagem associados a cada uma\ndas células da grade e com a seguinte configuração de nodos listados no conjunto em aberto (open-set ):\nNodo 1: g(1)=19; h(1)=6; L=6; C=8\nNodo 2: g(2)=18; h(2)=4; L=7; C=9\nNodo 3: g(3)=13; h(3)=5; L=5; C=10\nNodo 4: g(4)=16; h(4)=3; L=9; C=8\nNodo 5: g(5)=16; h(5)=3; L=10;C=7\nonde “L” e “C” são a linha e coluna do respectivo nodo dentro da grade de ocupação.\nA posição alvo a ser alcançada dentro da trajetória deste exemplo é definida pela linha e coluna L_Alvo=10\ne C_Alvo=10, ou seja, a coordenada (10,10). “g(n)” representa o custo (gasto) do caminho percorrido e\n“h(n)” representa a estimativa heurística de custo até o alvo da célula em questão, sendo que “n” representa o número do nodo que identifica as células, e esta célula ocupa uma determinada posição (L,C)\ndentro da grade.\nQual dos seguintes nodos será selecionado do conjunto em aberto como sendo o próximo nodo a ser\navaliado, depois removido do conjunto de nodos em aberto (open-set ) e colocado na lista de nodos já\nvisitados (closed-set )?",
     "alternativas": [
       "a) Nodo 1",
       "b) Nodo 2",
@@ -1067,7 +1067,7 @@
     "edicao": 2011,
     "id": "2011-60",
     "numero": 60,
-    "enunciado": "Tendo em vista a complexidade envolvida no desenvolvimento de um sistema de software, é importante\nassegurar que ele cumpra com suas especificações e atenda às necessidades dos usuários.\nSobre o desenvolvimento de software, considere as afirmativas a seguir.\nI. A Validação tem como objetivo responder: “Estamos construindo o produto certo?” Já a Verificação\nbusca responder: “Estamos construindo o produto corretamente?”\nII. Em um cadastro, encontra-se um campo de entrada solicitando o ano de nascimento, sendo válidos\nvalores entre 1900 e 2011. Os casos de testes para este campo, considerando a técnica de análise de\nvalor limite, são: 1899, 1900, 1901, 2010, 2011, 2012 e 0.\nIII. As atividades de Verificação e Validação envolvem atividades de análise estática e de análise dinâmica\ndo produto em desenvolvimento, e apenas as atividades de análise dinâmica envolvem a execução do\nproduto.\nIV. Um dos objetivos dos métodos de teste de caixa-preta é garantir que todos os caminhos de um pro-\ngrama tenham sido exercitados pelo menos uma vez, podendo-se aplicar a técnica do teste do cami-\nnho básico para este fim.\nAssinale a alternativa correta.",
+    "enunciado": "Tendo em vista a complexidade envolvida no desenvolvimento de um sistema de software, é importante\nassegurar que ele cumpra com suas especificações e atenda às necessidades dos usuários.\nSobre o desenvolvimento de software, considere as afirmativas a seguir.\nI. A Validação tem como objetivo responder: “Estamos construindo o produto certo?” Já a Verificação\nbusca responder: “Estamos construindo o produto corretamente?”\nII. Em um cadastro, encontra-se um campo de entrada solicitando o ano de nascimento, sendo válidos\nvalores entre 1900 e 2011. Os casos de testes para este campo, considerando a técnica de análise de\nvalor limite, são: 1899, 1900, 1901, 2010, 2011, 2012 e 0.\nIII. As atividades de Verificação e Validação envolvem atividades de análise estática e de análise dinâmica\ndo produto em desenvolvimento, e apenas as atividades de análise dinâmica envolvem a execução do\nproduto.\nIV. Um dos objetivos dos métodos de teste de caixa-preta é garantir que todos os caminhos de um programa tenham sido exercitados pelo menos uma vez, podendo-se aplicar a técnica do teste do caminho básico para este fim.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e III são corretas.",
@@ -1086,7 +1086,7 @@
     "edicao": 2011,
     "id": "2011-61",
     "numero": 61,
-    "enunciado": "O algoritmo de busca Minimax é uma técnica de Inteligência Artificial muito usada em jogos.\nCom relação a esse algoritmo, considere as afirmativas a seguir.\nI. O Minimax é um algoritmo que faz uma busca exaustiva no espaço de estados considerando as pos-\nsíveis jogadas de um oponente a fim de encontrar a solução ótima.\nII. A poda Alfa-Beta, junto ao Minimax, utiliza-se de uma heurística de corte limitando a profundidade em\ntermos do número de jogadas de cada oponente.\nIII. O Minimax é um algoritmo que faz uma busca heurística do tipo “em largura” (Breadth-first_search).\nIV. O Minimax se caracteriza por ser um algoritmo de busca em jogos com adversários.\nAssinale a alternativa correta.",
+    "enunciado": "O algoritmo de busca Minimax é uma técnica de Inteligência Artificial muito usada em jogos.\nCom relação a esse algoritmo, considere as afirmativas a seguir.\nI. O Minimax é um algoritmo que faz uma busca exaustiva no espaço de estados considerando as possíveis jogadas de um oponente a fim de encontrar a solução ótima.\nII. A poda Alfa-Beta, junto ao Minimax, utiliza-se de uma heurística de corte limitando a profundidade em\ntermos do número de jogadas de cada oponente.\nIII. O Minimax é um algoritmo que faz uma busca heurística do tipo “em largura” (Breadth-first_search).\nIV. O Minimax se caracteriza por ser um algoritmo de busca em jogos com adversários.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -1105,7 +1105,7 @@
     "edicao": 2011,
     "id": "2011-62",
     "numero": 62,
-    "enunciado": "No que tange à área de segmentação de imagens, considere as afirmativas a seguir.\nI. A técnica de componentes conexos é considerada um tipo de segmentação, pois realiza o agrupa-\nmento de pixels adjacentes.\nII. A segmentação de imagens identifica as cores que se encontram fora do espectro de cores RGB,\nadequando a sua intensidade conforme os limites deste espectro.\nIII. A segmentação de imagens consiste em produzir regiões na imagem com base em algum critério de\nsimilaridade, homogeneidade e continuidade.\nIV. A segmentação é uma forma de compactação de imagem, ocasionando, no entanto, perda na quali-\ndade.\nAssinale a alternativa correta.",
+    "enunciado": "No que tange à área de segmentação de imagens, considere as afirmativas a seguir.\nI. A técnica de componentes conexos é considerada um tipo de segmentação, pois realiza o agrupamento de pixels adjacentes.\nII. A segmentação de imagens identifica as cores que se encontram fora do espectro de cores RGB,\nadequando a sua intensidade conforme os limites deste espectro.\nIII. A segmentação de imagens consiste em produzir regiões na imagem com base em algum critério de\nsimilaridade, homogeneidade e continuidade.\nIV. A segmentação é uma forma de compactação de imagem, ocasionando, no entanto, perda na qualidade.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -1200,7 +1200,7 @@
     "edicao": 2011,
     "id": "2011-69",
     "numero": 69,
-    "enunciado": "Sobre o acesso residencial de banda larga, através de modem a cabo (cable modem) ou ADSL (asymme-\ntrical digital subscriber line), assinale a afirmativa correta.",
+    "enunciado": "Sobre o acesso residencial de banda larga, através de modem a cabo (cable modem) ou ADSL (asymmetrical digital subscriber line), assinale a afirmativa correta.",
     "alternativas": [
       "a) O desempenho do acesso em arquitetura de modem a cabo independe de quantos usuários estão usando\nsimultaneamente a rede, porque o cabo trabalha com multiplexação em frequência (FDM).",
       "b) Na tecnologia de modem a cabo, a taxa máxima de transmissão (em bps) é variável e alocada de acordo com\na demanda do usuário.",
@@ -1390,7 +1390,7 @@
     "edicao": 2010,
     "id": "2010-21",
     "numero": 21,
-    "enunciado": "Um estudante de computação precisa resolver um problema bastante importante, que é executar as ope-\nrações que estão descritas abaixo, cuja estrutura é uma pilha. Tão logo ele retire algum elemento desta\npilha, estes deverão ser inseridos em uma fila, cuja entrada é pela esquerda e a saída, pela direita.\nAssinale a alternativa que contém a sequência correta de entrada dos elementos na fila.\nPUSH P\nPUSH E\nPUSH R\nPUSH T\nPUSH O\nPOP\nPOP\nPUSH S\nPUSH O\nPUSH L\nPOP\nPOP\nPOP",
+    "enunciado": "Um estudante de computação precisa resolver um problema bastante importante, que é executar as operações que estão descritas abaixo, cuja estrutura é uma pilha. Tão logo ele retire algum elemento desta\npilha, estes deverão ser inseridos em uma fila, cuja entrada é pela esquerda e a saída, pela direita.\nAssinale a alternativa que contém a sequência correta de entrada dos elementos na fila.\nPUSH P\nPUSH E\nPUSH R\nPUSH T\nPUSH O\nPOP\nPOP\nPUSH S\nPUSH O\nPUSH L\nPOP\nPOP\nPOP",
     "alternativas": [
       "a) S - O - L - T - O",
       "b) O - T - R - E - P",
@@ -1523,7 +1523,7 @@
     "edicao": 2010,
     "id": "2010-38",
     "numero": 38,
-    "enunciado": "Um analista de sistemas foi convidado para opinar sobre por que um determinado sistema tinha desem-\npenho ruim. Considerando que o analista observou que o sistema tinha alta taxa de acesso a disco, por\ndemanda de entrada e saída dos processos, qual das alternativas abaixo pode explicar o baixo desempe-\nnho?",
+    "enunciado": "Um analista de sistemas foi convidado para opinar sobre por que um determinado sistema tinha desempenho ruim. Considerando que o analista observou que o sistema tinha alta taxa de acesso a disco, por\ndemanda de entrada e saída dos processos, qual das alternativas abaixo pode explicar o baixo desempenho?",
     "alternativas": [
       "a) O sistema operacional gerenciava E/S pelo algoritmo FIFO.",
       "b) O sistema operacional entrava em deadlock.",
@@ -1561,7 +1561,7 @@
     "edicao": 2010,
     "id": "2010-47",
     "numero": 47,
-    "enunciado": "Índices são estruturas de acesso auxiliares usados para aumentar a velocidade de recuperação de regis-\ntros na resposta a certas condições de busca.\nCom base nos conhecimentos sobre índices, considere as afirmativas a seguir.\nI. Um índice esparso possui uma entrada de índice para cada valor da chave de busca (portanto, para\ncada registro) do arquivo de dados. Um índice denso possui entradas de índice para apenas alguns\ndos valores da chave de busca.\nII. Um arquivo de índice é um exemplo de arquivo sequencial; os pares chave-ponteiro podem ser trata-\ndos como registros classificados pelo valor da chave de pesquisa.\nIII. Um arquivo pode ter, no máximo, um índice secundário, utilizado para ordenar fisicamente os re-\ngistros do arquivo no disco, porém um arquivo pode ter diversos índices primários, que podem ser\nespecificados sobre qualquer campo de um arquivo.\nIV. Inserir ou eliminar registros no arquivo de dados resulta na mesma ação sobre o seu arquivo de índi-\nces (se ele for denso), à medida que um par chave-ponteiro para esse registro é inserido ou eliminado.\nAssinale a alternativa correta.",
+    "enunciado": "Índices são estruturas de acesso auxiliares usados para aumentar a velocidade de recuperação de registros na resposta a certas condições de busca.\nCom base nos conhecimentos sobre índices, considere as afirmativas a seguir.\nI. Um índice esparso possui uma entrada de índice para cada valor da chave de busca (portanto, para\ncada registro) do arquivo de dados. Um índice denso possui entradas de índice para apenas alguns\ndos valores da chave de busca.\nII. Um arquivo de índice é um exemplo de arquivo sequencial; os pares chave-ponteiro podem ser tratados como registros classificados pelo valor da chave de pesquisa.\nIII. Um arquivo pode ter, no máximo, um índice secundário, utilizado para ordenar fisicamente os registros do arquivo no disco, porém um arquivo pode ter diversos índices primários, que podem ser\nespecificados sobre qualquer campo de um arquivo.\nIV. Inserir ou eliminar registros no arquivo de dados resulta na mesma ação sobre o seu arquivo de índices (se ele for denso), à medida que um par chave-ponteiro para esse registro é inserido ou eliminado.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as aÆrmativas II e IV são corretas.",
@@ -1580,7 +1580,7 @@
     "edicao": 2010,
     "id": "2010-48",
     "numero": 48,
-    "enunciado": "Um arquivo é organizado logicamente como uma sequência de registros. Esses registros são mapeados\nem blocos de discos.\nCom base no conhecimento sobre organização de arquivos, considere as afirmativas a seguir.\nI. As organizações de arquivos sequenciais exigem uma estrutura de índice para localizar os dados. De\noutra forma, organizações de arquivos baseadas em hashing permitem-nos encontrar o endereço de\num item de dado diretamente por meio do cálculo de uma função sobre o valor da chave de procura\ndo registro desejado.\nII. As operações em arquivos são geralmente divididas em operações de recuperação e operações de\natualização: as primeiras não alteram nenhum valor no arquivo, apenas localizam certos registros,\nde forma que seus valores de campo possam ser examinados e processados; as últimas mudam o\narquivo por meio da inclusão ou da exclusão de registros ou pela modificação de valores dos campos.\nIII. Registros de tamanho fixo permitem campos repetidos, tamanhos variáveis para um ou mais campos\ne ainda o armazenamento de múltiplos tipos de registro.\nIV. Nos arquivos desordenados (também conhecidos como arquivos pilha), os registros são posiciona-\ndos no arquivo segundo a ordem pela qual foram incluídos, ou seja, novos registros são acrescen-\ntados no final do arquivo. Incluir um novo registro é muito eficiente, entretanto a pesquisa por um\nregistro, usando qualquer condição, envolve uma pesquisa sequencial bloco a bloco do arquivo, pro-\ncedimento dispendioso.\nAssinale a alternativa correta.",
+    "enunciado": "Um arquivo é organizado logicamente como uma sequência de registros. Esses registros são mapeados\nem blocos de discos.\nCom base no conhecimento sobre organização de arquivos, considere as afirmativas a seguir.\nI. As organizações de arquivos sequenciais exigem uma estrutura de índice para localizar os dados. De\noutra forma, organizações de arquivos baseadas em hashing permitem-nos encontrar o endereço de\num item de dado diretamente por meio do cálculo de uma função sobre o valor da chave de procura\ndo registro desejado.\nII. As operações em arquivos são geralmente divididas em operações de recuperação e operações de\natualização: as primeiras não alteram nenhum valor no arquivo, apenas localizam certos registros,\nde forma que seus valores de campo possam ser examinados e processados; as últimas mudam o\narquivo por meio da inclusão ou da exclusão de registros ou pela modificação de valores dos campos.\nIII. Registros de tamanho fixo permitem campos repetidos, tamanhos variáveis para um ou mais campos\ne ainda o armazenamento de múltiplos tipos de registro.\nIV. Nos arquivos desordenados (também conhecidos como arquivos pilha), os registros são posicionados no arquivo segundo a ordem pela qual foram incluídos, ou seja, novos registros são acrescentados no final do arquivo. Incluir um novo registro é muito eficiente, entretanto a pesquisa por um\nregistro, usando qualquer condição, envolve uma pesquisa sequencial bloco a bloco do arquivo, procedimento dispendioso.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e III são corretas.",
@@ -1618,7 +1618,7 @@
     "edicao": 2010,
     "id": "2010-50",
     "numero": 50,
-    "enunciado": "Determinar a corretude da conjectura P ≠ NP constitui-se em um problema de decisão que desafia os\ncientistas da computação e matemáticos desde sua proposição. Levando-se em conta este problema e a\nteoria de decibilidade, considere as afirmativas a seguir.\nI. Não há algoritmo determinístico de tempo polinomial que solucione este problema de decisão.\nII. Existem apenas algoritmos não determinísticos para solucionar este problema de decisão.\nIII. Existe um algoritmo determinístico de tempo polinomial para este problema de decisão.\nIV. Considerando-se os algoritmos “retorne sim” e “retorne não”, um deles é a solução para este pro-\nblema de decisão.\nAssinale a alternativa correta.",
+    "enunciado": "Determinar a corretude da conjectura P ≠ NP constitui-se em um problema de decisão que desafia os\ncientistas da computação e matemáticos desde sua proposição. Levando-se em conta este problema e a\nteoria de decibilidade, considere as afirmativas a seguir.\nI. Não há algoritmo determinístico de tempo polinomial que solucione este problema de decisão.\nII. Existem apenas algoritmos não determinísticos para solucionar este problema de decisão.\nIII. Existe um algoritmo determinístico de tempo polinomial para este problema de decisão.\nIV. Considerando-se os algoritmos “retorne sim” e “retorne não”, um deles é a solução para este problema de decisão.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -1637,7 +1637,7 @@
     "edicao": 2010,
     "id": "2010-51",
     "numero": 51,
-    "enunciado": "No processo de síntese da imagem de uma cena tridimensional, também denominado pipeline gráfico,\ndiversas operações são executadas em sequência. O objetivo destas operações é converter as primitivas\ngeométricas que descrevem os objetos da cena em alto-nível, junto com a especificação da câmera sinté-\ntica, em uma coleção de pixels na tela.\nAssinale a alternativa que apresenta a sequência correta dessas operações.",
+    "enunciado": "No processo de síntese da imagem de uma cena tridimensional, também denominado pipeline gráfico,\ndiversas operações são executadas em sequência. O objetivo destas operações é converter as primitivas\ngeométricas que descrevem os objetos da cena em alto-nível, junto com a especificação da câmera sintética, em uma coleção de pixels na tela.\nAssinale a alternativa que apresenta a sequência correta dessas operações.",
     "alternativas": [
       "a) Projeção/Recorte/Rasterização/Visibilidade",
       "b) Recorte/Projeção/Visibilidade/Rasterização",
@@ -1656,7 +1656,7 @@
     "edicao": 2010,
     "id": "2010-52",
     "numero": 52,
-    "enunciado": "Considere as afirmativas a seguir.\nI. O modelo de iluminação de Phong obtém as cores internas aos polígonos por interpolação das cores\nnos vértices.\nII. A técnica de z-buffer utiliza ordenação de primitivas para determinação dos pixels visíveis.\nIII. O ponto (2,1,3,2), expresso em coordenadas homogêneas, equivale ao ponto (1.0, 0.5, 1.5) em coorde-\nnadas cartesianas tridimensionais.\nIV. Uma das principais vantagens da representação de objetos como malhas poligonais triangulares é a\ngarantia de que todas as faces são planares.\nAssinale a alternativa correta.",
+    "enunciado": "Considere as afirmativas a seguir.\nI. O modelo de iluminação de Phong obtém as cores internas aos polígonos por interpolação das cores\nnos vértices.\nII. A técnica de z-buffer utiliza ordenação de primitivas para determinação dos pixels visíveis.\nIII. O ponto (2,1,3,2), expresso em coordenadas homogêneas, equivale ao ponto (1.0, 0.5, 1.5) em coordenadas cartesianas tridimensionais.\nIV. Uma das principais vantagens da representação de objetos como malhas poligonais triangulares é a\ngarantia de que todas as faces são planares.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -1694,13 +1694,13 @@
     "edicao": 2010,
     "id": "2010-56",
     "numero": 56,
-    "enunciado": "Em uma rede de computadores, cujos roteadores estão configurados para atualizar suas tabelas de rote-\namento por meio do emprego de protocolos de roteamento, é correto afirmar:",
+    "enunciado": "Em uma rede de computadores, cujos roteadores estão configurados para atualizar suas tabelas de roteamento por meio do emprego de protocolos de roteamento, é correto afirmar:",
     "alternativas": [
       "a) Roteadores de borda, que ligam a rede local a redes remotas, tipicamente suportam dois protocolos de roteamento: um protocolo interno para a comunicação com os roteadores locais e um protocolo externo para a comunicação com os roteadores de redes remotas.",
-      "b) Ao se interromper o uso dos protocolos do roteamento, a rede deixará de operar porque não haverá possibili-\ndade de atualização das tabelas de roteamento dos roteadores.",
+      "b) Ao se interromper o uso dos protocolos do roteamento, a rede deixará de operar porque não haverá possibilidade de atualização das tabelas de roteamento dos roteadores.",
       "c) Roteadores que empregam protocolos de roteamento trocam mensagens de controle de tais protocolos apenas\nquando os enlaces da rede se tornam inoperantes ou quando os mesmos voltam a operar.",
       "d) O RIP (Routing Information Protocol), que emprega o algoritmo de roteamento vetor distância, vem sucedendo\nnas redes locais o protocolo OSPF (Open Shortest Path First), o qual emprega o algoritmo estado de enlace.",
-      "e) Protocolos de aplicação, como o HTTP, podem diretamente controlar os protocolos de roteamento ao soli-\ncitarem que os roteadores da rede calculem rotas alternativas para transportar o tráfego dos protocolos de\naplicação."
+      "e) Protocolos de aplicação, como o HTTP, podem diretamente controlar os protocolos de roteamento ao solicitarem que os roteadores da rede calculem rotas alternativas para transportar o tráfego dos protocolos de\naplicação."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "Redes de Computadores",
@@ -1713,7 +1713,7 @@
     "edicao": 2010,
     "id": "2010-57",
     "numero": 57,
-    "enunciado": "O problema de tratamento de regiões críticas é agravado em sistemas distribuídos, nos quais a não exis-\ntência de um controle centralizado dificulta a exclusão mútua. No algoritmo de Ricart-Agrawala, a entrada\nna região crítica, quando mais de um processo quer entrar nela, é feita após o processo",
+    "enunciado": "O problema de tratamento de regiões críticas é agravado em sistemas distribuídos, nos quais a não existência de um controle centralizado dificulta a exclusão mútua. No algoritmo de Ricart-Agrawala, a entrada\nna região crítica, quando mais de um processo quer entrar nela, é feita após o processo",
     "alternativas": [
       "a) não ter recebido requisição dos demais processos antes de fazer sua requisição.",
       "b) passar a ter o menor valor de relógio lógico entre todos os processos.",
@@ -1789,7 +1789,7 @@
     "edicao": 2010,
     "id": "2010-62",
     "numero": 62,
-    "enunciado": "A Engenharia de Requisitos é um processo que envolve todas as atividades exigidas para criar e manter\no documento de requisitos de sistema.\nSobre a Engenharia de Requisitos, considere as afirmativas a seguir.\nI. A Engenharia de Requisitos, como todas as outras atividades de Engenharia de Software, precisa\nser adaptada às necessidades do processo, do projeto, do produto e do pessoal que está fazendo o\ntrabalho.\nII. No estágio de levantamento e análise dos requisitos, os membros da equipe técnica de desenvol-\nvimento do software trabalham com o cliente e os usuários finais do sistema para descobrir mais\ninformações sobre o domínio da aplicação, que serviços o sistema deve oferecer, o desempenho\nexigido do sistema, as restrições de hardware, entre outras informações.\nIII. Na medida em que a informação de vários pontos de vista é coletada, os requisitos emergentes são\nconsistentes.\nIV. A validação de requisitos se ocupa de mostrar que estes realmente definem o sistema que o cliente\ndeseja. Ela é importante porque a ocorrência de erros em um documento de requisitos pode levar a\ngrandes custos relacionados ao retrabalho.\nAssinale a alternativa correta.",
+    "enunciado": "A Engenharia de Requisitos é um processo que envolve todas as atividades exigidas para criar e manter\no documento de requisitos de sistema.\nSobre a Engenharia de Requisitos, considere as afirmativas a seguir.\nI. A Engenharia de Requisitos, como todas as outras atividades de Engenharia de Software, precisa\nser adaptada às necessidades do processo, do projeto, do produto e do pessoal que está fazendo o\ntrabalho.\nII. No estágio de levantamento e análise dos requisitos, os membros da equipe técnica de desenvolvimento do software trabalham com o cliente e os usuários finais do sistema para descobrir mais\ninformações sobre o domínio da aplicação, que serviços o sistema deve oferecer, o desempenho\nexigido do sistema, as restrições de hardware, entre outras informações.\nIII. Na medida em que a informação de vários pontos de vista é coletada, os requisitos emergentes são\nconsistentes.\nIV. A validação de requisitos se ocupa de mostrar que estes realmente definem o sistema que o cliente\ndeseja. Ela é importante porque a ocorrência de erros em um documento de requisitos pode levar a\ngrandes custos relacionados ao retrabalho.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e III são corretas.",
@@ -1808,7 +1808,7 @@
     "edicao": 2010,
     "id": "2010-66",
     "numero": 66,
-    "enunciado": "Com base no conhecimento sobre Redes Neurais Artificiais, considere as afirmativas a seguir.\nI. A função booleana ou exclusivo (XOR) pode ser implementada usando uma rede perceptron de ca-\nmada única.\nII. Redes Neurais Artificiais do tipo MLP (Multilayer Perceptron) são capazes de classificar padrões de\nentrada não linearmente separáveis.\nIII. Retropropagação (backpropagation) é um algoritmo de aprendizagem supervisionada.\nIV. Redes Neurais Artificiais são apropriadas para a prova automática de teoremas.\nAssinale a alternativa correta.",
+    "enunciado": "Com base no conhecimento sobre Redes Neurais Artificiais, considere as afirmativas a seguir.\nI. A função booleana ou exclusivo (XOR) pode ser implementada usando uma rede perceptron de camada única.\nII. Redes Neurais Artificiais do tipo MLP (Multilayer Perceptron) são capazes de classificar padrões de\nentrada não linearmente separáveis.\nIII. Retropropagação (backpropagation) é um algoritmo de aprendizagem supervisionada.\nIV. Redes Neurais Artificiais são apropriadas para a prova automática de teoremas.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e IV são corretas.",
       "b) Somente as afirmativas II e III são corretas.",
@@ -1827,7 +1827,7 @@
     "edicao": 2010,
     "id": "2010-67",
     "numero": 67,
-    "enunciado": "Sobre Ciclo de Vida de Desenvolvimento de Software, é correto afirmar:\nI. O desenvolvimento em cascata tem como base a ideia de desenvolver uma implementação inicial,\nmostrar e discutir tal implementação com o usuário e fazer seu aprimoramento por meio de versões\nsubsequentes, até que um sistema adequado tenha sido desenvolvido.\nII. No modelo de processo de desenvolvimento em espiral, cada loop na espiral representa uma fase\ndo processo de software. Este modelo exige a consideração direta dos riscos técnicos em todos os\nestágios do projeto e, se aplicado adequadamente, deve reduzir os riscos antes que eles se tornem\nproblemáticos.\nIII. O Rapid Application Development (Desenvolvimento Rápido de Aplicação) é um modelo de processo\nde software incremental que enfatiza um ciclo de desenvolvimento rápido. Este modelo é uma adap-\ntação de modelo cascata, no qual o desenvolvimento rápido é conseguido com o uso de uma aborda-\ngem de construção baseada em componentes.\nIV. O modelo incremental combina elementos do modelo em cascata aplicado de maneira iterativa. Em\num processo de desenvolvimento incremental, os clientes identificam (esboçam) as funções a serem\nfornecidas pelo sistema e a importância das mesmas. Em seguida, é definida uma série de estágios\nde entrega, com cada estágio fornecendo um subconjunto das funcionalidades do sistema.\nAssinale a alternativa correta.",
+    "enunciado": "Sobre Ciclo de Vida de Desenvolvimento de Software, é correto afirmar:\nI. O desenvolvimento em cascata tem como base a ideia de desenvolver uma implementação inicial,\nmostrar e discutir tal implementação com o usuário e fazer seu aprimoramento por meio de versões\nsubsequentes, até que um sistema adequado tenha sido desenvolvido.\nII. No modelo de processo de desenvolvimento em espiral, cada loop na espiral representa uma fase\ndo processo de software. Este modelo exige a consideração direta dos riscos técnicos em todos os\nestágios do projeto e, se aplicado adequadamente, deve reduzir os riscos antes que eles se tornem\nproblemáticos.\nIII. O Rapid Application Development (Desenvolvimento Rápido de Aplicação) é um modelo de processo\nde software incremental que enfatiza um ciclo de desenvolvimento rápido. Este modelo é uma adaptação de modelo cascata, no qual o desenvolvimento rápido é conseguido com o uso de uma abordagem de construção baseada em componentes.\nIV. O modelo incremental combina elementos do modelo em cascata aplicado de maneira iterativa. Em\num processo de desenvolvimento incremental, os clientes identificam (esboçam) as funções a serem\nfornecidas pelo sistema e a importância das mesmas. Em seguida, é definida uma série de estágios\nde entrega, com cada estágio fornecendo um subconjunto das funcionalidades do sistema.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e III são corretas.",
@@ -1846,7 +1846,7 @@
     "edicao": 2010,
     "id": "2010-68",
     "numero": 68,
-    "enunciado": "Considere os tipos de gramáticas para análise sintática a seguir.\nI. Gramática de precedência simples.\nII. Gramática LL(1).\nIII. Gramática de operadores.\nQual alternativa indica o método correto de análise sintática para cada uma das gramáticas apresenta-\ndas?",
+    "enunciado": "Considere os tipos de gramáticas para análise sintática a seguir.\nI. Gramática de precedência simples.\nII. Gramática LL(1).\nIII. Gramática de operadores.\nQual alternativa indica o método correto de análise sintática para cada uma das gramáticas apresentadas?",
     "alternativas": [
       "a) I - Análise Descendente, II - Análise Descendente, III - Análise Ascendente.",
       "b) I - Análise Ascendente, II - Análise Ascendente, III - Análise Descendente.",
@@ -1865,7 +1865,7 @@
     "edicao": 2010,
     "id": "2010-70",
     "numero": 70,
-    "enunciado": "O processo de normalização baseia-se no conceito de forma normal, que é uma regra que deve ser obe-\ndecida por uma relação para que seja considerada bem projetada.\nCom base nos conhecimentos sobre normalização, considere as afirmativas a seguir.\nI. A Primeira Forma Normal (1FN) define que a relação não deve conter atributos não atômicos ou as\nrelações aninhadas. A ação que deve ser tomada para deixar uma relação na 1FN é formar uma nova\nrelação para cada atributo não atômico ou para cada relação aninhada.\nII. A Segunda Forma Normal (2FN) define que, além de estar na 1FN, para as relações que possuam\nchaves primárias com vários atributos, nenhum atributo externo à chave deve ser funcionalmente\ndependente de parte da chave primária. A ação que deve ser tomada é decompor e montar uma nova\nrelação para cada chave parcial com seu(s) atributo(s) dependente(s).\nIII. A Terceira Forma Normal (3FN) define que, além de estar na 2FN, as relações não devem ter atribu-\ntos que não pertençam a uma chave, funcionalmente determinados por outro atributo que também\nnão pertença a uma chave (ou por um conjunto de atributos não chave). A ação que deve ser to-\nmada é decompor e montar uma relação que contenha o(s) atributo(s) não chave que determina(m)\nfuncionalmente o(s) outro(s) atributo(s).\nIV. Uma dependência parcial ocorre quando um atributo, além de depender da chave primária, depende\nde outro atributo ou conjunto de atributos da relação. Uma dependência transitiva ocorre quando um\natributo depende apenas de parte de uma chave primária composta.\nAssinale a alternativa correta.",
+    "enunciado": "O processo de normalização baseia-se no conceito de forma normal, que é uma regra que deve ser obedecida por uma relação para que seja considerada bem projetada.\nCom base nos conhecimentos sobre normalização, considere as afirmativas a seguir.\nI. A Primeira Forma Normal (1FN) define que a relação não deve conter atributos não atômicos ou as\nrelações aninhadas. A ação que deve ser tomada para deixar uma relação na 1FN é formar uma nova\nrelação para cada atributo não atômico ou para cada relação aninhada.\nII. A Segunda Forma Normal (2FN) define que, além de estar na 1FN, para as relações que possuam\nchaves primárias com vários atributos, nenhum atributo externo à chave deve ser funcionalmente\ndependente de parte da chave primária. A ação que deve ser tomada é decompor e montar uma nova\nrelação para cada chave parcial com seu(s) atributo(s) dependente(s).\nIII. A Terceira Forma Normal (3FN) define que, além de estar na 2FN, as relações não devem ter atributos que não pertençam a uma chave, funcionalmente determinados por outro atributo que também\nnão pertença a uma chave (ou por um conjunto de atributos não chave). A ação que deve ser tomada é decompor e montar uma relação que contenha o(s) atributo(s) não chave que determina(m)\nfuncionalmente o(s) outro(s) atributo(s).\nIV. Uma dependência parcial ocorre quando um atributo, além de depender da chave primária, depende\nde outro atributo ou conjunto de atributos da relação. Uma dependência transitiva ocorre quando um\natributo depende apenas de parte de uma chave primária composta.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e IV são corretas.",
       "b) Somente as afirmativas II e III são corretas.",
@@ -2359,7 +2359,7 @@
     "edicao": 2008,
     "id": "2008-07",
     "numero": 7,
-    "enunciado": "Analise as seguintes afirmativas.\nI. Um servidor DNS suporta dois tipos de consulta: iterativa e recursiva. Na consulta\niterativa que é a mais utilizada, caso um servidor DNS não tenha a informação pedida\npela máquina solicitante, ele irá buscar a mesma consultando outros servidores.\nII. Como estratégia para aumentar a confiabilidade na resposta dos servidores DNS\nquando do emprego de caches, devem-se utilizar valores grandes de TLL (Time-To-\nLive), mantendo elevado o tempo de validade do registro na cache.\nIII. Um servidor DNS pode atender dois tipos de consultas: tradução direta, na qual, a\npartir de um endereço IP, o mesmo retorna o nome de rede do equipamento; e\ntradução inversa, na qual, a partir de um nome de rede, retorna o IP associado ao\nmesmo.\nA análise permite concluir que",
+    "enunciado": "Analise as seguintes afirmativas.\nI. Um servidor DNS suporta dois tipos de consulta: iterativa e recursiva. Na consulta\niterativa que é a mais utilizada, caso um servidor DNS não tenha a informação pedida\npela máquina solicitante, ele irá buscar a mesma consultando outros servidores.\nII. Como estratégia para aumentar a confiabilidade na resposta dos servidores DNS\nquando do emprego de caches, devem-se utilizar valores grandes de TLL (Time-ToLive), mantendo elevado o tempo de validade do registro na cache.\nIII. Um servidor DNS pode atender dois tipos de consultas: tradução direta, na qual, a\npartir de um endereço IP, o mesmo retorna o nome de rede do equipamento; e\ntradução inversa, na qual, a partir de um nome de rede, retorna o IP associado ao\nmesmo.\nA análise permite concluir que",
     "alternativas": [
       "a) nenhuma afirmativa está correta.",
       "b) somente a afirmativa I está correta",
@@ -2454,7 +2454,7 @@
     "edicao": 2008,
     "id": "2008-12",
     "numero": 12,
-    "enunciado": "Considere as seguintes afirmativas sobre o FRONT-END de um compilador.\nI. As mensagens de erro de um compilador são geralmente geradas no FRONT-END.\nMensagens de erro de compilação não são geradas no BACK-END.\nII. A análise léxica é geralmente implementada como uma subrotina do parser. A análise\nléxica reconhece símbolos léxicos (tokens) e encontra erros como esquecer o ponto-\ne-vírgula depois de um comando em Java.\nIII. Para evitar o problema do retrocesso no parser descendente recursivo, podemos usar\num parser recursivo preditivo que usa os conjuntos FIRST e FOLLOW para decidir\nqual produção aplicar à entrada.\nA análise permite concluir que",
+    "enunciado": "Considere as seguintes afirmativas sobre o FRONT-END de um compilador.\nI. As mensagens de erro de um compilador são geralmente geradas no FRONT-END.\nMensagens de erro de compilação não são geradas no BACK-END.\nII. A análise léxica é geralmente implementada como uma subrotina do parser. A análise\nléxica reconhece símbolos léxicos (tokens) e encontra erros como esquecer o pontoe-vírgula depois de um comando em Java.\nIII. Para evitar o problema do retrocesso no parser descendente recursivo, podemos usar\num parser recursivo preditivo que usa os conjuntos FIRST e FOLLOW para decidir\nqual produção aplicar à entrada.\nA análise permite concluir que",
     "alternativas": [
       "a) apenas a afirmativa I está correta.",
       "b) apenas a afirmativa II está correta.",
@@ -2720,7 +2720,7 @@
     "edicao": 2008,
     "id": "2008-30",
     "numero": 30,
-    "enunciado": "Analise as seguintes afirmativas.\nI. Todo autômato finito não-determinístico pode ser simulado por um autômato finito\ndeterminístico.\nII. Todo autômato finito determinístico pode ser simulado por um autômato finito não-\ndeterminístico.\nIII. Todo autômato finito não-determinístico pode ser simulado por um autômato de pilha\ndeterminístico.\nIV. Todo autômato de pilha determinístico pode ser simulado por um autômato finito não-\ndeterminístico.\nV. Todo autômato finito não-determinístico pode ser simulado por uma máquina de\nTuring determinística.\nA análise permite concluir que estão CORRETAS",
+    "enunciado": "Analise as seguintes afirmativas.\nI. Todo autômato finito não-determinístico pode ser simulado por um autômato finito\ndeterminístico.\nII. Todo autômato finito determinístico pode ser simulado por um autômato finito nãodeterminístico.\nIII. Todo autômato finito não-determinístico pode ser simulado por um autômato de pilha\ndeterminístico.\nIV. Todo autômato de pilha determinístico pode ser simulado por um autômato finito nãodeterminístico.\nV. Todo autômato finito não-determinístico pode ser simulado por uma máquina de\nTuring determinística.\nA análise permite concluir que estão CORRETAS",
     "alternativas": [
       "a) apenas as afirmativas I, II, III e IV.",
       "b) apenas as afirmativas II, III e V.",
@@ -3043,7 +3043,7 @@
     "edicao": 2007,
     "id": "2007-10",
     "numero": 10,
-    "enunciado": "Dados os conceitos de coerˆencia e completeza de um sistema dedutivo, analise\nI. Existe pelo menos um sistema de deduc¸˜ao coerente e completo para a L´ogica\nProposicional.\nII. Todo sistema de deduc¸˜ao para a L´ogica de Predicados de Primeira Ordem que ´e\ncompleto tamb´em ´e coerente.\nIII. Existe pelo menos um sistema de deduc¸˜ao coerente e completo para a L´ogica de\nPredicados de Primeira Ordem.",
+    "enunciado": "Dados os conceitos de coerência e completeza de um sistema dedutivo, analise\nI. Existe pelo menos um sistema de dedução coerente e completo para a Lógica\nProposicional.\nII. Todo sistema de dedução para a Lógica de Predicados de Primeira Ordem que é\ncompleto também é coerente.\nIII. Existe pelo menos um sistema de dedução coerente e completo para a Lógica de\nPredicados de Primeira Ordem.",
     "alternativas": [
       "a) nenhuma das afirmativas.",
       "b) somente as afirmativas I e II.",
@@ -3064,11 +3064,11 @@
     "numero": 27,
     "enunciado": "Assinale a alternativa que apresenta a afirmativa FALSA.",
     "alternativas": [
-      "a) Uma linguagem L ´e aceita por uma Ma´quina de Turing n˜ao determin´ıstica com\nk fitas, m dimens˜oes, n cabec¸otes de leitura e gravac¸˜ao por fita se, e somente se,\nela ´e aceita por uma M´aquina de Turing determin´ıstica com uma fita infinita em\napenas um sentido e um cabec¸ote de leitura e gravac¸˜ao.",
-      "b) Um problema ´e dito ser decid´ıvel se a linguagem associada a esse problema ´e\nrecursiva.",
-      "c) O conjunto de todos os programas que p´aram para uma dada entrada ´e um\nconjunto recursivo mas n˜ao recursivamente enumera´vel.",
-      "d) Uma func¸˜ao ´e parcialmente computa´vel se, e somente se, ela pode ser obtida a\npartir de func¸˜oes iniciais (por exemplo, sucessor, zero e pro jec¸˜ao) por um nu´mero\nfinito de aplicac¸˜oes de composi¸c˜ao, recurs˜ao primitiva e minimaliza¸c˜ao.",
-      "e) Uma Ma´quina de Turing Universal U toma como argumentos uma descric¸˜ao de\numa Ma´quina de Turing qualquer M e uma entrada x para M , e executa as\nmesmas operac¸˜oes sobre x que seriam executadas por M , ou seja, U simula M\nsobre x."
+      "a) Uma linguagem L é aceita por uma Máquina de Turing não determinística com\nk fitas, m dimensões, n cabeçotes de leitura e gravação por fita se, e somente se,\nela é aceita por uma Máquina de Turing determinística com uma fita infinita em\napenas um sentido e um cabeçote de leitura e gravação.",
+      "b) Um problema é dito ser decidível se a linguagem associada a esse problema é\nrecursiva.",
+      "c) O conjunto de todos os programas que páram para uma dada entrada é um\nconjunto recursivo mas não recursivamente enumerável.",
+      "d) Uma função é parcialmente computável se, e somente se, ela pode ser obtida a\npartir de funções iniciais (por exemplo, sucessor, zero e pro jeção) por um número\nfinito de aplicações de composi¸cão, recursão primitiva e minimaliza¸cão.",
+      "e) Uma Máquina de Turing Universal U toma como argumentos uma descrição de\numa Máquina de Turing qualquer M e uma entrada x para M , e executa as\nmesmas operações sobre x que seriam executadas por M , ou seja, U simula M\nsobre x."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Linguagens Formais, Autômatos e Computabilidade",
@@ -3081,13 +3081,13 @@
     "edicao": 2007,
     "id": "2007-29",
     "numero": 29,
-    "enunciado": "Analise as seguintes afirmativas.\nI. Encapsulamento ´e a capacidade de uma operac¸˜ao atuar de modos diversos em\nclasses diferentes.\nII. Polimorfismo ´e o compartilhamento de atributos e m´etodos entre classes com base\nem um relacionamento hier´arquico.\nIII. Heran¸ca consiste no processo de ocultac¸˜ao dos detalhes internos de implementac¸˜ao\nde um ob jeto.\nIV. Sobreposi¸c˜ao ´e a redefinic¸˜ao das func¸˜oes de um m´etodo herdado. Os m´etodos\napresentam assinaturas iguais.\nV. Em JAVA, todos os m´etodos numa classe abstrata devem ser declarados como\nabstratos.",
+    "enunciado": "Analise as seguintes afirmativas.\nI. Encapsulamento é a capacidade de uma operação atuar de modos diversos em\nclasses diferentes.\nII. Polimorfismo é o compartilhamento de atributos e métodos entre classes com base\nem um relacionamento hierárquico.\nIII. Heran¸ca consiste no processo de ocultação dos detalhes internos de implementação\nde um ob jeto.\nIV. Sobreposi¸cão é a redefinição das funções de um método herdado. Os métodos\napresentam assinaturas iguais.\nV. Em JAVA, todos os métodos numa classe abstrata devem ser declarados como\nabstratos.",
     "alternativas": [
-      "a) apenas a afirmativa IV est´a correta.",
-      "b) apenas as afirmativas III e IV est˜ao corretas.",
-      "c) apenas as afirmativas I, IV e V est˜ao corretas.",
-      "d) apenas as afirmativas I, III e V est˜ao corretas.",
-      "e) todas as afirmativas s˜ao falsas."
+      "a) apenas a afirmativa IV está correta.",
+      "b) apenas as afirmativas III e IV estão corretas.",
+      "c) apenas as afirmativas I, IV e V estão corretas.",
+      "d) apenas as afirmativas I, III e V estão corretas.",
+      "e) todas as afirmativas são falsas."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Linguagens de Programação",
@@ -3100,13 +3100,13 @@
     "edicao": 2007,
     "id": "2007-46",
     "numero": 46,
-    "enunciado": "Analise as seguintes afirmativas sobre os parsers descendentes recursivos.\nI. S˜ao parsers f´aceis de implementar para linguagens cuidadosamente pro jetadas,\npor´em geralmente exigem transformac¸˜oes em gram´aticas originalmente apresen-\ntadas em BNF.\nII. Um dos principais problemas desse tipo de parser ´e a necessidade de retrocesso nas\nalternativas, o que pode ser resolvido com o uso de um parser recursivo preditivo.\nIII. Para evitar os problemas do parser descendente recursivo, podemos realizar a\nan´alise TOP-DOWN usando um parser preditivo n˜ao recursivo, ou parser pred-\nitivo tabular. O parser preditivo tabular usa uma tabela baseada nos conjuntos\nFIRST e FOLLOW para decidir qual produc¸˜ao aplicar `a entrada.",
+    "enunciado": "Analise as seguintes afirmativas sobre os parsers descendentes recursivos.\nI. São parsers fáceis de implementar para linguagens cuidadosamente pro jetadas,\nporém geralmente exigem transformações em gramáticas originalmente apresentadas em BNF.\nII. Um dos principais problemas desse tipo de parser é a necessidade de retrocesso nas\nalternativas, o que pode ser resolvido com o uso de um parser recursivo preditivo.\nIII. Para evitar os problemas do parser descendente recursivo, podemos realizar a\nanálise TOP-DOWN usando um parser preditivo não recursivo, ou parser preditivo tabular. O parser preditivo tabular usa uma tabela baseada nos conjuntos\nFIRST e FOLLOW para decidir qual produção aplicar `a entrada.",
     "alternativas": [
-      "a) apenas a afirmativa I est´a correta.",
-      "b) apenas a afirmativa II est´a correta.",
-      "c) apenas a afirmativa III est´a correta.",
-      "d) apenas as afirmativas I, II est˜ao corretas.",
-      "e) as trˆes afirmativas est˜ao corretas."
+      "a) apenas a afirmativa I está correta.",
+      "b) apenas a afirmativa II está correta.",
+      "c) apenas a afirmativa III está correta.",
+      "d) apenas as afirmativas I, II estão corretas.",
+      "e) as três afirmativas estão corretas."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Linguagens Formais, Autômatos e Computabilidade",
@@ -3119,13 +3119,13 @@
     "edicao": 2007,
     "id": "2007-48",
     "numero": 48,
-    "enunciado": "Analise as seguintes afirmativas sobre a fase de an´alise (Front-End) de um com-\nI. O uso de uma vari´avel de ponto flutuante para indexar um vetor causa um erro\ngeralmente detectado na ana´lise semaˆntica.\nII. Parˆenteses desbalanceados s˜ao um erro geralmente detectado pela ana´lise l´exica\nj´a que essa fase lˆe o arquivo fonte e o traduz para uma sequ¨ˆencia de s´ımbolos\nl´exicos, ou tokens.\nIII. Para a an´alise sint´atica TOP-DOWN usando o m´etodo de empilhar e reduzir, ´e\nnecess´ario reescrever a gram´atica eliminando toda recursividade `a esquerda.",
+    "enunciado": "Analise as seguintes afirmativas sobre a fase de análise (Front-End) de um comI. O uso de uma variável de ponto flutuante para indexar um vetor causa um erro\ngeralmente detectado na análise semântica.\nII. Parênteses desbalanceados são um erro geralmente detectado pela análise léxica\njá que essa fase lê o arquivo fonte e o traduz para uma sequ¨ência de símbolos\nléxicos, ou tokens.\nIII. Para a análise sintática TOP-DOWN usando o método de empilhar e reduzir, é\nnecessário reescrever a gramática eliminando toda recursividade `a esquerda.",
     "alternativas": [
-      "a) todas as afirmativas s˜ao incorretas.",
-      "b) apenas a afirmativa II ´e incorreta.",
-      "c) apenas as afirmativas I e II s˜ao incorretas.",
-      "d) apenas as afirmativas I e III s˜ao incorretas.",
-      "e) apenas as afirmativas II e III s˜ao incorretas."
+      "a) todas as afirmativas são incorretas.",
+      "b) apenas a afirmativa II é incorreta.",
+      "c) apenas as afirmativas I e II são incorretas.",
+      "d) apenas as afirmativas I e III são incorretas.",
+      "e) apenas as afirmativas II e III são incorretas."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Linguagens Formais, Autômatos e Computabilidade",
@@ -3138,13 +3138,13 @@
     "edicao": 2007,
     "id": "2007-52",
     "numero": 52,
-    "enunciado": "Considere as seguintes afirmativas sobre as facilidades oferecidas pela UML 2.0.\nI. O Diagrama de Comunica¸c˜ao, como o pr´oprio nome j´a indica, procura dar ˆenfase\n`a troca de mensagens entre os ob jetos durante o processo. Outra caracter´ıstica\ninteressante ´e que, embora partilhe elementos com o Diagrama de Sequ¨ˆencias, o\nDiagrama de Comunica¸c˜ao n˜ao apresenta linhas de vida.\nII. Quando necessitamos detalhar um estado individual no Diagrama de Ma´quina de\nEstados, podemos utilizar o recurso estado composto, o qual possibilita a repre-\nsentac¸˜ao de subestados dentro de um mesmo diagrama.\nIII. Visando contemplar as necessidades de modelagem de sistemas de tempo real e\naplicac¸˜oes hiperm´ıdia e multim´ıdia, onde a representac¸˜ao do tempo em que um\nob jeto executa algo ´e essencial, a UML 2.0 disponibiliza o Diagrama de Tempo\nque descreve as mudanc¸as de estado de um ob jeto ao longo do tempo.\nIV. No intuito de facilitar a representac¸˜ao de uma vis˜ao mais geral de um sistema (ou\nprocesso), a UML 2.0 oferece o Diagrama de Intera¸c˜ao Geral, uma variac¸˜ao do\nDiagrama de Atividades no qual s˜ao utilizados quadros ao inv´es de n´os de ac¸˜ao.\nEstes podem aparecer no modo detalhado (apresentando seu comportamento in-\nterno) ou n˜ao.",
+    "enunciado": "Considere as seguintes afirmativas sobre as facilidades oferecidas pela UML 2.0.\nI. O Diagrama de Comunica¸cão, como o próprio nome já indica, procura dar ênfase\n`a troca de mensagens entre os ob jetos durante o processo. Outra característica\ninteressante é que, embora partilhe elementos com o Diagrama de Sequ¨ências, o\nDiagrama de Comunica¸cão não apresenta linhas de vida.\nII. Quando necessitamos detalhar um estado individual no Diagrama de Máquina de\nEstados, podemos utilizar o recurso estado composto, o qual possibilita a representação de subestados dentro de um mesmo diagrama.\nIII. Visando contemplar as necessidades de modelagem de sistemas de tempo real e\naplicações hipermídia e multimídia, onde a representação do tempo em que um\nob jeto executa algo é essencial, a UML 2.0 disponibiliza o Diagrama de Tempo\nque descreve as mudanças de estado de um ob jeto ao longo do tempo.\nIV. No intuito de facilitar a representação de uma visão mais geral de um sistema (ou\nprocesso), a UML 2.0 oferece o Diagrama de Intera¸cão Geral, uma variação do\nDiagrama de Atividades no qual são utilizados quadros ao invés de nós de ação.\nEstes podem aparecer no modo detalhado (apresentando seu comportamento interno) ou não.",
     "alternativas": [
-      "a) s˜ao verdadeiras todas as afirmativas.",
-      "b) nenhuma das afirmativas ´e verdadeira.",
-      "c) somente as afirmativas II e III s˜ao verdadeiras.",
-      "d) somente as afirmativas III e IV s˜ao verdadeiras.",
-      "e) somente as afirmativas I, II e III s˜ao verdadeiras."
+      "a) são verdadeiras todas as afirmativas.",
+      "b) nenhuma das afirmativas é verdadeira.",
+      "c) somente as afirmativas II e III são verdadeiras.",
+      "d) somente as afirmativas III e IV são verdadeiras.",
+      "e) somente as afirmativas I, II e III são verdadeiras."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "Engenharia de Software",
@@ -3157,7 +3157,7 @@
     "edicao": 2006,
     "id": "2006-07",
     "numero": 7,
-    "enunciado": "A distˆancia da origem à reta 4x − 3y − 15 = 0 é:",
+    "enunciado": "A distância da origem à reta 4x − 3y − 15 = 0 é:",
     "alternativas": [
       "a) 1/3",
       "b) 3",
@@ -3197,8 +3197,8 @@
     "numero": 28,
     "enunciado": "Qual das seguintes afirmações é falsa?",
     "alternativas": [
-      "a) Todo autˆomato finito não determinístico com transições vazias pode ser reduzido\npara um autˆomato finito determinístico.",
-      "b) Nem todo autˆomato com pilha não determinístico pode ser reduzido para um\nautˆomato com pilha determinístico.",
+      "a) Todo autômato finito não determinístico com transições vazias pode ser reduzido\npara um autômato finito determinístico.",
+      "b) Nem todo autômato com pilha não determinístico pode ser reduzido para um\nautômato com pilha determinístico.",
       "c) Toda máquina de Turing com N ≥ 1 fitas pode ser reduzida para uma máquina\nde Turing padrão.",
       "d) Para se provar que uma linguagem é regular basta usar o lema do bombeamento\n(pumping lemma ) de linguagens regulares.",
       "e) Máquinas de Turing aceitam linguagens geradas por gramáticas irrestritas."
@@ -3920,7 +3920,7 @@
     "enunciado": "Sobre a técnica conhecida como Z-buffer é correto afirmar que:",
     "alternativas": [
       "a) É possível realizar o cômputo das variáveis envolvidas de forma incremental.",
-      "b) As primitivas geométricas precisam estar ordenadas de acordo com a distância em relação ao obser-\nvador.",
+      "b) As primitivas geométricas precisam estar ordenadas de acordo com a distância em relação ao observador.",
       "c) É uma técnica muito comum de detecção de colisão.",
       "d) As dimensões do Z-buffer são independentes das dimensões do frame buffer.",
       "e) Nenhuma das alternativas acima está correta."
@@ -3936,7 +3936,7 @@
     "edicao": 2003,
     "id": "2003-50",
     "numero": 50,
-    "enunciado": "O pipeline de visualização de ob jetos tridimensionais reúne um conjunto de transformações e processos\naplicados a primitivas geométricas. Sobre essas transformações e processos pode-se dizer que:\nI. Os ob jetos devem corresponder a sólidos.\nII. As coordenadas dos vértices sofrem transformação de acordo com a posição e orientação do observa-\ndor.\nIII. Um volume de visualização correspondente a um paralelepípedo é determinado pela adoção de pro-\njeção perspectiva.\nIV. A fase final do pipeline corresponde à rasterização dos polígonos.\nSelecione a alternativa correta:",
+    "enunciado": "O pipeline de visualização de ob jetos tridimensionais reúne um conjunto de transformações e processos\naplicados a primitivas geométricas. Sobre essas transformações e processos pode-se dizer que:\nI. Os ob jetos devem corresponder a sólidos.\nII. As coordenadas dos vértices sofrem transformação de acordo com a posição e orientação do observador.\nIII. Um volume de visualização correspondente a um paralelepípedo é determinado pela adoção de projeção perspectiva.\nIV. A fase final do pipeline corresponde à rasterização dos polígonos.\nSelecione a alternativa correta:",
     "alternativas": [
       "a) Todas as afirmativas são verdadeiras.",
       "b) Apenas as afirmativas I e III são falsas.",
@@ -3974,7 +3974,7 @@
     "edicao": 2003,
     "id": "2003-52",
     "numero": 52,
-    "enunciado": "As seguintes afirmações dizem respeito ao modelo de desenvolvimento em Espiral - proposto por Barry\nBoehm na década de 70:\nI. suas atividades do desenvolvimento são conduzidas por riscos ;\nII. cada ciclo da espiral inclui 4 passos: passo 1 - identificação dos ob jetivos ; passo 2 - avaliação\ndas alternativas tendo em vista os ob jetivos e os riscos (incertezas, restrições) do desenvolvimento;\npasso 3 - desenvolvimento de estratégias (simulação, prototipagem) p/ resolver riscos; e passo 4 -\nplanejamento do próximo passo e continuidade do processo determinada pelos riscos restantes;\nIII. é um modelo evolutivo em que cada passo pode ser representado por um quadrante num diagrama\ncartesiano: assim na dimensão radical da espiral tem-se o custo acumulado dos vários passos do\ndesenvolvimento enquanto na dimensão angular tem-se o progresso do pro jeto.\nLevando-se em conta as três afirmações I, II e III acima, identifique a única alternativa válida:",
+    "enunciado": "As seguintes afirmações dizem respeito ao modelo de desenvolvimento em Espiral - proposto por Barry\nBoehm na década de 70:\nI. suas atividades do desenvolvimento são conduzidas por riscos ;\nII. cada ciclo da espiral inclui 4 passos: passo 1 - identificação dos ob jetivos ; passo 2 - avaliação\ndas alternativas tendo em vista os ob jetivos e os riscos (incertezas, restrições) do desenvolvimento;\npasso 3 - desenvolvimento de estratégias (simulação, prototipagem) p/ resolver riscos; e passo 4 planejamento do próximo passo e continuidade do processo determinada pelos riscos restantes;\nIII. é um modelo evolutivo em que cada passo pode ser representado por um quadrante num diagrama\ncartesiano: assim na dimensão radical da espiral tem-se o custo acumulado dos vários passos do\ndesenvolvimento enquanto na dimensão angular tem-se o progresso do pro jeto.\nLevando-se em conta as três afirmações I, II e III acima, identifique a única alternativa válida:",
     "alternativas": [
       "a) apenas a I e a II estão corretas;",
       "b) apenas a II e a III estão corretas;",
@@ -4373,7 +4373,7 @@
     "edicao": 2002,
     "id": "2002-11",
     "numero": 11,
-    "enunciado": "Uma prova de vestibular foi elaborada com 25 questões de múltipla escolha com 5 alter-\nnativas. O número de candidatos presentes `a prova foi 63127. Considere a afirmação:\nPelo menos 2 candidatos responderam de modo idêntico as k primeiras questões da\nprova. Qual é o maior valor de k para o qual podemos garantir que a afirmação é\nverdadeira.",
+    "enunciado": "Uma prova de vestibular foi elaborada com 25 questões de múltipla escolha com 5 alternativas. O número de candidatos presentes `a prova foi 63127. Considere a afirmação:\nPelo menos 2 candidatos responderam de modo idêntico as k primeiras questões da\nprova. Qual é o maior valor de k para o qual podemos garantir que a afirmação é\nverdadeira.",
     "alternativas": [
       "a) 10",
       "b) 9",

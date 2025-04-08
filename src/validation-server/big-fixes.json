@@ -136,7 +136,7 @@
     "edicao": 2012,
     "id": "2012-14",
     "numero": 14,
-    "enunciado": "Considerando os coeficientes de correlação, relacione a coluna da esquerda com os respectivos diagra-\nmas de dispersão, na coluna da direita.\n(I) Correlação positiva entre x e y. (A)\n(II) Correlação positiva perfeita entre x e y. (B)\n(III) Correlação negativa perfeita entre x e y. (C)\n(IV) Forte correlação negativa entre x e y. (D)\n(V) Nenhuma correlação entre x e y. (E)\nAssinale a alternativa que contém a associação correta.",
+    "enunciado": "Considerando os coeficientes de correlação, relacione a coluna da esquerda com os respectivos diagramas de dispersão, na coluna da direita.\n(I) Correlação positiva entre x e y. (A)\n(II) Correlação positiva perfeita entre x e y. (B)\n(III) Correlação negativa perfeita entre x e y. (C)\n(IV) Forte correlação negativa entre x e y. (D)\n(V) Nenhuma correlação entre x e y. (E)\nAssinale a alternativa que contém a associação correta.",
     "alternativas": [
       "a) I-A, II-B, III-E, IV-D, V-C.",
       "b) I-A, II-E, III-C, IV-B, V-D.",
@@ -288,7 +288,7 @@
     "edicao": 2012,
     "id": "2012-45",
     "numero": 45,
-    "enunciado": "A figura, a seguir, mostra um circuito contador construído a partir de flip-flops do tipo JK.\nConsiderando que as letras A, B, C e D representam as saídas dos flip-flops e que as entradas J e K de to-\ndos os flip-flops estão permanentemente em nível alto, assinale a alternativa que apresenta, corretamente,\no tipo de contador da figura.",
+    "enunciado": "A figura, a seguir, mostra um circuito contador construído a partir de flip-flops do tipo JK.\nConsiderando que as letras A, B, C e D representam as saídas dos flip-flops e que as entradas J e K de todos os flip-flops estão permanentemente em nível alto, assinale a alternativa que apresenta, corretamente,\no tipo de contador da figura.",
     "alternativas": [
       "a) Síncrono de módulo 10.",
       "b) Assíncrono (ripple) de módulo 10.",
@@ -307,7 +307,7 @@
     "edicao": 2012,
     "id": "2012-51",
     "numero": 51,
-    "enunciado": "Analise o diagrama Entidade-Relacionamento a seguir.\nConsidere o diagrama Entidade-Relacionamento, em que uma entidade do tipo EntA pode estar relacio-\nnada a várias entidades do tipo EntB e cada entidade do tipo EntB está relacionada a uma entidade do tipo\nEntA.\nSe esse diagrama for convertido para o modelo relacional, qual destes conjuntos de tabelas apresenta o\nmelhor mapeamento que segue a Terceira Forma Normal?",
+    "enunciado": "Analise o diagrama Entidade-Relacionamento a seguir.\nConsidere o diagrama Entidade-Relacionamento, em que uma entidade do tipo EntA pode estar relacionada a várias entidades do tipo EntB e cada entidade do tipo EntB está relacionada a uma entidade do tipo\nEntA.\nSe esse diagrama for convertido para o modelo relacional, qual destes conjuntos de tabelas apresenta o\nmelhor mapeamento que segue a Terceira Forma Normal?",
     "alternativas": [
       "a) EntA (idA, atrib1, atrib2), EntB (idB, atrib3).",
       "b) EntAB (idA, idB, atrib1, atrib2, atrib3).",
@@ -326,7 +326,7 @@
     "edicao": 2012,
     "id": "2012-52",
     "numero": 52,
-    "enunciado": "Considere o Grafo de Fluxo de Controle, a seguir, que representa uma unidade (método ou função) de um\nprograma.\nConsidere que a variável X é definida nos vértices 1, 3, 8 e 10; usada nos vértices 4, 7 e 9; usada nas\narestas (6,7) e (6,8).\nPara essa variável X, assinale a alternativa que apresenta, correta e respectivamente, o número de requi-\nsitos de teste requeridos pelos critérios todas-definições e todos-usos.",
+    "enunciado": "Considere o Grafo de Fluxo de Controle, a seguir, que representa uma unidade (método ou função) de um\nprograma.\nConsidere que a variável X é definida nos vértices 1, 3, 8 e 10; usada nos vértices 4, 7 e 9; usada nas\narestas (6,7) e (6,8).\nPara essa variável X, assinale a alternativa que apresenta, correta e respectivamente, o número de requisitos de teste requeridos pelos critérios todas-definições e todos-usos.",
     "alternativas": [
       "a) 3 e 8",
       "b) 3 e 12",
@@ -421,7 +421,7 @@
     "edicao": 2011,
     "id": "2011-05",
     "numero": 5,
-    "enunciado": "Em muitos problemas práticos, deseja-se encontrar a reta r(x) = ax + b que melhor se ajusta a um con-\njunto {(x , y ), (x , y ), ..., (x , y )} de pontos no plano. No método dos mínimos quadrados, os coefici-\n1 1 2 2 n n\nentes a e b da reta são determinados de modo que o erro, dado pela soma do quadrado da diferença entre\ny e r(x ), isto é,\ni i\nn\nE rro(a, b) = (y − r(x ))2,\ni i\ni=1\nseja o menor possível.\nA tabela a seguir mostra o conjunto de pontos {(−3, −3), (−2, −2), ..., (2, 6), (3, 6)} no plano.\nx -3 -2 -1 0 1 2 3\ny -3 -2 2 2 4 6 6\nA reta que melhor se ajusta aos dados apresentados nessa tabela, no sentido dos mínimos quadrados,\né:",
+    "enunciado": "Em muitos problemas práticos, deseja-se encontrar a reta r(x) = ax + b que melhor se ajusta a um conjunto {(x , y ), (x , y ), ..., (x , y )} de pontos no plano. No método dos mínimos quadrados, os coeficientes 1 1 2 2 n n\n a e b da reta são determinados de modo que o erro, dado pela soma do quadrado da diferença entre\ny e r(x ), isto é,\ni i\nn\nE rro(a, b) = (y − r(x ))2,\ni i\ni=1\nseja o menor possível.\nA tabela a seguir mostra o conjunto de pontos {(−3, −3), (−2, −2), ..., (2, 6), (3, 6)} no plano.\nx -3 -2 -1 0 1 2 3\ny -3 -2 2 2 4 6 6\nA reta que melhor se ajusta aos dados apresentados nessa tabela, no sentido dos mínimos quadrados,\né:",
     "alternativas": [
       "a) r(x) = x\n15",
       "b) r(x) = x\n7\n3 3",
@@ -459,7 +459,7 @@
     "edicao": 2011,
     "id": "2011-08",
     "numero": 8,
-    "enunciado": "Relacione a equação em coordenadas polares da coluna da esquerda com a figura geométrica correspon-\ndente apresentada na coluna da direita.\n√\n2\n(I) sen(θ) = (A)\n2\n(II) r = 2cos(3θ) (B)\n1\n(III) r = (C)\n1 − sen(θ)\n(IV) cos(r) = 0 (D)\n(V) r = 2cos(θ) (E)\nAssinale a alternativa que contém a associação correta.",
+    "enunciado": "Relacione a equação em coordenadas polares da coluna da esquerda com a figura geométrica correspondente apresentada na coluna da direita.\n√\n2\n(I) sen(θ) = (A)\n2\n(II) r = 2cos(3θ) (B)\n1\n(III) r = (C)\n1 − sen(θ)\n(IV) cos(r) = 0 (D)\n(V) r = 2cos(θ) (E)\nAssinale a alternativa que contém a associação correta.",
     "alternativas": [
       "a) I-A, II-C, III-D, IV-E, V-B.",
       "b) I-A, II-D, III-B, IV-C, V-E.",
@@ -478,7 +478,7 @@
     "edicao": 2011,
     "id": "2011-09",
     "numero": 9,
-    "enunciado": "Considere o polinômio p (x) = a xn + ... + a x + a em seu formato padrão que pode ser escrito no\nn n 1 0\nformato encadeado p (x) = x(x(...x(x(a x + a ) + a ) + ... + a ) + a ) + a , colocando a variá-\nn n n−1 n−2 2 1 0\nvel x em evidência num número finito de vezes até que não seja mais possível fazê-lo.\nConsiderando que todos os coeficientes do polinômio são diferentes de zero, é correto afirmar que o total\nde operações de adição e multiplicação para obter o valor de p (5) é:\n100",
+    "enunciado": "Considere o polinômio p (x) = a xn + ... + a x + a em seu formato padrão que pode ser escrito no\nn n 1 0\nformato encadeado p (x) = x(x(...x(x(a x + a ) + a ) + ... + a ) + a ) + a , colocando a variável n n n−1 n−2 2 1 0\n x em evidência num número finito de vezes até que não seja mais possível fazê-lo.\nConsiderando que todos os coeficientes do polinômio são diferentes de zero, é correto afirmar que o total\nde operações de adição e multiplicação para obter o valor de p (5) é:\n100",
     "alternativas": [
       "a) Duas vezes maior no formato encadeado que no padrão.",
       "b) Igual no formato padrão e no encadeado.",
@@ -630,7 +630,7 @@
     "edicao": 2011,
     "id": "2011-31",
     "numero": 31,
-    "enunciado": "Considerando as duas equações booleanas de um somador completo S = A xor B xor C e\ni i in\nC = (A and B ) or C and (B xor A ), atribua V (verdadeiro) ou F (falso) para as afirmativas a seguir.\nout i i in i i\n( ) A equação C = (B and C ) or A and C or (A and B ) é equivalente à equação C do enunciado\nout i in i in i i out\nda questão.\n( ) O maior atraso de propagação ocorre na equação S = A xor B xor C .\ni i in\n( ) O uso destas equações conduz à implementação do mais rápido somador completo, entre os soma-\ndores descritos na literatura.\n( ) Somadores completos de n bits (com n > 1) podem ser implementados com n circuitos, cada um\ndeles implementando estas mesmas equações.\n( ) Para apenas uma combinação de valores de A , B e C , obtêm-se S = 1 e C = 1.\ni i in out\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+    "enunciado": "Considerando as duas equações booleanas de um somador completo S = A xor B xor C e\ni i in\nC = (A and B ) or C and (B xor A ), atribua V (verdadeiro) ou F (falso) para as afirmativas a seguir.\nout i i in i i\n( ) A equação C = (B and C ) or A and C or (A and B ) é equivalente à equação C do enunciado\nout i in i in i i out\nda questão.\n( ) O maior atraso de propagação ocorre na equação S = A xor B xor C .\ni i in\n( ) O uso destas equações conduz à implementação do mais rápido somador completo, entre os somadores descritos na literatura.\n( ) Somadores completos de n bits (com n > 1) podem ser implementados com n circuitos, cada um\ndeles implementando estas mesmas equações.\n( ) Para apenas uma combinação de valores de A , B e C , obtêm-se S = 1 e C = 1.\ni i in out\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
     "alternativas": [
       "a) V, V, F, V, F.",
       "b) V, F, F, V, V.",
@@ -820,7 +820,7 @@
     "edicao": 2010,
     "id": "2010-07",
     "numero": 7,
-    "enunciado": "A posição de uma partícula no instante t ≥ 0, t ∈ [0, 2π], que se desloca em função do tempo t em segundos,\nao longo de uma reta coordenada, é dada por:\nπ\ns(t) = cos(2t + )\n4\nDetermine os instantes em que a velocidade (em m/s) é extrema (máxima/mínima) para a partícula, utilizando-\nse de informações das derivadas primeira e segunda da velocidade.\nπ 5π",
+    "enunciado": "A posição de uma partícula no instante t ≥ 0, t ∈ [0, 2π], que se desloca em função do tempo t em segundos,\nao longo de uma reta coordenada, é dada por:\nπ\ns(t) = cos(2t + )\n4\nDetermine os instantes em que a velocidade (em m/s) é extrema (máxima/mínima) para a partícula, utilizando-se de informações das derivadas primeira e segunda da velocidade.\nπ 5π",
     "alternativas": [
       "a) t = s é o i ns tante de v el oc i dade m íni m a e t = s é o i ns tante de v el oc i dade m áx i m a.\n8 8\nπ 5π",
       "b) t = s é o instante de velocidade máxima e t = s é o instante de velocidade mínima.\n8 8\nπ 5π",
@@ -934,7 +934,7 @@
     "edicao": 2010,
     "id": "2010-40",
     "numero": 40,
-    "enunciado": "Considere o diagrama a seguir.\nSeja a máquina de estados finitos representada pelo diagrama acima, determine o modelo (Mealy ou Mo-\nore) e o circuito digital ao qual ela corresponde.",
+    "enunciado": "Considere o diagrama a seguir.\nSeja a máquina de estados finitos representada pelo diagrama acima, determine o modelo (Mealy ou Moore) e o circuito digital ao qual ela corresponde.",
     "alternativas": [
       "a) Model o de Mealy c or r es pondente a um c ontador m ódul o 5.",
       "b) Modelo de Moore correspondente a um contador módulo 5.",
@@ -1054,7 +1054,7 @@
       "b) Na consulta do item I, para cada departamento que tenha mais de cinco empregados, a consulta retorna o\nnúmero do departamento que possui empregados que recebem mais de 40 mil reais. Na consulta do item II,\npara cada empregado, a consulta retorna o número do seu departamento, o número de empregados que nele\ntrabalham e o somatório de seus salários.",
       "c) Na consulta do item I, para cada departamento que tenha mais de cinco empregados, a consulta retorna o\nnúmero dos empregados que recebem mais de 40 mil reais. Na consulta do item II, para cada empregado,\na consulta retorna o número do seu departamento, o número de empregados que trabalham com ele e o\nsomatório de seus salários.",
       "d) Na consulta do item I, para cada cinco ou mais empregados, a consulta retorna o número do departamento\nque possui empregados que recebem mais de 40 mil reais. Na consulta do item II, para cada departamento, a\nconsulta retorna o número do seu departamento, o número de empregados que nele trabalham e o somatório\nde seus salários.",
-      "e) Na c ons ul ta do i tem I, par a c ada depar tam ento que tenha m ai s de c i nc o em pr egados , a c ons ul ta r e-\ntor na o núm ero do depar tam ento e o núm ero dos em pr egados que r ec ebem m ai s de 40 m i l r eai s . Na\nc ons ul ta do i tem II, par a c ada depar tam ento, a c ons ul ta r etor na o núm ero do depar tam ento, o núm ero\nde em pr egados que nel e tr abal ham e a m édi a de s eus s al ár i os ."
+      "e) Na c ons ul ta do i tem I, par a c ada depar tam ento que tenha m ai s de c i nc o em pr egados , a c ons ul ta r etor na o núm ero do depar tam ento e o núm ero dos em pr egados que r ec ebem m ai s de 40 m i l r eai s . Na\nc ons ul ta do i tem II, par a c ada depar tam ento, a c ons ul ta r etor na o núm ero do depar tam ento, o núm ero\nde em pr egados que nel e tr abal ham e a m édi a de s eus s al ár i os ."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "Banco de Dados",
@@ -1561,7 +1561,7 @@
     "edicao": 2009,
     "id": "2009-60",
     "numero": 60,
-    "enunciado": "Considere a transformação T ilustrada abaixo, que mapeia a figura da esquerda na figura\n\nda direita.\nv\n30º\n\nv\n\n\n\nX x\n\nSabendo que os pontos P; da imagem são representados em coordenadas homogêneas\nx\n\npor matrizes coluna da forma pk a imagem transformada é obtida por uma pré-\n\n1\nmultiplicação, isto é, P/ = TP; , então, a transformação T é dada por:\n\ncos30 —cos 30 0\nsen30 -—sen30 0\n2 0 1\n\ncos30 —sen30 O\nsen 30 cos 30 2\n0 0 1\n\ncos 30 sen30 0\n— sen30 cos30 O\n0 2 1",
+    "enunciado": "Considere a transformação T ilustrada abaixo, que mapeia a figura da esquerda na figura\n\nda direita.\nv\n30º\n\nv\n\n\n\nX x\n\nSabendo que os pontos P; da imagem são representados em coordenadas homogêneas\nx\n\npor matrizes coluna da forma pk a imagem transformada é obtida por uma pré-multiplicação, isto é, P/ = TP; , então, a transformação T é dada por:\n\ncos30 —cos 30 0\nsen30 -—sen30 0\n2 0 1\n\ncos30 —sen30 O\nsen 30 cos 30 2\n0 0 1\n\ncos 30 sen30 0\n— sen30 cos30 O\n0 2 1",
     "alternativas": [
       "a) sen 30 cos 30 0",
       "b) 0 2 1",
@@ -2019,11 +2019,11 @@
     "numero": 3,
     "enunciado": "",
     "alternativas": [
-      "a) as linhas de A s˜ao vetores linearmente independentes.",
-      "b) o sistema Ax = 0 tem soluc¸˜ao u´nica.",
-      "c) o determinante da transposta de A ´e diferente de zero.",
-      "d) o sistema Ax = b tem soluc¸˜ao u´nica para qualquer vetor n-dimensional b.",
-      "e) dois-a-dois os vetores-coluna de A n˜ao podem ser colineares."
+      "a) as linhas de A são vetores linearmente independentes.",
+      "b) o sistema Ax = 0 tem solução única.",
+      "c) o determinante da transposta de A é diferente de zero.",
+      "d) o sistema Ax = b tem solução única para qualquer vetor n-dimensional b.",
+      "e) dois-a-dois os vetores-coluna de A não podem ser colineares."
     ],
     "area_conhecimento": "Matemática",
     "area": "Álgebra Linear",
@@ -2055,13 +2055,13 @@
     "edicao": 2007,
     "id": "2007-06",
     "numero": 6,
-    "enunciado": "Um trabalho de monitoramento do fluxo de acesso ao provedor de rede de deter-\nR(t) = 100(1 0, 0001t2 ) usu´arios/minuto,\n−\nQuando ocorre o pico no fluxo de acesso `a rede ?\n•\nQual ´e a estimativa para o nu´mero de usu´arios que est˜ao acessando a rede durante\n•\na hora monitorada ?",
+    "enunciado": "Um trabalho de monitoramento do fluxo de acesso ao provedor de rede de deter-\nR(t) = 100(1 0, 0001t2 ) usuários/minuto,\n−\nQuando ocorre o pico no fluxo de acesso `a rede ?\n•\nQual é a estimativa para o número de usuários que estão acessando a rede durante\n•\na hora monitorada ?",
     "alternativas": [
-      "a) Das 20 : 30 `as 21 : 30 horas; mais de 5.000 usu´arios.",
-      "b) Das 20 : 30 `as 21 : 30 horas; menos de 5.000 usu´arios.",
-      "c) Das 19 : 30 `as 20 : 30 horas; mais de 5.000 usu´arios.",
-      "d) Das 19 : 30 `as 20 : 30 horas; menos de 5.000 usu´arios.",
-      "e) Nenhuma das aproximac¸˜oes cont´em as respostas."
+      "a) Das 20 : 30 `as 21 : 30 horas; mais de 5.000 usuários.",
+      "b) Das 20 : 30 `as 21 : 30 horas; menos de 5.000 usuários.",
+      "c) Das 19 : 30 `as 20 : 30 horas; mais de 5.000 usuários.",
+      "d) Das 19 : 30 `as 20 : 30 horas; menos de 5.000 usuários.",
+      "e) Nenhuma das aproximações contém as respostas."
     ],
     "area_conhecimento": "Matemática",
     "area": "Cálculo Diferencial e Integral",
@@ -2074,12 +2074,12 @@
     "edicao": 2007,
     "id": "2007-07",
     "numero": 7,
-    "enunciado": "Considere a func¸˜ao f : R R definida pela express˜ao:\n→\nx2 , se x 0,\nf (x) = (cid:26) x2 + 1, se x >≤ 0,",
+    "enunciado": "Considere a função f : R R definida pela expressão:\n→\nx2 , se x 0,\nf (x) = (cid:26) x2 + 1, se x >≤ 0,",
     "alternativas": [
-      "a) lim x→0− f ′ (x) = lim x→0+ f ′(x) mas f ′ (0) n˜ao existe.",
+      "a) lim x→0− f ′ (x) = lim x→0+ f ′(x) mas f ′ (0) não existe.",
       "b) lim x→0− f (x) = 0 e lim x→0+ f (x) = 1 = f (0).",
-      "c) f (x) ´e cont´ınua mas n˜ao ´e diferenci´avel.",
-      "d) f ′ (x) ´e decrescente e f (x) 0 se x ( , 0).\n≥ ∈ −∞",
+      "c) f (x) é contínua mas não é diferenciável.",
+      "d) f ′ (x) é decrescente e f (x) 0 se x ( , 0).\n≥ ∈ −∞",
       "e) lim x→∞ f (x) = e lim x→−∞ f ′(x) = + .\n∞ ∞"
     ],
     "area_conhecimento": "Matemática",
@@ -2112,13 +2112,13 @@
     "edicao": 2007,
     "id": "2007-09",
     "numero": 9,
-    "enunciado": "Quatro retas do plano cartesiano identificadas por l1 , l2 e r1 , r2 definem, com os\nl1 l2 (retas paralelas) e r1 r2 ;\n• k k\nl1 e l2 s˜ao perpendiculares a reta t definida por 4x + 3y = 0 (isto ´e, l1 t e l2 t);\n• ⊥ ⊥\n•\nr1 e r2 tˆem coeficiente angular iguais a m\nr\n= − 43 .",
+    "enunciado": "Quatro retas do plano cartesiano identificadas por l1 , l2 e r1 , r2 definem, com os\nl1 l2 (retas paralelas) e r1 r2 ;\n• k k\nl1 e l2 são perpendiculares a reta t definida por 4x + 3y = 0 (isto é, l1 t e l2 t);\n• ⊥ ⊥\n•\nr1 e r2 têm coeficiente angular iguais a m\nr\n= − 43 .",
     "alternativas": [
       "a) 3x 4y 12 = 0 e 3x + 4y 12 = 0.\n− ± ±",
       "b) 3x + 4y 12 = 0 e 3x 4y 12 = 0.\n± − ±",
       "c) 3x 4y 24 = 0 e 3x + 4y 24 = 0.\n− ± ±",
       "d) 3x 4y 24 = 0 e 3x + 4y 24 = 0.\n− − ± − ±",
-      "e) Nenhuma das respostas est´a correta."
+      "e) Nenhuma das respostas está correta."
     ],
     "area_conhecimento": "Matemática",
     "area": "Geometria Analítica",
@@ -2131,13 +2131,13 @@
     "edicao": 2007,
     "id": "2007-11",
     "numero": 11,
-    "enunciado": "Considere a seguinte linguagem de primeira ordem:\nconstantes: a, b\n•\nvari´aveis: x, y\n•\npredicados un´arios: P\n•\npredicados bin´arios: R\n•",
+    "enunciado": "Considere a seguinte linguagem de primeira ordem:\nconstantes: a, b\n•\nvariáveis: x, y\n•\npredicados unários: P\n•\npredicados binários: R\n•",
     "alternativas": [
-      "a) = (b) = 0\n• I I\n(P ) = n n < 4\n• I { | }\n(R) = (x, y) x < y\n• I { | }\nI. P (a)\nII. x, y : R(x, y) R(y, x)\n∀ →\nIII. x : R(x, a)\n∃\nI\n(a) somente a f´ormula I.",
-      "b) somente as f´ormulas I e II.",
-      "c) somente a f´ormula III.",
-      "d) nenhuma das f´ormulas.",
-      "e) todas as f´ormulas."
+      "a) = (b) = 0\n• I I\n(P ) = n n < 4\n• I { | }\n(R) = (x, y) x < y\n• I { | }\nI. P (a)\nII. x, y : R(x, y) R(y, x)\n∀ →\nIII. x : R(x, a)\n∃\nI\n(a) somente a fórmula I.",
+      "b) somente as fórmulas I e II.",
+      "c) somente a fórmula III.",
+      "d) nenhuma das fórmulas.",
+      "e) todas as fórmulas."
     ],
     "area_conhecimento": "Matemática",
     "area": "Lógica Matemática",
@@ -2156,7 +2156,7 @@
       "b) (( α) ( β ) ( γ )) (α ( β ) ( γ )) (( α) β ( γ )) (( α) ( ( β )) γ )\n¬ ∧ ¬ ∧ ¬ ∨ ∧ ¬ ∧ ¬ ∨ ¬ ∧ ∧ ¬ ∨ ¬ ∧ ¬ ¬ ∧",
       "c) (α ( β ) ( γ )) (( α) β ( γ )) (( α) ( β ) γ )\n∨ ¬ ∨ ¬ ∧ ¬ ∨ ∨ ¬ ∧ ¬ ∨ ¬ ∨",
       "d) (( α) ( β ) ( γ )) (α ( β ) ( γ )) (( α) β ( γ )) (( α) ( β ) γ )\n¬ ∧ ¬ ∧ ¬ ∨ ∧ ¬ ∧ ¬ ∨ ¬ ∧ ∧ ¬ ∨ ¬ ∧ ¬ ∧",
-      "e) Nenhuma destas respostas ´e correta."
+      "e) Nenhuma destas respostas é correta."
     ],
     "area_conhecimento": "Matemática",
     "area": "Lógica Matemática",
@@ -2172,10 +2172,10 @@
     "enunciado": "Analise as seguintes afirmativas e assinale a alternativa CORRETA.",
     "alternativas": [
       "a) ,\n{{∅}} ∈ {∅ {∅}}",
-      "b) Para todo conjunto A, (A) denota o conjunto de todos os subconjuntos de A.\nP\nSe a e B s˜ao conjuntos tais que a B , ent˜ao (a) (B )\n∈ P ⊆ P",
-      "c) O conjunto n109 : n N ´e infinito enumer´avel.\n{ ∈ }",
-      "d) Se A, B e C s˜ao trˆes conjuntos, ent˜ao A (B C ) = (A B ) C .\n− − − −",
-      "e) Nenhuma das afirmativas anteriores ´e correta."
+      "b) Para todo conjunto A, (A) denota o conjunto de todos os subconjuntos de A.\nP\nSe a e B são conjuntos tais que a B , então (a) (B )\n∈ P ⊆ P",
+      "c) O conjunto n109 : n N é infinito enumerável.\n{ ∈ }",
+      "d) Se A, B e C são três conjuntos, então A (B C ) = (A B ) C .\n− − − −",
+      "e) Nenhuma das afirmativas anteriores é correta."
     ],
     "area_conhecimento": "Matemática",
     "area": "Matemática Discreta",
@@ -2190,10 +2190,10 @@
     "numero": 15,
     "enunciado": "Analise as seguintes alternativas e assinale a que apresenta uma afirmativa",
     "alternativas": [
-      "a) Se A1 , A2 , , A\nr\ns˜ao conjuntos disjuntos, ent˜ao A1 A\nr\nB = B +\nr ( A · · B· ). | ∪ · · · ∪ ∪ | | |\ni=1 | i − |",
+      "a) Se A1 , A2 , , A\nr\nsão conjuntos disjuntos, então A1 A\nr\nB = B +\nr ( A · · B· ). | ∪ · · · ∪ ∪ | | |\ni=1 | i − |",
       "b) P1 + 2 + 22 + 23 + + 2n = 2n+1 1, para todo n N.\n· · · − ∈",
       "c) C n+p+1 = p C n+r , para todo n N e p N.\np r=0 r ∈ ∈",
-      "d) Sejam k PN e A N. Se k A e (n A, n k n + 1 A), ent˜ao A = N.\n∈ ⊆ ∈ ∈ ≥ ⇒ ∈",
+      "d) Sejam k PN e A N. Se k A e (n A, n k n + 1 A), então A = N.\n∈ ⊆ ∈ ∈ ≥ ⇒ ∈",
       "e) Existe exatamente uma alternativa falsa dentre as anteriores."
     ],
     "area_conhecimento": "Matemática",
@@ -2207,12 +2207,12 @@
     "edicao": 2007,
     "id": "2007-16",
     "numero": 16,
-    "enunciado": "Analise as seguintes afirmativas.\nI. Seja A = (X ) o conjunto dos subconjuntos de um conjunto X . A relac¸˜ao\nP\n= (a, a′ ) : a A, a′ A, a a′\n(cid:22) { ∈ ∈ ⊆ }\n´e uma relac¸˜ao de ordem parcial.\nII. Se R ´e uma relac¸˜ao bin´aria sim´etrica e anti-sim´etrica, enta˜o R = .\n∅\nIII. Seja R uma relac¸˜ao reflexiva em um conjunto A. Ent˜ao, R ´e uma relac¸˜ao de\nequivalˆencia se e somente se ((a, b) R e (b, c) R (c, a) R).\n∈ ∈ ⇒ ∈\nIV. Se F e G s˜ao duas func¸˜oes invers´ıveis, ent˜ao G F ´e uma func¸˜ao invers´ıvel.\n◦",
+    "enunciado": "Analise as seguintes afirmativas.\nI. Seja A = (X ) o conjunto dos subconjuntos de um conjunto X . A relação\nP\n= (a, a′ ) : a A, a′ A, a a′\n(cid:22) { ∈ ∈ ⊆ }\né uma relação de ordem parcial.\nII. Se R é uma relação binária simétrica e anti-simétrica, entaõ R = .\n∅\nIII. Seja R uma relação reflexiva em um conjunto A. Então, R é uma relação de\nequivalência se e somente se ((a, b) R e (b, c) R (c, a) R).\n∈ ∈ ⇒ ∈\nIV. Se F e G são duas funções inversíveis, então G F é uma função inversível.\n◦",
     "alternativas": [
       "a) 0 (zero)",
       "b) 1 (uma)",
       "c) 2 (duas)",
-      "d) 3 (trˆes)",
+      "d) 3 (três)",
       "e) 4 (quatro)"
     ],
     "area_conhecimento": "Matemática",
@@ -2245,7 +2245,7 @@
     "edicao": 2007,
     "id": "2007-19",
     "numero": 19,
-    "enunciado": "Suponha que o tempo de execuc¸˜ao de um programa seja dado por uma vari´avel",
+    "enunciado": "Suponha que o tempo de execução de um programa seja dado por uma variável",
     "alternativas": [
       "a) 0,50",
       "b) 0,45",
@@ -2264,7 +2264,7 @@
     "edicao": 2007,
     "id": "2007-20",
     "numero": 20,
-    "enunciado": "Suponha agora que o programa ´e executado e se aguarda at´e 50 minutos para",
+    "enunciado": "Suponha agora que o programa é executado e se aguarda até 50 minutos para",
     "alternativas": [
       "a) 55",
       "b) 62,5",
@@ -2283,7 +2283,7 @@
     "edicao": 2007,
     "id": "2007-21",
     "numero": 21,
-    "enunciado": "Um processador tem a seguinte hierarquia de mem´oria: uma cache com latˆencia",
+    "enunciado": "Um processador tem a seguinte hierarquia de memória: uma cache com latência",
     "alternativas": [
       "a) 10%",
       "b) 5%",
@@ -2302,7 +2302,7 @@
     "edicao": 2007,
     "id": "2007-22",
     "numero": 22,
-    "enunciado": "Observe o circuito l´ogico abaixo.",
+    "enunciado": "Observe o circuito lógico abaixo.",
     "alternativas": [
       "a) A + B C\n·",
       "b) A",
@@ -2321,7 +2321,7 @@
     "edicao": 2007,
     "id": "2007-26",
     "numero": 26,
-    "enunciado": "Seja a linguagem formal L = anb2n c, n 0 . Analise as seguintes assertivas.\n{ ≥ }\nI. L ´e uma linguagem livre de contexto.\nII. A gram´atica G = ( S, X , a, b, c , S X c, X aX bb ǫ , S ) gera a linguagem L.\n{ } { } { → → | }\nIII. L n˜ao pode ser reconhecida por um autˆomato com pilha.",
+    "enunciado": "Seja a linguagem formal L = anb2n c, n 0 . Analise as seguintes assertivas.\n{ ≥ }\nI. L é uma linguagem livre de contexto.\nII. A gramática G = ( S, X , a, b, c , S X c, X aX bb ǫ , S ) gera a linguagem L.\n{ } { } { → → | }\nIII. L não pode ser reconhecida por um autômato com pilha.",
     "alternativas": [
       "a) apenas as assertivas I e II.",
       "b) apenas as assertivas I e III.",
@@ -2340,7 +2340,7 @@
     "edicao": 2007,
     "id": "2007-30",
     "numero": 30,
-    "enunciado": "Suponha que tenhamos `a nossa disposic¸˜ao um algoritmo Mult que efetua a\n× ×\nENTRADA: vetor p[0], p[1], . . . , p[n], um inteiro positivo m.\nQUESTA˜ O: existe uma sequ¨ˆencia de multiplicac¸˜oes de duas matrizes com\no algoritmo Mult que produz o resultado de A1 A2 A n, em que cada A i,\n· · ·\npara todo i 1, 2, . . . , n , ´e uma matriz de dimens˜oes p[i 1] p[i], com\n∈ { } − ×\nm multiplicac¸˜oes de escalares no m´aximo?\nI. O algoritmo abaixo demonstra que MULTMAT est´a na classe de problemas P .\nChamada: MultMat(p, m)\n1: q Q(p, 0, n)\n←\n2: se q m ent˜ao\n≤\n3: retorna “Sim”\n4: retorna “N˜ao”\nChamada: Q(p, i, j )\n5: se i = j ent˜ao\n6: retorna 0\n7: q\n← ∞\n8: para k i, i + 1, , j 1 fa¸ca\n← · · · −\n9: r Q(p, i, k) + Q(p, k + 1, j ) + p[i 1]p[k]p[j ]\n← −\n10: se r < q ent˜ao\n11: q r\n←\n12: retorna q\nII. MULTMAT est´a na classe de problemas N P .\nIII. Se I e II s˜ao corretas, ent˜ao P = N P .",
+    "enunciado": "Suponha que tenhamos `a nossa disposição um algoritmo Mult que efetua a\n× ×\nENTRADA: vetor p[0], p[1], . . . , p[n], um inteiro positivo m.\nQUESTA˜ O: existe uma sequ¨ência de multiplicações de duas matrizes com\no algoritmo Mult que produz o resultado de A1 A2 A n, em que cada A i,\n· · ·\npara todo i 1, 2, . . . , n , é uma matriz de dimensões p[i 1] p[i], com\n∈ { } − ×\nm multiplicações de escalares no máximo?\nI. O algoritmo abaixo demonstra que MULTMAT está na classe de problemas P .\nChamada: MultMat(p, m)\n1: q Q(p, 0, n)\n←\n2: se q m então\n≤\n3: retorna “Sim”\n4: retorna “Não”\nChamada: Q(p, i, j )\n5: se i = j então\n6: retorna 0\n7: q\n← ∞\n8: para k i, i + 1, , j 1 fa¸ca\n← · · · −\n9: r Q(p, i, k) + Q(p, k + 1, j ) + p[i 1]p[k]p[j ]\n← −\n10: se r < q então\n11: q r\n←\n12: retorna q\nII. MULTMAT está na classe de problemas N P .\nIII. Se I e II são corretas, então P = N P .",
     "alternativas": [
       "a) Somente a afirmativa I.",
       "b) Somente a afirmativa II.",
@@ -2359,13 +2359,13 @@
     "edicao": 2007,
     "id": "2007-31",
     "numero": 31,
-    "enunciado": "Considere o problema do caixeiro viajante, definido como se segue.\nij\n≥\n∈ 6\n∈ \\{ }\nI. Todo percurso fechado obtido com esse algoritmo tem distˆancia m´ınima.\nII. O problema do caixeiro via jante pode ser resolvido com um algoritmo de com-\nplexidade linear no nu´mero de cidades.\nIII. Dado que todo percurso fechado corresponde a uma permutac¸˜ao das cidades,\nexiste um algoritmo de complexidade exponencial no nu´mero de cidades para o\nproblema do caixeiro via jante.",
+    "enunciado": "Considere o problema do caixeiro viajante, definido como se segue.\nij\n≥\n∈ 6\n∈ \\{ }\nI. Todo percurso fechado obtido com esse algoritmo tem distância mínima.\nII. O problema do caixeiro via jante pode ser resolvido com um algoritmo de complexidade linear no número de cidades.\nIII. Dado que todo percurso fechado corresponde a uma permutação das cidades,\nexiste um algoritmo de complexidade exponencial no número de cidades para o\nproblema do caixeiro via jante.",
     "alternativas": [
-      "a) I ´e falsa e III ´e correta.",
-      "b) I, II e III s˜ao corretas.",
-      "c) apenas I e II s˜ao corretas.",
-      "d) apenas I e III s˜ao falsas.",
-      "e) I, II e III s˜ao falsas."
+      "a) I é falsa e III é correta.",
+      "b) I, II e III são corretas.",
+      "c) apenas I e II são corretas.",
+      "d) apenas I e III são falsas.",
+      "e) I, II e III são falsas."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Linguagens Formais, Autômatos e Computabilidade",
@@ -2378,7 +2378,7 @@
     "edicao": 2007,
     "id": "2007-32",
     "numero": 32,
-    "enunciado": "Observe as func¸˜oes representadas no gr´afico abaixo.\n3\n2\n2\n1\n1\n0\n5\n0\n5\n0\n5\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\nf\ng\nh\ni (\n(\n(\n(\nn\nn\nn\nn\n)\n)\n)\n)\n5 1 0 1 5 2 0",
+    "enunciado": "Observe as funções representadas no gráfico abaixo.\n3\n2\n2\n1\n1\n0\n5\n0\n5\n0\n5\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\nf\ng\nh\ni (\n(\n(\n(\nn\nn\nn\nn\n)\n)\n)\n)\n5 1 0 1 5 2 0",
     "alternativas": [
       "a) f (n) = O(h(n)) e i(n) = Ω(g(n)).",
       "b) f (n) = Θ(h(n)) e i(n) = Ω(h(n)).",
@@ -2397,13 +2397,13 @@
     "edicao": 2007,
     "id": "2007-33",
     "numero": 33,
-    "enunciado": "Seja L =< r1 , . . . , r\nn\n> uma lista qualquer de inteiros n˜ao necessariamente",
+    "enunciado": "Seja L =< r1 , . . . , r\nn\n> uma lista qualquer de inteiros não necessariamente",
     "alternativas": [
-      "a) Existe um algoritmo determin´ıstico ´otimo de complexidade 0(n) para selecionar\no maior elemento de L.",
-      "b) Existe um algoritmo determin´ıstico de complexidade O(n lg n) para selecionar,\npara 1 i n, o i-´esimo menor elemento de L.\n≤ ≤",
-      "c) Se existe um algoritmo linear para selecionar o i-´esimo menor elemento de L,\nent˜ao, usando esse algoritmo, ´e poss´ıvel pro jetar um algoritmo linear para ordenar\nL em ordem n˜ao crescente.",
+      "a) Existe um algoritmo determinístico ótimo de complexidade 0(n) para selecionar\no maior elemento de L.",
+      "b) Existe um algoritmo determinístico de complexidade O(n lg n) para selecionar,\npara 1 i n, o i-ésimo menor elemento de L.\n≤ ≤",
+      "c) Se existe um algoritmo linear para selecionar o i-ésimo menor elemento de L,\nentão, usando esse algoritmo, é possível pro jetar um algoritmo linear para ordenar\nL em ordem não crescente.",
       "d) Existe um algoritmo linear para determinar o terceiro maior elemento de L.",
-      "e) Existe um algoritmo que, percorrendo uma u´nica vez L, pode determinar o menor\ne o maior elemento de L."
+      "e) Existe um algoritmo que, percorrendo uma única vez L, pode determinar o menor\ne o maior elemento de L."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Algoritmos e Estrutura de Dados",
@@ -2416,7 +2416,7 @@
     "edicao": 2007,
     "id": "2007-37",
     "numero": 37,
-    "enunciado": "Multiplicidade ´e um conceito muito importante na modelagem de classes em",
+    "enunciado": "Multiplicidade é um conceito muito importante na modelagem de classes em",
     "alternativas": [
       "a) Comprar (Jornal, Leitor)",
       "b) Casar (Marido, Esposa)",
@@ -2454,7 +2454,7 @@
     "edicao": 2007,
     "id": "2007-39",
     "numero": 39,
-    "enunciado": "Seja G = (V , E ) um grafo simples e finito, onde V = n e E = m.\n| | | |\nI. Se G ´e hamiltoniano, ent˜ao G ´e 2-conexo em v´ertices.\nII. Se G ´e completo, ent˜ao G ´e hamiltoniano.\nIII. Se G ´e 4-regular e conexo, ent˜ao G ´e euleriano.\nIV. Se G ´e bipartite com partic¸˜oes A e B , ent˜ao G ´e hamitoniano se, e somente se,\nA = B .\n| | | |\nV. Se G ´e euleriano, ent˜ao G ´e 2-conexo.",
+    "enunciado": "Seja G = (V , E ) um grafo simples e finito, onde V = n e E = m.\n| | | |\nI. Se G é hamiltoniano, então G é 2-conexo em vértices.\nII. Se G é completo, então G é hamiltoniano.\nIII. Se G é 4-regular e conexo, então G é euleriano.\nIV. Se G é bipartite com partições A e B , então G é hamitoniano se, e somente se,\nA = B .\n| | | |\nV. Se G é euleriano, então G é 2-conexo.",
     "alternativas": [
       "a) apenas os itens I e II.",
       "b) apenas os itens I e V.",
@@ -2494,11 +2494,11 @@
     "numero": 41,
     "enunciado": "Considere um banco de dados com as seguintes tabelas e campos:",
     "alternativas": [
-      "a) Junc¸˜ao de cursos com alunos, selec¸˜ao de linhas em que nome-curso = “Com-\nputac¸˜ao”, pro jec¸˜ao do resultado sobre nome-aluno.",
-      "b) Junc¸˜ao de cursos com alunos, pro jec¸˜ao do resultado sobre nome-aluno, selec¸˜ao de\nlinhas em que nome-curso = “Computac¸˜ao”.",
-      "c) Selec¸˜ao de linhas em cursos em que nome-curso = “Computac¸˜ao”, pro jec¸˜ao do\nresultado sobre c´odigo-curso, junc¸˜ao com alunos, pro jec¸˜ao do resultado sobre\nnome-aluno.",
-      "d) Selec¸˜ao de linhas em cursos em que nome-curso = “Computac¸˜ao”, junc¸˜ao com\nalunos, pro jec¸˜ao do resultado sobre nome-aluno.",
-      "e) Selec¸˜ao de linhas em cursos em que nome-curso = “Computac¸˜ao”, pro jec¸˜ao do\nresultado sobre nome-aluno."
+      "a) Junção de cursos com alunos, seleção de linhas em que nome-curso = “Computação”, pro jeção do resultado sobre nome-aluno.",
+      "b) Junção de cursos com alunos, pro jeção do resultado sobre nome-aluno, seleção de\nlinhas em que nome-curso = “Computação”.",
+      "c) Seleção de linhas em cursos em que nome-curso = “Computação”, pro jeção do\nresultado sobre código-curso, junção com alunos, pro jeção do resultado sobre\nnome-aluno.",
+      "d) Seleção de linhas em cursos em que nome-curso = “Computação”, junção com\nalunos, pro jeção do resultado sobre nome-aluno.",
+      "e) Seleção de linhas em cursos em que nome-curso = “Computação”, pro jeção do\nresultado sobre nome-aluno."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Organização de Arquivos e Dados",
@@ -2511,7 +2511,7 @@
     "edicao": 2007,
     "id": "2007-42",
     "numero": 42,
-    "enunciado": " \ni\nh i\ni i\nh i\nh i\n1. T1 , start 6. T2 , I D, 659, 333 11. T3 , I F, 445, 559\nh i h i h i\n2. T1 , I A, 200, 500 7. T2 , commit 12. T3 , commit\nh i h i h i\n3. T2 , start 8. CHECKPOINT 13. FALHA\nh i\n4. T2 , I B , 400, 500 9. T3 , start\nh i h i\n5. T1 , I C, 560, 340 10. T1 , I E , 2234, 344\nh i h i\nI. A transac¸˜ao T1 dever´a ser refeita (REDO).\nII. A transac¸˜ao T1 dever´a ser desfeita (UNDO).\nIII. A transac¸˜ao T2 dever´a ser refeita (REDO).\nIV. A transac¸˜ao T2 dever´a ser desfeita (UNDO).\nV. A transac¸˜ao T3 dever´a ser refeita (REDO).\nVI. A transac¸˜ao T3 dever´a ser desfeita (UNDO).\nIX. N˜ao ´e preciso fazer nada com respeito `a transac¸˜ao T3 .",
+    "enunciado": " \ni\nh i\ni i\nh i\nh i\n1. T1 , start 6. T2 , I D, 659, 333 11. T3 , I F, 445, 559\nh i h i h i\n2. T1 , I A, 200, 500 7. T2 , commit 12. T3 , commit\nh i h i h i\n3. T2 , start 8. CHECKPOINT 13. FALHA\nh i\n4. T2 , I B , 400, 500 9. T3 , start\nh i h i\n5. T1 , I C, 560, 340 10. T1 , I E , 2234, 344\nh i h i\nI. A transação T1 deverá ser refeita (REDO).\nII. A transação T1 deverá ser desfeita (UNDO).\nIII. A transação T2 deverá ser refeita (REDO).\nIV. A transação T2 deverá ser desfeita (UNDO).\nV. A transação T3 deverá ser refeita (REDO).\nVI. A transação T3 deverá ser desfeita (UNDO).\nIX. Não é preciso fazer nada com respeito `a transação T3 .",
     "alternativas": [
       "a) VIII, V e II.",
       "b) VII, IV e VI.",
@@ -2530,13 +2530,13 @@
     "edicao": 2007,
     "id": "2007-43",
     "numero": 43,
-    "enunciado": "Considere que um Banco de Dados Distribu´ıdo siga o protocolo TWO-PHASED",
+    "enunciado": "Considere que um Banco de Dados Distribuído siga o protocolo TWO-PHASED",
     "alternativas": [
-      "a) avisar o nodo X para completar a tarefa de qualquer forma porque os demais\nnodos participantes tamb´em dever˜ao completar a transac¸a˜o.",
-      "b) avisar o nodo X para n˜ao completar a tarefa e avisar os demais nodos participantes\npara completarem a transac¸˜ao.",
-      "c) completar ele mesmo a tarefa que cabia ao nodo X e avisar aos demais nodos\nparticipantes para completarem a transac¸˜ao.",
-      "d) avisar a todos os nodos participantes para completarem a transac¸˜ao.",
-      "e) avisar a todos os nodos participantes para n˜ao completarem a transac¸˜ao."
+      "a) avisar o nodo X para completar a tarefa de qualquer forma porque os demais\nnodos participantes também deverão completar a transaçaõ.",
+      "b) avisar o nodo X para não completar a tarefa e avisar os demais nodos participantes\npara completarem a transação.",
+      "c) completar ele mesmo a tarefa que cabia ao nodo X e avisar aos demais nodos\nparticipantes para completarem a transação.",
+      "d) avisar a todos os nodos participantes para completarem a transação.",
+      "e) avisar a todos os nodos participantes para não completarem a transação."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Organização de Arquivos e Dados",
@@ -2549,13 +2549,13 @@
     "edicao": 2007,
     "id": "2007-44",
     "numero": 44,
-    "enunciado": "Considere o esquema de relac¸˜ao (A, B , C, D, E , F ).\nR\n{ → → → → }\n{ }\n{ }\n{ }",
+    "enunciado": "Considere o esquema de relação (A, B , C, D, E , F ).\nR\n{ → → → → }\n{ }\n{ }\n{ }",
     "alternativas": [
-      "a) S 1 e S 2 s˜ao chaves candidatas de .\nR",
-      "b) S 2 e S 3 s˜ao chaves candidatas de .\nR",
-      "c) S 1 ´e a u´nica chave candidata de .\nR",
-      "d) S 2 ´e a u´nica chave candidata de .\nR",
-      "e) S 3 ´e a u´nica chave candidata de .\nR"
+      "a) S 1 e S 2 são chaves candidatas de .\nR",
+      "b) S 2 e S 3 são chaves candidatas de .\nR",
+      "c) S 1 é a única chave candidata de .\nR",
+      "d) S 2 é a única chave candidata de .\nR",
+      "e) S 3 é a única chave candidata de .\nR"
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Organização de Arquivos e Dados",
@@ -2568,7 +2568,7 @@
     "edicao": 2007,
     "id": "2007-45",
     "numero": 45,
-    "enunciado": "Considere a gram´atica regular abaixo onde + e x s˜ao operadores un´arios e\ni j\nn\nB B\n→ | | | |\n→ | | | |",
+    "enunciado": "Considere a gramática regular abaixo onde + e x são operadores unários e\ni j\nn\nB B\n→ | | | |\n→ | | | |",
     "alternativas": [
       "a) sua tabela SLR tem 2n + 2m + 4 estados.",
       "b) sua tabela SLR tem 2n + 2m + 4 estados.",
@@ -2587,13 +2587,13 @@
     "edicao": 2007,
     "id": "2007-47",
     "numero": 47,
-    "enunciado": " \n→ | |\n→\n→\n→ |\n→ |\nI. G ´e SLR(1)\nII. G ´e LALR(1)\nIII. G ´e LR(1)",
+    "enunciado": " \n→ | |\n→\n→\n→ |\n→ |\nI. G é SLR(1)\nII. G é LALR(1)\nIII. G é LR(1)",
     "alternativas": [
-      "a) somente as afirmativas I e II s˜ao verdadeiras.",
-      "b) somente as afirmativas II e III s˜ao verdadeiras.",
-      "c) somente a afirmativa III ´e verdadeira.",
-      "d) todas as afirmativas s˜ao verdadeiras.",
-      "e) nenhuma afirmativa ´e verdadeira."
+      "a) somente as afirmativas I e II são verdadeiras.",
+      "b) somente as afirmativas II e III são verdadeiras.",
+      "c) somente a afirmativa III é verdadeira.",
+      "d) todas as afirmativas são verdadeiras.",
+      "e) nenhuma afirmativa é verdadeira."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Linguagens Formais, Autômatos e Computabilidade",
@@ -2606,7 +2606,7 @@
     "edicao": 2007,
     "id": "2007-50",
     "numero": 50,
-    "enunciado": "Seja o plano definido pelos pontos A(10, 0, 0), B (0, 10, 0) e C (2, 2, 20). A pro jec¸˜ao\n− − −",
+    "enunciado": "Seja o plano definido pelos pontos A(10, 0, 0), B (0, 10, 0) e C (2, 2, 20). A pro jeção\n− − −",
     "alternativas": [
       "a) (300/13, 40/13, 100/13)\n−",
       "b) (150/13, 80/13, 200/13)\n−",
@@ -2665,9 +2665,9 @@
     "numero": 55,
     "enunciado": "Documentos de pro jeto de software servem principalmente para a judar o pro-",
     "alternativas": [
-      "a) Ob jetivo, escopo, requisitos, principais caracter´ısticas do pro jeto e detalhes do\nc´odigo.",
-      "b) Ob jetivo, prioridades gerais, vis˜ao geral do pro jeto, principais caracter´ısticas do\npro jeto e detalhes do pro jeto.",
-      "c) Vis˜ao geral do pro jeto, escopo, ob jetivo, principais caracter´ısticas do pro jeto e\ndetalhes do c´odigo.",
+      "a) Ob jetivo, escopo, requisitos, principais características do pro jeto e detalhes do\ncódigo.",
+      "b) Ob jetivo, prioridades gerais, visão geral do pro jeto, principais características do\npro jeto e detalhes do pro jeto.",
+      "c) Visão geral do pro jeto, escopo, ob jetivo, principais características do pro jeto e\ndetalhes do código.",
       "d) Ob jetivo, prioridades gerais, requisitos, escopo e detalhes do pro jeto.",
       "e) Nenhuma das anteriores."
     ],
@@ -2682,12 +2682,12 @@
     "edicao": 2007,
     "id": "2007-56",
     "numero": 56,
-    "enunciado": "Para atingir usabilidade, o pro jeto da interface de usu´ario para qualquer produto",
+    "enunciado": "Para atingir usabilidade, o pro jeto da interface de usuário para qualquer produto",
     "alternativas": [
       "a) Capacidades cognitivas e motoras de pessoas em geral.",
-      "b) Caracter´ısticas u´nicas da populac¸˜ao usu´aria em particular.",
-      "c) Fatores que levem em considerac¸˜ao as restric¸˜oes de uso de um grupo em particular\nn˜ao suportado pelo produto",
-      "d) Requisitos das atividades dos usu´arios que est˜ao sendo suportadas pelo produto.",
+      "b) Características únicas da população usuária em particular.",
+      "c) Fatores que levem em consideração as restrições de uso de um grupo em particular\nnão suportado pelo produto",
+      "d) Requisitos das atividades dos usuários que estão sendo suportadas pelo produto.",
       "e) Nenhuma das anteriores."
     ],
     "area_conhecimento": "Tecnologia de Computação",
@@ -2701,7 +2701,7 @@
     "edicao": 2007,
     "id": "2007-57",
     "numero": 57,
-    "enunciado": "Levando em conta as podas alfa-beta na ´arvore Mini-Max abaixo, assinale a",
+    "enunciado": "Levando em conta as podas alfa-beta na árvore Mini-Max abaixo, assinale a",
     "alternativas": [
       "a) 7",
       "b) 8",
@@ -2722,11 +2722,11 @@
     "numero": 61,
     "enunciado": "O realce de imagem tem como ob jetivo destacar detalhes finos procurando obter",
     "alternativas": [
-      "a) o melhor resultado obtido depende do filtro aplicado na imagem. Normalmente,\no mais aplicado ´e o filtro da mediana.",
-      "b) o melhor resultado ´e obtido com a aplicac¸˜ao de filtros passa-baixas, cujos parˆametros\ndependem do resultado desejado.",
-      "c) a aplicac¸˜ao de filtros da m´edia sempre oferece resultado adequado no realce de\nimagens.",
-      "d) o resultado mais adequado no realce de imagens est´a associado `a aplicac¸˜ao de\nfiltro passa-altas e da interpretac¸˜ao sub jetiva do observador que dever´a ter con-\nhecimento a priori da imagem original.",
-      "e) o resultado mais adequado no realce de imagens est´a associado `a aplicac¸˜ao de\nfiltro passa-baixas e da interpretac¸˜ao sub jetiva do observador que dever´a ter con-\nhecimento a priori da imagem original."
+      "a) o melhor resultado obtido depende do filtro aplicado na imagem. Normalmente,\no mais aplicado é o filtro da mediana.",
+      "b) o melhor resultado é obtido com a aplicação de filtros passa-baixas, cujos parâmetros\ndependem do resultado desejado.",
+      "c) a aplicação de filtros da média sempre oferece resultado adequado no realce de\nimagens.",
+      "d) o resultado mais adequado no realce de imagens está associado `a aplicação de\nfiltro passa-altas e da interpretação sub jetiva do observador que deverá ter conhecimento a priori da imagem original.",
+      "e) o resultado mais adequado no realce de imagens está associado `a aplicação de\nfiltro passa-baixas e da interpretação sub jetiva do observador que deverá ter conhecimento a priori da imagem original."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "Processamento de Imagens",
@@ -2739,13 +2739,13 @@
     "edicao": 2007,
     "id": "2007-62",
     "numero": 62,
-    "enunciado": "Um sistema de codificac¸˜ao e compress˜ao de imagens consiste de dois blocos, que\nprobabilidade co´digo\n0,35 1\n0,25 01\n0,2 010\n0,1 0101\n0,05 01011\n0,03 010110\n0,01 0101100\n0,01 0101101",
+    "enunciado": "Um sistema de codificação e compressão de imagens consiste de dois blocos, que\nprobabilidade código\n0,35 1\n0,25 01\n0,2 010\n0,1 0101\n0,05 01011\n0,03 010110\n0,01 0101100\n0,01 0101101",
     "alternativas": [
-      "a) 3,15 bits/s´ımbolo",
-      "b) 1,14 bits/s´ımbolo",
-      "c) 2,42 bits/s´ımbolo",
-      "d) 4,38 bits/s´ımbolo",
-      "e) 3,00 bits/s´ımbolo"
+      "a) 3,15 bits/símbolo",
+      "b) 1,14 bits/símbolo",
+      "c) 2,42 bits/símbolo",
+      "d) 4,38 bits/símbolo",
+      "e) 3,00 bits/símbolo"
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "Processamento de Imagens",
@@ -2872,7 +2872,7 @@
     "edicao": 2006,
     "id": "2006-24",
     "numero": 24,
-    "enunciado": "Num processador superescalar com emissão dinˆamica de instruções para o estágio",
+    "enunciado": "Num processador superescalar com emissão dinâmica de instruções para o estágio",
     "alternativas": [
       "a) Somente as alternativas (I), (II) e (IV) são verdadeiras.",
       "b) Somente as alternativas (I), (III) e (IV) são verdadeiras.",
@@ -3157,7 +3157,7 @@
     "edicao": 2006,
     "id": "2006-67",
     "numero": 67,
-    "enunciado": "Considere os seguintes parˆametros de Qualidade de Serviço (QoS) para trans-\nAplicação Confiabilidade Atraso Jitter Largura de banda",
+    "enunciado": "Considere os seguintes parâmetros de Qualidade de Serviço (QoS) para trans-\nAplicação Confiabilidade Atraso Jitter Largura de banda",
     "alternativas": [
       "a) ",
       "b) ",
@@ -3442,7 +3442,7 @@
     "edicao": 2005,
     "id": "2005-29",
     "numero": 29,
-    "enunciado": "Considere as seguintes afirmações:\n(I) O paradigma da programação funcional é baseado em funções matemáticas e com-\nposição de funções.\ncada do cálculo de predicados e seu método de inferência é uma forma restrita de\nResolução.\ne usam um processo de inferência lógica para produzir resultados.",
+    "enunciado": "Considere as seguintes afirmações:\n(I) O paradigma da programação funcional é baseado em funções matemáticas e composição de funções.\ncada do cálculo de predicados e seu método de inferência é uma forma restrita de\nResolução.\ne usam um processo de inferência lógica para produzir resultados.",
     "alternativas": [
       "a) Somente (I) e (V).",
       "b) ",
@@ -3581,7 +3581,7 @@
       "b) Um trecho de programa cujas instruções podem ser executadas em paralelo e em\nqualquer ordem.",
       "c) Um trecho de programa onde existe o compartilhamento de algum recurso que\nnão permite o acesso concomitante por mais de um programa.",
       "d) Um trecho de programa onde existe algum recurso cujo acesso é dado por uma prioridade. Máquina Cliente",
-      "e) Um trecho de programa onde existe algum recurso a que somente o sistema ope-\nracional podPelayteerr acesso."
+      "e) Um trecho de programa onde existe algum recurso a que somente o sistema operacional podPelayteerr acesso."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "",
@@ -3803,7 +3803,7 @@
     "edicao": 2005,
     "id": "2005-49",
     "numero": 49,
-    "enunciado": "Considere as seguintes afirmações sobre o ob jetivo da atividade de validação de soft-\n(I) Verificar se o produto está sendo corretamente constrú(cid:16)do.",
+    "enunciado": "Considere as seguintes afirmações sobre o ob jetivo da atividade de validação de software. (I) Verificar se o produto está sendo corretamente constrú(cid:16)do.",
     "alternativas": [
       "a) Somente a afirmação (II).",
       "b) ",
@@ -3862,9 +3862,9 @@
     "numero": 52,
     "enunciado": "Dentre as definições a seguir, conceitos de computação evolutiva da Inteligência Arti-",
     "alternativas": [
-      "a) A computação evolutiva deve ser entendida como um conjunto de técnicas e procedimentos genéricos e adaptáveis, a serem aplicados na solução de problemas\ncomplexos, para os quais outras técnicas conhecidas são ineficazes ou nem sequer\nsão aplicáveis.\nções potenciais, aplicam processos de seleção baseados na adaptação de um in-\ndivíduo e também empregam outros operadores genéticos.",
+      "a) A computação evolutiva deve ser entendida como um conjunto de técnicas e procedimentos genéricos e adaptáveis, a serem aplicados na solução de problemas\ncomplexos, para os quais outras técnicas conhecidas são ineficazes ou nem sequer\nsão aplicáveis.\nções potenciais, aplicam processos de seleção baseados na adaptação de um indivíduo e também empregam outros operadores genéticos.",
       "b) ",
-      "c) A roleta é um método de seleção no qual se atribui a cada indivíduo de uma po-\npulação uma probabilidade de passar para a próxima geração proporcional ao seu\nfitness, medido em relação à somatória do fitness de todos os indivíduos da popu-\nlação. Assim, algoritmos genéticos são métodos de busca puramente aleatórios.\nlução natural e da genética. Um indivíduo da população é representado por um\núnico cromossomo, o qual contém a codificação (genótipo) de uma possível solução\ndo problema (fenótipo).",
+      "c) A roleta é um método de seleção no qual se atribui a cada indivíduo de uma população uma probabilidade de passar para a próxima geração proporcional ao seu\nfitness, medido em relação à somatória do fitness de todos os indivíduos da população. Assim, algoritmos genéticos são métodos de busca puramente aleatórios.\nlução natural e da genética. Um indivíduo da população é representado por um\núnico cromossomo, o qual contém a codificação (genótipo) de uma possível solução\ndo problema (fenótipo).",
       "d) ",
       "e) O processo de evolução executado por um algoritmo genético corresponde a um\nprocedimento de busca em um espaço de soluções potenciais para o problema."
     ],
@@ -4107,7 +4107,7 @@
     "edicao": 2004,
     "id": "2004-17",
     "numero": 17,
-    "enunciado": "Um reservatório cˆonico de altura H e raio R é preenchido com água de modo que V\n3\nR\nH\nr\nh\nh H\ndh 4 dV",
+    "enunciado": "Um reservatório cônico de altura H e raio R é preenchido com água de modo que V\n3\nR\nH\nr\nh\nh H\ndh 4 dV",
     "alternativas": [
       "a) =\ndt πR2 dt\n(cid:18) (cid:19)\ndh 12 dV",
       "b) =\ndt πR2 dt\n(cid:18) (cid:19)\ndh H 2 dV",
@@ -4126,7 +4126,7 @@
     "edicao": 2004,
     "id": "2004-18",
     "numero": 18,
-    "enunciado": "O valor do parˆametro m, para que o sistema\nx + y + (1 − m)z = 0\nx + (m − 1)y − z = 0\n\nx + my + z = 0\n",
+    "enunciado": "O valor do parâmetro m, para que o sistema\nx + y + (1 − m)z = 0\nx + (m − 1)y − z = 0\n\nx + my + z = 0\n",
     "alternativas": [
       "a) ",
       "b) ",
@@ -4297,7 +4297,7 @@
     "edicao": 2004,
     "id": "2004-42",
     "numero": 42,
-    "enunciado": "Considere um modelo entidade-relacionamento de uma indústria. Este modelo\nrepresenta peças com suas propriedades, bem como a composição de peças (peças\npodem ser usadas na composição de outras peças). Este modelo entidade-\nrelacionamento contém:\nx Uma entidade Peça, com atributos código e nome e peso.\nx Um auto-relacionamento de Peça, chamado Composição. Neste auto-\nrelacionamento uma peça tem papel de componente e outra peça papel de\ncomposto. O auto-relacionamento tem cardinalidade n:n e tem um atributo\nquantidade, que informa quantas unidades da peça componente são usadas na\npeça composto.\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nQuantidade)\nPeca.CodPecaComposto referencia Peca\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nCodPecaComponente,Quantidade)\nPeca.CodPecaComposto referencia Peca\nPeca.CodPecaComponente referencia Peca\nComponente (CodPeca, NomePeca, PesoPeca, CodPecaComposto\nQuantiade)\nComponente.CodPecaComposto referencia Composto",
+    "enunciado": "Considere um modelo entidade-relacionamento de uma indústria. Este modelo\nrepresenta peças com suas propriedades, bem como a composição de peças (peças\npodem ser usadas na composição de outras peças). Este modelo entidade-relacionamento contém:\nx Uma entidade Peça, com atributos código e nome e peso.\nx Um auto-relacionamento de Peça, chamado Composição. Neste auto-relacionamento uma peça tem papel de componente e outra peça papel de\ncomposto. O auto-relacionamento tem cardinalidade n:n e tem um atributo\nquantidade, que informa quantas unidades da peça componente são usadas na\npeça composto.\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nQuantidade)\nPeca.CodPecaComposto referencia Peca\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nCodPecaComponente,Quantidade)\nPeca.CodPecaComposto referencia Peca\nPeca.CodPecaComponente referencia Peca\nComponente (CodPeca, NomePeca, PesoPeca, CodPecaComposto\nQuantiade)\nComponente.CodPecaComposto referencia Composto",
     "alternativas": [
       "a) ",
       "b) ",
