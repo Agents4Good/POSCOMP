@@ -22,7 +22,7 @@
     "edicao": 2012,
     "id": "2012-10",
     "numero": 10,
-    "enunciado": "Sejam as curvas y = x − 1 e x2 + y2 − 2x − 2y − 3 = 0.\nAssinale a alternativa que apresenta, corretamente, as coordenadas do ponto médio do segmento de reta\ndeterminado pelos pontos de interseção dessas curvas.\n \n1 1",
+    "enunciado": "Sejam as curvas y = x − 1 e x2 + y2 − 2x − 2y − 3 = 0.\nAssinale a alternativa que apresenta, corretamente, as coordenadas do ponto médio do segmento de reta determinado pelos pontos de interseção dessas curvas.\n \n1 1",
     "alternativas": [
       "a) , −\n2 2",
       "b) (1, 2)\n \n3 1",
@@ -60,7 +60,7 @@
     "edicao": 2012,
     "id": "2012-13",
     "numero": 13,
-    "enunciado": "Uma empresa deseja fabricar uma lata cilíndrica fechada com volume igual a 2000π cm3, utilizando a\nmenor quantidade possível de material.\nAssinale a alternativa que apresenta, correta e respectivamente, as dimensões, altura h e raio r, em cm,\nque essa lata deve ter.",
+    "enunciado": "Uma empresa deseja fabricar uma lata cilíndrica fechada com volume igual a 2000π cm3, utilizando a menor quantidade possível de material.\nAssinale a alternativa que apresenta, correta e respectivamente, as dimensões, altura h e raio r, em cm,\nque essa lata deve ter.",
     "alternativas": [
       "a) h = 10 ; r = 20",
       "b) h = 20 ; r = 10",
@@ -79,7 +79,7 @@
     "edicao": 2012,
     "id": "2012-16",
     "numero": 16,
-    "enunciado": "Com relação à proposição P : “Seja a ∈ N. Se a2 é ímpar então a é ímpar”, considere as afirmativas a\nseguir.\nI. A proposição “Seja a ∈ N. Se a2 é par então a é par” tem o mesmo valor lógico da proposição P .\nII. Redução ao absurdo da proposição P dada por “Seja a ∈ N. Se a2 é ímpar ou a é par então tem-se\numa contradição” tem o mesmo valor lógico de P .\nIII. O contrapositivo da proposição P tem o mesmo valor lógico de P e é dado por “Seja a ∈ N. Se a é\npar então a2 é par”.\nIV. A recíproca da proposição P não tem o mesmo valor lógico de P e é dada por “Seja a ∈ N. Se a é\nímpar então a2 é ímpar”.\nAssinale a alternativa correta.",
+    "enunciado": "Com relação à proposição P : “Seja a ∈ N. Se a2 é ímpar então a é ímpar”, considere as afirmativas a seguir.\nI. A proposição “Seja a ∈ N. Se a2 é par então a é par” tem o mesmo valor lógico da proposição P .\nII. Redução ao absurdo da proposição P dada por “Seja a ∈ N. Se a2 é ímpar ou a é par então tem-se uma contradição” tem o mesmo valor lógico de P .\nIII. O contrapositivo da proposição P tem o mesmo valor lógico de P e é dado por “Seja a ∈ N. Se a é\npar então a2 é par”.\nIV. A recíproca da proposição P não tem o mesmo valor lógico de P e é dada por “Seja a ∈ N. Se a é\nímpar então a2 é ímpar”.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -98,7 +98,7 @@
     "edicao": 2012,
     "id": "2012-19",
     "numero": 19,
-    "enunciado": "Leia a definição a seguir.\nSejam E um experimento e Ω o espaço associado ao experimento. Uma função X que associa cada\nelemento ω ∈ Ω a um número real X (ω) é denominada variável aleatória.\nCom base nessa definição e nos conhecimentos sobre distribuição de probabilidades, atribua V (verdadeiro) ou F (falso) às afirmativas a seguir.\n( ) Uma variável aleatória pode ser discreta ou contínua: discreta quando seus valores pertencem a um\nconjunto enumerável de números reais, e contínua quando seus valores pertencem a um conjunto\nnão enumerável de números reais.\n( ) Uma função probabilidade só assume valores negativos, e a soma das probabilidades, para todos os\nvalores possíveis da variável aleatória, tem que ser igual a 1.\n( ) A função distribuição de probabilidade de uma variável aleatória discreta X é definida como\nP (X ≤ x) = F (x), onde −∞ < x < ∞.\n( ) A cada variável aleatória está associada uma única função: a função probabilidade, na qual o domínio\nsão as probabilidades da variável e a imagem é o valor da variável no domínio.\n( ) Qualquer função de uma variável aleatória é também uma variável aleatória. Isto é, se X é uma\nvariável aleatória então Y = ϕ(X ) também é uma variável aleatória.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+    "enunciado": "Leia a definição a seguir.\nSejam E um experimento e Ω o espaço associado ao experimento. Uma função X que associa cada elemento ω ∈ Ω a um número real X (ω) é denominada variável aleatória.\nCom base nessa definição e nos conhecimentos sobre distribuição de probabilidades, atribua V (verdadeiro) ou F (falso) às afirmativas a seguir.\n( ) Uma variável aleatória pode ser discreta ou contínua: discreta quando seus valores pertencem a um conjunto enumerável de números reais, e contínua quando seus valores pertencem a um conjunto não enumerável de números reais.\n( ) Uma função probabilidade só assume valores negativos, e a soma das probabilidades, para todos os valores possíveis da variável aleatória, tem que ser igual a 1.\n( ) A função distribuição de probabilidade de uma variável aleatória discreta X é definida como\nP (X ≤ x) = F (x), onde −∞ < x < ∞.\n( ) A cada variável aleatória está associada uma única função: a função probabilidade, na qual o domínio são as probabilidades da variável e a imagem é o valor da variável no domínio.\n( ) Qualquer função de uma variável aleatória é também uma variável aleatória. Isto é, se X é uma variável aleatória então Y = ϕ(X ) também é uma variável aleatória.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
     "alternativas": [
       "a) V, F, V, V, F.",
       "b) V, F, V, F, V.",
@@ -117,7 +117,7 @@
     "edicao": 2012,
     "id": "2012-26",
     "numero": 26,
-    "enunciado": "Com base nos paradigmas de projeto de algoritmos, relacione a coluna da esquerda com a coluna da\ndireita.\n(I) Tentativa e Erro. (A) Solução com garantia de distância da ótima.\n(II) Divisão e Conquista. (B) Subdivisão de problemas em partes menores, de tamanho semelhante.\n(III) Balanceamento. (C) Calcula a solução para os subproblemas, dos problemas menores para os maiores, armazenando os resultados parciais durante o processo, reutilizando-os assim que possível.\n(IV) Algoritmos Aproximados. (D) Geralmente exaurem-se todas as possibilidades para se encontrar uma solução. Todos os passos em direção à solução final\nsão registrados. Se alguns dos passos não estiverem relacionados com a solução final, podem ser apagados.\n(V) Programação Dinâmica. (E) Divide problema em partes menores e combina sua solução em\numa solução global.\nAssinale a alternativa que contém a associação correta.",
+    "enunciado": "Com base nos paradigmas de projeto de algoritmos, relacione a coluna da esquerda com a coluna da direita.\n(I) Tentativa e Erro. (A) Solução com garantia de distância da ótima.\n(II) Divisão e Conquista. (B) Subdivisão de problemas em partes menores, de tamanho semelhante.\n(III) Balanceamento. (C) Calcula a solução para os subproblemas, dos problemas menores para os maiores, armazenando os resultados parciais durante o processo, reutilizando-os assim que possível.\n(IV) Algoritmos Aproximados. (D) Geralmente exaurem-se todas as possibilidades para se encontrar uma solução. Todos os passos em direção à solução final são registrados. Se alguns dos passos não estiverem relacionados com a solução final, podem ser apagados.\n(V) Programação Dinâmica. (E) Divide problema em partes menores e combina sua solução em uma solução global.\nAssinale a alternativa que contém a associação correta.",
     "alternativas": [
       "a) I-A, II-D, III-B, IV-C, V-E.",
       "b) I-B, II-A, III-C, IV-E, V-D.",
@@ -136,7 +136,7 @@
     "edicao": 2012,
     "id": "2012-27",
     "numero": 27,
-    "enunciado": "Devido ao volume de informações produzido atualmente e, principalmente, à necessidade de proteger\nvárias dessas informações, técnicas de criptografia têm sido desenvolvidas ou aprimoradas. Uma abordagem criptográfica bastante simples é aquela que consiste na substituição de determinados símbolos por\noutros. O programa, a seguir, desenvolvido na linguagem C, possui uma função que realiza a criptografia\nde uma determinada cadeia de caracteres (string), referenciada através de um ponteiro de char.\n#include <stdio.h>\nvoid Cripto (char *inout, int i) {\nchar *sibl, c;\nwhile (*inout) {\nsibl = inout+1;\nif (!sibl)\nbreak;\nif (*inout >= ’A’ && *inout <= ’Z’)\n*inout += i;\nc = *sibl;\n*sibl = *inout;\n*inout = c;\ninout = sibl+1;\n}\n}\nint main() {\nchar str[30];\nint i;\nscanf(\"%s %d\", str, &i);\nCripto(str, i);\nprintf(\"%s\\n\", str);\nreturn 0;\n}\nAssinale a alternativa que apresenta, corretamente, o resultado desse programa quando ele for executado\ncom a entrada a seguir.\nPosCOMP2012x 3",
+    "enunciado": "Devido ao volume de informações produzido atualmente e, principalmente, à necessidade de proteger várias dessas informações, técnicas de criptografia têm sido desenvolvidas ou aprimoradas. Uma abordagem criptográfica bastante simples é aquela que consiste na substituição de determinados símbolos por outros. O programa, a seguir, desenvolvido na linguagem C, possui uma função que realiza a criptografia de uma determinada cadeia de caracteres (string), referenciada através de um ponteiro de char.\n#include <stdio.h>\nvoid Cripto (char *inout, int i) {\nchar *sibl, c;\nwhile (*inout) {\nsibl = inout+1;\nif (!sibl)\nbreak;\nif (*inout >= ’A’ && *inout <= ’Z’)\n*inout += i;\nc = *sibl;\n*sibl = *inout;\n*inout = c;\ninout = sibl+1;\n}\n}\nint main() {\nchar str[30];\nint i;\nscanf(\"%s %d\", str, &i);\nCripto(str, i);\nprintf(\"%s\\n\", str);\nreturn 0;\n}\nAssinale a alternativa que apresenta, corretamente, o resultado desse programa quando ele for executado com a entrada a seguir.\nPosCOMP2012x 3",
     "alternativas": [
       "a) PosCOMP2012x",
       "b) OscVmr2S10x2",
@@ -155,7 +155,7 @@
     "edicao": 2012,
     "id": "2012-28",
     "numero": 28,
-    "enunciado": "Nas linguagens de programação, uma questão importante é o escopo das declarações. Por exemplo, o\nescopo de uma declaração de x é a região do programa em que os usos de x se referem a essa declaração.\nNesse sentido, a ligação de um nome a um escopo pode ser estática ou dinâmica. No programa C, a seguir,\no identificador x é uma macro composta pela expressão ++y. Por ser uma macro, a resolução de x não é\nrealizada somente em termos do texto do programa.\n#include<stdio.h>\n#define x ++y\nint y = 2;\nvoid M() { int y = 1; printf (\"%d \", x); }\nvoid N() { printf(\"%d \", x); }\nint main() {\nM();\nN();\nreturn 0;\n}\nCom base nessa execução, assinale a alternativa que apresenta, corretamente, a saída desse programa.",
+    "enunciado": "Nas linguagens de programação, uma questão importante é o escopo das declarações. Por exemplo, o escopo de uma declaração de x é a região do programa em que os usos de x se referem a essa declaração.\nNesse sentido, a ligação de um nome a um escopo pode ser estática ou dinâmica. No programa C, a seguir,\no identificador x é uma macro composta pela expressão ++y. Por ser uma macro, a resolução de x não é\nrealizada somente em termos do texto do programa.\n#include<stdio.h>\n#define x ++y int y = 2;\nvoid M() { int y = 1; printf (\"%d \", x); }\nvoid N() { printf(\"%d \", x); }\nint main() {\nM();\nN();\nreturn 0;\n}\nCom base nessa execução, assinale a alternativa que apresenta, corretamente, a saída desse programa.",
     "alternativas": [
       "a) 1 1",
       "b) 1 2",
@@ -174,7 +174,7 @@
     "edicao": 2012,
     "id": "2012-29",
     "numero": 29,
-    "enunciado": "Um ponteiro é um elemento que proporciona maior controle sobre a memória do computador, principalmente por ser utilizado em conjunto com mecanismos de alocação dinâmica de memória. Dessa forma, o\ndomínio sobre este tipo de dado é muito importante. O código, a seguir, foi escrito na linguagem C++ e\ntrabalha com ponteiros e estruturas dinâmicas.\n#include <iostream>\nusing namespace std;\nstruct No {\nint Dado; No* Prox;\n};\nint main()\n{\nNo *L, *i; int n;\ncin >> n;\nif (n == 0) L = NULL;\nelse {\nL = new No;\nL->Dado = n--;\nL->Prox = NULL;\nfor ( ; n > 0 ; ) {\ni = new No;\ni->Dado = n--;\ni->Prox = L;\nL = i;\n}\n}\nwhile (L != NULL) {\ncout << L->Dado << \" \";\nL = L->Prox;\n}\nreturn 0;\n}\nSe, durante a execução desse código, a variável n receber o valor 6, a saída do programa será:",
+    "enunciado": "Um ponteiro é um elemento que proporciona maior controle sobre a memória do computador, principalmente por ser utilizado em conjunto com mecanismos de alocação dinâmica de memória. Dessa forma, o domínio sobre este tipo de dado é muito importante. O código, a seguir, foi escrito na linguagem C++ e trabalha com ponteiros e estruturas dinâmicas.\n#include <iostream>\nusing namespace std;\nstruct No {\nint Dado; No* Prox;\n};\nint main()\n{\nNo *L, *i; int n;\ncin >> n;\nif (n == 0) L = NULL;\nelse {\nL = new No;\nL->Dado = n--;\nL->Prox = NULL;\nfor ( ; n > 0 ; ) {\ni = new No;\ni->Dado = n--;\ni->Prox = L;\nL = i;\n}\n}\nwhile (L != NULL) {\ncout << L->Dado << \" \";\nL = L->Prox;\n}\nreturn 0;\n}\nSe, durante a execução desse código, a variável n receber o valor 6, a saída do programa será:",
     "alternativas": [
       "a) 0 1 2 3 4 5 6",
       "b) 1 2 3 4 5 6",
@@ -193,7 +193,7 @@
     "edicao": 2012,
     "id": "2012-31",
     "numero": 31,
-    "enunciado": "Um tipo especial de sub-rotina é aquela que contém, em sua descrição, uma ou mais chamadas a si\nmesma. Uma rotina dessa natureza é denominada recursiva. A função recursiva, a seguir, foi desenvolvida\nna Linguagem C.\nint PosComp (int num, int f) {\nint aux1, aux2;\nif (num < f)\nreturn PosComp (num, f / 10);\nif (num) {\naux1 = num / f;\nnum = num % f;\nf = f / 10;\naux2 = PosComp (num, f);\nreturn aux2 * 10 + aux1;\n}\nelse return num;\n}\nSe for realizada uma chamada dessa função com o comando\nprintf (\"%d\\n\",PosComp(12345,10000));\no resultado apresentado no dispositivo de saída será:",
+    "enunciado": "Um tipo especial de sub-rotina é aquela que contém, em sua descrição, uma ou mais chamadas a si mesma. Uma rotina dessa natureza é denominada recursiva. A função recursiva, a seguir, foi desenvolvida na Linguagem C.\nint PosComp (int num, int f) {\nint aux1, aux2;\nif (num < f)\nreturn PosComp (num, f / 10);\nif (num) {\naux1 = num / f;\nnum = num % f;\nf = f / 10;\naux2 = PosComp (num, f);\nreturn aux2 * 10 + aux1;\n}\nelse return num;\n}\nSe for realizada uma chamada dessa função com o comando printf (\"%d\\n\",PosComp(12345,10000));\no resultado apresentado no dispositivo de saída será:",
     "alternativas": [
       "a) 0",
       "b) 10000",
@@ -212,7 +212,7 @@
     "edicao": 2012,
     "id": "2012-32",
     "numero": 32,
-    "enunciado": "Em linguagens de programação declarativas, em especial aquelas que seguem o paradigma funcional, a\nlista é uma estrutura de dados fundamental. Uma lista representa coleções de objetos de um único tipo,\nsendo composta por dois elementos: a cabeça (head ) e o corpo (tail ), exceto quando está vazia. A cabeça\né sempre o primeiro elemento e o corpo é uma lista com os elementos da lista original, excetuando-se\no primeiro elemento. O programa Haskell, a seguir, apresenta uma função que utiliza essa estrutura de\ndados.\nposcomp :: [Int] -> [Int]\nposcomp [] = []\nposcomp [x] = [x]\nposcomp (a:b:c) | a > b = b : (a : poscomp c)\n| otherwise = a : (b : poscomp c)\nUma chamada a esta função através da consulta\nposcomp [5,3,4,5,2,1,2,3,4]\nproduzirá o resultado:",
+    "enunciado": "Em linguagens de programação declarativas, em especial aquelas que seguem o paradigma funcional, a lista é uma estrutura de dados fundamental. Uma lista representa coleções de objetos de um único tipo,\nsendo composta por dois elementos: a cabeça (head ) e o corpo (tail ), exceto quando está vazia. A cabeça\né sempre o primeiro elemento e o corpo é uma lista com os elementos da lista original, excetuando-se o primeiro elemento. O programa Haskell, a seguir, apresenta uma função que utiliza essa estrutura de dados.\nposcomp :: [Int] -> [Int]\nposcomp [] = []\nposcomp [x] = [x]\nposcomp (a:b:c) | a > b = b : (a : poscomp c)\n| otherwise = a : (b : poscomp c)\nUma chamada a esta função através da consulta poscomp [5,3,4,5,2,1,2,3,4]\nproduzirá o resultado:",
     "alternativas": [
       "a) [1,2,2,3,3,4,4,5,5]",
       "b) [3,5,4,5,1,2,2,3,4]",
@@ -231,7 +231,7 @@
     "edicao": 2012,
     "id": "2012-35",
     "numero": 35,
-    "enunciado": "Concernente aos algoritmos em grafos, relacione a coluna da esquerda com a da direita.\n(I) Ordenação Topológica (Topsort ). (A) Toma como entrada um grafo orientado, utiliza basicamente\na busca em profundidade e o conceito de grafo transposto\npara resolver o problema.\n(II) Árvore Geradora Minimal (Prim). (B) Toma como entrada um grafo não orientado com pesos nas\narestas, ordena as arestas por peso e escolhe as arestas de\nforma a não fechar ciclos para resolver o problema.\n(III) Caminhos mais curtos (Dijkstra). (C) Toma como entrada um grafo orientado acíclico, utiliza basicamente busca em profundidade e rotulação de vértices\npara resolver o problema.\n(IV) Componentes fortemente conexas (D) Toma como entrada um grafo não orientado com pesos nas\n(CFC). arestas, utiliza basicamente busca em largura escolhendo\narestas de menor peso para resolver o problema.\n(V) Árvore Geradora Minimal (Kruskal). (E) Toma como entrada um grafo não orientado com pesos nas\narestas, utiliza basicamente busca em largura escolhendo\ndistâncias acumuladas de menor peso para resolver o problema.\nAssinale a alternativa que contém a associação correta.",
+    "enunciado": "Concernente aos algoritmos em grafos, relacione a coluna da esquerda com a da direita.\n(I) Ordenação Topológica (Topsort ). (A) Toma como entrada um grafo orientado, utiliza basicamente a busca em profundidade e o conceito de grafo transposto para resolver o problema.\n(II) Árvore Geradora Minimal (Prim). (B) Toma como entrada um grafo não orientado com pesos nas arestas, ordena as arestas por peso e escolhe as arestas de forma a não fechar ciclos para resolver o problema.\n(III) Caminhos mais curtos (Dijkstra). (C) Toma como entrada um grafo orientado acíclico, utiliza basicamente busca em profundidade e rotulação de vértices para resolver o problema.\n(IV) Componentes fortemente conexas (D) Toma como entrada um grafo não orientado com pesos nas\n(CFC). arestas, utiliza basicamente busca em largura escolhendo arestas de menor peso para resolver o problema.\n(V) Árvore Geradora Minimal (Kruskal). (E) Toma como entrada um grafo não orientado com pesos nas arestas, utiliza basicamente busca em largura escolhendo distâncias acumuladas de menor peso para resolver o problema.\nAssinale a alternativa que contém a associação correta.",
     "alternativas": [
       "a) I-A, II-B, III-C, IV-D, V-E.",
       "b) I-C, II-D, III-E, IV-A, V-B.",
@@ -269,13 +269,13 @@
     "edicao": 2012,
     "id": "2012-38",
     "numero": 38,
-    "enunciado": "Sejam G = (V , E) um grafo conexo não orientado com pesos distintos nas arestas e e ∈ E uma aresta\nfixa, em que |V | = n é o número de vértices e |E| = m é o número de arestas de G, com n ≤ m.\nCom relação à geração da árvore de custo mínimo de G, AGM , assinale a alternativa correta.\nG",
+    "enunciado": "Sejam G = (V , E) um grafo conexo não orientado com pesos distintos nas arestas e e ∈ E uma aresta fixa, em que |V | = n é o número de vértices e |E| = m é o número de arestas de G, com n ≤ m.\nCom relação à geração da árvore de custo mínimo de G, AGM , assinale a alternativa correta.\nG",
     "alternativas": [
       "a) Quando e tem o peso da aresta com o (n − 1)-ésimo menor peso de G então e garantidamente estará numa\nAGM .\nG",
       "b) Quando e tem o peso da aresta com o maior peso em G então e garantidamente não estará numa AGM .\nG",
       "c) Quando e tem o peso maior ou igual ao da aresta com o n-ésimo menor peso em G então e pode estar numa\nAGM .\nG",
       "d) Quando e tem o peso distinto do peso de qualquer outra aresta em G então pode existir mais de uma AGM .\nG",
-      "e) Quando e está num ciclo em G e tem o peso da aresta de maior peso neste ciclo então e garantidamente não\nestará numa AGM .\nG"
+      "e) Quando e está num ciclo em G e tem o peso da aresta de maior peso neste ciclo então e garantidamente não estará numa AGM .\nG"
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Teoria dos Grafos",
@@ -288,7 +288,7 @@
     "edicao": 2012,
     "id": "2012-54",
     "numero": 54,
-    "enunciado": "Relacione as técnicas de teste de software, na coluna da esquerda, com os seus respectivos critérios, na\ncoluna da direita.\n(I) Funcional. (A) Teste de mutação.\n(II) Estrutural. (B) MCDC.\n(III) Baseado em defeitos. (C) Método W.\n(IV) Baseado em modelo. (D) Grafo causa-efeito.\nAssinale a alternativa que contém a associação correta.",
+    "enunciado": "Relacione as técnicas de teste de software, na coluna da esquerda, com os seus respectivos critérios, na coluna da direita.\n(I) Funcional. (A) Teste de mutação.\n(II) Estrutural. (B) MCDC.\n(III) Baseado em defeitos. (C) Método W.\n(IV) Baseado em modelo. (D) Grafo causa-efeito.\nAssinale a alternativa que contém a associação correta.",
     "alternativas": [
       "a) I-B, II-D, III-A, IV-C.",
       "b) I-B, II-D, III-C, IV-A.",
@@ -307,7 +307,7 @@
     "edicao": 2012,
     "id": "2012-67",
     "numero": 67,
-    "enunciado": "Considerando as Redes Neurais Artificiais, relacione a coluna da esquerda com a da direita.\n(I) Algoritmo Backpropagation. (A) Nome dado às redes neurais artificiais que possuem camadas\nocultas.\n(II) Perceptron. (B) Nome alternativo que envolve a teoria de redes neurais artificiais.\n(III) Redes Recorrentes. (C) Técnica que implementa um declínio de gradiente no espaço de\nparâmetros, a fim de minimizar o erro de saída.\n(IV) MLPs. (D) Redes neurais de alimentação direta com uma única camada.\n(V) Modelos Conexionistas. (E) Redes neurais artificiais com realimentação.\nAssinale a alternativa que contém a associação correta.",
+    "enunciado": "Considerando as Redes Neurais Artificiais, relacione a coluna da esquerda com a da direita.\n(I) Algoritmo Backpropagation. (A) Nome dado às redes neurais artificiais que possuem camadas ocultas.\n(II) Perceptron. (B) Nome alternativo que envolve a teoria de redes neurais artificiais.\n(III) Redes Recorrentes. (C) Técnica que implementa um declínio de gradiente no espaço de parâmetros, a fim de minimizar o erro de saída.\n(IV) MLPs. (D) Redes neurais de alimentação direta com uma única camada.\n(V) Modelos Conexionistas. (E) Redes neurais artificiais com realimentação.\nAssinale a alternativa que contém a associação correta.",
     "alternativas": [
       "a) I-A, II-B, III-C, IV-D, V-E.",
       "b) I-C, II-D, III-E, IV-A, V-B.",
@@ -345,7 +345,7 @@
     "edicao": 2011,
     "id": "2011-06",
     "numero": 6,
-    "enunciado": "O problema de determinar um vetor normal a um triângulo ou polígono é muito comum em computação\ngráfica. Dado o triângulo formado pelos pontos A(1, 2, 3), B(3, 2, 1) e C (1, 1, 1), um vetor normal, n, a\nesse triângulo é dado por:",
+    "enunciado": "O problema de determinar um vetor normal a um triângulo ou polígono é muito comum em computação gráfica. Dado o triângulo formado pelos pontos A(1, 2, 3), B(3, 2, 1) e C (1, 1, 1), um vetor normal, n, a esse triângulo é dado por:",
     "alternativas": [
       "a) n = [−2, 4, −2]T",
       "b) n = [0, 0, 4]T",
@@ -383,7 +383,7 @@
     "edicao": 2011,
     "id": "2011-14",
     "numero": 14,
-    "enunciado": "Considere as proposições p e q, cujas respectivas negações são p e q. Então é correto afirmar que a\nrecíproca de p ⇒ q é:",
+    "enunciado": "Considere as proposições p e q, cujas respectivas negações são p e q. Então é correto afirmar que a recíproca de p ⇒ q é:",
     "alternativas": [
       "a) q ⇒ p",
       "b) q ⇒ p",
@@ -440,7 +440,7 @@
     "edicao": 2011,
     "id": "2011-25",
     "numero": 25,
-    "enunciado": "Com relação aos métodos de ordenação, relacione a coluna da esquerda com a coluna da direita.\n(I) Inserção (A) Encontra o menor elemento e o troca com a primeira posição, depois o segundo menor com a segunda posição e assim sucessivamente (n-1 vezes).\n(II) Seleção (B) As comparações e trocas são feitas baseadas em uma distância determinada (por exemplo: distância 4, onde o primeiro seria comparado com o\nquinto elemento, o segundo com o sexto, e assim sucessivamente), depois\na distância é reduzida. Este processo se repete até que a distância seja 1 e\nas últimas comparações e trocas sejam efetuadas.\n(III) QuickSort (C) A partir do segundo elemento, este deve ser colocado na sua posição correspondente (entre os elementos já analisados, como ao se organizarem\nas cartas de baralho na mão do jogador). Repete-se o procedimento até o\núltimo elemento.\n(IV) ShellSort (D) Escolhe-se um ponto de referência (pivô) e separam-se os elementos em 2\npartes: à esquerda, ficam os elementos menores que o pivô, e à direita, os\nmaiores. Repete-se este processo para os grupos de elementos formados\n(esquerda e direita) até que todos os elementos estejam ordenados.\n(V) MergeSort (ou or- (E) Divide-se o grupo de elementos ao meio, repete-se a divisão para cada um\ndenação por fu- dos subgrupos, até que cada subgrupo tenha apenas 1 elemento. Nesse\nsão) ponto, faz-se o reagrupamento dos subgrupos comparando os elementos\ne trocando, se necessário, para que eles fiquem ordenados. Repete-se este\nprocedimento até restar um só grupo de elementos.\nAssinale a alternativa que contém a associação correta.",
+    "enunciado": "Com relação aos métodos de ordenação, relacione a coluna da esquerda com a coluna da direita.\n(I) Inserção (A) Encontra o menor elemento e o troca com a primeira posição, depois o segundo menor com a segunda posição e assim sucessivamente (n-1 vezes).\n(II) Seleção (B) As comparações e trocas são feitas baseadas em uma distância determinada (por exemplo: distância 4, onde o primeiro seria comparado com o quinto elemento, o segundo com o sexto, e assim sucessivamente), depois a distância é reduzida. Este processo se repete até que a distância seja 1 e as últimas comparações e trocas sejam efetuadas.\n(III) QuickSort (C) A partir do segundo elemento, este deve ser colocado na sua posição correspondente (entre os elementos já analisados, como ao se organizarem as cartas de baralho na mão do jogador). Repete-se o procedimento até o\núltimo elemento.\n(IV) ShellSort (D) Escolhe-se um ponto de referência (pivô) e separam-se os elementos em 2\npartes: à esquerda, ficam os elementos menores que o pivô, e à direita, os maiores. Repete-se este processo para os grupos de elementos formados\n(esquerda e direita) até que todos os elementos estejam ordenados.\n(V) MergeSort (ou or- (E) Divide-se o grupo de elementos ao meio, repete-se a divisão para cada um denação por fu- dos subgrupos, até que cada subgrupo tenha apenas 1 elemento. Nesse são) ponto, faz-se o reagrupamento dos subgrupos comparando os elementos e trocando, se necessário, para que eles fiquem ordenados. Repete-se este procedimento até restar um só grupo de elementos.\nAssinale a alternativa que contém a associação correta.",
     "alternativas": [
       "a) I-A, II-D, III-B, IV-C, V-E.",
       "b) I-B, II-A, III-C, IV-E, V-D.",
@@ -478,7 +478,7 @@
     "edicao": 2011,
     "id": "2011-34",
     "numero": 34,
-    "enunciado": "Em linguagens orientadas a objetos, o polimorfismo refere-se à ligação tardia de uma chamada a uma ou\nvárias implementações diferentes de um método em uma hierarquia de herança.\nNeste contexto, considere as seguintes classes descritas na Linguagem C++.\n#include <iostream>\nusing namespace std;\nclass PosComp1 {\npublic:\nint Calcula()\n{ return 1; };\n};\nclass PosComp2 : public PosComp1 {\npublic:\nvirtual int Calcula()\n{ return 2; }\n};\nclass PosComp3 : public PosComp2 {\npublic:\nint Calcula()\n{ return 3; }\n};\nSe estas classes forem utilizadas a partir do programa a seguir\nint main() {\nint Result=0;\nPosComp1 *Objs[3];\nObjs[0] = new PosComp1();\nObjs[1] = new PosComp2();\nObjs[2] = new PosComp3();\nfor (int i=0; i<3; i++)\nResult += Objs[i]->Calcula();\ncout << Result << endl;\nreturn 0;\n}\na saída desse programa será:",
+    "enunciado": "Em linguagens orientadas a objetos, o polimorfismo refere-se à ligação tardia de uma chamada a uma ou várias implementações diferentes de um método em uma hierarquia de herança.\nNeste contexto, considere as seguintes classes descritas na Linguagem C++.\n#include <iostream>\nusing namespace std;\nclass PosComp1 {\npublic:\nint Calcula()\n{ return 1; };\n};\nclass PosComp2 : public PosComp1 {\npublic:\nvirtual int Calcula()\n{ return 2; }\n};\nclass PosComp3 : public PosComp2 {\npublic:\nint Calcula()\n{ return 3; }\n};\nSe estas classes forem utilizadas a partir do programa a seguir int main() {\nint Result=0;\nPosComp1 *Objs[3];\nObjs[0] = new PosComp1();\nObjs[1] = new PosComp2();\nObjs[2] = new PosComp3();\nfor (int i=0; i<3; i++)\nResult += Objs[i]->Calcula();\ncout << Result << endl;\nreturn 0;\n}\na saída desse programa será:",
     "alternativas": [
       "a) 0",
       "b) 3",
@@ -497,7 +497,7 @@
     "edicao": 2011,
     "id": "2011-35",
     "numero": 35,
-    "enunciado": "Com relação aos Paradigmas de Linguagens de Programação e as linguagens apresentadas na segunda\ncoluna abaixo, relacione a primeira coluna com a segunda considerando a linguagem que melhor representa cada paradigma.\n(I) Programação Imperativa (A) Linguagem Scheme\n(II) Programação Orientada a Ob- (B) Linguagem Smalltalk\njetos\n(III) Programação Funcional (C) Linguagem Pascal\n(IV) Programação Lógica (D) Linguagem Prolog\nAssinale a alternativa que contém a associação correta.",
+    "enunciado": "Com relação aos Paradigmas de Linguagens de Programação e as linguagens apresentadas na segunda coluna abaixo, relacione a primeira coluna com a segunda considerando a linguagem que melhor representa cada paradigma.\n(I) Programação Imperativa (A) Linguagem Scheme\n(II) Programação Orientada a Ob- (B) Linguagem Smalltalk jetos\n(III) Programação Funcional (C) Linguagem Pascal\n(IV) Programação Lógica (D) Linguagem Prolog\nAssinale a alternativa que contém a associação correta.",
     "alternativas": [
       "a) I-A, II-B, III-D, IV-C.",
       "b) I-B, II-A, III-C, IV-D.",
@@ -516,7 +516,7 @@
     "edicao": 2011,
     "id": "2011-37",
     "numero": 37,
-    "enunciado": "Em programas que utilizam grande quantidade de memória, a alocação deste recurso deve ser realizada\ncom muito cuidado. Em algumas circunstâncias, o uso da memória pode ser otimizado com a utilização\nde registros variantes. Em linguagens como C, o registro variante é construído através de uma união\ndisjuntiva.\nAnalise a declaração de tipo em C++, a seguir.\nunion PosCompType {\nchar A[2];\nstruct {\nchar B;\nchar C;\n};\n};\nConsidere o código a seguir, que utiliza esse tipo.\nint main() {\nPosCompType Dado;\nDado.A[0] = ’a’;\nDado.A[1] = ’b’;\nDado.B = ’c’;\nDado.C = ’d’;\nprintf (\"%c %c %c %c\\n\", Dado.A[0],Dado.A[1],Dado.B,Dado.C);\nreturn 0;\n}\nA saída do código será:",
+    "enunciado": "Em programas que utilizam grande quantidade de memória, a alocação deste recurso deve ser realizada com muito cuidado. Em algumas circunstâncias, o uso da memória pode ser otimizado com a utilização de registros variantes. Em linguagens como C, o registro variante é construído através de uma união disjuntiva.\nAnalise a declaração de tipo em C++, a seguir.\nunion PosCompType {\nchar A[2];\nstruct {\nchar B;\nchar C;\n};\n};\nConsidere o código a seguir, que utiliza esse tipo.\nint main() {\nPosCompType Dado;\nDado.A[0] = ’a’;\nDado.A[1] = ’b’;\nDado.B = ’c’;\nDado.C = ’d’;\nprintf (\"%c %c %c %c\\n\", Dado.A[0],Dado.A[1],Dado.B,Dado.C);\nreturn 0;\n}\nA saída do código será:",
     "alternativas": [
       "a) a b a b",
       "b) a b c d",
@@ -559,8 +559,8 @@
       "a) Copiar o conteúdo da região de memória referenciada pelo identificador s1 para a região de memória referenciada pelo identificador s2.",
       "b) Atribuir o valor ‘\\0’ para todas as posições de memória entre o endereço referenciado pelo identificador s1 até\na região de memória referenciada pelo identificador s2.",
       "c) Comparar o conteúdo de memória que se inicia na posição referenciada pelo identificador s1 e ir até a ocorrência de um valor ‘\\0’ com o conteúdo da região de memória referenciada pelo identificador s2.",
-      "d) Substituir os elementos armazenados na região de memória referenciada pelo identificador s1 pelos elementos\narmazenados na região de memória referenciada pelo identificador s2.",
-      "e) Copiar os elementos contidos na região de memória referenciada pelo identificador s2 após os elementos\narmazenados na região de memória referenciada pelo identificador s1."
+      "d) Substituir os elementos armazenados na região de memória referenciada pelo identificador s1 pelos elementos armazenados na região de memória referenciada pelo identificador s2.",
+      "e) Copiar os elementos contidos na região de memória referenciada pelo identificador s2 após os elementos armazenados na região de memória referenciada pelo identificador s1."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Algoritmos e Estrutura de Dados",
@@ -611,13 +611,13 @@
     "edicao": 2011,
     "id": "2011-46",
     "numero": 46,
-    "enunciado": "Considere o algoritmo de codificação RSA, utilizado para criptografia e assinatura digital. Ele se baseia\nna utilização de dois números primos grandes aleatórios, p e q, para gerar os valores n, e e d. Tais valores\ncompõem as chaves pública e privada, P = (e, n) e S = (d, n), respectivamente.\nCom base nos conhecimentos sobre o tema, assinale a alternativa correta.",
+    "enunciado": "Considere o algoritmo de codificação RSA, utilizado para criptografia e assinatura digital. Ele se baseia na utilização de dois números primos grandes aleatórios, p e q, para gerar os valores n, e e d. Tais valores compõem as chaves pública e privada, P = (e, n) e S = (d, n), respectivamente.\nCom base nos conhecimentos sobre o tema, assinale a alternativa correta.",
     "alternativas": [
-      "a) O procedimento para o envio de uma mensagem envolve os seguintes passos: o destinatário D disponibiliza\numa chave pública P para quem quer lhe enviar uma mensagem; o remetente R utiliza a chave pública para\nD\ncifrar a mensagem M , tal que C = P (M ); após receber C , o destinatário utiliza sua chave privada S , para\nR D R D\ndecifrar a mensagem, tal que M = S (C ).\nD R",
-      "b) O procedimento para assinatura digital envolve os seguintes passos: o destinatário D disponibiliza uma chave\npública P para quem quer lhe enviar uma mensagem assinada; o remetente R utiliza a chave pública para\nD\ncifrar a mensagem M , tal que C = P (M ); após receber C , o destinatário utiliza sua chave privada S , para\nR D R D\ndecifrar a mensagem, tal que M = S (C ).\nD R",
-      "c) A codificação RSA é considerada segura, pois, a partir de uma cifra C , é impossível obter a mensagem M sem\nconhecer a chave privada S = (d, n).",
-      "d) Do ponto de vista do desempenho computacional, o algoritmo RSA pode ser considerado um dos melhores,\npois, com ele, a cifragem e a decifragem são mais rápidas e computacionalmente menos intensivas que outras\ntécnicas que não envolvem chaves públicas.",
-      "e) Um dos problemas em se utilizar o algoritmo RSA para assinatura digital é o fato de ser obrigatória a existência\nde um agente certificador de confiança, cuja função é criar e atribuir as chaves públicas e privadas às pessoas\ncertas. Se o agente não for de confiança, o sistema é comprometido."
+      "a) O procedimento para o envio de uma mensagem envolve os seguintes passos: o destinatário D disponibiliza uma chave pública P para quem quer lhe enviar uma mensagem; o remetente R utiliza a chave pública para\nD\ncifrar a mensagem M , tal que C = P (M ); após receber C , o destinatário utiliza sua chave privada S , para\nR D R D\ndecifrar a mensagem, tal que M = S (C ).\nD R",
+      "b) O procedimento para assinatura digital envolve os seguintes passos: o destinatário D disponibiliza uma chave pública P para quem quer lhe enviar uma mensagem assinada; o remetente R utiliza a chave pública para\nD\ncifrar a mensagem M , tal que C = P (M ); após receber C , o destinatário utiliza sua chave privada S , para\nR D R D\ndecifrar a mensagem, tal que M = S (C ).\nD R",
+      "c) A codificação RSA é considerada segura, pois, a partir de uma cifra C , é impossível obter a mensagem M sem conhecer a chave privada S = (d, n).",
+      "d) Do ponto de vista do desempenho computacional, o algoritmo RSA pode ser considerado um dos melhores,\npois, com ele, a cifragem e a decifragem são mais rápidas e computacionalmente menos intensivas que outras técnicas que não envolvem chaves públicas.",
+      "e) Um dos problemas em se utilizar o algoritmo RSA para assinatura digital é o fato de ser obrigatória a existência de um agente certificador de confiança, cuja função é criar e atribuir as chaves públicas e privadas às pessoas certas. Se o agente não for de confiança, o sistema é comprometido."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Algoritmos e Estrutura de Dados",
@@ -632,11 +632,11 @@
     "numero": 47,
     "enunciado": "Seja G um grafo conexo. Considere a notação a seguir.\n* c é o número cromático em vértices de G.\nv\n* c é o número cromático em arestas de G.\ne\n* g é o grau mínimo de G.\nmin\n* g é o grau máximo de G.\nmax\n* w é a quantidade de vértices do maior subgrafo completo de G.\nAssinale a alternativa correta.",
     "alternativas": [
-      "a) c ≤ c\nv e",
-      "b) c ≤ w\nv",
-      "c) c ≤ g\ne max",
+      "a) c ≤ c v e",
+      "b) c ≤ w v",
+      "c) c ≤ g e max",
       "d) c ≤ g + 1\nv max",
-      "e) c ≥ g\nv min"
+      "e) c ≥ g v min"
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Teoria dos Grafos",
@@ -649,7 +649,7 @@
     "edicao": 2011,
     "id": "2011-48",
     "numero": 48,
-    "enunciado": "Observe a função recursiva a seguir, desenvolvida na linguagem Pascal.\nfunction Prova (N : integer) : integer;\nbegin\nif N = 0 then Prova := 0\nelse Prova := N * 2 - 1 + Prova (N - 1);\nend;\nConsiderando-se que essa função sempre será chamada com variável N contendo inteiros positivos, o seu\nvalor de retorno será:",
+    "enunciado": "Observe a função recursiva a seguir, desenvolvida na linguagem Pascal.\nfunction Prova (N : integer) : integer;\nbegin\nif N = 0 then Prova := 0\nelse Prova := N * 2 - 1 + Prova (N - 1);\nend;\nConsiderando-se que essa função sempre será chamada com variável N contendo inteiros positivos, o seu valor de retorno será:",
     "alternativas": [
       "a) O fatorial do valor armazenado em N.",
       "b) O valor armazenado em N elevado ao quadrado.",
@@ -668,7 +668,7 @@
     "edicao": 2011,
     "id": "2011-55",
     "numero": 55,
-    "enunciado": "Com relação ao processo tradicional de síntese de imagens em computação gráfica, relacione a coluna\nda esquerda com a coluna da direita.\n(I) Projeção Perspectiva (A) Responsável pela remoção das linhas e superfícies ocultas.\n(II) Volume de Visualização (B) Define a porção visível da cena.\n(III) Modelo de Gouraud (C) Mapeia coordenadas num espaço tridimensional para um espaço bidimensional.\n(IV) Algoritmo de Z-buffer (D) Efetua interpolação linear das cores.\n(V) Rasterização (E) Encontra as coordenadas de pixel na tela.\nAssinale a alternativa que contém a associação correta.",
+    "enunciado": "Com relação ao processo tradicional de síntese de imagens em computação gráfica, relacione a coluna da esquerda com a coluna da direita.\n(I) Projeção Perspectiva (A) Responsável pela remoção das linhas e superfícies ocultas.\n(II) Volume de Visualização (B) Define a porção visível da cena.\n(III) Modelo de Gouraud (C) Mapeia coordenadas num espaço tridimensional para um espaço bidimensional.\n(IV) Algoritmo de Z-buffer (D) Efetua interpolação linear das cores.\n(V) Rasterização (E) Encontra as coordenadas de pixel na tela.\nAssinale a alternativa que contém a associação correta.",
     "alternativas": [
       "a) I-B, II-C, III-E, IV-D, V-A.",
       "b) I-B, II-E, III-D, IV-C, V-A.",
@@ -706,7 +706,7 @@
     "edicao": 2010,
     "id": "2010-11",
     "numero": 11,
-    "enunciado": "De quantos modos 4 homens e 4 mulheres podem se sentar em 4 bancos de 2 lugares, se em cada banco\ndeve haver um homem e uma mulher?",
+    "enunciado": "De quantos modos 4 homens e 4 mulheres podem se sentar em 4 bancos de 2 lugares, se em cada banco deve haver um homem e uma mulher?",
     "alternativas": [
       "a) 64",
       "b) 8!\n8!",
@@ -725,7 +725,7 @@
     "edicao": 2010,
     "id": "2010-19",
     "numero": 19,
-    "enunciado": "Realizou-se uma brincadeira com n crianças, que receberam uma bexiga (balão) vazia cada uma, para\nentão encherem até onde achassem que não estouraria. A brincadeira consistia, então, em determinar\numa estratégia que estabelecesse a ordem na qual os balões atingiriam o teto do salão.\nConsiderando a quantidade de ar em cada bexiga e assumindo que seja possível determinar qual bexiga\nestava mais cheia de ar, quando comparadas duas a duas, quantas comparações, no máximo, seriam\nnecessárias para soltar todos os balões, escolhendo de cada vez o balão precisamente mais cheio de\nar?",
+    "enunciado": "Realizou-se uma brincadeira com n crianças, que receberam uma bexiga (balão) vazia cada uma, para então encherem até onde achassem que não estouraria. A brincadeira consistia, então, em determinar uma estratégia que estabelecesse a ordem na qual os balões atingiriam o teto do salão.\nConsiderando a quantidade de ar em cada bexiga e assumindo que seja possível determinar qual bexiga estava mais cheia de ar, quando comparadas duas a duas, quantas comparações, no máximo, seriam necessárias para soltar todos os balões, escolhendo de cada vez o balão precisamente mais cheio de ar?",
     "alternativas": [
       "a) log n",
       "b) n2 log n",
@@ -801,7 +801,7 @@
     "edicao": 2010,
     "id": "2010-26",
     "numero": 26,
-    "enunciado": "Os algoritmos a seguir representam os três caminhamentos para árvores binárias.\ncaminhamento(binário)\nse binário.esquerda 6= NULL então caminhamento(binário.esquerda)\nescrever binário.valor\nse binário.direita 6= NULL então caminhamento(binário.direita)\ncaminhamento(binário)\nescrever binário.dado\nse binário.esquerda 6= NULL então caminhamento(binário.esquerda)\nse binário.direita 6= NULL então caminhamento(binário.direita)\ncaminhamento(binário)\nse binário.esquerda 6= NULL então caminhamento(binário.esquerda)\nse binário.direita 6= NULL então caminhamento(binário.direita)\nescrever binário.valor\nAssinale a alternativa que contém os nomes dos 3 caminhamentos, respectivamente.",
+    "enunciado": "Os algoritmos a seguir representam os três caminhamentos para árvores binárias.\ncaminhamento(binário)\nse binário.esquerda 6= NULL então caminhamento(binário.esquerda)\nescrever binário.valor se binário.direita 6= NULL então caminhamento(binário.direita)\ncaminhamento(binário)\nescrever binário.dado se binário.esquerda 6= NULL então caminhamento(binário.esquerda)\nse binário.direita 6= NULL então caminhamento(binário.direita)\ncaminhamento(binário)\nse binário.esquerda 6= NULL então caminhamento(binário.esquerda)\nse binário.direita 6= NULL então caminhamento(binário.direita)\nescrever binário.valor\nAssinale a alternativa que contém os nomes dos 3 caminhamentos, respectivamente.",
     "alternativas": [
       "a) pré-ordem, pós-ordem, em-ordem",
       "b) pré-ordem, em-ordem, pós-ordem",
@@ -820,7 +820,7 @@
     "edicao": 2010,
     "id": "2010-27",
     "numero": 27,
-    "enunciado": "Considere o problema de ordenação onde os vetores a serem ordenados, de tamanho n > 0, possuem\nbn/2c valores iguais a um número real x e dn/2e valores iguais a um outro número real y. Considere que\nos números reais x e y são conhecidos e fixos, porém estão distribuídos aleatoriamente no vetor a ser\nordenado.\nNeste caso, é correto afirmar:",
+    "enunciado": "Considere o problema de ordenação onde os vetores a serem ordenados, de tamanho n > 0, possuem bn/2c valores iguais a um número real x e dn/2e valores iguais a um outro número real y. Considere que os números reais x e y são conhecidos e fixos, porém estão distribuídos aleatoriamente no vetor a ser ordenado.\nNeste caso, é correto afirmar:",
     "alternativas": [
       "a) Podem os ordenar es tes v etor es a um c us to O(n).",
       "b) No caso médio, o Quicksort será o algoritmo mais eficiente para este problema, com um custo O(n log n).",
@@ -839,7 +839,7 @@
     "edicao": 2010,
     "id": "2010-28",
     "numero": 28,
-    "enunciado": "Com base nos conhecimentos sobre as linguagens de programação funcionais, considere as afirmativas\na seguir.\nI. Uma linguagem de programação funcional tem o objetivo de imitar as funções matemáticas, ou seja,\nos programas são definições de funções e de especificações da aplicação dessas funções.\nII. Nas linguagens funcionais, os dados e as rotinas para manipulá-los são mantidos em uma mesma\nunidade, chamada objeto. Os dados só podem ser manipulados por meio das rotinas que estão na\nmesma unidade.\nIII. As rotinas de um programa do paradigma funcional descrevem ações que mudam o estado das variáveis do programa, seguindo uma sequência de comandos para o computador executar.\nIV. A linguagem Lisp é um exemplo do paradigma funcional de programação.\nAssinale a alternativa correta.",
+    "enunciado": "Com base nos conhecimentos sobre as linguagens de programação funcionais, considere as afirmativas a seguir.\nI. Uma linguagem de programação funcional tem o objetivo de imitar as funções matemáticas, ou seja,\nos programas são definições de funções e de especificações da aplicação dessas funções.\nII. Nas linguagens funcionais, os dados e as rotinas para manipulá-los são mantidos em uma mesma unidade, chamada objeto. Os dados só podem ser manipulados por meio das rotinas que estão na mesma unidade.\nIII. As rotinas de um programa do paradigma funcional descrevem ações que mudam o estado das variáveis do programa, seguindo uma sequência de comandos para o computador executar.\nIV. A linguagem Lisp é um exemplo do paradigma funcional de programação.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Som ente as afi r m ati vas I e IV s ão c or r etas .",
       "b) Somente as afirmativas II e III são corretas.",
@@ -858,7 +858,7 @@
     "edicao": 2010,
     "id": "2010-29",
     "numero": 29,
-    "enunciado": "Considere o programa a seguir, desenvolvido em linguagem C.\n#include <stdio.h>\nint F1(int X, int Y) {\nif (X < Y) return X;\nelse return F1(X-Y,Y);\n}\nint F2(int X, int Y) {\nif (X < Y) return 0;\nelse return 1 + F2(X-Y,Y);\n}\nvoid F3(int X, int Y) {\nif (X < Y) printf(\"%d\",X);\nelse {\nF3(F2(X,Y),Y);\nprintf(\"%d\",F1(X,Y));\n}\n}\nint main() {\nint A, B;\nscanf(\"%d %d\",&A, &B);\nif ((A > 0) && (A < 1000)\n&& (B > 1) && (B < 10)) {\nF3(A,B);\nprintf(\"\\n\");\n}\nreturn 0;\n}\nNo programa apresentado, a técnica da recursividade foi aplicada às três funções F1, F2 e F3. Essa técnica\nenvolve a definição de uma função ou rotina que pode invocar a si própria.\nCom relação ao programa apresentado e à técnica de recursão, atribua F (falso) ou V (verdadeiro) para as\nafirmativas a seguir.\n( ) A chamada da função F1, através da expressão F1(X,Y), pode ser substituída, sem alterar o resultado\ndo programa, pela expressão X %Y .\n( ) O objetivo da função F2 é retornar o valor da variável X elevado à Y-ésima potência.\n( ) A chamada à função F3 entrará em uma recursão sem fim se o valor da variável X for maior que o\nvalor da variável Y.\n( ) A função main não é recursiva, pois na Linguagem C não é possível implementar esta técnica na\nfunção principal do programa.\n( ) A expressão ((A > 0) && (A < 1000) && (B > 1) && (B < 10)), da função main, pode ser substituída\npela expressão (!((A <= 0) || (A >= 1000) || (B <= 1) || (B >= 10))), sem afetar o resultado do comando\ncondicional if nesta expressão.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+    "enunciado": "Considere o programa a seguir, desenvolvido em linguagem C.\n#include <stdio.h>\nint F1(int X, int Y) {\nif (X < Y) return X;\nelse return F1(X-Y,Y);\n}\nint F2(int X, int Y) {\nif (X < Y) return 0;\nelse return 1 + F2(X-Y,Y);\n}\nvoid F3(int X, int Y) {\nif (X < Y) printf(\"%d\",X);\nelse {\nF3(F2(X,Y),Y);\nprintf(\"%d\",F1(X,Y));\n}\n}\nint main() {\nint A, B;\nscanf(\"%d %d\",&A, &B);\nif ((A > 0) && (A < 1000)\n&& (B > 1) && (B < 10)) {\nF3(A,B);\nprintf(\"\\n\");\n}\nreturn 0;\n}\nNo programa apresentado, a técnica da recursividade foi aplicada às três funções F1, F2 e F3. Essa técnica envolve a definição de uma função ou rotina que pode invocar a si própria.\nCom relação ao programa apresentado e à técnica de recursão, atribua F (falso) ou V (verdadeiro) para as afirmativas a seguir.\n( ) A chamada da função F1, através da expressão F1(X,Y), pode ser substituída, sem alterar o resultado do programa, pela expressão X %Y .\n( ) O objetivo da função F2 é retornar o valor da variável X elevado à Y-ésima potência.\n( ) A chamada à função F3 entrará em uma recursão sem fim se o valor da variável X for maior que o valor da variável Y.\n( ) A função main não é recursiva, pois na Linguagem C não é possível implementar esta técnica na função principal do programa.\n( ) A expressão ((A > 0) && (A < 1000) && (B > 1) && (B < 10)), da função main, pode ser substituída pela expressão (!((A <= 0) || (A >= 1000) || (B <= 1) || (B >= 10))), sem afetar o resultado do comando condicional if nesta expressão.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
     "alternativas": [
       "a) F, V, F, F, V.",
       "b) V, F, F, V, F.",
@@ -877,7 +877,7 @@
     "edicao": 2010,
     "id": "2010-30",
     "numero": 30,
-    "enunciado": "O mecanismo de herança, no paradigma da programação orientada a objetos, é uma forma de reutilização\nde software na qual uma nova classe é criada, absorvendo membros de uma classe existente e aprimorada\ncom capacidades novas ou modificadas.\nConsidere as seguintes classes descritas na linguagem C++.\n#include <iostream>\nusing namespace std;\nclass A {\nprotected:\nint v;\npublic:\nA() { v = 0; };\nvoid m1() {\nv += 10;\nm2();\n};\nvoid m2() {\nv += 20;\n};\nint getv() {\nreturn v;\n};\n};\nclass B : public A {\npublic:\nvoid m2() {\nv += 30;\n};\n};\nSe essas classes forem utilizadas a partir do programa a seguir,\nint main()\n{\nB *Obj = new B();\nObj->m1();\nObj->m2();\ncout << Obj->getv() << endl;\nreturn 0;\n}\na saída do código computacional acima será:",
+    "enunciado": "O mecanismo de herança, no paradigma da programação orientada a objetos, é uma forma de reutilização de software na qual uma nova classe é criada, absorvendo membros de uma classe existente e aprimorada com capacidades novas ou modificadas.\nConsidere as seguintes classes descritas na linguagem C++.\n#include <iostream>\nusing namespace std;\nclass A {\nprotected:\nint v;\npublic:\nA() { v = 0; };\nvoid m1() {\nv += 10;\nm2();\n};\nvoid m2() {\nv += 20;\n};\nint getv() {\nreturn v;\n};\n};\nclass B : public A {\npublic:\nvoid m2() {\nv += 30;\n};\n};\nSe essas classes forem utilizadas a partir do programa a seguir,\nint main()\n{\nB *Obj = new B();\nObj->m1();\nObj->m2();\ncout << Obj->getv() << endl;\nreturn 0;\n}\na saída do código computacional acima será:",
     "alternativas": [
       "a) 30",
       "b) 40",
@@ -896,7 +896,7 @@
     "edicao": 2010,
     "id": "2010-31",
     "numero": 31,
-    "enunciado": "Sobre tipos union, considere as afirmativas a seguir.\nI. Uma union é um tipo que pode armazenar diferentes valores de tipo durante a execução do programa.\nII. Na linguagem C, a union é realizada por meio do mecanismo de construção de tipos struct.\nIII. Na linguagem C++, a union é realizada através do mecanismo de construção de tipos class.\nIV. Nas linguagens Pascal e Ada, a union é construída mediante um registro variante, permitindo que a\nverificação de tipos de cada union seja discriminada.\nAssinale a alternativa correta.",
+    "enunciado": "Sobre tipos union, considere as afirmativas a seguir.\nI. Uma union é um tipo que pode armazenar diferentes valores de tipo durante a execução do programa.\nII. Na linguagem C, a union é realizada por meio do mecanismo de construção de tipos struct.\nIII. Na linguagem C++, a union é realizada através do mecanismo de construção de tipos class.\nIV. Nas linguagens Pascal e Ada, a union é construída mediante um registro variante, permitindo que a verificação de tipos de cada union seja discriminada.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Som ente as afi r m ati vas I e IV s ão c or r etas .",
@@ -915,7 +915,7 @@
     "edicao": 2010,
     "id": "2010-32",
     "numero": 32,
-    "enunciado": "Considere o algoritmo a seguir.\nPROC (n)\nse n <= 1 então\nretorna 1 + n;\nsenão\nretorna PROC(n/2) + PROC(n/2);\nfim se\nAssinale a alternativa que indica corretamente quantas comparações são feitas para uma entrada n > 0,\nonde n é um número natural.",
+    "enunciado": "Considere o algoritmo a seguir.\nPROC (n)\nse n <= 1 então retorna 1 + n;\nsenão retorna PROC(n/2) + PROC(n/2);\nfim se\nAssinale a alternativa que indica corretamente quantas comparações são feitas para uma entrada n > 0,\nonde n é um número natural.",
     "alternativas": [
       "a) n",
       "b) log n + 1",
@@ -972,7 +972,7 @@
     "edicao": 2010,
     "id": "2010-55",
     "numero": 55,
-    "enunciado": "A correta tonalização de um poliedro requer que vetores normais à sua superfície sejam definidos em cada\nponto de sua malha.\nPara tonalizar uma esfera definida parametricamente por p(u, v) = [cos(u)sin(v), cos(u)cos(v), sin(u)]T , onde\nu varia entre [−π/2, π/2] e v varia entre [−π, π], é preciso descobrir a forma implícita de sua normal n(u, v).\nComo ela é definida?",
+    "enunciado": "A correta tonalização de um poliedro requer que vetores normais à sua superfície sejam definidos em cada ponto de sua malha.\nPara tonalizar uma esfera definida parametricamente por p(u, v) = [cos(u)sin(v), cos(u)cos(v), sin(u)]T , onde u varia entre [−π/2, π/2] e v varia entre [−π, π], é preciso descobrir a forma implícita de sua normal n(u, v).\nComo ela é definida?",
     "alternativas": [
       "a) n(u, v) = cos(u)p(u, v) + cos(v)p(u, v)",
       "b) n(u, v) = cos(u)p(u, v)",
@@ -991,7 +991,7 @@
     "edicao": 2010,
     "id": "2010-61",
     "numero": 61,
-    "enunciado": "Considere um banco de dados relacional composto pelas tabelas definidas a seguir, na linguagem SQL,\nem que são cadastrados alunos, disciplinas e as matrículas de alunos em disciplinas.\nCREATE TABLE Aluno (\nRA INTEGER NOT NULL,\nNome VARCHAR2(20) NOT NULL,\nCurso INTEGER NOT NULL,\nPRIMARY KEY (RA) );\nCREATE TABLE Disciplina (\nCodigo INTEGER NOT NULL,\nNome VARCHAR2(20) NOT NULL,\nDepartamento INTEGER NOT NULL,\nPRIMARY KEY (Codigo) );\nCREATE TABLE Matricula (\nRA INTEGER NOT NULL,\nCodigo INTEGER NOT NULL,\nAno INTEGER NOT NULL,\nPRIMARY KEY (RA, Codigo),\nFOREIGN KEY (Codigo) REFERENCES Disciplina,\nFOREIGN KEY (RA) REFERENCES Aluno);\nConsidere também a consulta a seguir, expressa na linguagem SQL, em que o operador MINUS realiza a\noperação de subtração de relações.\nSELECT Nome FROM Aluno A\nWHERE NOT EXISTS ( (SELECT D.Codigo FROM Disciplina D WHERE D.Departamento = 5)\nMINUS\n(SELECT M.Codigo FROM Matricula M WHERE M.RA = A.RA)\n)\nAND EXISTS (SELECT D.Codigo FROM Disciplina D WHERE D.Departamento = 5)\nConsidere, por fim, as afirmativas a seguir, sobre a consulta apresentada.\nI. A consulta retorna os nomes dos alunos matriculados em todas as disciplinas do departamento 5.\nII. A consulta retorna os nomes dos alunos matriculados em, pelo menos, uma disciplina do departamento 5.\nIII. A consulta retorna os nomes das disciplinas do departamento 5 nas quais todos os alunos estão\nmatriculados.\nIV. A estrutura dessa consulta permite implementar, na linguagem SQL, a operação de divisão da Álgebra\nRelacional.\nAssinale a alternativa correta.",
+    "enunciado": "Considere um banco de dados relacional composto pelas tabelas definidas a seguir, na linguagem SQL,\nem que são cadastrados alunos, disciplinas e as matrículas de alunos em disciplinas.\nCREATE TABLE Aluno (\nRA INTEGER NOT NULL,\nNome VARCHAR2(20) NOT NULL,\nCurso INTEGER NOT NULL,\nPRIMARY KEY (RA) );\nCREATE TABLE Disciplina (\nCodigo INTEGER NOT NULL,\nNome VARCHAR2(20) NOT NULL,\nDepartamento INTEGER NOT NULL,\nPRIMARY KEY (Codigo) );\nCREATE TABLE Matricula (\nRA INTEGER NOT NULL,\nCodigo INTEGER NOT NULL,\nAno INTEGER NOT NULL,\nPRIMARY KEY (RA, Codigo),\nFOREIGN KEY (Codigo) REFERENCES Disciplina,\nFOREIGN KEY (RA) REFERENCES Aluno);\nConsidere também a consulta a seguir, expressa na linguagem SQL, em que o operador MINUS realiza a operação de subtração de relações.\nSELECT Nome FROM Aluno A\nWHERE NOT EXISTS ( (SELECT D.Codigo FROM Disciplina D WHERE D.Departamento = 5)\nMINUS\n(SELECT M.Codigo FROM Matricula M WHERE M.RA = A.RA)\n)\nAND EXISTS (SELECT D.Codigo FROM Disciplina D WHERE D.Departamento = 5)\nConsidere, por fim, as afirmativas a seguir, sobre a consulta apresentada.\nI. A consulta retorna os nomes dos alunos matriculados em todas as disciplinas do departamento 5.\nII. A consulta retorna os nomes dos alunos matriculados em, pelo menos, uma disciplina do departamento 5.\nIII. A consulta retorna os nomes das disciplinas do departamento 5 nas quais todos os alunos estão matriculados.\nIV. A estrutura dessa consulta permite implementar, na linguagem SQL, a operação de divisão da Álgebra\nRelacional.\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
       "b) Somente as afirmativas I e IV são corretas.",
@@ -1010,7 +1010,7 @@
     "edicao": 2010,
     "id": "2010-63",
     "numero": 63,
-    "enunciado": "A UML (Unified Modeling Language) é uma linguagem padrão para a elaboração da estrutura de projetos\nque pode ser empregada para a visualização, a especificação, a construção e a documentação de artefatos. No contexto da UML, um relacionamento é uma conexão entre itens, representado graficamente como\num caminho, com tipos diferentes de linhas para diferenciar os tipos de relacionamento.\nCom base no enunciado e nos conhecimentos sobre o tema, correlacione os tipos de relacionamentos e\nsuas respectivas descrições.\n(I) É um relacionamento de utilização, determinando que um item (A) Associação\nusa as informações e serviços de outro item, mas não necessariamente o inverso.\n(II) É um relacionamento entre itens gerais e tipos mais específicos (B) Dependência\ndesses itens.\n(III) É um relacionamento estrutural que especifica objetos de um item (C) Generalização\nconectados a objetos de outro item. A partir deste relacionamento, é possível navegar do objeto de uma classe até o objeto\nde outra classe e vice-versa.\nAssinale a alternativa que contém a associação correta.",
+    "enunciado": "A UML (Unified Modeling Language) é uma linguagem padrão para a elaboração da estrutura de projetos que pode ser empregada para a visualização, a especificação, a construção e a documentação de artefatos. No contexto da UML, um relacionamento é uma conexão entre itens, representado graficamente como um caminho, com tipos diferentes de linhas para diferenciar os tipos de relacionamento.\nCom base no enunciado e nos conhecimentos sobre o tema, correlacione os tipos de relacionamentos e suas respectivas descrições.\n(I) É um relacionamento de utilização, determinando que um item (A) Associação usa as informações e serviços de outro item, mas não necessariamente o inverso.\n(II) É um relacionamento entre itens gerais e tipos mais específicos (B) Dependência desses itens.\n(III) É um relacionamento estrutural que especifica objetos de um item (C) Generalização conectados a objetos de outro item. A partir deste relacionamento, é possível navegar do objeto de uma classe até o objeto de outra classe e vice-versa.\nAssinale a alternativa que contém a associação correta.",
     "alternativas": [
       "a) I-A; II-B; III-C.",
       "b) I-B; II-A; III-C.",
@@ -1048,7 +1048,7 @@
     "edicao": 2009,
     "id": "2009-03",
     "numero": 3,
-    "enunciado": "Se (xmod7=3) e (xmod5 =1), onde x >0, qual o menor valor inteiro\npossível para x?",
+    "enunciado": "Se (xmod7=3) e (xmod5 =1), onde x >0, qual o menor valor inteiro possível para x?",
     "alternativas": [
       "a) 17",
       "b) 25",
@@ -1067,7 +1067,7 @@
     "edicao": 2009,
     "id": "2009-04",
     "numero": 4,
-    "enunciado": "Considere um conjunto S definido como a interseção de n semi-espaços planos\nHi(x,y,2)<0, 1I<i<n, onde H;(x,y,27) =a;x+b;y+c;iz+d;. Então, pode-se\ndizer que para o ponto p = (xp, Yp» Zp):",
+    "enunciado": "Considere um conjunto S definido como a interseção de n semi-espaços planos\nHi(x,y,2)<0, 1I<i<n, onde H;(x,y,27) =a;x+b;y+c;iz+d;. Então, pode-se dizer que para o ponto p = (xp, Yp» Zp):",
     "alternativas": [
       "a) (min;sien Hi(Xp, Yp» Zp)) 206 pes",
       "b) (max,<i<n Hi(xp,Yp»Zp)) <0Spes",
@@ -1086,7 +1086,7 @@
     "edicao": 2009,
     "id": "2009-09",
     "numero": 9,
-    "enunciado": "Considere duas variáveis aleatórias discretas 4 e B independentes. Sejam oZ e og as\nvariâncias de 4 e B respectivamente.\n\nSe k e p são constantes, o que pode ser dito a respeito da variância de\n(k + 4) — (p + B)?",
+    "enunciado": "Considere duas variáveis aleatórias discretas 4 e B independentes. Sejam oZ e og as variâncias de 4 e B respectivamente.\n\nSe k e p são constantes, o que pode ser dito a respeito da variância de\n(k + 4) — (p + B)?",
     "alternativas": [
       "a) 04 — og",
       "b) o2 + og",
@@ -1105,7 +1105,7 @@
     "edicao": 2009,
     "id": "2009-14",
     "numero": 14,
-    "enunciado": "Se é verdade que as três sentenças a seguir são verdade\n\np> q\nr3s\n(PAD) ST\n\nentão é verdade que:",
+    "enunciado": "Se é verdade que as três sentenças a seguir são verdade\n\np> q r3s\n(PAD) ST\n\nentão é verdade que:",
     "alternativas": [
       "a) as3(tVp)",
       "b) r>5>+s",
@@ -1124,7 +1124,7 @@
     "edicao": 2009,
     "id": "2009-19",
     "numero": 19,
-    "enunciado": "Dado um conjunto S = fa,b,c,d?, quantas são as possíveis relações de equivalência\nem S?",
+    "enunciado": "Dado um conjunto S = fa,b,c,d?, quantas são as possíveis relações de equivalência em S?",
     "alternativas": [
       "a) 4",
       "b) 7",
@@ -1143,7 +1143,7 @@
     "edicao": 2009,
     "id": "2009-20",
     "numero": 20,
-    "enunciado": "Três empresas, X, Y e Z estão competindo por clientes, usando uma campanha de\nmarketing.\nComo resultado dessa campanha, houve a seguinte mudança de clientes:\n\ne 7% dos clientes de X trocam para Y\ne 5% dos clientes de X trocam para Z\ne 14% dos clientes de Y trocam para X\ne 8% dos clientes de Y trocam para Z\ne 3% dos clientes de Z trocam para X\ne 5% dos clientes de Z trocam para Y\n\nSe no início da campanha a distribuição de clientes era\n\ne 39% para X\ne 26% para Y\ne 35% para Z\n\nQue operação matricial pode ser usada para representar o cálculo da distribuição de\nclientes após o fim da campanha?\n\n0,39 0,12 0,14 0,03\n0,26 0,07 0,22 005\n0,35 0,05 0,08 0,08\n0,12 0,14 0,03 0,39\nB) |0,07 0,22 aro x 025\n0,05 0,08 0,08 0,35\n0,39 0,88 0,14 0,03\nC) 026 x Da? 0,78 005\n0,35 0,05 0,08 0,92\n0,88 0,14 0,03 0,39\nD) |0,07 0,78 005 x 025\n0,05 0,08 0,92 0,35\n\nE) Nenhuma das respostas anteriores.",
+    "enunciado": "Três empresas, X, Y e Z estão competindo por clientes, usando uma campanha de marketing.\nComo resultado dessa campanha, houve a seguinte mudança de clientes:\n\ne 7% dos clientes de X trocam para Y\ne 5% dos clientes de X trocam para Z\ne 14% dos clientes de Y trocam para X\ne 8% dos clientes de Y trocam para Z\ne 3% dos clientes de Z trocam para X\ne 5% dos clientes de Z trocam para Y\n\nSe no início da campanha a distribuição de clientes era\n\ne 39% para X\ne 26% para Y\ne 35% para Z\n\nQue operação matricial pode ser usada para representar o cálculo da distribuição de clientes após o fim da campanha?\n\n0,39 0,12 0,14 0,03\n0,26 0,07 0,22 005\n0,35 0,05 0,08 0,08\n0,12 0,14 0,03 0,39\nB) |0,07 0,22 aro x 025\n0,05 0,08 0,08 0,35\n0,39 0,88 0,14 0,03\nC) 026 x Da? 0,78 005\n0,35 0,05 0,08 0,92\n0,88 0,14 0,03 0,39\nD) |0,07 0,78 005 x 025\n0,05 0,08 0,92 0,35\n\nE) Nenhuma das respostas anteriores.",
     "alternativas": [
       "a) ",
       "b) ",
@@ -1162,7 +1162,7 @@
     "edicao": 2009,
     "id": "2009-21",
     "numero": 21,
-    "enunciado": "A sequência de Fibonacci é uma sequência de inteiros, cujo primeiro termo é 0, o\nsegundo termo é 1, e a partir do terceiro, cada termo é igual à soma dos dois anteriores.\nO seguinte algoritmo recursivo retorna o n-ésimo termo da sequência\n\nProcedimento F(n)\nsen < 3 então retornar n-1\nsenão retornar F(n-1) + F(n-2)\n\nA chamada externa é F(n), sendo n > 0.\nAssinale a alternativa CORRETA:",
+    "enunciado": "A sequência de Fibonacci é uma sequência de inteiros, cujo primeiro termo é 0, o segundo termo é 1, e a partir do terceiro, cada termo é igual à soma dos dois anteriores.\nO seguinte algoritmo recursivo retorna o n-ésimo termo da sequência\n\nProcedimento F(n)\nsen < 3 então retornar n-1\nsenão retornar F(n-1) + F(n-2)\n\nA chamada externa é F(n), sendo n > 0.\nAssinale a alternativa CORRETA:",
     "alternativas": [
       "a) O algoritmo não está correto, pois não retorna o n-ésimo termo da sequência.",
       "b) O algoritmo é ótimo, no que diz respeito ao número de passos.",
@@ -1181,7 +1181,7 @@
     "edicao": 2009,
     "id": "2009-27",
     "numero": 27,
-    "enunciado": "Considere as estruturas de dados a seguir.\n\ne Uma lista é um conjunto de dados onde cada elemento contido na lista ocupa\nsozinho uma posição de 1 até n, onde n é a quantidade de elementos na lista.\nUma inserção ou remoção pode ser realizada em qualquer posição da lista.\n\ne Uma fila é um caso especial de lista onde a inserção só pode ser realizada em\numa extremidade e uma remoção na outra.\n\ne Uma pilha é um caso especial de lista onde uma inserção ou uma remoção só\npodem ser realizadas em uma extremidade.\n\nAnalise as afirmativas seguintes sobre essas estruturas de dados:\n\nI. Uma fila pode ser implementada usando duas pilhas;\nI. Uma pilha pode ser implementada usando duas filas;\nHI. Uma lista pode ser implementada usando uma fila e uma pilha.\n\nAssinale a alternativa CORRETA:",
+    "enunciado": "Considere as estruturas de dados a seguir.\n\ne Uma lista é um conjunto de dados onde cada elemento contido na lista ocupa sozinho uma posição de 1 até n, onde n é a quantidade de elementos na lista.\nUma inserção ou remoção pode ser realizada em qualquer posição da lista.\n\ne Uma fila é um caso especial de lista onde a inserção só pode ser realizada em uma extremidade e uma remoção na outra.\n\ne Uma pilha é um caso especial de lista onde uma inserção ou uma remoção só\npodem ser realizadas em uma extremidade.\n\nAnalise as afirmativas seguintes sobre essas estruturas de dados:\n\nI. Uma fila pode ser implementada usando duas pilhas;\nI. Uma pilha pode ser implementada usando duas filas;\nHI. Uma lista pode ser implementada usando uma fila e uma pilha.\n\nAssinale a alternativa CORRETA:",
     "alternativas": [
       "a) Apenas a afirmativa I está correta.",
       "b) Apenas a afirmativa II está correta.",
@@ -1200,7 +1200,7 @@
     "edicao": 2009,
     "id": "2009-28",
     "numero": 28,
-    "enunciado": "Considere uma árvore binária de busca T com n nós e altura h. A altura de uma árvore é\no número máximo de nós de um caminho entre a raiz e as folhas. Analise as afirmativas\na seguir:\n\nIL h<l+logn;\n\nII. Todo nó que pertence à subárvore esquerda de um nó x tem valor maior que o\npai de x.\n\nHI. Uma busca em ordem simétrica (in-order) em T produz uma ordenação\ncrescente dos elementos de T.\n\nAssinale a alternativa CORRETA:",
+    "enunciado": "Considere uma árvore binária de busca T com n nós e altura h. A altura de uma árvore é\no número máximo de nós de um caminho entre a raiz e as folhas. Analise as afirmativas a seguir:\n\nIL h<l+logn;\n\nII. Todo nó que pertence à subárvore esquerda de um nó x tem valor maior que o pai de x.\n\nHI. Uma busca em ordem simétrica (in-order) em T produz uma ordenação crescente dos elementos de T.\n\nAssinale a alternativa CORRETA:",
     "alternativas": [
       "a) Apenas a afirmativa I está correta;",
       "b) Apenas a afirmativa II está correta;",
@@ -1238,7 +1238,7 @@
     "edicao": 2009,
     "id": "2009-36",
     "numero": 36,
-    "enunciado": "Considere as seguintes afirmativas relativas à ocorrência de \"deadlocks\" (ou\nimpasses).\n\nI.\n\nII.\n\nHI.\n\nA estratégia de tratamento de \"deadlocks\" conhecida como prevenção requer\nque se determine uma condição suficiente a que eles ocorram. Uma vez\ndeterminada a condição, os algoritmos de manipulação dos recursos\ncompartilhados em questão devem ser projetados de forma que,\ngarantidamente, ela jamais ocorra.\n\nA estratégia de tratamento de \"deadlocks\" conhecida como detecção requer\nque se determine uma condição suficiente a que eles ocorram. Uma vez\ndeterminada a condição, o tratamento por detecção consiste em verificar sua\nvalidade e, em caso afirmativo, concluir que existe um \"deadlock\".\n\nAs estratégias conhecidas como prevenção e detecção para o tratamento de\n\"deadlocks\" são complementares uma à outra: Enquanto a primeira guia o\nprojeto dos algoritmos de compartilhamento de recursos para que \"deadlocks\"\njamais ocorram, a segunda trata de impedir que ocorram quaisquer condições\nnecessárias à ocorrência de \"deadlocks\".\n\nIV. Para que ocorra um \"deadlock\" é necessário que haja um ciclo de espera\n\nenvolvendo um determinado conjunto de processos. Uma estratégia comum\nde prevenção é a criação de algoritmos de compartilhamento de recursos que\nimpeçam a ocorrência desses ciclos.\n\nAssinale a alternativa CORRETA:",
+    "enunciado": "Considere as seguintes afirmativas relativas à ocorrência de \"deadlocks\" (ou impasses).\n\nI.\n\nII.\n\nHI.\n\nA estratégia de tratamento de \"deadlocks\" conhecida como prevenção requer que se determine uma condição suficiente a que eles ocorram. Uma vez determinada a condição, os algoritmos de manipulação dos recursos compartilhados em questão devem ser projetados de forma que,\ngarantidamente, ela jamais ocorra.\n\nA estratégia de tratamento de \"deadlocks\" conhecida como detecção requer que se determine uma condição suficiente a que eles ocorram. Uma vez determinada a condição, o tratamento por detecção consiste em verificar sua validade e, em caso afirmativo, concluir que existe um \"deadlock\".\n\nAs estratégias conhecidas como prevenção e detecção para o tratamento de\n\"deadlocks\" são complementares uma à outra: Enquanto a primeira guia o projeto dos algoritmos de compartilhamento de recursos para que \"deadlocks\"\njamais ocorram, a segunda trata de impedir que ocorram quaisquer condições necessárias à ocorrência de \"deadlocks\".\n\nIV. Para que ocorra um \"deadlock\" é necessário que haja um ciclo de espera\n\nenvolvendo um determinado conjunto de processos. Uma estratégia comum de prevenção é a criação de algoritmos de compartilhamento de recursos que impeçam a ocorrência desses ciclos.\n\nAssinale a alternativa CORRETA:",
     "alternativas": [
       "a) Apenas a afirmativa I é verdadeira.",
       "b) Apenas a afirmativa II é verdadeira.",
@@ -1276,7 +1276,7 @@
     "edicao": 2009,
     "id": "2009-38",
     "numero": 38,
-    "enunciado": "Após a execução do pedaço de programa a seguir, escrito na linguagem de montagem\ndo 8086, que valores estarão em AL e BL?\n\n; à1f 25-10 then VAR = 30\nMOV AL, 25\n\nMOV BL, 10\n\nCMP AL, BL\n\nJNZ roti\n\nMOV AL, 30\n\nMOV VAR, AL\n\nrotd:\n\nVAR DB 0",
+    "enunciado": "Após a execução do pedaço de programa a seguir, escrito na linguagem de montagem do 8086, que valores estarão em AL e BL?\n\n; à1f 25-10 then VAR = 30\nMOV AL, 25\n\nMOV BL, 10\n\nCMP AL, BL\n\nJNZ roti\n\nMOV AL, 30\n\nMOV VAR, AL\n\nrotd:\n\nVAR DB 0",
     "alternativas": [
       "a) AL=15 BL=10",
       "b) AL=25 BL=10",
@@ -1314,7 +1314,7 @@
     "edicao": 2009,
     "id": "2009-51",
     "numero": 51,
-    "enunciado": "A questão abaixo refere-se ao seguinte trecho de programa.\n\nbegin\n\nend\n\nread (a,b,c)\n\ntipo = “escaleno”\n\nif (a=b) or (b=c) or (a=c) then\ntipo = “isosceles”;\n\nif (a=b) and (b=c) then\ntipo = “equilátero”;\n\nif (a>=b+c) or (b>=a+c) or (c>=a+b) then\n\ntipo = “não é um triângulo”;\n\nif (a<=0) or (b<=0) or (c<=0) then\ntipo = “dados inválidos”;\n\nwrite (tipo)\n\nConsidere as seguintes afirmativas:\n\nI É possível exercitar todos os comandos do programa com 5 casos de teste.\n\nIH. Um limite superior do número de caminhos linearmente independentes do\ngrafo de fluxo do programa é 4.\n\nII. Admitindo que os nós do grafo de fluxo possam representar condições\ncompostas, e que, portanto, cada comando do programa acima possa ser\nrepresentado num único nó, o número de regiões de seu grafo de fluxo é 4.\n\nAssinale a alternativa CORRETA:",
+    "enunciado": "A questão abaixo refere-se ao seguinte trecho de programa.\n\nbegin\n\nend\n\nread (a,b,c)\n\ntipo = “escaleno”\n\nif (a=b) or (b=c) or (a=c) then\ntipo = “isosceles”;\n\nif (a=b) and (b=c) then\ntipo = “equilátero”;\n\nif (a>=b+c) or (b>=a+c) or (c>=a+b) then\n\ntipo = “não é um triângulo”;\n\nif (a<=0) or (b<=0) or (c<=0) then\ntipo = “dados inválidos”;\n\nwrite (tipo)\n\nConsidere as seguintes afirmativas:\n\nI É possível exercitar todos os comandos do programa com 5 casos de teste.\n\nIH. Um limite superior do número de caminhos linearmente independentes do grafo de fluxo do programa é 4.\n\nII. Admitindo que os nós do grafo de fluxo possam representar condições compostas, e que, portanto, cada comando do programa acima possa ser representado num único nó, o número de regiões de seu grafo de fluxo é 4.\n\nAssinale a alternativa CORRETA:",
     "alternativas": [
       "a) Apenas a afirmativa I é verdadeira.",
       "b) Apenas a afirmativa II é verdadeira.",
@@ -1335,11 +1335,11 @@
     "numero": 58,
     "enunciado": "Qual das afirmativas abaixo está INCORRETA?",
     "alternativas": [
-      "a) Se uma transformação linear afim T é aplicada sobre uma superfície, então o\nvetor normal N a um ponto da superfície é mapeado em TN.",
-      "b) Algoritmos para compressão de imagens digitais costumam ser mais\neficientes, isto é, conseguem maior compressão, quando as imagens a serem\ncomprimidas possuem grandes áreas com a mesma cor.",
-      "c) Modelos locais de iluminação de cenas sintéticas são incapazes de reproduzir\nefeitos globais tais como sombras.",
+      "a) Se uma transformação linear afim T é aplicada sobre uma superfície, então o vetor normal N a um ponto da superfície é mapeado em TN.",
+      "b) Algoritmos para compressão de imagens digitais costumam ser mais eficientes, isto é, conseguem maior compressão, quando as imagens a serem comprimidas possuem grandes áreas com a mesma cor.",
+      "c) Modelos locais de iluminação de cenas sintéticas são incapazes de reproduzir efeitos globais tais como sombras.",
       "d) Duas cores com saturações diferentes podem ter a mesma luminosidade.",
-      "e) Uma transformação linear afim sempre transforma objetos convexos em\nobjetos convexos."
+      "e) Uma transformação linear afim sempre transforma objetos convexos em objetos convexos."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "Computação Gráfica",
@@ -1352,7 +1352,7 @@
     "edicao": 2009,
     "id": "2009-62",
     "numero": 62,
-    "enunciado": "Os mecanismos de controle de congestionamento e controle de fluxo desempenham\n\num papel fundamental no projeto de uma rede de computadores. Considere as\nafirmativas a seguir sobre os dois mecanismos.\n\nI. O mecanismo de controle de congestionamento regula (ou seja, aumenta e\ndiminui dinamicamente) a taxa com a qual o transmissor envia dados pela\nrede.\n\nIl. O mecanismo de controle de congestionamento garante que o receptor irá\nreceber todos os dados enviados pelo transmissor.\n\nII. O mecanismo de controle de fluxo regula (ou seja, aumenta e diminui\ndinamicamente) a taxa com a qual o transmissor envia dados pela rede.\n\nIV. O mecanismo de controle de fluxo garante que o receptor irá receber todos os\ndados enviados pelo transmissor.\n\nAssinale a alternativa CORRETA:",
+    "enunciado": "Os mecanismos de controle de congestionamento e controle de fluxo desempenham\n\num papel fundamental no projeto de uma rede de computadores. Considere as afirmativas a seguir sobre os dois mecanismos.\n\nI. O mecanismo de controle de congestionamento regula (ou seja, aumenta e diminui dinamicamente) a taxa com a qual o transmissor envia dados pela rede.\n\nIl. O mecanismo de controle de congestionamento garante que o receptor irá\nreceber todos os dados enviados pelo transmissor.\n\nII. O mecanismo de controle de fluxo regula (ou seja, aumenta e diminui dinamicamente) a taxa com a qual o transmissor envia dados pela rede.\n\nIV. O mecanismo de controle de fluxo garante que o receptor irá receber todos os dados enviados pelo transmissor.\n\nAssinale a alternativa CORRETA:",
     "alternativas": [
       "a) Apenas as alternativas I, II e II são verdadeiras.",
       "b) Apenas as alternativas I e III são verdadeiras.",
@@ -1390,7 +1390,7 @@
     "edicao": 2008,
     "id": "2008-15",
     "numero": 15,
-    "enunciado": "Dada a seguinte função escrita na linguagem de programação C:\nvoid _________(int xi, int yi, int xf, int yf, int cor)\n{\nint x, y;\nfloat a;\na = (yf yi) / (xf - xi);\nfor (x = xi; x <= xf; x++)\n{\ny = (yi + a * (x - xi));\nputpixel(x, y, cor);\n}\n}\nConsidere que a função putpixel plota um pixel de cada vez na tela em modo gráfico, na\nposição (x, y) com a cor especificada. Essa função plota na tela do computador",
+    "enunciado": "Dada a seguinte função escrita na linguagem de programação C:\nvoid _________(int xi, int yi, int xf, int yf, int cor)\n{\nint x, y;\nfloat a;\na = (yf yi) / (xf - xi);\nfor (x = xi; x <= xf; x++)\n{\ny = (yi + a * (x - xi));\nputpixel(x, y, cor);\n}\n}\nConsidere que a função putpixel plota um pixel de cada vez na tela em modo gráfico, na posição (x, y) com a cor especificada. Essa função plota na tela do computador",
     "alternativas": [
       "a) uma elipse.",
       "b) um retângulo.",
@@ -1409,7 +1409,7 @@
     "edicao": 2008,
     "id": "2008-22",
     "numero": 22,
-    "enunciado": "Os fragmentos de programas abaixo, enumerados 1, 2 e 3, são implementações para o\nproblema de ordenação usando o algoritmo quicksort.\nPrograma 1:\nquicksort([], []).\nquicksort([Head | Tail], Sorted) :-\npartition(Head, Tail, Left, Right), quicksort(Left, SortedL),\nquicksort(Right, SortedR),\nappend(SortedL, [Head | SortedR], Sorted).\npartition(Pivot, [], [], []).\npartition(Pivot, [Head | Tail], [Head | Left], Right) :-\nHead =< Pivot, partition(Pivot, Tail, Left, Right).\npartition(Pivot, [Head | Tail], Left, [Head | Right]) :-\nHead > Pivot, partition(Pivot, Tail, Left, Right).\nappend([], List, List).\nappend([Head | List1], List2, [Head | List3]) :-\nappend(List1, List2, List3).\nPrograma 2:\nquicksort [] = []\nquicksort (head:tail) = let pivot = head\nleft = [x|x <- tail,x < pivot]\nright = [x|x <- tail,x >= pivot]\nin quicksort left ++ [pivot] ++ quicksort right\nPrograma 3:\nvoid quickSort( int a[], int l, int r) {\nint j;\nif( l < r ) {\nj = partition( a, l, r);\nquickSort( a, l, j-1);\nquickSort( a, j+1, r);\n}\n}\nint partition( int a[], int l, int r) {\nint pivot, i, j, t;\npivot = a[l]; i = l; j = r+1;\nwhile(i<j) {\ndo ++i; while( a[i] <= pivot && i <= r );\ndo --j; while( a[j] > pivot );\nif( i < j ) {\nt = a[i]; a[i] = a[j]; a[j] = t;\n}\n}\nt = a[l]; a[l] = a[j]; a[j] = t;\nreturn j;\n}",
+    "enunciado": "Os fragmentos de programas abaixo, enumerados 1, 2 e 3, são implementações para o problema de ordenação usando o algoritmo quicksort.\nPrograma 1:\nquicksort([], []).\nquicksort([Head | Tail], Sorted) :-\npartition(Head, Tail, Left, Right), quicksort(Left, SortedL),\nquicksort(Right, SortedR),\nappend(SortedL, [Head | SortedR], Sorted).\npartition(Pivot, [], [], []).\npartition(Pivot, [Head | Tail], [Head | Left], Right) :-\nHead =< Pivot, partition(Pivot, Tail, Left, Right).\npartition(Pivot, [Head | Tail], Left, [Head | Right]) :-\nHead > Pivot, partition(Pivot, Tail, Left, Right).\nappend([], List, List).\nappend([Head | List1], List2, [Head | List3]) :-\nappend(List1, List2, List3).\nPrograma 2:\nquicksort [] = []\nquicksort (head:tail) = let pivot = head left = [x|x <- tail,x < pivot]\nright = [x|x <- tail,x >= pivot]\nin quicksort left ++ [pivot] ++ quicksort right\nPrograma 3:\nvoid quickSort( int a[], int l, int r) {\nint j;\nif( l < r ) {\nj = partition( a, l, r);\nquickSort( a, l, j-1);\nquickSort( a, j+1, r);\n}\n}\nint partition( int a[], int l, int r) {\nint pivot, i, j, t;\npivot = a[l]; i = l; j = r+1;\nwhile(i<j) {\ndo ++i; while( a[i] <= pivot && i <= r );\ndo --j; while( a[j] > pivot );\nif( i < j ) {\nt = a[i]; a[i] = a[j]; a[j] = t;\n}\n}\nt = a[l]; a[l] = a[j]; a[j] = t;\nreturn j;\n}",
     "alternativas": [
       "a) ",
       "b) ",
@@ -1428,7 +1428,7 @@
     "edicao": 2008,
     "id": "2008-34",
     "numero": 34,
-    "enunciado": "O trecho de código em linguagem de montagem do MIPS64 a seguir faz a soma do\nconteúdo de dois vetores, armazenando o resultado em um terceiro vetor.\nLOOP: ld R1, A(R5) ;; R1 = MEM[A+R5]\nld R2, B(R5) ;; R2 = MEM[B+r5]\ndadd R3, R1, R2 ;; R3 = R1 + r2\nsd R3, C(R5) ;; MEM[C+r5] = R3\ndaddi R5, R5, -8 ;; R5 = R5 -8\nbnez R5, loop ;; IF R5 <> 0 THEn PC=LOOP\nnop\nAssinale a alternativa que indica quantas dependências diretas, antidependências e\ndependências de saída respectivamente, podem ser encontradas nesse trecho de código.",
+    "enunciado": "O trecho de código em linguagem de montagem do MIPS64 a seguir faz a soma do conteúdo de dois vetores, armazenando o resultado em um terceiro vetor.\nLOOP: ld R1, A(R5) ;; R1 = MEM[A+R5]\nld R2, B(R5) ;; R2 = MEM[B+r5]\ndadd R3, R1, R2 ;; R3 = R1 + r2\nsd R3, C(R5) ;; MEM[C+r5] = R3\ndaddi R5, R5, -8 ;; R5 = R5 -8\nbnez R5, loop ;; IF R5 <> 0 THEn PC=LOOP\nnop\nAssinale a alternativa que indica quantas dependências diretas, antidependências e dependências de saída respectivamente, podem ser encontradas nesse trecho de código.",
     "alternativas": [
       "a) 3, 1, 1",
       "b) 4, 3, 0",
@@ -1447,7 +1447,7 @@
     "edicao": 2008,
     "id": "2008-35",
     "numero": 35,
-    "enunciado": "Uma tabela de histórico de desvios (PHT) é uma pequena memória colocada no estágio\nde busca de instruções, indexada pelos bits mais baixos do endereço da instrução que\nestá sendo buscada. Cada entrada na PHT codifica a predição do resultado da próxima\nexecução de qualquer instrução de desvio que indexe essa entrada na tabela, baseado no\nresultado de um contador saturante de 2 bits.\nAssumindo 00 como valor inicial dos contadores, ASSINALE a predição de cada desvio\n(A:, B: e C:) após a verificação das seguintes seqüências de resultados para uma mesma\ninstrução de desvio: (T = tomado, N = não tomado).\nA: N T T T N T T T N N T T N N T T N\nB: N T N N N N N N N N T N T T N N T\nC: T N T T T T N N N T T N N N T T T",
+    "enunciado": "Uma tabela de histórico de desvios (PHT) é uma pequena memória colocada no estágio de busca de instruções, indexada pelos bits mais baixos do endereço da instrução que está sendo buscada. Cada entrada na PHT codifica a predição do resultado da próxima execução de qualquer instrução de desvio que indexe essa entrada na tabela, baseado no resultado de um contador saturante de 2 bits.\nAssumindo 00 como valor inicial dos contadores, ASSINALE a predição de cada desvio\n(A:, B: e C:) após a verificação das seguintes seqüências de resultados para uma mesma instrução de desvio: (T = tomado, N = não tomado).\nA: N T T T N T T T N N T T N N T T N\nB: N T N N N N N N N N T N T T N N T\nC: T N T T T T N N N T T N N N T T T",
     "alternativas": [
       "a) Tomado, Não Tomado, Tomado",
       "b) Tomado, Tomado, Tomado",
@@ -1466,7 +1466,7 @@
     "edicao": 2008,
     "id": "2008-38",
     "numero": 38,
-    "enunciado": "Considere as seguintes sentenças:\nI. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem não decrescente, então\nencontrar o i -ésimo maior elemento, 1 i n , pode ser feito em tempo constante.\nII. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem não decrescente, o limite\ninferior para o problema de encontrar o i -ésimo maior elemento, 1 i n , com um\nalgoritmo de comparação, é O(n) .\nIII. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem não decrescente, o limite\ninferior para o problema de encontrar o i-ésimo maior elemento, 1 i n , com um\nalgoritmo de comparação, é O(lg n) .\nIV. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem crescente, então\nencontrar o ( n 1 )-ésimo maior elemento, pode ser feito em tempo constante.\nV. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem crescente, então\nencontrar o i -ésimo maior elemento, pode ser feito em tempo constante.\nA esse respeito, assinale a alternativa CORRETA.",
+    "enunciado": "Considere as seguintes sentenças:\nI. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem não decrescente, então encontrar o i -ésimo maior elemento, 1 i n , pode ser feito em tempo constante.\nII. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem não decrescente, o limite inferior para o problema de encontrar o i -ésimo maior elemento, 1 i n , com um algoritmo de comparação, é O(n) .\nIII. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem não decrescente, o limite inferior para o problema de encontrar o i-ésimo maior elemento, 1 i n , com um algoritmo de comparação, é O(lg n) .\nIV. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem crescente, então encontrar o ( n 1 )-ésimo maior elemento, pode ser feito em tempo constante.\nV. Se um vetor A[1, n] , n 2 , de inteiros é ordenado em ordem crescente, então encontrar o i -ésimo maior elemento, pode ser feito em tempo constante.\nA esse respeito, assinale a alternativa CORRETA.",
     "alternativas": [
       "a) Apenas os itens II e IV são falsos.",
       "b) Apenas os itens I, III e V são verdadeiros.",
@@ -1504,7 +1504,7 @@
     "edicao": 2008,
     "id": "2008-61",
     "numero": 61,
-    "enunciado": "Uma empresa precisa instalar um servidor de modo a atender três outros computadores\nlocalizados nos pontos A(0;1) , B(0; 1) e C (3; 0) .\nEm qual ponto P o servidor deve ser instalado de modo a minimizar a soma das\ndistâncias de P a A , B e C ?\n3",
+    "enunciado": "Uma empresa precisa instalar um servidor de modo a atender três outros computadores localizados nos pontos A(0;1) , B(0; 1) e C (3; 0) .\nEm qual ponto P o servidor deve ser instalado de modo a minimizar a soma das distâncias de P a A , B e C ?\n3",
     "alternativas": [
       "a) ; 0\n3",
       "b) (0; 0) ;",
@@ -1523,7 +1523,7 @@
     "edicao": 2008,
     "id": "2008-62",
     "numero": 62,
-    "enunciado": "Um dispositivo eletrônico envia mensagens binárias no alfabeto (0,1) para um outro\ndispositivo de forma que o fim de uma transmissão é indicado por uma seqüência de dois\nbits iguais a 1.\nQual é o número máximo de mensagens binárias distintas que podem ter sido emitidas\npor esse dispositivo, sabendo que a transmissão parou ao ser enviado o décimo primeiro\nbit ?",
+    "enunciado": "Um dispositivo eletrônico envia mensagens binárias no alfabeto (0,1) para um outro dispositivo de forma que o fim de uma transmissão é indicado por uma seqüência de dois bits iguais a 1.\nQual é o número máximo de mensagens binárias distintas que podem ter sido emitidas por esse dispositivo, sabendo que a transmissão parou ao ser enviado o décimo primeiro bit ?",
     "alternativas": [
       "a) 211",
       "b) 210",
@@ -1561,7 +1561,7 @@
     "edicao": 2008,
     "id": "2008-64",
     "numero": 64,
-    "enunciado": "Considere as seguintes afirmações:\nI. Se R R 1 é uma relação de equivalência, então R é uma relação reflexiva e\ntransitiva.\nII. Se F e G são duas funções inversíveis, então G F é uma função inversível.\nIII. Sejam k e A . Se k A e (n A, n k n 1 A) , então A = .\nIV. Para todo conjunto A , ( A) denota o conjunto de todos os subconjuntos de A . A\nrelação {(a, a ') : a ( A), a ( A), a a '} é uma relação de ordem parcial.\nAssinale a quantidade de afirmativas CORRETAS.",
+    "enunciado": "Considere as seguintes afirmações:\nI. Se R R 1 é uma relação de equivalência, então R é uma relação reflexiva e transitiva.\nII. Se F e G são duas funções inversíveis, então G F é uma função inversível.\nIII. Sejam k e A . Se k A e (n A, n k n 1 A) , então A = .\nIV. Para todo conjunto A , ( A) denota o conjunto de todos os subconjuntos de A . A\nrelação {(a, a ') : a ( A), a ( A), a a '} é uma relação de ordem parcial.\nAssinale a quantidade de afirmativas CORRETAS.",
     "alternativas": [
       "a) 0",
       "b) 1",
@@ -1580,7 +1580,7 @@
     "edicao": 2008,
     "id": "2008-65",
     "numero": 65,
-    "enunciado": "Defina os conectivos NIMP, NEQ, NAND, negação da implicação, equivalência e\nconjunção, respectivamente, como:\n( NIMP ) ( )\n( NEQ ) ( )\n( NAND ) ( )\nAssinale alternativa que representa um conjunto de conectivos completo.",
+    "enunciado": "Defina os conectivos NIMP, NEQ, NAND, negação da implicação, equivalência e conjunção, respectivamente, como:\n( NIMP ) ( )\n( NEQ ) ( )\n( NAND ) ( )\nAssinale alternativa que representa um conjunto de conectivos completo.",
     "alternativas": [
       "a) {NIMP}",
       "b) {NEQ}",
@@ -1602,9 +1602,9 @@
     "enunciado": "Analise as seguintes afirmativas e assinale a alternativa INCORRETA.",
     "alternativas": [
       "a) 1 + 2 + 22 + 2 3 + ... + 2 n = 2 n+1 - 1 , para todo n .\np",
-      "b) C n p 1 C n r , para todo n e p .\np r\nr 0",
+      "b) C n p 1 C n r , para todo n e p .\np r r 0",
       "c) Para todo conjunto A , ( A) denota o conjunto de todos os subconjuntos de A . Se\nA B , então ( A) ( B) .",
-      "d) Se A , A , ..., A são conjuntos disjuntos, então\n1 2 r\nr\n| A A ... A B | | B | (| A B |)\n1 2 r i\ni 1",
+      "d) Se A , A , ..., A são conjuntos disjuntos, então\n1 2 r r\n| A A ... A B | | B | (| A B |)\n1 2 r i i 1",
       "e) Se a afirmativa (A) é falsa, então a afirmativa (D) é falsa."
     ],
     "area_conhecimento": "Tecnologia de Computação",
@@ -1640,7 +1640,7 @@
     "enunciado": "É CORRETO afirmar",
     "alternativas": [
       "a) que os autovalores de uma matriz não-singular são positivos.",
-      "b) que, para uma matriz A, λ é autovalor de A se, e somente se, λ2 é um autovalor\nde A2 .",
+      "b) que, para uma matriz A, λ é autovalor de A se, e somente se, λ2 é um autovalor de A2 .",
       "c) que, se uma matriz é igual a sua inversa, então seus autovalores são iguais a 1.",
       "d) que, se u e v são vetores não-nulos de Rn, então u é autovetor da matriz uvT .",
       "e) que, se uma matriz quadrada tem entradas reais, então seus autovalores são números reais."
@@ -1713,7 +1713,7 @@
     "edicao": 2007,
     "id": "2007-24",
     "numero": 24,
-    "enunciado": "Considere um arquivo texto que contenha uma mensagem de 10.000 caracteres\nI. O comprimento médio dos códigos para os referidos caracteres é 1, 2.\nII. Se forem utilizados todos os pares possíveis de símbolos para a construção da\nárvore de Huffman, então o comprimento médio dos códigos para os referidos\npares é menor que 1, 2 por caractere.\nIII. A codificação de Huffman a partir de todos os pares possíveis de caracteres sempre\nproduz códigos de menor comprimento médio.",
+    "enunciado": "Considere um arquivo texto que contenha uma mensagem de 10.000 caracteres\nI. O comprimento médio dos códigos para os referidos caracteres é 1, 2.\nII. Se forem utilizados todos os pares possíveis de símbolos para a construção da\nárvore de Huffman, então o comprimento médio dos códigos para os referidos pares é menor que 1, 2 por caractere.\nIII. A codificação de Huffman a partir de todos os pares possíveis de caracteres sempre produz códigos de menor comprimento médio.",
     "alternativas": [
       "a) apenas a afirmativa I é verdadeira.",
       "b) apenas as afirmativas I e II são verdadeiras.",
@@ -1732,7 +1732,7 @@
     "edicao": 2007,
     "id": "2007-25",
     "numero": 25,
-    "enunciado": "Considerando as diferenças existentes entre a execução de um algoritmo sequ¨enI. Somente na execução sequ¨encial de um algoritmo existe a possibilidade de ocorrer\num dead lock.\nII. Um algoritmo sequ¨encial apresenta mais de uma execução possível para uma dada\nentrada.\nIII. Um algoritmo distribuído tem sua complexidade medida pela quantidade de mensagens transmitidas durante sua execução.\nIV. A execução de um algoritmo distribuído pode ser não determinística.",
+    "enunciado": "Considerando as diferenças existentes entre a execução de um algoritmo sequ¨enI. Somente na execução sequ¨encial de um algoritmo existe a possibilidade de ocorrer um dead lock.\nII. Um algoritmo sequ¨encial apresenta mais de uma execução possível para uma dada entrada.\nIII. Um algoritmo distribuído tem sua complexidade medida pela quantidade de mensagens transmitidas durante sua execução.\nIV. A execução de um algoritmo distribuído pode ser não determinística.",
     "alternativas": [
       "a) todas as afirmativas são falsas.",
       "b) todas as afirmativas são verdadeiras.",
@@ -1770,7 +1770,7 @@
     "edicao": 2007,
     "id": "2007-34",
     "numero": 34,
-    "enunciado": "Seja V =< v1 , . . . , v\nn\n> uma lista qualquer de inteiros distintos que se deseja\nI. Considere o algoritmo Quicksort. Suponha uma execução do algoritmo sobre V tal\nque a cada sorteio do pivot, a mediana do (sub)problema em questaõ é escolhida.\nEntão, a complexidade dessa execução é O(n lg n).\nII. Considere o algoritmo Quicksort. Suponha uma execução do algoritmo sobre V\ntal que a cada sorteio do pivot, os dois subproblemas gerados têm tamanho 1 e 9\n10 10\nrespectivamente do tamanho do (sub)problema em questão. Entaõ, a complexidade dessa execução é O(n2 ).\nIII. Considere o algoritmo Mergesort. A complexidade do pior caso do algoritmo é\nO(n lg n) e a complexidade do melhor caso (vetor já está ordenado) é O(n).\nIV. Considere o algoritmo Heapsort. A complexidade do pior caso do algoritmo é\nO(n lg n) e a complexidade do melhor caso (vetor já está ordenado) é O(n).\nV. Se para todo i, v é O(n), então a complexidade do algoritmo Bucketsort é O(n).\ni",
+    "enunciado": "Seja V =< v1 , . . . , v n\n> uma lista qualquer de inteiros distintos que se deseja\nI. Considere o algoritmo Quicksort. Suponha uma execução do algoritmo sobre V tal que a cada sorteio do pivot, a mediana do (sub)problema em questaõ é escolhida.\nEntão, a complexidade dessa execução é O(n lg n).\nII. Considere o algoritmo Quicksort. Suponha uma execução do algoritmo sobre V\ntal que a cada sorteio do pivot, os dois subproblemas gerados têm tamanho 1 e 9\n10 10\nrespectivamente do tamanho do (sub)problema em questão. Entaõ, a complexidade dessa execução é O(n2 ).\nIII. Considere o algoritmo Mergesort. A complexidade do pior caso do algoritmo é\nO(n lg n) e a complexidade do melhor caso (vetor já está ordenado) é O(n).\nIV. Considere o algoritmo Heapsort. A complexidade do pior caso do algoritmo é\nO(n lg n) e a complexidade do melhor caso (vetor já está ordenado) é O(n).\nV. Se para todo i, v é O(n), então a complexidade do algoritmo Bucketsort é O(n).\ni",
     "alternativas": [
       "a) apenas as afirmativas I e II.",
       "b) apenas as afirmativas I, II e III.",
@@ -1791,11 +1791,11 @@
     "numero": 35,
     "enunciado": "Analise as seguintes afirmativas e assinale a alternativa INCORRETA.",
     "alternativas": [
-      "a) O acesso a setores localizados em sequ¨ência em uma mesma trilha de um disco\né mais rápido do que acessar o mesmo número de setores em trilhas diferentes,\ndevido ao menor número tanto de deslocamentos do cabeçote quanto de rotações\nno disco.",
-      "b) Na paginação por demanda, não é necessário que o processo inteiro se encontre\nem memória para execução.",
-      "c) O escalonamento de operações de entrada e sída em um disco rígido pode ser\nutilizado para aumentar o desempenho. Porém, algoritmos como o SSTF (Shortest\nSeek Time First ) podem fazer com que requisições esperem indefinidamente.",
-      "d) O escalonamento de processos por prioridades utiliza múltiplas filas e garante que\ntodos os processos recebam sua fatia de tempo.",
-      "e) O surgimento do conceito de interrupções, juntamente com dispositivos de acesso\nnão-sequ¨encial, foi primordial para a evolução que levou aos sistemas multiprogramados."
+      "a) O acesso a setores localizados em sequ¨ência em uma mesma trilha de um disco\né mais rápido do que acessar o mesmo número de setores em trilhas diferentes,\ndevido ao menor número tanto de deslocamentos do cabeçote quanto de rotações no disco.",
+      "b) Na paginação por demanda, não é necessário que o processo inteiro se encontre em memória para execução.",
+      "c) O escalonamento de operações de entrada e sída em um disco rígido pode ser utilizado para aumentar o desempenho. Porém, algoritmos como o SSTF (Shortest\nSeek Time First ) podem fazer com que requisições esperem indefinidamente.",
+      "d) O escalonamento de processos por prioridades utiliza múltiplas filas e garante que todos os processos recebam sua fatia de tempo.",
+      "e) O surgimento do conceito de interrupções, juntamente com dispositivos de acesso não-sequ¨encial, foi primordial para a evolução que levou aos sistemas multiprogramados."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Sistemas Operacionais",
@@ -1808,7 +1808,7 @@
     "edicao": 2007,
     "id": "2007-36",
     "numero": 36,
-    "enunciado": "Agregações são muito importantes em programação orientada a ob jetos.\nI. Uma agregação é formada por agregado (todo) e componentes (partes).\nII. Uma agregação não é transitiva e, portanto, não pode modelar situações desse\ntipo.\nIII. A simetria é uma das principais características de uma agregação.",
+    "enunciado": "Agregações são muito importantes em programação orientada a ob jetos.\nI. Uma agregação é formada por agregado (todo) e componentes (partes).\nII. Uma agregação não é transitiva e, portanto, não pode modelar situações desse tipo.\nIII. A simetria é uma das principais características de uma agregação.",
     "alternativas": [
       "a) as três afirmativas são falsas.",
       "b) as três afirmativas são verdadeiras.",
@@ -1827,7 +1827,7 @@
     "edicao": 2007,
     "id": "2007-49",
     "numero": 49,
-    "enunciado": "Considere as afirmativas abaixo.\nI. Um terminal raster apresentará o efeito “pisca-pisca” quando a cena é complexa.\nII. Em uma cena composta apenas de ob jetos convexos, a eliminação de superfícies\nocultas restringe-se `a remoção das faces posteriores (back faces ).\nIII. No algoritmo do ponto médio para traçado de círculos, se f (x , y ) = r2 x2\nM M\ny2 < 0, o ponto (x , y ) é interior `a circunferência. − −\nM M",
+    "enunciado": "Considere as afirmativas abaixo.\nI. Um terminal raster apresentará o efeito “pisca-pisca” quando a cena é complexa.\nII. Em uma cena composta apenas de ob jetos convexos, a eliminação de superfícies ocultas restringe-se `a remoção das faces posteriores (back faces ).\nIII. No algoritmo do ponto médio para traçado de círculos, se f (x , y ) = r2 x2\nM M\ny2 < 0, o ponto (x , y ) é interior `a circunferência. − −\nM M",
     "alternativas": [
       "a) apenas a afirmativa I é verdadeira.",
       "b) apenas a afirmativa III é verdadeira.",
@@ -1846,7 +1846,7 @@
     "edicao": 2007,
     "id": "2007-54",
     "numero": 54,
-    "enunciado": "Qualidade é uma das premissas básicas para se desenvolver software ho je em dia.\nI. O MPS.br é uma iniciativa para Melhoria de Processo do Software Brasileiro. O\nMPS.br adequa-se `a realidade das empresas brasileiras e está em conformidade\ncom as normas ISO/IEC 12207. No entanto, não apresenta uma estratégia de\ncompatibilidade com o CMMI - Capability Maturity Model Integration.\nII. A rastreabilidade de requisitos de software proporciona uma melhor visibilidade\npara a gerência de qualidade do pro jeto.\nIII. Uma empresa de tecnologia certificada por meio de modelos como CMMI ou\nMPS.br oferece produtos de software também certificados.\nIV. A padronização é um dos fundamentos básicos da gerência da qualidade. A\npadronização pode acontecer em diversos níveis: na documentação, no código\ne, principalmente, no processo.",
+    "enunciado": "Qualidade é uma das premissas básicas para se desenvolver software ho je em dia.\nI. O MPS.br é uma iniciativa para Melhoria de Processo do Software Brasileiro. O\nMPS.br adequa-se `a realidade das empresas brasileiras e está em conformidade com as normas ISO/IEC 12207. No entanto, não apresenta uma estratégia de compatibilidade com o CMMI - Capability Maturity Model Integration.\nII. A rastreabilidade de requisitos de software proporciona uma melhor visibilidade para a gerência de qualidade do pro jeto.\nIII. Uma empresa de tecnologia certificada por meio de modelos como CMMI ou\nMPS.br oferece produtos de software também certificados.\nIV. A padronização é um dos fundamentos básicos da gerência da qualidade. A\npadronização pode acontecer em diversos níveis: na documentação, no código e, principalmente, no processo.",
     "alternativas": [
       "a) Todas as afirmativas são verdadeiras.",
       "b) Nenhuma das afirmativas é verdadeira.",
@@ -1884,7 +1884,7 @@
     "edicao": 2007,
     "id": "2007-59",
     "numero": 59,
-    "enunciado": "Analise o seguinte conjunto de afirmativas caracterizando agentes computacionais\nI. Um agente reflexivo que não dispõe de modelo de seu ambiente seleciona a próxima ação que vai executar tendo por base apenas as suas percepções atuais.\nII. Um agente capaz de planejar sequ¨ências futuras de ações não pode e não deve ter\nrepresentações explícitas de seus ob jetivos.\nIII. Um ambiente determinístico é aquele que permite a um agente, que se encontra\nsozinho no ambiente, saber o resultado de uma ação realizada a partir do conhecimento do estado do ambiente no momento em que a ação foi realizada e das\ncaracterísticas da ação que o agente realizou.\nIV. Um ambiente parcialmente observável é aquele que só permite a um agente conhecer completamente o estado atual do ambiente se o agente estiver sozinho no\nambiente.\nV. Uma função de utilidade é uma função que a juda um agente a distinguir quais\npercepções atuais são mais importantes para a realizaçaõ dos ob jetivos do agente.",
+    "enunciado": "Analise o seguinte conjunto de afirmativas caracterizando agentes computacionais\nI. Um agente reflexivo que não dispõe de modelo de seu ambiente seleciona a próxima ação que vai executar tendo por base apenas as suas percepções atuais.\nII. Um agente capaz de planejar sequ¨ências futuras de ações não pode e não deve ter representações explícitas de seus ob jetivos.\nIII. Um ambiente determinístico é aquele que permite a um agente, que se encontra sozinho no ambiente, saber o resultado de uma ação realizada a partir do conhecimento do estado do ambiente no momento em que a ação foi realizada e das características da ação que o agente realizou.\nIV. Um ambiente parcialmente observável é aquele que só permite a um agente conhecer completamente o estado atual do ambiente se o agente estiver sozinho no ambiente.\nV. Uma função de utilidade é uma função que a juda um agente a distinguir quais percepções atuais são mais importantes para a realizaçaõ dos ob jetivos do agente.",
     "alternativas": [
       "a) somente as afirmativas I e II.",
       "b) somente as afirmativas I e III.",
@@ -1903,7 +1903,7 @@
     "edicao": 2007,
     "id": "2007-60",
     "numero": 60,
-    "enunciado": "Analise as seguintes afirmativas.\nI. A estratégia de busca em largura encontra a solução ótima quando todos os operadores de mudança de estado têm o mesmo custo.\nII. A estratégia de busca em profundidade sempre expande um menor número de nós\nque a estratégia de busca em largura, quando aplicadas ao mesmo problema.\nIII. A estratégia de busca heurística encontra sempre a soluçaõ de menor custo.\nIV. A estratégia de busca heurística expande um número de nós em geral menor que\no algoritmo de busca em largura, mas não garante encontrar a solução ótima.\nV. O algoritmo de busca heurística que utiliza uma função heurística admissível\nencontra a solução ótima.",
+    "enunciado": "Analise as seguintes afirmativas.\nI. A estratégia de busca em largura encontra a solução ótima quando todos os operadores de mudança de estado têm o mesmo custo.\nII. A estratégia de busca em profundidade sempre expande um menor número de nós que a estratégia de busca em largura, quando aplicadas ao mesmo problema.\nIII. A estratégia de busca heurística encontra sempre a soluçaõ de menor custo.\nIV. A estratégia de busca heurística expande um número de nós em geral menor que o algoritmo de busca em largura, mas não garante encontrar a solução ótima.\nV. O algoritmo de busca heurística que utiliza uma função heurística admissível encontra a solução ótima.",
     "alternativas": [
       "a) apenas a afirmativa V é correta.",
       "b) todas as afirmativas são corretas.",
@@ -1922,7 +1922,7 @@
     "edicao": 2007,
     "id": "2007-63",
     "numero": 63,
-    "enunciado": "Constitui(em) método(s) para alterar o contraste de uma imagem em cores sem\nI. Transformar RGB em IHS, aumentar o contraste de I e fazer a transformação\ninversa IHS para RGB.\nII. Aumentar o contraste de I, transformar IHS em RGB e fazer a transformação\ninversa RGB para IHS.\nIII. Aumentar o contraste em R, transformar RGB em IHS.",
+    "enunciado": "Constitui(em) método(s) para alterar o contraste de uma imagem em cores sem\nI. Transformar RGB em IHS, aumentar o contraste de I e fazer a transformação inversa IHS para RGB.\nII. Aumentar o contraste de I, transformar IHS em RGB e fazer a transformação inversa RGB para IHS.\nIII. Aumentar o contraste em R, transformar RGB em IHS.",
     "alternativas": [
       "a) apenas o item I é verdadeiro.",
       "b) apenas o item II é verdadeiro.",
@@ -1943,11 +1943,11 @@
     "numero": 64,
     "enunciado": "O controle de congestionamento é uma das funções desempenhadas pela Camada",
     "alternativas": [
-      "a) No controle de congestionamento fim-a-fim, uma situação de congestionamento\né intuída pelos hosts terminais via eventos como perda ou atraso excessivo de\npacotes.",
-      "b) No controle de congestionamento assistido pela rede, os nodos (roteadores) enviam\nnotificações explícitas do estado de congestionamento da rede diretamente `a fonte\nde cada fluxo que, por meio dele, trafega.",
-      "c) O mecanismo Explicit Congestion Notification (ECN) utiliza um dos dois últimos\nbits do campo ToS do cabeçalho IPv4 para notificar a um destinatário o estado\nde congestionamento da rede.",
-      "d) Ao perceber um estado de congestionamento na rede, uma conexão TCP, por\nmeio de seu mecanismo de prevenção de congestionamento (congestion avoidance ),\nreduz o tamanho de sua janela de congestionamento.",
-      "e) Na fase de partida lenta (slow start ) de uma conexão TCP, o tamanho da janela de\ncongestionamento aumenta a cada RTT (Round-Trip Time ) de forma exponencial,\naté que esse tamanho alcance um determinado valor de limiar (threshold )."
+      "a) No controle de congestionamento fim-a-fim, uma situação de congestionamento\né intuída pelos hosts terminais via eventos como perda ou atraso excessivo de pacotes.",
+      "b) No controle de congestionamento assistido pela rede, os nodos (roteadores) enviam notificações explícitas do estado de congestionamento da rede diretamente `a fonte de cada fluxo que, por meio dele, trafega.",
+      "c) O mecanismo Explicit Congestion Notification (ECN) utiliza um dos dois últimos bits do campo ToS do cabeçalho IPv4 para notificar a um destinatário o estado de congestionamento da rede.",
+      "d) Ao perceber um estado de congestionamento na rede, uma conexão TCP, por meio de seu mecanismo de prevenção de congestionamento (congestion avoidance ),\nreduz o tamanho de sua janela de congestionamento.",
+      "e) Na fase de partida lenta (slow start ) de uma conexão TCP, o tamanho da janela de congestionamento aumenta a cada RTT (Round-Trip Time ) de forma exponencial,\naté que esse tamanho alcance um determinado valor de limiar (threshold )."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "Redes de Computadores",
@@ -1962,11 +1962,11 @@
     "numero": 65,
     "enunciado": "Sobre o protocolo de transferência de hipertextos (HTTP - Hyper-Text Transfer",
     "alternativas": [
-      "a) O protocolo HTTP é capaz de transportar nativamente arquivos no formato\nbinário.",
+      "a) O protocolo HTTP é capaz de transportar nativamente arquivos no formato binário.",
       "b) A versão 1.0 do protocolo HTTP não permite a utilização de cookies.",
-      "c) A versão 1.1 do protocolo HTTP difere da versão 1.0 na capacidade de transportar\nob jetos maiores.",
+      "c) A versão 1.1 do protocolo HTTP difere da versão 1.0 na capacidade de transportar ob jetos maiores.",
       "d) A instrução GET condicional permite que o cliente opte por receber um determinado ob jeto do servidor apenas se este tiver sido alterado depois de uma determinada data e hora.",
-      "e) O protocolo HTTP não pode ser utilizado para transportar outros tipos de ob jetos\nsenão os hiper-textos."
+      "e) O protocolo HTTP não pode ser utilizado para transportar outros tipos de ob jetos senão os hiper-textos."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "Redes de Computadores",
@@ -1998,7 +1998,7 @@
     "edicao": 2007,
     "id": "2007-67",
     "numero": 67,
-    "enunciado": "Analise as seguintes afirmativas.\nI. O protocolo UDP é um protocolo da Camada de Transporte orientado a datagrama, enquanto que o TCP é um protocolo da Camada de Transporte orientado\na conexão.\nII. Apesar de o protocolo IP ser orientado a datagrama, o protocolo UDP é necessário\npor fornecer multiplexação de um endereço de rede em várias portas, permitindo\nque múltiplos processos sejam endereçados em um mesmo endereço de rede.\nIII. O protocolo TCP utiliza o tamanho da janela deslizante de uma conexão para o\ncontrole de congestionamento.",
+    "enunciado": "Analise as seguintes afirmativas.\nI. O protocolo UDP é um protocolo da Camada de Transporte orientado a datagrama, enquanto que o TCP é um protocolo da Camada de Transporte orientado a conexão.\nII. Apesar de o protocolo IP ser orientado a datagrama, o protocolo UDP é necessário por fornecer multiplexação de um endereço de rede em várias portas, permitindo que múltiplos processos sejam endereçados em um mesmo endereço de rede.\nIII. O protocolo TCP utiliza o tamanho da janela deslizante de uma conexão para o controle de congestionamento.",
     "alternativas": [
       "a) somente a afirmativa I é correta.",
       "b) somente as afirmativas I e II são corretas.",
@@ -2017,7 +2017,7 @@
     "edicao": 2007,
     "id": "2007-68",
     "numero": 68,
-    "enunciado": "Considere as afirmativas sobre um Sistema de Arquivos Distribuídos (SAD).\nI. Um “Servidor de Arquivos com Estado”, em um SAD, mantém todo seu estado\nno caso de uma falha, garantindo a recuperação do mesmo sem a necessidade de\ndiálogo com os clientes.\nII. II. Na gerência de cache em um SAD, uma das políticas utilizadas é a writethrough. O inconveniente dessa política, comparada com outras, é a pouca confiabilidade no caso de falhas no cliente.\nIII. O uso de replicação em um SAD ao mesmo tempo que provê aumento na confiabilidade, também introduz um gargalo em termos de desempenho.",
+    "enunciado": "Considere as afirmativas sobre um Sistema de Arquivos Distribuídos (SAD).\nI. Um “Servidor de Arquivos com Estado”, em um SAD, mantém todo seu estado no caso de uma falha, garantindo a recuperação do mesmo sem a necessidade de diálogo com os clientes.\nII. II. Na gerência de cache em um SAD, uma das políticas utilizadas é a writethrough. O inconveniente dessa política, comparada com outras, é a pouca confiabilidade no caso de falhas no cliente.\nIII. O uso de replicação em um SAD ao mesmo tempo que provê aumento na confiabilidade, também introduz um gargalo em termos de desempenho.",
     "alternativas": [
       "a) nenhuma das afirmativas está correta.",
       "b) somente a afirmativa I está correta.",
@@ -2036,7 +2036,7 @@
     "edicao": 2007,
     "id": "2007-69",
     "numero": 69,
-    "enunciado": "Analise as seguintes afirmativas concernentes a questões de pro jeto de sistemas\nI. Um sistema distribuído tolerante a falhas deve continuar operando na presença\nde problemas, podendo ocorrer uma degradação tanto no seu desempenho, como\nnas suas funcionalidades.\nII. No que diz respeito `a escalabilidade, o pro jeto de um sistema distribuído deve\nprever que a demanda nos serviços em qualquer dos equipamentos seja limitada\npor uma constante dependente do número de nodos envolvidos.\nIII. Em um sistema distribuído transparente quanto `a concorrência, a informação de\nquantos usuários estão empregando determinado serviço deve ser omitida.",
+    "enunciado": "Analise as seguintes afirmativas concernentes a questões de pro jeto de sistemas\nI. Um sistema distribuído tolerante a falhas deve continuar operando na presença de problemas, podendo ocorrer uma degradação tanto no seu desempenho, como nas suas funcionalidades.\nII. No que diz respeito `a escalabilidade, o pro jeto de um sistema distribuído deve prever que a demanda nos serviços em qualquer dos equipamentos seja limitada por uma constante dependente do número de nodos envolvidos.\nIII. Em um sistema distribuído transparente quanto `a concorrência, a informação de quantos usuários estão empregando determinado serviço deve ser omitida.",
     "alternativas": [
       "a) somente a afirmativa I está incorreta.",
       "b) somente a afirmativa II está incorreta.",
@@ -2055,7 +2055,7 @@
     "edicao": 2007,
     "id": "2007-70",
     "numero": 70,
-    "enunciado": "Em relação aos sistemas distribuídos, analise as seguintes afirmativas.\nI. Um sistema assíncrono apresenta medida de tempo global.\nII. A passagem de mensagens é o instrumento empregado para efetuar a comunicação entre os processos de um sistema assíncrono.\nIII. É possível simular um computador paralelo de memória compartilhada usando-se\num sistema distribuído.\nIV. Quando um determinado elemento de um sistema distribuído efetua a difusão\nde uma mensagem por meio de um multicast, todos os elementos do sistema\ndistribuído recebem a mensagem.",
+    "enunciado": "Em relação aos sistemas distribuídos, analise as seguintes afirmativas.\nI. Um sistema assíncrono apresenta medida de tempo global.\nII. A passagem de mensagens é o instrumento empregado para efetuar a comunicação entre os processos de um sistema assíncrono.\nIII. É possível simular um computador paralelo de memória compartilhada usando-se um sistema distribuído.\nIV. Quando um determinado elemento de um sistema distribuído efetua a difusão de uma mensagem por meio de um multicast, todos os elementos do sistema distribuído recebem a mensagem.",
     "alternativas": [
       "a) somente a afirmativa IV está correta.",
       "b) somente as afirmativas I e II estão corretas.",
@@ -2230,7 +2230,7 @@
     "alternativas": [
       "a) Ax=0 tem solução única.",
       "b) As linhas de A são vetores linearmente independentes.",
-      "c) As colunas de A são vetores linearmente independentes que geram um subespaço\ncontendo b.",
+      "c) As colunas de A são vetores linearmente independentes que geram um subespaço contendo b.",
       "d) A matriz A é quadrada e não-singular.",
       "e) O posto de A é igual a seu número de linhas."
     ],
@@ -2248,8 +2248,8 @@
     "enunciado": "Não é correto afirmar que:",
     "alternativas": [
       "a) Se as colunas de uma matriz são vetores dois a dois ortogonais, então sua inversa\né sua transposta.",
-      "b) Se a inversa de uma matriz é ela própria, então toda potência dessa matriz é ela\nprópria ou a identidade.",
-      "c) Se uma matriz singular é o produto de duas outras matrizes quadradas, então\numa destas também é singular.",
+      "b) Se a inversa de uma matriz é ela própria, então toda potência dessa matriz é ela própria ou a identidade.",
+      "c) Se uma matriz singular é o produto de duas outras matrizes quadradas, então uma destas também é singular.",
       "d) Se três matrizes quadradas A, B e C satisfazem A(B-C)=0, então A=0 ou B=C.",
       "e) Se A e B são matrizes triangulares inferiores então AB também é triangular inferior."
     ],
@@ -2381,7 +2381,7 @@
     "enunciado": "A respeito da representação de um grafo de n vértices e m arestas é correto dizer",
     "alternativas": [
       "a) a representação sob a forma de matriz de adjacência exige espaço Ω(m2).",
-      "b) a representação sob a forma de listas de adjacência permite verificar a existência\nde uma aresta ligando dois vértices dados em tempo O(1).",
+      "b) a representação sob a forma de listas de adjacência permite verificar a existência de uma aresta ligando dois vértices dados em tempo O(1).",
       "c) a representação sob a forma de matriz de adjacência não permite verificar a existência de uma aresta ligando dois vértices dados em tempo O(1).",
       "d) a representação sob a forma de listas de adjacência exige espaço Ω(n + m).",
       "e) todas as alternativas estão corretas."
@@ -2397,13 +2397,13 @@
     "edicao": 2006,
     "id": "2006-27",
     "numero": 27,
-    "enunciado": "Considere as afirmações abaixo, onde o alfabeto das linguagens é sempre dado\n(I) A linguagem fomada por todas as cadeias x ∈ Σ∗ onde após cada dois zeros\nconsecutivos sempre ocorrem pelo menos dois uns. Note que: os uns não\nprecisam ser consecutivos, nem precisam ocorrer imediatamente após os zeros.\n(II) Se L é livre de contexto e R é regular, então a linguagem {y| para algum x, z ∈\nΣ∗ temos xyz ∈ L e xz ∈ R} é sempre livre de contexto.\n1 2\nlentes, isto é, se aceitam a mesma linguagem.\n(V) Dada uma máquina de Turing, M , e um número inteiro k ≥ 0, sempre podemos\ndecidir se a linguagem aceita por M tem pelo menos k cadeias distintas.",
+    "enunciado": "Considere as afirmações abaixo, onde o alfabeto das linguagens é sempre dado\n(I) A linguagem fomada por todas as cadeias x ∈ Σ∗ onde após cada dois zeros consecutivos sempre ocorrem pelo menos dois uns. Note que: os uns não precisam ser consecutivos, nem precisam ocorrer imediatamente após os zeros.\n(II) Se L é livre de contexto e R é regular, então a linguagem {y| para algum x, z ∈\nΣ∗ temos xyz ∈ L e xz ∈ R} é sempre livre de contexto.\n1 2\nlentes, isto é, se aceitam a mesma linguagem.\n(V) Dada uma máquina de Turing, M , e um número inteiro k ≥ 0, sempre podemos decidir se a linguagem aceita por M tem pelo menos k cadeias distintas.",
     "alternativas": [
       "a) As afirmações (II), (III) e (IV) são verdadeiras.",
       "b) Há duas afirmações falsas entre (I), (II) e (V).",
       "c) Há duas afirmações verdadeiras entre (I), (IV) e (V).",
       "d) Entre todas as cinco afirmações, pelo menos 3 (três) são falsas.",
-      "e) Não é possível determinar se a afirmação (V) é verdadeira ou falsa, para uma\nmáquina de Turing genérica e um k ≥ 0 genérico."
+      "e) Não é possível determinar se a afirmação (V) é verdadeira ou falsa, para uma máquina de Turing genérica e um k ≥ 0 genérico."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "",
@@ -2492,7 +2492,7 @@
     "edicao": 2006,
     "id": "2006-39",
     "numero": 39,
-    "enunciado": "O uso de associações é muito importante em programação orientada a ob jetos.\nI. A multiplicidade de uma associação é uma restrição imposta a essa associação que\nde-fine o número de instâncias das classes envolvidas nesse relacionamento.\nII. A ordenação não é considerada uma restrição a associações, já que ordena as\ninstâncias envolvidas no relacionamento que caracteriza a associação em questão.\nIII. O uso de papéis só é permitido em associações reflexivas binárias, pois em outros\ntipos de associações os papéis causam problemas na modelagem das classes.",
+    "enunciado": "O uso de associações é muito importante em programação orientada a ob jetos.\nI. A multiplicidade de uma associação é uma restrição imposta a essa associação que de-fine o número de instâncias das classes envolvidas nesse relacionamento.\nII. A ordenação não é considerada uma restrição a associações, já que ordena as instâncias envolvidas no relacionamento que caracteriza a associação em questão.\nIII. O uso de papéis só é permitido em associações reflexivas binárias, pois em outros tipos de associações os papéis causam problemas na modelagem das classes.",
     "alternativas": [
       "a) As três afirmações são falsas.",
       "b) As três afirmações são verdadeiras.",
@@ -2532,11 +2532,11 @@
     "numero": 41,
     "enunciado": "Sobre os operadores da Álgebra Relacional, é correto afirmar que:",
     "alternativas": [
-      "a) O operador de SELEÇ Ã O seleciona as colunas de uma tupla que satisfazem a\numa determinada condição.",
-      "b) O número de tuplas resultantes da aplicação do operador de PROJEÇ Ã O em uma\ndada relação R é sempre igual ao número de tuplas de R.",
-      "c) O número de tuplas resultantes da aplicação do operador de JUNÇ Ã O em duas\nrelações R e S é sempre maior do que o número de tuplas resultantes do PRODUTO CARTESIANO de R e S.",
-      "d) A aplicação das operações de UNIÃ O e INTERSEÇ Ã O requerem que as relações\nenvolvidas sejam compatíveis quanto à união.",
-      "e) O número de tuplas resultantes da aplicação do operador de SELEÇ Ã O em uma\nrelação R é sempre menor do que o número de tuplas de R."
+      "a) O operador de SELEÇ Ã O seleciona as colunas de uma tupla que satisfazem a uma determinada condição.",
+      "b) O número de tuplas resultantes da aplicação do operador de PROJEÇ Ã O em uma dada relação R é sempre igual ao número de tuplas de R.",
+      "c) O número de tuplas resultantes da aplicação do operador de JUNÇ Ã O em duas relações R e S é sempre maior do que o número de tuplas resultantes do PRODUTO CARTESIANO de R e S.",
+      "d) A aplicação das operações de UNIÃ O e INTERSEÇ Ã O requerem que as relações envolvidas sejam compatíveis quanto à união.",
+      "e) O número de tuplas resultantes da aplicação do operador de SELEÇ Ã O em uma relação R é sempre menor do que o número de tuplas de R."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "",
@@ -2549,13 +2549,13 @@
     "edicao": 2006,
     "id": "2006-42",
     "numero": 42,
-    "enunciado": "Considere os esquemas das relações abaixo:\nEmpregado(rg, nome, rua, cidade, rg-gerente), onde o atributo ”rg”é chave da relação\nEmpregado.\nEmpresa(cod, nome, cidade), onde o atributo ”cod”é chave da relação Empresa.\nTrabalha(rg-emp, cod-empresa, salario), onde ”rg-emp”referencia o atributo ”rg”na\nrelação Empregado, ”cod-empresa”referencia o atributo ”cod”na relação Empresa\ne os atributos ”rg-emp”e ”cod-empresa”formam a chave da relação trabalha.",
+    "enunciado": "Considere os esquemas das relações abaixo:\nEmpregado(rg, nome, rua, cidade, rg-gerente), onde o atributo ”rg”é chave da relação\nEmpregado.\nEmpresa(cod, nome, cidade), onde o atributo ”cod”é chave da relação Empresa.\nTrabalha(rg-emp, cod-empresa, salario), onde ”rg-emp”referencia o atributo ”rg”na relação Empregado, ”cod-empresa”referencia o atributo ”cod”na relação Empresa e os atributos ”rg-emp”e ”cod-empresa”formam a chave da relação trabalha.",
     "alternativas": [
       "a) ”Quais são os nomes dos empregados que trabalham na cidade em que moram?”",
-      "b) ”Quais são os nomes dos gerentes dos empregados que trabalham na cidade em\nque moram?”",
+      "b) ”Quais são os nomes dos gerentes dos empregados que trabalham na cidade em que moram?”",
       "c) ”Quais são os nomes dos empregados que trabalham em alguma cidade?”",
       "d) ”Quais são os nomes dos gerentes dos empregados?”",
-      "e) ”Quais os nomes dos empregados que trabalham na cidade em que mora o seu\ngerente?”"
+      "e) ”Quais os nomes dos empregados que trabalham na cidade em que mora o seu gerente?”"
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "",
@@ -2668,8 +2668,8 @@
       "a) O ob jetivo dos testes é detectar erros.",
       "b) Os testes aplicados a um software também devem ter controle de versões.",
       "c) As atividades de teste começam após o término da fase de codificação.",
-      "d) Testes devem verificar não somente se o software faz o que é desejado, mas também\nse ele não faz algo indesejado.",
-      "e) As atividades de teste compreendem, entre outras, o pro jeto, a especificação e a\nimplementação de casos de teste."
+      "d) Testes devem verificar não somente se o software faz o que é desejado, mas também se ele não faz algo indesejado.",
+      "e) As atividades de teste compreendem, entre outras, o pro jeto, a especificação e a implementação de casos de teste."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "",
@@ -2688,7 +2688,7 @@
       "b) Tamanho do código, entradas e saídas externas, interfaces externas, e produtividade do sistema.",
       "c) Complexidade do produto, experiência pessoal, prazo, número de pessoas envolvidas, e confiabilidade.",
       "d) Tamanho do código, produtividade do sistema, experiência pessoal, prazo, e arquivos utilizados pelo sistema.",
-      "e) Volatilidade da plataforma de desenvolvimento, entradas e saídas externas, número\nde pessoas envolvidas, interações com usuários, e confiabilidade."
+      "e) Volatilidade da plataforma de desenvolvimento, entradas e saídas externas, número de pessoas envolvidas, interações com usuários, e confiabilidade."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "",
@@ -2723,7 +2723,7 @@
     "enunciado": "A percepção humana é um processo ativo fundamental na interação humano-",
     "alternativas": [
       "a) A abordagem construtivista possibilita entender como a informação que chega à\nretina é decomposta em partes significativas.",
-      "b) A abordagem ecológica possibilita entender as propriedades visuais de ob jetos em\ntermos de quanto esses ob jetos evocam ações a serem realizadas sobre eles.",
+      "b) A abordagem ecológica possibilita entender as propriedades visuais de ob jetos em termos de quanto esses ob jetos evocam ações a serem realizadas sobre eles.",
       "c) Affordance é um conceito relacionado à abordagem construtivista.",
       "d) Psicólogos Gestaltistas foram os primeiros a descrever princípios gerais sub jacentes ao processo de organização perceptual.",
       "e) São princípios da Gestalt para organização perceptual: proximidade, similaridade,\nfecho, continuidade e simetria."
@@ -2741,11 +2741,11 @@
     "numero": 59,
     "enunciado": "Os modelos de ciclo de vida surgidos na área de Interação Humano-computador",
     "alternativas": [
-      "a) O desenvolvimento de protótipos é parte integral do design iterativo centrado no\nusuário porque possibilita que designers testem suas idéias com usuários.",
-      "b) O modelo de ciclo de vida Estrela surgiu de um trabalho empírico de observação\nde como os designers de interface de usuário trabalhavam.",
-      "c) O modelo de ciclo de vida Estrela não especifica a ordem em que as atividades\ndevem ser realizadas.",
-      "d) O modelo de ciclo de vida Estrela é centrado na avaliação; sempre que uma\natividade é completada, seu resultado deve ser avaliado.",
-      "e) No modelo de ciclo de vida Estrela o pro jeto deve iniciar com a avaliação de uma\nsituação existente."
+      "a) O desenvolvimento de protótipos é parte integral do design iterativo centrado no usuário porque possibilita que designers testem suas idéias com usuários.",
+      "b) O modelo de ciclo de vida Estrela surgiu de um trabalho empírico de observação de como os designers de interface de usuário trabalhavam.",
+      "c) O modelo de ciclo de vida Estrela não especifica a ordem em que as atividades devem ser realizadas.",
+      "d) O modelo de ciclo de vida Estrela é centrado na avaliação; sempre que uma atividade é completada, seu resultado deve ser avaliado.",
+      "e) No modelo de ciclo de vida Estrela o pro jeto deve iniciar com a avaliação de uma situação existente."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "",
@@ -2761,7 +2761,7 @@
     "enunciado": "Considere o seguinte problema de programação linear:\nMax c x + c y\n1 2\nSujeito a x + y ≥ 3\nx ≥ 1\ny ≥ 1",
     "alternativas": [
       "a) Como (λ, λ) é solução viável para λ ≥ 3/2, então não existe solução ótima.",
-      "b) Como (λ, λ) é solução viável para λ ≥ 3/2, então existe um número infinito de\nsoluções ótimas.",
+      "b) Como (λ, λ) é solução viável para λ ≥ 3/2, então existe um número infinito de soluções ótimas.",
       "c) Existe uma solução ótima apenas se c ≤ 0 e c ≤ 0.\n1 2",
       "d) (1, 2) ou (2, 1) é necessariamente uma solução ótima.",
       "e) O problema dual é inviável."
@@ -2819,7 +2819,7 @@
     "alternativas": [
       "a) Ambas permitem taxas de transmissão diferentes para upstream e downstream",
       "b) Os canais de upstream e downstream da tecnologia ADSL não necessitam de contenção de acesso",
-      "c) Os canais de upstream e downstream da tecnologia Cable Modem necessitam de\ncontenção de acesso",
+      "c) Os canais de upstream e downstream da tecnologia Cable Modem necessitam de contenção de acesso",
       "d) ADSL utiliza par trançado dedicado para cada residência",
       "e) Cable Modem utiliza cabo compartilhado para diversas residências"
     ],
@@ -2837,10 +2837,10 @@
     "enunciado": "A comunicação entre processos em um sistema distribuído pode ser realizada por",
     "alternativas": [
       "a) Processos comunicantes compartilham o mesmo espaço de endereçamento.",
-      "b) Os stubs cliente e servidor são responsáveis pela conversão de formato dos parâmetros\nde entrada e saída, caso ha ja necessidade.",
+      "b) Os stubs cliente e servidor são responsáveis pela conversão de formato dos parâmetros de entrada e saída, caso ha ja necessidade.",
       "c) A geração dos stubs é comumente realizada por compilação a partir de uma especificação de interface realizada em uma linguagem de execução de interface\n(IEL).",
       "d) O mecanismo faz uso de uma porta fixa, de número 8080, para comunicar diferentes processos e serviços entre computadores de um sistema distribuído.",
-      "e) A falha de um cliente RPC gera uma chamada dita orfã no servidor que neste caso\nrepassa sempre os resultados do procedimento remoto para um proxy de retorno\nespecificado na chamada"
+      "e) A falha de um cliente RPC gera uma chamada dita orfã no servidor que neste caso repassa sempre os resultados do procedimento remoto para um proxy de retorno especificado na chamada"
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "",
@@ -2855,11 +2855,11 @@
     "numero": 69,
     "enunciado": "Sobre algoritmos de exclusão mútua em sistemas distribuídos é correto afirmar",
     "alternativas": [
-      "a) O algoritmo centralizado tem como principal desvantagem o alto número de troca\nde mensagens.",
+      "a) O algoritmo centralizado tem como principal desvantagem o alto número de troca de mensagens.",
       "b) O algoritmo distribuído é totalmente independente da ordem dos eventos do sistema distribuído.",
       "c) A maioria simples de permissões dos participantes para entrada em região crítica\né suficiente para garantir a exclusão mútua no algoritmo distribuído.",
-      "d) No algoritmo do token , a exclusão mútua é garantida por uma concessão de\nbloqueio fornecida pelo gerente que mantém uma lista de tokens.",
-      "e) Três mensagens são suficientes para fechar o ciclo de concessão, liberação e nova\nconcessão de acesso no algoritmo do token."
+      "d) No algoritmo do token , a exclusão mútua é garantida por uma concessão de bloqueio fornecida pelo gerente que mantém uma lista de tokens.",
+      "e) Três mensagens são suficientes para fechar o ciclo de concessão, liberação e nova concessão de acesso no algoritmo do token."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "",
@@ -2874,11 +2874,11 @@
     "numero": 70,
     "enunciado": "Um sistema distribuído pode manter diferentes cópias de um mesmo item de dado",
     "alternativas": [
-      "a) O protocolo baseado em cópia primária permite sempre a atualização da cópia\nmais próxima e difunde o novo valor via unicast para todos os nós que mantém\numa outra cópia.",
-      "b) A atualização de todas as cópias, no protocolo baseado em cópia primária, é\nrealizada através de um processo síncrono, onde o cliente é liberado para continuar\no fluxo de execução imediatamente após ter solicitado a atualização da cópia\nprimária.",
-      "c) Nos protocolos baseados em quorum, os conflitos leitura-escrita e escrita-escrita\nsão evitados por autorizações de bloqueio (lock) emitidas por um coordenador\ncentral ou sequenciador.",
-      "d) Protocolos baseados em coerência de cache são mecanismos de consistência de\ncópias que repassam a responsabilidade de manter essa consistência para os servidores que detém cópias.",
-      "e) No protocolo de replicação ativa, todas as réplicas são atualizadas através de uma\núnica operação de escrita realizada por um mecanismo de multicast totalmente\nordenado."
+      "a) O protocolo baseado em cópia primária permite sempre a atualização da cópia mais próxima e difunde o novo valor via unicast para todos os nós que mantém uma outra cópia.",
+      "b) A atualização de todas as cópias, no protocolo baseado em cópia primária, é\nrealizada através de um processo síncrono, onde o cliente é liberado para continuar o fluxo de execução imediatamente após ter solicitado a atualização da cópia primária.",
+      "c) Nos protocolos baseados em quorum, os conflitos leitura-escrita e escrita-escrita são evitados por autorizações de bloqueio (lock) emitidas por um coordenador central ou sequenciador.",
+      "d) Protocolos baseados em coerência de cache são mecanismos de consistência de cópias que repassam a responsabilidade de manter essa consistência para os servidores que detém cópias.",
+      "e) No protocolo de replicação ativa, todas as réplicas são atualizadas através de uma\núnica operação de escrita realizada por um mecanismo de multicast totalmente ordenado."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "",
@@ -2948,7 +2948,7 @@
     "edicao": 2005,
     "id": "2005-09",
     "numero": 9,
-    "enunciado": "A sequência x é definida recursivamente por\nn\n1 se n = 0;\nx =\nn+1 (1 + 1+1\nxn\ncaso contrário.",
+    "enunciado": "A sequência x é definida recursivamente por n\n1 se n = 0;\nx =\nn+1 (1 + 1+1\nxn\ncaso contrário.",
     "alternativas": [
       "a) L = 1",
       "b) L = 1 + 1\n2",
@@ -2986,7 +2986,7 @@
     "edicao": 2005,
     "id": "2005-16",
     "numero": 16,
-    "enunciado": "Sejam a; b e n inteiros, com n > 0. Considere a equação\nax b (mod n):\n(cid:17)",
+    "enunciado": "Sejam a; b e n inteiros, com n > 0. Considere a equação ax b (mod n):\n(cid:17)",
     "alternativas": [
       "a) A equação acima não tem solução.",
       "b) A equação acima sempre tem solução.",
@@ -3024,13 +3024,13 @@
     "edicao": 2005,
     "id": "2005-18",
     "numero": 18,
-    "enunciado": "Dadas as seguintes afirmações:\n(I) se R é uma relação transitiva, a sua inversa também é transitiva.\n(II) se R é uma relação re(cid:13)exiva, anti-simétrica e transitiva, então a sua inversa\ntambém é uma relação re(cid:13)exiva, anti-simétrica e transitiva.",
+    "enunciado": "Dadas as seguintes afirmações:\n(I) se R é uma relação transitiva, a sua inversa também é transitiva.\n(II) se R é uma relação re(cid:13)exiva, anti-simétrica e transitiva, então a sua inversa também é uma relação re(cid:13)exiva, anti-simétrica e transitiva.",
     "alternativas": [
       "a) Somente (I) e (II)",
       "b) Somente (II) e (III)",
       "c) Somente (I) e (III)",
       "d) (I), (II) e (III)",
-      "e) Somente (I) é verdadeira.\nMarcador\nde Á gua Alto"
+      "e) Somente (I) é verdadeira.\nMarcador de Á gua Alto"
     ],
     "area_conhecimento": "Matemática",
     "area": "",
@@ -3043,7 +3043,7 @@
     "edicao": 2005,
     "id": "2005-23",
     "numero": 23,
-    "enunciado": "Das afirmações a seguir, sobre memória cache, quais são verdadeiras?\n(I) Numa estrutura totalmente associativa, um bloco de memória pode ser mapeado\nem qualquer slot do cache.\n(II) O campo tag do endereço é usado para identificar um bloco válido no cache, junto\ncom o campo de índice.\ndireto.",
+    "enunciado": "Das afirmações a seguir, sobre memória cache, quais são verdadeiras?\n(I) Numa estrutura totalmente associativa, um bloco de memória pode ser mapeado em qualquer slot do cache.\n(II) O campo tag do endereço é usado para identificar um bloco válido no cache, junto com o campo de índice.\ndireto.",
     "alternativas": [
       "a) Somente as afirmações (I), (III) e (IV).",
       "b) Somente as afirmações (II), (III) e (IV).",
@@ -3123,8 +3123,8 @@
     "alternativas": [
       "a) Dada uma máquina de Turing M com alfabeto de entrada (cid:6) e uma string w (cid:6),\n2\nnão se sabe se a computação de M com entrada w vai ou não parar.",
       "b) O problema da parada é indecidível.",
-      "c) Não existe algoritmo que determina quando uma gramática livre de contexto\narbitrária é ambígua.",
-      "d) Não existe autômato finito determinístico que reconheça alguma linguagem livre\nde contexto.",
+      "c) Não existe algoritmo que determina quando uma gramática livre de contexto arbitrária é ambígua.",
+      "d) Não existe autômato finito determinístico que reconheça alguma linguagem livre de contexto.",
       "e) Um autômato com duas pilhas pode ser simulado por uma máquina de Turing."
     ],
     "area_conhecimento": "Fundamentos da Computação",
@@ -3176,7 +3176,7 @@
     "edicao": 2005,
     "id": "2005-57",
     "numero": 57,
-    "enunciado": "O desenvolvimento de protótipos de sistemas e suas interfaces de usuário possibilitam\n(I) Na prototipação vertical, a interface de usuário é mostrada ao usuário em uma\nsérie de representações pictóricas da interface chamadas storyboards;\n(II) Na prototipação dirigida (Chau(cid:11)eured Prototyping), o usuário observa enquanto\numa outra pessoa, usualmente um membro da equipe de desenvolvimento, interage\ncom o sistema;\nmas em lugar de respostas do sistema, estas são enviadas por um desenvolvedor\nsentado em outra máquina.",
+    "enunciado": "O desenvolvimento de protótipos de sistemas e suas interfaces de usuário possibilitam\n(I) Na prototipação vertical, a interface de usuário é mostrada ao usuário em uma série de representações pictóricas da interface chamadas storyboards;\n(II) Na prototipação dirigida (Chau(cid:11)eured Prototyping), o usuário observa enquanto uma outra pessoa, usualmente um membro da equipe de desenvolvimento, interage com o sistema;\nmas em lugar de respostas do sistema, estas são enviadas por um desenvolvedor sentado em outra máquina.",
     "alternativas": [
       "a) Somente as afirmações (I) e (II) estão corretas.",
       "b) Somente as afirmações (II) e (III) estão corretas.",
@@ -3236,9 +3236,9 @@
     "enunciado": "Um dos mecanismos de congestionamento na rede é o que utiliza temporizadores de",
     "alternativas": [
       "a) A quantidade de mensagens não confirmadas na transmissão, num dado instante,\ndeve ser superior ao mínimo entre a Janela de Congestionamento e a Janela de\nRecepção desta conexão.",
-      "b) A Janela de Congestionamento dobra de tamanho (cresce exponencialmente)\nquando a confirmação das mensagens enviadas ocorre antes dos temporizadores\nde retransmissão se esgotarem (time-out), até o limite do Patamar.",
-      "c) Após exceder o valor de Patamar ainda sem esgotar os temporizadores, a janela\ndecresce linearmente.",
-      "d) Quando excede o valor de Patamar e esgotam os temporizadores, a janela decresce\nexponencialmente.",
+      "b) A Janela de Congestionamento dobra de tamanho (cresce exponencialmente)\nquando a confirmação das mensagens enviadas ocorre antes dos temporizadores de retransmissão se esgotarem (time-out), até o limite do Patamar.",
+      "c) Após exceder o valor de Patamar ainda sem esgotar os temporizadores, a janela decresce linearmente.",
+      "d) Quando excede o valor de Patamar e esgotam os temporizadores, a janela decresce exponencialmente.",
       "e) Todas as alternativas estão corretas."
     ],
     "area_conhecimento": "Tecnologia de Computação",
@@ -3254,11 +3254,11 @@
     "numero": 66,
     "enunciado": "Algoritmos de roteamento são o meio que um roteador utiliza para encaminhar men-",
     "alternativas": [
-      "a) Nos algoritmos de roteamento estáticos as rotas são determinadas via tabelas\ndefinidas a priori e fixadas para o roteador, em geral manualmente.",
-      "b) No roteamento de Estado de Enlace (Link State), os valores dos enlaces são calculados pelo pro jetista da rede e os roteadores atualizam suas tabelas por estes\nvalores.",
-      "c) No roteamento por Vetor de Distância (Distance Vector), as tabelas de roteamento\ndefinidas pelos roteadores vizinhos são repassadas periodicamente a cada roteador\npara obtenção de sua própria tabela.",
-      "d) Algoritmos de roteamento buscam estabelecer o caminho de menor custo entre\ndois hosts através do cálculo dos custos acumulados mínimos entre os enlaces\ndisponíveis, dada a topologia da rede.",
-      "e) O OSPF é um exemplo de protocolo de roteamento baseado em Estado de Enlace e\no BGP é um exemplo de protocolo de roteamento baseado em Vetor de Distâncias."
+      "a) Nos algoritmos de roteamento estáticos as rotas são determinadas via tabelas definidas a priori e fixadas para o roteador, em geral manualmente.",
+      "b) No roteamento de Estado de Enlace (Link State), os valores dos enlaces são calculados pelo pro jetista da rede e os roteadores atualizam suas tabelas por estes valores.",
+      "c) No roteamento por Vetor de Distância (Distance Vector), as tabelas de roteamento definidas pelos roteadores vizinhos são repassadas periodicamente a cada roteador para obtenção de sua própria tabela.",
+      "d) Algoritmos de roteamento buscam estabelecer o caminho de menor custo entre dois hosts através do cálculo dos custos acumulados mínimos entre os enlaces disponíveis, dada a topologia da rede.",
+      "e) O OSPF é um exemplo de protocolo de roteamento baseado em Estado de Enlace e o BGP é um exemplo de protocolo de roteamento baseado em Vetor de Distâncias."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "",
@@ -3271,7 +3271,7 @@
     "edicao": 2005,
     "id": "2005-70",
     "numero": 70,
-    "enunciado": "A abordagem geral para tolerância a falhas é o uso de redundância. Considere as\n(I) Um exemplo de redundância de informação é o uso de bits extras para permitir\na recuperação de bits corrompidos.\n(II) Redundância de tempo é útil principalmente quando as falhas são transientes ou\nintermitentes.\nprimário.",
+    "enunciado": "A abordagem geral para tolerância a falhas é o uso de redundância. Considere as\n(I) Um exemplo de redundância de informação é o uso de bits extras para permitir a recuperação de bits corrompidos.\n(II) Redundância de tempo é útil principalmente quando as falhas são transientes ou intermitentes.\nprimário.",
     "alternativas": [
       "a) Somente as afirmações (I),(II) e (III).",
       "b) Somente as afirmações (I), (II) e (IV).",
@@ -3385,7 +3385,7 @@
     "edicao": 2004,
     "id": "2004-06",
     "numero": 6,
-    "enunciado": "Considere o espaço amostral Ω = {ω1, ω2, . . . , ωn} onde ωi ocorre com probabilidade pi\nhx, yi = p1x1 y1 + p2x2 y2 + · · · + pnxnyn,\nhX, 1i\nhX − hX, 1i1, X − hX, 1i1i\n||X − hX, 1i1||",
+    "enunciado": "Considere o espaço amostral Ω = {ω1, ω2, . . . , ωn} onde ωi ocorre com probabilidade pi hx, yi = p1x1 y1 + p2x2 y2 + · · · + pnxnyn,\nhX, 1i hX − hX, 1i1, X − hX, 1i1i\n||X − hX, 1i1||",
     "alternativas": [
       "a) média, variância, desvio padrão",
       "b) variância, média, desvio padrão",
@@ -3423,7 +3423,7 @@
     "edicao": 2004,
     "id": "2004-08",
     "numero": 8,
-    "enunciado": "A soma de coeficientes binomiais vale\nk\nk=0 (cid:18) (cid:19)\nX\n1 r − n + 1",
+    "enunciado": "A soma de coeficientes binomiais vale k k=0 (cid:18) (cid:19)\nX\n1 r − n + 1",
     "alternativas": [
       "a) 2 n\n(cid:18) (cid:19)\n1 r − 1 + n",
       "b) 2 n\n(cid:18) (cid:19)\nr + n",
@@ -3446,7 +3446,7 @@
     "alternativas": [
       "a) k `\nm−k",
       "b) (cid:0) k+(cid:1)(cid:0)` (cid:1)",
-      "c) (cid:0)m+`+ (cid:1)k\nk+`−1",
+      "c) (cid:0)m+`+ (cid:1)k k+`−1",
       "d) (cid:0)m+`−1\n(cid:1)\nk+`−1",
       "e) (cid:0)m+`\n(cid:1)\nk+`\n(cid:0) (cid:1)"
     ],
@@ -3480,7 +3480,7 @@
     "edicao": 2004,
     "id": "2004-11",
     "numero": 11,
-    "enunciado": "A sequência definida recursivamente por\nn−1\n2\nTn = n + 1 + Tk (∀n > 0; T0 = 0)\nn\nk=0\nX",
+    "enunciado": "A sequência definida recursivamente por n−1\n2\nTn = n + 1 + Tk (∀n > 0; T0 = 0)\nn\nk=0\nX",
     "alternativas": [
       "a) n, 1 e n\n2\nkn =− 02 Tk ;",
       "b) n, (n + 1) e 2n.\nP\nn−2",
@@ -3689,7 +3689,7 @@
     "edicao": 2004,
     "id": "2004-32",
     "numero": 32,
-    "enunciado": "Considere as seguintes afirmativas:\nI. Uma modificação em uma CPU fez o cycle time e o CPI aumentarem de 10%\nenquanto o número de instruções executadas para uma dada aplicação decresceu\nde 20%. Podemos concluir que o tempo de execução desta aplicação será mantido.\nII. Um page fault ocorre quando a entrada correspondente à página requerida não é\nencontrada no translation lookside buffer.\nIII. Para armazenar uma mesma quantidade de dados, uma cache direct mapped é\ntipicamente menor que uma cache set associative, assumindo blocos de mesmo\ntamanho.\nIV. Aumentando–se o tamanho do bloco de uma cache aumenta–se as vantagens obtidas com a localidade espacial.\nV. Memória virtual tipicamente usa a estratégia write–through ao invés de estratégia\nwrite–back.",
+    "enunciado": "Considere as seguintes afirmativas:\nI. Uma modificação em uma CPU fez o cycle time e o CPI aumentarem de 10%\nenquanto o número de instruções executadas para uma dada aplicação decresceu de 20%. Podemos concluir que o tempo de execução desta aplicação será mantido.\nII. Um page fault ocorre quando a entrada correspondente à página requerida não é\nencontrada no translation lookside buffer.\nIII. Para armazenar uma mesma quantidade de dados, uma cache direct mapped é\ntipicamente menor que uma cache set associative, assumindo blocos de mesmo tamanho.\nIV. Aumentando–se o tamanho do bloco de uma cache aumenta–se as vantagens obtidas com a localidade espacial.\nV. Memória virtual tipicamente usa a estratégia write–through ao invés de estratégia write–back.",
     "alternativas": [
       "a) Somente as afirmativas I, II, III e IV são verdadeiras.",
       "b) Somente as afirmativas I, III e IV são verdadeiras.",
@@ -3784,7 +3784,7 @@
     "edicao": 2004,
     "id": "2004-48",
     "numero": 48,
-    "enunciado": "A linguagem de modelagem UML contém a definição de vários diagramas que\npermitem representar diferentes partes de um modelo de sistema tipicamente aplicada\na sistemas orientados a objetos. Analise as seguintes afirmações referentes a UML:\ncomportamento pretendido do sistema através da representação das interações entre\natores e o próprio sistema;\nbásica entre eles é que os primeiros representam comportamento que causa\nmudanças de estado de um simples elemento (tipicamente um objeto) e são usados\ngeralmente durante o projeto do software enquanto os segundos representam\ncomportamento entre diferentes elementos e geralmente são usados para modelar os\nfluxos das atividades de negócios durante a análise do software;\nde algum comportamento do sistema, dando ênfase à ordenação temporal das trocas\nde mensagens entre os objetos;\nLevando-se em conta as três afirmações I, II e III acima, identifique a única alternativa\nválida:",
+    "enunciado": "A linguagem de modelagem UML contém a definição de vários diagramas que permitem representar diferentes partes de um modelo de sistema tipicamente aplicada a sistemas orientados a objetos. Analise as seguintes afirmações referentes a UML:\ncomportamento pretendido do sistema através da representação das interações entre atores e o próprio sistema;\nbásica entre eles é que os primeiros representam comportamento que causa mudanças de estado de um simples elemento (tipicamente um objeto) e são usados geralmente durante o projeto do software enquanto os segundos representam comportamento entre diferentes elementos e geralmente são usados para modelar os fluxos das atividades de negócios durante a análise do software;\nde algum comportamento do sistema, dando ênfase à ordenação temporal das trocas de mensagens entre os objetos;\nLevando-se em conta as três afirmações I, II e III acima, identifique a única alternativa válida:",
     "alternativas": [
       "a) apenas a I e a II estão corretas;",
       "b) apenas a II e a III estão corretas;",
@@ -3803,7 +3803,7 @@
     "edicao": 2004,
     "id": "2004-49",
     "numero": 49,
-    "enunciado": "Engenharia de Software inclui um grande número de teorias, conceitos, modelos,\ntécnicas e métodos. Analise as seguintes definições.\npara estimativa de custo e esforço. A técnica de Pontos por Função é uma técnica de\nestimativa que, embora não seja relacionada diretamente a linhas de código, é\nutilizada também para a obtenção de métricas de produtividade e qualidade do\ndesenvolvimento de software;\nEngineering Institute (SEI) que propõe níveis de competência organizacional\nrelacionados à qualidade do processo de desenvolvimento de software;\nnível (projeto ou especificação) a partir de um documento de mais baixo nível\n(tipicamente um código fonte);\nLevando-se em conta as três afirmações I, II e III acima, identifique a única\nalternativa válida:",
+    "enunciado": "Engenharia de Software inclui um grande número de teorias, conceitos, modelos,\ntécnicas e métodos. Analise as seguintes definições.\npara estimativa de custo e esforço. A técnica de Pontos por Função é uma técnica de estimativa que, embora não seja relacionada diretamente a linhas de código, é\nutilizada também para a obtenção de métricas de produtividade e qualidade do desenvolvimento de software;\nEngineering Institute (SEI) que propõe níveis de competência organizacional relacionados à qualidade do processo de desenvolvimento de software;\nnível (projeto ou especificação) a partir de um documento de mais baixo nível\n(tipicamente um código fonte);\nLevando-se em conta as três afirmações I, II e III acima, identifique a única alternativa válida:",
     "alternativas": [
       "a) apenas a I está correta;",
       "b) apenas a II está correta.",
@@ -3822,7 +3822,7 @@
     "edicao": 2004,
     "id": "2004-50",
     "numero": 50,
-    "enunciado": "As seguintes afirmações dizem respeito ao uso de Padrões de Projeto (Design\nPatterns), mais especificamente os padrões GoF (apresentados e descritos no livro\nclássico de E. Gamma, R. Helm, R. Johnson e J. Vlissides).\npara resolver um problema geral e recorrente num contexto determinado;\nem padrões estruturais (ou de estrutura), comportamentais (ou de comportamento) ,\nde criação, de delegação e de combinação.\ncoleções de objetos. O padrão Singleton, por exemplo, assegura que uma classe tem\nexatamente uma única instância;\nLevando-se em conta as três afirmações I, II e III acima, identifique a única\nalternativa válida:",
+    "enunciado": "As seguintes afirmações dizem respeito ao uso de Padrões de Projeto (Design\nPatterns), mais especificamente os padrões GoF (apresentados e descritos no livro clássico de E. Gamma, R. Helm, R. Johnson e J. Vlissides).\npara resolver um problema geral e recorrente num contexto determinado;\nem padrões estruturais (ou de estrutura), comportamentais (ou de comportamento) ,\nde criação, de delegação e de combinação.\ncoleções de objetos. O padrão Singleton, por exemplo, assegura que uma classe tem exatamente uma única instância;\nLevando-se em conta as três afirmações I, II e III acima, identifique a única alternativa válida:",
     "alternativas": [
       "a) apenas a I e a II estão corretas;",
       "b) apenas a II e a III estão corretas;",
@@ -3841,7 +3841,7 @@
     "edicao": 2004,
     "id": "2004-51",
     "numero": 51,
-    "enunciado": "A situação atual do desenvolvimento de software encontra-se aquém do ideal.\nSistemas são invariavelmente entregues com atraso ou com o orçamento estourado,\nisto quando são efetivamente entregues... E o que é pior, freqüentemente eles não\natendem os requisitos dos clientes. Existem várias alternativas de tentar enfrentar este\ndesafio, entre as quais a adoção de métodos formais, a sistematização do\ndesenvolvimento usando processos tais como o Unified Process e a integração de\nnovas tecnologias. Uma outra abordagem que recentemente vem ganhando adeptos é\no Desenvolvimento Ágil de software. As seguintes afirmações dizem respeito a ele.\nI. Suas idéias principais estão divulgadas em um Manifesto para o\nDesenvolvimento Ágil de Software escrito pela Aliança Ágil (Agile\nAlliance), que reúne autores famosos como Martin Fowler, Alistair\nCockburn, Scott Ambler, Ward Cunningham e Kent Beck;\nII. Desnvolvimento Ágil basicamente concentra-se em melhorias na\ncomunicação (interna à equipe e com os clientes), na entrega incremental de\nvárias versões funcionais do software continuamente até o fim do projeto e\nna maleabilidade e dinamicidade do desenvolvimento, facilitando as\nrespostas às mudanças que aparecem durante este desenvolvimento.\nIII. A técnica mais conhecida de Desenvolvimento Ágil é a Programação\neXtrema (Extreme Programming - XP) que entre suas práticas possui\nprogramação em pares (pair programming), entregas pequenas (small\nreleases) e frequentes, a propriedade coletiva do código (collective\nownership), abolindo as práticas de teste e os padrões de codificação;",
+    "enunciado": "A situação atual do desenvolvimento de software encontra-se aquém do ideal.\nSistemas são invariavelmente entregues com atraso ou com o orçamento estourado,\nisto quando são efetivamente entregues... E o que é pior, freqüentemente eles não atendem os requisitos dos clientes. Existem várias alternativas de tentar enfrentar este desafio, entre as quais a adoção de métodos formais, a sistematização do desenvolvimento usando processos tais como o Unified Process e a integração de novas tecnologias. Uma outra abordagem que recentemente vem ganhando adeptos é\no Desenvolvimento Ágil de software. As seguintes afirmações dizem respeito a ele.\nI. Suas idéias principais estão divulgadas em um Manifesto para o\nDesenvolvimento Ágil de Software escrito pela Aliança Ágil (Agile\nAlliance), que reúne autores famosos como Martin Fowler, Alistair\nCockburn, Scott Ambler, Ward Cunningham e Kent Beck;\nII. Desnvolvimento Ágil basicamente concentra-se em melhorias na comunicação (interna à equipe e com os clientes), na entrega incremental de várias versões funcionais do software continuamente até o fim do projeto e na maleabilidade e dinamicidade do desenvolvimento, facilitando as respostas às mudanças que aparecem durante este desenvolvimento.\nIII. A técnica mais conhecida de Desenvolvimento Ágil é a Programação eXtrema (Extreme Programming - XP) que entre suas práticas possui programação em pares (pair programming), entregas pequenas (small releases) e frequentes, a propriedade coletiva do código (collective ownership), abolindo as práticas de teste e os padrões de codificação;",
     "alternativas": [
       "a) apenas a I e a II estão corretas;",
       "b) apenas a II e a III estão corretas;",
@@ -3879,13 +3879,13 @@
     "edicao": 2004,
     "id": "2004-53",
     "numero": 53,
-    "enunciado": "Considere um algoritmo genético que opera sobre três indivíduos A, B, C, descritos\nrespectivamente pelos vetores binários\nA = [11011000], B = [00010000], C = [11001101],",
+    "enunciado": "Considere um algoritmo genético que opera sobre três indivíduos A, B, C, descritos respectivamente pelos vetores binários\nA = [11011000], B = [00010000], C = [11001101],",
     "alternativas": [
       "a) Crossover pelo ponto central dos indivíduos A e C;",
       "b) Crossover pelo ponto central dos indivíduos A e B;",
-      "c) Crossover pelo ponto central dos indivíduos A e B seguido de mutação de um bit em\ncada novo indivíduo (D e E);",
-      "d) Crossover pelo ponto central dos indivíduos A e C seguido de mutação de um bit em\ncada novo indivíduo (D e E);",
-      "e) Crossover pelo ponto central dos indivíduos B e C seguido de mutação de um bit em\ncada novo indivíduo (D e E)."
+      "c) Crossover pelo ponto central dos indivíduos A e B seguido de mutação de um bit em cada novo indivíduo (D e E);",
+      "d) Crossover pelo ponto central dos indivíduos A e C seguido de mutação de um bit em cada novo indivíduo (D e E);",
+      "e) Crossover pelo ponto central dos indivíduos B e C seguido de mutação de um bit em cada novo indivíduo (D e E)."
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "",
@@ -3898,7 +3898,7 @@
     "edicao": 2004,
     "id": "2004-54",
     "numero": 54,
-    "enunciado": "Considere as afirmações sobre características desejáveis do domínio e da tarefa, para\no uso de sistemas especialistas.\nI. O domínio é caracterizado por ser intensivo em conhecimento.\nII. A tarefa requer conhecimento de um grande número de áreas.\nIII. Abordagens tradicionais (algorítmicas) para a tarefa não são satisfatórias.",
+    "enunciado": "Considere as afirmações sobre características desejáveis do domínio e da tarefa, para o uso de sistemas especialistas.\nI. O domínio é caracterizado por ser intensivo em conhecimento.\nII. A tarefa requer conhecimento de um grande número de áreas.\nIII. Abordagens tradicionais (algorítmicas) para a tarefa não são satisfatórias.",
     "alternativas": [
       "a) Apenas II",
       "b) Apenas I e II",
@@ -3917,7 +3917,7 @@
     "edicao": 2004,
     "id": "2004-55",
     "numero": 55,
-    "enunciado": "Considere as afirmações sobre resolução de problemas em IA.\nI. Busca pela melhor escolha é um tipo de busca heurística .\nII. Satisfação de restrições é uma das formas de solução de problemas em IA.\nIII. O procedimento Alfa-Beta pode permitir a poda de boa parte de uma árvore de\nbusca em um jogo de dois jogadores.",
+    "enunciado": "Considere as afirmações sobre resolução de problemas em IA.\nI. Busca pela melhor escolha é um tipo de busca heurística .\nII. Satisfação de restrições é uma das formas de solução de problemas em IA.\nIII. O procedimento Alfa-Beta pode permitir a poda de boa parte de uma árvore de busca em um jogo de dois jogadores.",
     "alternativas": [
       "a) Apenas II",
       "b) Apenas I e II",
@@ -3955,7 +3955,7 @@
     "edicao": 2004,
     "id": "2004-63",
     "numero": 63,
-    "enunciado": "O esquema de tradução dirigida por sintaxe que segue traduz uma linguagem com\nterminais a, b, c e d em uma linguagem cujos terminais são 1, 2, 3, 4, 5, 6. Usando um\nparser bottom-up que executa as ações entre parênteses imediatamente após reduzir a\nregra correspondente, qual o resultado da tradução de “aaadbc”\nS -> AS {print \"1\"}\nS -> B {print \"2\"}\nA -> a {print \"3\"}\nB -> bC {print \"4\"}\nB -> dB {print \"5\"}\nC -> c {print \"6\"}",
+    "enunciado": "O esquema de tradução dirigida por sintaxe que segue traduz uma linguagem com terminais a, b, c e d em uma linguagem cujos terminais são 1, 2, 3, 4, 5, 6. Usando um parser bottom-up que executa as ações entre parênteses imediatamente após reduzir a regra correspondente, qual o resultado da tradução de “aaadbc”\nS -> AS {print \"1\"}\nS -> B {print \"2\"}\nA -> a {print \"3\"}\nB -> bC {print \"4\"}\nB -> dB {print \"5\"}\nC -> c {print \"6\"}",
     "alternativas": [
       "a) 1313132546",
       "b) 1113332546",
@@ -3974,7 +3974,7 @@
     "edicao": 2004,
     "id": "2004-66",
     "numero": 66,
-    "enunciado": "Um cluster é definido como um sistema distribuído formado por máquinas\nhomogêneas, executando o mesmo sistema operacional, interligadas por uma rede de\nalta velocidade. Como vantagens deste cluster em relação a uma máquina de grande\nporte poderíamos citar:\ni. melhor escalabilidade de unidades de processamento\nii. possibilidade de executar programas com múltiplas threads\niii. possibilidade de continuar o processamento isolando máquinas defeituosas\niv. possibilidade de executar programas Java usando RMI",
+    "enunciado": "Um cluster é definido como um sistema distribuído formado por máquinas homogêneas, executando o mesmo sistema operacional, interligadas por uma rede de alta velocidade. Como vantagens deste cluster em relação a uma máquina de grande porte poderíamos citar:\ni. melhor escalabilidade de unidades de processamento ii. possibilidade de executar programas com múltiplas threads iii. possibilidade de continuar o processamento isolando máquinas defeituosas iv. possibilidade de executar programas Java usando RMI",
     "alternativas": [
       "a) (i) e (iii)",
       "b) (ii) e (iv)",
@@ -4050,7 +4050,7 @@
     "edicao": 2003,
     "id": "2003-06",
     "numero": 6,
-    "enunciado": "Um relação binária ρ, em um conjunto A, é denominada reflexiva se (a, a) ∈ ρ\npara todo elemento a ∈ A. Quantas relações reflexivas existem em um\nconjunto A com 5 elementos?",
+    "enunciado": "Um relação binária ρ, em um conjunto A, é denominada reflexiva se (a, a) ∈ ρ\npara todo elemento a ∈ A. Quantas relações reflexivas existem em um conjunto A com 5 elementos?",
     "alternativas": [
       "a) 220",
       "b) 210",
@@ -4164,7 +4164,7 @@
     "edicao": 2003,
     "id": "2003-19",
     "numero": 19,
-    "enunciado": "Seja A uma matriz quadrada tal que A2 − A + I = 0, onde I é a matriz\nidentidade. É correto afirmar que:",
+    "enunciado": "Seja A uma matriz quadrada tal que A2 − A + I = 0, onde I é a matriz identidade. É correto afirmar que:",
     "alternativas": [
       "a) a matriz inversa de A é I .",
       "b) a matriz inversa de A é A − I .",
@@ -4183,7 +4183,7 @@
     "edicao": 2003,
     "id": "2003-26",
     "numero": 26,
-    "enunciado": "Considere o seguinte código para implementar exclusão mútua entre dois processos 1 e j:\nProcesso Pi\ndo\nwhile (turn != i) ; // entrada da seção crítica\nseção crítica\nturn = j; // saída da seção crítica\ncódigo restante\nwhile (1);\nEm relação ao código acima, todas as afirmativas estão corretas, exceto:",
+    "enunciado": "Considere o seguinte código para implementar exclusão mútua entre dois processos 1 e j:\nProcesso Pi do while (turn != i) ; // entrada da seção crítica seção crítica turn = j; // saída da seção crítica código restante while (1);\nEm relação ao código acima, todas as afirmativas estão corretas, exceto:",
     "alternativas": [
       "a) A implementação garante exclusão mútua.",
       "b) A implementação garante progresso.",
@@ -4221,7 +4221,7 @@
     "edicao": 2003,
     "id": "2003-28",
     "numero": 28,
-    "enunciado": "Considere o seguinte trecho de programa:\n\n1. i:= 1;\n2. while i <=n do\nbegin\n3. sum:= sum + a[i];\n4. i:=i+ 1;\nend;\n\nConsidere que:\n- I representa a inicialização da variável i:= 1 na linha 1;\n- T representa o teste da linha 2;\n- A representa os comandos da linha 3;\n- P representa o incremento na linha 4.\n\nQual é a expressão regular que representa todas as sequências de passos possíveis de serem executados por este trecho de programa?",
+    "enunciado": "Considere o seguinte trecho de programa:\n\n1. i:= 1;\n2. while i <=n do begin\n3. sum:= sum + a[i];\n4. i:=i+ 1;\nend;\n\nConsidere que:\n- I representa a inicialização da variável i:= 1 na linha 1;\n- T representa o teste da linha 2;\n- A representa os comandos da linha 3;\n- P representa o incremento na linha 4.\n\nQual é a expressão regular que representa todas as sequências de passos possíveis de serem executados por este trecho de programa?",
     "alternativas": [
       "a) I(TAP)+",
       "b) I(TAP)*",
@@ -4359,7 +4359,7 @@
       "a) Sempre que uma nova linha for inserida em Empregado, deve ser garantido que o valor de Empregado.CodDepto aparece na coluna Departamento.CodDepto.",
       "b) Sempre que uma linha for excluída de Departamento, deve ser garantido que o valor de Departamento.CodDepto não aparece na coluna Empregado.CodDepto.",
       "c) Sempre que o valor de Empregado.CodDepto for alterado, deve ser garantido que o novo valor de\nEmpregado.CodDepto aparece em Departamento.CodDepto.",
-      "d) Sempre que o valor de Departamento.CodDepto for alterado, deve ser garantido que não há uma\nlinha com o antigo valor de Departamento.CodDepto na coluna Empregado.CodDepto",
+      "d) Sempre que o valor de Departamento.CodDepto for alterado, deve ser garantido que não há uma linha com o antigo valor de Departamento.CodDepto na coluna Empregado.CodDepto",
       "e) Sempre que uma nova linha for inserida em Departamento, deve ser garantido que o valor de Departamento.CodDepto aparece na coluna Empregado.CodDepto"
     ],
     "area_conhecimento": "Fundamentos da Computação",
@@ -4487,7 +4487,7 @@
     "edicao": 2002,
     "id": "2002-14",
     "numero": 14,
-    "enunciado": "A velocidade de um ponto em movimento é dada pela equação\nv(t) = te−0.01tm/s\nO espaço percorrido desde o instante que o ponto começou a se mover até a sua parada\ntotal é",
+    "enunciado": "A velocidade de um ponto em movimento é dada pela equação v(t) = te−0.01tm/s\nO espaço percorrido desde o instante que o ponto começou a se mover até a sua parada total é",
     "alternativas": [
       "a) 104m",
       "b) 103e−0.01 m",
@@ -4563,12 +4563,12 @@
     "edicao": 2002,
     "id": "2002-60",
     "numero": 60,
-    "enunciado": "Sejam os seguintes predicados de uma linguagem de primeira ordem:\nN (x) : x é número;\nP (x) : x tem propriedade P;\nx < y : x é menor que y.\nE sejam os símbolos:\n∀: quantificador universal;\n=> : operador se-então;\n¬ : operador de negação.\nPara a fórmula:∀ x (N(x) =>  ¬∀ y (N(y) => y < x))), qual alternativa abaixo NÃO constitui\numa tradução possível?",
+    "enunciado": "Sejam os seguintes predicados de uma linguagem de primeira ordem:\nN (x) : x é número;\nP (x) : x tem propriedade P;\nx < y : x é menor que y.\nE sejam os símbolos:\n∀: quantificador universal;\n=> : operador se-então;\n¬ : operador de negação.\nPara a fórmula:∀ x (N(x) =>  ¬∀ y (N(y) => y < x))), qual alternativa abaixo NÃO constitui uma tradução possível?",
     "alternativas": [
       "a) Não há um número tal que todos os números são menores do que ele.",
       "b) Para todo número, existe um outro número que é maior do que ele.",
       "c) Para todo número, não é verdade que qualquer número seja menor do que ele.",
-      "d) Para qualquer x, se x é número, então não é verdade que todos os números são menores do que\nele.",
+      "d) Para qualquer x, se x é número, então não é verdade que todos os números são menores do que ele.",
       "e) Não há um número menor do que outro número."
     ],
     "area_conhecimento": "Tecnologia de Computação",
