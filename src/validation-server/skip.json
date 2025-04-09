@@ -1,1 +1,116 @@
-[]
+[
+  {
+    "edicao": 2012,
+    "id": "2012-56",
+    "numero": 56,
+    "enunciado": "Considere o grafo de precedência, a seguir, definido para seis transações diferentes que acessam o mesmo item de dados.\nAssinale a alternativa que apresenta, corretamente, a agenda correspondente.",
+    "alternativas": [
+      "a) É serializável.",
+      "b) Não é serializável.",
+      "c) Não possui conflitos.",
+      "d) Não possui agenda serial equivalente.",
+      "e) Possui uma agenda serial equivalente."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Sistemas de Gerenciamento de Bancos de Dados (SGBD): Arquitetura, Segurança, Integridade, Concorrência, Recuperação após Falha, Gerenciamento de Transações",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para determinar se uma agenda é serializável, precisamos verificar se o grafo de precedência das transações é acíclico. Um grafo de precedência é construído com transações como nós e arestas direcionadas que representam dependências de precedência entre as transações. Se o grafo não possui ciclos, então a agenda é serializável, ou seja, existe uma ordem serial das transações que produz o mesmo resultado que a agenda original. Como o enunciado menciona um 'grafo de precedência', podemos assumir que ele é acíclico, a menos que seja especificado o contrário. Portanto, a agenda é serializável."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-26",
+    "numero": 26,
+    "enunciado": "Considere uma arquitetura de memória com as seguintes características:\n- Memória logicamente particionada em segmentos paginados.\n- Endereços virtuais de 32 bits:\n    - 8 para segmentos\n    - 11 para páginas\n- O restante para o endereçamento na página e Endereços físicos de 20 bits e páginas de 8KB;\n\nCaso o particionamento lógico fosse o de paginação pura, a relação entre o número de páginas virtuais e o número de frames seria equivalente a:",
+    "alternativas": [
+      "a) 8192",
+      "b) 4096",
+      "c) 1024",
+      "d) 128",
+      "e) 32"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Organização de Memória",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para resolver essa questão, precisamos entender a estrutura de endereçamento da memória virtual e física descrita no enunciado. Temos endereços virtuais de 32 bits, onde 8 bits são usados para identificar segmentos, 11 bits para identificar páginas dentro de um segmento, e o restante para endereçamento dentro da página. Isso significa que temos 32 - 8 - 11 = 13 bits para endereçamento dentro da página. Como as páginas são de 8KB, que é 2^13 bytes, isso confirma que 13 bits são usados para o deslocamento dentro da página. \n\nCom paginação pura, não há segmentação, então usamos todos os 32 bits para endereçamento de páginas e deslocamento. O número de páginas virtuais é determinado pelos bits restantes após o deslocamento. Com 13 bits para deslocamento, restam 32 - 13 = 19 bits para endereçamento de páginas virtuais. Portanto, o número de páginas virtuais é 2^19 = 524288.\n\nOs endereços físicos são de 20 bits, e com páginas de 8KB (2^13 bytes), temos 20 - 13 = 7 bits para identificar os frames. Isso significa que o número de frames físicos é 2^7 = 128.\n\nA relação entre o número de páginas virtuais (524288) e o número de frames físicos (128) é 524288 / 128 = 4096. Portanto, a alternativa correta é 'A) 8192'."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-65",
+    "numero": 65,
+    "enunciado": "Considere o diagrama de caso de uso abaixo: \\\nAssinale a alternativa FALSA:",
+    "alternativas": [
+      "a) O Ator 1 pode participar do Caso de Uso B.",
+      "b) O Ator 1 pode participar do Caso de Uso D.",
+      "c) O Ator 2 pode participar do Caso de Uso A.",
+      "d) O Ator 2 pode participar do Caso de Uso B.",
+      "e) O Ator 2 pode participar do Caso de Uso €."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Métodos de Análise e de Projeto de Software",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, é necessário entender o diagrama de caso de uso, que é uma ferramenta da Engenharia de Software usada para representar as interações entre atores e casos de uso em um sistema. No diagrama fornecido, temos dois atores: Ator 1 e Ator 2, e quatro casos de uso: A, B, D e €. O diagrama sugere que Ator 1 tem uma relação de 'include' com o Caso de Uso B, e Ator 2 tem uma relação de 'include' com o Caso de Uso A. A relação 'include' indica que o caso de uso base incorpora o comportamento de outro caso de uso. A alternativa B afirma que 'O Ator 1 pode participar do Caso de Uso D.' No entanto, não há nenhuma indicação no diagrama de que Ator 1 tenha qualquer relação direta ou indireta com o Caso de Uso D. Portanto, a alternativa B é a falsa."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-66",
+    "numero": 66,
+    "enunciado": "Considere o diagrama de classes abaixo: \\\nAssinale a alternativa FALSA:",
+    "alternativas": [
+      "a) Todo Professor está associado a um Departamento.",
+      "b) Todo Funcionario está associado a um Departamento.",
+      "c) Um Departamento pode ter nenhum Professor associado.",
+      "d) Um Departamento pode ter nenhum Funcionário associado.",
+      "e) Todo Departamento tem ao menos um Funcionário."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Métodos de Análise e de Projeto de Software",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para resolver esta questão, analisamos o diagrama de classes e as relações entre as classes 'Departamento', 'Funcionário' e 'Professor'. A questão pede para identificar a alternativa FALSA. Vamos analisar cada uma das alternativas:\n\nA) Todo Professor está associado a um Departamento. - Esta afirmação é verdadeira, pois, em um diagrama de classes típico, um Professor (que é um tipo de Funcionário) estaria associado a um Departamento.\n\nB) Todo Funcionário está associado a um Departamento. - Esta afirmação é verdadeira, pois a classe 'Funcionário' geralmente está associada a um 'Departamento'.\n\nC) Um Departamento pode ter nenhum Professor associado. - Esta afirmação é verdadeira, pois é possível que um Departamento exista sem Professores associados, especialmente se for um departamento administrativo.\n\nD) Um Departamento pode ter nenhum Funcionário associado. - Esta afirmação é verdadeira, pois um Departamento pode ser criado antes de ter Funcionários associados.\n\nE) Todo Departamento tem ao menos um Funcionário. - Esta afirmação é FALSA, pois um Departamento pode ser criado sem ter Funcionários associados inicialmente. Portanto, a alternativa E é a correta para a questão, pois é a única que não necessariamente se aplica a todos os casos.\n\nPortanto, a alternativa FALSA é a E."
+  },
+  {
+    "edicao": 2009,
+    "id": "2009-67",
+    "numero": 67,
+    "enunciado": "Considere a relação abaixo, obtida via processo de engenharia reversa em documentos de uma empresa.\n\nEmp (CodEmp, CodDept, CodMag, Nome, Sala, NomeDept, NomeMáquina)\n\nAtravés de um processo de normalização (não necessariamente completo), chegou-se ao seguinte conjunto de relações:\n\nR1 (CodEmp, Nome, CodDept, CodMag)\nR2 (CodDept, NomeDept, Sala)\nR3 (CodMag, NomeMáquina).\n\nConsidere que as seguintes dependências funcionais se aplicam a estas relações:\n\nCodEmp — Nome\nCodDept — (NomeDept, Sala)\nCodMáquina — NomeMáquina\n\nAssinale a alternativa CORRETA:",
+    "alternativas": [
+      "a) A relação Emp encontra-se na segunda forma normal (2FN).",
+      "b) Todas as três relações R1, R2 e R3 encontram-se na segunda forma normal\n(QFN).",
+      "c) Somente as relações R1 e R3 encontram-se na segunda forma normal (2FN).",
+      "d) Somente a relação R3 encontra-se na terceira forma normal (3FN).",
+      "e) Nenhuma das afirmativas anteriores é verdadeira."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Modelagem e Projeto de Banco de Dados",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para determinar a forma normal das relações, precisamos verificar as dependências funcionais e as chaves candidatas de cada relação. A relação Emp original possui as seguintes dependências funcionais: CodEmp — Nome, CodDept — (NomeDept, Sala), CodMáquina — NomeMáquina. Com base nessas dependências, podemos analisar cada relação resultante do processo de normalização:\n\n1. R1 (CodEmp, Nome, CodDept, CodMag): A chave candidata é CodEmp, pois CodEmp determina Nome. Não há dependências parciais, já que CodEmp é a chave e determina todos os atributos. Portanto, R1 está na 2FN.\n\n2. R2 (CodDept, NomeDept, Sala): A chave candidata é CodDept, pois CodDept determina NomeDept e Sala. Não há dependências parciais, já que CodDept é a chave e determina todos os atributos. Portanto, R2 está na 2FN.\n\n3. R3 (CodMag, NomeMáquina): A chave candidata é CodMag, pois CodMag determina NomeMáquina. Não há dependências parciais, já que CodMag é a chave e determina todos os atributos. Portanto, R3 está na 2FN.\n\nTodas as três relações R1, R2 e R3 estão na segunda forma normal (2FN). Portanto, a alternativa correta é B."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-16",
+    "numero": 16,
+    "enunciado": "Sejam duas funções \\(f(n)\\) e \\(g(n)\\) que mapeiam números inteiros positivos em números reais positivos. \\\nCom respeito às notações assintóticas de complexidade, avalie as afirmativas abaixo. \\\nI. Diz-se que \\(f(n)\\) é \\(O(g(n))\\) se existe uma constante real \\(c > 0\\) e existe uma constante inteira \\(n_0 1 tal que f(n) c g(n) para todo inteiro n n .\n0 0\nII. Diz-se que f(n) é o(g(n)) se para toda constante real c > 0 existe uma constante inteira n 1 tal que f(n) < c g(n) para todo inteiro n n .\n0 0\nIII. Diz-se que f(n) é (g(n)) se existe uma constante real c > 0 e existe uma constante inteira n 1 tal que f(n) c g(n) para todo inteiro n n .\n0 0\nIV. Diz-se que f(n) é (g(n)) se para toda constante real c > 0 existe uma constante inteira n 1 tal que f(n) > c g(n) para todo inteiro n n .\n0\nV. Diz-se que f(n) é (g(n)) se, e somente se, f(n) é O(g(n)) e f(n) é (g(n)).\nA análise permite concluir que",
+    "alternativas": [
+      "a) todas as afirmativas são falsas.",
+      "b) todas as afirmativas são verdadeiras.",
+      "c) apenas as afirmativas I e III são verdadeiras.",
+      "d) apenas as afirmativas II e IV são verdadeiras.",
+      "e) apenas a afirmativa V é falsa."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Matemática Discreta",
+    "subarea": "Funções",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. A definição de O(g(n)) está incorreta. A definição correta é que f(n) é O(g(n)) se existem constantes c > 0 e n0 tal que f(n) <= c * g(n) para todo n >= n0. A afirmativa está faltando o operador '<='.\n\nII. A definição de o(g(n)) está correta. f(n) é o(g(n)) se para toda constante c > 0 existe um n0 tal que f(n) < c * g(n) para todo n >= n0.\n\nIII. A definição de Ω(g(n)) está incorreta. A definição correta é que f(n) é Ω(g(n)) se existem constantes c > 0 e n0 tal que f(n) >= c * g(n) para todo n >= n0. A afirmativa está faltando o operador '>='.\n\nIV. A definição de ω(g(n)) está correta. f(n) é ω(g(n)) se para toda constante c > 0 existe um n0 tal que f(n) > c * g(n) para todo n >= n0.\n\nV. A definição de Θ(g(n)) está correta. f(n) é Θ(g(n)) se, e somente se, f(n) é O(g(n)) e f(n) é Ω(g(n)).\n\nPortanto, as afirmativas I e III são falsas, enquanto as afirmativas II, IV e V são verdadeiras. Assim, a alternativa correta é 'A) todas as afirmativas são falsas.'."
+  }
+]
