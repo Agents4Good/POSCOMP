@@ -95,22 +95,22 @@
     "solucao": "Para determinar a forma normal das relações, precisamos verificar as dependências funcionais e as chaves candidatas de cada relação. A relação Emp original possui as seguintes dependências funcionais: CodEmp — Nome, CodDept — (NomeDept, Sala), CodMáquina — NomeMáquina. Com base nessas dependências, podemos analisar cada relação resultante do processo de normalização:\n\n1. R1 (CodEmp, Nome, CodDept, CodMag): A chave candidata é CodEmp, pois CodEmp determina Nome. Não há dependências parciais, já que CodEmp é a chave e determina todos os atributos. Portanto, R1 está na 2FN.\n\n2. R2 (CodDept, NomeDept, Sala): A chave candidata é CodDept, pois CodDept determina NomeDept e Sala. Não há dependências parciais, já que CodDept é a chave e determina todos os atributos. Portanto, R2 está na 2FN.\n\n3. R3 (CodMag, NomeMáquina): A chave candidata é CodMag, pois CodMag determina NomeMáquina. Não há dependências parciais, já que CodMag é a chave e determina todos os atributos. Portanto, R3 está na 2FN.\n\nTodas as três relações R1, R2 e R3 estão na segunda forma normal (2FN). Portanto, a alternativa correta é B."
   },
   {
-    "edicao": 2008,
-    "id": "2008-16",
-    "numero": 16,
-    "enunciado": "Sejam duas funções \\(f(n)\\) e \\(g(n)\\) que mapeiam números inteiros positivos em números reais positivos. \\\nCom respeito às notações assintóticas de complexidade, avalie as afirmativas abaixo. \\\nI. Diz-se que \\(f(n)\\) é \\(O(g(n))\\) se existe uma constante real \\(c > 0\\) e existe uma constante inteira \\(n_0 1 tal que f(n) c g(n) para todo inteiro n n .\n0 0\nII. Diz-se que f(n) é o(g(n)) se para toda constante real c > 0 existe uma constante inteira n 1 tal que f(n) < c g(n) para todo inteiro n n .\n0 0\nIII. Diz-se que f(n) é (g(n)) se existe uma constante real c > 0 e existe uma constante inteira n 1 tal que f(n) c g(n) para todo inteiro n n .\n0 0\nIV. Diz-se que f(n) é (g(n)) se para toda constante real c > 0 existe uma constante inteira n 1 tal que f(n) > c g(n) para todo inteiro n n .\n0\nV. Diz-se que f(n) é (g(n)) se, e somente se, f(n) é O(g(n)) e f(n) é (g(n)).\nA análise permite concluir que",
+    "edicao": 2003,
+    "id": "2003-17",
+    "numero": 17,
+    "enunciado": "Assinale o argumento válido, onde \\(S_1\\) e \\(S_2\\) indicam premissas e \\(C\\) a conclusão.",
     "alternativas": [
-      "a) todas as afirmativas são falsas.",
-      "b) todas as afirmativas são verdadeiras.",
-      "c) apenas as afirmativas I e III são verdadeiras.",
-      "d) apenas as afirmativas II e IV são verdadeiras.",
-      "e) apenas a afirmativa V é falsa."
+      "a) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida não é boa. \\(C\\): O serviço não é bom.",
+      "b) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): O serviço não é bom. \\(C\\): A comida é boa.",
+      "c) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): O serviço não é bom. \\(C\\): A comida não é boa.",
+      "d) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida é boa. \\(C\\): O serviço não é bom.",
+      "e) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida não é boa. \\(C\\): O serviço é bom."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Matemática Discreta",
-    "subarea": "Funções",
-    "dificuldade": "Média",
-    "gabarito": "A",
-    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. A definição de O(g(n)) está incorreta. A definição correta é que f(n) é O(g(n)) se existem constantes c > 0 e n0 tal que f(n) <= c * g(n) para todo n >= n0. A afirmativa está faltando o operador '<='.\n\nII. A definição de o(g(n)) está correta. f(n) é o(g(n)) se para toda constante c > 0 existe um n0 tal que f(n) < c * g(n) para todo n >= n0.\n\nIII. A definição de Ω(g(n)) está incorreta. A definição correta é que f(n) é Ω(g(n)) se existem constantes c > 0 e n0 tal que f(n) >= c * g(n) para todo n >= n0. A afirmativa está faltando o operador '>='.\n\nIV. A definição de ω(g(n)) está correta. f(n) é ω(g(n)) se para toda constante c > 0 existe um n0 tal que f(n) > c * g(n) para todo n >= n0.\n\nV. A definição de Θ(g(n)) está correta. f(n) é Θ(g(n)) se, e somente se, f(n) é O(g(n)) e f(n) é Ω(g(n)).\n\nPortanto, as afirmativas I e III são falsas, enquanto as afirmativas II, IV e V são verdadeiras. Assim, a alternativa correta é 'A) todas as afirmativas são falsas.'."
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
   }
 ]
