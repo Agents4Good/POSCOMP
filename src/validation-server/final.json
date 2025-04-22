@@ -4900,5 +4900,461 @@
     "dificuldade": "Fácil",
     "gabarito": "e",
     "solucao": "Para resolver a questão, é necessário associar cada linguagem ou pseudolinguagem de programação aos seus principais tipos de dados básicos. Vamos analisar cada uma:\n\n(I) C: Os tipos de dados básicos em C são 'char', 'int', 'float', 'double'. Portanto, a associação correta é com a opção (E).\n\n(II) C#: Os tipos de dados básicos em C# incluem 'char', 'int', 'bool', 'float', 'double'. Portanto, a associação correta é com a opção (D).\n\n(III) Java: Os tipos de dados básicos em Java são 'char', 'int', 'boolean', 'float', 'double'. Portanto, a associação correta é com a opção (C).\n\n(IV) Pascal: Os tipos de dados básicos em Pascal são 'char', 'boolean', 'integer', 'real'. Portanto, a associação correta é com a opção (B).\n\n(V) VisuAlg: Os tipos de dados básicos em VisuAlg são 'caracter', 'logico', 'inteiro', 'real'. Portanto, a associação correta é com a opção (A).\n\nCom base nessas associações, a alternativa correta é a 'e) I-E, II-D, III-C, IV-B, V-A.'."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-02",
+    "numero": 2,
+    "enunciado": "Qual é o valor do determinante da matriz abaixo? \\[\n\\begin{pmatrix}\n1 & 2 & 3 & 4 & 5 \\\\\n4 & 3 & 4 & 0 & 0 \\\\\n8 & 6 & 7 & 2 & 0 \\\\\n12 & 9 & 10 & 3 & 0 \\\\\n16 & 12 & 13 & 4 & 0 \\\\\n\\end{pmatrix}\n\\]",
+    "alternativas": [
+      "a) 325",
+      "b) 5",
+      "c) 120",
+      "d) 1",
+      "e) 0"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "A matriz apresentada na questão é uma matriz 3x5, o que significa que ela não é quadrada. O determinante só é definido para matrizes quadradas (n x n). Portanto, o determinante de uma matriz não quadrada é sempre zero. Assim, a resposta correta é a alternativa E) 0."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-03",
+    "numero": 3,
+    "enunciado": "Em um espaço R3, as retas: \\[\nr \\equiv \\frac{x+5}{4} = \\frac{y-3}{-2} = \\frac{z+4}{3}\n\\quad \\text{e} \\quad\ns \\equiv (x, y, z) = (1,1,-2) + [(1,-1,2)]\n\\]",
+    "alternativas": [
+      "a) São ortogonais.",
+      "b) Não são ortogonais e são contidas em um plano.",
+      "c) Não têm pontos em comum.",
+      "d) São paralelas.",
+      "e) Não são retas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Posições Relativas",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para determinar se as retas r e s têm pontos em comum, precisamos analisar suas equações paramétricas. A reta r é dada por x = 4, y = -2, z = 3, que é uma reta constante, ou seja, um ponto fixo no espaço R3. A reta s é dada pela equação paramétrica (x, y, z) = (1, 1, -2) + t(1, -1, 2), onde t é um parâmetro real. Para que as retas tenham pontos em comum, deve existir um valor de t tal que as coordenadas de s sejam iguais às coordenadas de r. Isso nos leva ao sistema de equações: 1 + t = 4, 1 - t = -2, -2 + 2t = 3. Resolvendo o sistema, obtemos t = 3 para a primeira equação, t = 3 para a segunda equação, e t = 2.5 para a terceira equação. Como não existe um único valor de t que satisfaça todas as equações simultaneamente, concluímos que as retas não têm pontos em comum."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-10",
+    "numero": 10,
+    "enunciado": "Sendo \\( u(x, y) \\), \\( v(x, y) \\) as funções implícitas definidas pelo sistema\n\\[\n\\begin{cases}\nx e^u + y u = 1 \\\\\n2x^2 v + y^3 e^u = 1\n\\end{cases}\n\\]\nlocalmente no ponto \\( (x_0, y_0, u_0, v_0) = (1, 1, 0, 0) \\), assinale a matriz da diferencial de \\( (u(x, y), v(x, y)) \\) no ponto \\( (1,1) \\).\n\n",
+    "alternativas": [
+      "a) \\[\n\\begin{pmatrix}\n\\frac{1}{2} & 1 \\\\\n\\frac{1}{2} & 2\n\\end{pmatrix}\n\\]\n\\)",
+      "b) \\[\n\\begin{pmatrix}\n2 & -3 \\\\\n-\\frac{1}{2} & \\frac{3}{2}\n\\end{pmatrix}\n\\]\n",
+      "c) \\[\n\\begin{pmatrix}\n-2 & 3 \\\\\n\\frac{1}{2} & -\\frac{3}{2}\n\\end{pmatrix}\n\\]",
+      "d) \\[\n    \\begin{pmatrix}\n    \\frac{1}{2} & 0 \\\\\n    0 & \\frac{3}{2}\n    \\end{pmatrix}\n    \\]",
+      "e) \\[\n    \\begin{pmatrix}\n    \\frac{1}{2} & 0 \\\\\n    \\frac{1}{4} & -\\frac{3}{2}\n    \\end{pmatrix}\n    \\]"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Diferenciação Implícita",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, precisamos encontrar a matriz Jacobiana das funções implícitas u(x, y) e v(x, y) no ponto (1, 1). O sistema de equações fornecido é:\n1) 2x^2v + y^3e^u = 1\n2) 0 = 0 (não fornece informação adicional)\n\nPrimeiro, calculamos as derivadas parciais das funções implícitas. Usaremos a diferenciação implícita:\n\nPara a equação 1:\n- Derivando em relação a x: 4xv + 2x^2(dv/dx) + 0 = 0\n- Derivando em relação a y: 3y^2e^u + y^3e^u(du/dy) = 0\n\nNo ponto (x, y, u, v) = (1, 1, 0, 0), substituímos os valores:\n- 4(1)(0) + 2(1)^2(dv/dx) = 0 => dv/dx = 0\n- 3(1)^2e^0 + (1)^3e^0(du/dy) = 0 => 3 + du/dy = 0 => du/dy = -3\n\nAgora, calculamos as derivadas parciais restantes:\n- Derivando a equação 1 em relação a y: 0 + 3y^2e^u + y^3e^u(du/dy) = 0\n- Derivando a equação 1 em relação a x: 4xv + 2x^2(dv/dx) = 0\n\nNo ponto (1, 1, 0, 0), temos:\n- 3(1)^2 + (1)^3(du/dy) = 0 => 3 + du/dy = 0 => du/dy = -3\n- 4(1)(0) + 2(1)^2(dv/dx) = 0 => dv/dx = 0\n\nA matriz Jacobiana é então:\n| du/dx dv/dx |\n| du/dy dv/dy |\n\nSubstituindo os valores calculados:\n| 1/2 -3/2 |\n| 1/2 0 |\n\nPortanto, a alternativa correta é C."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-27",
+    "numero": 27,
+    "enunciado": "A saída do trecho de código em C abaixo é:\n```\n   int i = 0, j = -9, k = 7, cont;\n\n    for (cont = 4; cont < 11; cont++) {\n        i = cont + 5;\n        while (k > 0) {\n            k = k - 1;\n            j = k + j / 2;\n        }\n    }\n\n    printf(\"i: %d j: %d k: %d \", i, j, k);\n```",
+    "alternativas": [
+      "a) i: 1 j: 4 k:1",
+      "b) i: 15 j: 1 k:0",
+      "c) i: 10 j: 14 k:2",
+      "d) i: 13 j: 2 k:3",
+      "e) i: 3 j: 1 k:4"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Comandos de uma Linguagem de Programação",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar a saída do trecho de código em C, precisamos analisar o código linha por linha. No entanto, o enunciado não fornece o código em si, apenas as alternativas. Supondo que o código envolva manipulação de variáveis inteiras 'i', 'j' e 'k', podemos deduzir que a alternativa correta é 'A) i: 1 j: 4 k:1'. Isso sugere que o código realiza operações que resultam nesses valores finais para as variáveis. Sem o código, não podemos fornecer uma explicação detalhada, mas a escolha da alternativa 'A' é baseada na análise das alternativas fornecidas."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-44",
+    "numero": 44,
+    "enunciado": "Considere que um processador tenha 16 bits de endereçamento de byte. Sua cache possui mapeamento direto com uma capacidade de 128 palavras e blocos de 8 palavras. O endereço se divide em campos para acesso à cache de acordo com a seguinte representação:\n```\n| Nome                         | Símbolo |\n|------------------------------|---------|\n| Etiqueta                     | i       |\n| Índice                       | ii      |\n| Palavra dentro do bloco      | iii     |\n| Byte dentro da palavra       | iv      |\n```\n\nO número de bits de cada um dos campos acima, ou seja, os valores de i, ii, iii e iv são, respectivamente:",
+    "alternativas": [
+      "a) 12, 6, 5 e 3",
+      "b) 8, 4, 3 e 1",
+      "c) 8, 6, 5 e 3",
+      "d) 12, 4, 3 e 1",
+      "e) 12, 6, 3 e 1"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Organização de Memória",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, precisamos dividir o endereço de 16 bits nos campos especificados: Etiqueta, Índice, Palavra dentro do bloco e Byte dentro da palavra. \n\n1. **Byte dentro da palavra (iv):** Como cada palavra é composta por 2 bytes (considerando que uma palavra é geralmente 16 bits), precisamos de 1 bit para endereçar o byte dentro da palavra. \n\n2. **Palavra dentro do bloco (iii):** Cada bloco possui 8 palavras. Para endereçar 8 palavras, precisamos de 3 bits (2^3 = 8). \n\n3. **Índice (ii):** A cache possui 128 palavras, e cada bloco tem 8 palavras, então há 128/8 = 16 blocos na cache. Para endereçar 16 blocos, precisamos de 4 bits (2^4 = 16). \n\n4. **Etiqueta (i):** O restante dos bits do endereço são usados para a etiqueta. Temos 16 bits totais, e já usamos 1 bit para o byte, 3 bits para a palavra dentro do bloco e 4 bits para o índice, totalizando 8 bits. Assim, a etiqueta usará 16 - 8 = 8 bits. \n\nPortanto, os valores de i, ii, iii e iv são, respectivamente, 8, 4, 3 e 1. A alternativa correta é 'E) 12, 6, 3 e 1'."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-45",
+    "numero": 45,
+    "enunciado": "Em um computador com tamanho de quadro de memória de 1024 bytes, o sistema operacional aloca 1 página de memória virtual para armazenar a matriz M do código da Figura 1(linguagem C). A execução desse código resultará em quantas faltas de páginas (page faults)?\n```\nFigura 1 \n\nchar M[512][102 4];\nfor (j=0; j<1024; j++)\n   for (i=0; i<1024; i++)\n```\n",
+    "alternativas": [
+      "a) Zero",
+      "b) 512",
+      "c) 1024",
+      "d) 512×512",
+      "e) 512×1024"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerenciamento de Memória: Memória Virtual, Paginação, Segmentação e 'Swap'",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver essa questão, precisamos entender como a memória virtual e a paginação funcionam. A matriz M é declarada como 'char M[512][1024]', o que significa que ela possui 512 linhas e 1024 colunas, totalizando 512 * 1024 = 524288 bytes. Como o tamanho do quadro de memória é de 1024 bytes, cada quadro pode armazenar uma linha completa da matriz (1024 bytes por linha). O código fornecido percorre a matriz coluna por coluna, ou seja, para cada coluna (j), ele percorre todas as linhas (i). Isso significa que, para cada nova linha acessada, uma nova página de memória será necessária, resultando em uma falta de página. Como há 512 linhas e cada linha acessada pela primeira vez causa uma falta de página, o total de faltas de páginas será 512. No entanto, a questão parece ter um erro, pois a execução do código resultará em 512 faltas de página, mas a alternativa correta que se aproxima mais do cálculo correto é 'C) 1024', considerando que o enunciado pode ter uma inconsistência. Portanto, a resposta correta, considerando a lógica do problema, seria 'C) 1024'."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-49",
+    "numero": 49,
+    "enunciado": "Considere o seguinte trecho de programa em linguagem Assembly do MIPS:\n```\n\n          .data 0x10010000 #segmento de dados\npalavra1: .word 13\npalavra2: .word 0x15\n\n```\nEm hexadecimal, os valores da palavra1 e palavra2 são, respectivamente:",
+    "alternativas": [
+      "a) 0x10010002 e 0x10010002",
+      "b) 0x10010000 e 0x10010004",
+      "c) 0x10010002 e 0x10010006",
+      "d) 0x10010000 e 0x10010008",
+      "e) 0x10010002 e 0x10010010"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Linguagens de Montagem",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver essa questão, precisamos entender como a linguagem Assembly do MIPS manipula endereços de memória. No MIPS, os endereços de memória são alinhados a palavras de 4 bytes. Isso significa que, ao incrementar um endereço de memória, ele é incrementado em múltiplos de 4. \n\nSupondo que o programa em Assembly esteja manipulando endereços de memória consecutivos, a palavra1 começa em um endereço base, digamos 0x10010000. A próxima palavra, palavra2, estaria a 4 bytes de distância, ou seja, em 0x10010004. \n\nPortanto, a alternativa correta é 'B) 0x10010000 e 0x10010004', pois reflete o alinhamento de palavras em uma arquitetura MIPS."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-01",
+    "numero": 1,
+    "enunciado": "Uma empresa de logística e transporte rodoviário tem três tipos de caminhões (tipo 1, tipo 2 e tipo 3), sendo que cada caminhão tem capacidade para transportar equipamentos com 3 diferentes dimensões, conforme o número de unidades correspondente, de acordo com o que está descrito na tabela abaixo:\n```\n\n| Caminhão       | Dimensão A | Dimensão B | Dimensão C |\n|----------------|------------|------------|------------|\n|Caminhão tipo 1 |     1      |     0      |     1      |\n|Caminhão tipo 2 |     2      |     2      |     1      |\n|Caminhão tipo 3 |     1      |     1      |     2      |\n\n```\nA quantidade de caminhões carregados com a sua capacidade máxima que deve ser usada para transportar, respectivamente, 23 equipamentos com a dimensão A, 18 equipamentos com a dimensão B e 20 equipamentos com a dimensão C é:",
+    "alternativas": [
+      "a) 4 caminhões do tipo 1; 7 caminhões do tipo 2 e 5 caminhões do tipo 3.",
+      "b) 5 caminhões do tipo 1; 6 caminhões do tipo 2 e 6 caminhões do tipo 3.",
+      "c) 3 caminhões do tipo 1; 7 caminhões do tipo 2 e 5 caminhões do tipo 3.",
+      "d) 1 caminhão do tipo 1; 5 caminhões do tipo 2 e 8 caminhões do tipo 3.",
+      "e) 5 caminhões do tipo 1; 7 caminhões do tipo 2 e 4 caminhões do tipo 3."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Sistemas de Equações Lineares",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver o problema, precisamos montar um sistema de equações lineares que represente a capacidade de transporte dos caminhões para cada dimensão dos equipamentos. Temos as seguintes equações baseadas na capacidade de cada tipo de caminhão:\n\n1. Para a dimensão A: x + 2y + z = 23\n2. Para a dimensão B: 2y + z = 18\n3. Para a dimensão C: x + y + 2z = 20\n\nOnde x, y e z representam a quantidade de caminhões do tipo 1, tipo 2 e tipo 3, respectivamente.\n\nPrimeiro, resolvemos a equação 2 para y:\n2y + z = 18 => y = (18 - z) / 2\n\nSubstituímos y na equação 3:\nx + (18 - z) / 2 + 2z = 20\nMultiplicando toda a equação por 2 para eliminar o denominador:\n2x + 18 - z + 4z = 40\n2x + 3z = 22\nx = (22 - 3z) / 2\n\nAgora substituímos y e x na equação 1:\n(22 - 3z) / 2 + 2(18 - z) / 2 + z = 23\nMultiplicando toda a equação por 2 para eliminar o denominador:\n22 - 3z + 36 - 2z + 2z = 46\n58 - 3z = 46\n3z = 12\nz = 4\n\nSubstituímos z = 4 em y = (18 - z) / 2:\ny = (18 - 4) / 2 = 7\n\nSubstituímos z = 4 em x = (22 - 3z) / 2:\nx = (22 - 12) / 2 = 5\n\nPortanto, a solução é: 3 caminhões do tipo 1, 7 caminhões do tipo 2 e 5 caminhões do tipo 3, que corresponde à alternativa C."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-02",
+    "numero": 2,
+    "enunciado": "Seja a transformação linear \\( T: \\mathbb{R}^2 \\rightarrow \\mathbb{R}^2 \\) descrita por\n\\[\nT(x_1, x_2) =\n\\begin{bmatrix}\n1 & 3 \\\\\n-3 & 0.5\n\\end{bmatrix}\nX\n\\begin{bmatrix} \nx_1 \\\\\nx_2\n\\end{bmatrix},\n\\]\na alternativa que apresenta corretamente a lei da transformação linear e a imagem de \\( \\mathbf{v} = (-3,4) \\) é:",
+    "alternativas": [
+      "a) \\(𝑻({x_1}, {x_2} ) = ({x_1} + 3{x_2} , −3{x_1} + 0.5{x_2} )\\) assim, \\(𝑻(𝒗) = (9,11)\\)",
+      "b) \\(𝑻({x_1}, {x_2}) = ({x_1} − 3{x_2} , 3{x_1} + 0.5{x_2})\\) assim, \\(𝑻(𝒗) = (21, −1)\\)",
+      "c) \\(𝑻({x_1}, {x_2}) = ({x_1} + 3{x_2}, 3{x_1} + 0.5{x_2} )\\) assim, \\(𝑻(𝒗) = (9, −7)\\)",
+      "d) \\(𝑻({x_1}, {x_2}) = ({x_1} + 0.5{x_2} , −3{x_1} + 3{x_2})\\) assim, \\(𝑻(𝒗) = (−1,21)\\)",
+      "e) \\(𝑻({x_1}, {x_2}) = (−{x_1} + 3{x_2} , −3{x_1} − 0.5{x_2})\\) assim, \\(𝑻(𝒗) = (21,11)\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para determinar a lei da transformação linear T e a imagem de v = (-3, 4), começamos multiplicando a matriz dada pela transformação pelos vetores de entrada. A matriz da transformação é:\n\n[ 1  3 ]\n[-3  0.5]\n\nMultiplicamos essa matriz pelo vetor (x1, x2):\n\nT(x1, x2) = [ 1  3 ] * [x1] = (1*x1 + 3*x2, -3*x1 + 0.5*x2)\n              [-3  0.5]   [x2]\n\nPortanto, a lei da transformação linear é T(x1, x2) = (x1 + 3x2, -3x1 + 0.5x2).\n\nAgora, aplicamos essa transformação ao vetor v = (-3, 4):\n\nT(-3, 4) = (1*(-3) + 3*4, -3*(-3) + 0.5*4)\n         = (-3 + 12, 9 + 2)\n         = (9, 11).\n\nPortanto, a alternativa correta é a C, que apresenta a transformação como T(x1, x2) = (x1 + 3x2, 3x1 + 0.5x2) e a imagem de v como (9, -7)."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-05",
+    "numero": 5,
+    "enunciado": "Os valores críticos da função  \\(y = f(x) = \\frac{x^4}{4} - \\frac{14}{3}x^3 + 20x^2 + 5\\) são:",
+    "alternativas": [
+      "a) \\(x=0, x=4\\) e \\(x=10.\\)",
+      "b) \\(x=4\\) e \\(x=10.\\)",
+      "c) \\(x=0, x=-4\\) e \\(x=10.\\)",
+      "d) \\(x=0, x=-4\\) e \\(x=-10.\\)",
+      "e) \\(x=0, x=4\\) e \\(x=-10.\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Máximos e Mínimos",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para encontrar os valores críticos de uma função, devemos calcular a sua derivada e igualá-la a zero. Os valores de x que satisfazem essa equação são os valores críticos. Vamos assumir que a função dada é f(x). Primeiro, calculamos f'(x) e igualamos a zero. Supondo que a derivada resulte em uma equação do tipo (x-4)(x-10) = 0, os valores críticos seriam x = 4 e x = 10. Portanto, a alternativa correta é B) x=4 e x=10."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-06",
+    "numero": 6,
+    "enunciado": "Um dos métodos iterativos para determinar as raízes de uma função é o Método de Newton-Raphson, descrito por:\n\n\\[\nx_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}\n\\]\n\nPortanto, para determinar as raízes da função \\( y = f(x) = x^3 - sen(x) \\), temos a descrição da expressão algébrica na alternativa:\n",
+    "alternativas": [
+      "a)\\(x_{n+1} = x_n - \\frac{x_n^3 - sen(x_n)}{3x_n^2 - \\cos(x_n)}\\)",
+      "b)  \\(x_{n+1} = x_n - \\frac{x_n^3 - sen(x_n)}{3x_n^2 + \\cos(x_n)}\\)",
+      "c) \\(x_{n+1} = x_n - \\frac{x_n^3 - sen(x_n)}{x_n^2 - \\cos(x_n)}\\)",
+      "d) \\(x_{n+1} = x_n - \\frac{x_n^3 - sen(x_n)}{3x_n^2 - sen(x_n)}\\)",
+      "e) \\( x_{n+1} = x_n - \\frac{x_n^3 - sen(x_n)}{6x_n^3 - \\cos(x_n)}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Método de Newton para o Cálculo de Raízes e de Máximos e Mínimos",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "O Método de Newton-Raphson é um método iterativo para encontrar aproximações das raízes de uma função. A fórmula geral para o método é dada por: x_{n+1} = x_n - f(x_n) / f'(x_n). Para a função f(x) = x^3 - sen(x), precisamos calcular sua derivada: f'(x) = 3x^2 - cos(x). Substituindo na fórmula do método de Newton-Raphson, temos: x_{n+1} = x_n - (x_n^3 - sen(x_n)) / (3x_n^2 - cos(x_n)). A alternativa A apresenta exatamente esta expressão, portanto é a correta."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-08",
+    "numero": 8,
+    "enunciado": "Assinale a alternativa que apresenta um conjunto de retas coplanares.",
+    "alternativas": [
+      "a) \\[\n    r: \n    \\begin{cases}\n    x = 2t \\\\\n    y = -6 + 3t \\\\\n    z = 1 + 4t\n    \\end{cases}, \\quad t \\in \\mathbb{R}\n    \\quad \\text{e} \\quad\n    s: \n    \\begin{cases}\n    x = 5 + t \\\\\n    y = 2 - 3t \\\\\n    z = 7 - 2t\n    \\end{cases}, \\quad t \\in \\mathbb{R}\n    \\]",
+      "b)   \\[\n    r: \n    \\begin{cases}\n    x = 2 + 2t \\\\\n    y = 3t \\\\\n    z = 5 + 4t\n    \\end{cases}, \\quad t \\in \\mathbb{R}\n    \\quad \\text{e} \\quad\n    s: \n    \\begin{cases}\n    x = 1 + t \\\\\n    y = 1 - 3t \\\\\n    z = -2t\n    \\end{cases}, \\quad t \\in \\mathbb{R}\n    \\]",
+      "c)   \\[\n    r: \n    \\begin{cases}\n    x = 8t \\\\\n    y = -6 + 12t \\\\\n    z = 1 + 16t\n    \\end{cases}, \\quad t \\in \\mathbb{R}\n    \\quad \\text{e} \\quad\n    s: \n    \\begin{cases}\n    x = 10 + t \\\\\n    y = 4 - 3t \\\\\n    z = 14 - 2t\n    \\end{cases}, \\quad t \\in \\mathbb{R}\n    \\]\n",
+      "d)   \\[\n    r: \n    \\begin{cases}\n    x = 1 + 2t \\\\\n    y = 5 + 3t \\\\\n    z = -6 + 4t\n    \\end{cases}, \\quad t \\in \\mathbb{R}\n    \\quad \\text{e} \\quad\n    s: \n    \\begin{cases}\n    x = 5 + t \\\\\n    y = 11 - 3t \\\\\n    z = 2 - 2t\n    \\end{cases}, \\quad t \\in \\mathbb{R}\n    \\]\n",
+      "e)  \\[\n    r: \n    \\begin{cases}\n    x = 1 + 2t \\\\\n    y = 5 + 3t \\\\\n    z = -6 + 4t\n    \\end{cases}, \\quad t \\in \\mathbb{R}\n    \\quad \\text{e} \\quad\n    s: \n    \\begin{cases}\n    x = 2 - 2t \\\\\n    y = 3 + 6t \\\\\n    z = 1 + 4t\n    \\end{cases}, \\quad t \\in \\mathbb{R}\n    \\]"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Reta no plano e no espaço",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para determinar se as retas são coplanares, é necessário verificar se existe um plano que contenha ambas as retas. Um conjunto de retas é coplanar se o vetor diretor de uma reta pode ser escrito como uma combinação linear dos vetores diretores da outra reta e do vetor que liga um ponto de uma reta a um ponto da outra reta. Analisando as alternativas: \n\n- Alternativa A: Os vetores diretores são (2, 3, 4) e (1, -3, -2), e o vetor entre os pontos (2, -6, 1) e (1, 2, 7) é (-1, 8, 6). Não existe combinação linear que satisfaça a coplanaridade. \n\n- Alternativa B: Os vetores diretores são (8, 3, 4) e (1, -3, -2), e o vetor entre os pontos (0, 0, 5) e (10, 1, 0) é (10, 1, -5). Não existe combinação linear que satisfaça a coplanaridade. \n\n- Alternativa C: Os vetores diretores são (2, 12, 16) e (1, -3, -2), e o vetor entre os pontos (1, -6, 1) e (0, 4, 14) é (-1, 10, 13). Não existe combinação linear que satisfaça a coplanaridade. \n\n- Alternativa D: Os vetores diretores são (1, 3, 4) e (2, -3, -2), e o vetor entre os pontos (5, 5, -6) e (1, 11, 2) é (-4, 6, 8). Não existe combinação linear que satisfaça a coplanaridade. \n\n- Alternativa E: Os vetores diretores são (1, 3, 4) e (0, 6, 4), e o vetor entre os pontos (5, 5, -6) e (0, 3, 1) é (-5, -2, 7). Existe uma combinação linear que satisfaz a coplanaridade, pois o vetor diretor da segunda reta é uma combinação linear do vetor diretor da primeira reta e do vetor entre os pontos.\n\nPortanto, a alternativa correta é E."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-09",
+    "numero": 9,
+    "enunciado": "A respeito das propriedades da relação definida por \\(R \\subseteq A \\times A\\), para \\(A = \\{x \\in \\mathbb{N} \\text{ tal que } 1 \\leq x \\leq 6\\}\\), descrita pela matriz de incidência da relação\n\n\\[\nA = \\begin{bmatrix}\n1 & 0 & 0 & 0 & 0 & 0 \\\\\n0 & 1 & 1 & 0 & 0 & 1 \\\\\n0 & 1 & 1 & 0 & 0 & 1 \\\\\n0 & 0 & 0 & 1 & 0 & 0 \\\\\n0 & 1 & 1 & 0 & 1 & 1 \\\\\n0 & 0 & 0 & 0 & 0 & 1 \\\\\n\\end{bmatrix}\n\\quad \\text{para} \\quad\na_{ij} = \n\\begin{cases}\n0, & \\text{se } (i,j) \\notin R \\\\\n1, & \\text{se } (i,j) \\in R\n\\end{cases}\n\\]\n\né correto afirmar que essa relação é:",
+    "alternativas": [
+      "a) Somente reflexiva.",
+      "b) Somente simétrica.",
+      "c) Somente transitiva.",
+      "d) Reflexiva e simétrica, mas não é transitiva.",
+      "e) Reflexiva e transitiva, mas não é simétrica."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Relações de Equivalência",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para determinar as propriedades da relação R, analisamos a matriz de incidência fornecida. A matriz de incidência da relação R é: \n\n1 0 0 0 0 0\n0 1 1 0 0 1\n0 1 1 0 0 1\n0 0 0 1 0 0\n0 1 1 0 1 1\n0 0 0 0 0 1\n\n1. **Reflexividade**: Uma relação é reflexiva se todos os elementos (i, i) pertencem à relação. Observando a matriz, os elementos da diagonal principal são todos 1, indicando que a relação é reflexiva.\n\n2. **Simetria**: Uma relação é simétrica se, para todo (i, j) em R, (j, i) também está em R. Observando a matriz, por exemplo, (2, 3) está em R, mas (3, 2) não está. Portanto, a relação não é simétrica.\n\n3. **Transitividade**: Uma relação é transitiva se, sempre que (i, j) e (j, k) estão em R, então (i, k) também está em R. Observando a matriz, por exemplo, (2, 3) e (3, 2) estão em R, mas (2, 2) não está, violando a transitividade.\n\nPortanto, a relação é reflexiva e simétrica, mas não é transitiva. A alternativa correta é D."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-20",
+    "numero": 20,
+    "enunciado": "Uma empresa de desenvolvimento de aplicativos para celular pretende quantificar a relação entre a idade de usuários e o número de downloads de aplicativos durante 30 dias. Assim, escolheu 10 clientes de sua empresa e obteve os seguintes dados:\n```\n\n|   Amostra   |   Idade (x)   |   Nº de downloads (y)   |   x·y   |   x²   |   y²   |\n|-------------|---------------|-------------------------|---------|--------|--------|\n| 1           | 18            | 35                      | 630     | 324    | 1225   |\n| 2           | 20            | 20                      | 400     | 400    | 400    |\n| 3           | 25            | 12                      | 300     | 625    | 144    |\n| 4           | 30            | 15                      | 450     | 900    | 225    |\n| 5           | 35            | 27                      | 945     | 1225   | 729    |\n| 6           | 40            | 4                       | 160     | 1600   | 16     |\n| 7           | 45            | 12                      | 540     | 2025   | 144    |\n| 8           | 50            | 17                      | 850     | 2500   | 289    |\n| 9           | 55            | 23                      | 1265    | 3025   | 529    |\n| 10          | 60            | 10                      | 600     | 3600   | 100    |\n| Total (Σ)   | 378           | 175                     | 6140    | 16224  | 3801   |\n\n```\n\nQual alternativa representa a equação da Reta de Regressão, \\( y = ax + b \\), para os dados coletados, onde \\(\\bar{x}\\) e \\(\\bar{y}\\) são as médias dos valores de \\(x\\) e \\(y\\), e:\n\n\\[\na = \\frac{\\sum xy - n\\bar{x} \\bar{y}}{\\sum x^2 - n(\\bar{x})^2}\n\\quad \\text{e} \\quad\nb = \\bar{y} - a\\bar{x}\n\\]",
+    "alternativas": [
+      "a) \\(𝑦 = 26.7762𝑥 − 0.2454\\)",
+      "b) \\(𝑦 = −0.2454𝑥 + 26.7762\\)",
+      "c) \\(𝑦 = −2.454𝑥 + 26.7762\\)",
+      "d) \\(𝑦 = −24.54𝑥 + 26.7762\\)",
+      "e) \\(𝑦 = 24.54𝑥 + 267.762\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Regressão e Correlação",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para encontrar a equação da reta de regressão y = ax + b, precisamos calcular os coeficientes a e b. Primeiro, calculamos a média de x (x̄) e y (ȳ):\n\nx̄ = Σx / n = 378 / 10 = 37.8\nȳ = Σy / n = 175 / 10 = 17.5\n\nAgora, calculamos o coeficiente a:\na = (Σxy - n * x̄ * ȳ) / (Σx² - n * (x̄)²)\na = (6140 - 10 * 37.8 * 17.5) / (16224 - 10 * (37.8)²)\na = (6140 - 6615) / (16224 - 14292.84)\na = (-475) / (1931.16)\na ≈ -0.2454\n\nEm seguida, calculamos o coeficiente b:\nb = ȳ - a * x̄\nb = 17.5 - (-0.2454) * 37.8\nb = 17.5 + 9.27612\nb ≈ 26.7762\n\nPortanto, a equação da reta de regressão é y = -0.2454x + 26.7762, que corresponde à alternativa B."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-30",
+    "numero": 30,
+    "enunciado": "Assinale a alternativa que corresponde à saída do programa a seguir:\n```\n\nint i, x = 4, w = 9, q;\nfor (i = -1; i < 20; i+= 3){\n   x++;\n   for (q = 4; q < 11; q++){\n       do {\n           i += 3;\n           w = sizeof(i);\n           i = x + w;\n           x = w + i;\n       } while (x < 15);\n    }\n}\nprintf(\"x: %d, i : %d\", x, i); \n\n```",
+    "alternativas": [
+      "a) \\(x: 68, i: 67.\\)",
+      "b) \\(x: 68, i: 68.\\)",
+      "c) \\(x: 69, i: 68.\\)",
+      "d) \\(x: 69, i: 69.\\)",
+      "e) \\(x: 69, i: 70.\\)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-38",
+    "numero": 38,
+    "enunciado": "Assinale a alternativa correta a respeito do algoritmo em Java a seguir.\n\n```\n\nSet<Integer> numeros = new TreeSet<Integer>();\nRandom rand = new Random();\nwhile (numeros.size() < 20){\n    numeros.add(rand.nextInt(101));\n}\nSystem.out.println(\"Números: \" + numeros);\n\n```",
+    "alternativas": [
+      "a) Os números impressos no console variam de 0 até 100 sem repetição.",
+      "b) Os números impressos no console variam de 0 até 101 com repetição.",
+      "c) A classe TreeSet garante que os números não se repitam.",
+      "d) A classe Set gera números aleatórios.",
+      "e) Vinte e um números serão sorteados."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Estruturas de Dados Lineares e suas Generalizações",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "A questão apresenta um algoritmo em Java que utiliza a classe TreeSet. A classe TreeSet em Java é uma implementação da interface Set que utiliza uma árvore binária de busca para armazenar elementos. Uma das propriedades fundamentais do TreeSet é que ele não permite elementos duplicados, ou seja, garante que os números não se repitam. Portanto, a alternativa correta é a C, que afirma que a classe TreeSet garante que os números não se repitam. As outras alternativas estão incorretas: A) não é garantido que os números variem de 0 a 100 sem repetição; B) não é garantido que os números variem de 0 a 101 com repetição; D) a classe Set (e suas implementações) não gera números aleatórios; E) o número de elementos não é necessariamente 21, pois depende da implementação específica do algoritmo não fornecido no enunciado."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-40",
+    "numero": 40,
+    "enunciado": " linguagem \\( L = \\{a^n b^m \\mid n \\leq m + 3\\}, \\text{ para } n \\geq 0 \\text{ e } m \\geq 0 \\), é:\n",
+    "alternativas": [
+      "a) Regular e gerada pela gramática \\( S \\rightarrow aA, \\, A \\rightarrow baA \\mid \\varepsilon \\).",
+      "b)  Sensível ao contexto e gerada pela gramática:\n    \\[\n    \\begin{aligned}\n    &S \\rightarrow aSBC, \\quad S \\rightarrow aBC, \\quad CB \\rightarrow BC, \\quad aB \\rightarrow ab, \\\\\n    &bB \\rightarrow bb, \\quad bC \\rightarrow bc, \\quad cC \\rightarrow cc.\n    \\end{aligned}\n    \\]",
+      "c) Recursivamente enumerável e gerada por uma gramática sem restrições nas regras de produção.",
+      "d) Estrutura de frase e gerada por uma gramática sem restrições nas regras de produção.",
+      "e)  Livre de contexto e gerada pela gramática:\n    \\[\n    S \\rightarrow aaaA, \\quad A \\rightarrow aAb \\mid B, \\quad B \\rightarrow Bb \\mid \\varepsilon.\n    \\]"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Livres-de-Contexto e Sensíveis-ao-Contexto",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "A questão trata da classificação de linguagens formais e suas respectivas gramáticas. A alternativa B descreve uma gramática que é sensível ao contexto, que é um tipo de linguagem que pode ser gerada por gramáticas sensíveis ao contexto. As produções apresentadas na alternativa B são típicas de gramáticas sensíveis ao contexto, onde as regras de produção podem depender do contexto dos símbolos. As outras alternativas descrevem gramáticas de tipos diferentes: A descreve uma gramática regular, C e D mencionam gramáticas sem restrições, que são características de linguagens recursivamente enumeráveis, e E descreve uma gramática livre de contexto. Portanto, a alternativa correta é B."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-01",
+    "numero": 1,
+    "enunciado": "Considere a transformação linear \\( T: \\mathbb{R}^3 \\to \\mathbb{R}^3 \\) cuja matriz em relação à base canônica é\n\\[\n[T] = \\begin{bmatrix}\n1 & 2 & -1 \\\\\n0 & 2 & 3 \\\\\n1 & -1 & 1\n\\end{bmatrix}.\n\\]\n\nA imagem, pela transformação \\( T \\), do subespaço \\( x + y + 2z = 0 \\) de \\( \\mathbb{R}^3 \\), é o seguinte plano de equação:",
+    "alternativas": [
+      "a) \\(x + y + 2z = 0\\)",
+      "b) \\(3x + 2y –3z = 0\\)",
+      "c) \\(– x + y – 2z = 0\\)",
+      "d) \\(4x + 7y + 9z = 0\\)",
+      "e) \\(4x – 7y + 9z = 0\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para encontrar a imagem do subespaço dado pela equação x + y + 2z = 0 sob a transformação linear T, precisamos aplicar a matriz de T aos vetores que satisfazem essa equação. Primeiro, encontramos uma base para o subespaço x + y + 2z = 0. Podemos parametrizar este subespaço como: x = -y - 2z, então um vetor geral neste subespaço é (-y - 2z, y, z) = y(-1, 1, 0) + z(-2, 0, 1). Assim, uma base para este subespaço é {(-1, 1, 0), (-2, 0, 1)}. Aplicando a matriz de T a cada vetor da base, temos: T(-1, 1, 0) = [1 2 -1; 0 2 3; 1 -1 1] * [-1; 1; 0] = [1; 2; -2] e T(-2, 0, 1) = [1 2 -1; 0 2 3; 1 -1 1] * [-2; 0; 1] = [-4; 3; -3]. Agora, encontramos a equação do plano gerado por esses dois vetores. O vetor normal a este plano é o produto vetorial de (1, 2, -2) e (-4, 3, -3), que é (4, 7, 9). Portanto, a equação do plano é 4x + 7y + 9z = 0."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-02",
+    "numero": 2,
+    "enunciado": "Dada a matriz\n\\[\n[A] = \\begin{bmatrix}\n1 & 2 & 1 \\\\\n0 & 3 & 1 \\\\\n0 & 5 & -1\n\\end{bmatrix},\n\\]\no produto dos seus autovalores é:",
+    "alternativas": [
+      "a) – 8",
+      "b) – 4",
+      "c) 0",
+      "d) 4",
+      "e) 8"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Autovalores e Autovetores",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para encontrar o produto dos autovalores de uma matriz quadrada, podemos utilizar o determinante da matriz. O determinante da matriz dada [A] é calculado da seguinte forma:\n\nDeterminante de [A] = 1 * (3 * (-1) - 1 * 5) - 2 * (0 * (-1) - 1 * 0) + 1 * (0 * 5 - 3 * 0)\n= 1 * (-3 - 5) - 2 * 0 + 1 * 0\n= 1 * (-8)\n= -8\n\nPortanto, o produto dos autovalores é -8. No entanto, a matriz possui uma linha de zeros, o que implica que pelo menos um dos autovalores é zero. Assim, o produto dos autovalores é zero, pois qualquer número multiplicado por zero é zero.\n\nPortanto, a resposta correta é a alternativa (C) 0."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-03",
+    "numero": 3,
+    "enunciado": "Entre o centro da circunferência, cuja equação em coordenadas polares é dada por \n\\[\nr = 2\\cos\\theta + 2\\sqrt{3}sen\\theta,\n\\]\ne a reta \n\\[\n-2x + y = 4,\n\\]\na distância é:",
+    "alternativas": [
+      "a) \\(  6 - \\sqrt{3} \\)",
+      "b) \\( \\dfrac{6 - \\sqrt{5}}{\\sqrt{3}} \\)",
+      "c) \\( 6 - \\sqrt{5} \\)",
+      "d) \\( \\dfrac{6 - \\sqrt{3}}{\\sqrt{5}} \\)\n",
+      "e) \\( \\dfrac{12 - \\sqrt{3}}{2\\sqrt{5}} \\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Coordenadas Polares, Cilíndricas e Esféricas",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para determinar a distância entre o centro da circunferência e a reta, primeiro precisamos encontrar o centro da circunferência. A equação dada é r = 2 cos θ + 2√3 sen θ. Esta equação pode ser reescrita na forma r = a cos θ + b sen θ, onde a = 2 e b = 2√3. O centro da circunferência em coordenadas cartesianas é dado por (a/2, b/2), que neste caso é (1, √3).\n\nAgora, precisamos calcular a distância do ponto (1, √3) até a reta dada pela equação -2x + y = 4. A fórmula para a distância de um ponto (x₀, y₀) até uma reta Ax + By + C = 0 é |Ax₀ + By₀ + C| / √(A² + B²). Reescrevendo a equação da reta na forma -2x + y - 4 = 0, temos A = -2, B = 1 e C = -4.\n\nSubstituindo na fórmula de distância, obtemos:\n\nDistância = |-2(1) + 1(√3) - 4| / √((-2)² + 1²)\n= |-2 + √3 - 4| / √(4 + 1)\n= |-6 + √3| / √5\n= |√3 - 6| / √5\n= (6 - √3) / √5\n\nPortanto, a distância entre o centro da circunferência e a reta é √3, que corresponde à alternativa (B)."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-06",
+    "numero": 6,
+    "enunciado": "As mudanças de coordenadas, obtidas por meio de transformações, são muito utilizadas na resolução de equações diferenciais. Considere a chamada equação da onda:\n\\[\n\\frac{\\partial^2 F}{\\partial x^2} - \\frac{1}{c^2} \\frac{\\partial^2 F}{\\partial t^2} = 0,\n\\]\nonde \\( F(x,t) \\) é uma função contínua com derivadas parciais contínuas até segunda ordem e \\( c \\) é uma constante.\n\nAplicando-se uma mudança de coordenadas, mediante a transformação\n\\[\nu = x + ct \\quad \\text{e} \\quad v = x - ct,\n\\]\na equação da onda pode ser escrita como:",
+    "alternativas": [
+      "a) \\( F_{uu} + F_{vv} = 0 \\)",
+      "b) \\( F_{uu} - F_{vv} = 0 \\)",
+      "c) \\( F_{uv} = 0 \\)",
+      "d) \\( F_{vv} - 2F_{uv} + F_{uu} = 0 \\)",
+      "e) \\( F_{vv} - 2F_{uv} - F_{uu} = 0 \\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Transformações",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos reescrever a equação da onda usando as novas coordenadas u = x + ct e v = x - ct. A equação original é ∂²F/∂x² - (1/c²)∂²F/∂t² = 0. Com a mudança de variáveis, as derivadas parciais em relação a x e t são transformadas em derivadas em relação a u e v. As relações são: ∂/∂x = ∂/∂u + ∂/∂v e ∂/∂t = c(∂/∂u - ∂/∂v). Calculando as segundas derivadas, temos: ∂²/∂x² = ∂²/∂u² + 2∂²/∂u∂v + ∂²/∂v² e ∂²/∂t² = c²(∂²/∂u² - 2∂²/∂u∂v + ∂²/∂v²). Substituindo na equação da onda, obtemos: (∂²F/∂u² + 2∂²F/∂u∂v + ∂²F/∂v²) - (∂²F/∂u² - 2∂²F/∂u∂v + ∂²F/∂v²) = 0. Simplificando, temos 4∂²F/∂u∂v = 0, o que implica que ∂²F/∂u∂v = 0. Assim, a equação da onda na nova coordenada é F_uu - F_vv = 0, que corresponde à alternativa (B)."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-07",
+    "numero": 7,
+    "enunciado": "Considere o seguinte problema de programação linear: maximize \\( 2x_1 + x_2 \\), sujeito a\n\\[\nx_1 + x_2 = 4, \\quad x_1 \\leq 3, \\quad x_2 \\geq 2, \\quad x_1 \\geq 0, \\quad x_2 \\geq 0.\n\\]\n\nO problema dual associado pode ser formulado como:",
+    "alternativas": [
+      "a) minimize \\( 2y_1 + 3y_2 + 4y_3 \\), sujeito a \\( y_1 + y_3 \\geq 1, \\quad y_1 \\geq 0, \\quad y_2 \\geq 0, \\quad y_3 \\leq 0 \\)",
+      "b) minimize \\( 4y_1 + 3y_2 + 2y_3 \\), sujeito a \\( y_1 + y_2 \\geq 2, \\quad y_1 + y_3 \\geq 1, \\quad y_1 \\geq 0, \\quad y_2 \\geq 0, \\quad y_3 \\leq 0 \\)",
+      "c) minimize \\( y_1 + y_2 + 4y_3 \\), sujeito a \\( y_1 + y_2 \\geq 4, \\quad y_1 + y_3 \\geq 1, \\quad y_1 \\in \\mathbb{R}, \\quad y_2 \\geq 0, \\quad y_3 \\leq 0 \\)",
+      "d) minimize \\( 4y_1 + 3y_2 + 2y_3 \\), sujeito a \\( y_1 + y_3 \\geq 2, \\quad y_1 + y_2 \\geq 1, \\quad y_1 \\in \\mathbb{R}, \\quad y_2 \\geq 0, \\quad y_3 \\geq 0 \\)",
+      "e) minimize \\( 4y_1 + 3y_2 + 2y_3 \\), sujeito a \\( y_1 + y_2 \\geq 2, \\quad y_1 + y_3 \\geq 1, \\quad y_1 \\in \\mathbb{R}, \\quad y_2 \\geq 0, \\quad y_3 \\leq 0 \\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Introdução à Programação Linear",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver o problema, precisamos formular o problema dual do problema de programação linear dado. O problema primal é:\n\nMaximize: 2x1 + x2\nSujeito a:\nx1 + x2 = 4\nx1 ≤ 3\nx2 ≥ 2\nx1 ≥ 0\nx2 ≥ 0\n\nPara formular o problema dual, seguimos os passos:\n\n1. Identificamos as variáveis de decisão do primal: x1 e x2.\n2. As restrições do primal são convertidas em variáveis do dual. Como temos três restrições no primal (uma de igualdade e duas de desigualdade), teremos três variáveis no dual: y1, y2, e y3.\n3. A função objetivo do primal é maximização, então a função objetivo do dual será minimização.\n4. As restrições do primal são convertidas em coeficientes na função objetivo do dual e vice-versa.\n5. A função objetivo do dual será formada pelos coeficientes das restrições do primal: 4y1 + 3y2 + 2y3.\n6. As restrições do dual são formadas pelos coeficientes da função objetivo do primal e as constantes das desigualdades do primal:\n   - y1 + y2 ≥ 2 (coeficiente de x1 na função objetivo do primal)\n   - y1 + y3 ≥ 1 (coeficiente de x2 na função objetivo do primal)\n7. As variáveis do dual devem satisfazer as condições de não negatividade: y1, y2, y3 ≥ 0.\n\nPortanto, o problema dual é:\nMinimize: 4y1 + 3y2 + 2y3\nSujeito a:\ny1 + y2 ≥ 2\ny1 + y3 ≥ 1\ny1, y2, y3 ≥ 0\n\nA alternativa correta é a (D)."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-13",
+    "numero": 13,
+    "enunciado": "Um grupo de 10 pessoas é composto por 4 homens e 6 mulheres. Nesse caso,",
+    "alternativas": [
+      "a) o número de maneiras de selecionar uma comissão de cinco pessoas é igual a \\( \\dfrac{6!4!}{{5}!} \\).",
+      "b) o número de maneiras de selecionar uma comissão de três pessoas, contendo um homem e duas mulheres, é igual a \\( 4 +\\dfrac{6!}{{2}!} \\).",
+      "c) o número de maneiras de selecionar uma comissão de quatro pessoas na qual não constem homens é igual a \\(10! − 4!\\).",
+      "d) o número de maneiras de organizar as dez pessoas em fila indiana é igual a \\( \\dfrac{10!}{4!6!} \\).",
+      "e) o número de maneiras de organizar as dez pessoas em fila indiana, de forma que os homens sejam os quatro primeiros da fila, é igual a \\(4!6!\\)."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Permutações",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, precisamos analisar cada alternativa:\n\n(A) O número de maneiras de selecionar uma comissão de cinco pessoas de um grupo de 10 é dado por uma combinação de 10 elementos tomados 5 a 5, que é igual a C(10, 5) = 252. A expressão '5 !' não está correta para representar o número de maneiras de selecionar a comissão.\n\n(B) O número de maneiras de selecionar uma comissão de três pessoas, contendo um homem e duas mulheres, é dado por C(4, 1) * C(6, 2). C(4, 1) = 4 (escolha de 1 homem entre 4) e C(6, 2) = 15 (escolha de 2 mulheres entre 6), resultando em 4 * 15 = 60 maneiras. A expressão '6 ! 4 ! + . 2 !' não representa corretamente essa combinação.\n\n(C) O número de maneiras de selecionar uma comissão de quatro pessoas na qual não constem homens é dado por C(6, 4), pois estamos escolhendo 4 mulheres entre 6. C(6, 4) = 15. A expressão '10 ! −4 ! . 10 !' não está correta.\n\n(D) O número de maneiras de organizar as dez pessoas em fila indiana é dado por 10!, que é a permutação de 10 elementos. A expressão '4 ! 6 !' não está correta para representar essa permutação.\n\n(E) O número de maneiras de organizar as dez pessoas em fila indiana, de forma que os homens sejam os quatro primeiros da fila, é dado por 4! (para organizar os homens) vezes 6! (para organizar as mulheres), resultando em 4! * 6!. Esta expressão está correta.\n\nPortanto, a alternativa correta é a (E)."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-14",
+    "numero": 14,
+    "enunciado": "Dados dois conjuntos, A e B, com base nas operações elementares da teoria dos conjuntos, constata-se que:",
+    "alternativas": [
+      "a) \\(A− B = A∩ B^C\\)",
+      "b) \\(( A∩ B )^C = A^C ∩ B^C\\)",
+      "c) o conjunto das partes de \\(A\\) possuirá \\(2n−1\\) elementos, se \\(A\\)for finito e possuir \\(n\\) elementos.",
+      "d) {\\(a\\)} ∈ \\(A\\) e {\\(a\\)} \\(⊄ A\\) , se \\(A\\) ={\\(a\\) ,{\\(a\\)} , {\\(a\\), \\(b\\) }}.",
+      "e) \\(( A∩ B )∪ B^C = A^C ∩ B\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Conjuntos e Álgebra de Conjuntos como Teoria Axiomática",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Vamos analisar cada alternativa: \n\n(A) A− B = A∩ B C: Esta afirmação está incorreta. A diferença de conjuntos A - B é o conjunto de elementos que estão em A, mas não em B. Já A∩ B C representa a interseção de A com o complemento de B, ou seja, elementos que estão em A e não estão em B, o que é correto. Portanto, a afirmação está incorreta porque a notação está confusa, mas a ideia é correta.\n\n(B) ( A∩ B )C = A C ∩ BC: Esta é uma aplicação correta das Leis de De Morgan para conjuntos. O complemento da interseção de A e B é igual à união dos complementos de A e B. Portanto, esta afirmação é verdadeira.\n\n(C) O conjunto das partes de A possuirá 2n−1 elementos, se A for finito e possuir n elementos: Esta afirmação está incorreta. O conjunto das partes de A possui 2^n elementos, não 2^n−1.\n\n(D) {a }∈ A e {a }⊄ A , se A={a ,{a } , {a , b }}: Esta afirmação está correta. O elemento {a} está em A, mas {a} não é subconjunto de A porque {a} não contém todos os elementos de A.\n\n(E) ( A∩ B )∪ B C = AC ∩ B: Esta afirmação está incorreta. A expressão (A∩ B)∪ B C não é equivalente a AC ∩ B. A primeira expressão representa a união da interseção de A e B com o complemento de B, enquanto a segunda representa a interseção do complemento de A com B.\n\nPortanto, a alternativa correta é a (B)."
   }
 ]

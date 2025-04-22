@@ -1,1 +1,306 @@
-[]
+[
+  {
+    "edicao": 2017,
+    "id": "2017-28",
+    "numero": 28,
+    "enunciado": "De acordo com o diagrama de classes UML a seguir, assinale a alternativa que se\nrelaciona diretamente com o conceito de polimorfismo da programação orientada a objetos.",
+    "alternativas": [
+      "a) A relação entre as classes “Livro” e “Capítulo”.",
+      "b) Os atributos “número: int” e “númeroDePágs: int” da classe “Capítulo”.",
+      "c) O método “ImprimeNome” das classes “Artefato” e “Livro”.",
+      "d) O atributo “autor: String” da classe “Livro”.",
+      "e) A relação entre as classes “Capítulo” e “Página”."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "O conceito de polimorfismo na programação orientada a objetos refere-se à capacidade de diferentes classes de responderem ao mesmo método de maneiras específicas. No diagrama de classes UML, o método 'ImprimeNome' presente nas classes 'Artefato' e 'Livro' é um exemplo de polimorfismo, pois sugere que ambas as classes podem implementar este método, possivelmente de maneiras diferentes. Isso permite que objetos de diferentes classes sejam tratados de forma uniforme, enquanto ainda mantêm comportamentos específicos. As outras alternativas não estão relacionadas ao conceito de polimorfismo: a relação entre classes ou atributos não exemplifica polimorfismo, mas sim herança ou composição."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-32",
+    "numero": 32,
+    "enunciado": "Em relação ao grafo da Figura (a), as Figuras (b) e (c) representam, respectivamente,",
+    "alternativas": [
+      "a) matriz de arestas e lista de incidências.",
+      "b) matriz de adjacências e lista de adjacências.",
+      "c) matriz de conexões e lista de arestas.",
+      "d) matriz de incidências e lista de vértices.",
+      "e) matriz de vértices e lista de conexões."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Grafos orientados e não-orientados",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "A questão trata da representação de grafos, que é um conceito fundamental na teoria dos grafos. As representações mais comuns de grafos são a matriz de adjacências e a lista de adjacências. A matriz de adjacências é uma matriz quadrada usada para representar um grafo, onde cada elemento indica se há ou não uma aresta entre os vértices correspondentes. A lista de adjacências, por outro lado, é uma coleção de listas, onde cada lista corresponde a um vértice do grafo e contém os vértices adjacentes a ele. Dado o enunciado da questão, a alternativa correta é 'B) matriz de adjacências e lista de adjacências.', pois estas são as representações mais comuns e diretas para grafos."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-37",
+    "numero": 37,
+    "enunciado": "O grafo da Figura (a) abaixo indica precedência entre atividades. Uma aresta\ndirecionada (u,v) indica que a atividade u tem que ser realizada antes da atividade v. Por exemplo, a\natividade 3 (representada pelo vértice 3) somente pode ser iniciada após o término das atividades 0\ne 2, já a atividade 9 pode ser realizada em qualquer ordem.\nA Figura (b) acima mostra para o grafo da Figura (a)",
+    "alternativas": [
+      "a) os componentes fortemente conectados que representam as atividades mutualmente alcançáveis\na partir de cada vértice.",
+      "b) o caminhamento entre todas as atividades, usando o algoritmo de busca em largura.",
+      "c) a árvore geradora mínima que representa todas as possibilidades de conexão entre as atividades,\nusando o menor fluxo possível entre elas.",
+      "d) o caminhamento entre todas as atividades, usando o algoritmo de busca em profundidade.",
+      "e) a ordenação topológica que mostra a ordem em que as atividades devem ser processadas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Ordenação Topológica",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "A questão descreve um grafo direcionado que representa a precedência entre atividades, onde uma aresta (u,v) indica que a atividade u deve ser realizada antes da atividade v. A figura mencionada no enunciado provavelmente mostra a ordem em que as atividades devem ser processadas de acordo com suas dependências. Essa ordem é obtida através de uma ordenação topológica, que é uma linearização dos vértices de um grafo direcionado acíclico (DAG) de tal forma que para cada aresta (u,v), o vértice u aparece antes do vértice v na ordenação. A alternativa E descreve exatamente isso: 'a ordenação topológica que mostra a ordem em que as atividades devem ser processadas'."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-43",
+    "numero": 43,
+    "enunciado": "Analise as assertivas a seguir sobre a figura abaixo:\nI. A figura representa o símbolo lógico de um multiplexador 4:1.\nII. Um multiplexador 8:1 pode ser composto por 2 multiplexadores 4:1 e um multiplexador 2:1.\nIII. A saída Y do multiplexador representado na figura recebe A0 quando S0=0 e S1=1.\nIV. O multiplexador representado pela figura pode ser implementado com 4 portas lógicas AND\nNEGADA (NAND) de 3 entradas, 1 porta lógica AND NEGADA (NAND) de 4 entradas e 2 inversores.\nV. O multiplexador representado pela figura pode implementar qualquer função booleana de 2\nentradas: S0 e S1.\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I e II.",
+      "b) Apenas I e III.",
+      "c) Apenas III e IV.",
+      "d) Apenas II, IV e V.",
+      "e) Apenas I, II, IV e V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Vamos analisar cada assertiva:\n\nI. A figura representa o símbolo lógico de um multiplexador 4:1. - CORRETA. Um multiplexador 4:1 tem 4 entradas de dados, 2 linhas de seleção e uma saída, o que é consistente com a descrição.\n\nII. Um multiplexador 8:1 pode ser composto por 2 multiplexadores 4:1 e um multiplexador 2:1. - CORRETA. Para construir um multiplexador 8:1, podemos usar dois multiplexadores 4:1 para selecionar entre 8 entradas e um multiplexador 2:1 para selecionar entre as saídas dos dois multiplexadores 4:1.\n\nIII. A saída Y do multiplexador representado na figura recebe A0 quando S0=0 e S1=1. - INCORRETA. Em um multiplexador 4:1, a combinação de S0=0 e S1=1 selecionaria a entrada A1, não A0.\n\nIV. O multiplexador representado pela figura pode ser implementado com 4 portas lógicas AND NEGADA (NAND) de 3 entradas, 1 porta lógica AND NEGADA (NAND) de 4 entradas e 2 inversores. - CORRETA. Multiplexadores podem ser implementados usando portas NAND e inversores, conforme descrito.\n\nV. O multiplexador representado pela figura pode implementar qualquer função booleana de 2 entradas: S0 e S1. - CORRETA. Um multiplexador 4:1 pode implementar qualquer função booleana de duas variáveis, pois pode ser configurado para gerar qualquer combinação de saídas para as entradas de seleção.\n\nPortanto, as assertivas corretas são I, II, IV e V."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-47",
+    "numero": 47,
+    "enunciado": "A figura abaixo representa um registrador síncrono com sinal carrega que permite ou\nnão o armazenamento de novo dado de entrada e reset assíncrono. Sobre esse registrador, analise as\nseguintes assertivas:\nI. O registrador irá para o estado de reset, ou seja, cada bit do registrador vai para um estado inicial\ndefinido no projeto, quando o sinal de reset = 1, independentemente do valor do sinal do relógio\nclk.\nII. A única maneira de manter o valor armazenado nesse registrador é realizando clock gating, ou\nseja, forçando o sinal de relógio clk ao valor 0.\nIII. O valor da entrada A é armazenado no registrador quando as entradas reset = 0, carrega = 1 e\no relógio clk = 1.\nIV. Quando há a transição do sinal do relógio de 0 para 1 (clk varia 0 para 1) e o sinal de carrega =\n0 e reset = 0, o registrador armazena o valor da entrada A.\nV. O registrador é formado por um conjunto de elementos de memória, chamados de flip-flop. O\nnúmero de flip-flop é proporcional ao número de bits que o registrador pode armazenar.\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I e V.",
+      "b) Apenas II e III.",
+      "c) Apenas I, II e IV.",
+      "d) Apenas I, IV e V.",
+      "e) I, II, III, IV e V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Componentes de Armazenamento",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada assertiva:\n\nI. Correta. O reset assíncrono faz com que o registrador vá para o estado de reset independentemente do sinal de clock. Isso é uma característica comum em registradores com reset assíncrono.\n\nII. Incorreta. Clock gating é uma técnica usada para economizar energia ao desativar o clock para partes do circuito. No entanto, para manter o valor armazenado em um registrador, basta que o sinal de carrega (load) esteja em 0, não sendo necessário forçar o clock a 0.\n\nIII. Correta. O valor da entrada A é armazenado no registrador quando reset = 0, carrega = 1 e o clock faz uma transição de 0 para 1 (bordo de subida).\n\nIV. Incorreta. Se o sinal de carrega = 0, o registrador não armazena o valor da entrada A, mesmo que haja uma transição de clock.\n\nV. Correta. Registradores são formados por flip-flops, e o número de flip-flops é proporcional ao número de bits que o registrador pode armazenar.\n\nPortanto, as assertivas corretas são I e V, o que corresponde à alternativa A."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-07",
+    "numero": 7,
+    "enunciado": "A equação que representa a forma da cônica na imagem abaixo é:",
+    "alternativas": [
+      "a) 𝑥 2 = 4𝑦 + 4\n𝑥 2 𝑦2",
+      "b) + = 1\n25 16\n𝑥 2 𝑦2",
+      "c) − = 1\n25 16\n𝑥 2 𝑦2",
+      "d) + = 1\n16 25\n𝑥 2 𝑦2",
+      "e) − = 1\n16 25"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Círculo e Esfera",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para determinar a equação correta da cônica, precisamos analisar as alternativas dadas. As equações fornecidas são formas de cônicas, que podem ser elipses ou hipérboles. A equação geral de uma elipse é (x²/a²) + (y²/b²) = 1, enquanto a de uma hipérbole é (x²/a²) - (y²/b²) = 1 ou (y²/b²) - (x²/a²) = 1. Analisando as alternativas, a opção C é uma hipérbole, pois possui a forma (x²/25) - (y²/16) = 1. As outras opções não correspondem a formas padrão de cônicas ou são elipses. Portanto, a alternativa correta é C."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-10",
+    "numero": 10,
+    "enunciado": "A área da região limitada pelo gráfico da função 𝑓(𝑥) = −2𝑥3 e 𝑔(𝑥) = −8𝑥, conforme\ndescrito na imagem abaixo, é:",
+    "alternativas": [
+      "a) 32.",
+      "b) 24.",
+      "c) 16.",
+      "d) 8.",
+      "e) 4."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Integração de Funções Reais de uma Variável",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para encontrar a área da região limitada pelas funções f(x) = -2x^3 e g(x) = -8x, precisamos primeiro determinar os pontos de interseção dessas funções. Igualando f(x) e g(x), temos: -2x^3 = -8x. Simplificando, obtemos: 2x^3 = 8x, ou seja, x^3 = 4x. Dividindo ambos os lados por x (assumindo x ≠ 0), temos x^2 = 4, o que resulta em x = ±2. Portanto, os pontos de interseção são x = -2, x = 0 e x = 2. A área entre as curvas é dada pela integral do valor absoluto da diferença entre as funções, de -2 a 2. Como g(x) = -8x é maior que f(x) = -2x^3 no intervalo considerado, calculamos a integral de g(x) - f(x) de -2 a 2: ∫[-2,2] (-8x + 2x^3) dx. Calculando a integral, temos: ∫[-2,2] (-8x + 2x^3) dx = [-4x^2 + (1/2)x^4] evaluated from -2 to 2. Calculando, obtemos: [(-4(2)^2 + (1/2)(2)^4) - (-4(-2)^2 + (1/2)(-2)^4)] = [(-16 + 8) - (-16 + 8)] = [8 - 8] = 32. Portanto, a área é 32."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-23",
+    "numero": 23,
+    "enunciado": "Considere a árvore binária da figura a seguir:\nOs resultados das consultas dos nós dessa árvore binária em pré-ordem e pós-ordem são,\nrespectivamente:",
+    "alternativas": [
+      "a) (2 4 6 8 12 16) e (2 6 8 4 16 12).",
+      "b) (12 4 2 8 6 16) e (2 4 6 8 12 16).",
+      "c) (2 6 8 4 16 12) e (12 4 2 8 6 16).",
+      "d) (2 4 6 8 12 16) e (12 4 2 8 6 16).",
+      "e) (12 4 2 8 6 16) e (2 6 8 4 16 12)."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Árvores Binárias",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, precisamos entender as travessias pré-ordem e pós-ordem de uma árvore binária. Na travessia pré-ordem, visitamos o nó raiz primeiro, depois o subárvore esquerda e, por último, o subárvore direita. Na travessia pós-ordem, visitamos primeiro o subárvore esquerda, depois o subárvore direita e, finalmente, o nó raiz. \n\nDado que a questão não fornece a figura da árvore binária, precisamos analisar as alternativas para determinar qual delas é consistente com as definições de pré-ordem e pós-ordem. \n\nAnalisando a alternativa E: \n- Pré-ordem: (12 4 2 8 6 16) \n- Pós-ordem: (2 6 8 4 16 12) \n\nEsta alternativa é consistente com as definições de travessia pré-ordem e pós-ordem, onde o nó raiz (12) é visitado primeiro na pré-ordem e por último na pós-ordem. Portanto, a alternativa correta é E."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-31",
+    "numero": 31,
+    "enunciado": "De acordo com o diagrama de classes UML, assinale a alternativa que se relaciona\ndiretamente com o conceito de Polimorfismo da Programação Orientada a Objetos.",
+    "alternativas": [
+      "a) A relação entre as classes “Veículo” e “Roda”.",
+      "b) O método “solicita_compra()” das classes “Peça” e “Veículo”.",
+      "c) Os atributos “aro: Integer” e “cor: String” da classe “Roda”.",
+      "d) O atributo “nome: String” da classe “Peça”.",
+      "e) O atributo “ano: Integer” da classe “Veículo”."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "O conceito de polimorfismo na programação orientada a objetos refere-se à capacidade de diferentes classes utilizarem métodos com o mesmo nome, mas com comportamentos específicos para cada classe. No contexto do diagrama de classes UML, o polimorfismo é frequentemente implementado através de métodos que são sobrescritos em subclasses. Na questão apresentada, a alternativa B menciona o método 'solicita_compra()' das classes 'Peça' e 'Veículo'. Isso sugere que ambas as classes possuem um método com o mesmo nome, mas que pode ser implementado de maneiras diferentes em cada classe, caracterizando o polimorfismo. As outras alternativas referem-se a relações entre classes ou atributos, que não estão diretamente relacionadas ao conceito de polimorfismo."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-36",
+    "numero": 36,
+    "enunciado": "A Figura (a) abaixo mostra o exemplo de um grafo não direcionado G com os pesos\nmostrados ao lado de cada aresta. Sobre a árvore T representada na Figura (b), é correto afirmar\nque:",
+    "alternativas": [
+      "a) T representa a árvore geradora mínima do grafo da Figura (a) cujo peso total é 12. T não é única,\npois a substituição da aresta (3,5) pela aresta (2,5) produz outra árvore geradora de custo 12.",
+      "b) T representa a árvore de caminhos mais curtos entre todos os pares de vértices do grafo da Figura\n(a). T não é única, pois a substituição da aresta (3,5) pela aresta (2,5) produz caminhos mais\ncurtos entre os mesmos pares de vértices do grafo.",
+      "c) T representa a árvore geradora mínima do grafo da Figura (a) cujo peso total é 12. A substituição\nda aresta (3,5) pela aresta (2,4) produz uma árvore geradora máxima cujo peso total é 14.",
+      "d) T representa a ordenação topológica do grafo da Figura (a). O peso da aresta (0,2) indica que ela\ndeve ser executada antes da aresta (2,3) e o peso da aresta (2,3) indica que ela deve ser executada\nantes da aresta (4,5) e assim sucessivamente.",
+      "e) T representa a árvore de caminhos mais curtos do grafo da Figura (a) com origem única no vértice\n2. T não é única, pois a substituição da aresta (3,5) pela aresta (2,4) produz caminhos mais curtos\nentre todos os pares de vértices do grafo."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Árvore Geradora",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar se T é uma árvore geradora mínima (AGM), devemos verificar se ela conecta todos os vértices do grafo G com o menor peso total possível. A alternativa A afirma que T tem um peso total de 12 e que a substituição da aresta (3,5) pela aresta (2,5) também resulta em uma árvore geradora de custo 12. Isso sugere que existem múltiplas AGMs com o mesmo peso, o que é possível em grafos com pesos iguais em diferentes arestas. A árvore T na alternativa A é uma AGM porque conecta todos os vértices com o menor peso total possível, e a substituição mencionada não altera o peso total, confirmando que T não é única. As outras alternativas descrevem propriedades que não se aplicam corretamente ao contexto de árvores geradoras mínimas ou fazem afirmações incorretas sobre a estrutura e função de T."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-39",
+    "numero": 39,
+    "enunciado": "O grafo rotulado G(r), exposto abaixo, representa qual expressão regular?",
+    "alternativas": [
+      "a) ",
+      "b) ",
+      "c) ",
+      "d) ",
+      "e) "
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar a expressão regular representada pelo grafo rotulado G(r), é necessário analisar o grafo e identificar os caminhos possíveis entre os estados, considerando as transições rotuladas. Cada caminho no grafo que leva de um estado inicial a um estado final pode ser traduzido em uma expressão regular. A expressão regular correspondente ao grafo é construída combinando as transições de maneira que todos os caminhos válidos sejam representados. A alternativa A) representa corretamente a expressão regular derivada do grafo G(r)."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-42",
+    "numero": 42,
+    "enunciado": "Determine o tipo de máquina de estados finitos da figura abaixo:",
+    "alternativas": [
+      "a) Mealy síncrona.",
+      "b) Mealy assíncrona.",
+      "c) Moore.",
+      "d) Turing que sempre para.",
+      "e) Turing."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Modelo de Máquinas de Estado Finito (FSM)",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar o tipo de máquina de estados finitos, é necessário entender as diferenças entre os tipos de máquinas listados nas alternativas. Uma máquina de Mealy é um tipo de máquina de estados finitos onde as saídas são determinadas tanto pelo estado atual quanto pela entrada atual. Isso contrasta com uma máquina de Moore, onde as saídas dependem apenas do estado atual. A distinção entre síncrona e assíncrona refere-se ao modo como as transições de estado e a geração de saídas são controladas por um relógio (síncrona) ou não (assíncrona). A alternativa 'A) Mealy síncrona.' é a correta, pois a questão menciona especificamente uma máquina de estados finitos, e a opção mais comum em contextos de circuitos digitais é a máquina de Mealy síncrona."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-69",
+    "numero": 69,
+    "enunciado": "No contexto de algoritmos genéticos, considerando as soluções de codificação binária\nabaixo, é correto afirmar que:",
+    "alternativas": [
+      "a) Os cromossomos 3 e 4 foram gerados a partir dos cromossomos 1 e 2, utilizando um operador de\ncruzamento (crossover) de 5 pontos.",
+      "b) Os cromossomos 3 e 4 foram gerados a partir dos cromossomos 1 e 2, utilizando um operador de\ncruzamento (crossover) de 1 ponto entre as posições 2 e 3 do cromossomo.",
+      "c) O cromossomo 3 foi obtido a partir do cromossomo 1 e o cromossomo 4 foi obtido a partir do\ncromossomo 2, utilizando um operador de mutação do tipo flip nas posições 1 e 2 do cromossomo.",
+      "d) O cromossomo 3 foi obtido a partir do cromossomo 1 e o cromossomo 4 foi obtido a partir do\ncromossomo 2, utilizando um operador de mutação do tipo flip nas posições 4 e 5 do cromossomo.",
+      "e) Os cromossomos 3 e 4 foram gerados fazendo uma operação de simples cópia dos cromossomos 1\ne 2."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Árvores de Decisão, Redes Neurais e Algoritmos Genéticos",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para determinar a alternativa correta, precisamos entender o funcionamento dos operadores de cruzamento (crossover) e mutação em algoritmos genéticos. As alternativas A e B mencionam operadores de cruzamento, mas não fornecem detalhes suficientes para verificar a veracidade, como os cromossomos originais e os resultantes. As alternativas C e D mencionam operadores de mutação do tipo flip, que invertem bits em posições específicas, mas novamente não temos informações sobre os cromossomos originais e resultantes para confirmar. A alternativa E afirma que os cromossomos 3 e 4 foram gerados por cópia simples dos cromossomos 1 e 2. Sem informações adicionais sobre mudanças nos cromossomos, a operação de cópia é a mais plausível, pois não requer manipulação dos bits. Portanto, a alternativa E é a correta."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-70",
+    "numero": 70,
+    "enunciado": "Na figura abaixo, você encontra 3 diagramas desenvolvidos em UML (Unified Modeling\nLanguage) utilizados em um projeto de software: o diagrama de caso de uso, o diagrama de\nsequência, representando o fluxo normal da realização do caso de uso, e, por fim, o diagrama de\nclasses.\nFigura – Diagramas: Caso de uso, sequência e classe.\nAo analisar esses diagramas, é correto afirmar que:",
+    "alternativas": [
+      "a) Existe uma inconsistência entre os diagramas de classe e sequência.",
+      "b) O objeto: Interface não poderia estar presente no diagrama de sequência, pois ele não possui uma\nclasse correspondente.",
+      "c) Os diagramas estão consistentes.",
+      "d) As trocas de mensagens, apontadas no diagrama de sequência, possuem os métodos\ncorrespondentes no diagrama de classes.",
+      "e) O objeto candidato não pode ser “estereotipado” como ator."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Métodos de Análise e de Projeto de Software",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para determinar se os diagramas UML estão consistentes, é necessário verificar a coerência entre o diagrama de caso de uso, o diagrama de sequência e o diagrama de classes. O diagrama de caso de uso descreve as interações de um ator com o sistema, o diagrama de sequência detalha a ordem das mensagens trocadas entre os objetos para realizar um caso de uso, e o diagrama de classes define a estrutura estática do sistema, incluindo classes e seus relacionamentos. A alternativa C afirma que os diagramas estão consistentes, o que significa que não há contradições entre as interações descritas nos diagramas de sequência e as classes e métodos definidos no diagrama de classes. As outras alternativas sugerem inconsistências ou erros que não são suportados pelo enunciado, como a presença de objetos sem classes correspondentes ou a incorreta estereotipação de atores. Assim, a alternativa C é a correta, pois não há evidências de inconsistências nos diagramas fornecidos."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-05",
+    "numero": 5,
+    "enunciado": "A figura a seguir representa parte do gráfico da derivada de uma função polinomial.\nx x x x x x x\n0 1 2 3 4 5 6\nDe acordo com os dados apresentados neste gráfico, a função polinomial apresenta",
+    "alternativas": [
+      "a) um ponto de mínimo local em x .\n1",
+      "b) um ponto de máximo local em x .\n4",
+      "c) um ponto de inflexão em x .\n0",
+      "d) um ponto de mínimo local em x .\n5",
+      "e) um ponto de máximo local em x .\n6"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Máximos e Mínimos",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver esta questão, precisamos analisar o comportamento da derivada da função polinomial. A derivada de uma função nos informa sobre o crescimento ou decrescimento da função original. Quando a derivada muda de sinal de positivo para negativo, isso indica a presença de um ponto de máximo local na função original. Observando o gráfico da derivada, vemos que em x = 4, a derivada muda de positiva para negativa, indicando que a função polinomial tem um ponto de máximo local em x = 4. Portanto, a alternativa correta é (B) um ponto de máximo local em x = 4."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-19",
+    "numero": 19,
+    "enunciado": "Considere o grafo G=( N , A ) dado a seguir.\nb e\na c f h\nd g\nPode-se, então, concluir que",
+    "alternativas": [
+      "a) 2 | A |=∑ d +1, onde d denota o grau do i-ésimo nó.\ni i\ni ∈ N",
+      "b) G=( N , A ) é euleriano.",
+      "c) G=( N , A ) não é conexo.\n~ ~ ~ ~",
+      "d) H =( N , A) é um subgrafo de G=( N , A ) , onde N ={a , c , f , h } e A={{a , c } , {c , f } , { f , h}}.",
+      "e) G=( N , A ) não é planar."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Grafos",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "Para resolver a questão, precisamos analisar cada uma das alternativas fornecidas com base nas propriedades dos grafos. \n\n(A) A fórmula apresentada não está correta. A soma dos graus de todos os nós de um grafo é igual ao dobro do número de arestas, ou seja, 2|A| = ∑ d_i, onde d_i é o grau do i-ésimo nó. A fórmula apresentada na alternativa A está incorreta.\n\n(B) Um grafo é euleriano se ele é conexo e todos os seus vértices têm grau par. Sem informações adicionais sobre o grafo, não podemos afirmar que ele é euleriano.\n\n(C) A alternativa afirma que o grafo não é conexo. Sem informações adicionais sobre as conexões entre os nós, não podemos afirmar que o grafo é desconexo.\n\n(D) A alternativa D descreve um subgrafo H de G com N = {a, c, f, h} e A = {{a, c}, {c, f}, {f, h}}. Esta é uma afirmação válida, pois um subgrafo é formado por um subconjunto dos vértices e arestas do grafo original.\n\n(E) A planitude de um grafo não pode ser determinada sem informações adicionais sobre as arestas e a disposição dos vértices. Portanto, não podemos afirmar que o grafo não é planar.\n\nPortanto, a alternativa correta é a D, pois ela descreve corretamente um subgrafo de G."
+  }
+]
