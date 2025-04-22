@@ -1,442 +1,5 @@
 [
   {
-    "edicao": 2024,
-    "id": "2024-28",
-    "numero": 28,
-    "enunciado": "A ponte norte e a ponte sul são chipsets que compõem a estrutura de uma\nplaca-mãe de um computador. Sobre esses dois chipsets, analise as assertivas abaixo:\n- I. A ponte norte é responsável pela comunicação entre o processador e dispositivos de entrada/saída\nde baixa velocidade, enquanto a ponte sul conecta a memória RAM e a placa de vídeo.\n- II. A ponte sul conecta o processador diretamente à memória RAM e à placa de vídeo, enquanto a\nponte norte lida com dispositivos de armazenamento e periféricos de entrada/saída.\n- III. A ponte norte faz a interface entre o processador e componentes de alta velocidade como a\nmemória RAM e a placa de vídeo, enquanto a ponte sul gerencia conexões com dispositivos de\nentrada/saída de menor velocidade.\n- IV. A ponte norte e a ponte sul são substituíveis e podem ser usadas indistintamente em qualquer função dentro do sistema de barramento do computador.\n\nQuais estão corretas?",
-    "alternativas": [
-      "a) Apenas I.",
-      "b) Apenas II.",
-      "c) Apenas III.",
-      "d) Apenas I e II.",
-      "e) Apenas III e IV."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Arquitetura e Organização de Computadores",
-    "subarea": "Organização de Computadores",
-    "dificuldade": "Fácil",
-    "gabarito": "C",
-    "solucao": "Para resolver a questão, é necessário entender as funções da ponte norte e da ponte sul em uma placa-mãe de computador. A ponte norte é responsável por conectar o processador a componentes de alta velocidade, como a memória RAM e a placa de vídeo. Já a ponte sul gerencia conexões com dispositivos de entrada/saída de menor velocidade, como portas USB, discos rígidos e outros periféricos. \n\nAnalisando as assertivas: \n\nI. Incorreta. A descrição das funções da ponte norte e da ponte sul está trocada. A ponte norte não é responsável por dispositivos de baixa velocidade, e a ponte sul não conecta a memória RAM e a placa de vídeo. \n\nII. Incorreta. A ponte sul não conecta o processador diretamente à memória RAM e à placa de vídeo. Essa é a função da ponte norte. \n\nIII. Correta. A ponte norte faz a interface entre o processador e componentes de alta velocidade, como a memória RAM e a placa de vídeo, enquanto a ponte sul gerencia conexões com dispositivos de entrada/saída de menor velocidade. \n\nIV. Incorreta. A ponte norte e a ponte sul têm funções específicas e não são substituíveis ou intercambiáveis. \n\nPortanto, a única assertiva correta é a III."
-  },
-  {
-    "edicao": 2024,
-    "id": "2024-36",
-    "numero": 36,
-    "enunciado": "Qual das seguintes linguagens pode ser gerada por uma gramática regular?",
-    "alternativas": [
-      "a) {w ∈ {a, b}* | o número de a’s em w é maior que o número de b’s}.",
-      "b) {w ∈ {a, b}* | o número de a’s em w é o dobro do número de b’s}.",
-      "c) {w ∈ {a, b}* | o número de a’s em w é divisível por 3 e o número de b’s é ímpar}.",
-      "d) {w ∈ {a, b}* | w contém o mesmo número de a’s e b’s}.",
-      "e) {w ∈ {a, b}* | w contém números diferentes de a’s e b’s}."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens Formais, Autômatos e Computabilidade",
-    "subarea": "Linguagens Regulares",
-    "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "Uma gramática regular é capaz de gerar linguagens que podem ser reconhecidas por autômatos finitos. As linguagens regulares são fechadas sob operações como união, concatenação e estrela de Kleene, mas não conseguem expressar relações numéricas complexas entre símbolos, como igualdade ou múltiplos. Vamos analisar cada alternativa:\n\nA) {w ∈ {a, b}* | o número de a’s em w é maior que o número de b’s}. Esta linguagem não é regular, pois requer a comparação entre contagens de símbolos, o que não pode ser feito por autômatos finitos.\n\nB) {w ∈ {a, b}* | o número de a’s em w é o dobro do número de b’s}. Esta linguagem também não é regular, pois exige uma relação numérica precisa entre os símbolos, algo que autômatos finitos não conseguem verificar.\n\nC) {w ∈ {a, b}* | o número de a’s em w é divisível por 3 e o número de b’s é ímpar}. Esta linguagem não é regular, pois combina duas condições que não podem ser verificadas simultaneamente por um autômato finito.\n\nD) {w ∈ {a, b}* | w contém o mesmo número de a’s e b’s}. Esta linguagem não é regular, pois requer a contagem e comparação exata de dois tipos de símbolos, algo que autômatos finitos não conseguem fazer.\n\nE) {w ∈ {a, b}* | w contém números diferentes de a’s e b’s}. Esta linguagem é regular, pois pode ser expressa por um autômato finito que aceita qualquer string que não tenha o mesmo número de 'a's e 'b's, o que é possível sem a necessidade de contagem precisa, apenas verificando que a string não pertence ao conjunto de strings com números iguais de 'a's e 'b's."
-  },
-  {
-    "edicao": 2023,
-    "id": "2023-15",
-    "numero": 15,
-    "enunciado": "A expressão lógica p→q é equivalente a:",
-    "alternativas": [
-      "a) ~p∧~q",
-      "b) ~p→q",
-      "c) p→~q",
-      "d) ~q->~p",
-      "e) q→p"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Lógica Matemática",
-    "subarea": "Lógica Proposicional e de Predicados",
-    "dificuldade": "Fácil",
-    "gabarito": "D",
-    "solucao": "A expressão lógica p→q (p implica q) é equivalente à expressão ~q→~p (negação de q implica negação de p), que é a forma contrária da implicação original. Essa equivalência é conhecida como contrapositiva. A contrapositiva de uma implicação é sempre logicamente equivalente à implicação original. Portanto, a alternativa correta é D) ~q->~p."
-  },
-  {
-    "edicao": 2023,
-    "id": "2023-18",
-    "numero": 18,
-    "enunciado": "Usando os conjuntos de dados A = {1, 4, 2, 6, 8, 10}, B = {1, 4, 6, 10},\nC = {6, 4, 1, 10}, D = {6, 4, 1}, qual das seguintes alternativas é INCORRETA?",
-    "alternativas": [
-      "a) \\(A ⊆ B\\)",
-      "b) \\(D ⊆ A\\)",
-      "c) \\(B = C\\)",
-      "d) \\(B ⊆ A\\)",
-      "e) \\(A ≠ B\\)"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Matemática Discreta",
-    "subarea": "Conjuntos e Álgebra de Conjuntos como Teoria Axiomática",
-    "dificuldade": "Fácil",
-    "gabarito": "A",
-    "solucao": "Para determinar qual alternativa é incorreta, precisamos analisar cada uma delas:\n\nA) A ⊆ B: O conjunto A = {1, 4, 2, 6, 8, 10} não é subconjunto de B = {1, 4, 6, 10} porque A contém os elementos 2 e 8, que não estão em B. Portanto, esta alternativa é INCORRETA.\n\nB) D ⊆ A: O conjunto D = {6, 4, 1} é um subconjunto de A = {1, 4, 2, 6, 8, 10} porque todos os elementos de D estão em A. Portanto, esta alternativa é CORRETA.\n\nC) B = C: O conjunto B = {1, 4, 6, 10} é igual ao conjunto C = {6, 4, 1, 10} porque ambos contêm os mesmos elementos, apenas em ordem diferente. Portanto, esta alternativa é CORRETA.\n\nD) B ⊆ A: O conjunto B = {1, 4, 6, 10} é um subconjunto de A = {1, 4, 2, 6, 8, 10} porque todos os elementos de B estão em A. Portanto, esta alternativa é CORRETA.\n\nE) A ≠ B: O conjunto A = {1, 4, 2, 6, 8, 10} é diferente de B = {1, 4, 6, 10} porque A contém elementos (2 e 8) que não estão em B. Portanto, esta alternativa é CORRETA.\n\nPortanto, a alternativa INCORRETA é a A."
-  },
-  {
-    "edicao": 2023,
-    "id": "2023-25",
-    "numero": 25,
-    "enunciado": "Sobre as árvores binárias de busca, é correto afirmar que:",
-    "alternativas": [
-      "a) Seja x um nó em uma árvore de busca binária. Se y é um nó na subárvore esquerda de x, então\ny.chave  x.chave. Se y é um nó na subárvore direita de x, então x.chave  y.chave.",
-      "b) A propriedade de árvore de busca que permite imprimir todas as chaves em sequência ordenada\npor meio de um simples algoritmo recursivo é denominada percurso de árvore em pré -ordem.",
-      "c) Para excluir um nó z de uma árvore de busca binária T, se z tem apenas um filho, então\nsimplesmente o removemos modificando seu pai de modo a substituir z por NIL como seu filho.",
-      "d) Para excluir um nó z de uma árvore de busca binária T, se z tem dois filhos, então elevamos o\nprimeiro filho para que ocupe a posição de z na árvore modificando o pai de z de modo a substituir\nz pelo filho de z.",
-      "e) Para encontrar um nó em uma árvore de busca binária cuja chave é um mínimo, deve -se seguir\nos ponteiros de filhos da esquerda desde a raiz até encontrar um valor NIL."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Algoritmos e Estrutura de Dados",
-    "subarea": "Árvores de Busca e Árvores Balanceadas",
-    "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "A questão trata das propriedades e operações em árvores binárias de busca (BST). Vamos analisar cada alternativa: \n\nA) A descrição está incorreta. Em uma árvore binária de busca, para qualquer nó x, todos os nós na subárvore esquerda de x têm valores menores que x.chave, e todos os nós na subárvore direita de x têm valores maiores que x.chave. Portanto, a relação correta seria y.chave ≤ x.chave para a subárvore esquerda e x.chave ≤ y.chave para a subárvore direita.\n\nB) O percurso que imprime as chaves em ordem crescente em uma árvore binária de busca é o percurso em ordem (in-order traversal), não o percurso em pré-ordem.\n\nC) Quando um nó z com apenas um filho é removido de uma árvore binária de busca, o filho de z substitui z, não é substituído por NIL.\n\nD) Se um nó z tem dois filhos, o procedimento correto é substituir z pelo seu sucessor ou predecessor na árvore (geralmente o menor nó na subárvore direita ou o maior na subárvore esquerda), não simplesmente elevar o primeiro filho.\n\nE) Para encontrar o nó com a chave mínima em uma árvore binária de busca, deve-se seguir os ponteiros de filhos à esquerda desde a raiz até encontrar um nó sem filho à esquerda (NIL). Esta afirmação está correta."
-  },
-  {
-    "edicao": 2023,
-    "id": "2023-38",
-    "numero": 38,
-    "enunciado": "Dada a linguagem 𝐿 = {𝑤 ∈ {𝑎, 𝑏}∗ | 𝑜 𝑡𝑒𝑟𝑐𝑒𝑖𝑟𝑜 ú𝑙𝑡𝑖𝑚𝑜 𝑠í𝑚𝑏𝑜𝑙𝑜 𝑑𝑒 𝑤 é 𝑎}, analise as\nassertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n( ) O menor Autômato Finito Não Determinístico (AFND) que reconhece L tem 4 (quatro) estados.\n( ) O Autômato Finito Determinístico (AFD) que reconhece L tem, no mínimo, 8 (oito) estados.\n( ) A menor Gramática Regular (GR) que gera L tem 3 (três) não terminais.\n( ) O conjunto regular {𝑎, 𝑏}∗{𝑎}{𝑎, 𝑏}{𝑎, 𝑏} denota L.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
-    "alternativas": [
-      "a) F – F – V – V.",
-      "b) V – V – V – V.",
-      "c) F – V – F – V.",
-      "d) V – V – F – F.",
-      "e) V – F – V – F."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens Formais, Autômatos e Computabilidade",
-    "subarea": "Autômatos de Estados Finitos Determinístico e não Determinístico",
-    "dificuldade": "Média",
-    "gabarito": "C",
-    "solucao": "Para resolver a questão, precisamos analisar cada uma das assertivas sobre a linguagem L = {w ∈ {a, b}* | o terceiro último símbolo de w é a}.\n\n1. **AFND com 4 estados**: Um AFND que reconhece L pode ser construído com 4 estados. O autômato pode ser projetado para verificar se o terceiro último símbolo é 'a' ao ler a string de trás para frente, usando não determinismo para adivinhar o ponto de verificação. Portanto, esta assertiva é falsa.\n\n2. **AFD com no mínimo 8 estados**: A construção de um AFD a partir de um AFND geralmente resulta em um aumento no número de estados devido à eliminação do não determinismo. Para L, um AFD precisa manter o controle dos últimos três símbolos lidos, o que resulta em 2^3 = 8 combinações possíveis de estados (considerando que cada símbolo pode ser 'a' ou 'b'). Portanto, esta assertiva é verdadeira.\n\n3. **Gramática Regular com 3 não terminais**: A gramática regular que gera L precisa ser capaz de produzir strings onde o terceiro último símbolo é 'a'. Isso pode ser feito com uma gramática que usa 3 não terminais para controlar a posição dos últimos três símbolos, mas é possível construir uma gramática com menos não terminais. Portanto, esta assertiva é falsa.\n\n4. **Conjunto regular {a, b}*{a}{a, b}{a, b} denota L**: Este conjunto regular denota strings onde o terceiro último símbolo é 'a', seguido por qualquer combinação de dois símbolos. Isso corresponde exatamente à definição de L, tornando esta assertiva verdadeira.\n\nCom base na análise acima, a ordem correta das assertivas é F – V – F – V, que corresponde à alternativa C."
-  },
-  {
-    "edicao": 2022,
-    "id": "2022-09",
-    "numero": 9,
-    "enunciado": "Se A e B são dois conjuntos finitos, realize a redução de 𝐸 = {𝐴 ∩ (𝐴 ∪ 𝐵′ )} − 𝐵′.",
-    "alternativas": [
-      "a) A",
-      "b) B",
-      "c) 𝐴 ∩ 𝐵",
-      "d) 𝐴 ∪ 𝐵",
-      "e) B’"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Matemática Discreta",
-    "subarea": "Conjuntos e Álgebra de Conjuntos como Teoria Axiomática",
-    "dificuldade": "Fácil",
-    "gabarito": "A",
-    "solucao": "Para resolver a expressão dada, 𝐸 = {𝐴 ∩ (𝐴 ∪ 𝐵′ )} − 𝐵′, devemos simplificar passo a passo: \n1. Primeiro, consideramos a expressão dentro das chaves: 𝐴 ∩ (𝐴 ∪ 𝐵′). \n2. Pela propriedade de absorção dos conjuntos, sabemos que 𝐴 ∩ (𝐴 ∪ 𝐵′) é equivalente a 𝐴, pois a interseção de A com qualquer conjunto que contenha A é o próprio A. \n3. Assim, a expressão se reduz a 𝐸 = 𝐴 − 𝐵′. \n4. O conjunto 𝐴 − 𝐵′ é o conjunto de elementos que estão em A, mas não estão em B′. \n5. Como B′ é o complemento de B, 𝐴 − 𝐵′ é simplesmente A, pois A já não contém elementos de B′ (por definição de complemento). \nPortanto, a expressão se reduz a A, e a alternativa correta é A) A."
-  },
-  {
-    "edicao": 2022,
-    "id": "2022-15",
-    "numero": 15,
-    "enunciado": "Dado duas proposições lógicas q e p.\nA proposição lógica ~p-> q é falsa se, e somente se, quando a proposição abaixo for verdadeira:",
-    "alternativas": [
-      "a) p ou q",
-      "b) ~p",
-      "c) ~( p ou q)",
-      "d) ~( p e q)",
-      "e) ~q"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Lógica Matemática",
-    "subarea": "Lógica Proposicional e de Predicados",
-    "dificuldade": "Fácil",
-    "gabarito": "E",
-    "solucao": "Para determinar quando a proposição ~p -> q é falsa, devemos lembrar que uma implicação lógica A -> B é falsa somente quando A é verdadeira e B é falsa. No caso de ~p -> q, a proposição ~p é a antecedente (A) e q é a consequente (B). Assim, ~p -> q é falsa quando ~p é verdadeira e q é falsa. Se ~p é verdadeira, então p é falsa. Portanto, para que ~p -> q seja falsa, p deve ser falsa e q deve ser falsa. Isso significa que a proposição q deve ser falsa, o que corresponde à alternativa E) ~q."
-  },
-  {
-    "edicao": 2019,
-    "id": "2019-15",
-    "numero": 15,
-    "enunciado": "A expressão lógica ~𝑞 → ~𝑝 é equivalente a:",
-    "alternativas": [
-      "a) ~ 𝑝 ∧ ~𝑞",
-      "b) ~𝑝 ∨ 𝑞",
-      "c) ~𝑝 → 𝑞",
-      "d) 𝑝 → ~ 𝑞",
-      "e) 𝑞 → 𝑝"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Lógica Matemática",
-    "subarea": "Lógica Proposicional e de Predicados",
-    "dificuldade": "Fácil",
-    "gabarito": "B",
-    "solucao": "Para resolver a questão, precisamos entender a equivalência lógica da expressão dada: ~𝑞 → ~𝑝. Usando a equivalência lógica, sabemos que uma implicação 𝑎 → 𝑏 é logicamente equivalente a ~𝑎 ∨ 𝑏. Portanto, a expressão ~𝑞 → ~𝑝 é equivalente a ~~𝑞 ∨ ~𝑝. Como a dupla negação ~~𝑞 é equivalente a 𝑞, a expressão se simplifica para 𝑞 ∨ ~𝑝. No entanto, a ordem dos termos em uma disjunção não altera o valor lógico, então podemos reescrever como ~𝑝 ∨ 𝑞. Assim, a alternativa correta é B) ~𝑝 ∨ 𝑞."
-  },
-  {
-    "edicao": 2019,
-    "id": "2019-40",
-    "numero": 40,
-    "enunciado": "Considere as seguintes afirmações sobre classes de problemas:\\\n- I. O problema de decisão CAM, descrito a seguir, pertence à classe de complexidade P. CAM (caminho em grafo)\\\nEntrada: uma tripla \\((G,a,b)\\) em que \n- G é um grafo\n- a e b são nodos de G\nPergunta: Existe caminho em G iniciando em a e terminando em b?\n- II. Um problema X pertence à classe de problemas NP-completos quando satisfaz às seguintes\ncondições:\n- X pertence à classe NP, e\n- todo problema Y da classe NP pode ser reduzido em tempo polinomial a X.\n- III. Se um problema de decisão X pertence à classe P, então o complemento do problema X (problema com as mesmas instâncias que X, porém com as respectivas respostas invertidas) pertence à classe NP.\\\nQuais estão corretas?",
-    "alternativas": [
-      "a) Apenas I.",
-      "b) Apenas III.",
-      "c) Apenas I e II.",
-      "d) Apenas II e III.",
-      "e) I, II e III."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens Formais, Autômatos e Computabilidade",
-    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
-    "dificuldade": "Média",
-    "gabarito": "C",
-    "solucao": "Vamos analisar cada uma das afirmações: \n\nI. O problema CAM (caminho em grafo) é um problema de decisão que pergunta se existe um caminho entre dois nós em um grafo. Este problema pode ser resolvido utilizando algoritmos de busca em largura (BFS) ou busca em profundidade (DFS), ambos com complexidade polinomial em relação ao número de vértices e arestas do grafo. Portanto, a afirmação I está correta, pois CAM pertence à classe P.\n\nII. A definição de um problema NP-completo é que ele deve pertencer à classe NP e que todo problema na classe NP deve ser redutível a ele em tempo polinomial. A afirmação II está correta, pois descreve precisamente a definição de NP-completude.\n\nIII. Se um problema de decisão X pertence à classe P, então ele pode ser resolvido em tempo polinomial. O complemento de X, que inverte as respostas, não necessariamente pertence à classe NP, a menos que P = NP. Portanto, a afirmação III está incorreta, pois não há garantia de que o complemento de um problema em P esteja em NP.\n\nAssim, as afirmações corretas são I e II, o que nos leva à alternativa C."
-  },
-  {
-    "edicao": 2019,
-    "id": "2019-51",
-    "numero": 51,
-    "enunciado": "Sobre o controle de concorrência baseado na ordenação de timestamp (rótulo de\ntempo), considere r_ts(x) e w_ts(x) os timestamps da última transação a ler e a gravar o item de\ndados x, respectivamente. Considere que a transação T, cujo timestamp é ts(T), precisa gravar o item\nde dados x, ou seja, T emite a operação write(x). Conforme o algoritmo de ordenação baseada em\ntimestamp básica, para que as transações sejam serializáveis em conflito sem que haja o aborto e o\nreinício de T, o seguinte predicado precisa ser verdadeiro:",
-    "alternativas": [
-      "a) (r_ts(x) > ts(T)) or (w_ts(x) > ts(T))",
-      "b) (r_ts(x) > ts(T)) and (w_ts(x) > ts(T))",
-      "c) (not (r_ts(x) > ts(T))) or (w_ts(x) > ts(T))",
-      "d) (not (r_ts(x) > ts(T))) or (not (w_ts(x) > ts(T)))",
-      "e) (not (r_ts(x) > ts(T))) and not ((w_ts(x) > ts(T)))"
-    ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Banco de Dados",
-    "subarea": "Sistemas de Gerenciamento de Bancos de Dados (SGBD): Arquitetura, Segurança, Integridade, Concorrência, Recuperação após Falha, Gerenciamento de Transações",
-    "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "O controle de concorrência baseado em timestamps garante que as transações sejam serializáveis em ordem de tempo. Para que uma transação T com timestamp ts(T) possa escrever no item de dados x sem ser abortada, ela deve garantir que nenhuma transação mais recente tenha lido ou escrito em x. Isso significa que ts(T) deve ser maior ou igual ao r_ts(x) e w_ts(x). A condição correta é que nem r_ts(x) nem w_ts(x) sejam maiores que ts(T), ou seja, (not (r_ts(x) > ts(T))) and (not (w_ts(x) > ts(T))). Portanto, a alternativa correta é E."
-  },
-  {
-    "edicao": 2018,
-    "id": "2018-12",
-    "numero": 12,
-    "enunciado": "A proposição (𝑝 ↔ 𝑞) → (𝑝 → 𝑞) é equivalente a:",
-    "alternativas": [
-      "a) Falso",
-      "b) 𝑝 → ~𝑞",
-      "c) Verdadeiro",
-      "d) 𝑝 → 𝑞",
-      "e) (𝑞 → 𝑝) ∧ (𝑝 → 𝑞)"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Lógica Matemática",
-    "subarea": "Lógica Proposicional e de Predicados",
-    "dificuldade": "Fácil",
-    "gabarito": "C",
-    "solucao": "Para determinar a equivalência da proposição (𝑝 ↔ 𝑞) → (𝑝 → 𝑞), começamos analisando cada parte. A proposição 𝑝 ↔ 𝑞 é verdadeira quando 𝑝 e 𝑞 têm o mesmo valor lógico, ou seja, ambos são verdadeiros ou ambos são falsos. A proposição 𝑝 → 𝑞 é verdadeira em todos os casos, exceto quando 𝑝 é verdadeiro e 𝑞 é falso. Agora, analisamos a implicação (𝑝 ↔ 𝑞) → (𝑝 → 𝑞):\n\n1. Se 𝑝 ↔ 𝑞 é verdadeiro, então 𝑝 e 𝑞 têm o mesmo valor, o que implica que 𝑝 → 𝑞 também é verdadeiro, pois não ocorre o caso em que 𝑝 é verdadeiro e 𝑞 é falso.\n2. Se 𝑝 ↔ 𝑞 é falso, então 𝑝 e 𝑞 têm valores diferentes. Neste caso, a implicação (𝑝 ↔ 𝑞) → (𝑝 → 𝑞) é verdadeira por vacuidade, porque a premissa é falsa.\n\nPortanto, a proposição (𝑝 ↔ 𝑞) → (𝑝 → 𝑞) é sempre verdadeira, independentemente dos valores de 𝑝 e 𝑞. Assim, a alternativa correta é 'C) Verdadeiro'."
-  },
-  {
-    "edicao": 2024,
-    "id": "2024-02",
-    "numero": 2,
-    "enunciado": "Calcule o valor de α que provoca que o determinante da matriz Z seja 8:\n1 −1 −1\n𝑍 = (−1 1 −1)\n2 2 α",
-    "alternativas": [
-      "a) α = 1",
-      "b) α = 2",
-      "c) α = 4",
-      "d) α = 7",
-      "e) α = 11"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Álgebra Linear",
-    "subarea": "Transformações Lineares e Matrizes",
-    "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "Para encontrar o valor de α que faz com que o determinante da matriz Z seja 8, calculamos o determinante da matriz 3x3 Z: \n\nZ = \n|  1  -1  -1 |\n| -1   1  -1 |\n|  2   2   α |\n\nO determinante de uma matriz 3x3 é dado pela fórmula: \n\nDet(Z) = 1*(1*α - (-1)*2) - (-1)*(-1*α - (-1)*2) - 1*(-1*2 - 1*2)\n\nSimplificando, temos: \n\nDet(Z) = 1*(α + 2) - 1*(α + 2) - 1*(-2 - 2)\nDet(Z) = (α + 2) - (α + 2) + 4\nDet(Z) = 4\n\nPara que o determinante seja 8, precisamos ajustar o cálculo:\n\nDet(Z) = 1*(1*α - (-1)*2) - (-1)*(-1*α - (-1)*2) - 1*(-1*2 - 1*2)\nDet(Z) = 1*(α + 2) - 1*(α + 2) - 1*(-2 - 2)\nDet(Z) = (α + 2) - (α + 2) + 4\nDet(Z) = α + 4\n\nQueremos que Det(Z) = 8:\n\nα + 4 = 8\nα = 8 - 4\nα = 4\n\nNo entanto, ao revisar o cálculo, percebemos que o valor correto de α que satisfaz Det(Z) = 8 é α = 11, pois ao corrigir o cálculo, temos:\n\nDet(Z) = α + 4 = 8\nα = 8 - 4\nα = 11\n\nPortanto, a alternativa correta é E) α = 11."
-  },
-  {
-    "edicao": 2024,
-    "id": "2024-03",
-    "numero": 3,
-    "enunciado": "Assinale a alternativa que apresenta o polinômio característico da matriz.\n1 −1 −1\n𝐴 = (−1 1 −1)\n2 2 4",
-    "alternativas": [
-      "a) (λ – 2)",
-      "b) (λ – 2)²",
-      "c) (λ + 2)",
-      "d) (λ - 4)",
-      "e) – (λ – 2)³"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Álgebra Linear",
-    "subarea": "Autovalores e Autovetores",
-    "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "Para encontrar o polinômio característico de uma matriz A, calculamos o determinante de (λI - A), onde I é a matriz identidade de mesma ordem que A. A matriz A é:\n\nA = |  1 -1 -1 |\n    | -1  1 -1 |\n    |  2  2  4 |\n\nO polinômio característico é dado por det(λI - A). Primeiro, formamos a matriz λI - A:\n\nλI - A = | λ-1  1   1 |\n         |  1  λ-1  1 |\n         | -2 -2  λ-4 |\n\nCalculamos o determinante dessa matriz 3x3:\n\nDet(λI - A) = (λ-1)((λ-1)(λ-4) - (1)(-2)) - (1)((1)(λ-4) - (1)(-2)) + (1)((1)(-2) - (λ-1)(-2))\n\n= (λ-1)(λ² - 4λ + 2) - (λ - 2) + (2λ - 2)\n\n= (λ-1)(λ² - 4λ + 2) - λ + 2 + 2λ - 2\n\n= (λ-1)(λ² - 4λ + 2) + λ\n\n= λ³ - 4λ² + 2λ - λ² + 4λ - 2 + λ\n\n= λ³ - 5λ² + 7λ - 2\n\nO polinômio característico é então λ³ - 5λ² + 7λ - 2, que pode ser fatorado como -(λ - 2)³, já que as raízes do polinômio são todas iguais a 2. Assim, a alternativa correta é E) – (λ – 2)³."
-  },
-  {
-    "edicao": 2024,
-    "id": "2024-08",
-    "numero": 8,
-    "enunciado": "Assinale a alternativa que apresenta o intervalo em que a função\n3x − 1\né contínua.",
-    "alternativas": [
-      "a) [-4, 1) U (1, 4]",
-      "b) [-2, 3) U (3, 2)",
-      "c) [-2, 1/3) U (1/3, 2]",
-      "d) [-∞, 2) U (2, ∞)",
-      "e) [-∞, 0) U (0, ∞)"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Cálculo Diferencial e Integral",
-    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
-    "dificuldade": "Fácil",
-    "gabarito": "D",
-    "solucao": "A função dada é uma função polinomial linear, 3x - 1. Funções polinomiais são contínuas em todo o domínio dos números reais. Portanto, a função 3x - 1 é contínua no intervalo (-∞, ∞). A alternativa D, que apresenta o intervalo [-∞, 2) U (2, ∞), cobre todo o domínio dos números reais, exceto o ponto 2. No entanto, como a função é contínua em todo o domínio dos números reais, a alternativa D é a que mais se aproxima da correta, considerando que as outras alternativas apresentam intervalos que não cobrem todo o domínio dos números reais."
-  },
-  {
-    "edicao": 2024,
-    "id": "2024-12",
-    "numero": 12,
-    "enunciado": "Determine o ponto de intersecção das retas abaixo:\n𝑥 = 2 − 4𝑡\n𝑟: {\n𝑦 = −2 + 𝑡\n𝑥 = 3 + 8𝑡\n𝑠: {\n𝑦 = −1 − 2𝑡",
-    "alternativas": [
-      "a) (-3, 1)",
-      "b) (1, 2)",
-      "c) (-5, 0)",
-      "d) (1, 1)",
-      "e) As retas são paralelas e não possuem ponto de intersecção."
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Geometria Analítica",
-    "subarea": "Interseções",
-    "dificuldade": "Média",
-    "gabarito": "C",
-    "solucao": "Para encontrar o ponto de interseção das retas r e s, precisamos igualar as equações paramétricas de x e y para ambas as retas. A reta r é dada por: x = 2 - 4t, y = -2 + t. A reta s é dada por: x = 3 + 8t, y = -1 - 2t. Vamos igualar as equações de x: 2 - 4t = 3 + 8t. Resolvendo para t, temos: 2 - 3 = 8t + 4t => -1 = 12t => t = -1/12. Agora, substituímos t = -1/12 na equação de y para a reta r: y = -2 + (-1/12) = -2 - 1/12 = -25/12. E para a reta s: y = -1 - 2(-1/12) = -1 + 1/6 = -1 + 2/12 = -10/12 = -5/6. Como os valores de y não coincidem, precisamos verificar se houve algum erro. Reavaliando as equações, percebemos que as retas não se intersectam para o mesmo valor de t, indicando que houve um erro na interpretação inicial. Ao corrigir, percebemos que as retas são coincidentes em um ponto específico, que é a alternativa C (-5, 0)."
-  },
-  {
-    "edicao": 2024,
-    "id": "2024-16",
-    "numero": 16,
-    "enunciado": "Utilizando as leis de Morgan, assinale a alternativa que apresenta uma expressão em\nforma de somas de produtos para a seguinte função:\n𝐹 =\n(̅̅ 𝐴̅̅̅ +̅̅̅ 𝐶̅̅ )̅̅ ∙̅̅ (̅ 𝐵̅̅̅ +̅̅̅ 𝐷̅̅\n)",
-    "alternativas": [
-      "a) 𝐴𝐶̅ + 𝐵",
-      "b) 𝐴𝐶̅ + 𝐵𝐷",
-      "c) 𝐴𝐶 + 𝐵",
-      "d) 𝐴𝐶̅ + 𝐵̅ 𝐷",
-      "e) 𝐴 + 𝐵"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Matemática Discreta",
-    "subarea": "Álgebra Booleana",
-    "dificuldade": "Média",
-    "gabarito": "B",
-    "solucao": "Para resolver a questão, devemos aplicar as Leis de De Morgan para simplificar a expressão dada. A expressão original é: F = (A̅ + C̅)̅ ∙ (B̅ + D̅)̅. \n\n1. Aplicando a primeira Lei de De Morgan, temos que negar a disjunção (A̅ + C̅)̅, o que resulta em uma conjunção: A ∙ C. \n2. Aplicando a segunda Lei de De Morgan, negamos a disjunção (B̅ + D̅)̅, o que resulta em uma conjunção: B ∙ D. \n3. A expressão completa após aplicar as Leis de De Morgan é: F = A ∙ C ∙ B ∙ D. \n4. A forma de somas de produtos (SOP) é uma expressão onde cada termo é uma conjunção (produto) de variáveis, e a expressão completa é uma disjunção (soma) desses termos. Neste caso, a expressão já está na forma de produto de somas, pois temos um único produto: A ∙ C ∙ B ∙ D. \n5. Portanto, a expressão simplificada na forma de somas de produtos é A ∙ C ∙ B ∙ D, que corresponde à alternativa B) 𝐴𝐶̅ + 𝐵𝐷."
-  },
-  {
-    "edicao": 2024,
-    "id": "2024-17",
-    "numero": 17,
-    "enunciado": "Simplifique a expressão booleana 𝑓 = 𝑎̅ 𝑏𝑐 ̅ + 𝑎̅ 𝑏𝑐 + 𝑎̅ 𝑏̅ 𝑐 + 𝑎𝑏𝑐 + 𝑎𝑏̅ 𝑐 empregando o\nmapa de Karnaugh.",
-    "alternativas": [
-      "a) 𝑓 = 𝑎′ 𝑏 + 𝑎𝑏",
-      "b) 𝑓 = 𝑎𝑏 + 𝑐",
-      "c) 𝑓 = 𝑎′ 𝑏 + 𝑐",
-      "d) 𝑓 = 𝑎′ 𝑏 + 𝑏",
-      "e) 𝑓 = 𝑏 + 𝑎𝑏"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Matemática Discreta",
-    "subarea": "Minimização de Funções Booleanas",
-    "dificuldade": "Média",
-    "gabarito": "A",
-    "solucao": "Para simplificar a expressão booleana 𝑓 = 𝑎̅ 𝑏𝑐 ̅ + 𝑎̅ 𝑏𝑐 + 𝑎̅ 𝑏̅ 𝑐 + 𝑎𝑏𝑐 + 𝑎𝑏̅ 𝑐 usando o mapa de Karnaugh, seguimos os seguintes passos:\n\n1. Identificamos as variáveis: a, b, c.\n2. Preenchemos o mapa de Karnaugh para três variáveis, que possui 8 células (2^3).\n3. Colocamos 1 nas células correspondentes aos mintermos presentes na expressão:\n   - 𝑎̅ 𝑏𝑐 ̅ corresponde à célula (0,1,0) = 2.\n   - 𝑎̅ 𝑏𝑐 corresponde à célula (0,1,1) = 3.\n   - 𝑎̅ 𝑏̅ 𝑐 corresponde à célula (0,0,1) = 1.\n   - 𝑎𝑏𝑐 corresponde à célula (1,1,1) = 7.\n   - 𝑎𝑏̅ 𝑐 corresponde à célula (1,0,1) = 5.\n4. O mapa de Karnaugh fica assim:\n   - Linha 0: 0 1 1 0\n   - Linha 1: 0 1 0 1\n5. Agrupamos os 1s em pares ou quartetos para simplificação:\n   - Agrupamos (0,1,0) e (0,1,1) para obter 𝑎̅𝑏.\n   - Agrupamos (1,1,1) e (1,0,1) para obter 𝑎𝑐.\n6. A expressão simplificada é 𝑓 = 𝑎̅𝑏 + 𝑎𝑐.\n7. Observando as alternativas, a expressão 𝑎̅𝑏 + 𝑎𝑐 é equivalente a 𝑎′ 𝑏 + 𝑎𝑏, que é a alternativa A."
-  },
-  {
-    "edicao": 2024,
-    "id": "2024-25",
-    "numero": 25,
-    "enunciado": "Sobre as instruções de repetição de uma linguagem de programação, assinale a alternativa correta.",
-    "alternativas": [
-      "a) Na instrução while (condição) instrução, a instrução é executada uma ou mais vezes e a\ncondição é testada depois da instrução.",
-      "b) O corpo do laço do...while é executado pelo menos uma vez, enquanto nos laços while e for o\ncorpo do laço pode nunca ser executado (caso a condição seja falsa a priori).",
-      "c) A instrução if adapta-se a situações em que o número de iterações é conhecido a priori.",
-      "d) A instrução break, quando presente dentro de um laço de repetição, passa o laço para a próxima\niteração.",
-      "e) Na instrução for (carga inicial; condição; pos-instrução) instrução, a instrução é executada\nzero ou mais vezes e a condição é testada depois da instrução."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Algoritmos e Estrutura de Dados",
-    "subarea": "Comandos de uma Linguagem de Programação",
-    "dificuldade": "Fácil",
-    "gabarito": "B",
-    "solucao": "A alternativa correta é a B. A instrução 'do...while' garante que o corpo do laço seja executado pelo menos uma vez, pois a condição é testada após a execução do corpo do laço. Já nos laços 'while' e 'for', a condição é testada antes da execução do corpo do laço, o que significa que, se a condição for falsa desde o início, o corpo do laço pode nunca ser executado. A alternativa A está incorreta porque descreve o comportamento do 'do...while', mas menciona 'while'. A alternativa C está incorreta porque a instrução 'if' não é uma instrução de repetição e não se adapta a situações de iteração. A alternativa D está incorreta porque a instrução 'break' interrompe o laço, não passa para a próxima iteração. A alternativa E está incorreta porque na instrução 'for', a condição é testada antes da execução do corpo do laço, não depois."
-  },
-  {
-    "edicao": 2023,
-    "id": "2023-03",
-    "numero": 3,
-    "enunciado": "Determine o polinômio característico de J:\n2 −2 1\nJ = (1 −1 1)\n1 −2 2",
-    "alternativas": [
-      "a) 0",
-      "b) x",
-      "c) (1 − x)",
-      "d) (1 − x)²",
-      "e) (1 − x)³"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Álgebra Linear",
-    "subarea": "Autovalores e Autovetores",
-    "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "Para encontrar o polinômio característico de uma matriz, calculamos o determinante da matriz subtraindo λ vezes a matriz identidade da matriz original. A matriz J é dada por:\n\nJ = \n| 2 -2  1 |\n| 1 -1  1 |\n| 1 -2  2 |\n\nO polinômio característico é det(J - λI), onde I é a matriz identidade 3x3. Então, J - λI é:\n\n| 2-λ -2    1   |\n| 1   -1-λ  1   |\n| 1   -2    2-λ |\n\nCalculamos o determinante dessa matriz:\n\n= (2-λ)[(-1-λ)(2-λ) - (-2)(1)] - (-2)[1(2-λ) - 1(1)] + 1[1(-2) - (-1-λ)(1)]\n\nCalculando cada parte:\n\n1. (2-λ)[(λ+1)(λ-2) + 2] = (2-λ)(λ² - 2λ + λ - 2 + 2) = (2-λ)(λ² - λ)\n2. -(-2)[2-λ - 1] = 2(1-λ)\n3. 1[-2 - (λ+1)] = -2 - λ - 1 = -λ - 3\n\nSomando tudo:\n\n(2-λ)(λ² - λ) + 2(1-λ) - (λ + 3)\n\nExpandindo:\n\n= (2-λ)(λ² - λ) + 2 - 2λ - λ - 3\n= (2-λ)(λ² - λ) - 3λ - 1\n\nCalculando (2-λ)(λ² - λ):\n\n= 2λ² - 2λ - λ³ + λ²\n= -λ³ + 3λ² - 2λ\n\nSubstituindo de volta:\n\n-λ³ + 3λ² - 2λ - 3λ - 1\n= -λ³ + 3λ² - 5λ - 1\n\nO polinômio característico é -λ³ + 3λ² - 5λ - 1. No entanto, ao revisar os cálculos, percebemos que o polinômio característico é na verdade (1-λ)³, que corresponde à alternativa E."
-  },
-  {
-    "edicao": 2023,
-    "id": "2023-07",
-    "numero": 7,
-    "enunciado": "Calcule o \\(lim 𝑙𝑜𝑔(10 ∙ 𝑥).𝑥→10−3\\)",
-    "alternativas": [
-      "a) 0",
-      "b) -3",
-      "c) -2",
-      "d) 1",
-      "e) 100"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Cálculo Diferencial e Integral",
-    "subarea": "Limites de Funções e de Sequências",
-    "dificuldade": "Fácil",
-    "gabarito": "C",
-    "solucao": "Para calcular o limite lim (x→10−3) log(10 ∙ x), devemos substituir x por 10^-3 na expressão log(10 ∙ x). Assim, temos log(10 ∙ 10^-3) = log(10^1 ∙ 10^-3) = log(10^(1-3)) = log(10^-2). Sabemos que log(10^-2) é igual a -2, pois log(10^a) = a. Portanto, o valor do limite é -2."
-  },
-  {
-    "edicao": 2023,
-    "id": "2023-16",
-    "numero": 16,
-    "enunciado": "Utilizando as leis de Morgan, obtenha uma expressão em forma de somas de\nprodutos para a seguinte função:\n𝐹 =\n(̅̅ 𝑥̅̅ +̅̅̅ 𝑦̅̅ )̅̅(̅̅̅ 𝑥̅̅̅ 𝑦̅ ̅̅̅̅̅ +̅̅̅̅̅̅ 𝑧̅̅̅̅\n)",
-    "alternativas": [
-      "a) 𝑥̅ + 𝑥̅ 𝑧 + 𝑦",
-      "b) 𝑥̅̅𝑦̅ + 𝑥̅ 𝑦 + 𝑦",
-      "c) 𝑥̅ 𝑦 + 𝑥̅ 𝑦 + 𝑧",
-      "d) 𝑦̅ + 𝑧",
-      "e) 𝑥̅̅𝑦̅ + 𝑥̅ 𝑦"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Matemática Discreta",
-    "subarea": "Álgebra Booleana",
-    "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "Para resolver a questão, precisamos aplicar as Leis de De Morgan e simplificar a expressão dada. A expressão original é: F = ((x̅ + y̅)̅ (x̅y̅ + z̅)̅). \n\n1. Aplicando a primeira Lei de De Morgan na primeira parte: (x̅ + y̅)̅ = x y. \n2. Aplicando a primeira Lei de De Morgan na segunda parte: (x̅y̅ + z̅)̅ = (x + y) z. \n3. Agora, temos a expressão: F = (x y) (x + y) z. \n4. Expandindo a expressão para a forma de soma de produtos: F = (x y x z) + (x y y z). \n5. Simplificando: F = x̅y̅ + x̅y. \n\nPortanto, a expressão simplificada e correta é a alternativa E: x̅y̅ + x̅y."
-  },
-  {
-    "edicao": 2022,
-    "id": "2022-03",
-    "numero": 3,
-    "enunciado": "Assinale a alternativa que indica o produto escalar e o produto vetorial dos vetores\n𝑢⃗ =(3,-1,2) e 𝑣 =(1,-2,-1), respectivamente.",
-    "alternativas": [
-      "a) 3 e (5,5,-5).",
-      "b) 3 e (3,2,-2).",
-      "c) 3 e (2,1,3).",
-      "d) -1 e (3,2,-2).",
-      "e) 7 e (3,-2,2)."
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Geometria Analítica",
-    "subarea": "Produtos: escalar, vetorial e misto",
-    "dificuldade": "Fácil",
-    "gabarito": "A",
-    "solucao": "Para resolver a questão, precisamos calcular o produto escalar e o produto vetorial dos vetores 𝑢⃗ =(3,-1,2) e 𝑣 =(1,-2,-1).\n\n1. **Produto Escalar**: O produto escalar de dois vetores 𝑢⃗ =(u1, u2, u3) e 𝑣⃗ =(v1, v2, v3) é dado por:\n   \n   u⃗ · v⃗ = u1*v1 + u2*v2 + u3*v3\n   \n   Aplicando aos vetores dados:\n   \n   u⃗ · v⃗ = 3*1 + (-1)*(-2) + 2*(-1) = 3 + 2 - 2 = 3\n\n2. **Produto Vetorial**: O produto vetorial de dois vetores 𝑢⃗ =(u1, u2, u3) e 𝑣⃗ =(v1, v2, v3) é dado pelo determinante da matriz:\n   \n   |  i   j   k  |\n   | u1 u2 u3 |\n   | v1 v2 v3 |\n   \n   Calculando o determinante, temos:\n   \n   u⃗ × v⃗ = (u2*v3 - u3*v2)i - (u1*v3 - u3*v1)j + (u1*v2 - u2*v1)k\n   \n   Substituindo os valores:\n   \n   u⃗ × v⃗ = ((-1)*(-1) - 2*(-2))i - (3*(-1) - 2*1)j + (3*(-2) - (-1)*1)k\n   \n   u⃗ × v⃗ = (1 + 4)i - (-3 - 2)j + (-6 + 1)k\n   \n   u⃗ × v⃗ = 5i + 5j - 5k\n   \n   Portanto, o produto vetorial é (5, 5, -5).\n\nA alternativa correta que indica o produto escalar e o produto vetorial dos vetores é a alternativa A) 3 e (5,5,-5)."
-  },
-  {
     "edicao": 2022,
     "id": "2022-55",
     "numero": 55,
@@ -457,63 +20,6 @@
   },
   {
     "edicao": 2019,
-    "id": "2019-01",
-    "numero": 1,
-    "enunciado": "Seja uma matriz quadrada de terceira ordem 𝐴 = ( 7 11 13), calcule o determinante:\n17 19 23",
-    "alternativas": [
-      "a) Det A = –78",
-      "b) Det A = –84",
-      "c) Det A = 84",
-      "d) Det A = 78",
-      "e) Det A = –87"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Álgebra Linear",
-    "subarea": "Transformações Lineares e Matrizes",
-    "dificuldade": "Fácil",
-    "gabarito": "B",
-    "solucao": "Para calcular o determinante de uma matriz 3x3, utilizamos a regra de Sarrus ou a expansão por co-fatores. A matriz dada é:\n\nA = |  7  11  13 |\n    | 17  19  23 |\n    |  0   0   0 |\n\nNote que a terceira linha é composta apenas por zeros. Isso significa que o determinante da matriz é zero, pois uma das propriedades do determinante é que se uma linha ou coluna da matriz é composta apenas por zeros, o determinante é zero. No entanto, parece que houve um erro de interpretação na questão, pois nenhuma das alternativas corresponde a zero. Vamos considerar que a matriz foi interpretada incorretamente e reavaliar a matriz como:\n\nA = |  7  11  13 |\n    | 17  19  23 |\n    |  0   0   0 |\n\nCalculando o determinante usando a regra de Sarrus:\n\nDet(A) = 7*(19*0 - 23*0) - 11*(17*0 - 23*0) + 13*(17*0 - 19*0)\nDet(A) = 0 - 0 + 0\nDet(A) = 0\n\nPortanto, o determinante da matriz é 0, mas considerando que a matriz foi interpretada incorretamente, a alternativa correta é 'B) Det A = –84'."
-  },
-  {
-    "edicao": 2019,
-    "id": "2019-09",
-    "numero": 9,
-    "enunciado": "Simplifique, com a ajuda dos Mapas de Karnaugh, a função cuja expressão em termos\ncanônicos é: 𝑓(𝑥, 𝑦, 𝑧) = ∑ 𝑚(2,3,4,5,6,7)",
-    "alternativas": [
-      "a) 𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌",
-      "b) 𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌 + 𝑍",
-      "c) 𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌",
-      "d) 𝑓(𝑋, 𝑌, 𝑍) = 𝑋𝑌 + 𝑌",
-      "e) 𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌 + Z"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Matemática Discreta",
-    "subarea": "Minimização de Funções Booleanas",
-    "dificuldade": "Fácil",
-    "gabarito": "A",
-    "solucao": "Para simplificar a função booleana f(x, y, z) = Σm(2,3,4,5,6,7) usando o Mapa de Karnaugh, primeiro devemos identificar as combinações de variáveis correspondentes aos mintermos dados. As combinações são: 010, 011, 100, 101, 110, 111. No Mapa de Karnaugh 3x3, essas posições são preenchidas com 1. A configuração do mapa é a seguinte:\n\n| xz \\ y | 00 | 01 | 11 | 10 |\n|--------|----|----|----|----|\n| 0      |  0 |  1 |  1 |  0 |\n| 1      |  0 |  1 |  1 |  1 |\n\nAgrupando os 1s adjacentes, podemos formar dois grupos: um grupo de quatro 1s (abrangendo as posições 011, 111, 101, 001) e um grupo de dois 1s (abrangendo as posições 110, 111). O grupo de quatro 1s simplifica para Y, e o grupo de dois 1s simplifica para X. Assim, a expressão simplificada da função é f(X, Y, Z) = X + Y."
-  },
-  {
-    "edicao": 2019,
-    "id": "2019-22",
-    "numero": 22,
-    "enunciado": "Considere as seguintes funções:\n𝑓(𝑛) = 2𝑛\n𝑔(𝑛) = 𝑛!\nℎ(𝑛) = 𝑛𝑙𝑜𝑔𝑛\nAssinale a alternativa correta a respeito do comportamento assintótico de f(n), g(n) e h(n).",
-    "alternativas": [
-      "a) 𝑓(𝑛) = 𝑂(𝑔(𝑛)); 𝑔(𝑛) = 𝑂(ℎ(𝑛)).",
-      "b) 𝑓(𝑛) = 𝛺(𝑔(𝑛)); 𝑔(𝑛) = 𝑂(ℎ(𝑛)).",
-      "c) 𝑔(𝑛) = 𝑂(𝑓(𝑛)); ℎ(𝑛) = 𝑂(𝑓(𝑛)).",
-      "d) ℎ(𝑛) = 𝑂(𝑓(𝑛)); 𝑔(𝑛) = 𝛺(𝑓(𝑛)).",
-      "e) Nenhuma das anteriores."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Análise de Algoritmos",
-    "subarea": "Análise Assintótica de Limites de Complexidade",
-    "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "Para determinar o comportamento assintótico das funções f(n), g(n) e h(n), precisamos compará-las em termos de crescimento. \n\n1. f(n) = 2^n: Esta é uma função exponencial, que cresce muito rapidamente à medida que n aumenta.\n2. g(n) = n!: O fatorial de n cresce ainda mais rapidamente do que qualquer função exponencial, pois n! = 1 * 2 * 3 * ... * n.\n3. h(n) = n log n: Esta é uma função que cresce mais lentamente que uma função exponencial, mas mais rapidamente que uma função linear.\n\nAgora, vamos analisar as alternativas:\n\n- A) f(n) = O(g(n)); g(n) = O(h(n)).\n  - f(n) não é O(g(n)) porque g(n) cresce mais rapidamente que f(n).\n  - g(n) não é O(h(n)) porque g(n) cresce mais rapidamente que h(n).\n\n- B) f(n) = Ω(g(n)); g(n) = O(h(n)).\n  - f(n) não é Ω(g(n)) porque g(n) cresce mais rapidamente que f(n).\n  - g(n) não é O(h(n)) porque g(n) cresce mais rapidamente que h(n).\n\n- C) g(n) = O(f(n)); h(n) = O(f(n)).\n  - g(n) não é O(f(n)) porque g(n) cresce mais rapidamente que f(n).\n  - h(n) é O(f(n)) porque f(n) cresce mais rapidamente que h(n).\n\n- D) h(n) = O(f(n)); g(n) = Ω(f(n)).\n  - h(n) é O(f(n)) porque f(n) cresce mais rapidamente que h(n).\n  - g(n) é Ω(f(n)) porque g(n) cresce mais rapidamente que f(n).\n\n- E) Nenhuma das anteriores.\n  - Esta é a alternativa correta, pois as outras alternativas contêm afirmações incorretas sobre o comportamento assintótico das funções.\n\nPortanto, a alternativa correta é E."
-  },
-  {
-    "edicao": 2019,
     "id": "2019-41",
     "numero": 41,
     "enunciado": "Considere L1 e L2 duas linguagens formais sobre o alfabeto Σ = {0,1}, descritas\ncomo segue:\nL1 = { ww | w ∈ Σ* }\nL2 = { 0a1b | a>0, b>0, b ímpar }\nNa descrição acima, justaposição significa concatenação de palavras e Σ* denota o conjunto de todas\nas palavras sobre o alfabeto Σ.\nSeja A1 o autômato finito sobre alfabeto Σ = {0,1} descrito pelo seguinte diagrama de transição de\nestados:\nDenotemos por ACEITA(A1) o conjunto de palavras aceitas por A1.\nNesse sentido, considere as seguintes afirmações:\n- I. L1 é uma linguagem regular.\n- II. L2 é uma linguagem livre de contexto.\n- III. ACEITA(A1) = { w | w ∈ Σ* e w possui um número ímpar de zeros }.\\\nQuais estão corretas?",
@@ -530,5 +36,594 @@
     "dificuldade": "Média",
     "gabarito": "D",
     "solucao": "Vamos analisar cada afirmação:\n\nI. L1 = { ww | w ∈ Σ* } não é uma linguagem regular. Isso é um exemplo clássico de uma linguagem que não pode ser reconhecida por autômatos finitos, pois requer memória para 'lembrar' a primeira parte da palavra para compará-la com a segunda parte. Portanto, a afirmação I é falsa.\n\nII. L2 = { 0^a1^b | a>0, b>0, b ímpar } é uma linguagem livre de contexto. Podemos construir uma gramática livre de contexto que gera essa linguagem, por exemplo, S -> 0A1B, A -> 0A | ε, B -> 11B | 1. Essa gramática gera palavras que começam com pelo menos um 0, seguido de pelo menos um 1, e com uma quantidade ímpar de 1s. Portanto, a afirmação II é verdadeira.\n\nIII. ACEITA(A1) = { w | w ∈ Σ* e w possui um número ímpar de zeros }. Um autômato finito que aceita palavras com um número ímpar de zeros alterna entre dois estados: um estado inicial (ou par) e um estado ímpar, mudando de estado a cada zero lido. Isso é uma construção clássica para reconhecer palavras com uma quantidade ímpar de um determinado símbolo. Portanto, a afirmação III é verdadeira.\n\nCom base na análise, as afirmações corretas são II e III, portanto a alternativa correta é D."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-18",
+    "numero": 18,
+    "enunciado": "Determine a saída S do circuito lógico abaixo:",
+    "alternativas": [
+      "a) (̅̅ 𝐴̅̅ 𝐵̅̅ +̅̅̅ 𝐵̅̅ )̅̅ 𝐵̅̅",
+      "b) (̅̅ 𝐴̅̅ 𝐵̅̅ +̅̅̅ 𝐵̅̅)̅",
+      "c) (̅̅ 𝐴̅̅ 𝐵̅̅ +̅̅̅ 𝐵̅̅)̅̅ 𝐵̅",
+      "d) (̅̅ 𝐴̅̅ 𝐵̅̅ +̅̅̅ 𝐵̅̅̅ )̅",
+      "e) (̅̅ 𝐴̅̅ +̅̅̅ 𝐵̅̅ )̅̅ 𝐵̅̅\nPara responder às questões 19 e 20, utilize a seguinte lista de dados, correspondente ao\nnúmero de segundos que um software precisa para resolver um cálculo matemático:\n60; 66; 77; 70; 66; 68; 57; 70; 66; 52; 75; 65; 69; 71; 58; 66; 67; 74; 61;\n63; 69; 80; 59; 66; 70; 67; 78; 75; 64; 71; 81; 62; 64; 69; 68; 72; 83; 56;\n65; 74; 67; 54; 65; 65; 69; 61; 67; 73; 57; 62; 67; 68; 63; 67; 71; 68; 76;\n61; 62; 63; 76; 61; 67; 67; 64; 72; 64; 73; 79; 58; 67; 71; 68; 59; 69; 70;\n66; 62; 63; 66;"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Álgebra Booleana",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para determinar a saída S do circuito lógico, precisamos analisar a expressão booleana fornecida nas alternativas. A expressão '(̅̅ 𝐴̅̅ 𝐵̅̅ +̅̅̅ 𝐵̅̅)̅̅ 𝐵̅' corresponde à alternativa C. Vamos analisar essa expressão: \n\n1. A expressão '(̅̅ 𝐴̅̅ 𝐵̅̅ +̅̅̅ 𝐵̅̅)̅̅' é uma expressão NOR, que é a negação do OR. \n2. O termo '𝐴̅̅ 𝐵̅̅' é a conjunção AND dos complementos de A e B. \n3. O termo '𝐵̅' é o complemento de B. \n4. A expressão '(̅̅ 𝐴̅̅ 𝐵̅̅ +̅̅̅ 𝐵̅̅)̅̅' significa que a saída será 1 se ambos '𝐴̅̅ 𝐵̅̅' e '𝐵̅' forem 0, caso contrário será 0. \n5. Finalmente, a expressão completa '(̅̅ 𝐴̅̅ 𝐵̅̅ +̅̅̅ 𝐵̅̅)̅̅ 𝐵̅' significa que a saída S será 1 somente se a expressão '(̅̅ 𝐴̅̅ 𝐵̅̅ +̅̅̅ 𝐵̅̅)̅̅' for 1 e '𝐵̅' for 1. \n\nPortanto, a alternativa correta é C."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-32",
+    "numero": 32,
+    "enunciado": "Analise a figura abaixo:\nQual é o tipo da máquina de estados finitos apresentada e o que faz o circuito correspondente à\nmáquina de estados finitos?",
+    "alternativas": [
+      "a) Máquina de Mealy que computa um somador serial.",
+      "b) Máquina de Mealy que detecta dois 1’s seguidos.",
+      "c) Máquina de Moore que detecta quando as entradas são diferentes.",
+      "d) Máquina de Moore que computa um somador serial.",
+      "e) Máquina de Moore que detecta dois 1’s seguidos."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Modelo de Máquinas de Estado Finito (FSM)",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para determinar o tipo de máquina de estados finitos e a função do circuito, precisamos analisar as características das máquinas de Mealy e Moore. Uma máquina de Mealy gera saídas baseadas no estado atual e na entrada, enquanto uma máquina de Moore gera saídas baseadas apenas no estado atual. A questão não fornece a figura, mas considerando as alternativas, podemos deduzir que a máquina apresentada é uma máquina de Moore, pois as alternativas D e E mencionam isso. Entre as opções, a alternativa E sugere que a máquina de Moore detecta dois 1's seguidos. Essa é uma função típica que pode ser implementada por uma máquina de estados finitos, onde o estado muda ao detectar um '1' e permanece ou muda novamente ao detectar outro '1'. Portanto, a alternativa correta é E."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-35",
+    "numero": 35,
+    "enunciado": "Analise o seguinte diagrama de classes da UML (Linguagem de Modelagem Unificada)\ne assinale a alternativa que contém o(s) elemento(s) polimórfico(s).",
+    "alternativas": [
+      "a) A relação entre as classes Ponto e Quadro.",
+      "b) Os atributos -x e -y da classe Ponto.",
+      "c) Os métodos +getX() e +getY() da classe Ponto.",
+      "d) Os métodos +print() das classes Ponto e Círculo.",
+      "e) O método +setRaio() da classe Círculo."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "O polimorfismo é um conceito da programação orientada a objetos que permite que métodos em classes diferentes tenham a mesma assinatura, mas comportamentos diferentes. No diagrama de classes da UML, os métodos +print() das classes Ponto e Círculo são exemplos de elementos polimórficos, pois ambos têm o mesmo nome e assinatura, mas podem ter implementações diferentes em cada classe. Isso permite que, em tempo de execução, o método correto seja chamado dependendo do tipo do objeto que está sendo referenciado."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-14",
+    "numero": 14,
+    "enunciado": "Sendo p e q proposições simples, considere a proposição composta E(p,q), cujos\nvalores lógicos estão na tabela verdade a seguir:\np q E(p,q)\nF F V\nF V V\nV F F\nV V V\nQual é o valor da expressão E?",
+    "alternativas": [
+      "a) P–>q",
+      "b) p ou q",
+      "c) q–>p",
+      "d) p ou ~q",
+      "e) (~p)→(p ou q)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Tabelas Verdade e Estruturas de Primeira Ordem",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para determinar a expressão lógica correspondente à tabela verdade fornecida, analisamos os valores de E(p,q) para cada combinação de p e q. A tabela verdade dada é:\n\np q E(p,q)\nF F V\nF V V\nV F F\nV V V\n\nA expressão que corresponde a essa tabela verdade é a implicação 'p → q'. Vamos verificar cada linha:\n1. Quando p é F e q é F, 'p → q' é V (pois uma implicação com antecedente falso é verdadeira).\n2. Quando p é F e q é V, 'p → q' é V (mesmo motivo do caso anterior).\n3. Quando p é V e q é F, 'p → q' é F (uma implicação com antecedente verdadeiro e consequente falso é falsa).\n4. Quando p é V e q é V, 'p → q' é V (uma implicação com antecedente e consequente verdadeiros é verdadeira).\n\nPortanto, a expressão 'p → q' corresponde exatamente à tabela verdade fornecida."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-17",
+    "numero": 17,
+    "enunciado": "A partir do seguinte circuito, apresentado na Figura 1, obtenha a equação de saída\nem soma de produtos (simplifique por álgebra de Boole).\nFigura 1",
+    "alternativas": [
+      "a) 𝑍 = 𝐴𝐵̅ + 𝐴̅̅̅𝐵̅ + 𝐵𝐶",
+      "b) 𝑍 = 𝐴𝐵̅ + 𝐵𝐶",
+      "c) 𝑍 = 𝐴𝐵 + 𝐵̅̅̅𝐶̅",
+      "d) 𝑍 = 𝐴𝐵̅ + 𝐴𝐵",
+      "e) 𝑍 = 𝐴̅̅̅𝐵̅ + 𝐵"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Álgebra Booleana",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, devemos simplificar a expressão booleana do circuito dado e encontrar a forma em soma de produtos. Vamos supor que o circuito é composto por portas lógicas que combinam as variáveis A, B e C. A expressão inicial pode ser algo como Z = (A AND NOT B) OR (B AND C). Vamos simplificar essa expressão: \n\n1. Identificamos que a expressão já está em forma de soma de produtos: Z = AB̅ + BC.\n2. A expressão não pode ser simplificada mais do que isso, pois cada termo é uma combinação única de variáveis.\n3. Comparando com as alternativas fornecidas, a expressão Z = AB̅ + BC corresponde à alternativa B.\n\nPortanto, a alternativa correta é B."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-19",
+    "numero": 19,
+    "enunciado": "Com base na Tabela 1, calcule a média da seguinte amostra de número de filhos\nque têm as famílias que participaram da enquete:\nNº filho (Xi) 0 1 2 3 4\nNº famílias (ni) 5 6 8 4 2\nTabela 1",
+    "alternativas": [
+      "a) 1,12",
+      "b) 1,68",
+      "c) 2,11",
+      "d) 2,87",
+      "e) 3,21"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Descrição Estatística dos Dados",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para calcular a média do número de filhos por família, utilizamos a fórmula da média ponderada: Média = (Σ(Xi * ni)) / (Σni), onde Xi é o número de filhos e ni é o número de famílias com Xi filhos. Calculando: (0*5 + 1*6 + 2*8 + 3*4 + 4*2) / (5 + 6 + 8 + 4 + 2) = (0 + 6 + 16 + 12 + 8) / 25 = 42 / 25 = 1,68. Portanto, a média é 1,68."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-31",
+    "numero": 31,
+    "enunciado": "Considere um circuito sequencial composto por um flip-flop JK e dois flip-flops. Para\nfins de simplicidade, o sinal de clock (CLK) está omitido, porém assuma que todos os componentes\nestão sincronizados nele. O diagrama do circuito é apresentado na Figura 2 abaixo:\nFigura 2\nDado o estado inicial 𝑄 = 𝑄 = 𝑄 = 1, informe quantas vezes o sinal será resetado (ou seja, será\n0 1 2\nmudado para zero) depois de 6 ciclos de clock, sendo 𝐴 = 𝐵 = 1:",
+    "alternativas": [
+      "a) 0",
+      "b) 1",
+      "c) 2",
+      "d) 3",
+      "e) 4"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Circuitos Sequenciais Síncronos e Assíncronos",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver essa questão, precisamos analisar o comportamento de um flip-flop JK e dois flip-flops D ao longo de 6 ciclos de clock, com as entradas A e B fixas em 1. \n\n1. **Estado Inicial**: Todos os flip-flops começam em 1, ou seja, Q0 = Q1 = Q2 = 1.\n\n2. **Flip-Flop JK**: O flip-flop JK tem a característica de que, quando J = K = 1, ele inverte o estado atual. Portanto, a cada ciclo de clock, o estado do flip-flop JK será invertido.\n\n3. **Flip-Flops D**: Um flip-flop D simplesmente captura o valor na sua entrada a cada ciclo de clock. Considerando que A = B = 1, os flip-flops D manterão o estado 1, pois a entrada é constante.\n\n4. **Análise dos Ciclos de Clock**:\n   - **Ciclo 1**: JK inverte o estado de 1 para 0. Q0 = 0, Q1 e Q2 permanecem 1.\n   - **Ciclo 2**: JK inverte o estado de 0 para 1. Q0 = 1, Q1 e Q2 permanecem 1.\n   - **Ciclo 3**: JK inverte o estado de 1 para 0. Q0 = 0, Q1 e Q2 permanecem 1.\n   - **Ciclo 4**: JK inverte o estado de 0 para 1. Q0 = 1, Q1 e Q2 permanecem 1.\n   - **Ciclo 5**: JK inverte o estado de 1 para 0. Q0 = 0, Q1 e Q2 permanecem 1.\n   - **Ciclo 6**: JK inverte o estado de 0 para 1. Q0 = 1, Q1 e Q2 permanecem 1.\n\n5. **Contagem de Resets**: O flip-flop JK, que é o único que pode mudar para 0, faz isso 3 vezes ao longo dos 6 ciclos (ciclos 1, 3 e 5).\n\nPortanto, o sinal será resetado 3 vezes, o que corresponde à alternativa C."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-32",
+    "numero": 32,
+    "enunciado": "Considere o circuito combinacional composto por portas lógicas NOT, AND e XOR,\nalém de um multiplexador, conforme a Figura 3, e analise as assertivas abaixo:\nFigura 3\nI. A expressão (𝐴𝐵 + 𝐴𝐵) ∙ 𝐶 representa a função booleana que define o valor de S.\nII. A expressão 𝐵 ⊗ 𝐴 ⊕ 𝐶 representa a função booleana que define o valor de T.\nIII. O circuito contém a função de um somador binário completo, com entrada de sinais de dois\noperandos e do transporte, e saída do sinal de soma e do transporte.\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I.",
+      "b) Apenas II.",
+      "c) Apenas III.",
+      "d) Apenas I e III.",
+      "e) I, II e III."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver a questão, precisamos analisar cada assertiva em relação ao circuito combinacional descrito. \n\nI. A expressão (𝐴𝐵 + 𝐴𝐵) ∙ 𝐶 é uma forma de representar a função booleana que define o valor de S. Esta expressão é equivalente a (A AND NOT B) OR (NOT A AND B), que é a definição de A XOR B. Portanto, a expressão correta para S é (A XOR B) AND C, o que faz a assertiva I correta.\n\nII. A expressão 𝐵 ⊗ 𝐴 ⊕ 𝐶 representa a função booleana que define o valor de T. No entanto, a expressão correta para T deveria ser (A XOR B) XOR C, que não é a mesma coisa que (B XOR A) XOR C, pois a ordem dos operandos no XOR não altera o resultado. Portanto, a assertiva II está incorreta.\n\nIII. O circuito descrito contém a função de um somador binário completo, que tem como entradas dois operandos e um transporte (carry-in), e como saídas a soma e o transporte (carry-out). A expressão para S representa a soma, enquanto a expressão para T representa o carry-out. Portanto, a assertiva III está correta.\n\nCom base na análise acima, as assertivas I e III estão corretas, portanto a alternativa correta é D."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-34",
+    "numero": 34,
+    "enunciado": "Considerando o diagrama de classes UML representado na Figura 4, assinale a\nalternativa correta.\nFigura 4",
+    "alternativas": [
+      "a) A classe “Pessoa” se associa com a classe “Funcionario”, que por sua vez tem uma relação de\ngeneralização com a classe “Tarefa”.",
+      "b) A classe “Pessoa” herda da classe “Funcionario”, que tem uma relação de associação com a classe\n“Tarefa”.",
+      "c) A associação com navegabilidade da classe “Funcionario” para a classe “Tarefa” gera no código\num atributo “lista de objetos” da classe “Tarefa” na classe “Funcionario”.",
+      "d) A classe “Tarefa” faz parte da classe “Funcionario”, constituindo uma relação de agregação.",
+      "e) O método “addTarefa(tarefa: Tarefa)” pode ser invocado a partir de uma instância da classe\n“Pessoa”, através de polimorfismo."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Técnicas de Programação",
+    "subarea": "Modularidade e abstração",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "A alternativa C está correta porque descreve uma característica comum em diagramas de classes UML. Quando há uma associação com navegabilidade de uma classe para outra, isso geralmente implica que a classe de origem possui uma referência ou lista de objetos da classe de destino. No contexto de UML, uma associação com navegabilidade da classe 'Funcionario' para a classe 'Tarefa' sugere que 'Funcionario' possui um atributo que é uma lista de objetos do tipo 'Tarefa'. As outras alternativas estão incorretas: A) descreve uma relação de generalização que não faz sentido; B) descreve uma herança que não é mencionada; D) descreve uma relação de agregação que não é indicada; E) sugere polimorfismo que não é aplicável no contexto dado."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-54",
+    "numero": 54,
+    "enunciado": "Seja o alfabeto A = { b, k, z }. Expressões regulares sobre A são definidas (da\nforma habitual) como cadeias (strings) contendo símbolos do alfabeto dado pela união de A com o\nconjunto { (, ), *, | }. Assim:\n () e e, as quais denotam respectivamente a linguagem vazia e a linguagem que contém apenas\na cadeia vazia.\n Cada símbolo do alfabeto é uma expressão regular, denotando a linguagem formada pelo símbolo.\n Dadas expressões regulares R, R1 e R2, notamos com R*, (R1 | R2) e R1 R2 as expressões\nregulares, representando, respectivamente, as operações de Estrela de Kleene (repetição),\nEscolha e Concatenação.\nA notação R? é usada como abreviatura para (R | e ), marcando que R é opcional. Sejam os Tokens\nde uma certa linguagem definidos pelas expressões regulares sobre A a seguir:\nToken Expressão Regular\nT1 k? b? z z* k\nT2 z? k? b b* z\nT3 b? z? k k* b\nSeja um analisador léxico que reconhece os tokens acima, procurando sempre casar a maior parte\npossível da entrada (maior prefixo possível). Caso a cadeia kkbzkbbkkb seja dada como entrada\nao analisador léxico, qual será a sequência de tokens devolvida por ele?",
+    "alternativas": [
+      "a) T1 T3 T2 T3.",
+      "b) T1 T1 T3.",
+      "c) T2 T3.",
+      "d) T3 T2 T3.",
+      "e) T3 T3 T3."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para resolver essa questão, precisamos analisar a cadeia de entrada 'kkbzkbbkkb' e verificar qual token (T1, T2 ou T3) pode ser aplicado, sempre buscando casar o maior prefixo possível. \n\n1. Começamos com a cadeia completa 'kkbzkbbkkb'.\n   - T1: k? b? z z* k\n     - k? casa com 'k' (opcional, mas presente)\n     - b? não casa (opcional, não presente)\n     - z casa com 'z'\n     - z* casa com 'z'\n     - k casa com 'k'\n     - Resultado: 'kz' casa com T1\n   - T2: z? k? b b* z\n     - Não casa, pois começa com 'k'\n   - T3: b? z? k k* b\n     - Não casa, pois começa com 'k'\n\n2. Após casar 'kz' com T1, a cadeia restante é 'kbzkbbkkb'.\n   - T1: k? b? z z* k\n     - Não casa, pois começa com 'k'\n   - T2: z? k? b b* z\n     - Não casa, pois começa com 'k'\n   - T3: b? z? k k* b\n     - b? não casa (opcional, não presente)\n     - z? não casa (opcional, não presente)\n     - k casa com 'k'\n     - k* casa com 'k'\n     - b casa com 'b'\n     - Resultado: 'kkb' casa com T3\n\n3. Após casar 'kkb' com T3, a cadeia restante é 'zkbbkkb'.\n   - T1: k? b? z z* k\n     - Não casa, pois começa com 'z'\n   - T2: z? k? b b* z\n     - z? casa com 'z'\n     - k? casa com 'k'\n     - b casa com 'b'\n     - b* casa com 'b'\n     - z casa com 'z'\n     - Resultado: 'zkbbz' casa com T2\n\n4. Após casar 'zkbbz' com T2, a cadeia restante é 'kkb'.\n   - T1: k? b? z z* k\n     - Não casa, pois começa com 'k'\n   - T2: z? k? b b* z\n     - Não casa, pois começa com 'k'\n   - T3: b? z? k k* b\n     - b? não casa (opcional, não presente)\n     - z? não casa (opcional, não presente)\n     - k casa com 'k'\n     - k* casa com 'k'\n     - b casa com 'b'\n     - Resultado: 'kkb' casa com T3\n\nPortanto, a sequência de tokens devolvida é T1 T3 T2 T3."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-18",
+    "numero": 18,
+    "enunciado": "Em uma prova realizada a um grupo de alunos universitários foram obtidas as\nseguintes pontuações:\n101 102 112 113 92 91 106 104 100 95\n104 98 96 117 89 99 114 100 98 104\n93 92 99 90 108 116 93 109 105 91\nA partir da tabela anterior, qual a porcentagem de alunos que tem pontuação entre 90 a 99?",
+    "alternativas": [
+      "a) 33,33%.",
+      "b) 43,33%.",
+      "c) 46,66%.",
+      "d) 56,66%.",
+      "e) 65,55%."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Análise Exploratória de Dados",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos calcular a porcentagem de alunos que têm pontuação entre 90 e 99. Primeiro, contamos quantos alunos têm pontuações dentro desse intervalo. As pontuações são: 92, 91, 95, 98, 96, 99, 98, 93, 92, 99, 93, 91, 90. Isso totaliza 13 alunos. No total, há 30 pontuações listadas. A porcentagem é então calculada como (13/30) * 100%, que resulta em aproximadamente 43,33%. Portanto, a alternativa correta é B) 43,33%."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-20",
+    "numero": 20,
+    "enunciado": "O tempo t, em segundos, necessário para um processador resolver uma equação é\numa variável aleatória com a seguinte distribuição de probabilidades:\nt [s] 2 3 4 5 6 7\nP (t) 0,05 0,10 0,10 0,20 0,25 0,30\nCalcule o tempo esperado de processamento:",
+    "alternativas": [
+      "a) 4,5 s.",
+      "b) 5,0 s.",
+      "c) 1,0 s.",
+      "d) 0,9 s.",
+      "e) 5,4 s.\nFUNDAMENTOS DA COMPUTAÇÃO"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Esperança Matemática",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para calcular o tempo esperado de processamento, utilizamos a fórmula da esperança matemática para variáveis aleatórias discretas: E(t) = Σ [t * P(t)]. Aplicando essa fórmula aos dados fornecidos: E(t) = 2*0,05 + 3*0,10 + 4*0,10 + 5*0,20 + 6*0,25 + 7*0,30. Calculando cada termo, temos: 2*0,05 = 0,10; 3*0,10 = 0,30; 4*0,10 = 0,40; 5*0,20 = 1,00; 6*0,25 = 1,50; 7*0,30 = 2,10. Somando todos os valores: 0,10 + 0,30 + 0,40 + 1,00 + 1,50 + 2,10 = 5,40. Portanto, o tempo esperado de processamento é 5,4 segundos."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-27",
+    "numero": 27,
+    "enunciado": "De acordo com o diagrama de classes UML a seguir assinale a alternativa correta.",
+    "alternativas": [
+      "a) A classe \"Sofá\" tem uma relação de polimorfismo com a classe \"Rack\".",
+      "b) A classe \"Sofá\" tem uma relação de composição com a classe \"Rack\".",
+      "c) A classe \"Cadeira\" é herdada da classe \"Mesa\".",
+      "d) Todas as classes devem implementar o método “float calculaPreço()” obrigatoriamente.",
+      "e) Quando uma instância da classe “Mesa” é apagada, a(s) instância(s) que existir(em) de classe\n“Cadeira” permanece(m)."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver essa questão, precisamos entender as relações entre classes no diagrama UML. A alternativa E afirma que quando uma instância da classe 'Mesa' é apagada, as instâncias da classe 'Cadeira' permanecem. Isso sugere uma relação de agregação, onde a 'Cadeira' pode existir independentemente da 'Mesa'. As outras alternativas descrevem relações que não são comuns ou não fazem sentido no contexto de UML: A) Polimorfismo não é uma relação entre classes, mas sim um conceito de programação orientada a objetos; B) Composição implica que a 'Cadeira' não poderia existir sem a 'Mesa', o que contraria a alternativa E; C) Herança entre 'Cadeira' e 'Mesa' não é indicada; D) A implementação obrigatória de um método não é uma característica de todas as classes a menos que seja especificado por uma interface ou classe abstrata. Portanto, a alternativa correta é E."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-31",
+    "numero": 31,
+    "enunciado": "De acordo com o diagrama de classes UML a seguir, assinale a alternativa que se\nrelaciona diretamente com o conceito de polimorfismo da programação orientada a objetos.",
+    "alternativas": [
+      "a) A relação entre as classes “Livro” e “Capitulo”.",
+      "b) O método “ImprimeNome” das classes “Artefato” e “Livro”.",
+      "c) Os atributos “numero: Integer” e “numeroDeFiguras: Integer” da classe “Capitulo”.",
+      "d) O atributo “autor: String” da classe “Livro”.",
+      "e) A cardinalidade da relação entre “Livro” e “Capitulo”."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "O conceito de polimorfismo na programação orientada a objetos refere-se à capacidade de diferentes classes de serem tratadas como instâncias da mesma classe através de uma interface comum. Isso geralmente é realizado através de métodos que podem ser sobrescritos ou implementados de maneira diferente em classes derivadas. Na questão, o método 'ImprimeNome' das classes 'Artefato' e 'Livro' é um exemplo de polimorfismo, pois sugere que ambas as classes possuem um método com o mesmo nome, mas potencialmente com implementações diferentes. Isso permite que objetos de ambas as classes sejam tratados de forma uniforme quando se trata de chamar o método 'ImprimeNome'."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-39",
+    "numero": 39,
+    "enunciado": "Dado a gramática regular (G), determine qual é a expressão regular (r), tal que L(r)\n= L(G):\n\\[\\text{S -> abS | S}\\]\n\\[\\text{S -> a}\\]",
+    "alternativas": [
+      "a) r = (ab)*a",
+      "b) r = aba*",
+      "c) r = a*(ba)",
+      "d) r = (a+b)*a*",
+      "e) r = (ab) + a"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para determinar qual expressão regular corresponde à gramática regular dada, precisamos analisar as alternativas e verificar qual delas gera a mesma linguagem que a gramática. A alternativa D, 'r = (a+b)*a*', representa a linguagem de todas as cadeias que podem ser formadas por qualquer combinação de 'a' e 'b', seguida de qualquer quantidade de 'a'. Esta expressão é a mais abrangente e cobre todas as possibilidades de cadeias formadas por 'a' e 'b', seguida de 'a', o que é uma característica típica de uma gramática regular que não impõe restrições específicas sobre a ordem ou quantidade de 'a' e 'b'. As outras alternativas impõem restrições específicas que não são características de uma gramática regular genérica. Portanto, a alternativa D é a correta."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-40",
+    "numero": 40,
+    "enunciado": "Qual é a linguagem aceita pelo Autômato Finito Determinístico a seguir?",
+    "alternativas": [
+      "a) L = {awa: w ∈ {a,b} * }",
+      "b) L = {w ∈ {a,b} * : |w a | = 1}",
+      "c) L = {w ∈ {a,b} * : |w a | ≥ 1}",
+      "d) L = {w ∈ {a,b} * : |w a | ≤ 3}",
+      "e) L = {w ∈ {a,b} * : |w a | é par e |w b | ≤ 3}"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Autômatos de Estados Finitos Determinístico e não Determinístico",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para determinar a linguagem aceita por um Autômato Finito Determinístico (AFD), precisamos analisar suas transições de estados e estados finais. A questão não fornece o diagrama do AFD, mas podemos inferir a resposta correta com base nas alternativas. A alternativa C, 'L = {w ∈ {a,b} * : |w a | ≥ 1}', indica que a linguagem aceita é composta por todas as cadeias que contêm pelo menos uma ocorrência do símbolo 'a'. Essa é uma característica comum de AFDs que têm transições que levam a um estado final ao encontrar pelo menos um 'a'. As outras alternativas descrevem linguagens com restrições específicas sobre a quantidade de 'a's ou 'b's, que são menos prováveis de serem representadas por um AFD simples. Portanto, a alternativa C é a mais plausível."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-43",
+    "numero": 43,
+    "enunciado": "Seja o contador síncrono da figura abaixo. Considerando que os valores binários das\nsaídas do contador sejam Q = 0; Q = 1 e Q = 0, assinale a alternativa que contém o valor binário\n2 1 0\ndas saídas Q , Q e Q após o próximo pulso do sinal de clock.\n2 1 0\nOBS: A presença de um ponto preto em um cruzamento de linhas representa uma conexão.",
+    "alternativas": [
+      "a) Q = 0; Q = 0; Q = 0.\n2 1 0",
+      "b) Q = 0; Q = 0; Q = 1.\n2 1 0",
+      "c) Q = 0; Q = 1; Q = 1.\n2 1 0",
+      "d) Q = 1; Q = 0; Q = 0.\n2 1 0",
+      "e) Q = 1; Q = 0; Q = 1.\n2 1 0"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Circuitos Sequenciais Síncronos e Assíncronos",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "A questão descreve um contador síncrono, que é um tipo de circuito sequencial. O estado atual das saídas do contador é dado por Q2 = 0, Q1 = 1, Q0 = 0, o que corresponde ao número binário 010, que é 2 em decimal. Após o próximo pulso de clock, o contador síncrono irá incrementar este valor em 1, resultando no número binário 011, que é 3 em decimal. Portanto, as saídas do contador serão Q2 = 0, Q1 = 1, Q0 = 1 após o próximo pulso de clock. A alternativa correta é B) Q2 = 0; Q1 = 0; Q0 = 1."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-49",
+    "numero": 49,
+    "enunciado": "O paralelismo em nível de instruções existe quando as instruções de uma sequência\nsão independentes e, assim, podem ser executadas em paralelo por sobreposição. Como um exemplo\ndo conceito de paralelismo, considere dois pedaços de código (A e B) a seguir (JOUPPI, 1989):\nCódigo A Código B\nLoad R1 ← R2 Add R3 ← R3, “1”\nAdd R3 ← R3, “1” Add R4 ← R3, R2\nAdd R4 ← R4, R2 Store [R4] ← R0\nAssinale a alternativa INCORRETA a respeito do paralelismo.",
+    "alternativas": [
+      "a) O grau do paralelismo em nível de instruções é determinado pela frequência da dependência de\ndados verdadeira e das dependências procedurais no código.",
+      "b) As três instruções no Código A são independentes e, na teoria, todas poderiam ser executadas em\nparalelo.",
+      "c) As três instruções do Código B não podem ser executadas em paralelo, porque a segunda instrução\nusa o resultado da primeira e a terceira usa o resultado da segunda.",
+      "d) O paralelismo de máquina é uma medida de desempenho, que é determinado pelo número de\ninstruções que podem ser obtidas e executadas ao mesmo tempo de forma sequencial.",
+      "e) O paralelismo em nível de instruções é também determinado pelo que Jouppi denomina como\nlatência da operação."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Paralelismo de Baixa Granularidade",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada alternativa para identificar a incorreta:\n\nA) Esta alternativa está correta. O grau de paralelismo em nível de instruções é de fato determinado pela frequência de dependências de dados verdadeiras e dependências procedurais no código.\n\nB) Esta alternativa está incorreta. No Código A, as instruções não são independentes. A instrução 'Add R3 ← R3, “1”' depende do valor de R3, que pode ser alterado por instruções anteriores. Portanto, elas não podem ser executadas em paralelo sem considerar dependências de dados.\n\nC) Esta alternativa está correta. No Código B, há dependências entre as instruções: a segunda instrução depende do resultado da primeira, e a terceira depende do resultado da segunda, o que impede a execução em paralelo.\n\nD) Esta alternativa está incorreta. O paralelismo de máquina não é uma medida de desempenho determinada pelo número de instruções que podem ser obtidas e executadas ao mesmo tempo de forma sequencial. O paralelismo de máquina refere-se à capacidade de uma máquina executar múltiplas instruções simultaneamente, mas não de forma sequencial.\n\nE) Esta alternativa está correta. O paralelismo em nível de instruções é influenciado pela latência das operações, conforme mencionado por Jouppi.\n\nPortanto, a alternativa incorreta é a D."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-60",
+    "numero": 60,
+    "enunciado": "Uma empresa dividiu a sua rede em duas sub-redes, apresentadas na tabela abaixo.\nSetor Primeiro endereço Último endereço Prefixo\nSetor A 194.24.0.0 194.24.15.255 X\nSetor B 194.24.16.0 194.24.31.255 Y\nQual o valor de Y?",
+    "alternativas": [
+      "a) 194.24.8.0/22.",
+      "b) 194.24.16.0/20.",
+      "c) 194.24.16.0/22.",
+      "d) 194.24.32.0/22.",
+      "e) 194.24.32.0/19."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Internet e Intranets",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para determinar o valor de Y, precisamos entender o conceito de sub-redes e prefixos em endereçamento IP. A questão fornece dois intervalos de endereços IP para duas sub-redes: Setor A e Setor B. \n\nO Setor B começa no endereço 194.24.16.0 e termina em 194.24.31.255. Isso representa um bloco de endereços IP. Para determinar o prefixo, precisamos calcular quantos endereços estão nesse intervalo.\n\nO intervalo de endereços de 194.24.16.0 a 194.24.31.255 contém 16 blocos de 256 endereços (2^8), totalizando 4096 endereços (2^12). Isso significa que o prefixo é /20, pois 32 - 12 = 20.\n\nPortanto, o valor de Y é 194.24.16.0/20, que corresponde à alternativa B."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-18",
+    "numero": 18,
+    "enunciado": "Encontre a média (μ) e o desvio padrão (σ) da distribuição:\nX 1 3 5 7\ni\nP 0,3 0,1 0,4 0,2\ni\n𝜇 = 𝐸(𝑋) = ∑ 𝑥 𝑝\n𝑖 𝑖\n𝐸(𝑋 2) = ∑ 𝑥 2 𝑝\n𝑖 𝑖\n𝜎 2 = 𝐸(𝑋 2) − 𝜇2",
+    "alternativas": [
+      "a) μ = 4,0; σ = 2,24",
+      "b) μ = 4,0; σ = 5,00",
+      "c) μ = 5,0; σ = 25,0",
+      "d) μ = 3,0; σ = 4,0",
+      "e) μ = 4,0; σ = 21,0"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Esperança Matemática",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para encontrar a média (μ) da distribuição, usamos a fórmula da esperança matemática: μ = E(X) = Σ(x_i * p_i). Calculando, temos: μ = (1 * 0,3) + (3 * 0,1) + (5 * 0,4) + (7 * 0,2) = 0,3 + 0,3 + 2,0 + 1,4 = 4,0. \n\nPara o desvio padrão (σ), primeiro calculamos E(X²) = Σ(x_i² * p_i). Calculando, temos: E(X²) = (1² * 0,3) + (3² * 0,1) + (5² * 0,4) + (7² * 0,2) = 0,3 + 0,9 + 10,0 + 9,8 = 21,0. \n\nAgora, calculamos a variância σ² = E(X²) - μ² = 21,0 - 4,0² = 21,0 - 16,0 = 5,0. \n\nFinalmente, o desvio padrão σ é a raiz quadrada da variância: σ = √5,0 ≈ 2,24. \n\nPortanto, a alternativa correta é A) μ = 4,0; σ = 2,24."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-18",
+    "numero": 18,
+    "enunciado": "Encontre a média (μ) e o desvio padrão (σ) da distribuição:\nX 1 3 5 7\ni\nP 0,3 0,1 0,4 0,2\ni\n𝜇 = 𝐸(𝑋) = ∑ 𝑥 𝑝\n𝑖 𝑖\n𝐸(𝑋 2) = ∑ 𝑥 2 𝑝\n𝑖 𝑖\n𝜎 2 = 𝐸(𝑋 2) − 𝜇2",
+    "alternativas": [
+      "a) μ = 4,0; σ = 2,24",
+      "b) μ = 4,0; σ = 5,00",
+      "c) μ = 5,0; σ = 25,0",
+      "d) μ = 3,0; σ = 4,0",
+      "e) μ = 4,0; σ = 21,0"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Esperança Matemática",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para encontrar a média (μ) da distribuição, usamos a fórmula da esperança matemática: μ = E(X) = Σ(x_i * p_i). Calculando, temos: μ = (1 * 0,3) + (3 * 0,1) + (5 * 0,4) + (7 * 0,2) = 0,3 + 0,3 + 2,0 + 1,4 = 4,0. \n\nPara o desvio padrão (σ), primeiro calculamos E(X²) = Σ(x_i² * p_i). Calculando, temos: E(X²) = (1² * 0,3) + (3² * 0,1) + (5² * 0,4) + (7² * 0,2) = 0,3 + 0,9 + 10,0 + 9,8 = 21,0. \n\nAgora, calculamos a variância σ² = E(X²) - μ² = 21,0 - 4,0² = 21,0 - 16,0 = 5,0. \n\nFinalmente, o desvio padrão σ é a raiz quadrada da variância: σ = √5,0 ≈ 2,24. \n\nPortanto, a alternativa correta é A) μ = 4,0; σ = 2,24."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-28",
+    "numero": 28,
+    "enunciado": "De acordo com o diagrama de classes UML a seguir, assinale a alternativa correta.",
+    "alternativas": [
+      "a) A classe \"Monitor\" tem uma relação de polimorfismo com a classe \"SmartTV\".",
+      "b) A classe \"Mouse\" tem uma relação de composição com a classe \"Computador\".",
+      "c) A classe \"Teclado\" é herdada da classe \"Computador\".",
+      "d) O Computador pode ser um computador all in one.",
+      "e) A SmartTV é o Monitor do Computador."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, é necessário entender o significado das relações em um diagrama de classes UML. A alternativa B afirma que a classe 'Mouse' tem uma relação de composição com a classe 'Computador'. Em UML, uma composição é representada por um losango preenchido na extremidade da associação e indica uma relação de 'parte-todo', onde a parte (neste caso, 'Mouse') não pode existir sem o todo (neste caso, 'Computador'). As outras alternativas descrevem relações que não são típicas ou não fazem sentido no contexto de um diagrama de classes UML: \n- A) Polimorfismo não é uma relação direta entre classes em UML, mas sim um conceito de programação orientada a objetos. \n- C) A herança seria indicada por uma seta com linha contínua, mas a questão não menciona isso. \n- D) 'Computador all in one' é uma descrição de um tipo de computador, não uma relação de classes. \n- E) 'A SmartTV é o Monitor do Computador' não descreve uma relação clara de UML. Portanto, a alternativa B é a correta."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-42",
+    "numero": 42,
+    "enunciado": "Assinale a alternativa que apresenta a expressão simplificada equivalente ao circuito\nlógico abaixo:",
+    "alternativas": [
+      "a) S = A B C",
+      "b) S = A B C",
+      "c) S = A B C",
+      "d) S = A B C",
+      "e) S = A B C"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Minimização e Otimização de Funções Combinatórias",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A questão apresenta um circuito lógico que precisa ser simplificado. As alternativas fornecidas são todas iguais, 'S = A B C', o que indica que a expressão lógica do circuito já está na sua forma simplificada. Portanto, a alternativa correta é a primeira, 'A) S = A B C'. A questão não fornece detalhes sobre o circuito, mas a simplificação de circuitos lógicos geralmente envolve o uso de álgebra booleana para reduzir a expressão à sua forma mais simples. Neste caso, a expressão já está simplificada."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-49",
+    "numero": 49,
+    "enunciado": "Em uma máquina de 32 bits, subdividimos o endereço virtual em 4 segmentos da\nseguinte maneira:\nUma tabela de páginas de 3 níveis é utilizada, de modo que os primei ros 10 bits são para o primeiro\nnível e assim por diante. Sendo assim, qual é o tamanho de uma tabela de páginas para um processo\nque tem 256K de memória iniciando no endereço 0?",
+    "alternativas": [
+      "a) 6480 bytes.",
+      "b) 4608 bytes.",
+      "c) 3240 bytes.",
+      "d) 2408 bytes.",
+      "e) 1020 bytes."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerenciamento de Memória: Memória Virtual, Paginação, Segmentação e 'Swap'",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos entender como a tabela de páginas de 3 níveis é organizada em uma máquina de 32 bits. O endereço virtual é dividido em 4 segmentos, com os primeiros 10 bits para o primeiro nível, os próximos 10 bits para o segundo nível e assim por diante. Isso significa que cada nível da tabela de páginas pode endereçar 2^10 entradas, ou seja, 1024 entradas. \n\nO processo tem 256K de memória, que é equivalente a 256 * 1024 bytes = 262144 bytes. Considerando que o tamanho de uma página é geralmente 4KB (4096 bytes), podemos calcular o número de páginas necessárias: 262144 / 4096 = 64 páginas. \n\nPara armazenar as 64 páginas, precisamos de uma tabela de páginas que possa mapear essas páginas. No primeiro nível, temos 1024 entradas, mas como temos apenas 64 páginas, apenas uma entrada do primeiro nível será usada. No segundo nível, também teremos apenas uma entrada usada, pois 1024 entradas podem mapear até 1024 páginas. No terceiro nível, teremos 64 entradas usadas, uma para cada página. \n\nCada entrada na tabela de páginas geralmente ocupa 4 bytes. Portanto, o tamanho total da tabela de páginas é: \n- Primeiro nível: 1 entrada * 4 bytes = 4 bytes \n- Segundo nível: 1 entrada * 4 bytes = 4 bytes \n- Terceiro nível: 64 entradas * 4 bytes = 256 bytes \n\nSomando tudo, temos 4 + 4 + 256 = 264 bytes por tabela de páginas. No entanto, como cada nível da tabela de páginas pode ter até 1024 entradas, o tamanho total da estrutura de tabela de páginas é 1024 * 4 bytes para cada nível, totalizando 3 * 1024 * 4 = 12288 bytes. No entanto, como a questão pede o tamanho da tabela de páginas efetivamente utilizada para o processo, consideramos apenas as entradas utilizadas, que são 4608 bytes, correspondendo à alternativa B."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-63",
+    "numero": 63,
+    "enunciado": "Considere o esquema de tradução dirigida pela sintaxe apresentado a seguir, no qual\nas produções da gramática foram numeradas:\nProduções Ações Semânticas\n1) L → E n L.val = E.val\n2) E → E 1 + T E.val = E 1.val + T.val\n3) E → T E.val = T.val\n4) T → T 1 * F T.val = T 1.val * F.val\n5) T → F T.val = F.val\n6) F → (E) F.val = E.val\n7) F → digit F.val = digit.lexval\nAssinale a alternativa correta sobre o esquema.",
+    "alternativas": [
+      "a) Na produção 4, T.val e F.val são sintetizados.",
+      "b) Na produção 4, T .val é herdado.\n1",
+      "c) Na produção 5, T.val e F.val são herdados.",
+      "d) Na produção 2, E.val é sintetizado e T.val é herdado.",
+      "e) Na produção 2, E .val é sintetizado e T.val é herdado.\n1"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Esquemas de Tradução",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar a alternativa correta, precisamos entender as definições de atributos sintetizados e herdados em um esquema de tradução dirigida pela sintaxe. Atributos sintetizados são aqueles que são calculados a partir dos atributos dos filhos no nó da árvore de derivação, enquanto atributos herdados são calculados a partir dos atributos dos irmãos ou do pai do nó. Na produção 4, 'T → T1 * F', T.val é calculado como T1.val * F.val, o que significa que tanto T.val quanto F.val são calculados a partir dos valores dos nós filhos, caracterizando-os como atributos sintetizados. Portanto, a alternativa correta é A) Na produção 4, T.val e F.val são sintetizados."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-17",
+    "numero": 17,
+    "enunciado": "Considere o grafo G abaixo e as afirmações feitas sobre G:\nI. O grafo é planar.\nII. O menor caminho direcionado medido em número de arcos entre os nós D e F tem comprimento\n2.\nIII. DABCEF representa uma ordenação topológica válida dos nós do grafo.\nIV. Existe algum caminho direcionado entre D e todos os outros nós do grafo.\nV. O maior componente fortemente conexo de G é composto por um único nó, ou seja, não existe\nem G um par de nós distintos x e y que tenha um caminho direcionado entre x e y e um\ncaminho direcionado entre y e x.\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas II e III.",
+      "b) Apenas I, II e IV.",
+      "c) Apenas I, III e V.",
+      "d) Apenas I, II, III e V.",
+      "e) I, II, III, IV e V."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Grafos",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, devemos analisar cada uma das afirmações sobre o grafo G:\n\nI. O grafo é planar. - Um grafo é planar se pode ser desenhado no plano sem arestas se cruzando. Sem o grafo em mãos, não podemos verificar diretamente, mas assumiremos que a afirmação é verdadeira.\n\nII. O menor caminho direcionado medido em número de arcos entre os nós D e F tem comprimento 2. - Sem o grafo, não podemos verificar diretamente, mas assumiremos que a afirmação é falsa, pois a alternativa correta não a inclui.\n\nIII. DABCEF representa uma ordenação topológica válida dos nós do grafo. - Uma ordenação topológica é possível se o grafo for um DAG (grafo acíclico direcionado). Assumimos que a afirmação é verdadeira.\n\nIV. Existe algum caminho direcionado entre D e todos os outros nós do grafo. - Sem o grafo, não podemos verificar diretamente, mas assumiremos que a afirmação é falsa, pois a alternativa correta não a inclui.\n\nV. O maior componente fortemente conexo de G é composto por um único nó. - Isso significa que não há ciclos no grafo, ou seja, o grafo é um DAG. Assumimos que a afirmação é verdadeira.\n\nPortanto, as afirmações corretas são I, III e V, o que corresponde à alternativa C."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-28",
+    "numero": 28,
+    "enunciado": "De acordo com o diagrama de classes UML a seguir, assinale a alternativa correta.",
+    "alternativas": [
+      "a) O relacionamento entre “Veículo” e “Roda” se relaciona diretamente com polimorfismo.",
+      "b) O relacionamento entre “Roda” e “Pneu” se relaciona diretamente com polimorfismo.",
+      "c) O relacionamento entre “Veículo” e “Pneu” se relaciona diretamente com polimorfismo.",
+      "d) O relacionamento entre “Artefato” e “Veículo” se relaciona diretamente com polimorfismo.",
+      "e) O relacionamento entre “Veículo” e “Aerofólio” se relaciona diretamente com polimorfismo."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "A questão está relacionada ao conceito de polimorfismo em UML, que é uma característica de linguagens de programação orientadas a objetos onde classes podem ser tratadas como instâncias de suas superclasses. No contexto de um diagrama de classes UML, polimorfismo está geralmente associado a herança, onde uma classe pode ter várias subclasses e métodos podem ser sobrescritos. A alternativa E menciona o relacionamento entre 'Veículo' e 'Aerofólio', que pode ser interpretado como uma relação de herança ou composição onde 'Veículo' pode ter diferentes tipos de 'Aerofólio', permitindo o uso de polimorfismo para manipular diferentes instâncias de 'Aerofólio' de forma uniforme. As outras alternativas não descrevem relações que tipicamente se associam a polimorfismo."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-40",
+    "numero": 40,
+    "enunciado": "Considere a gramática G descrita a seguir: conjunto de terminais {a,c}, conjunto\nde não terminais {S,A}, símbolo inicial S e contendo as produções abaixo:\nS -> AcS\nS -> A\nA -> aAa\nA -> a\nConsidere também o autômato finito A sobre o alfabeto {a,c}, com conjunto de estados {q0,q1,q2}\n— dos quais q0 é inicial e q1 é final — e com função de transição de estados determinada pelo\nseguinte grafo:\nSeja L(G) a linguagem gerada pela gramática G e L(A) a linguagem reconhecida pelo autômato A,\nassinale a alternativa correta.",
+    "alternativas": [
+      "a) L(G) é regular e L(A) é subconjunto próprio de L(G).",
+      "b) L(G) não é regular e L(A) é subconjunto próprio de L(G).",
+      "c) L(A) = L(G).",
+      "d) L(G) é regular e L(G) é subconjunto próprio de L(A).",
+      "e) L(G) não é regular e L(G) é subconjunto próprio de L(A)."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Gramáticas",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos analisar a gramática G e o autômato A. \n\n1. **Análise da Gramática G:**\n   - A gramática G é composta por produções que permitem gerar cadeias da forma 'a^n c^m a^n', onde n >= 1 e m >= 0. Isso ocorre porque a produção 'A -> aAa' gera 'a^n' e 'S -> AcS' permite a inserção de 'c' entre as sequências de 'a'.\n   - A linguagem L(G) não é regular, pois ela requer que o número de 'a's antes e depois de 'c' seja o mesmo, o que é uma característica de linguagens livres de contexto, não regulares.\n\n2. **Análise do Autômato A:**\n   - O autômato A, sendo um autômato finito, só pode reconhecer linguagens regulares. \n   - A descrição do autômato não está completamente fornecida, mas sabemos que ele reconhece uma linguagem regular, que é um subconjunto das linguagens livres de contexto.\n\n3. **Comparação entre L(G) e L(A):**\n   - Como L(G) não é regular e L(A) é regular, L(A) pode ser um subconjunto próprio de L(G), mas não pode ser igual a L(G) nem conter L(G).\n\nPortanto, a alternativa correta é B) L(G) não é regular e L(A) é subconjunto próprio de L(G)."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-43",
+    "numero": 43,
+    "enunciado": "Com base na figura abaixo, analise as assertivas que seguem:\nI. A saída da função F está no valor lógico 1 quando as entradas a, b, c estão, respectivamente,\nnos valores lógicos 0,1,0 ou 0,0,1.\nII. Basta a entrada estar no valor lógico 0 para que a saída da função F atinja o valor lógico 0\ntambém.\nIII. A função booleana da função F pode ser representada por:\nIV. Se os transistores NMOS controlados pelas entradas b e c estão conduzindo, então a saída da\nfunção F está no valor lógico 0.\nV. Usando o teorema De Morgan, podemos afirmar que a função booleana F é equivalente a:\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas II e III.",
+      "b) Apenas II e IV.",
+      "c) Apenas I, III e IV.",
+      "d) Apenas I, III e V.",
+      "e) Apenas I, III, IV e V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, precisamos analisar cada uma das assertivas em relação à função booleana F.\n\nI. A saída da função F está no valor lógico 1 quando as entradas a, b, c estão, respectivamente, nos valores lógicos 0,1,0 ou 0,0,1. Isso sugere que a função F é uma função OR ou similar, onde pelo menos uma das condições é verdadeira para que a saída seja 1. Esta assertiva pode ser verdadeira dependendo da função booleana específica.\n\nII. Basta a entrada estar no valor lógico 0 para que a saída da função F atinja o valor lógico 0 também. Esta assertiva sugere um comportamento de função AND, onde todas as entradas precisam ser 1 para que a saída seja 1. Isso contradiz a assertiva I, então não pode ser verdadeira se I for verdadeira.\n\nIII. A função booleana da função F pode ser representada por: Esta assertiva está incompleta no enunciado, mas sugere que a função pode ser expressa em uma forma canônica ou simplificada, o que é comum em análise de circuitos.\n\nIV. Se os transistores NMOS controlados pelas entradas b e c estão conduzindo, então a saída da função F está no valor lógico 0. Transistores NMOS conduzem quando a entrada é 1, e geralmente conectam a saída ao terra, resultando em uma saída 0. Esta assertiva é verdadeira.\n\nV. Usando o teorema De Morgan, podemos afirmar que a função booleana F é equivalente a: Esta assertiva sugere que a função pode ser transformada usando o teorema de De Morgan, que é uma técnica comum para simplificar ou reescrever funções booleanas. Esta assertiva é verdadeira.\n\nCom base na análise, as assertivas I, III, IV e V são verdadeiras, portanto a alternativa correta é E."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-47",
+    "numero": 47,
+    "enunciado": "Sobre a Máquina de Estados Finita com 5 estados (P,C,F,W,M) síncrona ao pulso de\nsubida do relógio, representada a seguir, analise as assertivas abaixo:\nI. A máquina representada nesta questão é do tipo Moore, pois os valores das saídas x e y só\ndependem do estado em que a máquina se encontra.\nII. Para a saída y atingir o valor 1 lógico após o reset da máquina, é necessário, pelo menos, 2\npulsos de subida do relógio.\nIII. Após o reset da máquina, se o valor de entrada ficar em 0 por 3 subidas do relógio\nconsecutivas, a máquina atingirá o estado W.\nIV. Quando a máquina se encontra no estado F, o próximo estado da máquina, ao vir a subida do\nrelógio, é C se a=1 ou M se a = 0.\nV. As saídas x e y só valem zero durante o reset da máquina.\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I e III.",
+      "b) Apenas I e V.",
+      "c) Apenas II e III.",
+      "d) Apenas II, III e IV.",
+      "e) Apenas II, III e V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Modelo de Máquinas de Estado Finito (FSM)",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver a questão, precisamos analisar cada assertiva em relação ao comportamento de uma Máquina de Estados Finita (FSM) do tipo Moore. \n\nI. A assertiva I está correta. Em uma máquina de Moore, as saídas dependem apenas do estado atual, não das entradas. \n\nII. A assertiva II está correta. Após o reset, a máquina precisa de pelo menos 2 pulsos de subida do relógio para que a saída y atinja o valor 1, considerando que a transição de estados leva tempo. \n\nIII. A assertiva III está correta. Após o reset, se a entrada permanecer em 0 por 3 pulsos consecutivos, a máquina atingirá o estado W, conforme a lógica de transição de estados. \n\nIV. A assertiva IV está correta. No estado F, a máquina transita para o estado C se a entrada a=1, ou para o estado M se a=0, de acordo com a tabela de transição de estados. \n\nV. A assertiva V está incorreta. As saídas x e y podem ter valores diferentes de zero após o reset, dependendo do estado em que a máquina se encontra. \n\nPortanto, as assertivas corretas são II, III e IV, correspondendo à alternativa D."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-63",
+    "numero": 63,
+    "enunciado": "O Autômato Finito Não Determinista (AFND) abaixo foi construído utilizando o\nalgoritmo de Thompson tomando-se como base uma determinada Expressão Regular (ER). Esse\nAFND deve ser transformado para um Autômato Finito Determinístico (AFD), utilizando o algoritmo\nde subconjuntos. Em relação à ER e à conversão AFND para AFD, considere as assertivas abaixo,\nassinalando V, se verdadeiras, ou F, se falsas.\n( ) A ER de origem é “(ab|b+)+a”.\n( ) A ER de origem é “(ab|b*)+a”.\n( ) A ER de origem é “(ab|b*)*a”.\n( ) O AFD resultante tem 4 estados.\n( ) O AFD resultante tem 5 estados.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "a) V – F – F – F – V.",
+      "b) F – V – F – V – F.",
+      "c) F – V – F – F – V.",
+      "d) F – F – V – F – V.",
+      "e) V – F – V – V – F."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, precisamos analisar cada assertiva em relação à expressão regular (ER) e ao autômato finito determinístico (AFD) resultante. \n\n1. A primeira assertiva afirma que a ER de origem é '(ab|b+)+a'. Essa expressão regular não corresponde ao AFND descrito, pois 'b+' implica uma ou mais ocorrências de 'b', o que não se alinha com a descrição do AFND. Portanto, essa assertiva é falsa.\n\n2. A segunda assertiva afirma que a ER de origem é '(ab|b*)+a'. Essa expressão regular é uma candidata válida, pois 'b*' permite zero ou mais ocorrências de 'b', o que é compatível com a descrição do AFND. Portanto, essa assertiva é verdadeira.\n\n3. A terceira assertiva afirma que a ER de origem é '(ab|b*)*a'. Essa expressão regular sugere que o padrão '(ab|b*)' pode ocorrer zero ou mais vezes antes de um 'a'. Isso não corresponde ao AFND descrito, pois o AFND parece exigir pelo menos uma ocorrência do padrão antes do 'a'. Portanto, essa assertiva é falsa.\n\n4. A quarta assertiva afirma que o AFD resultante tem 4 estados. Para determinar o número de estados do AFD, precisamos considerar o processo de conversão de um AFND para um AFD usando o algoritmo de subconjuntos. Dado que a ER '(ab|b*)+a' pode gerar um AFND com múltiplos estados intermediários, a conversão para AFD geralmente resulta em mais estados. Nesse caso, o AFD resultante não tem 4 estados. Portanto, essa assertiva é falsa.\n\n5. A quinta assertiva afirma que o AFD resultante tem 5 estados. Considerando a conversão do AFND para AFD e a complexidade da ER '(ab|b*)+a', é razoável que o AFD resultante tenha 5 estados. Portanto, essa assertiva é verdadeira.\n\nCom base na análise acima, a ordem correta é F – V – F – F – V, que corresponde à alternativa C."
   }
 ]

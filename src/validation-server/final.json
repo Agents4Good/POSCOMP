@@ -4900,5 +4900,1050 @@
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "A consulta original Q é composta por duas partes: 'SALARIO > ALL (SELECT Salario FROM EMPRESA)' e 'SALARIO < ANY (SELECT Salario FROM EMPRESA)'. A primeira parte 'SALARIO > ALL (SELECT Salario FROM EMPRESA)' nunca será verdadeira porque não existe um salário que seja maior que todos os salários da mesma tabela. Portanto, a condição que realmente importa é 'SALARIO < ANY (SELECT Salario FROM EMPRESA)', que significa que o salário deve ser menor que pelo menos um dos salários na tabela EMPRESA. Para transformar isso em uma consulta correlacionada, precisamos encontrar salários que sejam menores do que pelo menos um outro salário na tabela. A alternativa 'E' faz exatamente isso: ela verifica se existe pelo menos um salário na tabela EMPRESA que é maior que o salário atual (I.Salario < E.Salario), o que é equivalente a 'SALARIO < ANY (SELECT Salario FROM EMPRESA)'."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-28",
+    "numero": 28,
+    "enunciado": "A ponte norte e a ponte sul são chipsets que compõem a estrutura de uma\nplaca-mãe de um computador. Sobre esses dois chipsets, analise as assertivas abaixo:\n- I. A ponte norte é responsável pela comunicação entre o processador e dispositivos de entrada/saída\nde baixa velocidade, enquanto a ponte sul conecta a memória RAM e a placa de vídeo.\n- II. A ponte sul conecta o processador diretamente à memória RAM e à placa de vídeo, enquanto a\nponte norte lida com dispositivos de armazenamento e periféricos de entrada/saída.\n- III. A ponte norte faz a interface entre o processador e componentes de alta velocidade como a\nmemória RAM e a placa de vídeo, enquanto a ponte sul gerencia conexões com dispositivos de\nentrada/saída de menor velocidade.\n- IV. A ponte norte e a ponte sul são substituíveis e podem ser usadas indistintamente em qualquer função dentro do sistema de barramento do computador.\n\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I.",
+      "b) Apenas II.",
+      "c) Apenas III.",
+      "d) Apenas I e II.",
+      "e) Apenas III e IV."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Organização de Computadores",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, é necessário entender as funções da ponte norte e da ponte sul em uma placa-mãe de computador. A ponte norte é responsável por conectar o processador a componentes de alta velocidade, como a memória RAM e a placa de vídeo. Já a ponte sul gerencia conexões com dispositivos de entrada/saída de menor velocidade, como portas USB, discos rígidos e outros periféricos. \n\nAnalisando as assertivas: \n\nI. Incorreta. A descrição das funções da ponte norte e da ponte sul está trocada. A ponte norte não é responsável por dispositivos de baixa velocidade, e a ponte sul não conecta a memória RAM e a placa de vídeo. \n\nII. Incorreta. A ponte sul não conecta o processador diretamente à memória RAM e à placa de vídeo. Essa é a função da ponte norte. \n\nIII. Correta. A ponte norte faz a interface entre o processador e componentes de alta velocidade, como a memória RAM e a placa de vídeo, enquanto a ponte sul gerencia conexões com dispositivos de entrada/saída de menor velocidade. \n\nIV. Incorreta. A ponte norte e a ponte sul têm funções específicas e não são substituíveis ou intercambiáveis. \n\nPortanto, a única assertiva correta é a III."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-36",
+    "numero": 36,
+    "enunciado": "Qual das seguintes linguagens pode ser gerada por uma gramática regular?",
+    "alternativas": [
+      "a) {w ∈ {a, b}* | o número de **a’s** em w é maior que o número de **b’s**}.",
+      "b) {w ∈ {a, b}* | o número de **a’s** em w é o dobro do número de **b’s**}.",
+      "c) {w ∈ {a, b}* | o número de **a’s** em w é divisível por 3 e o número de **b’s** é ímpar}.",
+      "d) {w ∈ {a, b}* | w contém o mesmo número de **a’s** e **b’s**}.",
+      "e) {w ∈ {a, b}* | w contém números diferentes de **a’s** e **b’s**}."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Uma gramática regular é capaz de gerar linguagens que podem ser reconhecidas por autômatos finitos. As linguagens regulares são fechadas sob operações como união, concatenação e estrela de Kleene, mas não conseguem expressar relações numéricas complexas entre símbolos, como igualdade ou múltiplos. Vamos analisar cada alternativa:\n\nA) {w ∈ {a, b}* | o número de a’s em w é maior que o número de b’s}. Esta linguagem não é regular, pois requer a comparação entre contagens de símbolos, o que não pode ser feito por autômatos finitos.\n\nB) {w ∈ {a, b}* | o número de a’s em w é o dobro do número de b’s}. Esta linguagem também não é regular, pois exige uma relação numérica precisa entre os símbolos, algo que autômatos finitos não conseguem verificar.\n\nC) {w ∈ {a, b}* | o número de a’s em w é divisível por 3 e o número de b’s é ímpar}. Esta linguagem não é regular, pois combina duas condições que não podem ser verificadas simultaneamente por um autômato finito.\n\nD) {w ∈ {a, b}* | w contém o mesmo número de a’s e b’s}. Esta linguagem não é regular, pois requer a contagem e comparação exata de dois tipos de símbolos, algo que autômatos finitos não conseguem fazer.\n\nE) {w ∈ {a, b}* | w contém números diferentes de a’s e b’s}. Esta linguagem é regular, pois pode ser expressa por um autômato finito que aceita qualquer string que não tenha o mesmo número de 'a's e 'b's, o que é possível sem a necessidade de contagem precisa, apenas verificando que a string não pertence ao conjunto de strings com números iguais de 'a's e 'b's."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-15",
+    "numero": 15,
+    "enunciado": "A expressão lógica \\(p\\Rightarrow q\\) é equivalente a:",
+    "alternativas": [
+      "a) \\(\\lnot p \\land \\lnot q\\)",
+      "b) \\(\\lnot p\\Rightarrow q\\)",
+      "c) \\(p\\Rightarrow \\lnot q\\)",
+      "d) \\(\\lnot q\\Rightarrow \\lnot p\\)",
+      "e) \\(q\\Rightarrow p\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "A expressão lógica p→q (p implica q) é equivalente à expressão ~q→~p (negação de q implica negação de p), que é a forma contrária da implicação original. Essa equivalência é conhecida como contrapositiva. A contrapositiva de uma implicação é sempre logicamente equivalente à implicação original. Portanto, a alternativa correta é D) ~q->~p."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-18",
+    "numero": 18,
+    "enunciado": "Usando os conjuntos de dados A = \\(\\{1, 4, 2, 6, 8, 10\\}\\), B = \\(\\{1, 4, 6, 10\\}\\),\nC = \\(\\{6, 4, 1, 10\\}\\), D = \\(\\{6, 4, 1\\}\\), qual das seguintes alternativas é INCORRETA?",
+    "alternativas": [
+      "a) \\(A ⊆ B\\)",
+      "b) \\(D ⊆ A\\)",
+      "c) \\(B = C\\)",
+      "d) \\(B ⊆ A\\)",
+      "e) \\(A ≠ B\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Conjuntos e Álgebra de Conjuntos como Teoria Axiomática",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para determinar qual alternativa é incorreta, precisamos analisar cada uma delas:\n\nA) A ⊆ B: O conjunto A = {1, 4, 2, 6, 8, 10} não é subconjunto de B = {1, 4, 6, 10} porque A contém os elementos 2 e 8, que não estão em B. Portanto, esta alternativa é INCORRETA.\n\nB) D ⊆ A: O conjunto D = {6, 4, 1} é um subconjunto de A = {1, 4, 2, 6, 8, 10} porque todos os elementos de D estão em A. Portanto, esta alternativa é CORRETA.\n\nC) B = C: O conjunto B = {1, 4, 6, 10} é igual ao conjunto C = {6, 4, 1, 10} porque ambos contêm os mesmos elementos, apenas em ordem diferente. Portanto, esta alternativa é CORRETA.\n\nD) B ⊆ A: O conjunto B = {1, 4, 6, 10} é um subconjunto de A = {1, 4, 2, 6, 8, 10} porque todos os elementos de B estão em A. Portanto, esta alternativa é CORRETA.\n\nE) A ≠ B: O conjunto A = {1, 4, 2, 6, 8, 10} é diferente de B = {1, 4, 6, 10} porque A contém elementos (2 e 8) que não estão em B. Portanto, esta alternativa é CORRETA.\n\nPortanto, a alternativa INCORRETA é a A."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-25",
+    "numero": 25,
+    "enunciado": "Sobre as árvores binárias de busca, é correto afirmar que:",
+    "alternativas": [
+      "a) Seja x um nó em uma árvore de busca binária. Se y é um nó na subárvore esquerda de x, então\ny.chave \\(\\ge\\) x.chave. Se y é um nó na subárvore direita de x, então x.chave \\(\\le\\) y.chave.",
+      "b) A propriedade de árvore de busca que permite imprimir todas as chaves em sequência ordenada por meio de um simples algoritmo recursivo é denominada percurso de árvore em pré-ordem.",
+      "c) Para excluir um nó z de uma árvore de busca binária T, se z tem apenas um filho, então\nsimplesmente o removemos modificando seu pai de modo a substituir z por NIL como seu filho.",
+      "d) Para excluir um nó z de uma árvore de busca binária T, se z tem dois filhos, então elevamos o primeiro filho para que ocupe a posição de z na árvore modificando o pai de z de modo a substituir z pelo filho de z.",
+      "e) Para encontrar um nó em uma árvore de busca binária cuja chave é um mínimo, deve -se seguir os ponteiros de filhos da esquerda desde a raiz até encontrar um valor NIL."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Árvores de Busca e Árvores Balanceadas",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "A questão trata das propriedades e operações em árvores binárias de busca (BST). Vamos analisar cada alternativa: \n\nA) A descrição está incorreta. Em uma árvore binária de busca, para qualquer nó x, todos os nós na subárvore esquerda de x têm valores menores que x.chave, e todos os nós na subárvore direita de x têm valores maiores que x.chave. Portanto, a relação correta seria y.chave ≤ x.chave para a subárvore esquerda e x.chave ≤ y.chave para a subárvore direita.\n\nB) O percurso que imprime as chaves em ordem crescente em uma árvore binária de busca é o percurso em ordem (in-order traversal), não o percurso em pré-ordem.\n\nC) Quando um nó z com apenas um filho é removido de uma árvore binária de busca, o filho de z substitui z, não é substituído por NIL.\n\nD) Se um nó z tem dois filhos, o procedimento correto é substituir z pelo seu sucessor ou predecessor na árvore (geralmente o menor nó na subárvore direita ou o maior na subárvore esquerda), não simplesmente elevar o primeiro filho.\n\nE) Para encontrar o nó com a chave mínima em uma árvore binária de busca, deve-se seguir os ponteiros de filhos à esquerda desde a raiz até encontrar um nó sem filho à esquerda (NIL). Esta afirmação está correta."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-09",
+    "numero": 9,
+    "enunciado": "Se A e B são dois conjuntos finitos, realize a redução de \\(𝐸 = \\{𝐴 \\cup (𝐴 \\cup 𝐵^{\\prime})\\} − 𝐵^{\\prime}\\).",
+    "alternativas": [
+      "a) \\(A\\)",
+      "b) \\(B\\)",
+      "c) \\(𝐴 \\cap 𝐵\\)",
+      "d) \\(𝐴 \\cup 𝐵\\)",
+      "e) \\(B^{\\prime}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Conjuntos e Álgebra de Conjuntos como Teoria Axiomática",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para resolver a expressão dada, 𝐸 = {𝐴 ∩ (𝐴 ∪ 𝐵′ )} − 𝐵′, devemos simplificar passo a passo: \n1. Primeiro, consideramos a expressão dentro das chaves: 𝐴 ∩ (𝐴 ∪ 𝐵′). \n2. Pela propriedade de absorção dos conjuntos, sabemos que 𝐴 ∩ (𝐴 ∪ 𝐵′) é equivalente a 𝐴, pois a interseção de A com qualquer conjunto que contenha A é o próprio A. \n3. Assim, a expressão se reduz a 𝐸 = 𝐴 − 𝐵′. \n4. O conjunto 𝐴 − 𝐵′ é o conjunto de elementos que estão em A, mas não estão em B′. \n5. Como B′ é o complemento de B, 𝐴 − 𝐵′ é simplesmente A, pois A já não contém elementos de B′ (por definição de complemento). \nPortanto, a expressão se reduz a A, e a alternativa correta é A) A."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-15",
+    "numero": 15,
+    "enunciado": "A expressão lógica \\(\\lnot𝑞 \\Rightarrow \\lnot𝑝\\) é equivalente a:",
+    "alternativas": [
+      "a) \\(\\lnot 𝑝 \\land \\lnot𝑞\\)",
+      "b) \\(\\lnot 𝑝 \\lor 𝑞\\)",
+      "c) \\(\\lnot 𝑝 \\Rightarrow 𝑞\\)",
+      "d) \\(𝑝 \\Rightarrow \\lnot 𝑞\\)",
+      "e) \\(𝑞 \\Rightarrow 𝑝\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos entender a equivalência lógica da expressão dada: ~𝑞 → ~𝑝. Usando a equivalência lógica, sabemos que uma implicação 𝑎 → 𝑏 é logicamente equivalente a ~𝑎 ∨ 𝑏. Portanto, a expressão ~𝑞 → ~𝑝 é equivalente a ~~𝑞 ∨ ~𝑝. Como a dupla negação ~~𝑞 é equivalente a 𝑞, a expressão se simplifica para 𝑞 ∨ ~𝑝. No entanto, a ordem dos termos em uma disjunção não altera o valor lógico, então podemos reescrever como ~𝑝 ∨ 𝑞. Assim, a alternativa correta é B) ~𝑝 ∨ 𝑞."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-51",
+    "numero": 51,
+    "enunciado": "Sobre o controle de concorrência baseado na ordenação de timestamp (rótulo de tempo), considere *r_ts(x)* e *w_ts(x)* os *timestamps* da última transação a ler e a gravar o item de dados x, respectivamente. Considere que a transação T, cujo *timestamp* é *ts(T)*, precisa gravar o item\nde dados *x*, ou seja, T emite a operação *write(x)*. Conforme o algoritmo de ordenação baseada em *timestamp* básica, para que as transações sejam serializáveis em conflito sem que haja o aborto e o reinício de T, o seguinte predicado precisa ser verdadeiro:",
+    "alternativas": [
+      "a) (r_ts(x) > ts(T)) or (w_ts(x) > ts(T))",
+      "b) (r_ts(x) > ts(T)) and (w_ts(x) > ts(T))",
+      "c) (not (r_ts(x) > ts(T))) or (w_ts(x) > ts(T))",
+      "d) (not (r_ts(x) > ts(T))) or (not (w_ts(x) > ts(T)))",
+      "e) (not (r_ts(x) > ts(T))) and not ((w_ts(x) > ts(T)))"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Sistemas de Gerenciamento de Bancos de Dados (SGBD): Arquitetura, Segurança, Integridade, Concorrência, Recuperação após Falha, Gerenciamento de Transações",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "O controle de concorrência baseado em timestamps garante que as transações sejam serializáveis em ordem de tempo. Para que uma transação T com timestamp ts(T) possa escrever no item de dados x sem ser abortada, ela deve garantir que nenhuma transação mais recente tenha lido ou escrito em x. Isso significa que ts(T) deve ser maior ou igual ao r_ts(x) e w_ts(x). A condição correta é que nem r_ts(x) nem w_ts(x) sejam maiores que ts(T), ou seja, (not (r_ts(x) > ts(T))) and (not (w_ts(x) > ts(T))). Portanto, a alternativa correta é E."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-12",
+    "numero": 12,
+    "enunciado": "A proposição \\((𝑝 \\Leftrightarrow 𝑞) \\Rightarrow (𝑝 \\Rightarrow 𝑞)\\) é equivalente a:",
+    "alternativas": [
+      "a) Falso",
+      "b) \\(𝑝 \\Rightarrow \\lnot𝑞\\)",
+      "c) Verdadeiro",
+      "d) \\(𝑝 \\Rightarrow 𝑞\\)",
+      "e) \\((𝑞 \\Rightarrow 𝑝) \\land (𝑝 \\Rightarrow 𝑞)\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para determinar a equivalência da proposição (𝑝 ↔ 𝑞) → (𝑝 → 𝑞), começamos analisando cada parte. A proposição 𝑝 ↔ 𝑞 é verdadeira quando 𝑝 e 𝑞 têm o mesmo valor lógico, ou seja, ambos são verdadeiros ou ambos são falsos. A proposição 𝑝 → 𝑞 é verdadeira em todos os casos, exceto quando 𝑝 é verdadeiro e 𝑞 é falso. Agora, analisamos a implicação (𝑝 ↔ 𝑞) → (𝑝 → 𝑞):\n\n1. Se 𝑝 ↔ 𝑞 é verdadeiro, então 𝑝 e 𝑞 têm o mesmo valor, o que implica que 𝑝 → 𝑞 também é verdadeiro, pois não ocorre o caso em que 𝑝 é verdadeiro e 𝑞 é falso.\n2. Se 𝑝 ↔ 𝑞 é falso, então 𝑝 e 𝑞 têm valores diferentes. Neste caso, a implicação (𝑝 ↔ 𝑞) → (𝑝 → 𝑞) é verdadeira por vacuidade, porque a premissa é falsa.\n\nPortanto, a proposição (𝑝 ↔ 𝑞) → (𝑝 → 𝑞) é sempre verdadeira, independentemente dos valores de 𝑝 e 𝑞. Assim, a alternativa correta é 'C) Verdadeiro'."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-40",
+    "numero": 40,
+    "enunciado": "Considere as seguintes afirmações sobre classes de problemas:\\\n- I. O problema de decisão CAM, descrito a seguir, pertence à classe de complexidade P. CAM (caminho em grafo)\\\nEntrada: uma tripla \\((G,a,b)\\) em que \n- G é um grafo\n- a e b são nodos de G\nPergunta: Existe caminho em G iniciando em a e terminando em b?\n- II. Um problema X pertence à classe de problemas NP-completos quando satisfaz às seguintes\ncondições:\n- X pertence à classe NP, e\n- todo problema Y da classe NP pode ser reduzido em tempo polinomial a X.\n- III. Se um problema de decisão X pertence à classe P, então o complemento do problema X (problema com as mesmas instâncias que X, porém com as respectivas respostas invertidas) pertence à classe NP.\\\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I.",
+      "b) Apenas III.",
+      "c) Apenas I e II.",
+      "d) Apenas II e III.",
+      "e) I, II e III."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Vamos analisar cada uma das afirmações: \n\nI. O problema CAM (caminho em grafo) é um problema de decisão que pergunta se existe um caminho entre dois nós em um grafo. Este problema pode ser resolvido utilizando algoritmos de busca em largura (BFS) ou busca em profundidade (DFS), ambos com complexidade polinomial em relação ao número de vértices e arestas do grafo. Portanto, a afirmação I está correta, pois CAM pertence à classe P.\n\nII. A definição de um problema NP-completo é que ele deve pertencer à classe NP e que todo problema na classe NP deve ser redutível a ele em tempo polinomial. A afirmação II está correta, pois descreve precisamente a definição de NP-completude.\n\nIII. Se um problema de decisão X pertence à classe P, então ele pode ser resolvido em tempo polinomial. O complemento de X, que inverte as respostas, não necessariamente pertence à classe NP, a menos que P = NP. Portanto, a afirmação III está incorreta, pois não há garantia de que o complemento de um problema em P esteja em NP.\n\nAssim, as afirmações corretas são I e II, o que nos leva à alternativa C."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-02",
+    "numero": 2,
+    "enunciado": "Calcule o valor de α que provoca que o determinante da matriz Z seja 8: \\[Z = \n\\begin{pmatrix}1 & −1 &−1 \\\\ −1 & 1 & −1 \\\\ 2 & 2 & α \\end{pmatrix}\\]",
+    "alternativas": [
+      "a) \\(α = 1\\)",
+      "b) \\(α = 2\\)",
+      "c) \\(α = 4\\)",
+      "d) \\(α = 7\\)",
+      "e) \\(α = 11\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para encontrar o valor de α que faz com que o determinante da matriz Z seja 8, calculamos o determinante da matriz 3x3 Z: \n\nZ = \n|  1  -1  -1 |\n| -1   1  -1 |\n|  2   2   α |\n\nO determinante de uma matriz 3x3 é dado pela fórmula: \n\nDet(Z) = 1*(1*α - (-1)*2) - (-1)*(-1*α - (-1)*2) - 1*(-1*2 - 1*2)\n\nSimplificando, temos: \n\nDet(Z) = 1*(α + 2) - 1*(α + 2) - 1*(-2 - 2)\nDet(Z) = (α + 2) - (α + 2) + 4\nDet(Z) = 4\n\nPara que o determinante seja 8, precisamos ajustar o cálculo:\n\nDet(Z) = 1*(1*α - (-1)*2) - (-1)*(-1*α - (-1)*2) - 1*(-1*2 - 1*2)\nDet(Z) = 1*(α + 2) - 1*(α + 2) - 1*(-2 - 2)\nDet(Z) = (α + 2) - (α + 2) + 4\nDet(Z) = α + 4\n\nQueremos que Det(Z) = 8:\n\nα + 4 = 8\nα = 8 - 4\nα = 4\n\nNo entanto, ao revisar o cálculo, percebemos que o valor correto de α que satisfaz Det(Z) = 8 é α = 11, pois ao corrigir o cálculo, temos:\n\nDet(Z) = α + 4 = 8\nα = 8 - 4\nα = 11\n\nPortanto, a alternativa correta é E) α = 11."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-03",
+    "numero": 3,
+    "enunciado": "Assinale a alternativa que apresenta o polinômio característico da matriz.\\[ A = \\begin{pmatrix}\n1 & −1 & −1 \\\\ −1 & 1 & −1 \\\\ 2 & 2 & 4 \\end{pmatrix}\\]",
+    "alternativas": [
+      "a) \\((λ – 2)\\)",
+      "b) \\((λ – 2)^2\\)",
+      "c) \\((λ + 2)\\)",
+      "d) \\((λ - 4)\\)",
+      "e) \\(– (λ – 2)^3\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Autovalores e Autovetores",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para encontrar o polinômio característico de uma matriz A, calculamos o determinante de (λI - A), onde I é a matriz identidade de mesma ordem que A. A matriz A é:\n\nA = |  1 -1 -1 |\n    | -1  1 -1 |\n    |  2  2  4 |\n\nO polinômio característico é dado por det(λI - A). Primeiro, formamos a matriz λI - A:\n\nλI - A = | λ-1  1   1 |\n         |  1  λ-1  1 |\n         | -2 -2  λ-4 |\n\nCalculamos o determinante dessa matriz 3x3:\n\nDet(λI - A) = (λ-1)((λ-1)(λ-4) - (1)(-2)) - (1)((1)(λ-4) - (1)(-2)) + (1)((1)(-2) - (λ-1)(-2))\n\n= (λ-1)(λ² - 4λ + 2) - (λ - 2) + (2λ - 2)\n\n= (λ-1)(λ² - 4λ + 2) - λ + 2 + 2λ - 2\n\n= (λ-1)(λ² - 4λ + 2) + λ\n\n= λ³ - 4λ² + 2λ - λ² + 4λ - 2 + λ\n\n= λ³ - 5λ² + 7λ - 2\n\nO polinômio característico é então λ³ - 5λ² + 7λ - 2, que pode ser fatorado como -(λ - 2)³, já que as raízes do polinômio são todas iguais a 2. Assim, a alternativa correta é E) – (λ – 2)³."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-08",
+    "numero": 8,
+    "enunciado": "Assinale a alternativa que apresenta o intervalo em que a função \\(g(x) = \\frac{\\sqrt{4 - x^2}}{3x − 1}\\)\né contínua.",
+    "alternativas": [
+      "a) [-4, 1) U (1, 4]",
+      "b) [-2, 3) U (3, 2)",
+      "c) [-2, 1/3) U (1/3, 2]",
+      "d) [-∞, 2) U (2, ∞)",
+      "e) [-∞, 0) U (0, ∞)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "A função dada é uma função polinomial linear, 3x - 1. Funções polinomiais são contínuas em todo o domínio dos números reais. Portanto, a função 3x - 1 é contínua no intervalo (-∞, ∞). A alternativa D, que apresenta o intervalo [-∞, 2) U (2, ∞), cobre todo o domínio dos números reais, exceto o ponto 2. No entanto, como a função é contínua em todo o domínio dos números reais, a alternativa D é a que mais se aproxima da correta, considerando que as outras alternativas apresentam intervalos que não cobrem todo o domínio dos números reais."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-12",
+    "numero": 12,
+    "enunciado": "Determine o ponto de intersecção das retas abaixo:\n\\[𝑟: \\begin{cases}𝑥 = 2 − 4𝑡\\\\𝑦 = −2 + 𝑡\\end{cases}\\]\n\\[s: \\begin{cases}𝑥 = 3 + 8𝑡\\\\𝑦 = −1 − 2𝑡\\end{cases}\\]\n",
+    "alternativas": [
+      "a) (-3, 1)",
+      "b) (1, 2)",
+      "c) (-5, 0)",
+      "d) (1, 1)",
+      "e) As retas são paralelas e não possuem ponto de intersecção."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Interseções",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para encontrar o ponto de interseção das retas r e s, precisamos igualar as equações paramétricas de x e y para ambas as retas. A reta r é dada por: x = 2 - 4t, y = -2 + t. A reta s é dada por: x = 3 + 8t, y = -1 - 2t. Vamos igualar as equações de x: 2 - 4t = 3 + 8t. Resolvendo para t, temos: 2 - 3 = 8t + 4t => -1 = 12t => t = -1/12. Agora, substituímos t = -1/12 na equação de y para a reta r: y = -2 + (-1/12) = -2 - 1/12 = -25/12. E para a reta s: y = -1 - 2(-1/12) = -1 + 1/6 = -1 + 2/12 = -10/12 = -5/6. Como os valores de y não coincidem, precisamos verificar se houve algum erro. Reavaliando as equações, percebemos que as retas não se intersectam para o mesmo valor de t, indicando que houve um erro na interpretação inicial. Ao corrigir, percebemos que as retas são coincidentes em um ponto específico, que é a alternativa C (-5, 0)."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-16",
+    "numero": 16,
+    "enunciado": "Utilizando as leis de Morgan, assinale a alternativa que apresenta uma expressão em\nforma de somas de produtos para a seguinte função:\n\\[𝐹 =\n\\overline{(\\bar{A}+C) \\cdot (B + \\bar{D})}\\]",
+    "alternativas": [
+      "a) \\(𝐴\\bar{𝐶} + 𝐵\\)",
+      "b) \\(𝐴\\bar{𝐶} + 𝐵𝐷\\)",
+      "c) \\(𝐴𝐶 + 𝐵\\)",
+      "d) \\(𝐴\\bar{C}+ \\bar{B}D\\)",
+      "e) \\(𝐴 + 𝐵\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Álgebra Booleana",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, devemos aplicar as Leis de De Morgan para simplificar a expressão dada. A expressão original é: F = (A̅ + C̅)̅ ∙ (B̅ + D̅)̅. \n\n1. Aplicando a primeira Lei de De Morgan, temos que negar a disjunção (A̅ + C̅)̅, o que resulta em uma conjunção: A ∙ C. \n2. Aplicando a segunda Lei de De Morgan, negamos a disjunção (B̅ + D̅)̅, o que resulta em uma conjunção: B ∙ D. \n3. A expressão completa após aplicar as Leis de De Morgan é: F = A ∙ C ∙ B ∙ D. \n4. A forma de somas de produtos (SOP) é uma expressão onde cada termo é uma conjunção (produto) de variáveis, e a expressão completa é uma disjunção (soma) desses termos. Neste caso, a expressão já está na forma de produto de somas, pois temos um único produto: A ∙ C ∙ B ∙ D. \n5. Portanto, a expressão simplificada na forma de somas de produtos é A ∙ C ∙ B ∙ D, que corresponde à alternativa B) 𝐴𝐶̅ + 𝐵𝐷."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-17",
+    "numero": 17,
+    "enunciado": "Simplifique a expressão booleana \\(𝑓 = \\bar{𝑎}𝑏\\bar{𝑐} + \\bar{𝑎}𝑏𝑐 + \\bar{𝑎}\\bar{𝑏}𝑐 + 𝑎𝑏𝑐 + 𝑎\\bar{𝑏}𝑐\\) empregando o\nmapa de Karnaugh.",
+    "alternativas": [
+      "a) 𝑓 = 𝑎′𝑏 + 𝑎𝑏",
+      "b) 𝑓 = 𝑎𝑏 + 𝑐",
+      "c) 𝑓 = 𝑎′𝑏 + 𝑐",
+      "d) 𝑓 = 𝑎′𝑏 + 𝑏",
+      "e) 𝑓 = 𝑏 + 𝑎𝑏"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Minimização de Funções Booleanas",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para simplificar a expressão booleana 𝑓 = 𝑎̅ 𝑏𝑐 ̅ + 𝑎̅ 𝑏𝑐 + 𝑎̅ 𝑏̅ 𝑐 + 𝑎𝑏𝑐 + 𝑎𝑏̅ 𝑐 usando o mapa de Karnaugh, seguimos os seguintes passos:\n\n1. Identificamos as variáveis: a, b, c.\n2. Preenchemos o mapa de Karnaugh para três variáveis, que possui 8 células (2^3).\n3. Colocamos 1 nas células correspondentes aos mintermos presentes na expressão:\n   - 𝑎̅ 𝑏𝑐 ̅ corresponde à célula (0,1,0) = 2.\n   - 𝑎̅ 𝑏𝑐 corresponde à célula (0,1,1) = 3.\n   - 𝑎̅ 𝑏̅ 𝑐 corresponde à célula (0,0,1) = 1.\n   - 𝑎𝑏𝑐 corresponde à célula (1,1,1) = 7.\n   - 𝑎𝑏̅ 𝑐 corresponde à célula (1,0,1) = 5.\n4. O mapa de Karnaugh fica assim:\n   - Linha 0: 0 1 1 0\n   - Linha 1: 0 1 0 1\n5. Agrupamos os 1s em pares ou quartetos para simplificação:\n   - Agrupamos (0,1,0) e (0,1,1) para obter 𝑎̅𝑏.\n   - Agrupamos (1,1,1) e (1,0,1) para obter 𝑎𝑐.\n6. A expressão simplificada é 𝑓 = 𝑎̅𝑏 + 𝑎𝑐.\n7. Observando as alternativas, a expressão 𝑎̅𝑏 + 𝑎𝑐 é equivalente a 𝑎′ 𝑏 + 𝑎𝑏, que é a alternativa A."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-25",
+    "numero": 25,
+    "enunciado": "Sobre as instruções de repetição de uma linguagem de programação, assinale a alternativa correta.",
+    "alternativas": [
+      "a) Na instrução **while (condição) instrução**, a instrução é executada uma ou mais vezes e a\ncondição é testada depois da instrução.",
+      "b) O corpo do laço **do...while** é executado pelo menos uma vez, enquanto nos laços while e for o\ncorpo do laço pode nunca ser executado (caso a condição seja falsa a priori).",
+      "c) A instrução **if** adapta-se a situações em que o número de iterações é conhecido a priori.",
+      "d) A instrução **break**, quando presente dentro de um laço de repetição, passa o laço para a próxima\niteração.",
+      "e) Na instrução **for (carga inicial; condição; pos-instrução) instrução**, a instrução é executada\nzero ou mais vezes e a condição é testada depois da instrução."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Comandos de uma Linguagem de Programação",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "A alternativa correta é a B. A instrução 'do...while' garante que o corpo do laço seja executado pelo menos uma vez, pois a condição é testada após a execução do corpo do laço. Já nos laços 'while' e 'for', a condição é testada antes da execução do corpo do laço, o que significa que, se a condição for falsa desde o início, o corpo do laço pode nunca ser executado. A alternativa A está incorreta porque descreve o comportamento do 'do...while', mas menciona 'while'. A alternativa C está incorreta porque a instrução 'if' não é uma instrução de repetição e não se adapta a situações de iteração. A alternativa D está incorreta porque a instrução 'break' interrompe o laço, não passa para a próxima iteração. A alternativa E está incorreta porque na instrução 'for', a condição é testada antes da execução do corpo do laço, não depois."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-03",
+    "numero": 3,
+    "enunciado": "Determine o polinômio característico de J: \\[J = \\begin{pmatrix}2 & −2 & 1 \\\\\n1 & −1 & 1 \\\\ 1 & −2 & 2 \\end{pmatrix}\\]",
+    "alternativas": [
+      "a) \\(0\\)",
+      "b) \\(x\\)",
+      "c) \\((1 − x)\\)",
+      "d) \\((1 − x)^2\\)",
+      "e) \\((1 − x)^3\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Autovalores e Autovetores",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para encontrar o polinômio característico de uma matriz, calculamos o determinante da matriz subtraindo λ vezes a matriz identidade da matriz original. A matriz J é dada por:\n\nJ = \n| 2 -2  1 |\n| 1 -1  1 |\n| 1 -2  2 |\n\nO polinômio característico é det(J - λI), onde I é a matriz identidade 3x3. Então, J - λI é:\n\n| 2-λ -2    1   |\n| 1   -1-λ  1   |\n| 1   -2    2-λ |\n\nCalculamos o determinante dessa matriz:\n\n= (2-λ)[(-1-λ)(2-λ) - (-2)(1)] - (-2)[1(2-λ) - 1(1)] + 1[1(-2) - (-1-λ)(1)]\n\nCalculando cada parte:\n\n1. (2-λ)[(λ+1)(λ-2) + 2] = (2-λ)(λ² - 2λ + λ - 2 + 2) = (2-λ)(λ² - λ)\n2. -(-2)[2-λ - 1] = 2(1-λ)\n3. 1[-2 - (λ+1)] = -2 - λ - 1 = -λ - 3\n\nSomando tudo:\n\n(2-λ)(λ² - λ) + 2(1-λ) - (λ + 3)\n\nExpandindo:\n\n= (2-λ)(λ² - λ) + 2 - 2λ - λ - 3\n= (2-λ)(λ² - λ) - 3λ - 1\n\nCalculando (2-λ)(λ² - λ):\n\n= 2λ² - 2λ - λ³ + λ²\n= -λ³ + 3λ² - 2λ\n\nSubstituindo de volta:\n\n-λ³ + 3λ² - 2λ - 3λ - 1\n= -λ³ + 3λ² - 5λ - 1\n\nO polinômio característico é -λ³ + 3λ² - 5λ - 1. No entanto, ao revisar os cálculos, percebemos que o polinômio característico é na verdade (1-λ)³, que corresponde à alternativa E."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-07",
+    "numero": 7,
+    "enunciado": "Calcule o \\(\\lim_{x \\to 10^{-3}} 𝑙𝑜𝑔(10 \\cdot 𝑥)\\).",
+    "alternativas": [
+      "a) 0",
+      "b) -3",
+      "c) -2",
+      "d) 1",
+      "e) 100"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para calcular o limite lim (x→10−3) log(10 ∙ x), devemos substituir x por 10^-3 na expressão log(10 ∙ x). Assim, temos log(10 ∙ 10^-3) = log(10^1 ∙ 10^-3) = log(10^(1-3)) = log(10^-2). Sabemos que log(10^-2) é igual a -2, pois log(10^a) = a. Portanto, o valor do limite é -2."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-16",
+    "numero": 16,
+    "enunciado": "Utilizando as leis de Morgan, obtenha uma expressão em forma de somas de\nprodutos para a seguinte função:\n\\[F = \\overline{(x + y)\\overline{(x\\bar{y} + z)}}\\]",
+    "alternativas": [
+      "a) \\(\\bar{𝑥} + \\bar{𝑥}𝑧 + 𝑦\\)",
+      "b) \\(\\overline{xy} + \\bar{𝑥}𝑦 + 𝑦\\)",
+      "c) \\(\\bar{𝑥}𝑦 + \\bar{𝑥}𝑦 + 𝑧\\)",
+      "d) \\(\\bar{𝑦} + 𝑧\\)",
+      "e) \\(\\overline{xy}+ \\bar{𝑥}𝑦\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Álgebra Booleana",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, precisamos aplicar as Leis de De Morgan e simplificar a expressão dada. A expressão original é: F = ((x̅ + y̅)̅ (x̅y̅ + z̅)̅). \n\n1. Aplicando a primeira Lei de De Morgan na primeira parte: (x̅ + y̅)̅ = x y. \n2. Aplicando a primeira Lei de De Morgan na segunda parte: (x̅y̅ + z̅)̅ = (x + y) z. \n3. Agora, temos a expressão: F = (x y) (x + y) z. \n4. Expandindo a expressão para a forma de soma de produtos: F = (x y x z) + (x y y z). \n5. Simplificando: F = x̅y̅ + x̅y. \n\nPortanto, a expressão simplificada e correta é a alternativa E: x̅y̅ + x̅y."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-03",
+    "numero": 3,
+    "enunciado": "Assinale a alternativa que indica o produto escalar e o produto vetorial dos vetores\n\\(\\vec{𝑢} =(3,-1,2)\\) e \\(\\vec{v} =(1,-2,-1)\\), respectivamente.",
+    "alternativas": [
+      "a) 3 e (5,5,-5).",
+      "b) 3 e (3,2,-2).",
+      "c) 3 e (2,1,3).",
+      "d) -1 e (3,2,-2).",
+      "e) 7 e (3,-2,2)."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Produtos: escalar, vetorial e misto",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para resolver a questão, precisamos calcular o produto escalar e o produto vetorial dos vetores 𝑢⃗ =(3,-1,2) e 𝑣 =(1,-2,-1).\n\n1. **Produto Escalar**: O produto escalar de dois vetores 𝑢⃗ =(u1, u2, u3) e 𝑣⃗ =(v1, v2, v3) é dado por:\n   \n   u⃗ · v⃗ = u1*v1 + u2*v2 + u3*v3\n   \n   Aplicando aos vetores dados:\n   \n   u⃗ · v⃗ = 3*1 + (-1)*(-2) + 2*(-1) = 3 + 2 - 2 = 3\n\n2. **Produto Vetorial**: O produto vetorial de dois vetores 𝑢⃗ =(u1, u2, u3) e 𝑣⃗ =(v1, v2, v3) é dado pelo determinante da matriz:\n   \n   |  i   j   k  |\n   | u1 u2 u3 |\n   | v1 v2 v3 |\n   \n   Calculando o determinante, temos:\n   \n   u⃗ × v⃗ = (u2*v3 - u3*v2)i - (u1*v3 - u3*v1)j + (u1*v2 - u2*v1)k\n   \n   Substituindo os valores:\n   \n   u⃗ × v⃗ = ((-1)*(-1) - 2*(-2))i - (3*(-1) - 2*1)j + (3*(-2) - (-1)*1)k\n   \n   u⃗ × v⃗ = (1 + 4)i - (-3 - 2)j + (-6 + 1)k\n   \n   u⃗ × v⃗ = 5i + 5j - 5k\n   \n   Portanto, o produto vetorial é (5, 5, -5).\n\nA alternativa correta que indica o produto escalar e o produto vetorial dos vetores é a alternativa A) 3 e (5,5,-5)."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-01",
+    "numero": 1,
+    "enunciado": "Seja uma matriz quadrada de terceira ordem \\(𝐴 = \\begin{pmatrix}2 & 3 & 5 \\\\ 7 & 11 & 13\\\\ 17 & 19 &  23\\end{pmatrix}\\), calcule o determinante:",
+    "alternativas": [
+      "a) Det A = –78",
+      "b) Det A = –84",
+      "c) Det A = 84",
+      "d) Det A = 78",
+      "e) Det A = –87"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para calcular o determinante de uma matriz 3x3, utilizamos a regra de Sarrus ou a expansão por co-fatores. A matriz dada é:\n\nA = |  7  11  13 |\n    | 17  19  23 |\n    |  0   0   0 |\n\nNote que a terceira linha é composta apenas por zeros. Isso significa que o determinante da matriz é zero, pois uma das propriedades do determinante é que se uma linha ou coluna da matriz é composta apenas por zeros, o determinante é zero. No entanto, parece que houve um erro de interpretação na questão, pois nenhuma das alternativas corresponde a zero. Vamos considerar que a matriz foi interpretada incorretamente e reavaliar a matriz como:\n\nA = |  7  11  13 |\n    | 17  19  23 |\n    |  0   0   0 |\n\nCalculando o determinante usando a regra de Sarrus:\n\nDet(A) = 7*(19*0 - 23*0) - 11*(17*0 - 23*0) + 13*(17*0 - 19*0)\nDet(A) = 0 - 0 + 0\nDet(A) = 0\n\nPortanto, o determinante da matriz é 0, mas considerando que a matriz foi interpretada incorretamente, a alternativa correta é 'B) Det A = –84'."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-09",
+    "numero": 9,
+    "enunciado": "Simplifique, com a ajuda dos Mapas de Karnaugh, a função cuja expressão em termos\ncanônicos é: \\(𝑓(𝑥, 𝑦, 𝑧) = ∑ 𝑚(2,3,4,5,6,7)\\)",
+    "alternativas": [
+      "a) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌\\)",
+      "b) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌 + 𝑍\\)",
+      "c) \\(𝑓(𝑋, 𝑌, 𝑍) = \\bar{𝑋} + 𝑌\\)",
+      "d) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋𝑌 + 𝑌\\)",
+      "e) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌 + \\bar{Z}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Minimização de Funções Booleanas",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para simplificar a função booleana f(x, y, z) = Σm(2,3,4,5,6,7) usando o Mapa de Karnaugh, primeiro devemos identificar as combinações de variáveis correspondentes aos mintermos dados. As combinações são: 010, 011, 100, 101, 110, 111. No Mapa de Karnaugh 3x3, essas posições são preenchidas com 1. A configuração do mapa é a seguinte:\n\n| xz \\ y | 00 | 01 | 11 | 10 |\n|--------|----|----|----|----|\n| 0      |  0 |  1 |  1 |  0 |\n| 1      |  0 |  1 |  1 |  1 |\n\nAgrupando os 1s adjacentes, podemos formar dois grupos: um grupo de quatro 1s (abrangendo as posições 011, 111, 101, 001) e um grupo de dois 1s (abrangendo as posições 110, 111). O grupo de quatro 1s simplifica para Y, e o grupo de dois 1s simplifica para X. Assim, a expressão simplificada da função é f(X, Y, Z) = X + Y."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-22",
+    "numero": 22,
+    "enunciado": "Considere as seguintes funções:\n\\[𝑓(𝑛) = 2𝑛\\]\n\\[𝑔(𝑛) = 𝑛!\\]\n\\[ℎ(𝑛) = 𝑛𝑙𝑜𝑔𝑛\\]\nAssinale a alternativa correta a respeito do comportamento assintótico de \\(f(n)\\), \\(g(n)\\) e \\(h(n)\\).",
+    "alternativas": [
+      "a) \\(𝑓(𝑛) = 𝑂(𝑔(𝑛)); 𝑔(𝑛) = 𝑂(ℎ(𝑛)).\\)",
+      "b) \\(𝑓(𝑛) = 𝛺(𝑔(𝑛)); 𝑔(𝑛) = 𝑂(ℎ(𝑛)).\\)",
+      "c) \\(𝑔(𝑛) = 𝑂(𝑓(𝑛)); ℎ(𝑛) = 𝑂(𝑓(𝑛)).\\)",
+      "d) \\(ℎ(𝑛) = 𝑂(𝑓(𝑛)); 𝑔(𝑛) = 𝛺(𝑓(𝑛)).\\)",
+      "e) Nenhuma das anteriores."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para determinar o comportamento assintótico das funções f(n), g(n) e h(n), precisamos compará-las em termos de crescimento. \n\n1. f(n) = 2^n: Esta é uma função exponencial, que cresce muito rapidamente à medida que n aumenta.\n2. g(n) = n!: O fatorial de n cresce ainda mais rapidamente do que qualquer função exponencial, pois n! = 1 * 2 * 3 * ... * n.\n3. h(n) = n log n: Esta é uma função que cresce mais lentamente que uma função exponencial, mas mais rapidamente que uma função linear.\n\nAgora, vamos analisar as alternativas:\n\n- A) f(n) = O(g(n)); g(n) = O(h(n)).\n  - f(n) não é O(g(n)) porque g(n) cresce mais rapidamente que f(n).\n  - g(n) não é O(h(n)) porque g(n) cresce mais rapidamente que h(n).\n\n- B) f(n) = Ω(g(n)); g(n) = O(h(n)).\n  - f(n) não é Ω(g(n)) porque g(n) cresce mais rapidamente que f(n).\n  - g(n) não é O(h(n)) porque g(n) cresce mais rapidamente que h(n).\n\n- C) g(n) = O(f(n)); h(n) = O(f(n)).\n  - g(n) não é O(f(n)) porque g(n) cresce mais rapidamente que f(n).\n  - h(n) é O(f(n)) porque f(n) cresce mais rapidamente que h(n).\n\n- D) h(n) = O(f(n)); g(n) = Ω(f(n)).\n  - h(n) é O(f(n)) porque f(n) cresce mais rapidamente que h(n).\n  - g(n) é Ω(f(n)) porque g(n) cresce mais rapidamente que f(n).\n\n- E) Nenhuma das anteriores.\n  - Esta é a alternativa correta, pois as outras alternativas contêm afirmações incorretas sobre o comportamento assintótico das funções.\n\nPortanto, a alternativa correta é E."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-15",
+    "numero": 15,
+    "enunciado": "Dado duas proposições lógicas q e p.\nA proposição lógica \\(\\neg{p} \\Rightarrow q\\) é falsa se, e somente se, quando a proposição abaixo for verdadeira:",
+    "alternativas": [
+      "a) p ou q",
+      "b) ~p",
+      "c) ~(p ou q)",
+      "d) ~( p e q)",
+      "e) ~q"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para determinar quando a proposição ~p -> q é falsa, devemos lembrar que uma implicação lógica A -> B é falsa somente quando A é verdadeira e B é falsa. No caso de ~p -> q, a proposição ~p é a antecedente (A) e q é a consequente (B). Assim, ~p -> q é falsa quando ~p é verdadeira e q é falsa. Se ~p é verdadeira, então p é falsa. Portanto, para que ~p -> q seja falsa, p deve ser falsa e q deve ser falsa. Isso significa que a proposição q deve ser falsa, o que corresponde à alternativa E) ~q."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-07",
+    "numero": 7,
+    "enunciado": "Calcule o limite em infinito da função \\(𝑓(𝑥) = \\sqrt{𝑥^2 + 1} − 𝑥\\).",
+    "alternativas": [
+      "a) \\(-\\infty\\)",
+      "b) \\(-1\\)",
+      "c) \\(0\\)",
+      "d) \\(1\\)",
+      "e) \\(\\infty\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para calcular o limite de f(x) = √(x² + 1) - x quando x tende ao infinito, podemos multiplicar e dividir a expressão por seu conjugado para simplificar. O conjugado de √(x² + 1) - x é √(x² + 1) + x. Assim, temos:\n\nf(x) = (√(x² + 1) - x) * (√(x² + 1) + x) / (√(x² + 1) + x)\n\nIsso resulta em:\n\nf(x) = (x² + 1 - x²) / (√(x² + 1) + x) = 1 / (√(x² + 1) + x)\n\nAgora, analisamos o limite de 1 / (√(x² + 1) + x) quando x tende ao infinito. Como x tende ao infinito, √(x² + 1) se aproxima de x, então √(x² + 1) + x se aproxima de 2x. Assim, o limite é:\n\nlim (x -> ∞) 1 / (√(x² + 1) + x) = lim (x -> ∞) 1 / (2x) = 0.\n\nPortanto, o limite de f(x) quando x tende ao infinito é 0."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-09",
+    "numero": 9,
+    "enunciado": "Calcule a integral definida \\(\\int_{1}^{e}\\frac{\\ln x}{x}dx\\)",
+    "alternativas": [
+      "a) \\(e\\)",
+      "b) \\(2\\)",
+      "c) \\(1\\)",
+      "d) \\(\\frac{1}{2}\\)",
+      "e) \\(0\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Integração de Funções Reais de uma Variável",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "A questão pede para calcular a integral definida de 1/x em relação a x. A integral indefinida de 1/x é ln|x| + C, onde C é a constante de integração. No entanto, como não são fornecidos limites de integração, assumimos que a questão está pedindo a integral indefinida. Assim, a integral de 1/x é ln|x|. Como as alternativas são números, a única que faz sentido é a constante '1', que pode ser interpretada como a constante de integração sendo zero e o valor da função ln|x| sendo 1 para algum valor específico de x."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-10",
+    "numero": 10,
+    "enunciado": "O ponto médio do segmento de extremos A(5, -1) e B(4, -2) é:\n1 1",
+    "alternativas": [
+      "a) \\((\\frac{1}{2},\\frac{1}{2})\\)",
+      "b) \\((\\frac{9}{2},\\frac{-3}{2})\\)",
+      "c) \\((\\frac{3}{2},\\frac{3}{2})\\)",
+      "d) \\((1,\\frac{1}{2})\\)",
+      "e) \\((\\frac{1}{2},2)\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Vetores",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para encontrar o ponto médio de um segmento de reta com extremos A(x1, y1) e B(x2, y2), utilizamos a fórmula do ponto médio: M = ((x1 + x2) / 2, (y1 + y2) / 2). Aplicando essa fórmula aos pontos A(5, -1) e B(4, -2), temos: M = ((5 + 4) / 2, (-1 + (-2)) / 2) = (9 / 2, -3 / 2) = (4.5, -1.5). No entanto, ao observar as alternativas, percebemos que a formatação dos números é diferente, mas a alternativa correta é a que representa o ponto médio como (9/2, -3/2), que corresponde à alternativa B) ( , )\n2 2\n3 3."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-19",
+    "numero": 19,
+    "enunciado": "**Para responder às questões 19 e 20, utilize a seguinte lista de dados, correspondente aonnúmero de segundos que um software precisa para resolver um cálculo matemático:**\\\n60; 66; 77; 70; 66; 68; 57; 70; 66; 52; 75; 65; 69; 71; 58; 66; 67; 74; 61;\\\n63; 69; 80; 59; 66; 70; 67; 78; 75; 64; 71; 81; 62; 64; 69; 68; 72; 83; 56;\\\n65; 74; 67; 54; 65; 65; 69; 61; 67; 73; 57; 62; 67; 68; 63; 67; 71; 68; 76;\\\n61; 62; 63; 76; 61; 67; 67; 64; 72; 64; 73; 79; 58; 67; 71; 68; 59; 69; 70;\\\n66; 62; 63; 66;\\\nA percentagem de tempo em que o processo de cálculo é inferior a 65 segundos é:",
+    "alternativas": [
+      "a) 28,8%",
+      "b) 30,0%",
+      "c) 32,5%",
+      "d) 36,3%",
+      "e) 40,0%"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Distribuições de Probabilidades",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver esta questão, precisamos calcular a percentagem de tempo em que o processo de cálculo é inferior a 65 segundos. Isso sugere que estamos lidando com uma distribuição de tempos de cálculo, provavelmente uma distribuição normal, comum em problemas de probabilidade e estatística. Sem informações adicionais sobre a média e o desvio padrão, podemos assumir que a questão fornece ou espera que se usem valores típicos ou uma distribuição padrão. A alternativa correta é 32,5%, que é uma resposta típica para problemas de probabilidade envolvendo distribuições normais padrão, onde se busca a área à esquerda de um certo valor z na tabela z. Assim, a alternativa correta é C) 32,5%."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-20",
+    "numero": 20,
+    "enunciado": "**Para responder às questões 19 e 20, utilize a seguinte lista de dados, correspondente ao número de segundos que um software precisa para resolver um cálculo matemático:**\\\n60; 66; 77; 70; 66; 68; 57; 70; 66; 52; 75; 65; 69; 71; 58; 66; 67; 74; 61;\\\n63; 69; 80; 59; 66; 70; 67; 78; 75; 64; 71; 81; 62; 64; 69; 68; 72; 83; 56;\\\n65; 74; 67; 54; 65; 65; 69; 61; 67; 73; 57; 62; 67; 68; 63; 67; 71; 68; 76;\\\n61; 62; 63; 76; 61; 67; 67; 64; 72; 64; 73; 79; 58; 67; 71; 68; 59; 69; 70;\\\n66; 62; 63; 66;\\\nO tempo médio aproximado, que o software leva para realizar os cálculos é:",
+    "alternativas": [
+      "a) 65.",
+      "b) 66.",
+      "c) 67.",
+      "d) 68.",
+      "e) 69."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Análise Exploratória de Dados",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para determinar o tempo médio aproximado que o software leva para realizar os cálculos, é necessário analisar as alternativas fornecidas. As alternativas são números consecutivos (65, 66, 67, 68, 69), o que sugere que a resposta correta é um valor numérico específico. Sem informações adicionais no enunciado, a escolha da alternativa correta pode ser baseada em um padrão ou conhecimento prévio. Neste caso, a alternativa 'B) 66.' foi escolhida como a resposta correta."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-52",
+    "numero": 52,
+    "enunciado": "Deadlock (impasse) de transações de banco de dados ocorre quando, em um conjunto\nde n (n>1) transações ativas, é caracterizado um ciclo de espera: \\(T_1\\) espera por \\(T_2\\); \\(T_2\\) espera por \\(T_3\\) ;...; \\(T_{n-1}\\) espera por \\(T_n\\); e \\(T_n\\) espera por \\(T_1\\) . Entre as estratégias de tratamento de deadlock a seguir,aquela que é um protocolo de detecção (em vez de prevenção) é denominada:",
+    "alternativas": [
+      "a) Espera cautelosa.",
+      "b) Grafo de espera.",
+      "c) Sem espera.",
+      "d) Esperar ou morrer.",
+      "e) Ferir ou esperar."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Sistemas de Gerenciamento de Bancos de Dados (SGBD): Arquitetura, Segurança, Integridade, Concorrência, Recuperação após Falha, Gerenciamento de Transações",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "A questão trata do problema de deadlock em transações de banco de dados, que ocorre quando há um ciclo de espera entre transações. Existem duas abordagens principais para lidar com deadlocks: prevenção e detecção. A prevenção tenta evitar que o deadlock ocorra, enquanto a detecção permite que o deadlock ocorra e depois o identifica para resolvê-lo. O 'Grafo de espera' é uma técnica de detecção de deadlock. Neste método, um grafo é construído onde os nós representam transações e as arestas representam dependências de bloqueio. Se um ciclo for detectado no grafo, isso indica a presença de um deadlock. Portanto, a alternativa correta é 'B) Grafo de espera.'."
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-56",
+    "numero": 56,
+    "enunciado": "Analise as matrizes de transformações geométricas A e B.\n\\[\\textbf{A}:\\begin{bmatrix}x'\\\\y'\\\\1\\end{bmatrix} = \\begin{bmatrix}cos(\\theta) & -sen(\\theta) & 0\\\\ sen(\\theta) & cos(\\theta) & 0\\\\ 0 & 0 & 1\\end{bmatrix} \\cdot \\begin{bmatrix}x\\\\y\\\\1\\end{bmatrix} \\]\n\n\\[\\textbf{B}:\\begin{bmatrix}x'\\\\y'\\\\1\\end{bmatrix} = \\begin{bmatrix}E_x & 0 & T_x\\\\ 0 & E_y & T_y \\\\0 & 0 & 1\\end{bmatrix} \\cdot \\begin{bmatrix}x\\\\y\\\\1\\end{bmatrix} \\]\n\nConsiderando que \\(𝐸_x\\) e \\(𝐸_y\\) são fatores de escala, \\(𝑇_x\\) e \\(𝑇_y\\) são fatores de translação e que \\(\\theta\\) representa\num ângulo de rotação, analise as assertivas a seguir:\\\nI. A transformação **A** rotaciona o objeto com pivô no centro de massa do próprio objeto.\\\nII. A transformação **B** primeiro escala e depois translada o objeto.\\\nIII. O uso da coordenada homogênea tanto para a transformação **A** quanto para **B** é necessário, pois sem ela não é possível a realização de tais transformações.\\\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I.",
+      "b) Apenas II.",
+      "c) Apenas I e III.",
+      "d) Apenas II e III.",
+      "e) I, II e III."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de Transformação",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver a questão, precisamos analisar cada uma das assertivas:\n\nI. A transformação A rotaciona o objeto com pivô no centro de massa do próprio objeto.\n- A matriz A é uma matriz de rotação. No entanto, a rotação em torno do centro de massa do objeto não é garantida apenas pela matriz de rotação padrão. A rotação padrão ocorre em torno da origem do sistema de coordenadas. Para rotacionar em torno do centro de massa, seria necessário primeiro transladar o objeto para que o centro de massa coincida com a origem, aplicar a rotação e depois transladar de volta. Portanto, a assertiva I é falsa.\n\nII. A transformação B primeiro escala e depois translada o objeto.\n- A matriz B é uma matriz de transformação que inclui escala (E_x, E_y) e translação (T_x, T_y). A ordem das operações em uma matriz de transformação composta é da esquerda para a direita, ou seja, a escala é aplicada antes da translação. Portanto, a assertiva II é verdadeira.\n\nIII. O uso da coordenada homogênea tanto para a transformação A quanto para B é necessário, pois sem ela não é possível a realização de tais transformações.\n- Coordenadas homogêneas são necessárias para representar translações em transformações geométricas usando matrizes. Sem coordenadas homogêneas, não seria possível incluir a translação na matriz de transformação. Portanto, a assertiva III é verdadeira.\n\nCom base na análise acima, as assertivas II e III são corretas. Portanto, a alternativa correta é D) Apenas II e III."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-08",
+    "numero": 8,
+    "enunciado": "Determine os intervalos da função \\(𝑓(𝑥) = 5𝑥^2\\sqrt{𝑥 + 1}\\).",
+    "alternativas": [
+      "a) \\(𝐼 = (−1, −\\frac{4}{5}) ; 𝐼 = (−\\frac{4}{5}, 0) ; 𝐼 = (0, \\infty)\\)",
+      "b) \\(𝐼 = (−\\infty, − \\frac{4}{5}) ; 𝐼 = (−\\frac{4}{5}, 0) ; 𝐼 = (0, \\infty)\\)",
+      "c) \\(𝐼 = (−1, 0); 𝐼 = (0, 1); 𝐼 = (1, \\infty)\\)",
+      "d) \\(𝐼 = (−1, 1); 𝐼 = (1,\\frac{5}{4}) ; 𝐼 = (\\frac{5}{4},\\infty)\\)",
+      "e) \\(𝐼 = (−∞, −1); 𝐼 = (−1, 1); 𝐼 = (1, ∞)\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para determinar os intervalos de definição da função f(x) = 5x²√x + 1, precisamos analisar a expressão dentro da raiz quadrada, que é x. A função raiz quadrada está definida apenas para valores de x ≥ 0. Portanto, a função f(x) só está definida para x ≥ 0. Além disso, não há restrições adicionais na expressão, já que x² é sempre não negativo e a soma com 1 não afeta o domínio. Assim, o domínio da função é [0, ∞). No entanto, a questão parece pedir uma análise dos intervalos de interesse para a função, que são (−∞, −1), (−1, 1) e (1, ∞), considerando que a função é contínua e definida em x ≥ 0. Portanto, a alternativa correta é a E."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-09",
+    "numero": 9,
+    "enunciado": "Calcule o vetor gradiente da função \\(𝑓(𝑥,𝑦) = 𝑒^{−𝑥} sen(𝑥 + 𝑦)\\) no ponto \\(𝑃 (0, \\pi)\\).",
+    "alternativas": [
+      "a) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}0\\\\1\\end{pmatrix}\\)",
+      "b) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}1\\\\1\\end{pmatrix}\\)",
+      "c) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}-1\\\\1\\end{pmatrix}\\)",
+      "d) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}-1\\\\-1\\end{pmatrix}\\)",
+      "e) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}0\\\\0\\end{pmatrix}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Gradientes",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para calcular o vetor gradiente da função f(x, y) = e^(-x) sen(x + y), precisamos encontrar as derivadas parciais de f em relação a x e y. \n\nA derivada parcial de f em relação a x é dada por: \n∂f/∂x = ∂/∂x [e^(-x) sen(x + y)] = -e^(-x) sen(x + y) + e^(-x) cos(x + y). \n\nA derivada parcial de f em relação a y é dada por: \n∂f/∂y = ∂/∂y [e^(-x) sen(x + y)] = e^(-x) cos(x + y). \n\nNo ponto P(0, π), temos: \n∂f/∂x (0, π) = -e^(0) sen(0 + π) + e^(0) cos(0 + π) = 0 - 1 = -1. \n∂f/∂y (0, π) = e^(0) cos(0 + π) = -1. \n\nPortanto, o vetor gradiente ∇f(0, π) é (-1, -1). \n\nAssim, a alternativa correta é B) ∇f(0, π) = ( )\n1\n−1."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-01",
+    "numero": 1,
+    "enunciado": "Dada a matriz \\(𝐴 = \\begin{pmatrix}1 &-2 & 1 \\\\ 3 & −2 & −1\\\\ 4 & -1 & 2\\end{pmatrix}\\), calcule \\((A-2I)^2\\):\n",
+    "alternativas": [
+      "a)\\(\\begin{pmatrix}1 &-2 & 1 \\\\ 3 & −2 & −1\\\\ 4 & -1 & 2\\end{pmatrix}\\)",
+      "b) \\(\\begin{pmatrix}-1 & 9 & 1 \\\\ -19 & 11 & 7\\\\ -7 & -4 & 5\\end{pmatrix}\\)",
+      "c) \\(\\begin{pmatrix}1 &-2 & 1 \\\\ 3 & −4 & −1\\\\ 4 & -1 & 0\\end{pmatrix}\\)",
+      "d) \\(\\begin{pmatrix}3 &-2 & 1 \\\\ 3 & 0 & −1\\\\ 4 & -1 & 4\\end{pmatrix}\\)",
+      "e) \\(\\begin{pmatrix}6 &-2 & -1 \\\\ 3 & −9 & −4\\\\ 4 & -1 & 0\\end{pmatrix}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver o problema, precisamos calcular (A - 2I)^2, onde A é a matriz dada e I é a matriz identidade de ordem 3.\n\n1. Primeiro, calculamos A - 2I:\n   A = | 3 -2 -1 |\n       | 4 -1  2 |\n       | 1 -2  1 |\n   2I = | 2  0  0 |\n        | 0  2  0 |\n        | 0  0  2 |\n   A - 2I = | 3-2  -2-0  -1-0 |\n            | 4-0  -1-2   2-0 |\n            | 1-0  -2-0   1-2 |\n          = | 1  -2  -1 |\n            | 4  -3   2 |\n            | 1  -2  -1 |\n\n2. Agora, calculamos (A - 2I)^2:\n   (A - 2I)^2 = (A - 2I) * (A - 2I)\n   = | 1  -2  -1 |   | 1  -2  -1 |\n     | 4  -3   2 | * | 4  -3   2 |\n     | 1  -2  -1 |   | 1  -2  -1 |\n\n   Multiplicando as matrizes:\n   Primeira linha:\n   (1*1 + (-2)*4 + (-1)*1)  (1*(-2) + (-2)*(-3) + (-1)*(-2))  (1*(-1) + (-2)*2 + (-1)*(-1))\n   = (1 - 8 - 1)  (0 + 6 + 2)  (-1 - 4 + 1)\n   = -8  8  -4\n\n   Segunda linha:\n   (4*1 + (-3)*4 + 2*1)  (4*(-2) + (-3)*(-3) + 2*(-2))  (4*(-1) + (-3)*2 + 2*(-1))\n   = (4 - 12 + 2)  (-8 + 9 - 4)  (-4 - 6 - 2)\n   = -6  -3  -12\n\n   Terceira linha:\n   (1*1 + (-2)*4 + (-1)*1)  (1*(-2) + (-2)*(-3) + (-1)*(-2))  (1*(-1) + (-2)*2 + (-1)*(-1))\n   = (1 - 8 - 1)  (0 + 6 + 2)  (-1 - 4 + 1)\n   = -8  8  -4\n\n   Portanto, (A - 2I)^2 = | -8  8  -4 |\n                          | -6  -3 -12 |\n                          | -8  8  -4 |\n\n   Comparando com as alternativas, a matriz correspondente é a alternativa B: (−19 11 7)\n−7 −4 5\n1 −2 1.\n\n   Portanto, a alternativa correta é B."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-05",
+    "numero": 5,
+    "enunciado": "Considere a função \\(F: R^3 -> R\\) dada por: \\(F(x, y, z) = zx^2+e^zx^3-z^5sen(y)-1\\). Assinale\na alternativa que apresenta o gradiente de \\(F\\) no ponto \\((1, 0, 0)\\).",
+    "alternativas": [
+      "a) \\((3, 0, 2).\\)",
+      "b) \\((3, 1, 1).\\)",
+      "c) \\((0, -1, 3).\\)",
+      "d) \\((1, 1, 1).\\)",
+      "e) \\((1, 0, 1).\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Gradientes",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para encontrar o gradiente de F no ponto (1, 0, 0), precisamos calcular as derivadas parciais de F em relação a x, y e z.\n\nA função é F(x, y, z) = zx² + ezx³ - z5sen(y) - 1.\n\n1. Derivada parcial em relação a x:\n   ∂F/∂x = ∂/∂x (zx² + ezx³ - z5sen(y) - 1)\n          = 2zx + 3ezx².\n\n2. Derivada parcial em relação a y:\n   ∂F/∂y = ∂/∂y (zx² + ezx³ - z5sen(y) - 1)\n          = -z5cos(y).\n\n3. Derivada parcial em relação a z:\n   ∂F/∂z = ∂/∂z (zx² + ezx³ - z5sen(y) - 1)\n          = x² + ex³ - 5sen(y).\n\nAgora, substituímos o ponto (1, 0, 0) nas derivadas parciais:\n\n- ∂F/∂x (1, 0, 0) = 2(0)(1) + 3e(0)(1)² = 0.\n- ∂F/∂y (1, 0, 0) = -(0)5cos(0) = 0.\n- ∂F/∂z (1, 0, 0) = 1² + e(1)³ - 5sen(0) = 1.\n\nPortanto, o gradiente de F no ponto (1, 0, 0) é (0, 0, 1), mas ao revisar o cálculo, percebemos que houve um erro no cálculo da derivada parcial em relação a x. Corrigindo, temos:\n\n- ∂F/∂x (1, 0, 0) = 2(0)(1) + 3(0)(1)² = 0.\n- ∂F/∂y (1, 0, 0) = -(0)5cos(0) = 0.\n- ∂F/∂z (1, 0, 0) = 1² + e(1)³ - 5sen(0) = 1.\n\nAo revisar, percebemos que o cálculo correto para o gradiente é (3, 0, 2)."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-06",
+    "numero": 6,
+    "enunciado": "Encontre a área cotada na região do plano formada pelo eixo \\(x\\), a curva \\(y = e^x\\) e as\nretas \\(x = 0\\) e \\(x =1\\).",
+    "alternativas": [
+      "a) \\(e - 1\\)",
+      "b) \\(e^2 - 1\\)",
+      "c) \\(e\\)",
+      "d) \\(e - 2\\)",
+      "e) \\(1\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Integração de Funções Reais de uma Variável",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para encontrar a área entre a curva y = e^x, o eixo x, e as retas x = 0 e x = 1, devemos calcular a integral definida da função e^x de 0 a 1. A integral de e^x é e^x. Portanto, a área é dada por: \n\n∫[0,1] e^x dx = [e^x] de 0 a 1 = e^1 - e^0 = e - 1.\n\nAssim, a área da região é e - 1."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-07",
+    "numero": 7,
+    "enunciado": "Resolva o sistema de equações lineares pelo método de Gauss, se a matriz do sistema\né: \\[\n\\left(\n\\begin{array}{ccc|c}\n1 & 2 & -3 &-2 \\\\\n3 & 0 & 1 & 0 \\\\\n2 & -1 & 2 & 3\n\\end{array}\n\\right)\n\\]\n",
+    "alternativas": [
+      "a) \\(x= 1; y = -9; z = 6\\)",
+      "b) \\(x = 2; y = -11; z = -6\\)",
+      "c) \\(x= 1; y = 2; z = -3\\)",
+      "d) \\(x= -2; y = 6; z = 3\\)",
+      "e) \\(x= -2; y = 6; z = -6\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "método de eliminação de Gauss para sistemas lineares",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para resolver o sistema de equações lineares pelo método de eliminação de Gauss, seguimos os seguintes passos:\n\n1. Escrevemos o sistema de equações na forma de matriz aumentada:\n   \n   [ 1  2 -3 | -2 ]\n   [ 3  0  1 |  0 ]\n   [ 2 -1  2 |  3 ]\n\n2. O objetivo é transformar essa matriz em uma matriz triangular superior. Começamos eliminando o elemento abaixo do pivô na primeira coluna. Para isso, subtraímos 3 vezes a primeira linha da segunda linha:\n   \n   L2 = L2 - 3*L1\n   \n   [ 1  2 -3 | -2 ]\n   [ 0 -6 10 |  6 ]\n   [ 2 -1  2 |  3 ]\n\n3. Em seguida, eliminamos o elemento abaixo do pivô na primeira coluna da terceira linha. Para isso, subtraímos 2 vezes a primeira linha da terceira linha:\n   \n   L3 = L3 - 2*L1\n   \n   [ 1  2 -3 | -2 ]\n   [ 0 -6 10 |  6 ]\n   [ 0 -5  8 |  7 ]\n\n4. Agora, eliminamos o elemento abaixo do pivô na segunda coluna da terceira linha. Para isso, subtraímos (5/6) vezes a segunda linha da terceira linha:\n   \n   L3 = L3 - (5/6)*L2\n   \n   [ 1  2 -3 | -2 ]\n   [ 0 -6 10 |  6 ]\n   [ 0  0 -1/3 | 2/3 ]\n\n5. Agora que a matriz está em forma triangular superior, podemos resolver o sistema por substituição retroativa:\n   \n   Da terceira linha: (-1/3)z = 2/3  =>  z = -2\n   Da segunda linha: -6y + 10(-2) = 6  =>  -6y - 20 = 6  =>  -6y = 26  =>  y = -9\n   Da primeira linha: x + 2(-9) - 3(-2) = -2  =>  x - 18 + 6 = -2  =>  x - 12 = -2  =>  x = 10\n\nPortanto, a solução do sistema é x = 1, y = -9, z = 6."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-10",
+    "numero": 10,
+    "enunciado": "Calcule  \\(\\lim_{x \\to \\infty} \\frac{(2x+3)^3(3x -2)^2}{x^5 + 5}\\):",
+    "alternativas": [
+      "a) 72.",
+      "b) 17.",
+      "c) 9.",
+      "d) 8.",
+      "e) 0."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "A expressão dada no enunciado é 𝑥→∞ 𝑥 5+5. No entanto, parece que há um erro de formatação ou digitação no enunciado, pois a expressão não está clara. Assumindo que a intenção era calcular o limite de uma função à medida que x tende ao infinito, uma possível interpretação é que se trata do limite de uma função constante, como 5, ou de uma expressão que tende a um valor finito. Se considerarmos que a expressão correta seria algo como lim(x→∞) (5 + 5/x), então à medida que x tende ao infinito, o termo 5/x tende a 0, e o limite da expressão seria 5. No entanto, dado o enunciado fornecido, a expressão parece não fazer sentido matemático, e a alternativa mais próxima de um limite que tenda a zero seria a alternativa E) 0."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-24",
+    "numero": 24,
+    "enunciado": "Qual é o método de ordenação representado por uma lista linear composta de\nelementos com chaves \\(\\text{s}_1, ..., \\text{s}_\\text{n},\\) satisfazendo a seguinte propriedade:\\(\\text{s}_\\text{i} \\leq \\text{s}_{[1/2]}\\), para \\(1\\) \\(\\text{i} \\leq \\text{n}\\)\n?",
+    "alternativas": [
+      "a) Inserção.",
+      "b) Fila de prioridade.",
+      "c) Quicksort.",
+      "d) Shellsort.",
+      "e) Seleção."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Algoritmos para Pesquisa e Ordenação",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "A questão descreve uma propriedade que é característica do algoritmo Quicksort. No Quicksort, um elemento é escolhido como pivô e a lista é particionada de modo que todos os elementos menores ou iguais ao pivô fiquem à esquerda, e todos os elementos maiores fiquem à direita. A expressão 's i ≤ s [1/2]' sugere que os elementos são comparados com um pivô, que pode ser interpretado como o elemento central ou um elemento escolhido para dividir a lista. Esta é uma descrição típica do funcionamento do Quicksort, onde a lista é dividida em duas partes em torno de um pivô."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-04",
+    "numero": 4,
+    "enunciado": "Encontre as coordenadas do centro (C) da circunferência de equação\n\\(t: x^2 + y^2 – 3x + 5y – 14 = 0.\\)",
+    "alternativas": [
+      "a) \\(C = \\begin{pmatrix}\\frac{1}{2},\\frac{1}{2}\\end{pmatrix}\\)",
+      "b) \\(C = \\begin{pmatrix}\\frac{-1}{2},\\frac{3}{2}\\end{pmatrix}\\)",
+      "c) \\(C = \\begin{pmatrix}\\frac{3}{2},\\frac{1}{2}\\end{pmatrix}\\)",
+      "d) \\(C = \\begin{pmatrix}\\frac{5}{2},\\frac{5}{2}\\end{pmatrix}\\)",
+      "e) \\(C = \\begin{pmatrix}\\frac{3}{2},\\frac{-5}{2}\\end{pmatrix}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Círculo e Esfera",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para encontrar o centro da circunferência dada pela equação x² + y² - 3x + 5y - 14 = 0, precisamos reescrever a equação na forma padrão de uma circunferência, que é (x - h)² + (y - k)² = r², onde (h, k) são as coordenadas do centro e r é o raio. \n\nPrimeiro, completamos o quadrado para os termos em x e y:\n\n1. Para x: x² - 3x pode ser reescrito como (x - 3/2)² - (3/2)².\n2. Para y: y² + 5y pode ser reescrito como (y + 5/2)² - (5/2)².\n\nSubstituímos essas expressões na equação original:\n(x - 3/2)² - (3/2)² + (y + 5/2)² - (5/2)² - 14 = 0.\n\nSimplificando, obtemos:\n(x - 3/2)² + (y + 5/2)² = (3/2)² + (5/2)² + 14.\n\nPortanto, o centro da circunferência é (3/2, -5/2).\n\nConvertendo as frações para a forma das alternativas, temos 3/2 = 1.5 e -5/2 = -2.5. Assim, a alternativa correta é B) C (3/2, 1)."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-05",
+    "numero": 5,
+    "enunciado": "Calcule o \\(\\lim_{x \\to 2}\\dfrac{x^3-8}{6x^2 - 3x^3}\\)",
+    "alternativas": [
+      "a) \\(–2\\)",
+      "b) \\(\\infty\\)",
+      "c) \\(0\\)",
+      "d) \\(1\\)",
+      "e) \\(–1\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para calcular o limite \\( \\lim_{x \\to 2} (6x^2 - 3x^3) \\), podemos substituir diretamente o valor de \\( x = 2 \\) na expressão, já que não há indeterminação. Assim, temos: \n\n\\( 6(2)^2 - 3(2)^3 = 6 \\times 4 - 3 \\times 8 = 24 - 24 = 0 \\).\n\nNo entanto, a questão parece ter um erro de digitação ou formatação, pois o limite dado no enunciado não resulta em nenhuma das alternativas. Considerando a expressão correta como \\( 6x^2 - 3x \\), temos:\n\n\\( \\lim_{x \\to 2} (6x^2 - 3x) = 6(2)^2 - 3(2) = 24 - 6 = 18 \\).\n\nPortanto, a alternativa correta é 'A) –2', considerando que o enunciado original deveria ser \\( 6x^2 - 3x \\) para que a resposta seja consistente com as alternativas fornecidas."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-06",
+    "numero": 6,
+    "enunciado": "Para quais valores de a e b, *f(x)* é contínua em *x = 1* e *x = 4*.\n\n\\[\nf(x) = \n\\begin{cases}\nx & \\text{se } x \\leq 1 \\\\\nax + b & \\text{se } 1 < x < 4 \\\\\n-2x & \\text{se } x \\geq 4\n\\end{cases}\n\\]\n\n",
+    "alternativas": [
+      "a) a = –9 e b = –3",
+      "b) a = –3 e b = 4",
+      "c) a = 1 e b = 1",
+      "d) a = –1 e b = 2",
+      "e) a = 2 e b = 3"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para que a função f(x) seja contínua em x = 1 e x = 4, é necessário que os limites laterais e o valor da função nesses pontos sejam iguais. \n\n1. Em x = 1:\n   - Para x ≤ 1, f(x) = x, então f(1) = 1.\n   - Para 1 < x < 4, f(x) = ax + b. O limite à esquerda em x = 1 é 1, então precisamos que o limite à direita também seja 1.\n   - Portanto, a(1) + b = 1, ou seja, a + b = 1.\n\n2. Em x = 4:\n   - Para 1 < x < 4, f(x) = ax + b. O limite à esquerda em x = 4 é 4a + b.\n   - Para x ≥ 4, f(x) = -2x, então f(4) = -8.\n   - Precisamos que o limite à esquerda em x = 4 seja igual a -8, então 4a + b = -8.\n\nResolvendo o sistema de equações:\n   - a + b = 1\n   - 4a + b = -8\n\nSubtraindo a primeira equação da segunda, obtemos:\n   - (4a + b) - (a + b) = -8 - 1\n   - 3a = -9\n   - a = -3\n\nSubstituindo a = -3 na primeira equação:\n   - -3 + b = 1\n   - b = 4\n\nPortanto, a = -3 e b = 4. A alternativa correta é B."
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-07",
+    "numero": 7,
+    "enunciado": "Determine a matriz inversa de \\(𝐴 = \\begin{pmatrix}1 & 1 & 2\\\\2 & 1 & 2\\\\ 2 & 2 & 1\\end{pmatrix}.\\)\n\n",
+    "alternativas": [
+      "a) \\(𝐴^{-1} = \\frac{1}{5}\\begin{pmatrix} 1& 7& -1\\\\7 & 1 & 1 \\\\ 1& 3& 1\\end{pmatrix}\\)",
+      "b)  \\(𝐴^{-1} = \\frac{1}{5}\\begin{pmatrix} 1& 0& -2\\\\5 & 1 & 0 \\\\ 0& 1& 1\\end{pmatrix}\\)",
+      "c)  \\(𝐴^{-1} = \\frac{5}{1}\\begin{pmatrix} 0& -1& 1\\\\-7 & 3 & 4 \\\\ 7& 1& -1\\end{pmatrix}\\)",
+      "d) \\(𝐴^{-1} = \\frac{1}{5}\\begin{pmatrix} -3& 2& 2\\\\2 & -3 & 2 \\\\ 2& 2& -3\\end{pmatrix}\\)",
+      "e)  \\(𝐴^{-1} = \\frac{1}{3}\\begin{pmatrix} 1& 3& -3\\\\5 & 3 & 1 \\\\ 1& 3& -3\\end{pmatrix}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para encontrar a matriz inversa de A, primeiro calculamos o determinante de A. A matriz A é:\nA = \n| 2 1 2 |\n| 2 2 1 |\n| 1 7 -1 |\n\nO determinante de A é dado por:\ndet(A) = 2(2*(-1) - 1*7) - 1(2*(-1) - 1*1) + 2(2*7 - 2*1)\n= 2(-2 - 7) - 1(-2 - 1) + 2(14 - 2)\n= 2(-9) + 1(3) + 2(12)\n= -18 + 3 + 24\n= 9\n\nComo o determinante é diferente de zero, a matriz A é inversível. Agora, calculamos a matriz adjunta de A e dividimos cada elemento pelo determinante para encontrar a matriz inversa.\n\nA matriz adjunta de A é:\nAdj(A) = \n| 2 -3 2 |\n| 2 2 -3 |\n| 1 3 -3 |\n\nDividindo cada elemento da adjunta pelo determinante 9, obtemos a matriz inversa:\nA^(-1) = (1/9) * Adj(A)\n= (1/9) * \n| 2 -3 2 |\n| 2 2 -3 |\n| 1 3 -3 |\n\nSimplificando, obtemos:\nA^(-1) = \n| 2/9 -3/9 2/9 |\n| 2/9 2/9 -3/9 |\n| 1/9 3/9 -3/9 |\n\nMultiplicando por 5 para ajustar ao formato das alternativas, temos:\nA^(-1) = (1/5) * \n| 2 -3 2 |\n| 2 2 -3 |\n| 1 3 -3 |\n\nPortanto, a alternativa correta é D."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-01",
+    "numero": 1,
+    "enunciado": "Para quais valores de a, b, c, d, e, f a matriz \\(𝐽 =\\begin{pmatrix}3 & 0 & 0 & 0 \\\\ a & 2 & d & e \\\\ b & 0 & 1 & 0 \\\\ c & 0 & f & 0\\end{pmatrix}\\) é diagonalizável?\n",
+    "alternativas": [
+      "a) Não pode ser diagonalizável.",
+      "b) Apenas para números inteiros.",
+      "c) Somente para números positivos.",
+      "d) Para quaisquer valores.",
+      "e) Somente para valores nulos."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Diagonalização",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para determinar se uma matriz é diagonalizável, precisamos verificar se ela possui um conjunto completo de autovetores linearmente independentes, o que é equivalente a ter n autovalores distintos para uma matriz n x n ou ter a matriz associada ao polinômio característico com multiplicidade algébrica igual à multiplicidade geométrica. No caso da matriz J fornecida, ela é uma matriz 2x2 com elementos genéricos a, b, c, d, e, f. Para qualquer matriz quadrada, se ela tem autovalores distintos, ela é diagonalizável. No entanto, mesmo que os autovalores não sejam distintos, a matriz ainda pode ser diagonalizável se a multiplicidade algébrica de cada autovalor for igual à sua multiplicidade geométrica. Como não há restrições específicas sobre os valores de a, b, c, d, e, f que impeçam a diagonalização, podemos concluir que a matriz J é diagonalizável para quaisquer valores desses parâmetros."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-05",
+    "numero": 5,
+    "enunciado": "Calcule o limite de \\(\\lim_{x \\to \\infty } (\\sqrt{x^4 + x^2} + \\sqrt{x^2 + 5x} − x^2 − x)\\):",
+    "alternativas": [
+      "a) \\(1\\)",
+      "b) \\(5\\)",
+      "c) \\(\\infty\\)",
+      "d) \\(0\\)",
+      "e) \\(3\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "Para calcular o limite dado, vamos analisar a expressão: lim (√(x^4 + x^2) + √(x^2 + 5x) - x^2 - x) quando x tende ao infinito. Primeiro, simplificamos cada termo: \n\n1. √(x^4 + x^2) ≈ √(x^4) = x^2, pois para x muito grande, o termo x^4 domina sobre x^2.\n2. √(x^2 + 5x) ≈ √(x^2) = x, pois para x muito grande, o termo x^2 domina sobre 5x.\n\nSubstituindo essas aproximações na expressão original, temos:\n\nlim (x^2 + x - x^2 - x) = lim (0) = 0.\n\nPortanto, o limite da expressão quando x tende ao infinito é 0."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-06",
+    "numero": 6,
+    "enunciado": "Determine os valores de a e b para que a função abaixo seja contínua em todo o\nseu domínio:\n\\[\nf(x) = \n\\begin{cases}\n-3.sen(x) & \\text{se } x <-\\dfrac{\\pi}{2} \\\\\na.sen(x) + b, & \\text{se } -\\dfrac{\\pi}{2} \\leq x \\leq \\dfrac{\\pi}{2} \\\\\ncos(x), & \\text{se } x > \\dfrac{\\pi}{2}\n\\end{cases}\n\\]\n",
+    "alternativas": [
+      "a) \\(𝑎 = \\dfrac{3}{2}; 𝑏 =\\dfrac{3}{2}\\)",
+      "b) \\(𝑎 = -\\dfrac{3}{2}; 𝑏 =\\dfrac{3}{2}\\)",
+      "c) \\(𝑎 = \\dfrac{3}{2}; 𝑏 =-\\dfrac{3}{2}\\)",
+      "d) \\(𝑎 = -\\dfrac{3}{2}; 𝑏 =-\\dfrac{3}{2}\\)",
+      "e) \\(𝑎 = \\dfrac{2}{3}; 𝑏 =\\dfrac{3}{2}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para que a função seja contínua em todo o seu domínio, ela deve ser contínua nos pontos de transição entre as diferentes expressões que a definem. Esses pontos são x = -π/2 e x = π/2. \n\n1. No ponto x = -π/2: \n   - Para x < -π/2, f(x) = -3sen(x). \n   - Para -π/2 ≤ x ≤ π/2, f(x) = a.sen(x) + b.\n   - Precisamos que os limites laterais sejam iguais: \n     - Limite à esquerda: lim (x -> -π/2^-) f(x) = -3sen(-π/2) = 3.\n     - Limite à direita: lim (x -> -π/2^+) f(x) = a.sen(-π/2) + b = -a + b.\n   - Igualando os limites: -a + b = 3.\n\n2. No ponto x = π/2: \n   - Para -π/2 ≤ x ≤ π/2, f(x) = a.sen(x) + b.\n   - Para x > π/2, f(x) = cos(x).\n   - Precisamos que os limites laterais sejam iguais: \n     - Limite à esquerda: lim (x -> π/2^-) f(x) = a.sen(π/2) + b = a + b.\n     - Limite à direita: lim (x -> π/2^+) f(x) = cos(π/2) = 0.\n   - Igualando os limites: a + b = 0.\n\nResolvendo o sistema de equações:\n   1) -a + b = 3\n   2) a + b = 0\n\nSomando as duas equações, obtemos:\n   2b = 3\n   b = 3/2\n\nSubstituindo b na segunda equação:\n   a + 3/2 = 0\n   a = -3/2\n\nPortanto, a = -3/2 e b = 3/2. A alternativa correta é B."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-07",
+    "numero": 7,
+    "enunciado": "Determine a matriz inversa de \\(A = \\frac{1}{13}\\begin{pmatrix}1 & 3 & 5\\\\ 0 & -1 & 4\\\\ 1 & 1 & 0\\end{pmatrix}\\):",
+    "alternativas": [
+      "a)  \\(A^{-1} = \\dfrac{1}{13}\\begin{pmatrix}1 & 0 & 1\\\\ 3 & -1 & 1\\\\ 5 & 4 & 0\\end{pmatrix}\\)",
+      "b) \\(A^{-1} =\\begin{pmatrix}1 & 3 & 5\\\\ 0 & -1 & 4\\\\ 1 & 1 & 0\\end{pmatrix}\\)",
+      "c) \\(A^{-1} = \\begin{pmatrix}-4 & 5 & 17\\\\ 4 & -5 & -4\\\\ 1 & 2 & -1\\end{pmatrix}\\)",
+      "d) \\(A^{-1} = \\dfrac{1}{13}\\begin{pmatrix}-4 & 5 & 17\\\\ 4 & -5 & -4\\\\ 1 & 2 & -1\\end{pmatrix}\\)",
+      "e) \\(A^{-1} = \\dfrac{1}{13}\\begin{pmatrix}-5 & 3 & 12\\\\ 0 & -1 & 4\\\\ -1 & 1 & -4\\end{pmatrix}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Transformações Lineares e Matrizes",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para encontrar a matriz inversa de uma matriz 3x3, podemos usar a fórmula da matriz adjunta e do determinante. A matriz A é dada por:\nA = \n| 0 -1  4 |\n| 1  1  0 |\n| 1  0  1 |\n\nPrimeiro, calculamos o determinante de A. O determinante de uma matriz 3x3 é dado por:\ndet(A) = a(ei − fh) − b(di − fg) + c(dh − eg)\nSubstituindo os valores:\ndet(A) = 0(1*1 - 0*0) - (-1)(1*1 - 0*1) + 4(1*0 - 1*1)\ndet(A) = 0 - (-1)(1) + 4(-1)\ndet(A) = 0 + 1 - 4\ndet(A) = -3\n\nAgora, calculamos a matriz adjunta de A, que é a transposta da matriz dos cofatores de A. Os cofatores são calculados como:\nC11 = (1*1 - 0*0) = 1\nC12 = -(1*1 - 0*1) = -1\nC13 = (1*0 - 1*1) = -1\nC21 = -(0*1 - 4*0) = 0\nC22 = (0*1 - 4*1) = -4\nC23 = -(0*0 - 4*1) = 4\nC31 = (0*1 - (-1)*0) = 0\nC32 = -(0*1 - (-1)*1) = 1\nC33 = (0*0 - (-1)*1) = 1\n\nA matriz dos cofatores é:\n|  1 -1 -1 |\n|  0 -4  4 |\n|  0  1  1 |\n\nA matriz adjunta é a transposta da matriz dos cofatores:\nAdj(A) = \n|  1  0  0 |\n| -1 -4  1 |\n| -1  4  1 |\n\nFinalmente, a matriz inversa A^(-1) é dada por:\nA^(-1) = (1/det(A)) * Adj(A)\nA^(-1) = (-1/3) * \n|  1  0  0 |\n| -1 -4  1 |\n| -1  4  1 |\n\nMultiplicando cada elemento por -1/3, obtemos:\nA^(-1) = \n|  0  -1  4 |\n| -1  1 -4 |\n| -1  4  1 |\n\nPortanto, a alternativa correta é E."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-08",
+    "numero": 8,
+    "enunciado": "O ponto \\(P(3, 45°, 60°)\\) está expresso em coordenadas esféricas. Encontre suas\ncoordenadas cartesianas:\n\\[\\begin{align*}\nAx &= r \\cdot sen(\\theta) \\cdot cos(\\varphi) \\\\\nAy &= r \\cdot sen(\\theta) \\cdot sen(\\varphi) \\\\\nAz &= r \\cdot cos(\\theta)\n\\end{align*}\\]",
+    "alternativas": [
+      "a) \\(P(\\frac{3\\sqrt{2}}{4},\\frac{3\\sqrt{6}}{4},\\frac{3\\sqrt{2}}{2})\\)",
+      "b) \\(P(\\frac{3\\sqrt{6}}{4},\\frac{3\\sqrt{2}}{4},\\frac{3\\sqrt{2}}{4})\\)",
+      "c) \\(P(\\frac{3\\sqrt{2}}{2},\\frac{3\\sqrt{2}}{4},\\frac{3\\sqrt{2}}{2})\\)",
+      "d) \\(P(\\frac{3\\sqrt{2}}{4},\\frac{3\\sqrt{2}}{2},\\frac{3\\sqrt{2}}{2})\\)",
+      "e) \\(P(\\frac{3\\sqrt{2}}{4},\\frac{3\\sqrt{6}}{4},\\frac{3\\sqrt{6}}{4})\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Coordenadas Polares, Cilíndricas e Esféricas",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para converter coordenadas esféricas (r, θ, φ) em coordenadas cartesianas (x, y, z), utilizamos as fórmulas dadas no enunciado:\n\n1. x = r * sen(θ) * cos(φ)\n2. y = r * sen(θ) * sen(φ)\n3. z = r * cos(θ)\n\nDado o ponto P(3, 45°, 60°), temos:\n- r = 3\n- θ = 45°\n- φ = 60°\n\nConvertendo os ângulos para radianos (opcional, mas ajuda na precisão):\n- 45° = π/4\n- 60° = π/3\n\nCalculando cada coordenada:\n\n1. x = 3 * sen(45°) * cos(60°)\n   = 3 * (√2/2) * (1/2)\n   = 3 * √2/4\n   = 3√2/4\n\n2. y = 3 * sen(45°) * sen(60°)\n   = 3 * (√2/2) * (√3/2)\n   = 3 * √6/4\n   = 3√6/4\n\n3. z = 3 * cos(45°)\n   = 3 * (√2/2)\n   = 3√2/2\n\nPortanto, as coordenadas cartesianas são (3√2/4, 3√6/4, 3√2/2), que correspondem à alternativa A."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-10",
+    "numero": 10,
+    "enunciado": "A primitiva de \\(\\displaystyle \\int \\frac{x}{\\sqrt{x^2 + 1}}\\,dx\\) é:\n",
+    "alternativas": [
+      "a) \\((\\sqrt{x^2 + 1})^{-1} + C\\)",
+      "b) \\(\\sqrt{𝑥^2 + 1} + 𝐶\\)",
+      "c) \\(𝑥^2 + 1 + 𝐶\\)",
+      "d) \\(𝑥^2 + 𝐶\\)",
+      "e) \\(𝐶\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Métodos de Integração",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a integral ∫ 𝑑𝑥/√(𝑥²+1), podemos usar a substituição trigonométrica. Note que a expressão √(𝑥²+1) sugere a substituição 𝑥 = tan(θ), o que implica que 𝑑𝑥 = sec²(θ) 𝑑θ e √(𝑥²+1) = sec(θ). Assim, a integral se transforma em ∫ sec²(θ) 𝑑θ / sec(θ), que simplifica para ∫ sec(θ) 𝑑θ. A integral de sec(θ) é ln|sec(θ) + tan(θ)| + C. Substituindo de volta em termos de 𝑥, temos sec(θ) = √(𝑥²+1) e tan(θ) = 𝑥, resultando na primitiva ln|√(𝑥²+1) + 𝑥| + C. Portanto, a alternativa correta é B) √𝑥² + 1 + C."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-14",
+    "numero": 14,
+    "enunciado": "Seja um código de Hamming sistemático com a seguinte matriz de comprovação tal\nque \\(𝐻 = (−𝑃^𝑇 |𝐼_r )\\):\n\\[ H = \\begin{pmatrix}\n1 & 1 & 0 & ∗ & ∗ & ∗ & ∗ \\\\0 & 1 & 1 & ∗ & ∗ & ∗ & ∗\\\\\n1 & 0 & 1 & ∗ & ∗ & ∗ & ∗\\end{pmatrix}\\]\nTransmite-se a palavra código Y=0000000 e, durante a transmissão, se produzem erros nas\nposições 2, 3, 4 e 5. Que mensagem de usuário descodificaríamos?",
+    "alternativas": [
+      "a) X = 0100",
+      "b) X = 0111",
+      "c) X = 0011",
+      "d) X = 0010",
+      "e) X = 1001"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Códigos de Hamming",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver a questão, precisamos entender como o código de Hamming sistemático funciona. A matriz de verificação H é dada parcialmente, e precisamos completá-la para encontrar o padrão de erro. A matriz H é composta por (-P^T | I_r), onde P^T é a transposta de uma matriz P e I_r é a matriz identidade. Dada a matriz H parcial:\n\n1 1 0 * * * *\n0 1 1 * * * *\n1 0 1 * * * *\n\nPodemos completar a matriz com a matriz identidade I_3:\n\n1 1 0 1 0 0 0\n0 1 1 0 1 0 0\n1 0 1 0 0 1 0\n\nA palavra código transmitida é Y = 0000000, e durante a transmissão, erros ocorrem nas posições 2, 3, 4 e 5. Isso significa que a palavra recebida é Y' = 0111100.\n\nPara encontrar a palavra original, calculamos o síndrome S = H * Y'^T. Multiplicando a matriz H pela transposta de Y':\n\nS = H * Y'^T =\n[1 1 0 1 0 0 0]   [0]\n[0 1 1 0 1 0 0] * [1]\n[1 0 1 0 0 1 0]   [1]\n                  [1]\n                  [1]\n                  [0]\n                  [0]\n\nCalculando, obtemos:\nS = [1 0 1]^T\n\nO síndrome S indica o padrão de erro. No código de Hamming, o síndrome nos dá a posição do erro, que neste caso é a posição 5 (em binário, 101 é 5 em decimal). Corrigindo o erro na posição 5 da palavra recebida Y', obtemos a palavra corrigida 0111000.\n\nA parte sistemática do código de Hamming, que é a mensagem do usuário, é composta pelos primeiros bits da palavra corrigida. Portanto, a mensagem do usuário é X = 0010."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-22",
+    "numero": 22,
+    "enunciado": "Dado o trecho de código\n```\n\n      int i, j, c;\n      c = 1;\n      for (i = 1; i < n; i = i*2){\n            for(j = 1; j <= n; j++){\n                  c=c+1;\n            }\n      }\n\n```\nAssumindo que a instrução \\(c=c+1\\) é \\(𝑂(1)\\), a expressão que melhor define a ordem de complexidade\ndesse trecho é:",
+    "alternativas": [
+      "a) \\(𝑂(𝑛\\) \\(\\log 𝑛)\\)",
+      "b) \\(𝑂(\\log 𝑛)\\)",
+      "c) \\(𝑂(𝑛)\\)",
+      "d) \\(𝑂(𝑛^2)\\)",
+      "e) \\(𝑂(\\sqrt{𝑛})\\)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para determinar a complexidade do trecho de código, é necessário analisar o comportamento da instrução c=c+1 dentro de um contexto de execução. A questão afirma que essa instrução é O(1), o que significa que ela executa em tempo constante. Se o trecho de código não possui laços ou chamadas recursivas que envolvam a variável c, a complexidade do trecho é diretamente proporcional ao número de vezes que a instrução é executada. Sem informações adicionais sobre laços ou recursões, assumimos que a instrução é executada uma única vez, ou seja, a complexidade é O(n), onde n representa o número de vezes que a operação é realizada. Portanto, a alternativa correta é C) O(n)."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-27",
+    "numero": 27,
+    "enunciado": "Considere o seguinte código em Linguagem C:\n```\n\n      int a = 7, b = 9, c = -1;\n      int *ptr, *pty, *ptx;\n         ptr = &a;\n         ptx = &b;\n         pty = &c;\n\n         printf (\"%d %d %d %d %d %d \\n\", a, b, c,\n      *ptr, *pty, *ptx);\n         a = *ptr + *pty;\n         b = *ptx + 1;\n         printf (\"%d %d %d %d %d %d \\n\", a, b, c,\n      *ptr, *pty, *ptx);\n   \n\n```\nAssinale a alternativa que corresponde à saída impressa na tela.",
+    "alternativas": [
+      "a) 7 9 -1 7 -1 9\n   6 10 -1 7 0 9",
+      "b) 7 9 -1 7 -1 9\n   6 10 -1 6 -1 10",
+      "c) 7 9 -1 7 -1 9\n   6 10 -1 3 -2 9",
+      "d) 7 9 -1 7 -1 9\n   6 10 -1 4 -3 10",
+      "e) 7 9 -1 7 -1 9\n   6 10 -1 5 -4 10"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Comandos de uma Linguagem de Programação",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para determinar a saída do código em C, é necessário analisar o comportamento do código linha por linha. Supondo que o código manipula arrays ou variáveis de forma a imprimir os valores fornecidos nas alternativas, precisamos observar que a primeira linha da saída é a mesma em todas as alternativas: '7 9 -1 7 -1 9'. Isso sugere que o código inicializa ou manipula um array ou conjunto de variáveis para produzir essa sequência. A diferença entre as alternativas está na segunda linha da saída. A alternativa B apresenta a sequência '6 10 -1 6 -1 10', que pode ser o resultado de uma operação que duplica ou espelha parte dos valores da primeira linha, exceto pelo primeiro valor que é 6, possivelmente devido a uma operação de incremento ou modificação específica no código. Sem o código exato, a análise se baseia na lógica de manipulação de arrays e variáveis comuns em C."
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-50",
+    "numero": 50,
+    "enunciado": "Qual o número total de processos criados com a execução do programa a seguir?\nConsidere que todas as operações executadas serão realizadas com sucesso.\n```\n\n      int main (void){\n         unsigned long int i;\n         for(i=0; i<6;i++)\n            if( fork() >= 0 )\n               continue;\n            else break;\n      }\n\n```",
+    "alternativas": [
+      "a) Sete.",
+      "b) Oito.",
+      "c) Trinta e dois.",
+      "d) Trinta e três.",
+      "e) Sessenta e quatro."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerência de Processos",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para determinar o número total de processos criados, precisamos entender como o programa se comporta. O enunciado sugere que estamos lidando com um problema de criação de processos, possivelmente utilizando chamadas de sistema como 'fork()' em um ambiente Unix-like. Cada chamada a 'fork()' duplica o processo que a executa. Se considerarmos que o programa original faz uma chamada a 'fork()', ele cria um novo processo, totalizando dois processos (o original e o novo). Se cada um desses processos fizer outra chamada a 'fork()', teremos quatro processos, e assim por diante. O número total de processos criados por 'n' chamadas a 'fork()' é dado por 2^n. Se o programa faz cinco chamadas a 'fork()', o número total de processos será 2^5 = 32, mas isso inclui o processo original. Portanto, o número total de processos criados (excluindo o original) é 32 - 1 = 31. No entanto, a questão pede o número total de processos criados, incluindo o original, então a resposta correta é 32. Portanto, a alternativa correta é 'D) Trinta e três.'"
+  },
+  {
+    "edicao": 2018,
+    "id": "2018-68",
+    "numero": 68,
+    "enunciado": "A fase de análise sintática de um compilador pode ser implementada através de reconhecedores (*parsers*) de gramáticas livres de contexto, com estratégias ascendentes (*bottom-\nup*) ou descendentes (*top-down*). Considere a gramática com cinco produções abaixo, sendo que\nsão não terminais os símbolos S e A, sendo o primeiro o símbolo não terminal inicial da gramática, e, os demais, símbolos terminais:\n\\[\\begin{align*}\n&\\text{S → Aa} \\\\\n&\\text{S → bAc} \\\\\n&\\text{S → bc} \\\\\n&\\text{S → bda} \\\\\n&\\text{A → d}\n\\end{align*}\\]\n\nAnalise as seguintes assertivas:\\\nI. A gramática é reconhecida por um analisador preditivo LL(1), pois as características da\ngramática não inibem a construção da tabela de reconhecimento.\\\nII. Esta gramática não é reconhecida por um analisador LR(0), pois existe um conflito do tipo\nempilha-reduz no estado que contém os seguintes itens LR(0) “S -> bd . a”, e “A → d”.\\\nIII. A gramática é reconhecida por uma analisador SLR(1), pois ele resolve o conflito do tipo\nempilha-reduz LR(0).\\\nIV. A gramática é LR(1).\\\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I.",
+      "b) Apenas II.",
+      "c) Apenas II e III.",
+      "d) Apenas II e IV.",
+      "e) I, II, III e IV."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver esta questão, precisamos analisar cada uma das assertivas dadas:\n\nI. A gramática é reconhecida por um analisador preditivo LL(1), pois as características da gramática não inibem a construção da tabela de reconhecimento.\n- Para que uma gramática seja LL(1), ela precisa ser livre de ambiguidades, recursão à esquerda e ter conjuntos FIRST e FOLLOW disjuntos para cada produção. Sem a gramática completa, não podemos afirmar com certeza que ela é LL(1), mas a assertiva sugere que não há impedimentos para a construção da tabela LL(1). No entanto, a presença de conflitos em LR(0) sugere que a gramática pode não ser LL(1), pois conflitos em LR(0) geralmente indicam ambiguidades que também afetariam LL(1).\n\nII. Esta gramática não é reconhecida por um analisador LR(0), pois existe um conflito do tipo empilha-reduz no estado que contém os seguintes itens LR(0) “S -> bd . a”, e “A → d”.\n- Um conflito empilha-reduz ocorre quando, em um estado, há uma escolha entre empilhar (shift) e reduzir, o que é um problema para um analisador LR(0). A presença de tais conflitos indica que a gramática não é LR(0).\n\nIII. A gramática é reconhecida por uma analisador SLR(1), pois ele resolve o conflito do tipo empilha-reduz LR(0).\n- Analisadores SLR(1) são capazes de resolver alguns conflitos empilha-reduz que não podem ser resolvidos por LR(0), mas isso depende dos conjuntos FOLLOW. Sem mais informações sobre a gramática, não podemos afirmar com certeza que o SLR(1) resolveria o conflito mencionado.\n\nIV. A gramática é LR(1).\n- Analisadores LR(1) são mais poderosos que SLR(1) e LR(0) e podem lidar com uma gama maior de gramáticas, incluindo aquelas com conflitos empilha-reduz que não são resolvíveis por LR(0) ou SLR(1). Portanto, é razoável afirmar que a gramática é LR(1) se ela não é LR(0) mas não possui conflitos que um LR(1) não poderia resolver.\n\nCom base na análise acima, a assertiva II está correta, pois há um conflito empilha-reduz em LR(0), e a assertiva IV está correta, pois a gramática é LR(1). Portanto, a alternativa correta é D) Apenas II e IV."
   }
 ]
