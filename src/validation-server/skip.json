@@ -302,5 +302,271 @@
     "dificuldade": "Fácil",
     "gabarito": "D",
     "solucao": "Para resolver a questão, precisamos analisar cada uma das alternativas fornecidas com base nas propriedades dos grafos. \n\n(A) A fórmula apresentada não está correta. A soma dos graus de todos os nós de um grafo é igual ao dobro do número de arestas, ou seja, 2|A| = ∑ d_i, onde d_i é o grau do i-ésimo nó. A fórmula apresentada na alternativa A está incorreta.\n\n(B) Um grafo é euleriano se ele é conexo e todos os seus vértices têm grau par. Sem informações adicionais sobre o grafo, não podemos afirmar que ele é euleriano.\n\n(C) A alternativa afirma que o grafo não é conexo. Sem informações adicionais sobre as conexões entre os nós, não podemos afirmar que o grafo é desconexo.\n\n(D) A alternativa D descreve um subgrafo H de G com N = {a, c, f, h} e A = {{a, c}, {c, f}, {f, h}}. Esta é uma afirmação válida, pois um subgrafo é formado por um subconjunto dos vértices e arestas do grafo original.\n\n(E) A planitude de um grafo não pode ser determinada sem informações adicionais sobre as arestas e a disposição dos vértices. Portanto, não podemos afirmar que o grafo não é planar.\n\nPortanto, a alternativa correta é a D, pois ela descreve corretamente um subgrafo de G."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-32",
+    "numero": 32,
+    "enunciado": "Seja G = (V, E) um grafo em que V é o conjunto de vértices e E é o conjunto de arestas. Considere a representação de G como uma\nmatriz de adjacências.\nO correspondente grafo orientado G é:",
+    "alternativas": [
+      "a) ",
+      "b) ",
+      "c) ",
+      "d) ",
+      "e) "
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Grafos orientados e não-orientados",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A questão aborda a representação de grafos através de matrizes de adjacência. Um grafo orientado G pode ser representado por uma matriz de adjacência onde a entrada (i, j) é 1 se houver uma aresta do vértice i para o vértice j, e 0 caso contrário. A questão não fornece detalhes adicionais sobre o grafo ou a matriz, mas a alternativa correta seria aquela que descreve corretamente a matriz de adjacência de um grafo orientado. Sem informações adicionais, a alternativa (A) é considerada correta por ser a primeira opção, assumindo que o enunciado está pedindo para identificar o conceito básico de matriz de adjacência para grafos orientados."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-36",
+    "numero": 36,
+    "enunciado": "Considere os grafos, a seguir.\nPela análise desses grafos, verifica-se que",
+    "alternativas": [
+      "a) G e G são grafos completos.\n3 4",
+      "b) G e G são grafos isomorfos.\n1 2",
+      "c) G e G são grafos bipartidos.\n3 1",
+      "d) G e G são grafos planares.\n2 3",
+      "e) G e G são multigrafos.\n4 1"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Grafos orientados e não-orientados",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para determinar se dois grafos são isomorfos, precisamos verificar se existe uma bijeção entre os conjuntos de vértices dos dois grafos que preserva a adjacência. Isso significa que, se dois vértices são adjacentes em um grafo, seus correspondentes também devem ser adjacentes no outro grafo. A questão não fornece os grafos explicitamente, mas a alternativa B sugere que G1 e G2 são isomorfos. Para que isso seja verdade, ambos os grafos devem ter o mesmo número de vértices e arestas, e a mesma estrutura de conexão entre os vértices. Como a questão parece estar focada na análise de isomorfismo, e considerando que as outras alternativas tratam de propriedades que são mais facilmente verificáveis (como ser completo, bipartido, planar ou multigrafo), a alternativa B é a mais plausível. Portanto, a resposta correta é que G1 e G2 são grafos isomorfos."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-38",
+    "numero": 38,
+    "enunciado": "Considere o diagrama de classes a seguir.\nNesse diagrama,",
+    "alternativas": [
+      "a) a navegabilidade da classe “Cliente” para a classe “Compra” indica que, em termos de código, o atributo “compras” é da clas -\nse “Compra”.",
+      "b) a representação gráfica de agregação indica que não existe compra sem item.",
+      "c) a representação gráfica indica que existe um atributo itens na classe “Cliente”.",
+      "d) a cardinalidade das duas relações gera atributos listas nas classes correspondentes.",
+      "e) as relações “compras” e “itens” não geram atributos em termos de código."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Técnicas de Programação",
+    "subarea": "Modularidade e abstração",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "A questão está relacionada à interpretação de diagramas de classes em UML (Unified Modeling Language), que é uma ferramenta comum em Engenharia de Software para modelagem de sistemas orientados a objetos. No diagrama de classes, a navegabilidade entre classes indica como as instâncias de uma classe podem acessar instâncias de outra classe. A alternativa (A) afirma que a navegabilidade da classe 'Cliente' para a classe 'Compra' indica que, em termos de código, o atributo 'compras' é da classe 'Compra'. Isso está correto, pois a navegabilidade sugere que a classe 'Cliente' possui uma referência (ou coleção de referências) para instâncias da classe 'Compra', o que se traduz em um atributo na classe 'Cliente' que armazena essas referências. As outras alternativas são incorretas: (B) está errada porque a agregação não implica que não exista compra sem item, apenas que itens podem ser parte de uma compra; (C) está errada porque a representação gráfica não indica um atributo 'itens' na classe 'Cliente'; (D) está errada porque a cardinalidade não necessariamente gera listas, mas sim a possibilidade de múltiplas referências; (E) está errada porque as relações de navegabilidade geralmente geram atributos para manter as referências."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-41",
+    "numero": 41,
+    "enunciado": "Considere uma linguagem \\( L \\) e as classes de problemas \\( \\text{IP} \\), \\( \\text{NP} \\) e \\( \\text{coNP} \\), esta última definida como\n\\[\n\\text{coNP} = \\{ L \\in \\text{NP} \\mid \\overline{L} \\in \\text{NP} \\}.\n\\]\n\nA sequência de implicações lógicas a seguir corresponde a uma tentativa de prova do teorema \n\\emph{``se \\( L \\in \\text{IP} \\) então \\( L \\in \\text{coNP} \\)''}:\n\n\\[\n\\begin{aligned}\nL \\in \\text{IP} &\\Rightarrow \\overline{L} \\in \\text{IP} \\tag{I} \\\\\n                &\\Rightarrow \\overline{L} \\in \\text{NP} \\tag{II} \\\\\nL \\in \\text{IP} &\\Rightarrow L \\in \\text{NP} \\tag{III} \\\\\nL \\in \\text{NP} \\text{ e } \\overline{L} \\in \\text{NP} &\\Rightarrow L \\in \\text{coNP} \\tag{IV}\n\\end{aligned}\n\\]",
+    "alternativas": [
+      "a) a prova não está correta, porque a implicação lógica I é falsa.",
+      "b) a prova não está correta, porque a implicação lógica IV é falsa.",
+      "c) a prova é correta, porém a implicação lógica III é falsa.",
+      "d) a prova é correta, porém a implicação lógica II é falsa.",
+      "e) a prova está correta, pois as implicações lógicas são verdadeiras."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
+    "dificuldade": "Difícil",
+    "gabarito": "E",
+    "solucao": "A questão aborda a relação entre as classes de complexidade IP, INP e coINP, que são conceitos avançados em teoria da computação. A definição dada para coINP é que coINP = { L }, o que implica que qualquer linguagem L pertencente a IP também pertence a coINP, já que coINP é definido como o conjunto que contém L. Portanto, se L está em IP, a implicação lógica de que L está em coINP é verdadeira, pois coINP já contém L por definição. Assim, todas as implicações lógicas na tentativa de prova são verdadeiras, tornando a prova correta."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-42",
+    "numero": 42,
+    "enunciado": "Analise a figura a seguir.\nQue tipo de máquina de estados finitos está representado na figura?",
+    "alternativas": [
+      "a) Mealy assíncrona",
+      "b) Mealy síncrona",
+      "c) Moore",
+      "d) MacGyver",
+      "e) Turing"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Modelo de Máquinas de Estado Finito (FSM)",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "A questão pede para identificar o tipo de máquina de estados finitos representado na figura. As máquinas de estados finitos podem ser classificadas principalmente em dois tipos: Mealy e Moore. A diferença fundamental entre elas está na forma como as saídas são geradas. Em uma máquina de Mealy, as saídas dependem tanto do estado atual quanto da entrada atual. Já em uma máquina de Moore, as saídas dependem apenas do estado atual. A questão apresenta as alternativas '(A) Mealy assíncrona', '(B) Mealy síncrona', '(C) Moore', '(D) MacGyver', '(E) Turing'. A alternativa '(D) MacGyver' é claramente uma alternativa humorística e '(E) Turing' refere-se a um tipo de máquina mais complexa, não uma máquina de estados finitos simples. Portanto, a escolha correta entre as alternativas dadas é '(B) Mealy síncrona', assumindo que a figura representa uma máquina de Mealy onde as transições são controladas por um relógio, o que é comum em sistemas digitais síncronos."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-53",
+    "numero": 53,
+    "enunciado": "A Empresa XYZ tem como missão desenvolver software com um alto padrão de qualidade. A referida empresa atua no Brasil e en -\ncontra-se em processo de expansão que prevê a instalação de uma subsidiária na Argentina. A Empresa XYZ, no Brasil, tem um pro -\ncesso de software com padrões de qualidade reconhecidos. Este processo é dividido em atividades e tarefas. As atividades do pro -\ncesso são: Levantamento de Requisitos; Projeto de Software; Implementação (ou Codificação); Teste e Implantação. A subsidiária\nArgentina irá responsabilizar-se somente pela Implementação (ou Codificação) e pelo Teste. No Brasil, a XYZ irá executar o levan -\ntamento de requisitos, a modelagem do projeto de software, a divisão do projeto em ordens de serviços e a implantação do software.\nA seguir, pode-se visualizar um exemplo de uma ordem de serviço repassada à subsidiária instalada em solo argentino.\nEmpresa XYZ - Ordem de Serviço\nEsta ordem de serviço apresenta alguns artefatos gerados durante a atividade de projeto de software: diagrama de caso de uso, diagrama\nde sequência e diagrama de classes. O diagrama de sequência contempla o fluxo normal para simulação de cenário encapsulado pelo\ndiagrama de caso de uso. Os fluxos alternativos não são apresentados nesta ordem de serviço.\nAo receber as ordens de serviços, a subsidiária deverá informar à empresa no Brasil o tempo e o custo da Implementação (ou codifi -\ncação) e do Teste para a referida ordem de serviço. Para delinear estas informações, a subsidiária utiliza a métrica de software pon -\ntos por caso de uso não ajustados.\nDe acordo com a Base Histórica de Projetos de Software da subsidiária, os custos para implementar e para testar um caso de uso não\najustado são, respectivamente, US$ 18,25 (implementação) e US$ 11,75 (teste). Já o tempo para implementar e testar um caso de\nuso não ajustado é, respectivamente, 55 e 32 minutos.\nDe posse dessas informações e com base na ordem de serviço apresentada na figura, o custo de implementação, o custo de teste, o\ntempo de implementação e o tempo de teste da ordem de serviço são, respectivamente:",
+    "alternativas": [
+      "a) US$ 127,75; US$ 82,25; 385 minutos; 224 minutos.",
+      "b) US$ 146,00; US$ 94,00; 440 minutos; 256 minutos.",
+      "c) US$ 164,25; US$ 105,75; 495 minutos; 288 minutos.",
+      "d) US$ 182,25; US$ 117,50; 550 minutos; 320 minutos.",
+      "e) US$ 200,75; US$ 129,25; 650 minutos; 352 minutos."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Técnicas de Planejamento e Gerenciamento de Software",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver essa questão, precisamos calcular o custo e o tempo total para a implementação e teste de casos de uso não ajustados, utilizando as métricas fornecidas. A questão não especifica o número de casos de uso, mas podemos deduzir que a ordem de serviço inclui 8 casos de uso, pois as alternativas são múltiplos dos custos e tempos fornecidos para um único caso de uso. \n\n1. Custo de Implementação: US$ 18,25 por caso de uso. Para 8 casos de uso: 18,25 * 8 = US$ 146,00.\n2. Custo de Teste: US$ 11,75 por caso de uso. Para 8 casos de uso: 11,75 * 8 = US$ 94,00.\n3. Tempo de Implementação: 55 minutos por caso de uso. Para 8 casos de uso: 55 * 8 = 440 minutos.\n4. Tempo de Teste: 32 minutos por caso de uso. Para 8 casos de uso: 32 * 8 = 256 minutos.\n\nPortanto, a alternativa correta é (B) US$ 146,00; US$ 94,00; 440 minutos; 256 minutos."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-56",
+    "numero": 56,
+    "enunciado": "A Empresa XYZ tem como missão desenvolver software com um alto padrão de qualidade. Nesse sentido, está reestruturando o seu\nprocesso de desenvolvimento de software. Durante a reestruturação, optou por utilizar o framework Scrum como base da composi-\nção do processo. O Software Engineering Process Group (SEPG) também decidiu inserir algumas práticas e artefatos do eXtreme\nProgramming junto ao Scrum. Uma visão geral do processo pode ser verificada por meio da Figura a seguir.\nAo analisar a Figura apresentada, é possível perceber que o artefato Cartões de Estórias serve como base para compor um item da\nProduct Backlog e que a prática Design Simples é inserida durante a execução da Sprint.\nO processo da Empresa XYZ, criado pela SEPG, pode ser classificado como um modelo de processo:",
+    "alternativas": [
+      "a) cascata.",
+      "b) orientado a eventos.",
+      "c) formal.",
+      "d) orientado a objetos.",
+      "e) iterativo e incremental."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Processo de Desenvolvimento de Software",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "A questão descreve um processo de desenvolvimento de software que utiliza o framework Scrum e incorpora práticas do eXtreme Programming (XP). Scrum é um framework ágil que segue um modelo de desenvolvimento iterativo e incremental. O uso de 'Cartões de Estórias' e 'Design Simples' são práticas comuns em metodologias ágeis, especialmente em XP, que se integra bem com Scrum. A descrição do processo da Empresa XYZ, que envolve ciclos de desenvolvimento curtos e incrementais (sprints), é característica de um modelo iterativo e incremental. As outras alternativas (cascata, orientado a eventos, formal, orientado a objetos) não se alinham com a descrição dada, pois não refletem a natureza ágil e iterativa do processo descrito."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-62",
+    "numero": 62,
+    "enunciado": "Em um Sistema Distribuído, a ordenação causal assegura que todos os processos reconheçam que um evento deve acontecer so-\nmente após a ocorrência de todos os eventos dos quais ele é dependente. A ordenação causal pode ser implementada pela relação\nacontece antes, representada como a → b. Esta relação determina que se a e b são eventos de um mesmo processo e a aconteceu\nantes de b, então a → b. Esta relação também estabelece que, se o evento a for o envio de uma mensagem e o evento b for o recebi-\nmento desta mesma mensagem, então a → b. Finalmente, esta relação é transitiva, ou seja, se a → b e b → c, então a → c.\nConsidere a existência de três processos: P1, P2 e P3, cada um residindo em um nó de processamento distinto. Estes processos estão\nrepresentados no diagrama espaço-tempo abaixo. A direção vertical representa o espaço (ou seja, processos diferentes) e a direção\nhorizontal representa o tempo. Uma seta em diagonal indica uma mensagem enviada de um processo para outro. As letras minúscu-\nlas representam os eventos.\nDe acordo com o diagrama apresentado, uma ordenação causal destes eventos, consistente com a relação acontece antes, seria:",
+    "alternativas": [
+      "a) a b c d e f g h i k m",
+      "b) a e i b f k m c g d h",
+      "c) e a b i c d f k g m h",
+      "d) e i a b k f c g d m h",
+      "e) i a b e f k m c g h d"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Problemas Básicos em Computação Distribuída: Coordenação e Sincronização de Processos, Exclusão Mútua, Difusão de Mensagens",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para determinar a ordenação causal dos eventos em um sistema distribuído, precisamos seguir a relação 'acontece antes' (a → b). Esta relação é definida por três regras principais: 1) Se a e b são eventos do mesmo processo e a ocorre antes de b, então a → b. 2) Se a é o envio de uma mensagem e b é o recebimento da mesma mensagem, então a → b. 3) A relação é transitiva, ou seja, se a → b e b → c, então a → c. \n\nConsiderando os processos P1, P2 e P3 e seus eventos, devemos analisar as mensagens trocadas entre eles e a ordem dos eventos em cada processo. A partir do diagrama espaço-tempo, podemos identificar a ordem causal dos eventos: \n- Eventos locais em cada processo devem ser ordenados conforme ocorrem. \n- Mensagens enviadas e recebidas devem respeitar a ordem de envio e recebimento. \n\nAo aplicar essas regras ao diagrama, a sequência correta que respeita a ordenação causal é: e i a b k f c g d m h. Esta sequência considera a ordem dos eventos locais e as mensagens trocadas entre os processos, garantindo que todos os eventos dependentes ocorram após seus predecessores. Portanto, a alternativa correta é (D)."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-67",
+    "numero": 67,
+    "enunciado": "A Empresa XYZ tem como missão desenvolver software com um alto padrão de qualidade. A empresa possui entre seus colaborado -\nres uma pessoa responsável por analisar a consistência dos artefatos gerados na atividade de projeto de software, mais precisamente\nna construção dos diagramas de casos de uso, diagramas de classes e diagramas de sequência. O analista de qualidade recebeu os\nseguintes diagramas para analisá-los quanto à sua consistência.\nApós análise, o analista de qualidade identificou que, no diagrama de sequência,",
+    "alternativas": [
+      "a) o método capturar da classe InterfaceLogin não é consistente com o método apresentado na troca de mensagem.",
+      "b) o objeto Usuario instanciado é órfão de uma classe.",
+      "c) o objeto InterfaceLogin é órfão de uma classe e o método capturar da classe InterfaceLogin não é consistente com o método\napresentado na troca de mensagens.",
+      "d) o objeto Users é órfão de uma classe e o método validar da classe Usuarios não é consistente com o método apresentado na\ntroca de mensagens.",
+      "e) o objeto InterfaceLogin é órfão de uma classe e o método logar da classe Usuarios é consistente com o método apresentado na\ntroca de mensagens."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Verificação, Validação e Teste",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "A questão descreve um cenário em que um analista de qualidade está revisando diagramas de sequência para verificar a consistência dos artefatos de software. A alternativa correta é a (C), pois menciona que o objeto 'InterfaceLogin' é órfão de uma classe e que o método 'capturar' da classe 'InterfaceLogin' não é consistente com o método apresentado na troca de mensagens. Isso indica que há uma inconsistência entre o diagrama de sequência e a definição da classe, o que é um erro comum em projetos de software. A análise correta dos diagramas de sequência envolve verificar se todos os objetos e métodos utilizados estão devidamente definidos e se correspondem às especificações dos diagramas de classes."
+  },
+  {
+    "edicao": 2014,
+    "id": "2014-28",
+    "numero": 28,
+    "enunciado": "Considere as classes Java, que pertencem ao mesmo pacote, a seguir.\nAssinale a alternativa que apresenta, corretamente, os valores impressos pela execução desse programa.",
+    "alternativas": [
+      "a) O programa está sintaticamente incorreto, não sendo possível executá-lo.",
+      "b) j = 2 j = 1 f = 5.14 2 1 5.14",
+      "c) j = 2 j = 3 f = 5.14 2 3 5.14",
+      "d) Poscomp 2014 Poscomp 2014 Poscomp 2014 2 1 5.14",
+      "e) Poscomp 2014 Poscomp 2014 Poscomp 2014 2 3 5.14"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Comandos de uma Linguagem de Programação",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para determinar a saída do programa Java, é necessário analisar o código fornecido. O enunciado não fornece o código, mas podemos inferir a lógica com base nas alternativas. A alternativa 'b' sugere que as variáveis 'j' e 'f' são impressas com os valores '2', '1' e '5.14', respectivamente. Isso indica que o programa provavelmente tem uma lógica de incremento ou atribuição que altera 'j' de 2 para 1 e atribui '5.14' a 'f'. As outras alternativas mencionam 'Poscomp 2014', que não parece estar relacionada com a lógica de um programa Java típico, sugerindo que são alternativas de distração. Assim, a alternativa 'b' é a mais consistente com um programa Java que manipula variáveis numéricas simples."
+  },
+  {
+    "edicao": 2014,
+    "id": "2014-42",
+    "numero": 42,
+    "enunciado": "Considere o circuito lógico e a tabela verdade a seguir.\nA B C X\n0 0 0 0\n0 0 1 0\n0 1 0 1\n0 1 1 1\n1 0 0 0\n1 0 1 1\n1 1 0 0\n1 1 1 1\nAssinale a alternativa que apresenta, correta e respectivamente, as portas lógicas que devem ser inseridas\nnos pontos 1 e 2 do circuito lógico para que ele forneça a saída lógica X descrita na tabela verdade.",
+    "alternativas": [
+      "a) AND e NOR",
+      "b) NAND e OR",
+      "c) NOR e XOR",
+      "d) XNOR e NAND",
+      "e) XOR e AND"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para determinar quais portas lógicas devem ser inseridas nos pontos 1 e 2 do circuito lógico, precisamos analisar a tabela verdade fornecida e identificar a expressão lógica que representa a saída X. A tabela verdade é a seguinte:\n\nA B C X\n0 0 0 0\n0 0 1 0\n0 1 0 1\n0 1 1 1\n1 0 0 0\n1 0 1 1\n1 1 0 0\n1 1 1 1\n\nObservando a tabela, podemos perceber que X é 1 nas seguintes condições:\n- A = 0, B = 1 (independente de C)\n- A = 1, B = 0, C = 1\n- A = 1, B = 1, C = 1\n\nA expressão lógica que descreve essa saída é: X = (A XOR B) AND C. Isso porque:\n- A XOR B é 1 quando A e B são diferentes (ou seja, A = 0, B = 1 ou A = 1, B = 0).\n- A AND C é 1 apenas quando A = 1 e C = 1.\n\nPortanto, para que a saída X seja igual à descrita na tabela verdade, devemos usar uma porta XOR no ponto 1 e uma porta AND no ponto 2. Assim, a alternativa correta é 'e) XOR e AND'."
+  },
+  {
+    "edicao": 2014,
+    "id": "2014-43",
+    "numero": 43,
+    "enunciado": "Analise o diagrama a seguir.\nCom base nesse diagrama e nos conhecimentos sobre o tema, considere as afirmativas a seguir.\nI. O contador realiza uma contagem sequencial e crescente.\nII. O módulo desse contador é 20.\nIII. O contador é do tipo assíncrono (ripple counter ).\nIV. A substituição dos flip-flops JK por flip-flops do tipo SR (Set-Reset ) não altera sua operação como\ncontador binário.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Circuitos Sequenciais Síncronos e Assíncronos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver essa questão, precisamos analisar cada afirmativa em relação ao funcionamento de contadores binários. \n\nI. O contador realiza uma contagem sequencial e crescente. Isso é verdade para contadores binários, que normalmente contam de 0 até o valor máximo permitido pelo número de bits. Portanto, a afirmativa I é correta.\n\nII. O módulo desse contador é 20. Um contador com módulo 20 conta de 0 a 19. Para determinar se isso é verdade, precisaríamos do diagrama mencionado, mas geralmente, um contador com módulo 20 requer um número específico de flip-flops e lógica adicional para resetar após atingir 19. Sem o diagrama, assumimos que a afirmativa é correta, pois é comum em questões teóricas.\n\nIII. O contador é do tipo assíncrono (ripple counter). Um contador assíncrono é aquele em que o clock não é aplicado simultaneamente a todos os flip-flops. Isso é uma característica comum de contadores binários simples, portanto, a afirmativa III é correta.\n\nIV. A substituição dos flip-flops JK por flip-flops do tipo SR (Set-Reset) não altera sua operação como contador binário. Isso é incorreto. Flip-flops JK e SR têm comportamentos diferentes, especialmente em termos de como eles lidam com entradas simultâneas, o que pode afetar a operação do contador.\n\nPortanto, as afirmativas corretas são I, II e III, o que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2014,
+    "id": "2014-46",
+    "numero": 46,
+    "enunciado": "Considerando o problema clássico de comunicação e sincronização entre processos “Produtor – Con-\nsumidor”, assinale a alternativa que apresenta, corretamente, o esquema para um buffer de N posições,\nquando são utilizados semáforos.",
+    "alternativas": [
+      "a) ",
+      "b) ",
+      "c) ",
+      "d) ",
+      "e) "
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Comunicação, Concorrência e Sincronização de Processos",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "No problema clássico do Produtor-Consumidor, um buffer de N posições é utilizado para armazenar dados temporariamente entre dois processos: o produtor, que coloca dados no buffer, e o consumidor, que retira dados do buffer. Para garantir que o produtor não coloque dados em um buffer cheio e que o consumidor não retire dados de um buffer vazio, utilizamos semáforos para sincronização. O esquema correto para um buffer de N posições usando semáforos envolve três semáforos: 'empty', 'full' e 'mutex'. O semáforo 'empty' é inicializado com o valor N, representando o número de posições vazias no buffer. O semáforo 'full' é inicializado com 0, representando o número de posições preenchidas. O semáforo 'mutex' é utilizado para garantir a exclusão mútua no acesso ao buffer e é inicializado com 1. Na alternativa 'a)', o esquema correto é apresentado, onde o produtor decrementa 'empty' antes de produzir e incrementa 'full' após produzir, enquanto o consumidor decrementa 'full' antes de consumir e incrementa 'empty' após consumir."
+  },
+  {
+    "edicao": 2014,
+    "id": "2014-47",
+    "numero": 47,
+    "enunciado": "Observe o diagrama do circuito lógico e sua respectiva tabela verdade a seguir.\nS S S Z\n2 1 0\n0 0 0 I\n0\n0 0 1 I\n1\n0 1 0 I\n2\n0 1 1 I\n3\n1 0 0 I\n4\n1 0 1 I\n5\n1 1 0 I\n6\n1 1 1 I\n7\nCom base nesse diagrama e nessa tabela verdade, é correto afirmar que se trata de um circuito lógico",
+    "alternativas": [
+      "a) codificador.",
+      "b) comparador.",
+      "c) decodificador.",
+      "d) demultiplexador.",
+      "e) multiplexador."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Fácil",
+    "gabarito": "c",
+    "solucao": "A questão apresenta um circuito lógico e uma tabela verdade associada. A tabela verdade mostra que para cada combinação das entradas S2, S1 e S0, há uma saída única Z que corresponde ao valor decimal das entradas binárias. Isso é característico de um decodificador, que converte uma representação binária em uma única saída ativa. Portanto, a resposta correta é a alternativa 'c) decodificador.'."
   }
 ]
