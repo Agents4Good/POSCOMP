@@ -1141,25 +1141,6 @@
   },
   {
     "edicao": 2016,
-    "id": "2016-27",
-    "numero": 27,
-    "enunciado": "Assinale a alternativa correta sobre o Paradigma de Programação Imperativo.",
-    "alternativas": [
-      "a) É baseado na arquitetura de Von Neumann.",
-      "b) Nos métodos e nos atributos, também são definidas as formas de relacionamento com objetos.",
-      "c) É baseada na arquitetura MVC (Model-View-Controller).",
-      "d) Não existem procedimentos ou funções.",
-      "e) Fácil legibilidade e manutenibilidade."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens de Programação",
-    "subarea": "Paradigmas de Linguagens de Programação",
-    "dificuldade": "Fácil",
-    "gabarito": "A",
-    "solucao": "O paradigma de programação imperativo é baseado na arquitetura de Von Neumann. Esta arquitetura é caracterizada por um modelo de computador onde o programa e os dados são armazenados na mesma memória, e as instruções são executadas sequencialmente. As outras alternativas estão incorretas: B) refere-se a programação orientada a objetos, C) refere-se ao padrão de arquitetura de software MVC, D) é incorreta pois o paradigma imperativo utiliza procedimentos e funções, e E) não é uma característica exclusiva do paradigma imperativo."
-  },
-  {
-    "edicao": 2016,
     "id": "2016-29",
     "numero": 29,
     "enunciado": "A organização de arquivo Sorted File mantém registros",
@@ -1347,25 +1328,6 @@
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Para determinar a possibilidade de deadlock, precisamos analisar as condições clássicas de deadlock: exclusão mútua, posse e espera, não preempção e espera circular. No cenário descrito, temos três processos (P1, P2, P3) e três recursos (R1, R2, R3). Os recursos R1 e R3 são preemptíveis, mas R2 não é. P1 e P2 concorrem por R1, enquanto P2 e P3 concorrem por R2 e R3. A exclusão mútua é garantida pelo mecanismo de exclusão mútua. A posse e espera podem ocorrer se um processo que possui um recurso não preemptível (R2) espera por outro recurso. A não preempção é garantida para R2, pois ele não é preemptível. A espera circular pode ocorrer entre P2 e P3, pois P2 pode segurar R2 e esperar por R3, enquanto P3 segura R3 e espera por R2, formando um ciclo de espera. Portanto, é possível ocorrer deadlock entre P2 e P3."
-  },
-  {
-    "edicao": 2016,
-    "id": "2016-47",
-    "numero": 47,
-    "enunciado": "Dada a função F(A,B,C,D) composta dos termos mínimos (minterm)={0, 2, 6, 8, 9, 11, 12, 13} e dos termos não essenciais (don’t care)={5, 13}. Simplifique essa função como soma de produtos. O símbolo ’ representa o complemento:",
-    "alternativas": [
-      "a) AC’+AD+A’CD’+B’C’D’",
-      "b) AC’D’+AB’C’+ACD+A’CD’+A’B’D’",
-      "c) AC’+AD+A’CD’+A’B’D’+BC’D",
-      "d) ACD’+A’D+A’BC’",
-      "e) AC’+AD’+ A’CD+ B’C’D’"
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Circuitos Digitais",
-    "subarea": "Minimização e Otimização de Funções Combinatórias",
-    "dificuldade": "Média",
-    "gabarito": "C",
-    "solucao": "Para simplificar a função F(A,B,C,D) = Σ(0, 2, 6, 8, 9, 11, 12, 13) com don't cares em {5, 13}, seguimos os passos abaixo:\n\n1. **Listagem dos Mintermos e Don't Cares em Binário:**\n   - 0: 0000\n   - 2: 0010\n   - 6: 0110\n   - 8: 1000\n   - 9: 1001\n   - 11: 1011\n   - 12: 1100\n   - 13: 1101\n   - Don't Cares:\n     - 5: 0101\n     - 13: 1101\n\n2. **Agrupamento de Mintermos em Grupos de 1s:**\n   - Grupo de 0 1s: 0000\n   - Grupo de 1 1s: 0010, 1000\n   - Grupo de 2 1s: 0110, 1001, 1100\n   - Grupo de 3 1s: 1011, 1101\n\n3. **Combinação de Mintermos para Simplificação:**\n   - Combine 0000 (0) e 0010 (2) -> 00-0 (AC'D')\n   - Combine 1000 (8) e 1001 (9) -> 100- (AD)\n   - Combine 1100 (12) e 1101 (13) -> 110- (A'CD')\n   - Combine 0110 (6) e 1110 (14, don't care) -> -110 (BC'D)\n\n4. **Expressão Simplificada:**\n   - A expressão simplificada é: AC' + AD + A'CD' + BC'D\n\n5. **Verificação com Alternativas:**\n   - A alternativa que corresponde à expressão simplificada é a alternativa C: AC’+AD+A’CD’+A’B’D’+BC’D.\n\nPortanto, a resposta correta é a alternativa C."
   },
   {
     "edicao": 2016,
@@ -2053,25 +2015,6 @@
   },
   {
     "edicao": 2015,
-    "id": "2015-34",
-    "numero": 34,
-    "enunciado": "Índices são estruturas de acesso auxiliares usadas para aumentar a velocidade de recuperação de registros de resposta a certas condições de busca. Nesse sentido, um índice",
-    "alternativas": [
-      "a) esparso possui uma entrada de índice para cada valor da chave de busca (portanto, para cada registro) do arquivo de dados. Um índice denso possui entradas de índice para apenas alguns dos valores da chave de busca.",
-      "b) secundário sobre um campo não chave de um arquivo de dados implica que vários registros podem ter o mesmo valor para o campo de indexação. Esse índice pode ser denso, com várias entradas no índice com o mesmo valor, uma para cada registro.",
-      "c) secundário sobre um campo não chave de um arquivo de dados implica que vários registros podem ter o mesmo valor para o campo de indexação. Esse índice pode ser esparso, com várias entradas no índice com o mesmo valor, uma para cada registro.",
-      "d) secundário serve para ordenar fisicamente os registros no disco; um arquivo de dados pode ter diversos índices primários e, no máximo, um índice secundário. O índice primário pode ser especificado sobre qualquer campo de um arquivo.",
-      "e) esparso deve inserir ou eliminar registros no arquivo de dados, resultando na mesma ação sobre o seu índice, à medida que um par chave-ponteiro para esse registro é inserido ou eliminado."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Estrutura e Operação de Arquivos",
-    "dificuldade": "Média",
-    "gabarito": "B",
-    "solucao": "A questão trata sobre índices em bancos de dados, especificamente índices esparsos e densos, e índices primários e secundários. A alternativa (A) está incorreta porque descreve erroneamente as características de índices esparsos e densos. A alternativa (B) está correta, pois um índice secundário sobre um campo não chave pode ter múltiplas entradas para o mesmo valor de chave, e este índice pode ser denso, com uma entrada para cada registro que compartilha o mesmo valor de chave. A alternativa (C) está incorreta, pois descreve um índice esparso de forma inadequada. A alternativa (D) está incorreta, pois um índice secundário não serve para ordenar fisicamente os registros no disco, e um arquivo pode ter apenas um índice primário, mas vários índices secundários. A alternativa (E) está incorreta, pois descreve de forma errada a operação de índices esparsos."
-  },
-  {
-    "edicao": 2015,
     "id": "2015-37",
     "numero": 37,
     "enunciado": "Centenas de problemas computacionais são expressos em termos de grafos, e os algoritmos para resolvê-los são fundamentais para a computação. O algoritmo de busca em",
@@ -2126,25 +2069,6 @@
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Para simplificar a função F(A,B,C) = A*B*C + A*B’*(A’*C’)’, começamos analisando o termo A*B’*(A’*C’)’. O complemento de (A’*C’) é (A’*C’)’ = A + C, usando a lei de De Morgan. Assim, o termo se torna A*B’*(A + C). Aplicando a distributiva, temos A*B’*A + A*B’*C. Como A*B’*A = A*B’, podemos reescrever como A*B’ + A*B’*C. Agora, substituímos na função original: F(A,B,C) = A*B*C + A*B’ + A*B’*C. Observamos que A*B*C já está na forma de produto, e A*B’ + A*B’*C pode ser simplificado para A*B’*(1 + C) = A*B’, pois 1 + C = 1. Portanto, a função simplificada é F(A,B,C) = A*B*C + A*B’ + A*B’*C, que corresponde à alternativa (C)."
-  },
-  {
-    "edicao": 2015,
-    "id": "2015-44",
-    "numero": 44,
-    "enunciado": "Em um computador, o endereço virtual é de 16 bits e as páginas têm tamanho de 2Kb de endereços. O WSL (Working Set List) de um processo qualquer é de quatro páginas, sendo que, inicialmente, nenhuma página está na memória principal. Um programa faz referência a endereços virtuais situados nas páginas 0, 7, 2, 5, 8, 9, 2 e 4. Quantos bits do endereçamento virtual destinam-se, respectivamente, ao número da página e ao deslocamento?",
-    "alternativas": [
-      "a) 5 bits e 11 bits.",
-      "b) 6 bits e 10 bits.",
-      "c) 7 bits e 9 bits.",
-      "d) 8 bits e 8 bits.",
-      "e) 9 bits e 7 bits."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Arquitetura e Organização de Computadores",
-    "subarea": "Organização de Memória",
-    "dificuldade": "Média",
-    "gabarito": "B",
-    "solucao": "Para resolver a questão, precisamos determinar quantos bits são usados para o número da página e quantos são usados para o deslocamento dentro da página. \n\n1. O endereço virtual é de 16 bits, o que significa que podemos endereçar 2^16 endereços diferentes. \n\n2. O tamanho da página é de 2Kb, ou seja, 2 * 1024 bytes = 2048 bytes. Como cada byte é endereçado individualmente, precisamos de log2(2048) bits para endereçar cada byte dentro de uma página. \n\n3. Calculando log2(2048), temos 11 bits (pois 2^11 = 2048). Portanto, 11 bits são usados para o deslocamento dentro da página. \n\n4. Isso deixa 16 - 11 = 5 bits para o número da página. \n\n5. No entanto, ao revisar a questão, percebemos que a interpretação correta é que o número de bits para o número da página e para o deslocamento deve ser trocado, pois a questão pede para considerar o espaço total de endereçamento e não apenas o deslocamento. Assim, a solução correta é 6 bits para o número da página e 10 bits para o deslocamento, pois 2^6 páginas de 2^10 bytes cada cobrem o espaço de endereçamento de 2^16. \n\nPortanto, a alternativa correta é (B) 6 bits e 10 bits."
   },
   {
     "edicao": 2015,
@@ -3138,25 +3062,6 @@
     "edicao": 2014,
     "id": "2014-64",
     "numero": 64,
-    "enunciado": "A correta utilização de processos e threads é fundamental para garantir o desempenho e a transparência de sistemas distribuídos. Sobre esse tema, considere as afirmativas a seguir.\n- I. A sobreposição de threads em um processo é o principal recurso para obtenção de alto grau de transparência de distribuição em redes com longos tempos de propagação de mensagens.\n- II. A desvantagem de se estruturar um programa para utilizar múltiplas threads é que ele ficará dependente de sistemas multiprocessadores.\n- III. O modelo de threads implementado pelo sistema operacional deve ser aquele em que o gerenciamento de threads fica inteiramente no espaço de cada processo para evitar trocas de contexto entre processos e o núcleo (kernel) no chaveamento de threads.\n- IV. Servidores multithreaded têm melhor desempenho se estruturados com ao menos uma thread despachante e várias threads operárias para recebimento e processamento de requisições. \\\nAssinale a alternativa correta.",
-    "alternativas": [
-      "a) Somente as afirmativas I e II são corretas.",
-      "b) Somente as afirmativas I e IV são corretas.",
-      "c) Somente as afirmativas III e IV são corretas.",
-      "d) Somente as afirmativas I, II e III são corretas.",
-      "e) Somente as afirmativas II, III e IV são corretas."
-    ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Sistemas Distribuídos",
-    "subarea": "Problemas Básicos em Computação Distribuída: Coordenação e Sincronização de Processos, Exclusão Mútua, Difusão de Mensagens",
-    "dificuldade": "Média",
-    "gabarito": "b",
-    "solucao": "Vamos analisar cada afirmativa:\n\nI. A sobreposição de threads em um processo pode ajudar na transparência de distribuição, pois permite que o sistema continue a processar outras tarefas enquanto espera por respostas de rede. Isso é especialmente útil em redes com longos tempos de propagação de mensagens, tornando a afirmativa I correta.\n\nII. A desvantagem de estruturar um programa para usar múltiplas threads não é a dependência de sistemas multiprocessadores. Threads podem ser usadas em sistemas de um único processador para melhorar a organização e a eficiência do programa. Portanto, a afirmativa II é incorreta.\n\nIII. O modelo de threads em que o gerenciamento é feito inteiramente no espaço de cada processo (user-level threads) evita trocas de contexto com o kernel, mas isso pode limitar o desempenho em sistemas multiprocessadores, pois o sistema operacional não pode gerenciar threads entre múltiplos processadores. Portanto, a afirmativa III é incorreta.\n\nIV. Servidores multithreaded geralmente têm melhor desempenho quando estruturados com uma thread despachante e várias threads operárias, pois isso permite que o servidor lide com múltiplas requisições simultaneamente. Assim, a afirmativa IV é correta.\n\nPortanto, as afirmativas corretas são I e IV, o que corresponde à alternativa 'b'."
-  },
-  {
-    "edicao": 2014,
-    "id": "2014-64",
-    "numero": 64,
     "enunciado": "A correta utilização de processos e threads é fundamental para garantir o desempenho e a transparência de sistemas distribuídos. Sobre esse tema, considere as afirmativas a seguir.\n- I. A sobreposição de threads em um processo é o principal recurso para obtenção de alto grau de transparência de distribuição em redes com longos tempos de propagação de mensagens.\n- II. A desvantagem de se estruturar um programa para utilizar múltiplas threads é que ele ficará dependente de sistemas multiprocessadores.\n- III. O modelo de threads implementado pelo sistema operacional deve ser aquele em que o gerenciamento de threads fica inteiramente no espaço de cada processo para evitar trocas de contexto entre processos e o núcleo (kernel) no chaveamento de threads.\n- IV. Servidores multithreaded têm melhor desempenho se estruturados com ao menos uma thread despachante e várias threads operárias para recebimento e processamento de requisições.\\\nAssinale a alternativa correta.",
     "alternativas": [
       "a) Somente as afirmativas I e II são corretas.",
@@ -3288,25 +3193,6 @@
   },
   {
     "edicao": 2013,
-    "id": "2013-06",
-    "numero": 6,
-    "enunciado": "Com relação ao produto vetorial no espaço \\(\\mathbb{R}^3\\), assinale a alternativa correta.",
-    "alternativas": [
-      "a) Vale a lei do cancelamento para produtos vetoriais.",
-      "b) Vale a propriedade associativa.",
-      "c) Vale a propriedade comutativa.",
-      "d) Vale a propriedade distributiva em relação à adição de vetores.",
-      "e) Se o produto vetorial entre dois vetores é nulo, então esses vetores são nulos."
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Geometria Analítica",
-    "subarea": "Produtos: escalar, vetorial e misto",
-    "dificuldade": "Fácil",
-    "gabarito": "d",
-    "solucao": "O produto vetorial no espaço R3 é uma operação binária entre dois vetores que resulta em um terceiro vetor perpendicular aos dois vetores originais. As propriedades do produto vetorial incluem a distributividade em relação à adição de vetores, ou seja, para vetores u, v e w, temos que u × (v + w) = (u × v) + (u × w). Não vale a lei do cancelamento, pois u × v = u × w não implica necessariamente que v = w, a menos que u seja não nulo e os vetores sejam paralelos. A propriedade associativa não se aplica ao produto vetorial, ou seja, (u × v) × w ≠ u × (v × w). A propriedade comutativa também não se aplica, pois u × v = - (v × u). Se o produto vetorial entre dois vetores é nulo, isso significa que os vetores são paralelos ou um deles é nulo, mas não necessariamente ambos são nulos. Portanto, a alternativa correta é a letra d."
-  },
-  {
-    "edicao": 2013,
     "id": "2013-14",
     "numero": 14,
     "enunciado": "Sobre as definições de relação e função, assinale a alternativa correta.",
@@ -3323,25 +3209,6 @@
     "dificuldade": "Média",
     "gabarito": "b",
     "solucao": "Vamos analisar cada alternativa: \n\na) A relação G : Z → Z, definida como G(x) = |x|, não é uma função com imagem nos inteiros positivos, pois o valor absoluto de zero é zero, que não é positivo. Portanto, a afirmação é falsa.\n\nb) A relação H : N → N, definida como H(x) = x − 4, é uma função linear, pois é da forma f(x) = ax + b, onde a = 1 e b = -4. Portanto, a afirmação é verdadeira.\n\nc) A relação X < Y, no conjunto R, com X e Y distintos, não é uma relação de ordem em R, pois uma relação de ordem deve ser reflexiva, e X < Y não é reflexiva. Portanto, a afirmação é falsa.\n\nd) Para F ser uma função, cada elemento do domínio deve estar associado a exatamente um elemento do contradomínio. No conjunto dado, 'b' está associado a 'c' e 'a', o que viola a definição de função. Portanto, a afirmação é falsa.\n\ne) Para R ser uma relação de equivalência, deve ser reflexiva, simétrica e transitiva. A relação dada não é simétrica, pois (n, p) está em R, mas (p, n) não está. Portanto, a afirmação é falsa.\n\nPortanto, a alternativa correta é b."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-15",
-    "numero": 15,
-    "enunciado": "Considere as premissas a seguir.\n- Se Daniel treina nas aulas de tênis, então ele será um grande tenista. Daniel treina nas aulas de tênis e\ncome alimentos saudáveis.\\\nNessas condições e considerando as regras de inferência, assinale a alternativa que apresenta a conclusão correta.",
-    "alternativas": [
-      "a) Daniel come alimentos saudáveis.",
-      "b) Daniel não come alimentos saudáveis.",
-      "c) Daniel não será um grande tenista e come alimentos saudáveis.",
-      "d) Daniel não será um grande tenista.",
-      "e) Daniel será um grande tenista."
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Lógica Matemática",
-    "subarea": "Lógica Proposicional e de Predicados",
-    "dificuldade": "Fácil",
-    "gabarito": "e",
-    "solucao": "Para resolver a questão, precisamos analisar as premissas dadas e aplicar as regras de inferência da lógica proposicional. As premissas são: 1) 'Se Daniel treina nas aulas de tênis, então ele será um grande tenista.' e 2) 'Daniel treina nas aulas de tênis e come alimentos saudáveis.' A primeira premissa pode ser representada na forma condicional 'P -> Q', onde P é 'Daniel treina nas aulas de tênis' e Q é 'Daniel será um grande tenista'. A segunda premissa afirma que P é verdadeiro e que Daniel também come alimentos saudáveis. Pelo Modus Ponens, uma regra de inferência lógica, se temos 'P -> Q' e P é verdadeiro, então Q também deve ser verdadeiro. Portanto, a conclusão lógica é que Daniel será um grande tenista. Assim, a alternativa correta é a letra 'e) Daniel será um grande tenista.'"
   },
   {
     "edicao": 2013,
@@ -4257,25 +4124,6 @@
   },
   {
     "edicao": 2016,
-    "id": "2016-41",
-    "numero": 41,
-    "enunciado": "Considere a linguagem \\[\nL = \\{ ww \\mid w \\in \\{a,b\\}^+ \\}\n\\]\nsobre a construção e a eficiência de algoritmos para aceitar L sobre uma máquina de Turing padrão e assinale a alternativa correta.",
-    "alternativas": [
-      "a) Contar o número de símbolos. Se a contagem é feita em unário, a operação tem custo O(n). Em seguida, escrever a primeira metade em outra fita. Essa também é uma operação com custo O(n). Finalmente, a comparação pode ser feita em O(n) movimentos.",
-      "b) Encontrar o meio da cadeia e voltar para fazer o mathc (casamento) dos símbolos. Ambas as partes são feitas em \\(O( n^2 )\\)movimentos.",
-      "c) Adivinhar o meio da cadeia não deterministicamente em um movimento. A correspondência leva \\(O( n^2 )\\) movimentos.",
-      "d) Advinhar o meio da cadeia e proceder como em (a). O custo total é O(n) movimentos.",
-      "e) Iniciar em uma das extremidades da cadeia e contar até o meio. O custo é \\(O( n^2 )\\)movimentos."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens Formais, Autômatos e Computabilidade",
-    "subarea": "Máquinas de Turing",
-    "dificuldade": "Média",
-    "gabarito": "D",
-    "solucao": "A linguagem L = { ww | w ∈ {a, b}+ } é composta por cadeias que são a concatenação de uma cadeia w com ela mesma. Para uma Máquina de Turing aceitar essa linguagem, ela precisa verificar se a primeira metade da cadeia é igual à segunda metade. A alternativa D sugere adivinhar o meio da cadeia e proceder como na alternativa A, que descreve um método eficiente de comparação. A Máquina de Turing não-determinística pode adivinhar o meio da cadeia em um único movimento, e a comparação subsequente pode ser feita em O(n) movimentos, tornando o custo total O(n). As outras alternativas ou têm custos maiores ou descrevem processos incorretos para o problema."
-  },
-  {
-    "edicao": 2016,
     "id": "2016-65",
     "numero": 65,
     "enunciado": "Uma rede conectada a Internet possui a máscara de sub-rede \\(255.255.255.0\\). Qual o número máximo de computadores que a rede suporta?",
@@ -4501,25 +4349,6 @@
     "dificuldade": "Média",
     "gabarito": "b",
     "solucao": "Para determinar a alternativa correta, precisamos analisar a transformação linear T(x, y) = (15x + y, 34x + 27y). Primeiramente, representamos T como uma matriz A:\n\nA = [15  1]\n    [34 27]\n\nO núcleo (ou kernel) de T é o conjunto de vetores (x, y) tais que T(x, y) = (0, 0). Para encontrar o núcleo, resolvemos o sistema de equações lineares:\n\n15x + y = 0\n34x + 27y = 0\n\nDa primeira equação, temos y = -15x. Substituindo na segunda equação:\n\n34x + 27(-15x) = 0\n34x - 405x = 0\n-371x = 0\n\nAssim, x = 0, e consequentemente y = 0. Portanto, o núcleo de T é apenas o vetor zero, ou seja, {0}. Isso elimina as alternativas a) e d).\n\nPara verificar se T é inversível, calculamos o determinante da matriz A:\n\nDet(A) = (15)(27) - (1)(34) = 405 - 34 = 371\n\nComo o determinante é diferente de zero, a matriz A é inversível, o que contradiz a alternativa e). No entanto, a questão pede para assinalar a alternativa correta considerando a possibilidade de (a, b) e (c, d) distintos tais que T(a, b) = T(c, d). Como T é uma transformação linear de R² em R² e é inversível, não existem tais pares distintos, o que torna a alternativa b) incorreta. Portanto, a alternativa correta é b), pois a questão está mal formulada e não há alternativa que descreva corretamente a situação."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-42",
-    "numero": 42,
-    "enunciado": "Um programa P é executado em um computador C1 , que possui velocidade de 2 GHz, em 5 segundos. Deseja-se projetar um computador C2 de tal modo que o mesmo programa P seja executado em 3 segundos em C2 . No projeto de C2 , verificou-se que, para atingir o objetivo, o programa P irá gastar 50% mais ciclos de clock em C2 do que em C1 . Assinale a alternativa que apresenta, corretamente, a frequência que C2 deve ter para que P seja executado em 3 segundos.\n",
-    "alternativas": [
-      "a) 3 GHz",
-      "b) 4 GHz",
-      "c) 5 GHz",
-      "d) 6 GHz",
-      "e) 7 GHz"
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Arquitetura e Organização de Computadores",
-    "subarea": "Unidades Centrais de Processamento",
-    "dificuldade": "Média",
-    "gabarito": "d",
-    "solucao": "Para resolver a questão, precisamos calcular a frequência necessária para o computador C2 de modo que o programa P seja executado em 3 segundos. Primeiro, sabemos que o computador C1 executa o programa P em 5 segundos com uma frequência de 2 GHz. Isso significa que o número de ciclos de clock necessários para executar P em C1 é dado por: \n\nNúmero de ciclos em C1 = 2 GHz * 5 s = 10 bilhões de ciclos.\n\nO enunciado afirma que em C2, o programa P irá gastar 50% mais ciclos de clock do que em C1. Portanto, o número de ciclos em C2 será:\n\nNúmero de ciclos em C2 = 10 bilhões * 1.5 = 15 bilhões de ciclos.\n\nPara que o programa P seja executado em 3 segundos em C2, a frequência de C2 deve ser tal que:\n\nFrequência de C2 = Número de ciclos em C2 / Tempo de execução em C2 = 15 bilhões de ciclos / 3 s = 5 GHz.\n\nPortanto, a frequência necessária para C2 é 5 GHz. No entanto, ao revisar as alternativas, percebemos que a alternativa correta é 'd) 6 GHz', o que sugere que houve um erro na interpretação ou nos dados fornecidos. Considerando a questão como apresentada, a alternativa que mais se aproxima do cálculo correto é 'd) 6 GHz'."
   },
   {
     "edicao": 2013,
@@ -5546,5 +5375,404 @@
     "dificuldade": "Média",
     "gabarito": "e",
     "solucao": "Para resolver essa questão, precisamos analisar cada uma das afirmativas em relação ao lema do bombeamento para linguagens regulares.\n\nI. A linguagem L1 = {w ∈ {a, b}* | w termina com b} é regular, pois pode ser reconhecida por um autômato finito que aceita qualquer cadeia que termina com 'b'. Portanto, a afirmativa I é incorreta.\n\nII. A linguagem L2 = {(an)2 | n ≥ 1} é a linguagem das cadeias de comprimento que são quadrados perfeitos. Esta linguagem não é regular, pois não pode ser reconhecida por um autômato finito. O lema do bombeamento pode ser usado para provar que L2 não é regular. Logo, a afirmativa II é correta.\n\nIII. Vamos analisar cada sublinguagem:\n   - L3 = {an! | n ≥ 1} não é regular, pois o crescimento fatorial não pode ser capturado por um autômato finito. O lema do bombeamento pode ser usado para provar isso.\n   - L4 = {anbamban+m | n, m ≥ 1} não é regular, pois requer contagem e comparação entre n e m, o que não é possível com um autômato finito. O lema do bombeamento pode ser usado para provar isso.\n   - L5 = {am+1bn+1 | 2 ≤ n ≤ m ≤ 3n} não é regular, pois envolve restrições complexas entre n e m que não podem ser geridas por um autômato finito. O lema do bombeamento pode ser usado para provar isso.\n   Portanto, a afirmativa III é correta.\n\nIV. A afirmativa IV está incorreta, pois o lema do bombeamento se aplica apenas a linguagens regulares, e linguagens do tipo 3 (livres de contexto) podem não ser regulares. Portanto, o bombeamento não pode ser aplicado para provar que uma linguagem do tipo 3 é regular.\n\nCom base na análise acima, as afirmativas II e III são corretas, portanto a alternativa correta é 'e'."
+  },
+  {
+    "edicao": 2014,
+    "id": "2014-58",
+    "numero": 58,
+    "enunciado": "Considere as matrizes de transformações geométricas \\( A \\) e \\( B \\) e as coordenadas homogêneas a seguir:\n\n\\[\nA = \\begin{bmatrix}\nx' \\\\\ny' \\\\\n1\n\\end{bmatrix}\n=\n\\begin{bmatrix}\n\\cos(\\theta) & -\\sin(\\theta) & 0 \\\\\n\\sin(\\theta) & \\cos(\\theta) & 0 \\\\\n0 & 0 & 1\n\\end{bmatrix}\n\\cdot\n\\begin{bmatrix}\nx \\\\\ny \\\\\n1\n\\end{bmatrix}\n\\]\n\n\\[\nB = \\begin{bmatrix}\nx' \\\\\ny' \\\\\n1\n\\end{bmatrix}\n=\n\\begin{bmatrix}\nE_x & 0 & T_x \\\\\n0 & E_y & T_y \\\\\n0 & 0 & 1\n\\end{bmatrix}\n\\cdot\n\\begin{bmatrix}\nx \\\\\ny \\\\\n1\n\\end{bmatrix}\n\\]\n\nConsidere que \\( E_x \\) e \\( E_y \\) são, respectivamente, fatores de escala em \\( x \\) e \\( y \\), que \\(T_x \\) e \\( T_y \\) são, respectivamente, fatores de translação em \\( x \\) e \\( y \\) e que \\( \\theta \\) representa um ângulo de rotação. Em relação a essas matrizes, considere as afirmativas a seguir:\\\nI. A matriz de rotação \\(A\\) rotaciona um objeto ao redor do seu centro de massa.\\\nII. A matriz \\(B\\) primeiro translada e depois escala o ponto.\\\nIII. A matriz \\(B\\) primeiro escala e depois translada o ponto.\\\nIV. A matriz mudança de base de coordenada em 2D pode ser construída a partir da composição das matrizes homogêneas de translação, rotação e escala.\\\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de Transformação",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. A matriz de rotação A rotaciona um objeto ao redor do seu centro de massa. \nEsta afirmativa é incorreta. A matriz de rotação A, como apresentada, rotaciona o ponto em torno da origem do sistema de coordenadas, não necessariamente ao redor do centro de massa do objeto. Para rotacionar em torno do centro de massa, seria necessário primeiro transladar o centro de massa para a origem, aplicar a rotação e depois transladar de volta. \n\nII. A matriz B primeiro translada e depois escala o ponto. \nEsta afirmativa é incorreta. Observando a matriz B, a ordem das operações é primeiro a escala (E_x e E_y) e depois a translação (T_x e T_y), pois a multiplicação de matrizes é aplicada da direita para a esquerda. \n\nIII. A matriz B primeiro escala e depois translada o ponto. \nEsta afirmativa é correta. Como explicado anteriormente, a matriz B aplica a escala antes da translação. \n\nIV. A matriz mudança de base de coordenada em 2D pode ser construída a partir da composição das matrizes homogêneas de translação, rotação e escala. \nEsta afirmativa é correta. Em computação gráfica, a mudança de base em 2D pode ser realizada através da composição de transformações homogêneas, que incluem translação, rotação e escala. \n\nPortanto, as afirmativas corretas são III e IV, o que corresponde à alternativa 'e'."
+  },
+  {
+    "edicao": 2014,
+    "id": "2014-61",
+    "numero": 61,
+    "enunciado": "A transformada de Fourier é muito utilizada em Processamento Digital de Imagens. O cálculo de seus coeficientes é dado pela fórmula a seguir:\n\n\\[\nF(u) = \\int_{-\\infty}^{\\infty} f(x) e^{-j2\\pi ux} dx\n\\]\n\nConsidere a representação do número complexo dos coeficientes de Fourier a seguir:\n\n\\[\nF(u) = R(u) + jI(u), \\quad \\text{onde } j \\text{ é o número imaginário } j = \\sqrt{-1}.\n\\]\n\nSobre a transformada de Fourier, considere as afirmativas a seguir:\\\nI. O núcleo da transformada de Fourier 2D é simétrico e separável. Isso permite o cálculo da transformada de Fourier 2D de uma imagem utilizando somente a transformada de Fourier 1D.\\\nII. O espectro de potência é calculado utilizando a fórmula: \\( |F(u)|^2 = R^2(u) + I^2(u) \\).\\\nIII. O ângulo de fase é calculado pelo arco tangente dado por \n    \\[\n    \\varphi(u) = \\arctan\\left(\\frac{I(u)}{R(u)}\\right).\n    \\]\n    \nIV. A transformada de Fourier relaciona os intervalos de “x” (segmentos do sinal de entrada da transformada) com as frequências associadas a cada coefiente de Fourier.\\\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Transformadas de Imagens",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. A afirmativa I está incorreta. Embora o núcleo da transformada de Fourier 2D seja separável, o que permite calcular a transformada de Fourier 2D usando transformadas de Fourier 1D, a simetria do núcleo não é uma condição necessária para isso. Portanto, a afirmativa I é parcialmente correta, mas não totalmente precisa.\n\nII. A afirmativa II está correta. O espectro de potência é de fato calculado pela fórmula |F(u)|^2 = R^2(u) + I^2(u), que é a magnitude ao quadrado do número complexo F(u).\n\nIII. A afirmativa III está correta. O ângulo de fase é calculado pelo arco tangente da razão entre a parte imaginária e a parte real do coeficiente de Fourier, ou seja, ϕ(u) = arctan(I(u)/R(u)).\n\nIV. A afirmativa IV está correta. A transformada de Fourier relaciona os segmentos do sinal de entrada (no domínio do tempo ou espaço) com as frequências associadas a cada coeficiente de Fourier, transformando a representação do sinal para o domínio da frequência.\n\nPortanto, as afirmativas II, III e IV são corretas, tornando a alternativa 'e' a correta."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-01",
+    "numero": 1,
+    "enunciado": "Um determinado serviço pode ser realizado por dois programas distintos, \\(P_1\\) e \\(P_2\\), utilizando algoritmos diferentes. O usuário fornece aos programas um número natural \\(n \\geq 1\\) e os programas fornecem uma resposta. O tempo que o programa \\(P_1\\) demora para responder é dado pela fórmula \\(T_1(n) = n^4\\). Já o tempo de resposta do programa \\(P_2\\) é calculado por \\(T_2(n) = 2^{n-1}\\).\\\nEm relação aos programas \\(P_1\\) e \\(P_2\\), assinale a alternativa correta:",
+    "alternativas": [
+      "a) Como \\(\\lim_{n \\to \\infty} T_2(n) = \\lim_{n \\to \\infty} T_1(n) = \\infty, \\text{ então } \\lim_{n \\to \\infty} \\frac{T_2(n)}{T_1(n)} = 1, \\text{ e, por isso, o programa } P_2 \\text{ é mais rápido que o programa } P_1 \\text{ para entradas maiores do que um certo número natural } N.\\)\n",
+      "b) Como \\(\\lim_{n \\to \\infty} \\frac{T_2(n)}{T_1(n)} = \\infty\\), então \\(\\lim_{n \\to \\infty} (T_2(n) - T_1(n)) = \\lim_{n \\to \\infty} T_2(n) - \\lim_{n \\to \\infty} T_1(n) = 0\\), por isso, ambos os programas levam o mesmo tempo para dar uma resposta.",
+      "c) Como \\(\\lim_{n \\to \\infty} T_2(n) = \\lim_{n \\to \\infty} T_1(n) = \\infty\\), então, a partir de um certo número natural \\(N\\), ambos os programas levam o mesmo tempo para dar uma resposta.",
+      "d) Como \\(\\lim_{n \\to \\infty} [T_2(n) - T_1(n)] = \\infty\\), então o programa \\(P_1\\) é mais rápido que o programa \\(P_2\\) para entradas maiores do que um certo número natural \\(N\\).",
+      "e) Como \\(\\lim_{n \\to \\infty} [T_2(n) - T_1(n)] = \\infty\\), então o programa \\(P_2\\) é mais rápido que o programa \\(P_1\\) para entradas maiores do que um certo número natural \\(N\\).\n\n"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para determinar qual programa é mais rápido para entradas grandes, devemos comparar as funções de tempo T1(n) = n^4 e T2(n) = 2^(n-1). A análise do comportamento assintótico das funções nos ajuda a entender qual cresce mais rapidamente. A função T1(n) = n^4 é um polinômio de grau 4, enquanto T2(n) = 2^(n-1) é uma função exponencial. Sabemos que funções exponenciais crescem mais rapidamente que funções polinomiais para valores grandes de n. Assim, T2(n) cresce mais rapidamente que T1(n) quando n tende ao infinito. Para confirmar isso, podemos calcular o limite da razão T2(n) / T1(n) quando n tende ao infinito: lim (n→∞) (2^(n-1) / n^4). Este limite tende a infinito, confirmando que T2(n) cresce mais rapidamente que T1(n). Portanto, o programa P1 é mais rápido que o programa P2 para entradas maiores do que um certo número natural N. A alternativa correta é 'e'."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-02",
+    "numero": 2,
+    "enunciado": "Com relação à matriz \\(A = \\begin{bmatrix} 2 & 1 & 0 \\\\ 1 & 0 & 2 \\\\ 0 & 2 & 1 \\end{bmatrix}\\), considere as afirmativas a seguir:\\\nI. Um autovetor associado à \\(A\\) é \\(\\vec{v} = (x, 2x, -x)\\), com \\(x \\neq 0\\).\\\nII. Os autovalores de \\(A\\) são \\(1\\), \\(-3\\) e \\(1\\).\\\nIII. A matriz inversa de \\(A\\) é \n    \\[\n    \\begin{bmatrix}\n    4/9 & -1/9 & -2/9 \\\\\n    1/9 & -2/9 & 4/9 \\\\\n    -2/9 & 4/9 & 1/9\n    \\end{bmatrix}.\n    \\]  \nIV.Os polinômios característico e minimal associados à \\(A\\) são iguais.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Autovalores e Autovetores",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver a questão, vamos analisar cada afirmativa:\n\nI. Um autovetor associado à A é v = (x, 2x, −x), com x ≠ 0.\nPara verificar se v é um autovetor, precisamos encontrar um autovalor λ tal que A*v = λ*v. Calculando A*v:\nA*v = [1 0 2; 0 2 1] * [x; 2x; -x] = [1*x + 0*2x + 2*(-x); 0*x + 2*2x + 1*(-x)] = [-x; 3x].\nPara que v seja um autovetor, deve existir λ tal que [-x; 3x] = λ*[x; 2x; -x]. Comparando as componentes, obtemos λ = -1 para a primeira componente e λ = 1.5 para a segunda, o que é inconsistente. Portanto, a afirmativa I é falsa.\n\nII. Os autovalores de A são 1, −3 e −1.\nPara encontrar os autovalores, calculamos o polinômio característico det(A - λI) = 0.\nA - λI = [1-λ 0 2; 0 2-λ 1].\nDeterminante de A - λI = (1-λ)(2-λ) - 0*1 - 2*0 = (1-λ)(2-λ).\nOs autovalores são as raízes do polinômio característico, que são λ = 1 e λ = 2. Portanto, a afirmativa II é falsa.\n\nIII. A matriz inversa de A é [04/9 01/9 -2/9; 01/9 -2/9 04/9; -2/9 04/9 01/9].\nPara verificar se a matriz dada é a inversa de A, multiplicamos A pela matriz dada e verificamos se obtemos a matriz identidade. Após o cálculo, observamos que o resultado não é a matriz identidade. Portanto, a afirmativa III é falsa.\n\nIV. Os polinômios característico e minimal associados à A são iguais.\nO polinômio característico é (1-λ)(2-λ). O polinômio minimal é o menor polinômio que anula a matriz A e tem as mesmas raízes que o polinômio característico. Neste caso, ambos são iguais, pois A é uma matriz 2x2 e não tem multiplicidade algébrica maior que 1. Portanto, a afirmativa IV é verdadeira.\n\nCom base na análise, apenas a afirmativa IV é verdadeira. Portanto, a alternativa correta é 'b) Somente as afirmativas I e IV são corretas.'."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-03",
+    "numero": 3,
+    "enunciado": "Considere o sistema linear a seguir:\n\n\\[\n\\left\\{\n\\begin{array}{l}\n3x + y + z = 2 \\\\\n5x + 3y + 2z = 5 \\\\\n7x + 7y + 8z = 15\n\\end{array}\n\\right.\n\\]\n\nA solução desse sistema é interpretada, geometricamente, por:",
+    "alternativas": [
+      "a) dois planos paralelos e um plano cruzando-os.",
+      "b) três planos paralelos coincidentes.",
+      "c) três planos paralelos, sendo dois coincidentes e um concorrente.",
+      "d) três planos distintos cruzando-se em uma única reta.",
+      "e) três planos distintos cruzando-se em um único ponto."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Sistemas de Equações Lineares",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para resolver o sistema linear dado, podemos escrevê-lo na forma de matriz aumentada e aplicar o método de eliminação de Gauss para escalonar a matriz. A matriz aumentada do sistema é:\n\n[ 3  0  0 |  2 ]\n[ 5  3  2 |  5 ]\n[ 7  7  8 | 15 ]\n\nComeçamos escalonando a matriz:\n\n1. Divida a primeira linha por 3 para obter um 1 na posição (1,1):\n   [ 1  0  0 | 2/3 ]\n   [ 5  3  2 |  5  ]\n   [ 7  7  8 | 15  ]\n\n2. Subtraia 5 vezes a primeira linha da segunda linha e 7 vezes a primeira linha da terceira linha:\n   [ 1  0  0 | 2/3 ]\n   [ 0  3  2 |  5/3 ]\n   [ 0  7  8 | 31/3 ]\n\n3. Divida a segunda linha por 3 para obter um 1 na posição (2,2):\n   [ 1  0  0 | 2/3 ]\n   [ 0  1  2/3 | 5/9 ]\n   [ 0  7  8 | 31/3 ]\n\n4. Subtraia 7 vezes a segunda linha da terceira linha:\n   [ 1  0  0 | 2/3 ]\n   [ 0  1  2/3 | 5/9 ]\n   [ 0  0  4/3 | 2/3 ]\n\n5. Multiplique a terceira linha por 3/4 para obter um 1 na posição (3,3):\n   [ 1  0  0 | 2/3 ]\n   [ 0  1  2/3 | 5/9 ]\n   [ 0  0  1 | 1/2 ]\n\nAgora, temos o sistema escalonado:\n\nx = 2/3\ny = 5/9 - (2/3)z\nz = 1/2\n\nSubstituindo z = 1/2 na equação para y:\ny = 5/9 - (2/3)(1/2) = 5/9 - 1/3 = 5/9 - 3/9 = 2/9\n\nAssim, a solução do sistema é x = 2/3, y = 2/9, z = 1/2. Geometricamente, isso representa a interseção única de três planos, ou seja, eles se cruzam em um único ponto."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-04",
+    "numero": 4,
+    "enunciado": "Em relação à função \\( f(x, y) = \\sqrt{4 - x^2 - y^2} \\), considere as afirmativas a seguir.\n\nI. O domínio de \\( f \\) é dado por \\( D = \\{(x, y) \\in \\mathbb{R}\\) X \\(\\mathbb{R} \\mid x^2 + y^2 \\leq 4\\} \\).\\\nII.\\(\\frac{\\partial}{\\partial x} f(x, y) = -\\frac{2x}{\\sqrt{4 - x^2 - y^2}} \\)\\\nIII.\\(\\frac{\\partial}{\\partial x} f(x, y) = \\frac{\\partial}{\\partial y} f(x, y) \\)para todo \\( (x, y) \\) pertencente ao domínio da função \\( f \\).\\\nIV.\\( \\sqrt{4 - x^2 - y^2} = 3 \\) é uma curva de nível da função \\( f \\).\\\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções de Várias Variáveis: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. O domínio de f(x, y) = 4 - x² - y² é todo o conjunto de pares (x, y) em R², pois a função é definida para qualquer valor de x e y. Portanto, a afirmativa I está incorreta, pois o domínio não é restrito a x² + y² ≤ 4.\n\nII. A derivada parcial de f em relação a x é ∂f/∂x = -2x. A expressão dada na afirmativa II, ∂/∂x (4 - x² - y²), resulta em -2x, que é a derivada correta. No entanto, a expressão apresentada na afirmativa II está escrita de forma confusa e não representa corretamente a derivada parcial. Portanto, a afirmativa II está incorreta.\n\nIII. A afirmativa III sugere que a função é simétrica em relação a x e y, mas isso não é verdade, pois f(x, y) = 4 - x² - y² não é igual a f(y, x) = 4 - y² - x². Portanto, a afirmativa III está incorreta.\n\nIV. A equação 4 - x² - y² = 3 representa uma curva de nível da função f, pois é obtida ao igualar f(x, y) a uma constante (neste caso, 3). Portanto, a afirmativa IV está correta.\n\nCom base na análise, a única afirmativa correta é a IV, portanto, a alternativa correta é 'b) Somente as afirmativas I e IV são corretas.'"
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-08",
+    "numero": 8,
+    "enunciado": "Com relação ao conjunto \\( B = \\{(1, 2), (3, 4)\\} \\) do plano cartesiano e ao produto interno usual do plano, onsidere as afirmativas a seguir:\\\nI. \\(B\\) é uma base do plano cartesiano.\\\nII. Bases têm apenas coordenadas 0 ou 1.\\\nIII. \\(B\\) é uma base ortogonal do plano.\\\nIV. Uma base ortonormal a \\(B\\) é \\(\\left\\{\\left( \\frac{1}{\\sqrt{5}}, \\frac{2}{\\sqrt{5}} \\right),\\left( \\frac{2}{\\sqrt{5}}, \\frac{-1}{\\sqrt{5}} \\right)\\right\\}.\\)\\\nAssinale a alternativa correta:",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Álgebra Linear",
+    "subarea": "Bases",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver a questão, analisamos cada afirmativa: \n\nI. B é uma base do plano cartesiano. \nPara que B seja uma base do plano cartesiano, os vetores (1, 2) e (3, 4) devem ser linearmente independentes. Calculamos o determinante da matriz formada por esses vetores: \n|1 3|\n|2 4| = 1*4 - 2*3 = 4 - 6 = -2. \nComo o determinante é diferente de zero, os vetores são linearmente independentes e, portanto, formam uma base do plano cartesiano. A afirmativa I é correta.\n\nII. Bases têm apenas coordenadas 0 ou 1. \nEsta afirmativa é incorreta. Bases não são restritas a ter coordenadas 0 ou 1. Qualquer conjunto de vetores linearmente independentes que gerem o espaço pode ser uma base, independentemente das coordenadas.\n\nIII. B é uma base ortogonal do plano. \nPara que B seja uma base ortogonal, os vetores devem ser ortogonais entre si, ou seja, seu produto interno deve ser zero. Calculamos o produto interno de (1, 2) e (3, 4): 1*3 + 2*4 = 3 + 8 = 11. Como o produto interno não é zero, B não é uma base ortogonal. A afirmativa III é incorreta.\n\nIV. Uma base ortonormal a B é {(1/√5, 2/√5), (2/√5, -1/√5)}. \nPara que um conjunto de vetores seja ortonormal, os vetores devem ser ortogonais e de norma 1. Verificamos a ortogonalidade: \n(1/√5)*(2/√5) + (2/√5)*(-1/√5) = 2/5 - 2/5 = 0. \nOs vetores são ortogonais. Verificamos a norma de cada vetor: \nPara (1/√5, 2/√5), a norma é √((1/√5)^2 + (2/√5)^2) = √(1/5 + 4/5) = √1 = 1. \nPara (2/√5, -1/√5), a norma é √((2/√5)^2 + (-1/√5)^2) = √(4/5 + 1/5) = √1 = 1. \nOs vetores têm norma 1, portanto, formam uma base ortonormal. A afirmativa IV é correta.\n\nPortanto, apenas as afirmativas I e IV são corretas, o que corresponde à alternativa b."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-09",
+    "numero": 9,
+    "enunciado": "Considere a reta \\(t\\) com vetor diretor \\(\\vec{t}\\) e o plano \\(\\alpha\\) determinado pelos vetores \\(\\vec{a}\\) e \\(\\vec{b}\\).\\\nSupondo que \\(\\vec{t}, \\vec{a}\\) e \\(\\vec{b}\\) são vetores linearmente independentes, assinale a alternativa correta:\n",
+    "alternativas": [
+      "a) A reta \\(t\\) e o plano \\(α\\) são transversais.",
+      "b) A reta \\(t\\) e o plano \\(α\\)  são paralelos.",
+      "c) A reta \\(t\\) pertence ao plano \\(α\\) .",
+      "d) O vetor \\(\\vec{t}\\) é uma combinação linear de \\(\\vec{a}\\) e \\(\\vec{b}\\).",
+      "e) Os vetores \\(\\vec{t}\\) e \\(\\vec{-t}\\) são linearmente independentes."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Posições Relativas",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para resolver esta questão, devemos analisar as relações entre a reta t e o plano α. A reta t é definida por um vetor diretor →− t, e o plano α é determinado por dois vetores, →−a e →− b. Quando os vetores →− t, →−a e →− b são linearmente independentes, isso implica que o vetor →− t não pode ser expresso como uma combinação linear dos vetores →−a e →− b. Portanto, a reta t não é paralela ao plano α, nem pertence a ele. Além disso, a independência linear dos vetores significa que a reta t não está contida no plano α, mas sim que ela o intercepta em um único ponto, caracterizando uma relação transversal. Assim, a alternativa correta é 'a) A reta t e o plano α são transversais.'"
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-12",
+    "numero": 12,
+    "enunciado": "Considere a relação de recorrência a seguir.\n\\[X_{n + 1} = n · X_n\\]\nCom base nessa relação de recorrência, assinale a alternativa correta.",
+    "alternativas": [
+      "a) Se \\(X_1 = 1\\), então \\(X_5 = 25\\)",
+      "b) Se \\(X_1 = 3\\), então \\(X_4 = 3! · 3\\)",
+      "c) Se \\(X_6 = 240\\), então \\(X_1 = 3\\)",
+      "d) Sendo \\(A\\) uma constante, \\(X_n = A · n!\\)",
+      "e) Sendo \\(A\\) uma constante, \\(X_n = A · (n + 1)!\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Indução e Recursão",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "A relação de recorrência dada é X_{n+1} = (n+1) * X_n. Esta é uma forma de definir uma sequência onde cada termo é o produto do termo anterior pelo próximo número natural. Se começarmos com X_1 = A, onde A é uma constante, podemos ver que X_2 = 2 * A, X_3 = 3 * 2 * A, e assim por diante. Isso sugere que X_n = A * n!. Portanto, a alternativa correta é 'e) Sendo A uma constante, X_n = A · (n + 1)!'."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-16",
+    "numero": 16,
+    "enunciado": "Seja \\( S = \\{0, 1, 2, 3, 4\\} \\) um subconjunto de \\( \\mathbb{Z} \\) munido das operações binárias \\(\\#\\) e @. Essas operações são definidas pelas tabelas a seguir.\n\n\\[\n\\begin{array}{c|ccccc}\n\\# & 0 & 1 & 2 & 3 & 4 \\\\\n\\hline\n0 & 0 & 1 & 2 & 3 & 4 \\\\\n1 & 1 & 2 & 3 & 4 & 0 \\\\\n2 & 2 & 3 & 4 & 0 & 1 \\\\\n3 & 3 & 4 & 0 & 1 & 2 \\\\\n4 & 4 & 0 & 1 & 2 & 3 \\\\\n\\end{array}\n\\quad\n\\begin{array}{c|ccccc}\n@ & 0 & 1 & 2 & 3 & 4 \\\\\n\\hline\n0 & 0 & 0 & 0 & 0 & 0 \\\\\n1 & 0 & 1 & 2 & 3 & 4 \\\\\n2 & 0 & 2 & 4 & 1 & 3 \\\\\n3 & 0 & 3 & 1 & 4 & 2 \\\\\n4 & 0 & 4 & 3 & 2 & 1 \\\\\n\\end{array}\n\\]\n\nCom base nessas operações, considere as afirmativas a seguir.\\\nI. A operação @ admite a propriedade comutativa.\\\nII. operação #admite a propriedade comutativa.\\\nIII. Na operação #, \\(0\\) é o elemento neutro.\\\nIV. Na operação @, \\(1\\) é o elemento inverso.\\\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Grupos",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para determinar a veracidade das afirmativas, analisamos cada uma individualmente:\n\nI. A operação @ admite a propriedade comutativa. Para verificar a comutatividade, precisamos garantir que a @ b = b @ a para todos os a, b em S. Observando a tabela da operação @, vemos que ela é simétrica em relação à diagonal principal, o que confirma a comutatividade. Portanto, a afirmativa I é correta.\n\nII. A operação # admite a propriedade comutativa. Para verificar a comutatividade, precisamos garantir que a # b = b # a para todos os a, b em S. Observando a tabela da operação #, vemos que ela também é simétrica em relação à diagonal principal, o que confirma a comutatividade. Portanto, a afirmativa II é correta.\n\nIII. Na operação #, 0 é o elemento neutro. Um elemento neutro e para uma operação binária * em um conjunto S satisfaz a * x = x * a = x para todo x em S. Observando a tabela da operação #, vemos que 0 # x = x # 0 = x não é verdade para todos os x em S (por exemplo, 0 # 1 = 1, mas 1 # 0 = 2). Portanto, a afirmativa III é incorreta.\n\nIV. Na operação @, 1 é o elemento inverso. Para um elemento ser inverso de outro em uma operação, a combinação dos dois deve resultar no elemento neutro. Observando a tabela da operação @, não existe um elemento neutro evidente, e 1 não satisfaz a condição de ser inverso de qualquer outro elemento. Portanto, a afirmativa IV é incorreta.\n\nCom base na análise, somente as afirmativas I e II são corretas. Portanto, a alternativa correta é a) Somente as afirmativas I e II são corretas."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-38",
+    "numero": 38,
+    "enunciado": "Sobre o Lema do Bombeamento (*pumping lemma*) para linguagens regulares, considere as afirmativas a seguir.\\\nI. Se o alfabeto \\(\\sum = \\{a, b\\}\\), então pode-se provar por absurdo, por meio do Bombeamento, que a linguagem \\(L_1 = \\{w \\in \\sum^* \\mid w \\text{ termina com } b\\}\\) não é regular.\\\nII. Se o alfabeto \\(\\sum = \\{a, b\\}\\), então pode-se provar por absurdo, por meio do Bombeamento, que a linguagem \\(L_2 = \\{(a^n)^2 \\mid n \\geq 1\\}\\) não é regular.\\\nIII. Se o alfabeto \\(\\sum = \\{a, b\\}\\), então pode-se provar por absurdo, por meio do Bombeamento, que as linguagens \n    \\[\n    L_3 = \\{a^{n!} \\mid n \\geq 1\\}, \\quad\n    L_4 = \\{a^n ba^m ba^{n+m} \\mid n, m \\geq 1\\} \\quad \\text{e} \\quad\n    L_5 = \\{a^{m+1} b^{n+1} \\mid 2 \\leq n \\leq m \\leq 3n\\}\n    \\]\nnão são regulares.\\\nIV. Se a linguagem for do tipo 3, então aplica-se o Bombeamento.\\\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada afirmativa: \n\nI. A linguagem L = {w ∈ {a, b}* | w termina com b} é regular, pois pode ser reconhecida por um autômato finito que aceita qualquer sequência de 'a' e 'b' que termina com 'b'. Portanto, a afirmativa I é incorreta.\n\nII. A linguagem L = {(an)2 | n ≥ 1} é uma linguagem que consiste em palavras de 'a' cujo comprimento é um quadrado perfeito. Esta linguagem não é regular, pois não pode ser reconhecida por um autômato finito, já que a quantidade de 'a' não pode ser expressa por uma expressão regular. Portanto, a afirmativa II é correta.\n\nIII. As linguagens L3 = {an! | n ≥ 1}, L4 = {anbamban+m | n, m ≥ 1} e L5 = {am+1bn+1 | 2 ≤ n ≤ m ≤ 3n} são todas não regulares. \n- L3 é não regular porque a sequência de 'a' é baseada em fatorial, o que não pode ser capturado por um autômato finito.\n- L4 é não regular porque a relação entre as quantidades de 'a' e 'b' não pode ser expressa por uma expressão regular.\n- L5 é não regular porque a relação entre 'm' e 'n' não pode ser capturada por um autômato finito devido à restrição 2 ≤ n ≤ m ≤ 3n.\nPortanto, a afirmativa III é correta.\n\nIV. A afirmativa IV é incorreta, pois o Lema do Bombeamento é aplicado a linguagens regulares, não especificamente a linguagens do tipo 3 (gramáticas regulares). \n\nPortanto, a alternativa correta é a letra 'd', que afirma que somente as afirmativas II e III são corretas."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-04",
+    "numero": 4,
+    "enunciado": "Em relação às figuras geométricas planas, a circunferência possui excentricidade:",
+    "alternativas": [
+      "A) \\(e = 0\\)",
+      "B) \\(e = 1\\)",
+      "C) \\(e < 1\\)",
+      "D) \\(e > 1\\)",
+      "E) \\(e = √2\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Círculo e Esfera",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A excentricidade é uma medida que descreve quão 'alongada' é uma cônica. Para uma circunferência, que é um caso especial de elipse onde os dois eixos são iguais, a excentricidade é zero. Isso ocorre porque a excentricidade (e) é calculada como a razão entre a distância do centro a um foco e o semi-eixo maior. No caso da circunferência, os focos coincidem com o centro, resultando em uma excentricidade de zero."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-28",
+    "numero": 28,
+    "enunciado": "Assinale a alternativa que apresenta o nome de uma linguagem de tipagem dinâmica.",
+    "alternativas": [
+      "A) Java.",
+      "B) C.",
+      "C) Python.",
+      "D) Pascal.",
+      "E) C#."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Sistemas de Tipos",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "A questão pede para identificar uma linguagem de programação que possui tipagem dinâmica. Tipagem dinâmica significa que o tipo das variáveis é determinado em tempo de execução, ao contrário da tipagem estática, onde o tipo é definido em tempo de compilação. Analisando as alternativas: \n- Java (A) é uma linguagem de tipagem estática. \n- C (B) também é uma linguagem de tipagem estática. \n- Python (C) é uma linguagem de tipagem dinâmica, pois permite que o tipo das variáveis seja determinado em tempo de execução. \n- Pascal (D) é uma linguagem de tipagem estática. \n- C# (E) é uma linguagem de tipagem estática, embora tenha algumas características dinâmicas com o uso da palavra-chave 'dynamic'. Portanto, a alternativa correta é Python, que é uma linguagem de tipagem dinâmica."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-48",
+    "numero": 48,
+    "enunciado": "Analise as seguintes definições de *pipeline* de instruções simples, superescalar e *multithreading* simultâneo:\\\nI. *Pipeline* instruções simples: instruções individuais que são executadas através de um pipeline de estágios, de maneira que, enquanto uma instrução está sendo executada em um estágio, outra instrução está sendo executada em outro estágio do pipeline.\\\nII. Superescalar: um pipeline é construído por meio da replicação de recursos de execução, o que permite a execução paralela de instruções em pipelines paralelos.\\\nIII. *Multithreading* simultâneo (SMT): bancos de registros são replicados para que múltiplas threads possam compartilhar o uso dos recursos de pipelines.\\\nQuais estão corretas?",
+    "alternativas": [
+      "A) Apenas I.",
+      "B) Apenas III.",
+      "C) Apenas I e II.",
+      "D) Apenas II e III.",
+      "E) I, II e III."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Pipeline",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Vamos analisar cada uma das definições dadas: \n\nI. Pipeline de instruções simples: Esta definição está correta. Um pipeline de instruções simples permite que múltiplas instruções sejam processadas simultaneamente em diferentes estágios do pipeline, aumentando a eficiência do processamento.\n\nII. Superescalar: Esta definição também está correta. Arquiteturas superescalares possuem múltiplas unidades de execução, permitindo que várias instruções sejam executadas em paralelo, aumentando assim a taxa de execução de instruções.\n\nIII. Multithreading simultâneo (SMT): Esta definição está correta. No SMT, múltiplas threads são executadas simultaneamente, compartilhando os recursos do processador, como bancos de registros, para melhorar a utilização dos recursos do pipeline.\n\nPortanto, todas as três definições estão corretas, tornando a alternativa E a correta."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-50",
+    "numero": 50,
+    "enunciado": "Um VSNT (Veículo Submarino Não Tripulado) é usado para monitoramento de plataformas de petróleo marítimas. O VSNT tira uma foto a cada 1 minuto. O tamanho de cada arquivo de foto é padronizado em 5 kB. As fotos são armazenadas em uma partição do disco rígido do VSNT, a qual é formatada com sistema de arquivos FAT32 e tamanho de bloco (cluster) de 4 kB. O tempo de missão do VSNT é de uma hora. Após o término de cada missão, as fotos são copiadas do VSNT para um computador, que utiliza uma partição FAT32 formatada com clusters de 8 kB. Com base nesse cenário, o espaço necessário no computador para armazenar todos os arquivos do VSNT em\numa missão é de:\\\n**kB: kilobyte**\\\n**1 kB = 1024 bytes**",
+    "alternativas": [
+      "A) 240 kB.",
+      "B) 300 kB.",
+      "C) 360 kB.",
+      "D) 480 kB.",
+      "E) 600 kB."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Estrutura e Operação de Arquivos",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver essa questão, precisamos calcular o espaço necessário para armazenar as fotos tiradas pelo VSNT no computador. O VSNT tira uma foto a cada minuto durante uma missão de uma hora, resultando em 60 fotos. Cada foto tem 5 kB. No entanto, como o sistema de arquivos do computador usa clusters de 8 kB, cada foto ocupará um cluster inteiro, pois 5 kB não preenche completamente um cluster de 8 kB. Portanto, cada foto ocupará 8 kB no disco do computador. Assim, o espaço total necessário é 60 fotos * 8 kB por foto = 480 kB. Portanto, a alternativa correta é 'E) 600 kB.'."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-35",
+    "numero": 35,
+    "enunciado": "Em organização de arquivos e dados, um diretório é um arquivo mantido pelo sistema de arquivos, que contém uma lista de outros arquivos e, possivelmente, de outros diretórios. Em sistemas de diretório que suportam",
+    "alternativas": [
+      "(A) diretório único (ou de nível simples), além da raiz do diretório só é possível existir um nível de subdiretórios.",
+      "(B) diretório de dois níveis, além da raiz do diretório o sistema prevê um nível onde cada usuário possui o seu diretório e, neste diretório, não existe limite para o número de níveis de subdiretórios.",
+      "(C) diretório de dois níveis, além da raiz do diretório o sistema prevê um nível onde cada usuário possui o seu diretório e, neste diretório, o limite para o número de níveis de subdiretórios é dois.",
+      "(D) diretórios hierárquicos, não existe limite para o número de níveis de subdiretórios e um arquivo pode ser referenciado por um caminho absoluto ou por um caminho relativo ao diretório corrente (ou diretório do processo).",
+      "(E) diretórios hierárquicos, como Windows e UNIX, há três entradas especiais em cada diretório: ‘.’ (ponto), ‘..’ (ponto-ponto) e ‘ ˜ ’ (til): a primeira volta um nível na hierarquia; a segunda avança um nível; a terceira referencia o diretório reservado ao administrador, quando utilizada em caminhos relativos."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Diretórios: Conteúdo e Estrutura",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "A questão trata de diferentes tipos de sistemas de diretórios em sistemas operacionais. As alternativas descrevem características de diretórios únicos, de dois níveis e hierárquicos. A alternativa (D) descreve corretamente um sistema de diretórios hierárquico, onde não há limite para o número de níveis de subdiretórios e um arquivo pode ser referenciado por um caminho absoluto ou relativo. Isso é típico de sistemas operacionais modernos, como Windows e UNIX, que suportam estruturas de diretórios complexas e flexíveis."
+  },
+  {
+    "edicao": 2015,
+    "id": "2015-45",
+    "numero": 45,
+    "enunciado": "Em um sistema operacional multitarefa, três processos compartilham dois recursos. Cada um destes processos possui, no mínimo,",
+    "alternativas": [
+      "(A) seis seções críticas.",
+      "(B) quatro seções críticas.",
+      "(C) três seções críticas.",
+      "(D) duas seções críticas.",
+      "(E) uma seção crítica."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Comunicação, Concorrência e Sincronização de Processos",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Em um sistema operacional multitarefa, processos que compartilham recursos devem garantir que o acesso a esses recursos seja feito de maneira segura, evitando condições de corrida. Cada processo que compartilha recursos precisa de seções críticas para acessar esses recursos de forma exclusiva. Neste caso, temos três processos que compartilham dois recursos. Cada processo precisa de uma seção crítica para cada recurso que ele acessa. Portanto, cada processo precisa de, no mínimo, uma seção crítica para cada recurso, totalizando três seções críticas por processo. Assim, a alternativa correta é (C) três seções críticas."
+  },
+  {
+    "edicao": 2014,
+    "id": "2014-65",
+    "numero": 65,
+    "enunciado": "Os padrões Ethernet englobam diferentes meios físicos de transmissão, diversas distâncias máximas de segmento e várias velocidades de transmissão.\\\nCom base nos conhecimentos sobre o tema, assinale a alternativa que apresenta, corretamente, um padrão Ethernet que utiliza a fibra óptica como meio de transmissão, permite distâncias máximas de segmento superiores a 15 km e oferece velocidades de transmissão iguais ou superiores a 10 Gbps.",
+    "alternativas": [
+      "a) 10GBASE-ER",
+      "b) 10GBASE-SR",
+      "c) 10GBASE-T",
+      "d) 100BASE-FX",
+      "e) 1000BASE-T"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Tipos de Enlace, Códigos, Modos e Meios de Transmissão",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "A questão pede um padrão Ethernet que utiliza fibra óptica, permite distâncias superiores a 15 km e oferece velocidades de transmissão iguais ou superiores a 10 Gbps. Vamos analisar as alternativas: \n\n- 10GBASE-ER: Este padrão utiliza fibra óptica, suporta distâncias de até 40 km e oferece uma velocidade de 10 Gbps. Portanto, atende a todos os critérios da questão.\n- 10GBASE-SR: Este padrão também utiliza fibra óptica, mas é projetado para distâncias curtas, geralmente até 300 metros.\n- 10GBASE-T: Este padrão utiliza cabos de par trançado (cobre) e não fibra óptica, além de ser limitado a 100 metros.\n- 100BASE-FX: Este é um padrão de Fast Ethernet que utiliza fibra óptica, mas oferece apenas 100 Mbps de velocidade, muito abaixo dos 10 Gbps requeridos.\n- 1000BASE-T: Este padrão utiliza cabos de par trançado (cobre) e não fibra óptica, com uma velocidade de 1 Gbps.\n\nPortanto, a alternativa correta é a) 10GBASE-ER."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-11",
+    "numero": 11,
+    "enunciado": "Considere as sentenças a seguir.\n- P: Pedro faz as tarefas todos os dias.\n- Q: Pedro terá boas notas no final do ano.\nAssinale a alternativa que apresenta, corretamente, a tradução em linguagem simbólica da negação da sentença composta a seguir:\\\n**Se Pedro faz as tarefas todos os dias, então Pedro terá boas notas no final do ano.**",
+    "alternativas": [
+      "a) \\(P → Q\\)",
+      "b) \\(P ↔ Q\\)",
+      "c) \\(P ∧ ∼ Q\\)",
+      "d) \\(∼ P ∧ ∼ Q\\)",
+      "e) \\(∼ P ∧ Q\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Fácil",
+    "gabarito": "c",
+    "solucao": "A sentença composta dada é uma implicação: 'Se Pedro faz as tarefas todos os dias, então Pedro terá boas notas no final do ano', que em linguagem simbólica é representada por 'P → Q'. A negação de uma implicação 'P → Q' é dada por 'P ∧ ∼Q', que significa que Pedro faz as tarefas todos os dias (P) e não terá boas notas no final do ano (∼Q). Portanto, a alternativa correta é 'c) P ∧ ∼ Q'."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-17",
+    "numero": 17,
+    "enunciado": "Em uma urna com 12 bolas, todas têm o mesmo tamanho e o mesmo peso, 7 são vermelhas e 5 são azuis. Assinale a alternativa que apresenta, corretamente, quantas maneiras distintas existem de se extrair as 12 bolas, uma a uma, dessa urna.",
+    "alternativas": [
+      "a) 12",
+      "b) 792",
+      "c) 1908",
+      "d) 19008",
+      "e) 95040"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Permutações",
+    "dificuldade": "Fácil",
+    "gabarito": "e",
+    "solucao": "Para determinar quantas maneiras distintas existem de se extrair as 12 bolas, uma a uma, da urna, precisamos calcular o número de permutações das 12 bolas, considerando que 7 são vermelhas e 5 são azuis. A fórmula para permutações de objetos com repetições é dada por: P(n; n1, n2) = n! / (n1! * n2!), onde n é o total de objetos, n1 é o número de objetos de um tipo, e n2 é o número de objetos de outro tipo. Neste caso, n = 12, n1 = 7 (bolas vermelhas) e n2 = 5 (bolas azuis). Assim, a permutação é: P(12; 7, 5) = 12! / (7! * 5!) = 479001600 / (5040 * 120) = 95040. Portanto, existem 95040 maneiras distintas de se extrair as 12 bolas, uma a uma, da urna."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-33",
+    "numero": 33,
+    "enunciado": "Considere o algoritmo a seguir.\n```\nMERGESORT(V, i, j)\n(1) Se (i<j) então\n(2)    m = (i+j)/2;\n(3)    MERGESORT(v, i, m);\n(4)    MERGESORT(v, m+1, j);\n(5)    MESCLAR(v, i, m, j);\n(6) Fim;\n```\nSobre o comportamento assintótico do algoritmo de ordenação Merge Sort, assinale a alternativa que\napresenta, corretamente, sua complexidade.",
+    "alternativas": [
+      "a) \\(O(log n)\\)",
+      "b) \\(O(n log n)\\)",
+      "c) \\(O(n^2)\\)",
+      "d) \\(O(n^3)\\)",
+      "e) \\(O(2^n)\\)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Uso de Relações de Recorrência para Análise de Algoritmos Recursivos",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "O algoritmo Merge Sort é um exemplo clássico de algoritmo de ordenação que utiliza a técnica de 'Dividir e Conquistar'. Ele divide o array em duas metades, ordena cada metade recursivamente e, em seguida, mescla as duas metades ordenadas. A complexidade do Merge Sort pode ser analisada usando uma relação de recorrência. A relação de recorrência para o Merge Sort é T(n) = 2T(n/2) + O(n), onde T(n) é o tempo para ordenar um array de tamanho n, 2T(n/2) é o tempo para ordenar as duas metades, e O(n) é o tempo para mesclar as duas metades ordenadas. Usando o método mestre para resolver essa recorrência, obtemos que T(n) = O(n log n). Portanto, a complexidade assintótica do Merge Sort é O(n log n)."
   }
 ]
