@@ -40,12 +40,12 @@ def analisar_ano(ano: int, questoes: List[Dict], final_data: List[Dict], skip_da
     # print(f" - Em final.json: {len(final_ids)}")
     # print(f" - Em skip.json: {len(skip_ids)}")
 
-#   if ids_faltando:
-#        print(f"IDs faltando ({len(ids_faltando)}): {', '.join(ids_faltando)}")
-#    else:
-#        print("Nenhum ID faltando.")
-#
-#    if duplicados:
+    # if ids_faltando:
+    #    print(f"IDs faltando ({len(ids_faltando)}): {', '.join(ids_faltando)}")
+    # else:
+    #    print("Nenhum ID faltando.")
+
+    # if duplicados:
     #     print(f"IDs duplicados ({len(duplicados)}):")
     #     for id_ in sorted(duplicados, key=lambda x: int(x.split('-')[1])):
     #         origens = ', '.join(sorted(origem_duplicados[id_]))
@@ -64,9 +64,10 @@ def main():
     print(f"Total de questões: {len(todos_dados)}")
 
     dados_por_ano = agrupar_por_edicao(todos_dados)
-    for ano in range(2013, 2018):
-        questoes_ano = dados_por_ano.get(ano, [])
-        analisar_ano(ano, questoes_ano, final_data, skip_data)
+    for ano in range(2013, 2025):
+        if ano != 2020 and ano != 2021:
+            questoes_ano = dados_por_ano.get(ano, [])
+            analisar_ano(ano, questoes_ano, final_data, skip_data)
 
 if __name__ == "__main__":
     main()

@@ -7,5 +7,8 @@ def sort_json_by_id(path):
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-sort_json_by_id('final.json')
-sort_json_by_id('skip.json')
+
+paths = ['big-fixes.json', 'final.json', 'ok.json', 'pending.json', 'poscomp-questions-first-version.json', 'skip.json', 'small-fixes.json']
+
+for p in paths:
+    sort_json_by_id(p)
