@@ -18,7 +18,7 @@ def agrupar_por_edicao(dados: List[Dict]) -> Dict[int, List[Dict]]:
     return agrupados
 
 def analisar_ano(ano: int, questoes: List[Dict], final_data: List[Dict], skip_data: List[Dict]) -> None:
-    print(f"\n=== {ano} ===")
+    # print(f"\n=== {ano} ===")
 
     id_checagem = {f"{ano}-{i:02}" for i in range(1, 71)}
     ids_todos = [item['id'] for item in questoes if 'id' in item]
@@ -36,29 +36,29 @@ def analisar_ano(ano: int, questoes: List[Dict], final_data: List[Dict], skip_da
         if id_ in duplicados:
             origem_duplicados[id_].add(item['origem'])
 
-    print(f"Total de questões do ano: {len(questoes)}")
-    print(f" - Em final.json: {len(final_ids)}")
-    print(f" - Em skip.json: {len(skip_ids)}")
+    # print(f"Total de questões do ano: {len(questoes)}")
+    # print(f" - Em final.json: {len(final_ids)}")
+    # print(f" - Em skip.json: {len(skip_ids)}")
 
-    if ids_faltando:
-        print(f"IDs faltando ({len(ids_faltando)}): {', '.join(ids_faltando)}")
-    else:
-        print("Nenhum ID faltando.")
-
-    if duplicados:
-        print(f"IDs duplicados ({len(duplicados)}):")
-        for id_ in sorted(duplicados, key=lambda x: int(x.split('-')[1])):
-            origens = ', '.join(sorted(origem_duplicados[id_]))
-            print(f" - {id_} (origem: {origens})")
-    else:
-        print("Nenhum ID duplicado.")
+#   if ids_faltando:
+#        print(f"IDs faltando ({len(ids_faltando)}): {', '.join(ids_faltando)}")
+#    else:
+#        print("Nenhum ID faltando.")
+#
+#    if duplicados:
+    #     print(f"IDs duplicados ({len(duplicados)}):")
+    #     for id_ in sorted(duplicados, key=lambda x: int(x.split('-')[1])):
+    #         origens = ', '.join(sorted(origem_duplicados[id_]))
+    #         print(f" - {id_} (origem: {origens})")
+    # else:
+    #     print("Nenhum ID duplicado.")
 
 def main():
     final_data = carregar_dados('final.json', 'final')
     skip_data = carregar_dados('skip.json', 'skip')
     todos_dados = final_data + skip_data
 
-    print("\n=== RESUMO GERAL ===")
+    print("\n=== RESUMO ===")
     print(f"Total de questões validadas: {len(final_data)}")
     print(f"Total de questões skipadas (Tabelas e Imagens): {len(skip_data)}")
     print(f"Total de questões: {len(todos_dados)}")
