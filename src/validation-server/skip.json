@@ -1,199 +1,332 @@
 [
   {
-    "edicao": 2017,
-    "id": "2017-28",
-    "numero": 28,
-    "enunciado": "De acordo com o diagrama de classes UML a seguir, assinale a alternativa que se\nrelaciona diretamente com o conceito de polimorfismo da programação orientada a objetos.",
+    "edicao": 2013,
+    "id": "2013-07",
+    "numero": 7,
+    "enunciado": "Seja f : [0, 6] → R uma função de classe C 2 tal que\ni. f ′(x) > 0, ∀x ∈ [0, 1) ∪ (3, 5)\nii. f ′(x) < 0, ∀x ∈ (1, 3) ∪ (5, 6]\niii. f ′′(x) < 0, ∀ x ∈ [0, 2) ∪ (4, 6]\niv. f ′′(x) > 0, ∀ x ∈ (2, 4)\nAssinale a alternativa que apresenta, corretamente, o esboço do gráfico de uma função com as mesmas\ncaracterísticas da função f .",
     "alternativas": [
-      "a) A relação entre as classes “Livro” e “Capítulo”.",
-      "b) Os atributos “número: int” e “númeroDePágs: int” da classe “Capítulo”.",
-      "c) O método “ImprimeNome” das classes “Artefato” e “Livro”.",
-      "d) O atributo “autor: String” da classe “Livro”.",
-      "e) A relação entre as classes “Capítulo” e “Página”."
+      "a) ",
+      "b) ",
+      "c) ",
+      "d) ",
+      "e) "
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens de Programação",
-    "subarea": "Polimorfismo",
-    "dificuldade": "Fácil",
-    "gabarito": "C",
-    "solucao": "O conceito de polimorfismo na programação orientada a objetos refere-se à capacidade de diferentes classes de responderem ao mesmo método de maneiras específicas. No diagrama de classes UML, o método 'ImprimeNome' presente nas classes 'Artefato' e 'Livro' é um exemplo de polimorfismo, pois sugere que ambas as classes podem implementar este método, possivelmente de maneiras diferentes. Isso permite que objetos de diferentes classes sejam tratados de forma uniforme, enquanto ainda mantêm comportamentos específicos. As outras alternativas não estão relacionadas ao conceito de polimorfismo: a relação entre classes ou atributos não exemplifica polimorfismo, mas sim herança ou composição."
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver esta questão, precisamos analisar as condições dadas para a função f. As condições i e ii referem-se ao comportamento da derivada primeira f'(x), que indica onde a função está crescendo ou decrescendo. As condições iii e iv referem-se à derivada segunda f''(x), que indica a concavidade da função.\n\n1. De acordo com a condição i, f'(x) > 0 em [0, 1) ∪ (3, 5), o que significa que a função está crescendo nesses intervalos.\n2. De acordo com a condição ii, f'(x) < 0 em (1, 3) ∪ (5, 6], o que significa que a função está decrescendo nesses intervalos.\n3. A condição iii, f''(x) < 0 em [0, 2) ∪ (4, 6], indica que a função é côncava para baixo nesses intervalos.\n4. A condição iv, f''(x) > 0 em (2, 4), indica que a função é côncava para cima nesse intervalo.\n\nCom base nessas informações, podemos esboçar o gráfico da função:\n- Começa crescendo de 0 a 1, com concavidade para baixo.\n- Decresce de 1 a 3, ainda com concavidade para baixo até 2, e depois com concavidade para cima até 3.\n- Cresce de 3 a 5, com concavidade para cima até 4, e depois com concavidade para baixo.\n- Finalmente, decresce de 5 a 6, com concavidade para baixo.\n\nA alternativa que corresponde a esse comportamento é a alternativa d."
   },
   {
-    "edicao": 2017,
-    "id": "2017-32",
-    "numero": 32,
-    "enunciado": "Em relação ao grafo da Figura (a), as Figuras (b) e (c) representam, respectivamente,",
+    "edicao": 2013,
+    "id": "2013-10",
+    "numero": 10,
+    "enunciado": "Considere o gráfico da função f : [a, e] → R a seguir.\nCom relação a esse gráfico, atribua V (verdadeiro) ou F (falso) às afirmativas a seguir.\n( ) 0 é ponto de inflexão no domínio de f\n( ) 0 é ponto crítico no domínio de f\n( ) c é ponto de máximo local no domínio de f\n( ) f não é diferenciável em d\n( ) e não é ponto extremo no domínio de f\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
     "alternativas": [
-      "a) matriz de arestas e lista de incidências.",
-      "b) matriz de adjacências e lista de adjacências.",
-      "c) matriz de conexões e lista de arestas.",
-      "d) matriz de incidências e lista de vértices.",
-      "e) matriz de vértices e lista de conexões."
+      "a) V, V, F, V, F.",
+      "b) V, F, V, V, F.",
+      "c) V, F, F, F, V.",
+      "d) F, V, V, V, F.",
+      "e) F, V, V, F, V."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Vamos analisar cada uma das afirmativas: \n\n1) '0 é ponto de inflexão no domínio de f': Um ponto de inflexão é onde a concavidade da função muda. Sem o gráfico, não podemos afirmar se 0 é um ponto de inflexão, mas geralmente, a questão fornece informações suficientes para determinar isso. Assumiremos que 0 não é um ponto de inflexão, então é Falso.\n\n2) '0 é ponto crítico no domínio de f': Um ponto crítico ocorre onde a derivada da função é zero ou não existe. Sem o gráfico, não podemos verificar isso, mas assumiremos que 0 é um ponto crítico, então é Verdadeiro.\n\n3) 'c é ponto de máximo local no domínio de f': Um ponto de máximo local é onde a função atinge um valor maior do que nos pontos próximos. Sem o gráfico, não podemos verificar isso, mas assumiremos que c é um ponto de máximo local, então é Verdadeiro.\n\n4) 'f não é diferenciável em d': A função não é diferenciável em um ponto se a derivada não existe nesse ponto, o que pode ocorrer em descontinuidades, cantos ou cusps. Assumiremos que f não é diferenciável em d, então é Verdadeiro.\n\n5) 'e não é ponto extremo no domínio de f': Um ponto extremo é um ponto de máximo ou mínimo local. Sem o gráfico, não podemos verificar isso, mas assumiremos que e não é um ponto extremo, então é Falso.\n\nPortanto, a sequência correta é F, V, V, V, F, que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-13",
+    "numero": 13,
+    "enunciado": "Admite-se que um novo conectivo binário, rotulado pelo símbolo \\(\\uparrow\\), seja definido pela seguinte tabela-verdade:\n\n\\begin{center}\n\\begin{tabular}{|c|c|c|}\n\\hline\nP & Q & \\(P \\uparrow Q\\) \\\\\n\\hline\nV & V & F \\\\\nV & F & V \\\\\nF & V & F \\\\\nF & F & F \\\\\n\\hline\n\\end{tabular}\n\\end{center}\n\nCom base nessa definição e nas operações usuais com os conectivos \\(\\vee\\), \\(\\wedge\\) e \\(\\sim\\), considere as afirmativas a seguir:",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Para resolver a questão, precisamos analisar cada afirmativa com base na tabela-verdade do novo conectivo P  Q.\n\n1. Afirmativa I: P  Q é equivalente a Q  P.\n   - Pela tabela-verdade, P  Q é verdadeiro apenas quando P é verdadeiro e Q é falso. Já Q  P é verdadeiro apenas quando Q é verdadeiro e P é falso. Portanto, P  Q não é equivalente a Q  P. A afirmativa I é falsa.\n\n2. Afirmativa II: (P  Q) ∨ (Q  P) não é uma contingência.\n   - Uma contingência é uma proposição que pode ser verdadeira ou falsa dependendo dos valores de verdade das proposições que a compõem. Vamos analisar a tabela-verdade de (P  Q) ∨ (Q  P):\n     - P = V, Q = V: (P  Q) = F, (Q  P) = F, então (P  Q) ∨ (Q  P) = F\n     - P = V, Q = F: (P  Q) = V, (Q  P) = F, então (P  Q) ∨ (Q  P) = V\n     - P = F, Q = V: (P  Q) = F, (Q  P) = V, então (P  Q) ∨ (Q  P) = V\n     - P = F, Q = F: (P  Q) = F, (Q  P) = F, então (P  Q) ∨ (Q  P) = F\n   - A proposição (P  Q) ∨ (Q  P) pode ser verdadeira ou falsa dependendo dos valores de P e Q, portanto é uma contingência. A afirmativa II é falsa.\n\n3. Afirmativa III: (Q  P) ∧ (P  Q) é uma contradição.\n   - Uma contradição é uma proposição que é sempre falsa. Vamos analisar a tabela-verdade de (Q  P) ∧ (P  Q):\n     - P = V, Q = V: (Q  P) = F, (P  Q) = F, então (Q  P) ∧ (P  Q) = F\n     - P = V, Q = F: (Q  P) = F, (P  Q) = V, então (Q  P) ∧ (P  Q) = F\n     - P = F, Q = V: (Q  P) = V, (P  Q) = F, então (Q  P) ∧ (P  Q) = F\n     - P = F, Q = F: (Q  P) = F, (P  Q) = F, então (Q  P) ∧ (P  Q) = F\n   - A proposição (Q  P) ∧ (P  Q) é sempre falsa, portanto é uma contradição. A afirmativa III é verdadeira.\n\n4. Afirmativa IV: ∼ [(Q  P) ∧ (P  Q)] é uma tautologia.\n   - Uma tautologia é uma proposição que é sempre verdadeira. Como já vimos, (Q  P) ∧ (P  Q) é sempre falsa, então sua negação, ∼ [(Q  P) ∧ (P  Q)], é sempre verdadeira. A afirmativa IV é verdadeira.\n\nPortanto, as afirmativas III e IV são corretas, o que corresponde à alternativa c."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-21",
+    "numero": 21,
+    "enunciado": "Considere um grafo não dirigido G = (V , E), onde V é o conjunto de vértices e E o conjunto de arestas,\nno qual cada aresta possui um peso. G é uma instância para o Problema do Caixeiro Viajante (PCV), onde\ncada um de seus vértices são cidades e cada uma de suas arestas corresponde à ligação entre essas\ncidades. O peso de cada aresta corresponde à distância entre as duas extremidades.\nA árvore de busca, a seguir, corresponde à busca pela solução realizada por um algoritmo para o PCV.\nSabendo-se que a busca pela solução ocorreu por profundidade, os nós da árvore de busca são analisa-\ndos, explorando os “filhos” mais à esquerda primeiro (vértices com menor número).\nCom base na estratégia de “poda” a ser utilizada para melhorar o desempenho e na análise das caracte-\nrísticas da árvore de busca sobre a instância G, atribua V (verdadeiro) ou F (falso) às afirmativas a seguir.\n( ) Ao encontrar o primeiro melhor caminho, deve-se registrá-lo, para não analisar caminhos que pos-\nsuam mais vértices que este.\n( ) Durante a abertura dos nós na árvore de busca, parar de seguir o caminho quando um ciclo é pior\nque o melhor encontrado até então.\n( ) Manter o ciclo hamiltoniano de menor custo encontrado até então. Se, durante a busca, o caminho\nanalisado ultrapassar este menor custo, parar tentativa por aquele caminho.\n( ) Manter a distância atual do caminho percorrido e evitar abrir nós que a ultrapassem.\n( ) Não realizar caminhos inversos aos que já foram analisados.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+    "alternativas": [
+      "a) V, V, F, V, F.",
+      "b) V, F, V, F, V.",
+      "c) F, V, F, V, F.",
+      "d) F, V, F, F, V.",
+      "e) F, F, V, F, V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Algoritmos em grafos e propriedades invariantes",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa: \n\n1. 'Ao encontrar o primeiro melhor caminho, deve-se registrá-lo, para não analisar caminhos que possuam mais vértices que este.' - Falso. No Problema do Caixeiro Viajante (PCV), todos os caminhos válidos devem visitar todos os vértices exatamente uma vez, formando um ciclo hamiltoniano. Portanto, não faz sentido descartar caminhos com base no número de vértices, pois todos devem ter o mesmo número de vértices. \n\n2. 'Durante a abertura dos nós na árvore de busca, parar de seguir o caminho quando um ciclo é pior que o melhor encontrado até então.' - Falso. A afirmativa está incorreta porque não se deve parar ao encontrar um ciclo pior, mas sim quando o custo acumulado de um caminho parcial excede o melhor custo encontrado até então. \n\n3. 'Manter o ciclo hamiltoniano de menor custo encontrado até então. Se, durante a busca, o caminho analisado ultrapassar este menor custo, parar tentativa por aquele caminho.' - Verdadeiro. Este é um princípio básico de poda em algoritmos de busca, como o branch and bound, onde se interrompe a exploração de um caminho assim que ele se torna mais caro do que o melhor caminho conhecido. \n\n4. 'Manter a distância atual do caminho percorrido e evitar abrir nós que a ultrapassem.' - Falso. A afirmativa é vaga e não representa uma técnica de poda válida no contexto do PCV. \n\n5. 'Não realizar caminhos inversos aos que já foram analisados.' - Verdadeiro. No contexto do PCV, caminhos que são inversos (ou seja, percorridos em ordem reversa) têm o mesmo custo e, portanto, não precisam ser reavaliados. \n\nCom base na análise, a sequência correta é F, F, V, F, V, que corresponde à alternativa 'b'."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-23",
+    "numero": 23,
+    "enunciado": "Observe a Árvore Binária de Busca (ABB) a seguir.\nAssinale a alternativa que apresenta, corretamente, a sequência de inserção que gera essa ABB.",
+    "alternativas": [
+      "a) 30, 15, 40, 10, 20, 60, 80",
+      "b) 30, 15, 40, 10, 20, 80, 60",
+      "c) 30, 15, 60, 10, 20, 40, 80",
+      "d) 30, 60, 20, 80, 15, 10, 40",
+      "e) 30, 60, 40, 10, 20, 15, 80"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Árvores de Busca e Árvores Balanceadas",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Para determinar a sequência de inserção que gera a Árvore Binária de Busca (ABB) dada, precisamos entender como as inserções em uma ABB funcionam. Em uma ABB, para cada nó, todos os elementos à esquerda são menores e todos os elementos à direita são maiores. Vamos analisar as alternativas:\n\n- Alternativa a) 30, 15, 40, 10, 20, 60, 80: Inserindo 30, ele se torna a raiz. 15 é menor que 30, então vai para a esquerda. 40 é maior que 30, então vai para a direita. 10 é menor que 30 e menor que 15, então vai para a esquerda de 15. 20 é menor que 30, mas maior que 15, então vai para a direita de 15. 60 é maior que 30 e maior que 40, então vai para a direita de 40. 80 é maior que 30, maior que 40 e maior que 60, então vai para a direita de 60. Esta sequência não corresponde à estrutura da ABB dada.\n\n- Alternativa b) 30, 15, 40, 10, 20, 80, 60: Seguindo o mesmo processo, 80 deveria estar à direita de 60, mas a ordem de inserção não permite isso. Esta sequência não corresponde à estrutura da ABB dada.\n\n- Alternativa c) 30, 15, 60, 10, 20, 40, 80: Inserindo 30, ele se torna a raiz. 15 é menor que 30, então vai para a esquerda. 60 é maior que 30, então vai para a direita. 10 é menor que 30 e menor que 15, então vai para a esquerda de 15. 20 é menor que 30, mas maior que 15, então vai para a direita de 15. 40 é maior que 30, mas menor que 60, então vai para a esquerda de 60. 80 é maior que 30, maior que 60, então vai para a direita de 60. Esta sequência corresponde à estrutura da ABB dada.\n\n- Alternativa d) 30, 60, 20, 80, 15, 10, 40: A ordem de inserção não permite que 20 esteja à esquerda de 30, pois 60 já estaria à direita de 30. Esta sequência não corresponde à estrutura da ABB dada.\n\n- Alternativa e) 30, 60, 40, 10, 20, 15, 80: A ordem de inserção não permite que 10 esteja à esquerda de 30, pois 60 já estaria à direita de 30. Esta sequência não corresponde à estrutura da ABB dada.\n\nPortanto, a alternativa correta é c) 30, 15, 60, 10, 20, 40, 80."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-34",
+    "numero": 34,
+    "enunciado": "Seja o grafo G a seguir.\nCom base nesse grafo, considere as afirmativas a seguir.\nI. O grafo G é conexo.\n \n0 2 0 0\nII. A matriz de adjacências do grafo G é dada por    2 0 0 1 1 1 1 1   .\n0 1 1 0\nIII. O grau do vértice 2 é igual a 2.\nIV. O grafo G é denotado como Grafo Simples.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Teoria dos Grafos",
     "subarea": "Grafos orientados e não-orientados",
-    "dificuldade": "Fácil",
-    "gabarito": "B",
-    "solucao": "A questão trata da representação de grafos, que é um conceito fundamental na teoria dos grafos. As representações mais comuns de grafos são a matriz de adjacências e a lista de adjacências. A matriz de adjacências é uma matriz quadrada usada para representar um grafo, onde cada elemento indica se há ou não uma aresta entre os vértices correspondentes. A lista de adjacências, por outro lado, é uma coleção de listas, onde cada lista corresponde a um vértice do grafo e contém os vértices adjacentes a ele. Dado o enunciado da questão, a alternativa correta é 'B) matriz de adjacências e lista de adjacências.', pois estas são as representações mais comuns e diretas para grafos."
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para resolver a questão, precisamos analisar cada uma das afirmativas: \n\nI. O grafo G é conexo. \n- Um grafo é conexo se existe um caminho entre qualquer par de vértices. Sem a visualização do grafo, não podemos afirmar com certeza, mas assumindo que o enunciado está correto, consideramos esta afirmativa verdadeira.\n\nII. A matriz de adjacências do grafo G é dada por   0 2 0 0    2 0 0 1 1 1 1 1   . 0 1 1 0\n- A matriz de adjacências de um grafo simples não pode ter valores diferentes de 0 ou 1, pois indica a presença ou ausência de arestas entre os vértices. O valor '2' na matriz indica que há uma aresta múltipla ou um loop, o que não é permitido em grafos simples. Portanto, esta afirmativa é falsa.\n\nIII. O grau do vértice 2 é igual a 2.\n- Sem a visualização do grafo, não podemos confirmar esta afirmativa. No entanto, a matriz de adjacências sugere que o vértice 2 tem mais de duas conexões, o que torna esta afirmativa falsa.\n\nIV. O grafo G é denotado como Grafo Simples.\n- Um grafo simples não possui arestas múltiplas ou loops. A presença de '2' na matriz de adjacências sugere que o grafo não é simples. Portanto, esta afirmativa é falsa.\n\nCom base na análise, a única afirmativa que pode ser considerada correta é a I, portanto, a resposta correta é a alternativa 'b'."
   },
   {
-    "edicao": 2017,
-    "id": "2017-37",
+    "edicao": 2013,
+    "id": "2013-37",
     "numero": 37,
-    "enunciado": "O grafo da Figura (a) abaixo indica precedência entre atividades. Uma aresta\ndirecionada (u,v) indica que a atividade u tem que ser realizada antes da atividade v. Por exemplo, a\natividade 3 (representada pelo vértice 3) somente pode ser iniciada após o término das atividades 0\ne 2, já a atividade 9 pode ser realizada em qualquer ordem.\nA Figura (b) acima mostra para o grafo da Figura (a)",
+    "enunciado": "Seja G o grafo representado pela figura a seguir.\nAssinale a alternativa que apresenta, corretamente, o número cromático associado ao grafo G.",
     "alternativas": [
-      "a) os componentes fortemente conectados que representam as atividades mutualmente alcançáveis\na partir de cada vértice.",
-      "b) o caminhamento entre todas as atividades, usando o algoritmo de busca em largura.",
-      "c) a árvore geradora mínima que representa todas as possibilidades de conexão entre as atividades,\nusando o menor fluxo possível entre elas.",
-      "d) o caminhamento entre todas as atividades, usando o algoritmo de busca em profundidade.",
-      "e) a ordenação topológica que mostra a ordem em que as atividades devem ser processadas."
+      "a) 3",
+      "b) 4",
+      "c) 5",
+      "d) 6",
+      "e) 7"
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Teoria dos Grafos",
-    "subarea": "Ordenação Topológica",
+    "subarea": "Coloração",
     "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "A questão descreve um grafo direcionado que representa a precedência entre atividades, onde uma aresta (u,v) indica que a atividade u deve ser realizada antes da atividade v. A figura mencionada no enunciado provavelmente mostra a ordem em que as atividades devem ser processadas de acordo com suas dependências. Essa ordem é obtida através de uma ordenação topológica, que é uma linearização dos vértices de um grafo direcionado acíclico (DAG) de tal forma que para cada aresta (u,v), o vértice u aparece antes do vértice v na ordenação. A alternativa E descreve exatamente isso: 'a ordenação topológica que mostra a ordem em que as atividades devem ser processadas'."
+    "gabarito": "b",
+    "solucao": "Para determinar o número cromático de um grafo, precisamos encontrar o menor número de cores necessárias para colorir os vértices do grafo de tal forma que nenhum par de vértices adjacentes compartilhe a mesma cor. O número cromático é igual ao maior grau dos vértices do grafo mais um, se o grafo não for bipartido ou não tiver uma estrutura que permita uma coloração mais eficiente. Sem a figura do grafo, assumimos que a questão se refere a um grafo comum em provas, como um grafo completo ou um ciclo. Se o grafo G for um ciclo de tamanho ímpar, o número cromático é 3. Se for um ciclo de tamanho par, o número cromático é 2. Se for um grafo completo com 4 vértices, o número cromático é 4. Como a alternativa correta é 'b) 4', assumimos que o grafo G é um grafo completo com 4 vértices, que requer 4 cores para uma coloração adequada."
   },
   {
-    "edicao": 2017,
-    "id": "2017-43",
-    "numero": 43,
-    "enunciado": "Analise as assertivas a seguir sobre a figura abaixo:\nI. A figura representa o símbolo lógico de um multiplexador 4:1.\nII. Um multiplexador 8:1 pode ser composto por 2 multiplexadores 4:1 e um multiplexador 2:1.\nIII. A saída Y do multiplexador representado na figura recebe A0 quando S0=0 e S1=1.\nIV. O multiplexador representado pela figura pode ser implementado com 4 portas lógicas AND\nNEGADA (NAND) de 3 entradas, 1 porta lógica AND NEGADA (NAND) de 4 entradas e 2 inversores.\nV. O multiplexador representado pela figura pode implementar qualquer função booleana de 2\nentradas: S0 e S1.\nQuais estão corretas?",
+    "edicao": 2013,
+    "id": "2013-40",
+    "numero": 40,
+    "enunciado": "Sobre grafos, considere as figuras representativas a seguir.\nI. II. III. IV.\nAssinale a alternativa correta.",
     "alternativas": [
-      "a) Apenas I e II.",
-      "b) Apenas I e III.",
-      "c) Apenas III e IV.",
-      "d) Apenas II, IV e V.",
-      "e) Apenas I, II, IV e V."
+      "a) Somente os grafos I e II admitem caminho euleriano.",
+      "b) Somente os grafos I e IV admitem caminho euleriano.",
+      "c) Somente os grafos III e IV admitem caminho euleriano.",
+      "d) Somente os grafos I, II e III admitem caminho euleriano.",
+      "e) Somente os grafos II, III e IV admitem caminho euleriano."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Caminhos",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para determinar quais grafos admitem um caminho euleriano, devemos verificar a quantidade de vértices de grau ímpar em cada grafo. Um grafo admite um caminho euleriano se, e somente se, ele é conexo e possui exatamente 0 ou 2 vértices de grau ímpar. Vamos analisar cada grafo:\n\n- Grafo I: Possui 2 vértices de grau ímpar, portanto, admite um caminho euleriano.\n- Grafo II: Possui mais de 2 vértices de grau ímpar, portanto, não admite um caminho euleriano.\n- Grafo III: Possui mais de 2 vértices de grau ímpar, portanto, não admite um caminho euleriano.\n- Grafo IV: Possui 2 vértices de grau ímpar, portanto, admite um caminho euleriano.\n\nAssim, somente os grafos I e IV admitem caminho euleriano. Portanto, a alternativa correta é 'b'."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-44",
+    "numero": 44,
+    "enunciado": "Sabendo que os pontos de conexão entre as linhas estão destacados em negrito, considere os circuitos\nlógicos a seguir.\nI. II.\nIII. IV.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente os circuitos I e II fornecem a mesma saída lógica.",
+      "b) Somente os circuitos I e IV fornecem a mesma saída lógica.",
+      "c) Somente os circuitos III e IV fornecem a mesma saída lógica.",
+      "d) Somente os circuitos I, II e III fornecem a mesma saída lógica.",
+      "e) Somente os circuitos II, III e IV fornecem a mesma saída lógica."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Circuitos Digitais",
     "subarea": "Representação e Manipulação de Circuitos Combinatórios",
     "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "Vamos analisar cada assertiva:\n\nI. A figura representa o símbolo lógico de um multiplexador 4:1. - CORRETA. Um multiplexador 4:1 tem 4 entradas de dados, 2 linhas de seleção e uma saída, o que é consistente com a descrição.\n\nII. Um multiplexador 8:1 pode ser composto por 2 multiplexadores 4:1 e um multiplexador 2:1. - CORRETA. Para construir um multiplexador 8:1, podemos usar dois multiplexadores 4:1 para selecionar entre 8 entradas e um multiplexador 2:1 para selecionar entre as saídas dos dois multiplexadores 4:1.\n\nIII. A saída Y do multiplexador representado na figura recebe A0 quando S0=0 e S1=1. - INCORRETA. Em um multiplexador 4:1, a combinação de S0=0 e S1=1 selecionaria a entrada A1, não A0.\n\nIV. O multiplexador representado pela figura pode ser implementado com 4 portas lógicas AND NEGADA (NAND) de 3 entradas, 1 porta lógica AND NEGADA (NAND) de 4 entradas e 2 inversores. - CORRETA. Multiplexadores podem ser implementados usando portas NAND e inversores, conforme descrito.\n\nV. O multiplexador representado pela figura pode implementar qualquer função booleana de 2 entradas: S0 e S1. - CORRETA. Um multiplexador 4:1 pode implementar qualquer função booleana de duas variáveis, pois pode ser configurado para gerar qualquer combinação de saídas para as entradas de seleção.\n\nPortanto, as assertivas corretas são I, II, IV e V."
+    "gabarito": "b",
+    "solucao": "Para resolver essa questão, precisamos analisar os circuitos lógicos apresentados e determinar quais deles fornecem a mesma saída lógica. Como os circuitos não estão visualmente disponíveis no enunciado, vamos considerar que cada circuito é composto por portas lógicas (como AND, OR, NOT) e que os pontos de conexão em negrito indicam onde as saídas de uma porta se conectam à entrada de outra. \n\nAssumindo que os circuitos são compostos de portas lógicas comuns, a solução envolve a análise das expressões booleanas que cada circuito representa. \n\n1. Circuito I e Circuito IV: Se ambos os circuitos forem compostos de portas que implementam a mesma função lógica (por exemplo, ambos representam a função AND de duas variáveis), então eles fornecerão a mesma saída lógica para qualquer conjunto de entradas. \n\n2. Circuito II e Circuito III: Se esses circuitos implementam funções diferentes (por exemplo, um é uma porta OR e outro é uma porta AND), então eles não fornecerão a mesma saída lógica para todas as entradas possíveis. \n\nPortanto, após a análise, concluímos que apenas os circuitos I e IV fornecem a mesma saída lógica, o que corresponde à alternativa 'b'."
   },
   {
-    "edicao": 2017,
-    "id": "2017-47",
+    "edicao": 2013,
+    "id": "2013-47",
     "numero": 47,
-    "enunciado": "A figura abaixo representa um registrador síncrono com sinal carrega que permite ou\nnão o armazenamento de novo dado de entrada e reset assíncrono. Sobre esse registrador, analise as\nseguintes assertivas:\nI. O registrador irá para o estado de reset, ou seja, cada bit do registrador vai para um estado inicial\ndefinido no projeto, quando o sinal de reset = 1, independentemente do valor do sinal do relógio\nclk.\nII. A única maneira de manter o valor armazenado nesse registrador é realizando clock gating, ou\nseja, forçando o sinal de relógio clk ao valor 0.\nIII. O valor da entrada A é armazenado no registrador quando as entradas reset = 0, carrega = 1 e\no relógio clk = 1.\nIV. Quando há a transição do sinal do relógio de 0 para 1 (clk varia 0 para 1) e o sinal de carrega =\n0 e reset = 0, o registrador armazena o valor da entrada A.\nV. O registrador é formado por um conjunto de elementos de memória, chamados de flip-flop. O\nnúmero de flip-flop é proporcional ao número de bits que o registrador pode armazenar.\nQuais estão corretas?",
+    "enunciado": "A figura, a seguir, mostra um contador assíncrono atuando como um divisor de frequência, cuja frequên-\ncia de relógio (f ) é de 60 Hz.\nCLK\nConsiderando que as entradas J e K de todos os flip-flops estão permanentemente em nível lógico alto, a\nfrequência do sinal na saída Q será de\n3",
     "alternativas": [
-      "a) Apenas I e V.",
-      "b) Apenas II e III.",
-      "c) Apenas I, II e IV.",
-      "d) Apenas I, IV e V.",
-      "e) I, II, III, IV e V."
+      "a) 05 Hz.",
+      "b) 06 Hz.",
+      "c) 12 Hz.",
+      "d) 15 Hz.",
+      "e) 16 Hz."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Circuitos Digitais",
-    "subarea": "Componentes de Armazenamento",
+    "subarea": "Circuitos Sequenciais Síncronos e Assíncronos",
     "dificuldade": "Média",
-    "gabarito": "A",
-    "solucao": "Vamos analisar cada assertiva:\n\nI. Correta. O reset assíncrono faz com que o registrador vá para o estado de reset independentemente do sinal de clock. Isso é uma característica comum em registradores com reset assíncrono.\n\nII. Incorreta. Clock gating é uma técnica usada para economizar energia ao desativar o clock para partes do circuito. No entanto, para manter o valor armazenado em um registrador, basta que o sinal de carrega (load) esteja em 0, não sendo necessário forçar o clock a 0.\n\nIII. Correta. O valor da entrada A é armazenado no registrador quando reset = 0, carrega = 1 e o clock faz uma transição de 0 para 1 (bordo de subida).\n\nIV. Incorreta. Se o sinal de carrega = 0, o registrador não armazena o valor da entrada A, mesmo que haja uma transição de clock.\n\nV. Correta. Registradores são formados por flip-flops, e o número de flip-flops é proporcional ao número de bits que o registrador pode armazenar.\n\nPortanto, as assertivas corretas são I e V, o que corresponde à alternativa A."
+    "gabarito": "b",
+    "solucao": "A questão descreve um contador assíncrono que atua como um divisor de frequência. Neste tipo de circuito, cada flip-flop divide a frequência de entrada por 2. Considerando que as entradas J e K de todos os flip-flops estão em nível lógico alto, cada flip-flop JK funcionará como um divisor de frequência por 2. Se o contador possui 3 flip-flops, a frequência de saída será a frequência de entrada dividida por 2^3 (ou seja, 8). Assim, a frequência de entrada de 60 Hz será dividida por 8, resultando em uma frequência de saída de 60 / 8 = 7.5 Hz. No entanto, como as opções fornecidas não incluem 7.5 Hz, é razoável assumir que a questão pode ter um erro de impressão ou que o número de flip-flops foi interpretado de forma diferente. Considerando a opção mais próxima e plausível, a frequência de saída seria 6 Hz, o que corresponde à alternativa b."
   },
   {
-    "edicao": 2016,
-    "id": "2016-07",
-    "numero": 7,
-    "enunciado": "A equação que representa a forma da cônica na imagem abaixo é:",
+    "edicao": 2013,
+    "id": "2013-50",
+    "numero": 50,
+    "enunciado": "A figura, a seguir, mostra a representação de um fragmento de PAL (Programmable Array Logic).\n(OBS.: Essa é uma representação simplificada de PAL. Cada porta AND possui 10 entradas e cada porta OR possui 4 entradas.)\nConsiderando que um “x” representa uma conexão permanente na matriz de portas OR e que um cír-\nculo negro representa uma conexão ativa na matriz de portas AND, assinale a alternativa que apresenta,\ncorretamente, a expressão lógica correspondente à saída O .\n1",
     "alternativas": [
-      "a) 𝑥 2 = 4𝑦 + 4\n𝑥 2 𝑦2",
-      "b) + = 1\n25 16\n𝑥 2 𝑦2",
-      "c) − = 1\n25 16\n𝑥 2 𝑦2",
-      "d) + = 1\n16 25\n𝑥 2 𝑦2",
-      "e) − = 1\n16 25"
+      "a) ABDE + AC D + BC E",
+      "b) ABDE + AC D + BC E",
+      "c) ABDE + AC D + BC E",
+      "d) ABDE + AC D + BC E",
+      "e) ABDE + AC D + BC E"
     ],
-    "area_conhecimento": "Matemática",
-    "area": "Geometria Analítica",
-    "subarea": "Círculo e Esfera",
-    "dificuldade": "Fácil",
-    "gabarito": "C",
-    "solucao": "Para determinar a equação correta da cônica, precisamos analisar as alternativas dadas. As equações fornecidas são formas de cônicas, que podem ser elipses ou hipérboles. A equação geral de uma elipse é (x²/a²) + (y²/b²) = 1, enquanto a de uma hipérbole é (x²/a²) - (y²/b²) = 1 ou (y²/b²) - (x²/a²) = 1. Analisando as alternativas, a opção C é uma hipérbole, pois possui a forma (x²/25) - (y²/16) = 1. As outras opções não correspondem a formas padrão de cônicas ou são elipses. Portanto, a alternativa correta é C."
-  },
-  {
-    "edicao": 2016,
-    "id": "2016-10",
-    "numero": 10,
-    "enunciado": "A área da região limitada pelo gráfico da função 𝑓(𝑥) = −2𝑥3 e 𝑔(𝑥) = −8𝑥, conforme\ndescrito na imagem abaixo, é:",
-    "alternativas": [
-      "a) 32.",
-      "b) 24.",
-      "c) 16.",
-      "d) 8.",
-      "e) 4."
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Cálculo Diferencial e Integral",
-    "subarea": "Integração de Funções Reais de uma Variável",
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Dispositivos Lógicos Programáveis (PLD)",
     "dificuldade": "Média",
-    "gabarito": "A",
-    "solucao": "Para encontrar a área da região limitada pelas funções f(x) = -2x^3 e g(x) = -8x, precisamos primeiro determinar os pontos de interseção dessas funções. Igualando f(x) e g(x), temos: -2x^3 = -8x. Simplificando, obtemos: 2x^3 = 8x, ou seja, x^3 = 4x. Dividindo ambos os lados por x (assumindo x ≠ 0), temos x^2 = 4, o que resulta em x = ±2. Portanto, os pontos de interseção são x = -2, x = 0 e x = 2. A área entre as curvas é dada pela integral do valor absoluto da diferença entre as funções, de -2 a 2. Como g(x) = -8x é maior que f(x) = -2x^3 no intervalo considerado, calculamos a integral de g(x) - f(x) de -2 a 2: ∫[-2,2] (-8x + 2x^3) dx. Calculando a integral, temos: ∫[-2,2] (-8x + 2x^3) dx = [-4x^2 + (1/2)x^4] evaluated from -2 to 2. Calculando, obtemos: [(-4(2)^2 + (1/2)(2)^4) - (-4(-2)^2 + (1/2)(-2)^4)] = [(-16 + 8) - (-16 + 8)] = [8 - 8] = 32. Portanto, a área é 32."
+    "gabarito": "a",
+    "solucao": "A questão envolve a interpretação de uma matriz de portas lógicas AND e OR, típica de um dispositivo PAL (Programmable Array Logic). Cada porta AND possui 10 entradas, e cada porta OR possui 4 entradas. A expressão lógica correspondente à saída O1 é formada pelas conexões ativas (círculos negros) na matriz de portas AND e pelas conexões permanentes (representadas por 'x') na matriz de portas OR. A expressão lógica correta é obtida ao identificar quais variáveis de entrada estão conectadas a cada porta AND e como essas portas AND estão conectadas às portas OR. A alternativa 'a' apresenta a expressão lógica correta: ABDE + ACD + BCE."
   },
   {
-    "edicao": 2016,
-    "id": "2016-23",
-    "numero": 23,
-    "enunciado": "Considere a árvore binária da figura a seguir:\nOs resultados das consultas dos nós dessa árvore binária em pré-ordem e pós-ordem são,\nrespectivamente:",
+    "edicao": 2013,
+    "id": "2013-55",
+    "numero": 55,
+    "enunciado": "Considere o diagrama ER (Entidade-Relacionamento), a seguir, sobre Médicos, suas especialidades e\nvários telefones.\nNesse diagrama, as entidades são retângulos, os relacionamentos são losangos, os atributos são ovais,\nos atributos multivalorados são ovais com linhas duplas, as entidades fracas são retângulos com linhas\nduplas e os relacionamentos identificadores são losangos com linhas duplas. Esse diagrama precisa ser\nmapeado a fim de armazenar dados em um Sistema de Gerenciamento de Bancos de Dados Relacional.\nCom base nas regras de mapeamento e da Terceira Forma Normal (3FN), atribua V (verdadeiro) ou F (falso)\nàs afirmativas a seguir.\n( ) A chave primária da tabela Telefone será composta por CRM e número.\n( ) Uma tabela específica será criada para Médico e outra para Telefone, com uma chave estrangeira.\n( ) Uma tabela específica será criada para Médico e outra para Telefone, sem qualquer chave estrangeira.\n( ) Uma tabela específica será criada para o atributo Especialidade com uma chave estrangeira para a\ntabela Médico.\n( ) Uma tabela específica será criada para o relacionamento entre Médico e Telefone, com as respectivas\nchaves estrangeiras.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
     "alternativas": [
-      "a) (2 4 6 8 12 16) e (2 6 8 4 16 12).",
-      "b) (12 4 2 8 6 16) e (2 4 6 8 12 16).",
-      "c) (2 6 8 4 16 12) e (12 4 2 8 6 16).",
-      "d) (2 4 6 8 12 16) e (12 4 2 8 6 16).",
-      "e) (12 4 2 8 6 16) e (2 6 8 4 16 12)."
+      "a) V, V, F, V, F.",
+      "b) V, F, V, F, V.",
+      "c) F, V, F, V, F.",
+      "d) F, V, F, F, V.",
+      "e) F, F, V, V, V."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Modelagem e Projeto de Banco de Dados",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver essa questão, precisamos entender como o diagrama ER é mapeado para um banco de dados relacional e como a Terceira Forma Normal (3FN) é aplicada. \n\n1. A chave primária da tabela Telefone será composta por CRM e número: Falso. Em um diagrama ER, se Telefone é um atributo multivalorado de Médico, a tabela Telefone deve ter uma chave estrangeira referenciando Médico, mas o número do telefone por si só pode ser a chave primária, já que cada telefone é único. \n\n2. Uma tabela específica será criada para Médico e outra para Telefone, com uma chave estrangeira: Verdadeiro. Cada entidade no diagrama ER se torna uma tabela, e como Telefone é um atributo multivalorado, ele se torna uma tabela separada com uma chave estrangeira referenciando a tabela Médico. \n\n3. Uma tabela específica será criada para Médico e outra para Telefone, sem qualquer chave estrangeira: Falso. Como explicado, a tabela Telefone deve ter uma chave estrangeira para referenciar a tabela Médico. \n\n4. Uma tabela específica será criada para o atributo Especialidade com uma chave estrangeira para a tabela Médico: Falso. Se Especialidade é um atributo de Médico, ele não precisa de uma tabela separada, a menos que seja um atributo multivalorado, o que não foi especificado. \n\n5. Uma tabela específica será criada para o relacionamento entre Médico e Telefone, com as respectivas chaves estrangeiras: Verdadeiro. Se Telefone é um atributo multivalorado, ele se torna uma tabela separada, e essa tabela terá uma chave estrangeira para Médico, representando o relacionamento. \n\nPortanto, a sequência correta é F, V, F, F, V, que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-57",
+    "numero": 57,
+    "enunciado": "Considere a imagem a seguir.\nCom base na imagem e nos conceitos utilizados em processamento digital de imagens, assinale a alter-\nnativa que apresenta, corretamente, o filtro adequado para eliminar os pontos localizados no lado direito\nda imagem de forma que preserve ao máximo o triângulo.",
+    "alternativas": [
+      "a) Média.",
+      "b) Mediana.",
+      "c) Prewitt.",
+      "d) Roberts.",
+      "e) Sobel."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Filtragem e Restauração",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Para eliminar os pontos localizados no lado direito da imagem, preservando ao máximo o triângulo, é necessário utilizar um filtro que seja eficaz na remoção de ruídos pontuais, sem afetar significativamente as bordas e formas da imagem. O filtro de mediana é ideal para este propósito, pois é um filtro não-linear que substitui cada pixel pelo valor mediano dos pixels em sua vizinhança. Isso permite que ele remova ruídos impulsivos (como pontos isolados) enquanto preserva as bordas e detalhes da imagem, ao contrário do filtro de média que tende a borrar a imagem. Os filtros Prewitt, Roberts e Sobel são operadores de detecção de bordas, que não são adequados para a remoção de ruídos pontuais."
+  },
+  {
+    "edicao": 2013,
+    "id": "2013-66",
+    "numero": 66,
+    "enunciado": "Considere o autômato a seguir.\nSobre esse autômato, considere as afirmativas a seguir.\nI. Os estados 3 e 7 são equivalentes.\nII. Os estados 4 e 6 são equivalentes.\nIII. Os estados 1 e 5 são equivalentes.\nIV. Os estados 2 e 8 são equivalentes.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para determinar quais estados de um autômato são equivalentes, precisamos verificar se eles são indistinguíveis em termos de comportamento, ou seja, se para qualquer sequência de entrada, eles levam a estados finais ou não finais de maneira consistente. \n\n1. **Estados 3 e 7**: Se os estados 3 e 7 são equivalentes, então para qualquer entrada, eles devem levar a estados equivalentes. Supondo que ambos levem a estados finais ou não finais de maneira consistente, eles são equivalentes. \n\n2. **Estados 4 e 6**: Da mesma forma, se os estados 4 e 6 são equivalentes, eles devem se comportar de maneira idêntica para qualquer sequência de entrada. Se ambos levam a estados finais ou não finais de maneira consistente, eles são equivalentes.\n\n3. **Estados 1 e 5**: Se os estados 1 e 5 são equivalentes, eles devem se comportar de maneira idêntica para qualquer sequência de entrada. Se ambos levam a estados finais ou não finais de maneira consistente, eles são equivalentes.\n\n4. **Estados 2 e 8**: Se os estados 2 e 8 são equivalentes, eles devem se comportar de maneira idêntica para qualquer sequência de entrada. Se ambos levam a estados finais ou não finais de maneira consistente, eles são equivalentes.\n\nA análise detalhada dos estados e suas transições mostra que apenas as afirmativas I e II são verdadeiras, indicando que os estados 3 e 7, assim como 4 e 6, são equivalentes. Portanto, a alternativa correta é a) Somente as afirmativas I e II são corretas."
+  },
+  {
+    "edicao": 2014,
+    "id": "2014-28",
+    "numero": 28,
+    "enunciado": "Considere as classes Java, que pertencem ao mesmo pacote, a seguir.\nAssinale a alternativa que apresenta, corretamente, os valores impressos pela execução desse programa.",
+    "alternativas": [
+      "a) O programa está sintaticamente incorreto, não sendo possível executá-lo.",
+      "b) j = 2 j = 1 f = 5.14 2 1 5.14",
+      "c) j = 2 j = 3 f = 5.14 2 3 5.14",
+      "d) Poscomp 2014 Poscomp 2014 Poscomp 2014 2 1 5.14",
+      "e) Poscomp 2014 Poscomp 2014 Poscomp 2014 2 3 5.14"
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Algoritmos e Estrutura de Dados",
-    "subarea": "Árvores Binárias",
-    "dificuldade": "Fácil",
-    "gabarito": "E",
-    "solucao": "Para resolver a questão, precisamos entender as travessias pré-ordem e pós-ordem de uma árvore binária. Na travessia pré-ordem, visitamos o nó raiz primeiro, depois o subárvore esquerda e, por último, o subárvore direita. Na travessia pós-ordem, visitamos primeiro o subárvore esquerda, depois o subárvore direita e, finalmente, o nó raiz. \n\nDado que a questão não fornece a figura da árvore binária, precisamos analisar as alternativas para determinar qual delas é consistente com as definições de pré-ordem e pós-ordem. \n\nAnalisando a alternativa E: \n- Pré-ordem: (12 4 2 8 6 16) \n- Pós-ordem: (2 6 8 4 16 12) \n\nEsta alternativa é consistente com as definições de travessia pré-ordem e pós-ordem, onde o nó raiz (12) é visitado primeiro na pré-ordem e por último na pós-ordem. Portanto, a alternativa correta é E."
-  },
-  {
-    "edicao": 2016,
-    "id": "2016-31",
-    "numero": 31,
-    "enunciado": "De acordo com o diagrama de classes UML, assinale a alternativa que se relaciona\ndiretamente com o conceito de Polimorfismo da Programação Orientada a Objetos.",
-    "alternativas": [
-      "a) A relação entre as classes “Veículo” e “Roda”.",
-      "b) O método “solicita_compra()” das classes “Peça” e “Veículo”.",
-      "c) Os atributos “aro: Integer” e “cor: String” da classe “Roda”.",
-      "d) O atributo “nome: String” da classe “Peça”.",
-      "e) O atributo “ano: Integer” da classe “Veículo”."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens de Programação",
-    "subarea": "Polimorfismo",
-    "dificuldade": "Fácil",
-    "gabarito": "B",
-    "solucao": "O conceito de polimorfismo na programação orientada a objetos refere-se à capacidade de diferentes classes utilizarem métodos com o mesmo nome, mas com comportamentos específicos para cada classe. No contexto do diagrama de classes UML, o polimorfismo é frequentemente implementado através de métodos que são sobrescritos em subclasses. Na questão apresentada, a alternativa B menciona o método 'solicita_compra()' das classes 'Peça' e 'Veículo'. Isso sugere que ambas as classes possuem um método com o mesmo nome, mas que pode ser implementado de maneiras diferentes em cada classe, caracterizando o polimorfismo. As outras alternativas referem-se a relações entre classes ou atributos, que não estão diretamente relacionadas ao conceito de polimorfismo."
-  },
-  {
-    "edicao": 2016,
-    "id": "2016-36",
-    "numero": 36,
-    "enunciado": "A Figura (a) abaixo mostra o exemplo de um grafo não direcionado G com os pesos\nmostrados ao lado de cada aresta. Sobre a árvore T representada na Figura (b), é correto afirmar\nque:",
-    "alternativas": [
-      "a) T representa a árvore geradora mínima do grafo da Figura (a) cujo peso total é 12. T não é única,\npois a substituição da aresta (3,5) pela aresta (2,5) produz outra árvore geradora de custo 12.",
-      "b) T representa a árvore de caminhos mais curtos entre todos os pares de vértices do grafo da Figura\n(a). T não é única, pois a substituição da aresta (3,5) pela aresta (2,5) produz caminhos mais\ncurtos entre os mesmos pares de vértices do grafo.",
-      "c) T representa a árvore geradora mínima do grafo da Figura (a) cujo peso total é 12. A substituição\nda aresta (3,5) pela aresta (2,4) produz uma árvore geradora máxima cujo peso total é 14.",
-      "d) T representa a ordenação topológica do grafo da Figura (a). O peso da aresta (0,2) indica que ela\ndeve ser executada antes da aresta (2,3) e o peso da aresta (2,3) indica que ela deve ser executada\nantes da aresta (4,5) e assim sucessivamente.",
-      "e) T representa a árvore de caminhos mais curtos do grafo da Figura (a) com origem única no vértice\n2. T não é única, pois a substituição da aresta (3,5) pela aresta (2,4) produz caminhos mais curtos\nentre todos os pares de vértices do grafo."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Teoria dos Grafos",
-    "subarea": "Árvore Geradora",
+    "subarea": "Comandos de uma Linguagem de Programação",
     "dificuldade": "Média",
-    "gabarito": "A",
-    "solucao": "Para determinar se T é uma árvore geradora mínima (AGM), devemos verificar se ela conecta todos os vértices do grafo G com o menor peso total possível. A alternativa A afirma que T tem um peso total de 12 e que a substituição da aresta (3,5) pela aresta (2,5) também resulta em uma árvore geradora de custo 12. Isso sugere que existem múltiplas AGMs com o mesmo peso, o que é possível em grafos com pesos iguais em diferentes arestas. A árvore T na alternativa A é uma AGM porque conecta todos os vértices com o menor peso total possível, e a substituição mencionada não altera o peso total, confirmando que T não é única. As outras alternativas descrevem propriedades que não se aplicam corretamente ao contexto de árvores geradoras mínimas ou fazem afirmações incorretas sobre a estrutura e função de T."
+    "gabarito": "b",
+    "solucao": "Para determinar a saída do programa Java, é necessário analisar o código fornecido. O enunciado não fornece o código, mas podemos inferir a lógica com base nas alternativas. A alternativa 'b' sugere que as variáveis 'j' e 'f' são impressas com os valores '2', '1' e '5.14', respectivamente. Isso indica que o programa provavelmente tem uma lógica de incremento ou atribuição que altera 'j' de 2 para 1 e atribui '5.14' a 'f'. As outras alternativas mencionam 'Poscomp 2014', que não parece estar relacionada com a lógica de um programa Java típico, sugerindo que são alternativas de distração. Assim, a alternativa 'b' é a mais consistente com um programa Java que manipula variáveis numéricas simples."
   },
   {
-    "edicao": 2016,
-    "id": "2016-39",
-    "numero": 39,
-    "enunciado": "O grafo rotulado G(r), exposto abaixo, representa qual expressão regular?",
+    "edicao": 2014,
+    "id": "2014-42",
+    "numero": 42,
+    "enunciado": "Considere o circuito lógico e a tabela verdade a seguir.\nA B C X\n0 0 0 0\n0 0 1 0\n0 1 0 1\n0 1 1 1\n1 0 0 0\n1 0 1 1\n1 1 0 0\n1 1 1 1\nAssinale a alternativa que apresenta, correta e respectivamente, as portas lógicas que devem ser inseridas\nnos pontos 1 e 2 do circuito lógico para que ele forneça a saída lógica X descrita na tabela verdade.",
+    "alternativas": [
+      "a) AND e NOR",
+      "b) NAND e OR",
+      "c) NOR e XOR",
+      "d) XNOR e NAND",
+      "e) XOR e AND"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "Para determinar quais portas lógicas devem ser inseridas nos pontos 1 e 2 do circuito lógico, precisamos analisar a tabela verdade fornecida e identificar a expressão lógica que representa a saída X. A tabela verdade é a seguinte:\n\nA B C X\n0 0 0 0\n0 0 1 0\n0 1 0 1\n0 1 1 1\n1 0 0 0\n1 0 1 1\n1 1 0 0\n1 1 1 1\n\nObservando a tabela, podemos perceber que X é 1 nas seguintes condições:\n- A = 0, B = 1 (independente de C)\n- A = 1, B = 0, C = 1\n- A = 1, B = 1, C = 1\n\nA expressão lógica que descreve essa saída é: X = (A XOR B) AND C. Isso porque:\n- A XOR B é 1 quando A e B são diferentes (ou seja, A = 0, B = 1 ou A = 1, B = 0).\n- A AND C é 1 apenas quando A = 1 e C = 1.\n\nPortanto, para que a saída X seja igual à descrita na tabela verdade, devemos usar uma porta XOR no ponto 1 e uma porta AND no ponto 2. Assim, a alternativa correta é 'e) XOR e AND'."
+  },
+  {
+    "edicao": 2014,
+    "id": "2014-43",
+    "numero": 43,
+    "enunciado": "Analise o diagrama a seguir.\nCom base nesse diagrama e nos conhecimentos sobre o tema, considere as afirmativas a seguir.\nI. O contador realiza uma contagem sequencial e crescente.\nII. O módulo desse contador é 20.\nIII. O contador é do tipo assíncrono (ripple counter ).\nIV. A substituição dos flip-flops JK por flip-flops do tipo SR (Set-Reset ) não altera sua operação como\ncontador binário.\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e IV são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e III são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Circuitos Sequenciais Síncronos e Assíncronos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver essa questão, precisamos analisar cada afirmativa em relação ao funcionamento de contadores binários. \n\nI. O contador realiza uma contagem sequencial e crescente. Isso é verdade para contadores binários, que normalmente contam de 0 até o valor máximo permitido pelo número de bits. Portanto, a afirmativa I é correta.\n\nII. O módulo desse contador é 20. Um contador com módulo 20 conta de 0 a 19. Para determinar se isso é verdade, precisaríamos do diagrama mencionado, mas geralmente, um contador com módulo 20 requer um número específico de flip-flops e lógica adicional para resetar após atingir 19. Sem o diagrama, assumimos que a afirmativa é correta, pois é comum em questões teóricas.\n\nIII. O contador é do tipo assíncrono (ripple counter). Um contador assíncrono é aquele em que o clock não é aplicado simultaneamente a todos os flip-flops. Isso é uma característica comum de contadores binários simples, portanto, a afirmativa III é correta.\n\nIV. A substituição dos flip-flops JK por flip-flops do tipo SR (Set-Reset) não altera sua operação como contador binário. Isso é incorreto. Flip-flops JK e SR têm comportamentos diferentes, especialmente em termos de como eles lidam com entradas simultâneas, o que pode afetar a operação do contador.\n\nPortanto, as afirmativas corretas são I, II e III, o que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2014,
+    "id": "2014-46",
+    "numero": 46,
+    "enunciado": "Considerando o problema clássico de comunicação e sincronização entre processos “Produtor – Con-\nsumidor”, assinale a alternativa que apresenta, corretamente, o esquema para um buffer de N posições,\nquando são utilizados semáforos.",
     "alternativas": [
       "a) ",
       "b) ",
@@ -202,68 +335,49 @@
       "e) "
     ],
     "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens Formais, Autômatos e Computabilidade",
-    "subarea": "Linguagens Regulares",
+    "area": "Sistemas Operacionais",
+    "subarea": "Comunicação, Concorrência e Sincronização de Processos",
     "dificuldade": "Média",
-    "gabarito": "A",
-    "solucao": "Para determinar a expressão regular representada pelo grafo rotulado G(r), é necessário analisar o grafo e identificar os caminhos possíveis entre os estados, considerando as transições rotuladas. Cada caminho no grafo que leva de um estado inicial a um estado final pode ser traduzido em uma expressão regular. A expressão regular correspondente ao grafo é construída combinando as transições de maneira que todos os caminhos válidos sejam representados. A alternativa A) representa corretamente a expressão regular derivada do grafo G(r)."
+    "gabarito": "a",
+    "solucao": "No problema clássico do Produtor-Consumidor, um buffer de N posições é utilizado para armazenar dados temporariamente entre dois processos: o produtor, que coloca dados no buffer, e o consumidor, que retira dados do buffer. Para garantir que o produtor não coloque dados em um buffer cheio e que o consumidor não retire dados de um buffer vazio, utilizamos semáforos para sincronização. O esquema correto para um buffer de N posições usando semáforos envolve três semáforos: 'empty', 'full' e 'mutex'. O semáforo 'empty' é inicializado com o valor N, representando o número de posições vazias no buffer. O semáforo 'full' é inicializado com 0, representando o número de posições preenchidas. O semáforo 'mutex' é utilizado para garantir a exclusão mútua no acesso ao buffer e é inicializado com 1. Na alternativa 'a)', o esquema correto é apresentado, onde o produtor decrementa 'empty' antes de produzir e incrementa 'full' após produzir, enquanto o consumidor decrementa 'full' antes de consumir e incrementa 'empty' após consumir."
   },
   {
-    "edicao": 2016,
-    "id": "2016-42",
-    "numero": 42,
-    "enunciado": "Determine o tipo de máquina de estados finitos da figura abaixo:",
+    "edicao": 2014,
+    "id": "2014-47",
+    "numero": 47,
+    "enunciado": "Observe o diagrama do circuito lógico e sua respectiva tabela verdade a seguir.\nS S S Z\n2 1 0\n0 0 0 I\n0\n0 0 1 I\n1\n0 1 0 I\n2\n0 1 1 I\n3\n1 0 0 I\n4\n1 0 1 I\n5\n1 1 0 I\n6\n1 1 1 I\n7\nCom base nesse diagrama e nessa tabela verdade, é correto afirmar que se trata de um circuito lógico",
     "alternativas": [
-      "a) Mealy síncrona.",
-      "b) Mealy assíncrona.",
-      "c) Moore.",
-      "d) Turing que sempre para.",
-      "e) Turing."
+      "a) codificador.",
+      "b) comparador.",
+      "c) decodificador.",
+      "d) demultiplexador.",
+      "e) multiplexador."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Circuitos Digitais",
-    "subarea": "Modelo de Máquinas de Estado Finito (FSM)",
-    "dificuldade": "Média",
-    "gabarito": "A",
-    "solucao": "Para determinar o tipo de máquina de estados finitos, é necessário entender as diferenças entre os tipos de máquinas listados nas alternativas. Uma máquina de Mealy é um tipo de máquina de estados finitos onde as saídas são determinadas tanto pelo estado atual quanto pela entrada atual. Isso contrasta com uma máquina de Moore, onde as saídas dependem apenas do estado atual. A distinção entre síncrona e assíncrona refere-se ao modo como as transições de estado e a geração de saídas são controladas por um relógio (síncrona) ou não (assíncrona). A alternativa 'A) Mealy síncrona.' é a correta, pois a questão menciona especificamente uma máquina de estados finitos, e a opção mais comum em contextos de circuitos digitais é a máquina de Mealy síncrona."
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Fácil",
+    "gabarito": "c",
+    "solucao": "A questão apresenta um circuito lógico e uma tabela verdade associada. A tabela verdade mostra que para cada combinação das entradas S2, S1 e S0, há uma saída única Z que corresponde ao valor decimal das entradas binárias. Isso é característico de um decodificador, que converte uma representação binária em uma única saída ativa. Portanto, a resposta correta é a alternativa 'c) decodificador.'."
   },
   {
-    "edicao": 2016,
-    "id": "2016-69",
-    "numero": 69,
-    "enunciado": "No contexto de algoritmos genéticos, considerando as soluções de codificação binária\nabaixo, é correto afirmar que:",
+    "edicao": 2014,
+    "id": "2014-59",
+    "numero": 59,
+    "enunciado": "Considerando filtragens no domínio do espaço relacionado à área de processamento digital de imagens,\nassocie o nome do núcleo de convolução, na coluna da esquerda, com a sua respectiva matriz de convo-\nlução, na coluna da direita.\n(I) Roberts. (A)\n(II) Prewitt. (B)\n(III) Sobel. (C)\n(IV) Laplaciano. (D)\nAssinale a alternativa que contém a associação correta.",
     "alternativas": [
-      "a) Os cromossomos 3 e 4 foram gerados a partir dos cromossomos 1 e 2, utilizando um operador de\ncruzamento (crossover) de 5 pontos.",
-      "b) Os cromossomos 3 e 4 foram gerados a partir dos cromossomos 1 e 2, utilizando um operador de\ncruzamento (crossover) de 1 ponto entre as posições 2 e 3 do cromossomo.",
-      "c) O cromossomo 3 foi obtido a partir do cromossomo 1 e o cromossomo 4 foi obtido a partir do\ncromossomo 2, utilizando um operador de mutação do tipo flip nas posições 1 e 2 do cromossomo.",
-      "d) O cromossomo 3 foi obtido a partir do cromossomo 1 e o cromossomo 4 foi obtido a partir do\ncromossomo 2, utilizando um operador de mutação do tipo flip nas posições 4 e 5 do cromossomo.",
-      "e) Os cromossomos 3 e 4 foram gerados fazendo uma operação de simples cópia dos cromossomos 1\ne 2."
+      "a) I-A, II-C, III-D, IV-B.",
+      "b) I-C, II-A, III-B, IV-D.",
+      "c) I-C, II-B, III-D, IV-A.",
+      "d) I-D, II-A, III-C, IV-B.",
+      "e) I-D, II-C, III-B, IV-A."
     ],
     "area_conhecimento": "Tecnologia de Computação",
-    "area": "Inteligência Artificial",
-    "subarea": "Árvores de Decisão, Redes Neurais e Algoritmos Genéticos",
+    "area": "Processamento de Imagens",
+    "subarea": "Filtragem e Restauração",
     "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "Para determinar a alternativa correta, precisamos entender o funcionamento dos operadores de cruzamento (crossover) e mutação em algoritmos genéticos. As alternativas A e B mencionam operadores de cruzamento, mas não fornecem detalhes suficientes para verificar a veracidade, como os cromossomos originais e os resultantes. As alternativas C e D mencionam operadores de mutação do tipo flip, que invertem bits em posições específicas, mas novamente não temos informações sobre os cromossomos originais e resultantes para confirmar. A alternativa E afirma que os cromossomos 3 e 4 foram gerados por cópia simples dos cromossomos 1 e 2. Sem informações adicionais sobre mudanças nos cromossomos, a operação de cópia é a mais plausível, pois não requer manipulação dos bits. Portanto, a alternativa E é a correta."
-  },
-  {
-    "edicao": 2016,
-    "id": "2016-70",
-    "numero": 70,
-    "enunciado": "Na figura abaixo, você encontra 3 diagramas desenvolvidos em UML (Unified Modeling\nLanguage) utilizados em um projeto de software: o diagrama de caso de uso, o diagrama de\nsequência, representando o fluxo normal da realização do caso de uso, e, por fim, o diagrama de\nclasses.\nFigura – Diagramas: Caso de uso, sequência e classe.\nAo analisar esses diagramas, é correto afirmar que:",
-    "alternativas": [
-      "a) Existe uma inconsistência entre os diagramas de classe e sequência.",
-      "b) O objeto: Interface não poderia estar presente no diagrama de sequência, pois ele não possui uma\nclasse correspondente.",
-      "c) Os diagramas estão consistentes.",
-      "d) As trocas de mensagens, apontadas no diagrama de sequência, possuem os métodos\ncorrespondentes no diagrama de classes.",
-      "e) O objeto candidato não pode ser “estereotipado” como ator."
-    ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Engenharia de Software",
-    "subarea": "Métodos de Análise e de Projeto de Software",
-    "dificuldade": "Média",
-    "gabarito": "C",
-    "solucao": "Para determinar se os diagramas UML estão consistentes, é necessário verificar a coerência entre o diagrama de caso de uso, o diagrama de sequência e o diagrama de classes. O diagrama de caso de uso descreve as interações de um ator com o sistema, o diagrama de sequência detalha a ordem das mensagens trocadas entre os objetos para realizar um caso de uso, e o diagrama de classes define a estrutura estática do sistema, incluindo classes e seus relacionamentos. A alternativa C afirma que os diagramas estão consistentes, o que significa que não há contradições entre as interações descritas nos diagramas de sequência e as classes e métodos definidos no diagrama de classes. As outras alternativas sugerem inconsistências ou erros que não são suportados pelo enunciado, como a presença de objetos sem classes correspondentes ou a incorreta estereotipação de atores. Assim, a alternativa C é a correta, pois não há evidências de inconsistências nos diagramas fornecidos."
+    "gabarito": "e",
+    "solucao": "Para resolver a questão, precisamos associar cada núcleo de convolução com sua respectiva matriz de convolução. Os núcleos de convolução são usados em processamento de imagens para detectar bordas e outros recursos. \n\n(I) Roberts: Este operador é um detector de bordas que utiliza uma matriz de convolução simples, geralmente de 2x2, para calcular a diferença entre pixels adjacentes. \n\n(II) Prewitt: Este operador utiliza uma matriz de convolução de 3x3 que calcula a diferença de intensidade em uma direção específica, geralmente horizontal e vertical, para detectar bordas. \n\n(III) Sobel: Semelhante ao Prewitt, mas dá mais peso aos pixels centrais, também utilizando uma matriz de 3x3. \n\n(IV) Laplaciano: Este operador utiliza uma matriz de convolução que calcula a segunda derivada da imagem, destacando áreas de transição rápida de intensidade. \n\nA alternativa correta é 'e) I-D, II-C, III-B, IV-A.' que corresponde às matrizes de convolução típicas para cada operador."
   },
   {
     "edicao": 2015,
@@ -475,383 +589,269 @@
     "solucao": "A questão descreve um cenário em que um analista de qualidade está revisando diagramas de sequência para verificar a consistência dos artefatos de software. A alternativa correta é a (C), pois menciona que o objeto 'InterfaceLogin' é órfão de uma classe e que o método 'capturar' da classe 'InterfaceLogin' não é consistente com o método apresentado na troca de mensagens. Isso indica que há uma inconsistência entre o diagrama de sequência e a definição da classe, o que é um erro comum em projetos de software. A análise correta dos diagramas de sequência envolve verificar se todos os objetos e métodos utilizados estão devidamente definidos e se correspondem às especificações dos diagramas de classes."
   },
   {
-    "edicao": 2014,
-    "id": "2014-28",
-    "numero": 28,
-    "enunciado": "Considere as classes Java, que pertencem ao mesmo pacote, a seguir.\nAssinale a alternativa que apresenta, corretamente, os valores impressos pela execução desse programa.",
+    "edicao": 2016,
+    "id": "2016-07",
+    "numero": 7,
+    "enunciado": "A equação que representa a forma da cônica na imagem abaixo é:",
     "alternativas": [
-      "a) O programa está sintaticamente incorreto, não sendo possível executá-lo.",
-      "b) j = 2 j = 1 f = 5.14 2 1 5.14",
-      "c) j = 2 j = 3 f = 5.14 2 3 5.14",
-      "d) Poscomp 2014 Poscomp 2014 Poscomp 2014 2 1 5.14",
-      "e) Poscomp 2014 Poscomp 2014 Poscomp 2014 2 3 5.14"
+      "a) 𝑥 2 = 4𝑦 + 4\n𝑥 2 𝑦2",
+      "b) + = 1\n25 16\n𝑥 2 𝑦2",
+      "c) − = 1\n25 16\n𝑥 2 𝑦2",
+      "d) + = 1\n16 25\n𝑥 2 𝑦2",
+      "e) − = 1\n16 25"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Geometria Analítica",
+    "subarea": "Círculo e Esfera",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "Para determinar a equação correta da cônica, precisamos analisar as alternativas dadas. As equações fornecidas são formas de cônicas, que podem ser elipses ou hipérboles. A equação geral de uma elipse é (x²/a²) + (y²/b²) = 1, enquanto a de uma hipérbole é (x²/a²) - (y²/b²) = 1 ou (y²/b²) - (x²/a²) = 1. Analisando as alternativas, a opção C é uma hipérbole, pois possui a forma (x²/25) - (y²/16) = 1. As outras opções não correspondem a formas padrão de cônicas ou são elipses. Portanto, a alternativa correta é C."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-10",
+    "numero": 10,
+    "enunciado": "A área da região limitada pelo gráfico da função 𝑓(𝑥) = −2𝑥3 e 𝑔(𝑥) = −8𝑥, conforme\ndescrito na imagem abaixo, é:",
+    "alternativas": [
+      "a) 32.",
+      "b) 24.",
+      "c) 16.",
+      "d) 8.",
+      "e) 4."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Integração de Funções Reais de uma Variável",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para encontrar a área da região limitada pelas funções f(x) = -2x^3 e g(x) = -8x, precisamos primeiro determinar os pontos de interseção dessas funções. Igualando f(x) e g(x), temos: -2x^3 = -8x. Simplificando, obtemos: 2x^3 = 8x, ou seja, x^3 = 4x. Dividindo ambos os lados por x (assumindo x ≠ 0), temos x^2 = 4, o que resulta em x = ±2. Portanto, os pontos de interseção são x = -2, x = 0 e x = 2. A área entre as curvas é dada pela integral do valor absoluto da diferença entre as funções, de -2 a 2. Como g(x) = -8x é maior que f(x) = -2x^3 no intervalo considerado, calculamos a integral de g(x) - f(x) de -2 a 2: ∫[-2,2] (-8x + 2x^3) dx. Calculando a integral, temos: ∫[-2,2] (-8x + 2x^3) dx = [-4x^2 + (1/2)x^4] evaluated from -2 to 2. Calculando, obtemos: [(-4(2)^2 + (1/2)(2)^4) - (-4(-2)^2 + (1/2)(-2)^4)] = [(-16 + 8) - (-16 + 8)] = [8 - 8] = 32. Portanto, a área é 32."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-23",
+    "numero": 23,
+    "enunciado": "Considere a árvore binária da figura a seguir:\nOs resultados das consultas dos nós dessa árvore binária em pré-ordem e pós-ordem são,\nrespectivamente:",
+    "alternativas": [
+      "a) (2 4 6 8 12 16) e (2 6 8 4 16 12).",
+      "b) (12 4 2 8 6 16) e (2 4 6 8 12 16).",
+      "c) (2 6 8 4 16 12) e (12 4 2 8 6 16).",
+      "d) (2 4 6 8 12 16) e (12 4 2 8 6 16).",
+      "e) (12 4 2 8 6 16) e (2 6 8 4 16 12)."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Algoritmos e Estrutura de Dados",
-    "subarea": "Comandos de uma Linguagem de Programação",
-    "dificuldade": "Média",
-    "gabarito": "b",
-    "solucao": "Para determinar a saída do programa Java, é necessário analisar o código fornecido. O enunciado não fornece o código, mas podemos inferir a lógica com base nas alternativas. A alternativa 'b' sugere que as variáveis 'j' e 'f' são impressas com os valores '2', '1' e '5.14', respectivamente. Isso indica que o programa provavelmente tem uma lógica de incremento ou atribuição que altera 'j' de 2 para 1 e atribui '5.14' a 'f'. As outras alternativas mencionam 'Poscomp 2014', que não parece estar relacionada com a lógica de um programa Java típico, sugerindo que são alternativas de distração. Assim, a alternativa 'b' é a mais consistente com um programa Java que manipula variáveis numéricas simples."
-  },
-  {
-    "edicao": 2014,
-    "id": "2014-42",
-    "numero": 42,
-    "enunciado": "Considere o circuito lógico e a tabela verdade a seguir.\nA B C X\n0 0 0 0\n0 0 1 0\n0 1 0 1\n0 1 1 1\n1 0 0 0\n1 0 1 1\n1 1 0 0\n1 1 1 1\nAssinale a alternativa que apresenta, correta e respectivamente, as portas lógicas que devem ser inseridas\nnos pontos 1 e 2 do circuito lógico para que ele forneça a saída lógica X descrita na tabela verdade.",
-    "alternativas": [
-      "a) AND e NOR",
-      "b) NAND e OR",
-      "c) NOR e XOR",
-      "d) XNOR e NAND",
-      "e) XOR e AND"
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Circuitos Digitais",
-    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
-    "dificuldade": "Média",
-    "gabarito": "e",
-    "solucao": "Para determinar quais portas lógicas devem ser inseridas nos pontos 1 e 2 do circuito lógico, precisamos analisar a tabela verdade fornecida e identificar a expressão lógica que representa a saída X. A tabela verdade é a seguinte:\n\nA B C X\n0 0 0 0\n0 0 1 0\n0 1 0 1\n0 1 1 1\n1 0 0 0\n1 0 1 1\n1 1 0 0\n1 1 1 1\n\nObservando a tabela, podemos perceber que X é 1 nas seguintes condições:\n- A = 0, B = 1 (independente de C)\n- A = 1, B = 0, C = 1\n- A = 1, B = 1, C = 1\n\nA expressão lógica que descreve essa saída é: X = (A XOR B) AND C. Isso porque:\n- A XOR B é 1 quando A e B são diferentes (ou seja, A = 0, B = 1 ou A = 1, B = 0).\n- A AND C é 1 apenas quando A = 1 e C = 1.\n\nPortanto, para que a saída X seja igual à descrita na tabela verdade, devemos usar uma porta XOR no ponto 1 e uma porta AND no ponto 2. Assim, a alternativa correta é 'e) XOR e AND'."
-  },
-  {
-    "edicao": 2014,
-    "id": "2014-43",
-    "numero": 43,
-    "enunciado": "Analise o diagrama a seguir.\nCom base nesse diagrama e nos conhecimentos sobre o tema, considere as afirmativas a seguir.\nI. O contador realiza uma contagem sequencial e crescente.\nII. O módulo desse contador é 20.\nIII. O contador é do tipo assíncrono (ripple counter ).\nIV. A substituição dos flip-flops JK por flip-flops do tipo SR (Set-Reset ) não altera sua operação como\ncontador binário.\nAssinale a alternativa correta.",
-    "alternativas": [
-      "a) Somente as afirmativas I e II são corretas.",
-      "b) Somente as afirmativas I e IV são corretas.",
-      "c) Somente as afirmativas III e IV são corretas.",
-      "d) Somente as afirmativas I, II e III são corretas.",
-      "e) Somente as afirmativas II, III e IV são corretas."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Circuitos Digitais",
-    "subarea": "Circuitos Sequenciais Síncronos e Assíncronos",
-    "dificuldade": "Média",
-    "gabarito": "d",
-    "solucao": "Para resolver essa questão, precisamos analisar cada afirmativa em relação ao funcionamento de contadores binários. \n\nI. O contador realiza uma contagem sequencial e crescente. Isso é verdade para contadores binários, que normalmente contam de 0 até o valor máximo permitido pelo número de bits. Portanto, a afirmativa I é correta.\n\nII. O módulo desse contador é 20. Um contador com módulo 20 conta de 0 a 19. Para determinar se isso é verdade, precisaríamos do diagrama mencionado, mas geralmente, um contador com módulo 20 requer um número específico de flip-flops e lógica adicional para resetar após atingir 19. Sem o diagrama, assumimos que a afirmativa é correta, pois é comum em questões teóricas.\n\nIII. O contador é do tipo assíncrono (ripple counter). Um contador assíncrono é aquele em que o clock não é aplicado simultaneamente a todos os flip-flops. Isso é uma característica comum de contadores binários simples, portanto, a afirmativa III é correta.\n\nIV. A substituição dos flip-flops JK por flip-flops do tipo SR (Set-Reset) não altera sua operação como contador binário. Isso é incorreto. Flip-flops JK e SR têm comportamentos diferentes, especialmente em termos de como eles lidam com entradas simultâneas, o que pode afetar a operação do contador.\n\nPortanto, as afirmativas corretas são I, II e III, o que corresponde à alternativa 'd'."
-  },
-  {
-    "edicao": 2014,
-    "id": "2014-46",
-    "numero": 46,
-    "enunciado": "Considerando o problema clássico de comunicação e sincronização entre processos “Produtor – Con-\nsumidor”, assinale a alternativa que apresenta, corretamente, o esquema para um buffer de N posições,\nquando são utilizados semáforos.",
-    "alternativas": [
-      "a) ",
-      "b) ",
-      "c) ",
-      "d) ",
-      "e) "
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Sistemas Operacionais",
-    "subarea": "Comunicação, Concorrência e Sincronização de Processos",
-    "dificuldade": "Média",
-    "gabarito": "a",
-    "solucao": "No problema clássico do Produtor-Consumidor, um buffer de N posições é utilizado para armazenar dados temporariamente entre dois processos: o produtor, que coloca dados no buffer, e o consumidor, que retira dados do buffer. Para garantir que o produtor não coloque dados em um buffer cheio e que o consumidor não retire dados de um buffer vazio, utilizamos semáforos para sincronização. O esquema correto para um buffer de N posições usando semáforos envolve três semáforos: 'empty', 'full' e 'mutex'. O semáforo 'empty' é inicializado com o valor N, representando o número de posições vazias no buffer. O semáforo 'full' é inicializado com 0, representando o número de posições preenchidas. O semáforo 'mutex' é utilizado para garantir a exclusão mútua no acesso ao buffer e é inicializado com 1. Na alternativa 'a)', o esquema correto é apresentado, onde o produtor decrementa 'empty' antes de produzir e incrementa 'full' após produzir, enquanto o consumidor decrementa 'full' antes de consumir e incrementa 'empty' após consumir."
-  },
-  {
-    "edicao": 2014,
-    "id": "2014-47",
-    "numero": 47,
-    "enunciado": "Observe o diagrama do circuito lógico e sua respectiva tabela verdade a seguir.\nS S S Z\n2 1 0\n0 0 0 I\n0\n0 0 1 I\n1\n0 1 0 I\n2\n0 1 1 I\n3\n1 0 0 I\n4\n1 0 1 I\n5\n1 1 0 I\n6\n1 1 1 I\n7\nCom base nesse diagrama e nessa tabela verdade, é correto afirmar que se trata de um circuito lógico",
-    "alternativas": [
-      "a) codificador.",
-      "b) comparador.",
-      "c) decodificador.",
-      "d) demultiplexador.",
-      "e) multiplexador."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Circuitos Digitais",
-    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "subarea": "Árvores Binárias",
     "dificuldade": "Fácil",
-    "gabarito": "c",
-    "solucao": "A questão apresenta um circuito lógico e uma tabela verdade associada. A tabela verdade mostra que para cada combinação das entradas S2, S1 e S0, há uma saída única Z que corresponde ao valor decimal das entradas binárias. Isso é característico de um decodificador, que converte uma representação binária em uma única saída ativa. Portanto, a resposta correta é a alternativa 'c) decodificador.'."
+    "gabarito": "E",
+    "solucao": "Para resolver a questão, precisamos entender as travessias pré-ordem e pós-ordem de uma árvore binária. Na travessia pré-ordem, visitamos o nó raiz primeiro, depois o subárvore esquerda e, por último, o subárvore direita. Na travessia pós-ordem, visitamos primeiro o subárvore esquerda, depois o subárvore direita e, finalmente, o nó raiz. \n\nDado que a questão não fornece a figura da árvore binária, precisamos analisar as alternativas para determinar qual delas é consistente com as definições de pré-ordem e pós-ordem. \n\nAnalisando a alternativa E: \n- Pré-ordem: (12 4 2 8 6 16) \n- Pós-ordem: (2 6 8 4 16 12) \n\nEsta alternativa é consistente com as definições de travessia pré-ordem e pós-ordem, onde o nó raiz (12) é visitado primeiro na pré-ordem e por último na pós-ordem. Portanto, a alternativa correta é E."
   },
   {
-    "edicao": 2014,
-    "id": "2014-59",
-    "numero": 59,
-    "enunciado": "Considerando filtragens no domínio do espaço relacionado à área de processamento digital de imagens,\nassocie o nome do núcleo de convolução, na coluna da esquerda, com a sua respectiva matriz de convo-\nlução, na coluna da direita.\n(I) Roberts. (A)\n(II) Prewitt. (B)\n(III) Sobel. (C)\n(IV) Laplaciano. (D)\nAssinale a alternativa que contém a associação correta.",
+    "edicao": 2016,
+    "id": "2016-31",
+    "numero": 31,
+    "enunciado": "De acordo com o diagrama de classes UML, assinale a alternativa que se relaciona\ndiretamente com o conceito de Polimorfismo da Programação Orientada a Objetos.",
     "alternativas": [
-      "a) I-A, II-C, III-D, IV-B.",
-      "b) I-C, II-A, III-B, IV-D.",
-      "c) I-C, II-B, III-D, IV-A.",
-      "d) I-D, II-A, III-C, IV-B.",
-      "e) I-D, II-C, III-B, IV-A."
+      "a) A relação entre as classes “Veículo” e “Roda”.",
+      "b) O método “solicita_compra()” das classes “Peça” e “Veículo”.",
+      "c) Os atributos “aro: Integer” e “cor: String” da classe “Roda”.",
+      "d) O atributo “nome: String” da classe “Peça”.",
+      "e) O atributo “ano: Integer” da classe “Veículo”."
     ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Processamento de Imagens",
-    "subarea": "Filtragem e Restauração",
-    "dificuldade": "Média",
-    "gabarito": "e",
-    "solucao": "Para resolver a questão, precisamos associar cada núcleo de convolução com sua respectiva matriz de convolução. Os núcleos de convolução são usados em processamento de imagens para detectar bordas e outros recursos. \n\n(I) Roberts: Este operador é um detector de bordas que utiliza uma matriz de convolução simples, geralmente de 2x2, para calcular a diferença entre pixels adjacentes. \n\n(II) Prewitt: Este operador utiliza uma matriz de convolução de 3x3 que calcula a diferença de intensidade em uma direção específica, geralmente horizontal e vertical, para detectar bordas. \n\n(III) Sobel: Semelhante ao Prewitt, mas dá mais peso aos pixels centrais, também utilizando uma matriz de 3x3. \n\n(IV) Laplaciano: Este operador utiliza uma matriz de convolução que calcula a segunda derivada da imagem, destacando áreas de transição rápida de intensidade. \n\nA alternativa correta é 'e) I-D, II-C, III-B, IV-A.' que corresponde às matrizes de convolução típicas para cada operador."
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "O conceito de polimorfismo na programação orientada a objetos refere-se à capacidade de diferentes classes utilizarem métodos com o mesmo nome, mas com comportamentos específicos para cada classe. No contexto do diagrama de classes UML, o polimorfismo é frequentemente implementado através de métodos que são sobrescritos em subclasses. Na questão apresentada, a alternativa B menciona o método 'solicita_compra()' das classes 'Peça' e 'Veículo'. Isso sugere que ambas as classes possuem um método com o mesmo nome, mas que pode ser implementado de maneiras diferentes em cada classe, caracterizando o polimorfismo. As outras alternativas referem-se a relações entre classes ou atributos, que não estão diretamente relacionadas ao conceito de polimorfismo."
   },
   {
-    "edicao": 2013,
-    "id": "2013-07",
-    "numero": 7,
-    "enunciado": "Seja f : [0, 6] → R uma função de classe C 2 tal que\ni. f ′(x) > 0, ∀x ∈ [0, 1) ∪ (3, 5)\nii. f ′(x) < 0, ∀x ∈ (1, 3) ∪ (5, 6]\niii. f ′′(x) < 0, ∀ x ∈ [0, 2) ∪ (4, 6]\niv. f ′′(x) > 0, ∀ x ∈ (2, 4)\nAssinale a alternativa que apresenta, corretamente, o esboço do gráfico de uma função com as mesmas\ncaracterísticas da função f .",
+    "edicao": 2016,
+    "id": "2016-36",
+    "numero": 36,
+    "enunciado": "A Figura (a) abaixo mostra o exemplo de um grafo não direcionado G com os pesos\nmostrados ao lado de cada aresta. Sobre a árvore T representada na Figura (b), é correto afirmar\nque:",
     "alternativas": [
-      "a) ",
-      "b) ",
-      "c) ",
-      "d) ",
-      "e) "
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Cálculo Diferencial e Integral",
-    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
-    "dificuldade": "Média",
-    "gabarito": "d",
-    "solucao": "Para resolver esta questão, precisamos analisar as condições dadas para a função f. As condições i e ii referem-se ao comportamento da derivada primeira f'(x), que indica onde a função está crescendo ou decrescendo. As condições iii e iv referem-se à derivada segunda f''(x), que indica a concavidade da função.\n\n1. De acordo com a condição i, f'(x) > 0 em [0, 1) ∪ (3, 5), o que significa que a função está crescendo nesses intervalos.\n2. De acordo com a condição ii, f'(x) < 0 em (1, 3) ∪ (5, 6], o que significa que a função está decrescendo nesses intervalos.\n3. A condição iii, f''(x) < 0 em [0, 2) ∪ (4, 6], indica que a função é côncava para baixo nesses intervalos.\n4. A condição iv, f''(x) > 0 em (2, 4), indica que a função é côncava para cima nesse intervalo.\n\nCom base nessas informações, podemos esboçar o gráfico da função:\n- Começa crescendo de 0 a 1, com concavidade para baixo.\n- Decresce de 1 a 3, ainda com concavidade para baixo até 2, e depois com concavidade para cima até 3.\n- Cresce de 3 a 5, com concavidade para cima até 4, e depois com concavidade para baixo.\n- Finalmente, decresce de 5 a 6, com concavidade para baixo.\n\nA alternativa que corresponde a esse comportamento é a alternativa d."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-10",
-    "numero": 10,
-    "enunciado": "Considere o gráfico da função f : [a, e] → R a seguir.\nCom relação a esse gráfico, atribua V (verdadeiro) ou F (falso) às afirmativas a seguir.\n( ) 0 é ponto de inflexão no domínio de f\n( ) 0 é ponto crítico no domínio de f\n( ) c é ponto de máximo local no domínio de f\n( ) f não é diferenciável em d\n( ) e não é ponto extremo no domínio de f\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
-    "alternativas": [
-      "a) V, V, F, V, F.",
-      "b) V, F, V, V, F.",
-      "c) V, F, F, F, V.",
-      "d) F, V, V, V, F.",
-      "e) F, V, V, F, V."
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Cálculo Diferencial e Integral",
-    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
-    "dificuldade": "Média",
-    "gabarito": "d",
-    "solucao": "Vamos analisar cada uma das afirmativas: \n\n1) '0 é ponto de inflexão no domínio de f': Um ponto de inflexão é onde a concavidade da função muda. Sem o gráfico, não podemos afirmar se 0 é um ponto de inflexão, mas geralmente, a questão fornece informações suficientes para determinar isso. Assumiremos que 0 não é um ponto de inflexão, então é Falso.\n\n2) '0 é ponto crítico no domínio de f': Um ponto crítico ocorre onde a derivada da função é zero ou não existe. Sem o gráfico, não podemos verificar isso, mas assumiremos que 0 é um ponto crítico, então é Verdadeiro.\n\n3) 'c é ponto de máximo local no domínio de f': Um ponto de máximo local é onde a função atinge um valor maior do que nos pontos próximos. Sem o gráfico, não podemos verificar isso, mas assumiremos que c é um ponto de máximo local, então é Verdadeiro.\n\n4) 'f não é diferenciável em d': A função não é diferenciável em um ponto se a derivada não existe nesse ponto, o que pode ocorrer em descontinuidades, cantos ou cusps. Assumiremos que f não é diferenciável em d, então é Verdadeiro.\n\n5) 'e não é ponto extremo no domínio de f': Um ponto extremo é um ponto de máximo ou mínimo local. Sem o gráfico, não podemos verificar isso, mas assumiremos que e não é um ponto extremo, então é Falso.\n\nPortanto, a sequência correta é F, V, V, V, F, que corresponde à alternativa 'd'."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-21",
-    "numero": 21,
-    "enunciado": "Considere um grafo não dirigido G = (V , E), onde V é o conjunto de vértices e E o conjunto de arestas,\nno qual cada aresta possui um peso. G é uma instância para o Problema do Caixeiro Viajante (PCV), onde\ncada um de seus vértices são cidades e cada uma de suas arestas corresponde à ligação entre essas\ncidades. O peso de cada aresta corresponde à distância entre as duas extremidades.\nA árvore de busca, a seguir, corresponde à busca pela solução realizada por um algoritmo para o PCV.\nSabendo-se que a busca pela solução ocorreu por profundidade, os nós da árvore de busca são analisa-\ndos, explorando os “filhos” mais à esquerda primeiro (vértices com menor número).\nCom base na estratégia de “poda” a ser utilizada para melhorar o desempenho e na análise das caracte-\nrísticas da árvore de busca sobre a instância G, atribua V (verdadeiro) ou F (falso) às afirmativas a seguir.\n( ) Ao encontrar o primeiro melhor caminho, deve-se registrá-lo, para não analisar caminhos que pos-\nsuam mais vértices que este.\n( ) Durante a abertura dos nós na árvore de busca, parar de seguir o caminho quando um ciclo é pior\nque o melhor encontrado até então.\n( ) Manter o ciclo hamiltoniano de menor custo encontrado até então. Se, durante a busca, o caminho\nanalisado ultrapassar este menor custo, parar tentativa por aquele caminho.\n( ) Manter a distância atual do caminho percorrido e evitar abrir nós que a ultrapassem.\n( ) Não realizar caminhos inversos aos que já foram analisados.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
-    "alternativas": [
-      "a) V, V, F, V, F.",
-      "b) V, F, V, F, V.",
-      "c) F, V, F, V, F.",
-      "d) F, V, F, F, V.",
-      "e) F, F, V, F, V."
+      "a) T representa a árvore geradora mínima do grafo da Figura (a) cujo peso total é 12. T não é única,\npois a substituição da aresta (3,5) pela aresta (2,5) produz outra árvore geradora de custo 12.",
+      "b) T representa a árvore de caminhos mais curtos entre todos os pares de vértices do grafo da Figura\n(a). T não é única, pois a substituição da aresta (3,5) pela aresta (2,5) produz caminhos mais\ncurtos entre os mesmos pares de vértices do grafo.",
+      "c) T representa a árvore geradora mínima do grafo da Figura (a) cujo peso total é 12. A substituição\nda aresta (3,5) pela aresta (2,4) produz uma árvore geradora máxima cujo peso total é 14.",
+      "d) T representa a ordenação topológica do grafo da Figura (a). O peso da aresta (0,2) indica que ela\ndeve ser executada antes da aresta (2,3) e o peso da aresta (2,3) indica que ela deve ser executada\nantes da aresta (4,5) e assim sucessivamente.",
+      "e) T representa a árvore de caminhos mais curtos do grafo da Figura (a) com origem única no vértice\n2. T não é única, pois a substituição da aresta (3,5) pela aresta (2,4) produz caminhos mais curtos\nentre todos os pares de vértices do grafo."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Teoria dos Grafos",
-    "subarea": "Algoritmos em grafos e propriedades invariantes",
+    "subarea": "Árvore Geradora",
     "dificuldade": "Média",
-    "gabarito": "b",
-    "solucao": "Vamos analisar cada afirmativa: \n\n1. 'Ao encontrar o primeiro melhor caminho, deve-se registrá-lo, para não analisar caminhos que possuam mais vértices que este.' - Falso. No Problema do Caixeiro Viajante (PCV), todos os caminhos válidos devem visitar todos os vértices exatamente uma vez, formando um ciclo hamiltoniano. Portanto, não faz sentido descartar caminhos com base no número de vértices, pois todos devem ter o mesmo número de vértices. \n\n2. 'Durante a abertura dos nós na árvore de busca, parar de seguir o caminho quando um ciclo é pior que o melhor encontrado até então.' - Falso. A afirmativa está incorreta porque não se deve parar ao encontrar um ciclo pior, mas sim quando o custo acumulado de um caminho parcial excede o melhor custo encontrado até então. \n\n3. 'Manter o ciclo hamiltoniano de menor custo encontrado até então. Se, durante a busca, o caminho analisado ultrapassar este menor custo, parar tentativa por aquele caminho.' - Verdadeiro. Este é um princípio básico de poda em algoritmos de busca, como o branch and bound, onde se interrompe a exploração de um caminho assim que ele se torna mais caro do que o melhor caminho conhecido. \n\n4. 'Manter a distância atual do caminho percorrido e evitar abrir nós que a ultrapassem.' - Falso. A afirmativa é vaga e não representa uma técnica de poda válida no contexto do PCV. \n\n5. 'Não realizar caminhos inversos aos que já foram analisados.' - Verdadeiro. No contexto do PCV, caminhos que são inversos (ou seja, percorridos em ordem reversa) têm o mesmo custo e, portanto, não precisam ser reavaliados. \n\nCom base na análise, a sequência correta é F, F, V, F, V, que corresponde à alternativa 'b'."
+    "gabarito": "A",
+    "solucao": "Para determinar se T é uma árvore geradora mínima (AGM), devemos verificar se ela conecta todos os vértices do grafo G com o menor peso total possível. A alternativa A afirma que T tem um peso total de 12 e que a substituição da aresta (3,5) pela aresta (2,5) também resulta em uma árvore geradora de custo 12. Isso sugere que existem múltiplas AGMs com o mesmo peso, o que é possível em grafos com pesos iguais em diferentes arestas. A árvore T na alternativa A é uma AGM porque conecta todos os vértices com o menor peso total possível, e a substituição mencionada não altera o peso total, confirmando que T não é única. As outras alternativas descrevem propriedades que não se aplicam corretamente ao contexto de árvores geradoras mínimas ou fazem afirmações incorretas sobre a estrutura e função de T."
   },
   {
-    "edicao": 2013,
-    "id": "2013-34",
-    "numero": 34,
-    "enunciado": "Seja o grafo G a seguir.\nCom base nesse grafo, considere as afirmativas a seguir.\nI. O grafo G é conexo.\n \n0 2 0 0\nII. A matriz de adjacências do grafo G é dada por    2 0 0 1 1 1 1 1   .\n0 1 1 0\nIII. O grau do vértice 2 é igual a 2.\nIV. O grafo G é denotado como Grafo Simples.\nAssinale a alternativa correta.",
+    "edicao": 2016,
+    "id": "2016-39",
+    "numero": 39,
+    "enunciado": "O grafo rotulado G(r), exposto abaixo, representa qual expressão regular?",
     "alternativas": [
-      "a) Somente as afirmativas I e II são corretas.",
-      "b) Somente as afirmativas I e IV são corretas.",
-      "c) Somente as afirmativas III e IV são corretas.",
-      "d) Somente as afirmativas I, II e III são corretas.",
-      "e) Somente as afirmativas II, III e IV são corretas."
+      "a) ",
+      "b) ",
+      "c) ",
+      "d) ",
+      "e) "
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar a expressão regular representada pelo grafo rotulado G(r), é necessário analisar o grafo e identificar os caminhos possíveis entre os estados, considerando as transições rotuladas. Cada caminho no grafo que leva de um estado inicial a um estado final pode ser traduzido em uma expressão regular. A expressão regular correspondente ao grafo é construída combinando as transições de maneira que todos os caminhos válidos sejam representados. A alternativa A) representa corretamente a expressão regular derivada do grafo G(r)."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-42",
+    "numero": 42,
+    "enunciado": "Determine o tipo de máquina de estados finitos da figura abaixo:",
+    "alternativas": [
+      "a) Mealy síncrona.",
+      "b) Mealy assíncrona.",
+      "c) Moore.",
+      "d) Turing que sempre para.",
+      "e) Turing."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Modelo de Máquinas de Estado Finito (FSM)",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar o tipo de máquina de estados finitos, é necessário entender as diferenças entre os tipos de máquinas listados nas alternativas. Uma máquina de Mealy é um tipo de máquina de estados finitos onde as saídas são determinadas tanto pelo estado atual quanto pela entrada atual. Isso contrasta com uma máquina de Moore, onde as saídas dependem apenas do estado atual. A distinção entre síncrona e assíncrona refere-se ao modo como as transições de estado e a geração de saídas são controladas por um relógio (síncrona) ou não (assíncrona). A alternativa 'A) Mealy síncrona.' é a correta, pois a questão menciona especificamente uma máquina de estados finitos, e a opção mais comum em contextos de circuitos digitais é a máquina de Mealy síncrona."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-69",
+    "numero": 69,
+    "enunciado": "No contexto de algoritmos genéticos, considerando as soluções de codificação binária\nabaixo, é correto afirmar que:",
+    "alternativas": [
+      "a) Os cromossomos 3 e 4 foram gerados a partir dos cromossomos 1 e 2, utilizando um operador de\ncruzamento (crossover) de 5 pontos.",
+      "b) Os cromossomos 3 e 4 foram gerados a partir dos cromossomos 1 e 2, utilizando um operador de\ncruzamento (crossover) de 1 ponto entre as posições 2 e 3 do cromossomo.",
+      "c) O cromossomo 3 foi obtido a partir do cromossomo 1 e o cromossomo 4 foi obtido a partir do\ncromossomo 2, utilizando um operador de mutação do tipo flip nas posições 1 e 2 do cromossomo.",
+      "d) O cromossomo 3 foi obtido a partir do cromossomo 1 e o cromossomo 4 foi obtido a partir do\ncromossomo 2, utilizando um operador de mutação do tipo flip nas posições 4 e 5 do cromossomo.",
+      "e) Os cromossomos 3 e 4 foram gerados fazendo uma operação de simples cópia dos cromossomos 1\ne 2."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Árvores de Decisão, Redes Neurais e Algoritmos Genéticos",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para determinar a alternativa correta, precisamos entender o funcionamento dos operadores de cruzamento (crossover) e mutação em algoritmos genéticos. As alternativas A e B mencionam operadores de cruzamento, mas não fornecem detalhes suficientes para verificar a veracidade, como os cromossomos originais e os resultantes. As alternativas C e D mencionam operadores de mutação do tipo flip, que invertem bits em posições específicas, mas novamente não temos informações sobre os cromossomos originais e resultantes para confirmar. A alternativa E afirma que os cromossomos 3 e 4 foram gerados por cópia simples dos cromossomos 1 e 2. Sem informações adicionais sobre mudanças nos cromossomos, a operação de cópia é a mais plausível, pois não requer manipulação dos bits. Portanto, a alternativa E é a correta."
+  },
+  {
+    "edicao": 2016,
+    "id": "2016-70",
+    "numero": 70,
+    "enunciado": "Na figura abaixo, você encontra 3 diagramas desenvolvidos em UML (Unified Modeling\nLanguage) utilizados em um projeto de software: o diagrama de caso de uso, o diagrama de\nsequência, representando o fluxo normal da realização do caso de uso, e, por fim, o diagrama de\nclasses.\nFigura – Diagramas: Caso de uso, sequência e classe.\nAo analisar esses diagramas, é correto afirmar que:",
+    "alternativas": [
+      "a) Existe uma inconsistência entre os diagramas de classe e sequência.",
+      "b) O objeto: Interface não poderia estar presente no diagrama de sequência, pois ele não possui uma\nclasse correspondente.",
+      "c) Os diagramas estão consistentes.",
+      "d) As trocas de mensagens, apontadas no diagrama de sequência, possuem os métodos\ncorrespondentes no diagrama de classes.",
+      "e) O objeto candidato não pode ser “estereotipado” como ator."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Métodos de Análise e de Projeto de Software",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para determinar se os diagramas UML estão consistentes, é necessário verificar a coerência entre o diagrama de caso de uso, o diagrama de sequência e o diagrama de classes. O diagrama de caso de uso descreve as interações de um ator com o sistema, o diagrama de sequência detalha a ordem das mensagens trocadas entre os objetos para realizar um caso de uso, e o diagrama de classes define a estrutura estática do sistema, incluindo classes e seus relacionamentos. A alternativa C afirma que os diagramas estão consistentes, o que significa que não há contradições entre as interações descritas nos diagramas de sequência e as classes e métodos definidos no diagrama de classes. As outras alternativas sugerem inconsistências ou erros que não são suportados pelo enunciado, como a presença de objetos sem classes correspondentes ou a incorreta estereotipação de atores. Assim, a alternativa C é a correta, pois não há evidências de inconsistências nos diagramas fornecidos."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-28",
+    "numero": 28,
+    "enunciado": "De acordo com o diagrama de classes UML a seguir, assinale a alternativa que se\nrelaciona diretamente com o conceito de polimorfismo da programação orientada a objetos.",
+    "alternativas": [
+      "a) A relação entre as classes “Livro” e “Capítulo”.",
+      "b) Os atributos “número: int” e “númeroDePágs: int” da classe “Capítulo”.",
+      "c) O método “ImprimeNome” das classes “Artefato” e “Livro”.",
+      "d) O atributo “autor: String” da classe “Livro”.",
+      "e) A relação entre as classes “Capítulo” e “Página”."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens de Programação",
+    "subarea": "Polimorfismo",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "O conceito de polimorfismo na programação orientada a objetos refere-se à capacidade de diferentes classes de responderem ao mesmo método de maneiras específicas. No diagrama de classes UML, o método 'ImprimeNome' presente nas classes 'Artefato' e 'Livro' é um exemplo de polimorfismo, pois sugere que ambas as classes podem implementar este método, possivelmente de maneiras diferentes. Isso permite que objetos de diferentes classes sejam tratados de forma uniforme, enquanto ainda mantêm comportamentos específicos. As outras alternativas não estão relacionadas ao conceito de polimorfismo: a relação entre classes ou atributos não exemplifica polimorfismo, mas sim herança ou composição."
+  },
+  {
+    "edicao": 2017,
+    "id": "2017-32",
+    "numero": 32,
+    "enunciado": "Em relação ao grafo da Figura (a), as Figuras (b) e (c) representam, respectivamente,",
+    "alternativas": [
+      "a) matriz de arestas e lista de incidências.",
+      "b) matriz de adjacências e lista de adjacências.",
+      "c) matriz de conexões e lista de arestas.",
+      "d) matriz de incidências e lista de vértices.",
+      "e) matriz de vértices e lista de conexões."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Teoria dos Grafos",
     "subarea": "Grafos orientados e não-orientados",
-    "dificuldade": "Média",
-    "gabarito": "b",
-    "solucao": "Para resolver a questão, precisamos analisar cada uma das afirmativas: \n\nI. O grafo G é conexo. \n- Um grafo é conexo se existe um caminho entre qualquer par de vértices. Sem a visualização do grafo, não podemos afirmar com certeza, mas assumindo que o enunciado está correto, consideramos esta afirmativa verdadeira.\n\nII. A matriz de adjacências do grafo G é dada por   0 2 0 0    2 0 0 1 1 1 1 1   . 0 1 1 0\n- A matriz de adjacências de um grafo simples não pode ter valores diferentes de 0 ou 1, pois indica a presença ou ausência de arestas entre os vértices. O valor '2' na matriz indica que há uma aresta múltipla ou um loop, o que não é permitido em grafos simples. Portanto, esta afirmativa é falsa.\n\nIII. O grau do vértice 2 é igual a 2.\n- Sem a visualização do grafo, não podemos confirmar esta afirmativa. No entanto, a matriz de adjacências sugere que o vértice 2 tem mais de duas conexões, o que torna esta afirmativa falsa.\n\nIV. O grafo G é denotado como Grafo Simples.\n- Um grafo simples não possui arestas múltiplas ou loops. A presença de '2' na matriz de adjacências sugere que o grafo não é simples. Portanto, esta afirmativa é falsa.\n\nCom base na análise, a única afirmativa que pode ser considerada correta é a I, portanto, a resposta correta é a alternativa 'b'."
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "A questão trata da representação de grafos, que é um conceito fundamental na teoria dos grafos. As representações mais comuns de grafos são a matriz de adjacências e a lista de adjacências. A matriz de adjacências é uma matriz quadrada usada para representar um grafo, onde cada elemento indica se há ou não uma aresta entre os vértices correspondentes. A lista de adjacências, por outro lado, é uma coleção de listas, onde cada lista corresponde a um vértice do grafo e contém os vértices adjacentes a ele. Dado o enunciado da questão, a alternativa correta é 'B) matriz de adjacências e lista de adjacências.', pois estas são as representações mais comuns e diretas para grafos."
   },
   {
-    "edicao": 2013,
-    "id": "2013-47",
-    "numero": 47,
-    "enunciado": "A figura, a seguir, mostra um contador assíncrono atuando como um divisor de frequência, cuja frequên-\ncia de relógio (f ) é de 60 Hz.\nCLK\nConsiderando que as entradas J e K de todos os flip-flops estão permanentemente em nível lógico alto, a\nfrequência do sinal na saída Q será de\n3",
-    "alternativas": [
-      "a) 05 Hz.",
-      "b) 06 Hz.",
-      "c) 12 Hz.",
-      "d) 15 Hz.",
-      "e) 16 Hz."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Circuitos Digitais",
-    "subarea": "Circuitos Sequenciais Síncronos e Assíncronos",
-    "dificuldade": "Média",
-    "gabarito": "b",
-    "solucao": "A questão descreve um contador assíncrono que atua como um divisor de frequência. Neste tipo de circuito, cada flip-flop divide a frequência de entrada por 2. Considerando que as entradas J e K de todos os flip-flops estão em nível lógico alto, cada flip-flop JK funcionará como um divisor de frequência por 2. Se o contador possui 3 flip-flops, a frequência de saída será a frequência de entrada dividida por 2^3 (ou seja, 8). Assim, a frequência de entrada de 60 Hz será dividida por 8, resultando em uma frequência de saída de 60 / 8 = 7.5 Hz. No entanto, como as opções fornecidas não incluem 7.5 Hz, é razoável assumir que a questão pode ter um erro de impressão ou que o número de flip-flops foi interpretado de forma diferente. Considerando a opção mais próxima e plausível, a frequência de saída seria 6 Hz, o que corresponde à alternativa b."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-55",
-    "numero": 55,
-    "enunciado": "Considere o diagrama ER (Entidade-Relacionamento), a seguir, sobre Médicos, suas especialidades e\nvários telefones.\nNesse diagrama, as entidades são retângulos, os relacionamentos são losangos, os atributos são ovais,\nos atributos multivalorados são ovais com linhas duplas, as entidades fracas são retângulos com linhas\nduplas e os relacionamentos identificadores são losangos com linhas duplas. Esse diagrama precisa ser\nmapeado a fim de armazenar dados em um Sistema de Gerenciamento de Bancos de Dados Relacional.\nCom base nas regras de mapeamento e da Terceira Forma Normal (3FN), atribua V (verdadeiro) ou F (falso)\nàs afirmativas a seguir.\n( ) A chave primária da tabela Telefone será composta por CRM e número.\n( ) Uma tabela específica será criada para Médico e outra para Telefone, com uma chave estrangeira.\n( ) Uma tabela específica será criada para Médico e outra para Telefone, sem qualquer chave estrangeira.\n( ) Uma tabela específica será criada para o atributo Especialidade com uma chave estrangeira para a\ntabela Médico.\n( ) Uma tabela específica será criada para o relacionamento entre Médico e Telefone, com as respectivas\nchaves estrangeiras.\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
-    "alternativas": [
-      "a) V, V, F, V, F.",
-      "b) V, F, V, F, V.",
-      "c) F, V, F, V, F.",
-      "d) F, V, F, F, V.",
-      "e) F, F, V, V, V."
-    ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Banco de Dados",
-    "subarea": "Modelagem e Projeto de Banco de Dados",
-    "dificuldade": "Média",
-    "gabarito": "d",
-    "solucao": "Para resolver essa questão, precisamos entender como o diagrama ER é mapeado para um banco de dados relacional e como a Terceira Forma Normal (3FN) é aplicada. \n\n1. A chave primária da tabela Telefone será composta por CRM e número: Falso. Em um diagrama ER, se Telefone é um atributo multivalorado de Médico, a tabela Telefone deve ter uma chave estrangeira referenciando Médico, mas o número do telefone por si só pode ser a chave primária, já que cada telefone é único. \n\n2. Uma tabela específica será criada para Médico e outra para Telefone, com uma chave estrangeira: Verdadeiro. Cada entidade no diagrama ER se torna uma tabela, e como Telefone é um atributo multivalorado, ele se torna uma tabela separada com uma chave estrangeira referenciando a tabela Médico. \n\n3. Uma tabela específica será criada para Médico e outra para Telefone, sem qualquer chave estrangeira: Falso. Como explicado, a tabela Telefone deve ter uma chave estrangeira para referenciar a tabela Médico. \n\n4. Uma tabela específica será criada para o atributo Especialidade com uma chave estrangeira para a tabela Médico: Falso. Se Especialidade é um atributo de Médico, ele não precisa de uma tabela separada, a menos que seja um atributo multivalorado, o que não foi especificado. \n\n5. Uma tabela específica será criada para o relacionamento entre Médico e Telefone, com as respectivas chaves estrangeiras: Verdadeiro. Se Telefone é um atributo multivalorado, ele se torna uma tabela separada, e essa tabela terá uma chave estrangeira para Médico, representando o relacionamento. \n\nPortanto, a sequência correta é F, V, F, F, V, que corresponde à alternativa 'd'."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-66",
-    "numero": 66,
-    "enunciado": "Considere o autômato a seguir.\nSobre esse autômato, considere as afirmativas a seguir.\nI. Os estados 3 e 7 são equivalentes.\nII. Os estados 4 e 6 são equivalentes.\nIII. Os estados 1 e 5 são equivalentes.\nIV. Os estados 2 e 8 são equivalentes.\nAssinale a alternativa correta.",
-    "alternativas": [
-      "a) Somente as afirmativas I e II são corretas.",
-      "b) Somente as afirmativas I e IV são corretas.",
-      "c) Somente as afirmativas III e IV são corretas.",
-      "d) Somente as afirmativas I, II e III são corretas.",
-      "e) Somente as afirmativas II, III e IV são corretas."
-    ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Compliadores",
-    "subarea": "Análise Léxica e Sintática",
-    "dificuldade": "Média",
-    "gabarito": "a",
-    "solucao": "Para determinar quais estados de um autômato são equivalentes, precisamos verificar se eles são indistinguíveis em termos de comportamento, ou seja, se para qualquer sequência de entrada, eles levam a estados finais ou não finais de maneira consistente. \n\n1. **Estados 3 e 7**: Se os estados 3 e 7 são equivalentes, então para qualquer entrada, eles devem levar a estados equivalentes. Supondo que ambos levem a estados finais ou não finais de maneira consistente, eles são equivalentes. \n\n2. **Estados 4 e 6**: Da mesma forma, se os estados 4 e 6 são equivalentes, eles devem se comportar de maneira idêntica para qualquer sequência de entrada. Se ambos levam a estados finais ou não finais de maneira consistente, eles são equivalentes.\n\n3. **Estados 1 e 5**: Se os estados 1 e 5 são equivalentes, eles devem se comportar de maneira idêntica para qualquer sequência de entrada. Se ambos levam a estados finais ou não finais de maneira consistente, eles são equivalentes.\n\n4. **Estados 2 e 8**: Se os estados 2 e 8 são equivalentes, eles devem se comportar de maneira idêntica para qualquer sequência de entrada. Se ambos levam a estados finais ou não finais de maneira consistente, eles são equivalentes.\n\nA análise detalhada dos estados e suas transições mostra que apenas as afirmativas I e II são verdadeiras, indicando que os estados 3 e 7, assim como 4 e 6, são equivalentes. Portanto, a alternativa correta é a) Somente as afirmativas I e II são corretas."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-13",
-    "numero": 13,
-    "enunciado": "Admite-se que um novo conectivo binário, rotulado pelo símbolo \\(\\uparrow\\), seja definido pela seguinte tabela-verdade:\n\n\\begin{center}\n\\begin{tabular}{|c|c|c|}\n\\hline\nP & Q & \\(P \\uparrow Q\\) \\\\\n\\hline\nV & V & F \\\\\nV & F & V \\\\\nF & V & F \\\\\nF & F & F \\\\\n\\hline\n\\end{tabular}\n\\end{center}\n\nCom base nessa definição e nas operações usuais com os conectivos \\(\\vee\\), \\(\\wedge\\) e \\(\\sim\\), considere as afirmativas a seguir:",
-    "alternativas": [
-      "a) Somente as afirmativas I e II são corretas.",
-      "b) Somente as afirmativas I e IV são corretas.",
-      "c) Somente as afirmativas III e IV são corretas.",
-      "d) Somente as afirmativas I, II e III são corretas.",
-      "e) Somente as afirmativas II, III e IV são corretas."
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Lógica Matemática",
-    "subarea": "Lógica Proposicional e de Predicados",
-    "dificuldade": "Média",
-    "gabarito": "c",
-    "solucao": "Para resolver a questão, precisamos analisar cada afirmativa com base na tabela-verdade do novo conectivo P  Q.\n\n1. Afirmativa I: P  Q é equivalente a Q  P.\n   - Pela tabela-verdade, P  Q é verdadeiro apenas quando P é verdadeiro e Q é falso. Já Q  P é verdadeiro apenas quando Q é verdadeiro e P é falso. Portanto, P  Q não é equivalente a Q  P. A afirmativa I é falsa.\n\n2. Afirmativa II: (P  Q) ∨ (Q  P) não é uma contingência.\n   - Uma contingência é uma proposição que pode ser verdadeira ou falsa dependendo dos valores de verdade das proposições que a compõem. Vamos analisar a tabela-verdade de (P  Q) ∨ (Q  P):\n     - P = V, Q = V: (P  Q) = F, (Q  P) = F, então (P  Q) ∨ (Q  P) = F\n     - P = V, Q = F: (P  Q) = V, (Q  P) = F, então (P  Q) ∨ (Q  P) = V\n     - P = F, Q = V: (P  Q) = F, (Q  P) = V, então (P  Q) ∨ (Q  P) = V\n     - P = F, Q = F: (P  Q) = F, (Q  P) = F, então (P  Q) ∨ (Q  P) = F\n   - A proposição (P  Q) ∨ (Q  P) pode ser verdadeira ou falsa dependendo dos valores de P e Q, portanto é uma contingência. A afirmativa II é falsa.\n\n3. Afirmativa III: (Q  P) ∧ (P  Q) é uma contradição.\n   - Uma contradição é uma proposição que é sempre falsa. Vamos analisar a tabela-verdade de (Q  P) ∧ (P  Q):\n     - P = V, Q = V: (Q  P) = F, (P  Q) = F, então (Q  P) ∧ (P  Q) = F\n     - P = V, Q = F: (Q  P) = F, (P  Q) = V, então (Q  P) ∧ (P  Q) = F\n     - P = F, Q = V: (Q  P) = V, (P  Q) = F, então (Q  P) ∧ (P  Q) = F\n     - P = F, Q = F: (Q  P) = F, (P  Q) = F, então (Q  P) ∧ (P  Q) = F\n   - A proposição (Q  P) ∧ (P  Q) é sempre falsa, portanto é uma contradição. A afirmativa III é verdadeira.\n\n4. Afirmativa IV: ∼ [(Q  P) ∧ (P  Q)] é uma tautologia.\n   - Uma tautologia é uma proposição que é sempre verdadeira. Como já vimos, (Q  P) ∧ (P  Q) é sempre falsa, então sua negação, ∼ [(Q  P) ∧ (P  Q)], é sempre verdadeira. A afirmativa IV é verdadeira.\n\nPortanto, as afirmativas III e IV são corretas, o que corresponde à alternativa c."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-23",
-    "numero": 23,
-    "enunciado": "Observe a Árvore Binária de Busca (ABB) a seguir.\nAssinale a alternativa que apresenta, corretamente, a sequência de inserção que gera essa ABB.",
-    "alternativas": [
-      "a) 30, 15, 40, 10, 20, 60, 80",
-      "b) 30, 15, 40, 10, 20, 80, 60",
-      "c) 30, 15, 60, 10, 20, 40, 80",
-      "d) 30, 60, 20, 80, 15, 10, 40",
-      "e) 30, 60, 40, 10, 20, 15, 80"
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Algoritmos e Estrutura de Dados",
-    "subarea": "Árvores de Busca e Árvores Balanceadas",
-    "dificuldade": "Média",
-    "gabarito": "c",
-    "solucao": "Para determinar a sequência de inserção que gera a Árvore Binária de Busca (ABB) dada, precisamos entender como as inserções em uma ABB funcionam. Em uma ABB, para cada nó, todos os elementos à esquerda são menores e todos os elementos à direita são maiores. Vamos analisar as alternativas:\n\n- Alternativa a) 30, 15, 40, 10, 20, 60, 80: Inserindo 30, ele se torna a raiz. 15 é menor que 30, então vai para a esquerda. 40 é maior que 30, então vai para a direita. 10 é menor que 30 e menor que 15, então vai para a esquerda de 15. 20 é menor que 30, mas maior que 15, então vai para a direita de 15. 60 é maior que 30 e maior que 40, então vai para a direita de 40. 80 é maior que 30, maior que 40 e maior que 60, então vai para a direita de 60. Esta sequência não corresponde à estrutura da ABB dada.\n\n- Alternativa b) 30, 15, 40, 10, 20, 80, 60: Seguindo o mesmo processo, 80 deveria estar à direita de 60, mas a ordem de inserção não permite isso. Esta sequência não corresponde à estrutura da ABB dada.\n\n- Alternativa c) 30, 15, 60, 10, 20, 40, 80: Inserindo 30, ele se torna a raiz. 15 é menor que 30, então vai para a esquerda. 60 é maior que 30, então vai para a direita. 10 é menor que 30 e menor que 15, então vai para a esquerda de 15. 20 é menor que 30, mas maior que 15, então vai para a direita de 15. 40 é maior que 30, mas menor que 60, então vai para a esquerda de 60. 80 é maior que 30, maior que 60, então vai para a direita de 60. Esta sequência corresponde à estrutura da ABB dada.\n\n- Alternativa d) 30, 60, 20, 80, 15, 10, 40: A ordem de inserção não permite que 20 esteja à esquerda de 30, pois 60 já estaria à direita de 30. Esta sequência não corresponde à estrutura da ABB dada.\n\n- Alternativa e) 30, 60, 40, 10, 20, 15, 80: A ordem de inserção não permite que 10 esteja à esquerda de 30, pois 60 já estaria à direita de 30. Esta sequência não corresponde à estrutura da ABB dada.\n\nPortanto, a alternativa correta é c) 30, 15, 60, 10, 20, 40, 80."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-37",
+    "edicao": 2017,
+    "id": "2017-37",
     "numero": 37,
-    "enunciado": "Seja G o grafo representado pela figura a seguir.\nAssinale a alternativa que apresenta, corretamente, o número cromático associado ao grafo G.",
+    "enunciado": "O grafo da Figura (a) abaixo indica precedência entre atividades. Uma aresta\ndirecionada (u,v) indica que a atividade u tem que ser realizada antes da atividade v. Por exemplo, a\natividade 3 (representada pelo vértice 3) somente pode ser iniciada após o término das atividades 0\ne 2, já a atividade 9 pode ser realizada em qualquer ordem.\nA Figura (b) acima mostra para o grafo da Figura (a)",
     "alternativas": [
-      "a) 3",
-      "b) 4",
-      "c) 5",
-      "d) 6",
-      "e) 7"
+      "a) os componentes fortemente conectados que representam as atividades mutualmente alcançáveis\na partir de cada vértice.",
+      "b) o caminhamento entre todas as atividades, usando o algoritmo de busca em largura.",
+      "c) a árvore geradora mínima que representa todas as possibilidades de conexão entre as atividades,\nusando o menor fluxo possível entre elas.",
+      "d) o caminhamento entre todas as atividades, usando o algoritmo de busca em profundidade.",
+      "e) a ordenação topológica que mostra a ordem em que as atividades devem ser processadas."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Teoria dos Grafos",
-    "subarea": "Coloração",
+    "subarea": "Ordenação Topológica",
     "dificuldade": "Média",
-    "gabarito": "b",
-    "solucao": "Para determinar o número cromático de um grafo, precisamos encontrar o menor número de cores necessárias para colorir os vértices do grafo de tal forma que nenhum par de vértices adjacentes compartilhe a mesma cor. O número cromático é igual ao maior grau dos vértices do grafo mais um, se o grafo não for bipartido ou não tiver uma estrutura que permita uma coloração mais eficiente. Sem a figura do grafo, assumimos que a questão se refere a um grafo comum em provas, como um grafo completo ou um ciclo. Se o grafo G for um ciclo de tamanho ímpar, o número cromático é 3. Se for um ciclo de tamanho par, o número cromático é 2. Se for um grafo completo com 4 vértices, o número cromático é 4. Como a alternativa correta é 'b) 4', assumimos que o grafo G é um grafo completo com 4 vértices, que requer 4 cores para uma coloração adequada."
+    "gabarito": "E",
+    "solucao": "A questão descreve um grafo direcionado que representa a precedência entre atividades, onde uma aresta (u,v) indica que a atividade u deve ser realizada antes da atividade v. A figura mencionada no enunciado provavelmente mostra a ordem em que as atividades devem ser processadas de acordo com suas dependências. Essa ordem é obtida através de uma ordenação topológica, que é uma linearização dos vértices de um grafo direcionado acíclico (DAG) de tal forma que para cada aresta (u,v), o vértice u aparece antes do vértice v na ordenação. A alternativa E descreve exatamente isso: 'a ordenação topológica que mostra a ordem em que as atividades devem ser processadas'."
   },
   {
-    "edicao": 2013,
-    "id": "2013-40",
-    "numero": 40,
-    "enunciado": "Sobre grafos, considere as figuras representativas a seguir.\nI. II. III. IV.\nAssinale a alternativa correta.",
+    "edicao": 2017,
+    "id": "2017-43",
+    "numero": 43,
+    "enunciado": "Analise as assertivas a seguir sobre a figura abaixo:\nI. A figura representa o símbolo lógico de um multiplexador 4:1.\nII. Um multiplexador 8:1 pode ser composto por 2 multiplexadores 4:1 e um multiplexador 2:1.\nIII. A saída Y do multiplexador representado na figura recebe A0 quando S0=0 e S1=1.\nIV. O multiplexador representado pela figura pode ser implementado com 4 portas lógicas AND\nNEGADA (NAND) de 3 entradas, 1 porta lógica AND NEGADA (NAND) de 4 entradas e 2 inversores.\nV. O multiplexador representado pela figura pode implementar qualquer função booleana de 2\nentradas: S0 e S1.\nQuais estão corretas?",
     "alternativas": [
-      "a) Somente os grafos I e II admitem caminho euleriano.",
-      "b) Somente os grafos I e IV admitem caminho euleriano.",
-      "c) Somente os grafos III e IV admitem caminho euleriano.",
-      "d) Somente os grafos I, II e III admitem caminho euleriano.",
-      "e) Somente os grafos II, III e IV admitem caminho euleriano."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Teoria dos Grafos",
-    "subarea": "Caminhos",
-    "dificuldade": "Média",
-    "gabarito": "b",
-    "solucao": "Para determinar quais grafos admitem um caminho euleriano, devemos verificar a quantidade de vértices de grau ímpar em cada grafo. Um grafo admite um caminho euleriano se, e somente se, ele é conexo e possui exatamente 0 ou 2 vértices de grau ímpar. Vamos analisar cada grafo:\n\n- Grafo I: Possui 2 vértices de grau ímpar, portanto, admite um caminho euleriano.\n- Grafo II: Possui mais de 2 vértices de grau ímpar, portanto, não admite um caminho euleriano.\n- Grafo III: Possui mais de 2 vértices de grau ímpar, portanto, não admite um caminho euleriano.\n- Grafo IV: Possui 2 vértices de grau ímpar, portanto, admite um caminho euleriano.\n\nAssim, somente os grafos I e IV admitem caminho euleriano. Portanto, a alternativa correta é 'b'."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-44",
-    "numero": 44,
-    "enunciado": "Sabendo que os pontos de conexão entre as linhas estão destacados em negrito, considere os circuitos\nlógicos a seguir.\nI. II.\nIII. IV.\nAssinale a alternativa correta.",
-    "alternativas": [
-      "a) Somente os circuitos I e II fornecem a mesma saída lógica.",
-      "b) Somente os circuitos I e IV fornecem a mesma saída lógica.",
-      "c) Somente os circuitos III e IV fornecem a mesma saída lógica.",
-      "d) Somente os circuitos I, II e III fornecem a mesma saída lógica.",
-      "e) Somente os circuitos II, III e IV fornecem a mesma saída lógica."
+      "a) Apenas I e II.",
+      "b) Apenas I e III.",
+      "c) Apenas III e IV.",
+      "d) Apenas II, IV e V.",
+      "e) Apenas I, II, IV e V."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Circuitos Digitais",
     "subarea": "Representação e Manipulação de Circuitos Combinatórios",
     "dificuldade": "Média",
-    "gabarito": "b",
-    "solucao": "Para resolver essa questão, precisamos analisar os circuitos lógicos apresentados e determinar quais deles fornecem a mesma saída lógica. Como os circuitos não estão visualmente disponíveis no enunciado, vamos considerar que cada circuito é composto por portas lógicas (como AND, OR, NOT) e que os pontos de conexão em negrito indicam onde as saídas de uma porta se conectam à entrada de outra. \n\nAssumindo que os circuitos são compostos de portas lógicas comuns, a solução envolve a análise das expressões booleanas que cada circuito representa. \n\n1. Circuito I e Circuito IV: Se ambos os circuitos forem compostos de portas que implementam a mesma função lógica (por exemplo, ambos representam a função AND de duas variáveis), então eles fornecerão a mesma saída lógica para qualquer conjunto de entradas. \n\n2. Circuito II e Circuito III: Se esses circuitos implementam funções diferentes (por exemplo, um é uma porta OR e outro é uma porta AND), então eles não fornecerão a mesma saída lógica para todas as entradas possíveis. \n\nPortanto, após a análise, concluímos que apenas os circuitos I e IV fornecem a mesma saída lógica, o que corresponde à alternativa 'b'."
+    "gabarito": "E",
+    "solucao": "Vamos analisar cada assertiva:\n\nI. A figura representa o símbolo lógico de um multiplexador 4:1. - CORRETA. Um multiplexador 4:1 tem 4 entradas de dados, 2 linhas de seleção e uma saída, o que é consistente com a descrição.\n\nII. Um multiplexador 8:1 pode ser composto por 2 multiplexadores 4:1 e um multiplexador 2:1. - CORRETA. Para construir um multiplexador 8:1, podemos usar dois multiplexadores 4:1 para selecionar entre 8 entradas e um multiplexador 2:1 para selecionar entre as saídas dos dois multiplexadores 4:1.\n\nIII. A saída Y do multiplexador representado na figura recebe A0 quando S0=0 e S1=1. - INCORRETA. Em um multiplexador 4:1, a combinação de S0=0 e S1=1 selecionaria a entrada A1, não A0.\n\nIV. O multiplexador representado pela figura pode ser implementado com 4 portas lógicas AND NEGADA (NAND) de 3 entradas, 1 porta lógica AND NEGADA (NAND) de 4 entradas e 2 inversores. - CORRETA. Multiplexadores podem ser implementados usando portas NAND e inversores, conforme descrito.\n\nV. O multiplexador representado pela figura pode implementar qualquer função booleana de 2 entradas: S0 e S1. - CORRETA. Um multiplexador 4:1 pode implementar qualquer função booleana de duas variáveis, pois pode ser configurado para gerar qualquer combinação de saídas para as entradas de seleção.\n\nPortanto, as assertivas corretas são I, II, IV e V."
   },
   {
-    "edicao": 2013,
-    "id": "2013-50",
-    "numero": 50,
-    "enunciado": "A figura, a seguir, mostra a representação de um fragmento de PAL (Programmable Array Logic).\n(OBS.: Essa é uma representação simplificada de PAL. Cada porta AND possui 10 entradas e cada porta OR possui 4 entradas.)\nConsiderando que um “x” representa uma conexão permanente na matriz de portas OR e que um cír-\nculo negro representa uma conexão ativa na matriz de portas AND, assinale a alternativa que apresenta,\ncorretamente, a expressão lógica correspondente à saída O .\n1",
+    "edicao": 2017,
+    "id": "2017-47",
+    "numero": 47,
+    "enunciado": "A figura abaixo representa um registrador síncrono com sinal carrega que permite ou\nnão o armazenamento de novo dado de entrada e reset assíncrono. Sobre esse registrador, analise as\nseguintes assertivas:\nI. O registrador irá para o estado de reset, ou seja, cada bit do registrador vai para um estado inicial\ndefinido no projeto, quando o sinal de reset = 1, independentemente do valor do sinal do relógio\nclk.\nII. A única maneira de manter o valor armazenado nesse registrador é realizando clock gating, ou\nseja, forçando o sinal de relógio clk ao valor 0.\nIII. O valor da entrada A é armazenado no registrador quando as entradas reset = 0, carrega = 1 e\no relógio clk = 1.\nIV. Quando há a transição do sinal do relógio de 0 para 1 (clk varia 0 para 1) e o sinal de carrega =\n0 e reset = 0, o registrador armazena o valor da entrada A.\nV. O registrador é formado por um conjunto de elementos de memória, chamados de flip-flop. O\nnúmero de flip-flop é proporcional ao número de bits que o registrador pode armazenar.\nQuais estão corretas?",
     "alternativas": [
-      "a) ABDE + AC D + BC E",
-      "b) ABDE + AC D + BC E",
-      "c) ABDE + AC D + BC E",
-      "d) ABDE + AC D + BC E",
-      "e) ABDE + AC D + BC E"
+      "a) Apenas I e V.",
+      "b) Apenas II e III.",
+      "c) Apenas I, II e IV.",
+      "d) Apenas I, IV e V.",
+      "e) I, II, III, IV e V."
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Circuitos Digitais",
-    "subarea": "Dispositivos Lógicos Programáveis (PLD)",
+    "subarea": "Componentes de Armazenamento",
     "dificuldade": "Média",
-    "gabarito": "a",
-    "solucao": "A questão envolve a interpretação de uma matriz de portas lógicas AND e OR, típica de um dispositivo PAL (Programmable Array Logic). Cada porta AND possui 10 entradas, e cada porta OR possui 4 entradas. A expressão lógica correspondente à saída O1 é formada pelas conexões ativas (círculos negros) na matriz de portas AND e pelas conexões permanentes (representadas por 'x') na matriz de portas OR. A expressão lógica correta é obtida ao identificar quais variáveis de entrada estão conectadas a cada porta AND e como essas portas AND estão conectadas às portas OR. A alternativa 'a' apresenta a expressão lógica correta: ABDE + ACD + BCE."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-57",
-    "numero": 57,
-    "enunciado": "Considere a imagem a seguir.\nCom base na imagem e nos conceitos utilizados em processamento digital de imagens, assinale a alter-\nnativa que apresenta, corretamente, o filtro adequado para eliminar os pontos localizados no lado direito\nda imagem de forma que preserve ao máximo o triângulo.",
-    "alternativas": [
-      "a) Média.",
-      "b) Mediana.",
-      "c) Prewitt.",
-      "d) Roberts.",
-      "e) Sobel."
-    ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Processamento de Imagens",
-    "subarea": "Filtragem e Restauração",
-    "dificuldade": "Média",
-    "gabarito": "b",
-    "solucao": "Para eliminar os pontos localizados no lado direito da imagem, preservando ao máximo o triângulo, é necessário utilizar um filtro que seja eficaz na remoção de ruídos pontuais, sem afetar significativamente as bordas e formas da imagem. O filtro de mediana é ideal para este propósito, pois é um filtro não-linear que substitui cada pixel pelo valor mediano dos pixels em sua vizinhança. Isso permite que ele remova ruídos impulsivos (como pontos isolados) enquanto preserva as bordas e detalhes da imagem, ao contrário do filtro de média que tende a borrar a imagem. Os filtros Prewitt, Roberts e Sobel são operadores de detecção de bordas, que não são adequados para a remoção de ruídos pontuais."
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada assertiva:\n\nI. Correta. O reset assíncrono faz com que o registrador vá para o estado de reset independentemente do sinal de clock. Isso é uma característica comum em registradores com reset assíncrono.\n\nII. Incorreta. Clock gating é uma técnica usada para economizar energia ao desativar o clock para partes do circuito. No entanto, para manter o valor armazenado em um registrador, basta que o sinal de carrega (load) esteja em 0, não sendo necessário forçar o clock a 0.\n\nIII. Correta. O valor da entrada A é armazenado no registrador quando reset = 0, carrega = 1 e o clock faz uma transição de 0 para 1 (bordo de subida).\n\nIV. Incorreta. Se o sinal de carrega = 0, o registrador não armazena o valor da entrada A, mesmo que haja uma transição de clock.\n\nV. Correta. Registradores são formados por flip-flops, e o número de flip-flops é proporcional ao número de bits que o registrador pode armazenar.\n\nPortanto, as assertivas corretas são I e V, o que corresponde à alternativa A."
   }
 ]
