@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "edicao": 2011,
+    "id": "2011-22",
+    "numero": 22,
+    "enunciado": "Para responder a questão, considere a seguinte variante do algoritmo quicksort para ordenação deuma lista de inteiros \\(x_1, . . . , x_n\\):\n```\n\nAlgoritmo \\(QS(x1, . . . , xn)\\)\nEntrada: x1, . . . , xn ∈ Z.\nSaída: x1, . . . , xn ∈ Z.\n1. Se n = 2 e x1 > x2, permutar x1 com x2.\n2. Se n ≤ 2, retornar.\n3. i ← 2, j ← n,\n4. Enquanto i < j,\n4.1 Enquanto x1 ≥ xi e i < n + 1, incrementar i.\n4.2 Enquanto x1 < xj , decrementar j.\n4.3 Se i < j, permutar xi com xj .\n5. Permutar x1 com xj .\n6. QS(x1, . . . , xj−1)\n7. QS(xj+1, . . . , xn)\n\n```\n\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) O tempo de execução do algoritmo QS, no pior caso, para entradas de tamanho \\(n\\), é de \\(Θ(n log (n))\\).",
+      "b) O tempo de execução total do algoritmo para a entrada \\(x_1, . . . , x_n\\) é sempre de \\(O(Φ(x_1, . . . , x_n ))\\).\n",
+      "c) O tempo de execução total do algoritmo QS para a entrada \\(x_1, . . . , x_n\\) não é proporcional à soma das vezes que cada uma das linhas foi executada.",
+      "d) O tempo de execução do algoritmo QS, no pior caso, para entradas de tamanho \\(n\\), é de \\(Θ(n^2)\\).",
+      "e) O número total de comparações do algoritmo QS, incluindo as chamadas recursivas, é de \\(O(Φ (n))\\) no pior max caso."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "A questão trata da análise de complexidade do algoritmo QuickSort (QS). No pior caso, o QuickSort ocorre quando o pivô escolhido é o menor ou o maior elemento, resultando em partições muito desbalanceadas. Isso leva a uma complexidade de tempo de Θ(n^2), pois o algoritmo se comporta como uma ordenação por inserção. A alternativa 'd' afirma corretamente que o tempo de execução do algoritmo QS, no pior caso, para entradas de tamanho n, é de Θ(n^2). As outras alternativas estão incorretas: 'a' está errada porque Θ(n log n) é a complexidade média do QuickSort, não a do pior caso; 'b' e 'e' mencionam uma função Φ que não é definida no contexto, tornando-as inválidas; 'c' faz uma afirmação incorreta sobre a proporcionalidade do tempo de execução."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-21",
+    "numero": 21,
+    "enunciado": "Seja Φ(x , ..., x ) o número total de permutações de dois elementos durante a execução do algoritmo\n1 n\nQS, inclusive durante as chamadas recursivas. Seja Φ (n) o maior valor de Φ(x , . . . , x ) para todas as max 1 n\nlistas possíveis de comprimento n.\nSabendo que\nΦ (n) = max Φ (j − 1) + Φ (n − j ) + min(j − 1, n − j ) + 1,\nmax max max\n1≤j≤n",
+    "alternativas": [
+      "a) Φ = n − 1.\nmax(n)",
+      "b) Φ está em o(n).\nmax(n)",
+      "c) Φ está em O(n log(n)), mas não em O(n).\nmax(n)",
+      "d) Φ está em O(n2), mas não em O(n log n).\nmax(n)",
+      "e) Φ > 2n.\nmax(n)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Uso de Relações de Recorrência para Análise de Algoritmos Recursivos",
+    "dificuldade": "Difícil",
+    "gabarito": "d",
+    "solucao": "A questão trata da análise do número máximo de permutações de dois elementos durante a execução do algoritmo QuickSort (QS), incluindo chamadas recursivas. A relação de recorrência fornecida no enunciado é uma forma de calcular o número máximo de trocas, Φmax(n), para listas de comprimento n. O QuickSort, no pior caso, realiza um número quadrático de comparações e trocas, o que ocorre quando o pivô escolhido é sempre o maior ou o menor elemento, resultando em uma partição extremamente desbalanceada. Neste cenário, a complexidade do QuickSort é O(n^2). A relação de recorrência dada no enunciado reflete esse comportamento, pois ela considera o máximo de trocas ao longo das partições, levando a uma complexidade assintótica de O(n^2). Portanto, a alternativa correta é 'd) Φmax está em O(n^2), mas não em O(n log n)', pois no pior caso, o número de trocas é quadrático."
+  }
+]

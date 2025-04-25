@@ -9650,5 +9650,81 @@
     "dificuldade": "Média",
     "gabarito": "d",
     "solucao": "Vamos analisar cada afirmativa:\n\n1) A equação C_out = (B_i and C_in) or (A_i and C_in) or (A_i and B_i) é equivalente à equação C_out = (A_i and B_i) or (C_in and (B_i xor A_i)).\n   - Ambas as equações representam a lógica de um somador completo para o cálculo do carry-out (C_out). A primeira equação é uma forma expandida da segunda, usando a propriedade distributiva da álgebra booleana. Portanto, a primeira afirmativa é falsa.\n\n2) O maior atraso de propagação ocorre na equação S_i = A_i xor B_i xor C_in.\n   - A operação XOR tem um atraso maior do que as operações AND e OR, pois envolve mais portas lógicas. Portanto, a segunda afirmativa é verdadeira.\n\n3) O uso destas equações conduz à implementação do mais rápido somador completo, entre os somadores descritos na literatura.\n   - Embora as equações sejam eficientes, existem técnicas mais avançadas, como o uso de somadores paralelos, que podem ser mais rápidos. Portanto, a terceira afirmativa é falsa.\n\n4) Somadores completos de n bits (com n > 1) podem ser implementados com n circuitos, cada um deles implementando estas mesmas equações.\n   - Um somador completo de n bits pode ser construído usando n somadores completos de 1 bit, cada um implementando as equações dadas. Portanto, a quarta afirmativa é verdadeira.\n\n5) Para apenas uma combinação de valores de A_i, B_i e C_in, obtêm-se S_i = 1 e C_out = 1.\n   - Ao analisar as equações, encontramos que para A_i = 1, B_i = 1, e C_in = 0, temos S_i = 0 e C_out = 1, e para A_i = 1, B_i = 0, e C_in = 1, temos S_i = 0 e C_out = 1. Portanto, a quinta afirmativa é falsa.\n\nCom base na análise acima, a sequência correta é F, V, F, V, F, correspondente à alternativa 'd'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-29",
+    "numero": 29,
+    "enunciado": "Relacione a coluna da esquerda com a coluna da direita.\n```\n\n(I) Multicore\n(II) Superpipeline\n(III) Superescalar\n(IV) Pipeline dinâmico\n(V) Multiprocessadores\n--------------------------------------------------------\n(A) Múltiplos pipelines que operam em paralelo.\n(B) Execução de instruções fora de ordem em um pipeline.\n(C) Pipelines com grande número de estágios.\n(D) Múltiplos processadores compartilhando um espaço de endereços.\n(E) Múltiplos processadores em um único encapsulamento.\n\n```\nAssinale a alternativa que contém a associação correta.",
+    "alternativas": [
+      "a) I-B, II-A, III-C, IV-E, V-D.",
+      "b) I-C, II-A, III-B, IV-D, V-E.",
+      "c) I-D, II-E, III-B, IV-A, V-C.",
+      "d) I-E, II-C, III-A, IV-B, V-D.",
+      "e) I-E, II-C, III-A, IV-D, V-B."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Arquitetura e Organização de Computadores",
+    "subarea": "Processadores Superescalares e Superpipeline",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos entender o significado de cada termo e associá-los corretamente:\n\n(I) Multicore refere-se a múltiplos processadores em um único encapsulamento, portanto, está associado a (E).\n(II) Superpipeline refere-se a pipelines com grande número de estágios, portanto, está associado a (C).\n(III) Superescalar refere-se a múltiplos pipelines que operam em paralelo, portanto, está associado a (A).\n(IV) Pipeline dinâmico refere-se à execução de instruções fora de ordem em um pipeline, portanto, está associado a (B).\n(V) Multiprocessadores referem-se a múltiplos processadores compartilhando um espaço de endereços, portanto, está associado a (D).\n\nPortanto, a associação correta é: I-E, II-C, III-A, IV-B, V-D, que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-25",
+    "numero": 25,
+    "enunciado": "Com relação aos métodos de ordenação, relacione a coluna da esquerda com a coluna da direita.\n```\n(I) Inserção\n(II) Seleção\n(III) QuickSort\n(IV) ShellSort\n(V) MergeSort\n(V) MergeSort (ou ordenação por fusão)\n----------------------------------------------------------------------------\n(A) Encontra o menor elemento e o troca com a primeira posição, depois o segundo menor com a segunda posição e assim sucessivamente (n-1 vezes).\n(B) As comparações e trocas são feitas baseadas em uma distância determinada (por exemplo: distância 4, onde o primeiro seria comparado com o quinto elemento, o segundo com o sexto, e assim sucessivamente), depois a distância é reduzida. Este processo se repete até que a distância seja 1 e as últimas comparações e trocas sejam efetuadas.\n(C) A partir do segundo elemento, este deve ser colocado na sua posição correspondente (entre os elementos já analisados, como ao se organizarem as cartas de baralho na mão do jogador). Repete-se o procedimento até o\núltimo elemento.\n(D) Escolhe-se um ponto de referência (pivô) e separam-se os elementos em 2 partes: à esquerda, ficam os elementos menores que o pivô, e à direita, os maiores. Repete-se este processo para os grupos de elementos formados (esquerda e direita) até que todos os elementos estejam ordenados.\n(E) Divide-se o grupo de elementos ao meio, repete-se a divisão para cada um dos subgrupos, até que cada subgrupo tenha apenas 1 elemento. Nesse ponto, faz-se o reagrupamento dos subgrupos comparando os elementos e trocando, se necessário, para que eles fiquem ordenados. Repete-se este procedimento até restar um só grupo de elementos.\nAssinale a alternativa que contém a associação correta.\n```",
+    "alternativas": [
+      "a) I-A, II-D, III-B, IV-C, V-E.",
+      "b) I-B, II-A, III-C, IV-E, V-D.",
+      "c) I-B, II-A, III-E, IV-D, V-C.",
+      "d) I-C, II-A, III-D, IV-B, V-E.",
+      "e) I-D, II-E, III-B, IV-A, V-C."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Algoritmos para Pesquisa e Ordenação",
+    "dificuldade": "Fácil",
+    "gabarito": "d",
+    "solucao": "Para resolver a questão, precisamos associar corretamente cada método de ordenação com sua descrição: \n\n(I) Inserção: A descrição correta é (C), que menciona a inserção de elementos na posição correta, como ao organizar cartas na mão. \n\n(II) Seleção: A descrição correta é (A), que menciona encontrar o menor elemento e trocá-lo com a primeira posição, e assim por diante. \n\n(III) QuickSort: A descrição correta é (D), que menciona a escolha de um pivô e a separação dos elementos em duas partes, repetindo o processo recursivamente. \n\n(IV) ShellSort: A descrição correta é (B), que menciona comparações e trocas baseadas em uma distância determinada, que é reduzida até chegar a 1. \n\n(V) MergeSort: A descrição correta é (E), que menciona dividir o grupo de elementos ao meio, até que cada subgrupo tenha apenas um elemento, e então reagrupá-los ordenadamente. \n\nPortanto, a associação correta é: I-C, II-A, III-D, IV-B, V-E, que corresponde à alternativa 'd'."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-19",
+    "numero": 19,
+    "enunciado": "Zezinho aposta 6 números, dentre os 60 disponíveis, no jogo da mega-sena. Após o sorteio, Zezinho observa que o resultado é formado por 6 números primos. Se, no momento de sua aposta, Zezinho tivesse essa informação, então a probabilidade de acerto de Zezinho seria de:",
+    "alternativas": [
+      "a) \\(\\frac{1}{\\binom{13}{6}} \\)",
+      "b) \\(\\frac{1}{\\binom{17}{6}} \\)",
+      "c) \\(\\frac{1}{\\binom{19}{6}} \\)",
+      "d) \\(\\frac{1}{\\binom{29}{6}} \\)",
+      "e) \\(\\frac{1}{\\binom{29}{6}} \\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Combinações",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para resolver essa questão, precisamos calcular a probabilidade de Zezinho acertar todos os 6 números sorteados, sabendo que todos são primos. Primeiro, identificamos os números primos entre 1 e 60: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59. No total, existem 17 números primos. Zezinho precisa escolher 6 números dentre esses 17. O número de combinações possíveis de 6 números escolhidos entre 17 é dado por C(17, 6). Calculamos C(17, 6) = 17! / (6! * (17-6)!) = 12376. Como Zezinho precisa acertar exatamente esses 6 números, existe apenas uma combinação correta. Assim, a probabilidade de Zezinho acertar é 1/12376. Portanto, a alternativa correta é a) 1/12376."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-12",
+    "numero": 12,
+    "enunciado": "Com base na função \\(f (x) = 6x^{3/2} − x^2 − 1\\), considere as afirmativas a seguir.\\\nI. \\(f\\) tem um zero no intervalo \\([0,1]\\)\\\nII. \\(\\lim_{x \\to +\\infty} f(x) = +\\infty\\)\\\nIII. f assume o valor máximo no ponto \\(x = \\frac{81}{4}\\)\\\nIV. \\(f\\) possui uma descontinuidade em zero\nAssinale a alternativa correta.",
+    "alternativas": [
+      "a) Somente as afirmativas I e II são corretas.",
+      "b) Somente as afirmativas I e III são corretas.",
+      "c) Somente as afirmativas III e IV são corretas.",
+      "d) Somente as afirmativas I, II e IV são corretas.",
+      "e) Somente as afirmativas II, III e IV são corretas."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Limites de Funções e de Sequências",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. f tem um zero no intervalo [0,1]:\nPara verificar se a função f(x) = 6x^(3/2) - x^2 - 1 tem um zero no intervalo [0,1], podemos aplicar o Teorema do Valor Intermediário. Calculamos f(0) e f(1):\n- f(0) = 6*0^(3/2) - 0^2 - 1 = -1\n- f(1) = 6*1^(3/2) - 1^2 - 1 = 6 - 1 - 1 = 4\nComo f(0) < 0 e f(1) > 0, pelo Teorema do Valor Intermediário, existe pelo menos um c em (0,1) tal que f(c) = 0. Portanto, a afirmativa I é correta.\n\nII. lim f(x) = +∞ quando x→+∞:\nPara verificar o limite de f(x) quando x tende a +∞, analisamos o termo dominante da função, que é 6x^(3/2). À medida que x cresce, 6x^(3/2) cresce mais rapidamente que -x^2 e -1, levando o limite de f(x) a +∞. Portanto, a afirmativa II é correta.\n\nIII. f assume o valor máximo no ponto x = 81/4:\nPara determinar se f(x) tem um máximo em x = 81/4, precisaríamos calcular a derivada de f(x) e verificar se há um ponto crítico nesse valor que seja um máximo. No entanto, sem cálculos adicionais, não podemos afirmar que x = 81/4 é um ponto de máximo. Portanto, a afirmativa III não pode ser considerada correta sem mais informações.\n\nIV. f possui uma descontinuidade em zero:\nA função f(x) = 6x^(3/2) - x^2 - 1 é contínua para x >= 0, pois é composta de funções contínuas (potências e polinômios). Portanto, não há descontinuidade em x = 0. A afirmativa IV é incorreta.\n\nCom base nas análises acima, a alternativa correta é a) Somente as afirmativas I e II são corretas."
   }
 ]
