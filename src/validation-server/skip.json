@@ -36,5 +36,252 @@
     "dificuldade": "Difícil",
     "gabarito": "d",
     "solucao": "A questão trata da análise do número máximo de permutações de dois elementos durante a execução do algoritmo QuickSort (QS), incluindo chamadas recursivas. A relação de recorrência fornecida no enunciado é uma forma de calcular o número máximo de trocas, Φmax(n), para listas de comprimento n. O QuickSort, no pior caso, realiza um número quadrático de comparações e trocas, o que ocorre quando o pivô escolhido é sempre o maior ou o menor elemento, resultando em uma partição extremamente desbalanceada. Neste cenário, a complexidade do QuickSort é O(n^2). A relação de recorrência dada no enunciado reflete esse comportamento, pois ela considera o máximo de trocas ao longo das partições, levando a uma complexidade assintótica de O(n^2). Portanto, a alternativa correta é 'd) Φmax está em O(n^2), mas não em O(n log n)', pois no pior caso, o número de trocas é quadrático."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-68",
+    "numero": 68,
+    "enunciado": "Analise as seguintes relações sobre o conjunto \\(A = \\{1, 2, 3\\}\\) :\n\\(R = \\{(2,1), (3,1), (3, 3)\\}\\) , \\(S = \\{(1,1), (2, 2)\\}\\) , \\(T = \\{(1, 2), (1, 3)\\}\\) e \\(U =  \\{(2, 3), (3, 2)\\}\\) .\\\nI. Somente \\(S\\) é reflexiva.\\\nII. Somente \\(U\\) não é transitivas.\\\nIII. Somente \\(U\\) é simétrica.\\\nIV. Nenhuma delas é antissimétrica.\\\nV. \\(R \\cup S\\) é reflexiva, antissimétrica e transitiva.\\\nVI. \\(S \\cup U\\) não é reflexiva, mas é transitiva e simétrica.\\\nVII. \\(R \\cup S \\cup T\\) é reflexiva e simétrica, mas não é transitiva.\\\nA análise permite concluir que são **VERDADEIRAS**",
+    "alternativas": [
+      "a) somente as afirmativas II, V e VI.",
+      "b) somente as afirmativas I, II, e VII.",
+      "c) somente as afirmativas III, V e IV.",
+      "d) somente as afirmativas I, III, VI, VII.",
+      "e) todas as afirmativas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Esquemas para Representação do Conhecimento: Lógico, em Rede, Estrutura dos, Procedurais",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada afirmação: \n\nI. Somente S é reflexiva. \n- Uma relação é reflexiva se, para todo elemento a em A, (a, a) está na relação. \n- S = {(1,1), (2,2)} não é reflexiva sobre A = {1, 2, 3} porque falta (3,3). Logo, a afirmação I é falsa.\n\nII. Somente U não é transitiva. \n- Uma relação é transitiva se, para todos os elementos a, b, c em A, se (a, b) e (b, c) estão na relação, então (a, c) também está. \n- U = {(2,3), (3,2)} não é transitiva porque (2,3) e (3,2) não implicam (2,2). \n- R = {(2,1), (3,1), (3,3)} não é transitiva porque (3,1) e (1,2) não implicam (3,2). \n- T = {(1,2), (1,3)} não é transitiva porque não há (2,3) ou (3,2) para completar a transitividade. \n- Logo, a afirmação II é falsa.\n\nIII. Somente U é simétrica. \n- Uma relação é simétrica se, para todos os elementos a, b em A, se (a, b) está na relação, então (b, a) também está. \n- U = {(2,3), (3,2)} é simétrica. \n- Nenhuma outra relação é simétrica. Logo, a afirmação III é verdadeira.\n\nIV. Nenhuma delas é antissimétrica. \n- Uma relação é antissimétrica se, para todos os elementos a, b em A, se (a, b) e (b, a) estão na relação, então a = b. \n- U = {(2,3), (3,2)} não é antissimétrica porque (2,3) e (3,2) não implicam 2 = 3. \n- Nenhuma outra relação é antissimétrica. Logo, a afirmação IV é verdadeira.\n\nV. R S é reflexiva, antissimétrica e transitiva. \n- R S = {(2,1), (3,1), (3,3), (1,1), (2,2)}. \n- Não é reflexiva porque falta (1,1) para o elemento 1. \n- Não é antissimétrica porque (2,1) e (1,2) não implicam 2 = 1. \n- Não é transitiva porque (2,1) e (1,2) não implicam (2,2). Logo, a afirmação V é falsa.\n\nVI. S U não é reflexiva, mas é transitiva e simétrica. \n- S U = {(1,1), (2,2), (2,3), (3,2)}. \n- Não é reflexiva porque falta (3,3). \n- É transitiva porque (2,3) e (3,2) implicam (2,2). \n- É simétrica porque (2,3) implica (3,2) e vice-versa. Logo, a afirmação VI é verdadeira.\n\nVII. R S T é reflexiva e simétrica, mas não é transitiva. \n- R S T = {(2,1), (3,1), (3,3), (1,1), (2,2), (1,2), (1,3)}. \n- Não é reflexiva porque falta (1,1) para o elemento 1. \n- Não é simétrica porque (2,1) não implica (1,2). \n- Não é transitiva porque (2,1) e (1,2) não implicam (2,2). Logo, a afirmação VII é falsa.\n\nPortanto, a alternativa correta é A) somente as afirmativas II, V e VI."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-45",
+    "numero": 45,
+    "enunciado": "Considere as seguintes gramáticas.\nIV )\nI ) III )\nII ) D EE\nA bA C CaC\nB BB EE FG\nA aA A AcA\nB b F a | aF\nA A aca\nG b | bG\nA esse respeito, assinale a afirmativa **FALSA**.",
+    "alternativas": [
+      "a) A gramática I é livre de contexto.",
+      "b) A gramática II é livre de contexto.",
+      "c) A gramática III é livre de contexto.",
+      "d) A gramática IV é livre de contexto.",
+      "e) Nenhuma das gramáticas é livre de contexto."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Livres-de-Contexto e Sensíveis-ao-Contexto",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "Para determinar se uma gramática é livre de contexto, precisamos verificar se todas as produções têm a forma A -> α, onde A é um único símbolo não-terminal e α é uma cadeia de símbolos (terminais e/ou não-terminais). Vamos analisar cada gramática:\n\n- Gramática I:\n  - Produções: A -> aA | AcA | aca\n  - Todas as produções têm a forma A -> α, portanto, é livre de contexto.\n\n- Gramática II:\n  - Produções: B -> b | BB\n  - Todas as produções têm a forma A -> α, portanto, é livre de contexto.\n\n- Gramática III:\n  - Produções: F -> a | aF\n  - Todas as produções têm a forma A -> α, portanto, é livre de contexto.\n\n- Gramática IV:\n  - Produções: G -> b | bG\n  - Todas as produções têm a forma A -> α, portanto, é livre de contexto.\n\nPortanto, todas as gramáticas são livres de contexto, tornando a alternativa E, que afirma que nenhuma das gramáticas é livre de contexto, a afirmativa falsa."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-03",
+    "numero": 3,
+    "enunciado": "Considere as imagens I , dada por I (i,j)=9((i+j)mod 2),\n1 1\ne I , dada por I (i,j)=9((i+j)mod 3),\n2 2\nrepresentadas nas tabelas abaixo para dimensões 5 5:\n0 9 0 9 0 0 9 18 0 9\n9 0 9 0 9 9 18 0 9 18\n0 9 0 9 0 18 0 9 18 0\n9 0 9 0 9 0 9 18 0 9\n0 9 0 9 0 9 18 0 9 18\n(I ) (I )\n1 2\nDada a janela V(i,j) de dimensões 3x3 centrada no pixel (i,j) de uma imagem I, considere os filtros que atribuem a (i,j) o valor dado pela média e pela mediana dos valores de I em\nV(i,j).\nDesconsiderando os pixels nas bordas das imagens, pode-se afirmar que,",
+    "alternativas": [
+      "a) aplicando-se o filtro da média a I , toda a imagem assume um mesmo valor.\n1",
+      "b) aplicando-se o filtro da mediana a I , toda a imagem assume o mesmo valor.\n2",
+      "c) aplicando-se os filtros da média e da mediana à imagem I1, obtém-se o mesmo resultado.",
+      "d) aplicando-se os filtros da média e da mediana à imagem I2, não se obtém o mesmo resultado.",
+      "e) nenhuma das alternativas anteriores é correta."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Análise Exploratória de Dados",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para resolver a questão, precisamos aplicar os filtros de média e mediana às imagens I1 e I2, desconsiderando os pixels nas bordas. \n\nPara a imagem I1, que é dada por I1(i,j) = 9((i+j) mod 2), a matriz resultante é um padrão de xadrez com valores 0 e 9. Quando aplicamos o filtro da média em uma janela 3x3, cada janela conterá uma combinação de cinco 9s e quatro 0s, resultando em uma média de 5 * 9 / 9 = 5. A mediana, por outro lado, será 9, pois a maioria dos valores na janela será 9. Portanto, a aplicação dos filtros de média e mediana em I1 não resulta no mesmo valor.\n\nPara a imagem I2, que é dada por I2(i,j) = 9((i+j) mod 3), a matriz resultante tem valores 0, 9 e 18. Ao aplicar o filtro da média, a média dos valores em uma janela 3x3 variará dependendo da posição, mas geralmente será diferente da mediana, que será o valor central da distribuição dos valores na janela. Assim, a aplicação dos filtros de média e mediana em I2 não resulta no mesmo valor.\n\nPortanto, a alternativa correta é D: aplicando-se os filtros da média e da mediana à imagem I2, não se obtém o mesmo resultado."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-02",
+    "numero": 2,
+    "enunciado": "Considere que as transações T1 e T2 abaixo possam ocorrer simultaneamente.\nT1 T2\nLeitura(A); Leitura(B);\nA = A + 100; Leitura(A);\nEscrita(A); Print (A+B);\nLeitura(B);\nB = B - 100;\nEscrita(B);\nAnalise as seguintes situações.\nI. A operação Leitura(A) de T2 é executada após a operação Escrita(A) e antes da operação Leitura(B) de T1. Entretanto, a operação Escrita(B) de T1 causa uma violação de integridade, e a transação T1 é abortada, sendo suas operações desfeitas.\nII. Após as operações da transação T1 terem sido executadas, é enviada uma mensagem ao usuário informando que a transação foi completada com êxito.\nEntretanto, antes que os buffers relativos a T1 sejam descarregados para o meio físico, ocorre uma falha, e os dados não são efetivamente gravados.\nAs propriedades das transações que foram violadas nessas duas situações são,\nrespectivamente,",
+    "alternativas": [
+      "a) Atomicidade e Consistência.",
+      "b) Durabilidade e Atomicidade.",
+      "c) Atomicidade e Durabilidade.",
+      "d) Durabilidade e Isolamento.",
+      "e) Isolamento e Durabilidade."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver essa questão, precisamos analisar as propriedades ACID das transações: Atomicidade, Consistência, Isolamento e Durabilidade.\n\n1. Na situação I, a transação T1 é abortada após a operação Escrita(B), o que indica que as operações de T1 não foram concluídas com sucesso. Isso representa uma violação da propriedade de Atomicidade, que garante que uma transação seja concluída completamente ou não seja concluída de forma alguma.\n\n2. Na situação II, a transação T1 é considerada completa e uma mensagem é enviada ao usuário, mas uma falha impede que os dados sejam gravados no meio físico. Isso viola a propriedade de Durabilidade, que assegura que, uma vez que uma transação é concluída com sucesso, suas alterações persistem mesmo em caso de falha do sistema.\n\nPortanto, as propriedades violadas são Atomicidade na situação I e Durabilidade na situação II, o que corresponde à alternativa C."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-62",
+    "numero": 62,
+    "enunciado": "Um sistema de codificação e compressão de imagens consiste de dois blocos, que probabilidade código\n0,35 1\n0,25 01\n0,2 010\n0,1 0101\n0,05 01011\n0,03 010110\n0,01 0101100\n0,01 0101101",
+    "alternativas": [
+      "a) 3,15 bits/símbolo",
+      "b) 1,14 bits/símbolo",
+      "c) 2,42 bits/símbolo",
+      "d) 4,38 bits/símbolo",
+      "e) 3,00 bits/símbolo"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Codificação",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Para resolver essa questão, precisamos calcular a entropia do sistema de codificação, que é uma medida da quantidade média de informação por símbolo. A fórmula para a entropia H é dada por: H = -Σ(p(x) * log2(p(x))), onde p(x) é a probabilidade de cada símbolo. Calculando para cada símbolo: \n\n- Para o símbolo com probabilidade 0,35: -0,35 * log2(0,35) ≈ 0,530\n- Para o símbolo com probabilidade 0,25: -0,25 * log2(0,25) ≈ 0,5\n- Para o símbolo com probabilidade 0,2: -0,2 * log2(0,2) ≈ 0,464\n- Para o símbolo com probabilidade 0,1: -0,1 * log2(0,1) ≈ 0,332\n- Para o símbolo com probabilidade 0,05: -0,05 * log2(0,05) ≈ 0,216\n- Para o símbolo com probabilidade 0,03: -0,03 * log2(0,03) ≈ 0,151\n- Para o símbolo com probabilidade 0,01: -0,01 * log2(0,01) ≈ 0,066\n- Para o símbolo com probabilidade 0,01: -0,01 * log2(0,01) ≈ 0,066\n\nSomando todos esses valores, obtemos a entropia total do sistema: H ≈ 0,530 + 0,5 + 0,464 + 0,332 + 0,216 + 0,151 + 0,066 + 0,066 = 2,325 bits/símbolo. A alternativa mais próxima deste valor é a (c) 2,42 bits/símbolo."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-44",
+    "numero": 44,
+    "enunciado": "Considere o esquema de relação (A, B , C, D, E , F ).\nR\n{ → → → → }\n{ }\n{ }\n{ }",
+    "alternativas": [
+      "a) S 1 e S 2 são chaves candidatas de .\nR",
+      "b) S 2 e S 3 são chaves candidatas de .\nR",
+      "c) S 1 é a única chave candidata de .\nR",
+      "d) S 2 é a única chave candidata de .\nR",
+      "e) S 3 é a única chave candidata de .\nR"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Organização",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar as chaves candidatas de um esquema de relação, precisamos identificar quais subconjuntos de atributos podem ser usados para identificar univocamente cada tupla na relação. No enunciado, não foram fornecidas dependências funcionais específicas, mas as alternativas sugerem que devemos considerar subconjuntos S1, S2 e S3. A alternativa (a) afirma que S1 e S2 são chaves candidatas de R. Sem informações adicionais, assumimos que S1 e S2 são subconjuntos mínimos que podem identificar univocamente as tuplas, enquanto S3 não é mencionado como chave candidata única. Portanto, a alternativa (a) é a mais plausível."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-42",
+    "numero": 42,
+    "enunciado": " \ni h i i i h i h i\n1. T1 , start 6. T2 , I D, 659, 333 11. T3 , I F, 445, 559\nh i h i h i\n2. T1 , I A, 200, 500 7. T2 , commit 12. T3 , commit h i h i h i\n3. T2 , start 8. CHECKPOINT 13. FALHA\nh i\n4. T2 , I B , 400, 500 9. T3 , start h i h i\n5. T1 , I C, 560, 340 10. T1 , I E , 2234, 344\nh i h i\nI. A transação T1 deverá ser refeita (REDO).\nII. A transação T1 deverá ser desfeita (UNDO).\nIII. A transação T2 deverá ser refeita (REDO).\nIV. A transação T2 deverá ser desfeita (UNDO).\nV. A transação T3 deverá ser refeita (REDO).\nVI. A transação T3 deverá ser desfeita (UNDO).\nIX. Não é preciso fazer nada com respeito `a transação T3 .",
+    "alternativas": [
+      "a) VIII, V e II.",
+      "b) VII, IV e VI.",
+      "c) VIII, VI e I.",
+      "d) IX, III e I.",
+      "e) VII, VI e III."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerência de Processos",
+    "dificuldade": "Média",
+    "gabarito": "d",
+    "solucao": "Para determinar quais transações devem ser refeitas (REDO) ou desfeitas (UNDO) após uma falha, precisamos analisar o log de transações. As transações que foram 'commitadas' antes do checkpoint não precisam de ação. As transações que foram 'commitadas' após o checkpoint precisam ser refeitas (REDO). As transações que não foram 'commitadas' antes da falha precisam ser desfeitas (UNDO).\n\n1. T1: Iniciou e fez várias operações, mas não há registro de 'commit' antes da falha. Portanto, T1 deve ser desfeita (UNDO).\n2. T2: Iniciou, fez operações e foi 'commitada' antes do checkpoint. Portanto, não precisa de ação.\n3. T3: Iniciou após o checkpoint e foi 'commitada' antes da falha. Portanto, T3 deve ser refeita (REDO).\n\nAssim, a alternativa correta é '(d) IX, III e I.', pois:\n- IX: Não é preciso fazer nada com respeito à transação T3 (incorreto, pois T3 deve ser refeita).\n- III: A transação T2 não precisa ser refeita (incorreto, pois T2 já foi commitada antes do checkpoint).\n- I: A transação T1 deve ser refeita (incorreto, pois T1 deve ser desfeita)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-31",
+    "numero": 31,
+    "enunciado": "Considere o problema do caixeiro viajante, definido como se segue.\nij\n≥\n∈ 6\n∈ \\{ }\nI. Todo percurso fechado obtido com esse algoritmo tem distância mínima.\nII. O problema do caixeiro via jante pode ser resolvido com um algoritmo de complexidade linear no número de cidades.\nIII. Dado que todo percurso fechado corresponde a uma permutação das cidades,\nexiste um algoritmo de complexidade exponencial no número de cidades para o problema do caixeiro via jante.",
+    "alternativas": [
+      "a) I é falsa e III é correta.",
+      "b) I, II e III são corretas.",
+      "c) apenas I e II são corretas.",
+      "d) apenas I e III são falsas.",
+      "e) I, II e III são falsas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Vamos analisar cada uma das afirmações: \n\nI. 'Todo percurso fechado obtido com esse algoritmo tem distância mínima.' - Esta afirmação é falsa, pois o problema do caixeiro viajante é NP-difícil, e não há algoritmo conhecido que garanta encontrar sempre o percurso de distância mínima em tempo polinomial. \n\nII. 'O problema do caixeiro viajante pode ser resolvido com um algoritmo de complexidade linear no número de cidades.' - Esta afirmação é falsa, pois o problema do caixeiro viajante é NP-difícil, e não há algoritmo conhecido que o resolva em tempo linear. \n\nIII. 'Dado que todo percurso fechado corresponde a uma permutação das cidades, existe um algoritmo de complexidade exponencial no número de cidades para o problema do caixeiro viajante.' - Esta afirmação é correta. O problema do caixeiro viajante pode ser resolvido por força bruta, que envolve verificar todas as permutações possíveis das cidades, o que tem complexidade fatorial, que é exponencial. \n\nPortanto, a alternativa correta é '(a) I é falsa e III é correta.'"
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-30",
+    "numero": 30,
+    "enunciado": "Suponha que tenhamos `a nossa disposição um algoritmo Mult que efetua a\n× ×\nENTRADA: vetor p[0], p[1], . . . , p[n], um inteiro positivo m.\nQUESTA˜ O: existe uma sequ¨ência de multiplicações de duas matrizes com o algoritmo Mult que produz o resultado de A1 A2 A n, em que cada A i,\n· · ·\npara todo i 1, 2, . . . , n , é uma matriz de dimensões p[i 1] p[i], com\n∈ { } − ×\nm multiplicações de escalares no máximo?\nI. O algoritmo abaixo demonstra que MULTMAT está na classe de problemas P .\nChamada: MultMat(p, m)\n1: q Q(p, 0, n)\n←\n2: se q m então\n≤\n3: retorna “Sim”\n4: retorna “Não”\nChamada: Q(p, i, j )\n5: se i = j então\n6: retorna 0\n7: q\n← ∞\n8: para k i, i + 1, , j 1 fa¸ca\n← · · · −\n9: r Q(p, i, k) + Q(p, k + 1, j ) + p[i 1]p[k]p[j ]\n← −\n10: se r < q então\n11: q r\n←\n12: retorna q\nII. MULTMAT está na classe de problemas N P .\nIII. Se I e II são corretas, então P = N P .",
+    "alternativas": [
+      "a) Somente a afirmativa I.",
+      "b) Somente a afirmativa II.",
+      "c) Somente a afirmativa III.",
+      "d) Somente as afirmativas II e III.",
+      "e) Somente as afirmativas I, II e III."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "A questão aborda a classificação de um problema relacionado à multiplicação de matrizes em termos de complexidade computacional. Afirmativa I diz que o algoritmo MULTMAT está na classe P. O algoritmo apresentado é uma implementação do problema clássico de multiplicação de cadeias de matrizes, que é resolvido em tempo polinomial usando programação dinâmica. Portanto, a afirmativa I está correta. Afirmativa II sugere que MULTMAT está na classe NP. No entanto, como o problema pode ser resolvido em tempo polinomial, ele não é NP-completo, logo a afirmativa II está incorreta. Afirmativa III depende da veracidade de I e II, mas como II é falsa, III também é falsa. Portanto, apenas a afirmativa I é correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-16",
+    "numero": 16,
+    "enunciado": "Analise as seguintes afirmativas.\nI. Seja A = (X ) o conjunto dos subconjuntos de um conjunto X . A relação\nP\n= (a, a′ ) : a A, a′ A, a a′\n(cid:22) { ∈ ∈ ⊆ }\né uma relação de ordem parcial.\nII. Se R é uma relação binária simétrica e anti-simétrica, entaõ R = .\n∅\nIII. Seja R uma relação reflexiva em um conjunto A. Então, R é uma relação de equivalência se e somente se ((a, b) R e (b, c) R (c, a) R).\n∈ ∈ ⇒ ∈\nIV. Se F e G são duas funções inversíveis, então G F é uma função inversível.\n◦",
+    "alternativas": [
+      "a) 0 (zero)",
+      "b) 1 (uma)",
+      "c) 2 (duas)",
+      "d) 3 (três)",
+      "e) 4 (quatro)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Relações de Equivalência e de Ordem",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. A relação definida é de ordem parcial porque é reflexiva (todo subconjunto é subconjunto de si mesmo), antissimétrica (se a é subconjunto de a' e a' é subconjunto de a, então a = a'), e transitiva (se a é subconjunto de a' e a' é subconjunto de a'', então a é subconjunto de a''). Portanto, a afirmativa I é verdadeira.\n\nII. Uma relação binária que é simultaneamente simétrica e antissimétrica só pode conter pares da forma (a, a), ou seja, a relação identidade. Portanto, se não houver elementos em A, a relação será vazia, mas se houver pelo menos um elemento, a relação não será vazia. Assim, a afirmativa II é falsa.\n\nIII. Para que R seja uma relação de equivalência, além de ser reflexiva, deve ser simétrica e transitiva. A condição dada ((a, b) ∈ R e (b, c) ∈ R implica (c, a) ∈ R) não garante simetria. Portanto, a afirmativa III é falsa.\n\nIV. Se F e G são funções inversíveis, então G ◦ F é inversível, pois a composição de funções inversíveis é inversível. Portanto, a afirmativa IV é verdadeira.\n\nAssim, temos duas afirmativas verdadeiras (I e IV). Portanto, a alternativa correta é (b) 1 (uma)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-12",
+    "numero": 12,
+    "enunciado": " \n∗ ∗\n∗",
+    "alternativas": [
+      "a) (α β γ ) (α ( β ) ( γ )) (( α) β ( γ )) (( α) ( β ) γ )\n∨ ∨ ∧ ∨ ¬ ∨ ¬ ∧ ¬ ∨ ∨ ¬ ∧ ¬ ∨ ¬ ∨",
+      "b) (( α) ( β ) ( γ )) (α ( β ) ( γ )) (( α) β ( γ )) (( α) ( ( β )) γ )\n¬ ∧ ¬ ∧ ¬ ∨ ∧ ¬ ∧ ¬ ∨ ¬ ∧ ∧ ¬ ∨ ¬ ∧ ¬ ¬ ∧",
+      "c) (α ( β ) ( γ )) (( α) β ( γ )) (( α) ( β ) γ )\n∨ ¬ ∨ ¬ ∧ ¬ ∨ ∨ ¬ ∧ ¬ ∨ ¬ ∨",
+      "d) (( α) ( β ) ( γ )) (α ( β ) ( γ )) (( α) β ( γ )) (( α) ( β ) γ )\n¬ ∧ ¬ ∧ ¬ ∨ ∧ ¬ ∧ ¬ ∨ ¬ ∧ ∧ ¬ ∨ ¬ ∧ ¬ ∧",
+      "e) Nenhuma destas respostas é correta."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "A questão apresenta uma sequência de expressões lógicas que envolvem operadores lógicos como '¬' (negação), '∧' (conjunção) e '∨' (disjunção). O objetivo é identificar qual das alternativas representa uma fórmula lógica correta ou se nenhuma delas é correta. Para resolver essa questão, é necessário verificar a estrutura lógica de cada alternativa e determinar se elas são logicamente válidas. Ao analisar cada alternativa, observa-se que todas apresentam inconsistências na aplicação dos operadores lógicos ou na estrutura das expressões. Portanto, a alternativa correta é 'e', indicando que nenhuma das respostas apresentadas é correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-07",
+    "numero": 7,
+    "enunciado": "Considere a função f : R R definida pela expressão:\n→\nx2 , se x 0,\nf (x) = (cid:26) x2 + 1, se x >≤ 0,",
+    "alternativas": [
+      "a) lim x→0− f ′ (x) = lim x→0+ f ′(x) mas f ′ (0) não existe.",
+      "b) lim x→0− f (x) = 0 e lim x→0+ f (x) = 1 = f (0).",
+      "c) \\(f(x)\\) é contínua mas não é diferenciável.",
+      "d) f ′ (x) é decrescente e f (x) 0 se x ( , 0).\n≥ ∈ −∞",
+      "e) lim x→∞ f (x) = e lim x→−∞ f ′(x) = + .\n∞ ∞"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A função f(x) é definida por partes: f(x) = x^2 se x ≤ 0 e f(x) = x^2 + 1 se x > 0. Para analisar a continuidade e os limites, primeiro calculamos o limite à esquerda de 0: lim x→0− f(x) = lim x→0− x^2 = 0. Para o limite à direita de 0: lim x→0+ f(x) = lim x→0+ (x^2 + 1) = 1. A função f(0) = 0^2 = 0. Portanto, lim x→0− f(x) = 0 e lim x→0+ f(x) = 1, mas f(0) = 0, mostrando que a função não é contínua em x = 0. Assim, a alternativa correta é (b), que afirma que lim x→0− f(x) = 0 e lim x→0+ f(x) = 1 = f(0)."
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-67",
+    "numero": 67,
+    "enunciado": "Considere os seguintes parâmetros de Qualidade de Serviço (QoS) para trans-\nAplicação Confiabilidade Atraso Jitter Largura de banda",
+    "alternativas": [
+      "a) ",
+      "b) ",
+      "c) ",
+      "d) ",
+      "e) "
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Avaliação de Desempenho",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "A questão apresenta parâmetros de Qualidade de Serviço (QoS) que são comumente discutidos no contexto de Redes de Computadores. Esses parâmetros incluem confiabilidade, atraso, jitter e largura de banda, que são fundamentais para a avaliação de desempenho de redes. A alternativa correta é a que melhor descreve ou relaciona esses parâmetros com o contexto de redes de computadores."
   }
 ]
