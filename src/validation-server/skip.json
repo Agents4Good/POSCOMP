@@ -36,5 +36,24 @@
     "dificuldade": "Difícil",
     "gabarito": "d",
     "solucao": "A questão trata da análise do número máximo de permutações de dois elementos durante a execução do algoritmo QuickSort (QS), incluindo chamadas recursivas. A relação de recorrência fornecida no enunciado é uma forma de calcular o número máximo de trocas, Φmax(n), para listas de comprimento n. O QuickSort, no pior caso, realiza um número quadrático de comparações e trocas, o que ocorre quando o pivô escolhido é sempre o maior ou o menor elemento, resultando em uma partição extremamente desbalanceada. Neste cenário, a complexidade do QuickSort é O(n^2). A relação de recorrência dada no enunciado reflete esse comportamento, pois ela considera o máximo de trocas ao longo das partições, levando a uma complexidade assintótica de O(n^2). Portanto, a alternativa correta é 'd) Φmax está em O(n^2), mas não em O(n log n)', pois no pior caso, o número de trocas é quadrático."
+  },
+  {
+    "edicao": 2011,
+    "id": "2011-10",
+    "numero": 10,
+    "enunciado": "A proporção de computadores acessando um provedor em um dado instante \\(t\\) a partir das 8 horas é dada por\n\\(1N (t) =1 + 3e−kt)\\\nonde o instante t é dado em horas e k é uma constante positiva. A proporção estimada de computadores acessando este provedor ao meio-dia é de:",
+    "alternativas": [
+      "a) ln(2 + e4k )\nk\n1 (3e12k + 1)",
+      "b) ln\nk 4\n1 (3e12k + 1)",
+      "c) ln\nk (3 + e8k )\n1 (3 + e4k )",
+      "d) ln\nk 4\n1 (3 + e4k )3k",
+      "e) ln\nk 4\nx"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Para resolver a questão, precisamos calcular a proporção de computadores acessando o provedor ao meio-dia, ou seja, quando t = 4 horas (já que o tempo t é contado a partir das 8 horas). A função dada é N(t) = 1 / (1 + 3e^(-kt)). Substituindo t = 4, temos N(4) = 1 / (1 + 3e^(-4k)). Para encontrar a alternativa correta, precisamos manipular as opções fornecidas. A alternativa 'a' é a única que, após simplificação, corresponde à expressão correta para N(4). Portanto, a resposta correta é a alternativa 'a'."
   }
 ]
