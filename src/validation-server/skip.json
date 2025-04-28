@@ -55,5 +55,119 @@
     "dificuldade": "Média",
     "gabarito": "a",
     "solucao": "Para resolver a questão, precisamos calcular a proporção de computadores acessando o provedor ao meio-dia, ou seja, quando t = 4 horas (já que o tempo t é contado a partir das 8 horas). A função dada é N(t) = 1 / (1 + 3e^(-kt)). Substituindo t = 4, temos N(4) = 1 / (1 + 3e^(-4k)). Para encontrar a alternativa correta, precisamos manipular as opções fornecidas. A alternativa 'a' é a única que, após simplificação, corresponde à expressão correta para N(4). Portanto, a resposta correta é a alternativa 'a'."
+  },
+  {
+    "edicao": 2002,
+    "id": "2002-10",
+    "numero": 10,
+    "enunciado": "Assinale o argumento válido, onde \\(S_1\\), \\(S_2\\) indicam premissas e S a conclusão:",
+    "alternativas": [
+      "a) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo estava descansado\n\\(S\\): O cavalo ganhou a corrida",
+      "b) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo ganhou a corrida\n\\(S\\): O cavalo estava descansado",
+      "c) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo perdeu a corrida\n\\(S\\): O cavalo estava cansado",
+      "d) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo estava descansado\n\\(S\\): O cavalo perdeu a corrida",
+      "e) nenhuma das anteriores"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-17",
+    "numero": 17,
+    "enunciado": "Assinale o argumento válido, onde \\(S_1\\) e \\(S_2\\) indicam premissas e \\(C\\) a conclusão.",
+    "alternativas": [
+      "a) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida não é boa. \\(C\\): O serviço não é bom.",
+      "b) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): O serviço não é bom. \\(C\\): A comida é boa.",
+      "c) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): O serviço não é bom. \\(C\\): A comida não é boa.",
+      "d) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida é boa. \\(C\\): O serviço não é bom.",
+      "e) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida não é boa. \\(C\\): O serviço é bom."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-31",
+    "numero": 31,
+    "enunciado": "Considere n chaves armazenadas\n\n(I) de maneira arbitrária numa lista encadeada simples,\n(II) de maneira arbitrária numa lista encadeada dupla.\n\nConsidere também as mesmas chaves\n\n(III) armazenadas de maneira ordenada numa lista encadeada simples,\n(IV) armazenadas de maneira ordenada numa lista encadeada dupla.\n\nQual das alternativas preenche a seguinte tabela com a complexidade de busca no pior caso, em cada uma das situações I, II, III e IV descritas acima?",
+    "alternativas": [
+      "a) ",
+      "b) ",
+      "c) ",
+      "d) ",
+      "e) "
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-42",
+    "numero": 42,
+    "enunciado": "Considere as seguintes tabelas em uma base de dados relacional (chaves primárias sublinhadas):\nDepartamento (CodDepto, NomeDepto)\nEmpregado (CodEmp, NomeEmp, CodDepto)\nConsidere as seguintes restrições de integridade sobre esta base de dados relacional:\n– Empregado.CodDepto é sempre diferente de NULL\n– Empregado.CodDepto é chave estrangeira da tabela Departamento com cláusulas ON DELETE\nRESTRICT e ON UPDATE RESTRICT\nQual das seguintes validações não é especificada por estas restrições de integridade:",
+    "alternativas": [
+      "a) Sempre que uma nova linha for inserida em Empregado, deve ser garantido que o valor de Empregado.CodDepto aparece na coluna Departamento.CodDepto.",
+      "b) Sempre que uma linha for excluída de Departamento, deve ser garantido que o valor de Departamento.CodDepto não aparece na coluna Empregado.CodDepto.",
+      "c) Sempre que o valor de Empregado.CodDepto for alterado, deve ser garantido que o novo valor de\nEmpregado.CodDepto aparece em Departamento.CodDepto.",
+      "d) Sempre que o valor de Departamento.CodDepto for alterado, deve ser garantido que não há uma linha com o antigo valor de Departamento.CodDepto na coluna Empregado.CodDepto",
+      "e) Sempre que uma nova linha for inserida em Departamento, deve ser garantido que o valor de Departamento.CodDepto aparece na coluna Empregado.CodDepto"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-43",
+    "numero": 43,
+    "enunciado": "Considere a seguinte tabela em uma base de dados relacional (chave primária sublinhada):\nTabela1(CodAluno,CodDisciplina,AnoSemestre, NomeAluno, NomeDisciplina,\nCodNota, DescricaoNota)\nConsidere as seguintes dependências funcionais:\nCodAluno→NomeAluno\nCodDisciplina→NomeDisciplina\n(CodAluno,CodDisciplina,AnoSemestre)→CodNota\n(CodAluno,CodDisciplina,AnoSemestre)→DescricaoNota\nCodNota→DescricaoNota\nConsiderando as formas normais, qual das afirmativas abaixo se aplica:",
+    "alternativas": [
+      "a) A tabela encontra-se na primeira forma normal, mas não na segunda forma normal.",
+      "b) A tabela encontra-se na segunda forma normal, mas não na terceira forma normal.",
+      "c) A tabela encontra-se na terceira forma normal, mas não na quarta forma normal.",
+      "d) A tabela não está na primeira forma normal.",
+      "e) A tabela está na quarta forma normal."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "",
+    "solucao": ""
+  },
+  {
+    "edicao": 2004,
+    "id": "2004-42",
+    "numero": 42,
+    "enunciado": "Considere um modelo entidade-relacionamento de uma indústria. Este modelo representa peças com suas propriedades, bem como a composição de peças (peças podem ser usadas na composição de outras peças). Este modelo entidade-relacionamento contém:\nx Uma entidade Peça, com atributos código e nome e peso.\nx Um auto-relacionamento de Peça, chamado Composição. Neste auto-relacionamento uma peça tem papel de componente e outra peça papel de composto. O auto-relacionamento tem cardinalidade n:n e tem um atributo quantidade, que informa quantas unidades da peça componente são usadas na peça composto.\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nQuantidade)\nPeca.CodPecaComposto referencia Peca\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nCodPecaComponente,Quantidade)\nPeca.CodPecaComposto referencia Peca\nPeca.CodPecaComponente referencia Peca\nComponente (CodPeca, NomePeca, PesoPeca, CodPecaComposto\nQuantiade)\nComponente.CodPecaComposto referencia Composto",
+    "alternativas": [
+      "a) ",
+      "b) ",
+      "c) ",
+      "d) ",
+      "e) "
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Organização",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "A questão descreve um modelo entidade-relacionamento para uma indústria que lida com peças e suas composições. A entidade principal é 'Peça', que possui atributos como código, nome e peso. O auto-relacionamento 'Composição' permite que uma peça seja um componente de outra peça, formando uma relação de muitos para muitos (n:n). O atributo 'quantidade' no relacionamento indica quantas unidades de uma peça componente são usadas em uma peça composta. A alternativa correta é aquela que descreve corretamente a estrutura do relacionamento e suas referências, que é a alternativa A."
   }
 ]
