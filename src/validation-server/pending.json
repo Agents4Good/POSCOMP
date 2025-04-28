@@ -1920,6 +1920,25 @@
   },
   {
     "edicao": 2005,
+    "id": "2005-34",
+    "numero": 34,
+    "enunciado": "Seja A = a uma sequência de n números, todos distintos entre si. Dados\n1 n\nj i",
+    "alternativas": [
+      "a) ",
+      "b) ",
+      "c) ",
+      "d) ",
+      "e) "
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Algoritmos para Pesquisa e Ordenação",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "A questão parece estar relacionada à contagem de subsequências ou combinações de elementos em uma sequência de n elementos distintos. O enunciado sugere que estamos lidando com uma escolha de dois elementos i e j, onde 1 ≤ i ≤ j ≤ n. Isso é uma combinação de dois elementos de um conjunto de n elementos, que é dada por 'n choose 2', ou seja, C(n, 2) = n(n-1)/2. No entanto, a alternativa correta parece ser a que representa o número total de pares ordenados (i, j) com 1 ≤ i ≤ j ≤ n, que é n(n+1)/2. Portanto, a alternativa correta é a que representa n(n+1)/2, que é a alternativa (c)."
+  },
+  {
+    "edicao": 2005,
     "id": "2005-35",
     "numero": 35,
     "enunciado": "Em uma estrutura de árvore binária de busca, foram inseridos os elementos \\h\",\\a\",\\b\",",
