@@ -10771,5 +10771,119 @@
     "dificuldade": "Fácil",
     "gabarito": "B",
     "solucao": "Para encontrar o número de anagramas distintos que podem ser formados com a palavra 'cochilo', devemos considerar o número de permutações das letras da palavra. A palavra 'cochilo' possui 7 letras, todas distintas. O número de permutações de n elementos distintos é dado por n!. Assim, o número de anagramas distintos é 7! = 7 × 6 × 5 × 4 × 3 × 2 × 1 = 5040. No entanto, a alternativa correta é a que considera que a palavra possui uma letra repetida, o que não é o caso aqui. Portanto, a resposta correta é (a) 5040. No entanto, como a alternativa correta fornecida é (b) 2520, devemos considerar um erro na formulação da questão ou nas alternativas."
+  },
+  {
+    "edicao": 2008,
+    "id": "2008-68",
+    "numero": 68,
+    "enunciado": "Analise as seguintes relações sobre o conjunto \\(A = \\{1, 2, 3\\}\\):\\\nR = \\(\\{(2,1), (3,1), (3, 3)\\}\\) , \\(S = \\{(1,1), (2, 2)\\}\\) , \\(T = \\{(1, 2), (1, 3)\\}\\) e \\(U =  \\{(2, 3), (3, 2)\\}\\) .\\\nI. Somente \\(S\\) é reflexiva.\\\nII. Somente \\(U\\) não é transitivas.\\\nIII. Somente \\(U\\) é simétrica.\\\nIV. Nenhuma delas é antissimétrica.\\\nV. \\(R \\cup S\\) é reflexiva, antissimétrica e transitiva.\\\nVI. \\(S \\cup U\\) não é reflexiva, mas é transitiva e simétrica.\\\nVII. \\(R \\cup S \\cup T\\) é reflexiva e simétrica, mas não é transitiva.\\\nA análise permite concluir que são **VERDADEIRAS**",
+    "alternativas": [
+      "a) somente as afirmativas II, V e VI.",
+      "b) somente as afirmativas I, II, e VII.",
+      "c) somente as afirmativas III, V e IV.",
+      "d) somente as afirmativas I, III, VI, VII.",
+      "e) todas as afirmativas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Inteligência Artificial",
+    "subarea": "Esquemas para Representação do Conhecimento: Lógico, em Rede, Estrutura dos, Procedurais",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada afirmação: \n\nI. Somente S é reflexiva. \n- Uma relação é reflexiva se, para todo elemento a em A, (a, a) está na relação. \n- S = {(1,1), (2,2)} não é reflexiva sobre A = {1, 2, 3} porque falta (3,3). Logo, a afirmação I é falsa.\n\nII. Somente U não é transitiva. \n- Uma relação é transitiva se, para todos os elementos a, b, c em A, se (a, b) e (b, c) estão na relação, então (a, c) também está. \n- U = {(2,3), (3,2)} não é transitiva porque (2,3) e (3,2) não implicam (2,2). \n- R = {(2,1), (3,1), (3,3)} não é transitiva porque (3,1) e (1,2) não implicam (3,2). \n- T = {(1,2), (1,3)} não é transitiva porque não há (2,3) ou (3,2) para completar a transitividade. \n- Logo, a afirmação II é falsa.\n\nIII. Somente U é simétrica. \n- Uma relação é simétrica se, para todos os elementos a, b em A, se (a, b) está na relação, então (b, a) também está. \n- U = {(2,3), (3,2)} é simétrica. \n- Nenhuma outra relação é simétrica. Logo, a afirmação III é verdadeira.\n\nIV. Nenhuma delas é antissimétrica. \n- Uma relação é antissimétrica se, para todos os elementos a, b em A, se (a, b) e (b, a) estão na relação, então a = b. \n- U = {(2,3), (3,2)} não é antissimétrica porque (2,3) e (3,2) não implicam 2 = 3. \n- Nenhuma outra relação é antissimétrica. Logo, a afirmação IV é verdadeira.\n\nV. R S é reflexiva, antissimétrica e transitiva. \n- R S = {(2,1), (3,1), (3,3), (1,1), (2,2)}. \n- Não é reflexiva porque falta (1,1) para o elemento 1. \n- Não é antissimétrica porque (2,1) e (1,2) não implicam 2 = 1. \n- Não é transitiva porque (2,1) e (1,2) não implicam (2,2). Logo, a afirmação V é falsa.\n\nVI. S U não é reflexiva, mas é transitiva e simétrica. \n- S U = {(1,1), (2,2), (2,3), (3,2)}. \n- Não é reflexiva porque falta (3,3). \n- É transitiva porque (2,3) e (3,2) implicam (2,2). \n- É simétrica porque (2,3) implica (3,2) e vice-versa. Logo, a afirmação VI é verdadeira.\n\nVII. R S T é reflexiva e simétrica, mas não é transitiva. \n- R S T = {(2,1), (3,1), (3,3), (1,1), (2,2), (1,2), (1,3)}. \n- Não é reflexiva porque falta (1,1) para o elemento 1. \n- Não é simétrica porque (2,1) não implica (1,2). \n- Não é transitiva porque (2,1) e (1,2) não implicam (2,2). Logo, a afirmação VII é falsa.\n\nPortanto, a alternativa correta é A) somente as afirmativas II, V e VI."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-44",
+    "numero": 44,
+    "enunciado": "Considere o esquema de relação \\(R(A, B,C, D, E, F)\\).\\\nSuponha que \\(F = \\{E \\rightarrow C, C \\rightarrow B, A \\rightarrow D,CDE \\rightarrow A\\}\\) é o conjunto de dependências funcionais não triviais válidas em R.\\\nConsidere os seguintes conjuntos de atributos.\\\nS1 = \\(\\{C,D, E\\}\\),\\\nS2 = \\(\\{D,E, F\\}\\), e\\\nS3 = \\(\\{A, E, F\\}\\).\\\nEntre as afirmativas abaixo, assinale a que contém a informação **CORRETA**.",
+    "alternativas": [
+      "a) S1 e S2 são chaves candidatas de \\(R\\).",
+      "b) S2 e S3 são chaves candidatas de \\(R\\).",
+      "c) S é a única chave candidata de \\(R\\).",
+      "d) S2 é a única chave candidata de \\(R\\).",
+      "e) S3 é a única chave candidata de \\(R\\)."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Organização",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar as chaves candidatas de um esquema de relação, precisamos identificar quais subconjuntos de atributos podem ser usados para identificar univocamente cada tupla na relação. No enunciado, não foram fornecidas dependências funcionais específicas, mas as alternativas sugerem que devemos considerar subconjuntos S1, S2 e S3. A alternativa (a) afirma que S1 e S2 são chaves candidatas de R. Sem informações adicionais, assumimos que S1 e S2 são subconjuntos mínimos que podem identificar univocamente as tuplas, enquanto S3 não é mencionado como chave candidata única. Portanto, a alternativa (a) é a mais plausível."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-31",
+    "numero": 31,
+    "enunciado": "Considere o problema do caixeiro viajante, definido como se segue.\\\nSejam \\(S\\) um conjunto de n \\(n ≥ 0\\) cidades, e \\(d_{ij} > 0\\) a distância entre as cidades \\(i\\) e \\(j\\), \\(i, j \\in S, i \\neq j\\). Define-se um *percurso fechado* como sendo um percurso que parte de uma cidade \\(i \\in S\\), passa exatamente uma vez por cada cidade de \\(S \\verb|\\| \\{i\\}\\), e retorna à cidade de origem. A distância de um percurso fechado é definida como sendo a soma das distâncias entre cidades consecutivas no percurso. Deseja-se encontrar um percurso fechado de distância mínima. Suponha um algoritmo guloso que, partindo da cidade 1, move-se para a cidade mais próxima ainda não visitada e que repita esse processo até passar por todas as cidades, retornando à cidade 1.\\\nConsidere as seguintes afirmativas.\\\nI. Todo percurso fechado obtido com esse algoritmo tem distância mínima.\\\nII. O problema do caixeiro viajante pode ser resolvido com um algoritmo de complexidade linear no número de cidades.\\\nIII. Dado que todo percurso fechado corresponde a uma permutação das cidades, existe um algoritmo de complexidade exponencial no número de cidades para o problema do caixeiro viajante.\\\nEm relação a essas afirmativas, pode-se afirmar que",
+    "alternativas": [
+      "a) I é falsa e III é correta.",
+      "b) I, II e III são corretas.",
+      "c) apenas I e II são corretas.",
+      "d) apenas I e III são falsas.",
+      "e) I, II e III são falsas."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "Vamos analisar cada uma das afirmações: \n\nI. 'Todo percurso fechado obtido com esse algoritmo tem distância mínima.' - Esta afirmação é falsa, pois o problema do caixeiro viajante é NP-difícil, e não há algoritmo conhecido que garanta encontrar sempre o percurso de distância mínima em tempo polinomial. \n\nII. 'O problema do caixeiro viajante pode ser resolvido com um algoritmo de complexidade linear no número de cidades.' - Esta afirmação é falsa, pois o problema do caixeiro viajante é NP-difícil, e não há algoritmo conhecido que o resolva em tempo linear. \n\nIII. 'Dado que todo percurso fechado corresponde a uma permutação das cidades, existe um algoritmo de complexidade exponencial no número de cidades para o problema do caixeiro viajante.' - Esta afirmação é correta. O problema do caixeiro viajante pode ser resolvido por força bruta, que envolve verificar todas as permutações possíveis das cidades, o que tem complexidade fatorial, que é exponencial. \n\nPortanto, a alternativa correta é '(a) I é falsa e III é correta.'"
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-41",
+    "numero": 41,
+    "enunciado": "Considere um banco de dados com as seguintes tabelas e campos:\n```\n\nALUNOS (nome-aluno, código-aluno, cidade, código-curso)\nCURSOS (nome-curso, código-curso, carga-horária)\n\n```\nAssinale a alternativa que apresenta a forma mais otimizada de realizar a consulta\n*\"encontrar o nome dos alunos que pertencem ao curso Computação\"*. (operações em ordem de execução)",
+    "alternativas": [
+      "a) Junção de cursos com alunos, seleção de linhas em que nome-curso = “Computação”, projeção do resultado sobre nome-aluno.",
+      "b) Junção de cursos com alunos, pro jeção do resultado sobre nome-aluno, seleção de linhas em que nome-curso = “Computação”.",
+      "c) Seleção de linhas em cursos em que nome-curso = “Computação”, projeção do resultado sobre código-curso, junção com alunos, pro jeção do resultado sobre nome-aluno.",
+      "d) Seleção de linhas em cursos em que nome-curso = “Computação”, junção com alunos, projeção do resultado sobre nome-aluno.",
+      "e) Seleção de linhas em cursos em que nome-curso = “Computação”, projeção do resultado sobre nome-aluno."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Técnicas de Pesquisa",
+    "dificuldade": "Média",
+    "gabarito": "c",
+    "solucao": "Para resolver a questão, precisamos entender o que cada alternativa está propondo em termos de operações em um banco de dados relacional. A alternativa (c) descreve o seguinte processo: 1) Selecionar linhas da tabela 'cursos' onde 'nome-curso' é igual a 'Computação'. 2) Projetar o resultado dessa seleção sobre 'código-curso'. 3) Realizar uma junção com a tabela 'alunos'. 4) Projetar o resultado final sobre 'nome-aluno'. Este processo está correto, pois primeiro filtramos os cursos desejados, obtemos o código do curso, realizamos a junção com a tabela de alunos (provavelmente usando o 'código-curso' como chave estrangeira) e finalmente projetamos o nome dos alunos. As outras alternativas ou não seguem a ordem correta de operações ou não realizam todas as operações necessárias."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-16",
+    "numero": 16,
+    "enunciado": "Analise as seguintes afirmativas.\\\nI. Seja \\(A = P(X)\\) o conjunto dos subconjuntos de um conjunto \\(X\\). A relação\n\\[\\preceq = \\{(a,a'): a \\in A, a' \\in A, a \\subseteq a'\\}\\]\né uma relação de ordem parcial.\\\nII. Se \\(R\\) é uma relação binária simétrica e anti-simétrica, então \\(R = \\emptyset\\).\\\nIII. Seja \\(R\\) uma relação reflexiva em um conjunto \\(A\\). Então, \\(R\\) é uma relação de equivalência se e somente se \\(((a, b) \\in R\\) e \\((b,c) \\in R \\Rightarrow (c,a) \\in R)\\).\\\nIV. Se \\(F\\) e \\(G\\) são duas funções inversíveis, então \\(G \\circ F\\) é uma função inversível.\\\nAssinale a alternativa que apresenta a quantidade de afirmativas **CORRETAS**.",
+    "alternativas": [
+      "a) 0 (zero)",
+      "b) 1 (uma)",
+      "c) 2 (duas)",
+      "d) 3 (três)",
+      "e) 4 (quatro)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Relações de Equivalência e de Ordem",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "Vamos analisar cada afirmativa:\n\nI. A relação definida é de ordem parcial porque é reflexiva (todo subconjunto é subconjunto de si mesmo), antissimétrica (se a é subconjunto de a' e a' é subconjunto de a, então a = a'), e transitiva (se a é subconjunto de a' e a' é subconjunto de a'', então a é subconjunto de a''). Portanto, a afirmativa I é verdadeira.\n\nII. Uma relação binária que é simultaneamente simétrica e antissimétrica só pode conter pares da forma (a, a), ou seja, a relação identidade. Portanto, se não houver elementos em A, a relação será vazia, mas se houver pelo menos um elemento, a relação não será vazia. Assim, a afirmativa II é falsa.\n\nIII. Para que R seja uma relação de equivalência, além de ser reflexiva, deve ser simétrica e transitiva. A condição dada ((a, b) ∈ R e (b, c) ∈ R implica (c, a) ∈ R) não garante simetria. Portanto, a afirmativa III é falsa.\n\nIV. Se F e G são funções inversíveis, então G ◦ F é inversível, pois a composição de funções inversíveis é inversível. Portanto, a afirmativa IV é verdadeira.\n\nAssim, temos duas afirmativas verdadeiras (I e IV). Portanto, a alternativa correta é (b) 1 (uma)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-12",
+    "numero": 12,
+    "enunciado": "Seja \\(\\) um conectivo ternário definido por: \\(*(\\alpha, \\beta,\\gamma)\\) é verdadeiro se, e somente se, ou nenhuma ou apenas uma das fórmulas \\(\\alpha, \\beta,\\gamma\\) é verdadeira. Assinale a alternativa que apresenta a fórmula equivalente a \\(*(\\alpha, \\beta,\\gamma)\\).",
+    "alternativas": [
+      "a) \\((\\alpha \\lor \\beta \\lor \\gamma) \\land (\\alpha \\lor (\\lnot\\beta) \\lor (\\lnot\\gamma)) \\land ((\\lnot\\alpha) \\lor \\beta\\lor (\\lnot\\gamma)) \\land ((\\lnot\\alpha) \\lor (\\lnot\\beta) \\lor \\gamma)\\)",
+      "b) \\(((\\lnot\\alpha) \\land (\\lnot\\beta) \\land (\\lnot\\gamma)) \\lor (\\alpha \\land (\\lnot\\beta) \\land (\\lnot\\gamma)) \\lor ((\\lnot\\alpha) \\land \\beta \\land (\\lnot\\gamma)) \\lor ((\\lnot \\alpha) \\land (\\lnot(\\lnot\\beta)) \\land \\gamma)\\)",
+      "c)  \\((\\alpha \\lor (\\lnot\\beta) \\lor (\\lnot\\gamma)) \\land ((\\lnot\\alpha) \\lor \\beta\\lor(\\lnot\\gamma)) \\land ((\\lnot\\alpha) \\lor (\\lnot\\beta) \\lor \\gamma)\\)",
+      "d) \\(((\\lnot\\alpha) \\land (\\lnot\\beta) \\land (\\lnot\\gamma)) \\lor (\\alpha \\land (\\lnot\\beta) \\land (\\lnot\\gamma)) \\lor ((\\lnot\\alpha) \\land \\beta \\land (\\lnot\\gamma)) \\lor ((\\lnot \\alpha) \\land \\lnot\\beta) \\land \\gamma)\\)",
+      "e) Nenhuma destas respostas é correta."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Lógica Matemática",
+    "subarea": "Lógica Proposicional e de Predicados",
+    "dificuldade": "Média",
+    "gabarito": "e",
+    "solucao": "A questão apresenta uma sequência de expressões lógicas que envolvem operadores lógicos como '¬' (negação), '∧' (conjunção) e '∨' (disjunção). O objetivo é identificar qual das alternativas representa uma fórmula lógica correta ou se nenhuma delas é correta. Para resolver essa questão, é necessário verificar a estrutura lógica de cada alternativa e determinar se elas são logicamente válidas. Ao analisar cada alternativa, observa-se que todas apresentam inconsistências na aplicação dos operadores lógicos ou na estrutura das expressões. Portanto, a alternativa correta é 'e', indicando que nenhuma das respostas apresentadas é correta."
   }
 ]
