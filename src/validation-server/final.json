@@ -10885,5 +10885,43 @@
     "dificuldade": "Média",
     "gabarito": "e",
     "solucao": "A questão apresenta uma sequência de expressões lógicas que envolvem operadores lógicos como '¬' (negação), '∧' (conjunção) e '∨' (disjunção). O objetivo é identificar qual das alternativas representa uma fórmula lógica correta ou se nenhuma delas é correta. Para resolver essa questão, é necessário verificar a estrutura lógica de cada alternativa e determinar se elas são logicamente válidas. Ao analisar cada alternativa, observa-se que todas apresentam inconsistências na aplicação dos operadores lógicos ou na estrutura das expressões. Portanto, a alternativa correta é 'e', indicando que nenhuma das respostas apresentadas é correta."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-07",
+    "numero": 7,
+    "enunciado": "Considere a função \\( f : \\mathbb{R} \\to \\mathbb{R} \\) definida pela expressão:\n\n\\[f(x) = \n\\begin{cases} \nx^2, & \\text{se } x \\leq 0, \\\\\nx^2 + 1, & \\text{se } x > 0,\n\\end{cases}\\]\n\nCom base nesses dados, assinale a alternativa que apresenta a afirmativa VERDADEIRA:",
+    "alternativas": [
+      "a) \\(\\lim_{x \\to 0} f'(x) = \\lim_{x \\to 0^+} f'(x)\\) mas \\(f'(0)\\) não existe.",
+      "b) \\(\\lim_{x \\to 0^-} f(x) = 0\\) e \\(\\lim_{x \\to 0^+} f(x) = 1 = f(0)\\).",
+      "c) \\(f(x)\\) é contínua mas não é diferenciável.",
+      "d) \\(f'(x)\\) é decrescente e \\(f(x) \\geq 0\\) se \\(x \\in (-\\infty, 0)\\).",
+      "e)  \\(\\lim_{x \\to \\infty} f(x) = \\infty\\) e \\(\\lim_{x \\to -\\infty} f'(x) = +\\infty\\)."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Média",
+    "gabarito": "b",
+    "solucao": "A função f(x) é definida por partes: f(x) = x^2 se x ≤ 0 e f(x) = x^2 + 1 se x > 0. Para analisar a continuidade e os limites, primeiro calculamos o limite à esquerda de 0: lim x→0− f(x) = lim x→0− x^2 = 0. Para o limite à direita de 0: lim x→0+ f(x) = lim x→0+ (x^2 + 1) = 1. A função f(0) = 0^2 = 0. Portanto, lim x→0− f(x) = 0 e lim x→0+ f(x) = 1, mas f(0) = 0, mostrando que a função não é contínua em x = 0. Assim, a alternativa correta é (b), que afirma que lim x→0− f(x) = 0 e lim x→0+ f(x) = 1 = f(0)."
+  },
+  {
+    "edicao": 2007,
+    "id": "2007-30",
+    "numero": 30,
+    "enunciado": "Suponha que tenhamos à nossa disposição um algoritmo `MULT` que efetua a multiplicação de duas matrizes \\( A_{p \\times q} \\) e \\( B_{q \\times r} \\) dadas como entrada com \\( p \\times q \\times r \\) multiplicações de escalares. Esse algoritmo é, então, usado para definir o seguinte problema de decisão chamado `MULTMAT`:\\\n**ENTRADA**: vetor \\( p[0], p[1], \\ldots, p[n] \\), um inteiro positivo \\( m \\).\\\n**QUESTÃO**: existe uma seqüência de multiplicações de duas matrizes com o algoritmo `MULT` que produz o resultado de \\( A_1A_2 \\cdots A_n \\), em que cada \\( A_i \\), para todo \\( i \\in \\{ 1, 2, \\ldots, n \\} \\), é uma matriz de dimensões \\( p[i - 1] \\times p[i] \\), com \\( m \\) multiplicações de escalares no máximo?\\\nConsidere as seguintes afirmativas.\\\n**I.** O algoritmo abaixo demonstra que `MULTMAT` está na classe de problemas \\( P \\).\n```\nChamada: MULTMAT(p, m)\n1: q ← Q(p, 0, n)\n2: se q ≤ m então\n3:     retorna “Sim”\n4: retorna “Não”\n\nChamada: Q(p, i, j)\n5: se i = j então\n6:     retorna 0\n7: q ← ∞\n8: para k ← i, i + 1, …, j − 1 faça\n9:     r ← Q(p, i, k) + Q(p, k + 1, j) + p[i − 1]p[k]p[j]\n10:    se r < q então\n11:        q ← r\n12: retorna q\n```\n\n**II.** `MULTMAT` está na classe de problemas \\( NP \\).\\\n**III.** Se I e II são corretas, então \\( P = NP \\).",
+    "alternativas": [
+      "a) Somente a afirmativa I.",
+      "b) Somente a afirmativa II.",
+      "c) Somente a afirmativa III.",
+      "d) Somente as afirmativas II e III.",
+      "e) Somente as afirmativas I, II e III."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
+    "dificuldade": "Média",
+    "gabarito": "a",
+    "solucao": "A questão aborda a classificação de um problema relacionado à multiplicação de matrizes em termos de complexidade computacional. Afirmativa I diz que o algoritmo MULTMAT está na classe P. O algoritmo apresentado é uma implementação do problema clássico de multiplicação de cadeias de matrizes, que é resolvido em tempo polinomial usando programação dinâmica. Portanto, a afirmativa I está correta. Afirmativa II sugere que MULTMAT está na classe NP. No entanto, como o problema pode ser resolvido em tempo polinomial, ele não é NP-completo, logo a afirmativa II está incorreta. Afirmativa III depende da veracidade de I e II, mas como II é falsa, III também é falsa. Portanto, apenas a afirmativa I é correta."
   }
 ]
