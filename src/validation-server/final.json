@@ -11572,6 +11572,25 @@
   },
   {
     "edicao": 2011,
+    "id": "2011-44",
+    "numero": 44,
+    "enunciado": "Qual a quantidade mínima de arestas que se deve remover do grafo completo com 6 vértices, \\(K_6\\), para se obter um grafo planar?",
+    "alternativas": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4",
+      "e) 5"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Planaridade",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Um grafo planar é aquele que pode ser desenhado no plano sem que suas arestas se cruzem. De acordo com o teorema de Euler para grafos planares, para um grafo planar com V vértices e E arestas, a relação V - E + F = 2 deve ser satisfeita, onde F é o número de faces. Além disso, para grafos planares, temos a restrição de que E <= 3V - 6 para V >= 3. No caso de um grafo completo com 6 vértices, K6, o número de arestas E é dado por E = V(V-1)/2 = 6*5/2 = 15. Para que K6 seja planar, precisamos que E <= 3*6 - 6 = 12. Portanto, precisamos remover pelo menos 15 - 12 = 3 arestas para que o grafo se torne planar. Assim, a quantidade mínima de arestas que se deve remover do grafo completo com 6 vértices para obter um grafo planar é 3."
+  },
+  {
+    "edicao": 2011,
     "id": "2011-45",
     "numero": 45,
     "enunciado": "Arquivos são um mecanismo de abstração que permite a manipulação de dados de maneira persistente, concorrente e em grandes quantidades. \\\nSobre o assunto, considere as afirmativas a seguir. \\\nI. Em arquivos restritos a acesso sequencial, a operação *rewind* é irrelevante e, quando presente, apenas equivale a uma operação *seek* apontando para o início do arquivo. \\\nII. Uma maneira comum de estruturar arquivos é a sequência de bytes não estruturada. Nesse modelo, um arquivo não é organizado em registros e campos, e quaisquer significados aos seus dados devem ser feitos pelos programas de usuário. Sua vantagem é permitir a máxima flexibilidade. \\\nIII. Todo sistema operacional armazena um certo conjunto de informações junto a cada arquivo, conhecidas como atributos ou metadados. Dentre as informações armazenadas pelos metadados de um arquivo em um sistema, podem estar: identificador do arquivo; hora da criação; último acesso; última mudança; visibilidade; tipo de arquivo. \\\nIV. Alguns sistemas suportam arquivos estruturados em árvores. Nesse tipo de arquivo, cada registro possui uma chave. A árvore é organizada no campo de chaves do arquivo para possibilitar uma busca rápida pelos registros. \\\nAssinale a alternativa correta.",
@@ -22038,6 +22057,25 @@
     "dificuldade": "Fácil",
     "gabarito": "A",
     "solucao": "A questão pede para identificar qual das estruturas de controle permite que uma ação seja repetida enquanto uma condição for verdadeira. Vamos analisar cada opção: \n\n1. Seleção simples: Esta estrutura é usada para decidir se uma ação deve ser executada com base em uma condição. Não envolve repetição, portanto, é Falsa.\n\n2. Seleção dupla: Esta estrutura permite escolher entre duas ações possíveis com base em uma condição. Não envolve repetição, portanto, é Falsa.\n\n3. Laço de repetição: Este é o tipo de estrutura que permite a repetição de uma ação enquanto uma condição for verdadeira. Portanto, é Verdadeira.\n\n4. Múltipla escolha: Esta estrutura permite escolher entre várias ações possíveis, mas não envolve repetição, portanto, é Falsa.\n\nPortanto, a ordem correta de preenchimento dos parênteses é F – F – V – F, que corresponde à alternativa A."
+  },
+  {
+    "edicao": 2022,
+    "id": "2022-39",
+    "numero": 39,
+    "enunciado": "Dado a gramática regular (G), determine qual é a expressão regular (r), tal que L(r) = L(G):\n\\[\\begin{align*}\nS & \\rightarrow abS | S \\\\\nS & \\rightarrow a\n\\end{align*}\\]",
+    "alternativas": [
+      "a) \\(r = (ab)^*a\\)",
+      "b) \\(r = aba^*\\)",
+      "c) \\(r = a^*(ba)\\)",
+      "d) \\(r = (a+b)^*a^*\\)",
+      "e) \\(r = (ab) + a\\)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar qual expressão regular corresponde à gramática regular dada, precisamos analisar as alternativas e verificar qual delas gera a mesma linguagem que a gramática. A alternativa D, 'r = (a+b)*a*', representa a linguagem de todas as cadeias que podem ser formadas por qualquer combinação de 'a' e 'b', seguida de qualquer quantidade de 'a'. Esta expressão é a mais abrangente e cobre todas as possibilidades de cadeias formadas por 'a' e 'b', seguida de 'a', o que é uma característica típica de uma gramática regular que não impõe restrições específicas sobre a ordem ou quantidade de 'a' e 'b'. As outras alternativas impõem restrições específicas que não são características de uma gramática regular genérica. Portanto, a alternativa D é a correta."
   },
   {
     "edicao": 2022,
