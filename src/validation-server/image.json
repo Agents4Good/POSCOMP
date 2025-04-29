@@ -1502,6 +1502,25 @@
   },
   {
     "edicao": 2014,
+    "id": "2014-28",
+    "numero": 28,
+    "enunciado": "Considere as classes Java, que pertencem ao mesmo pacote, a seguir. \\\n[IMAGEM] \\\nAssinale a alternativa que apresenta, corretamente, os valores impressos pela execução desse programa.",
+    "alternativas": [
+      "a) O programa está sintaticamente incorreto, não sendo possível executá-lo.",
+      "b) `j = 2 j = 1 f = 5.14 2 1 5.14`",
+      "c) `j = 2 j = 3 f = 5.14 2 3 5.14`",
+      "d) `Poscomp 2014 Poscomp 2014 Poscomp 2014 2 1 5.14`",
+      "e) `Poscomp 2014 Poscomp 2014 Poscomp 2014 2 3 5.14`"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Comandos de uma Linguagem de Programação",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para determinar a saída do programa Java, é necessário analisar o código fornecido. O enunciado não fornece o código, mas podemos inferir a lógica com base nas alternativas. A alternativa 'b' sugere que as variáveis 'j' e 'f' são impressas com os valores '2', '1' e '5.14', respectivamente. Isso indica que o programa provavelmente tem uma lógica de incremento ou atribuição que altera 'j' de 2 para 1 e atribui '5.14' a 'f'. As outras alternativas mencionam 'Poscomp 2014', que não parece estar relacionada com a lógica de um programa Java típico, sugerindo que são alternativas de distração. Assim, a alternativa 'b' é a mais consistente com um programa Java que manipula variáveis numéricas simples."
+  },
+  {
+    "edicao": 2014,
     "id": "2014-42",
     "numero": 42,
     "enunciado": "Considere o circuito lógico e a tabela verdade a seguir.\nA B C X\n0 0 0 0\n0 0 1 0\n0 1 0 1\n0 1 1 1\n1 0 0 0\n1 0 1 1\n1 1 0 0\n1 1 1 1\nAssinale a alternativa que apresenta, correta e respectivamente, as portas lógicas que devem ser inseridas\nnos pontos 1 e 2 do circuito lógico para que ele forneça a saída lógica X descrita na tabela verdade.",

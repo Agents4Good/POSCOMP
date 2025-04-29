@@ -1,43 +1,5 @@
 [
   {
-    "edicao": 2002,
-    "id": "2002-10",
-    "numero": 10,
-    "enunciado": "Assinale o argumento válido, onde \\(S_1\\), \\(S_2\\) indicam premissas e S a conclusão:",
-    "alternativas": [
-      "a) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo estava descansado\n\\(S\\): O cavalo ganhou a corrida",
-      "b) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo ganhou a corrida\n\\(S\\): O cavalo estava descansado",
-      "c) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo perdeu a corrida\n\\(S\\): O cavalo estava cansado",
-      "d) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo estava descansado\n\\(S\\): O cavalo perdeu a corrida",
-      "e) nenhuma das anteriores"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "",
-    "subarea": "",
-    "dificuldade": "",
-    "gabarito": "B",
-    "solucao": ""
-  },
-  {
-    "edicao": 2003,
-    "id": "2003-17",
-    "numero": 17,
-    "enunciado": "Assinale o argumento válido, onde \\(S_1\\) e \\(S_2\\) indicam premissas e \\(C\\) a conclusão.",
-    "alternativas": [
-      "a) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida não é boa. \\(C\\): O serviço não é bom.",
-      "b) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): O serviço não é bom. \\(C\\): A comida é boa.",
-      "c) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): O serviço não é bom. \\(C\\): A comida não é boa.",
-      "d) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida é boa. \\(C\\): O serviço não é bom.",
-      "e) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida não é boa. \\(C\\): O serviço é bom."
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "",
-    "subarea": "",
-    "dificuldade": "",
-    "gabarito": "C",
-    "solucao": ""
-  },
-  {
     "edicao": 2003,
     "id": "2003-31",
     "numero": 31,
@@ -98,13 +60,13 @@
     "edicao": 2004,
     "id": "2004-42",
     "numero": 42,
-    "enunciado": "Considere um modelo entidade-relacionamento de uma indústria. Este modelo representa peças com suas propriedades, bem como a composição de peças (peças podem ser usadas na composição de outras peças). Este modelo entidade-relacionamento contém:\nx Uma entidade Peça, com atributos código e nome e peso.\nx Um auto-relacionamento de Peça, chamado Composição. Neste auto-relacionamento uma peça tem papel de componente e outra peça papel de composto. O auto-relacionamento tem cardinalidade n:n e tem um atributo quantidade, que informa quantas unidades da peça componente são usadas na peça composto.\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nQuantidade)\nPeca.CodPecaComposto referencia Peca\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nCodPecaComponente,Quantidade)\nPeca.CodPecaComposto referencia Peca\nPeca.CodPecaComponente referencia Peca\nComponente (CodPeca, NomePeca, PesoPeca, CodPecaComposto\nQuantiade)\nComponente.CodPecaComposto referencia Composto",
+    "enunciado": "Considere um modelo entidade-relacionamento de uma indústria. Este modelo representa peças com suas propriedades, bem como a composição de peças (peças podem ser usadas na composição de outras peças). Este modelo entidade-relacionamento contém:\n- Uma entidade *Peça*, com atributos código e nome e peso.\n- Um auto-relacionamento de Peça, chamado *Composição*. Neste auto-relacionamento uma peça tem papel de componente e outra peça papel de *composto*. O auto-relacionamento tem cardinalidade n:n e tem um atributo *quantidade*, que informa quantas unidades da peça componente são usadas na peça composto. \\\nUma base de dados relacional que implementa corretamente este modelo entidade-relacionamento e está na terceira forma normal é (chaves primárias estão sublinhadas):",
     "alternativas": [
-      "a) ",
-      "b) ",
-      "c) ",
-      "d) ",
-      "e) "
+      "a) Peca (CodPeca, NomePeca, PesoPeca)\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca",
+      "b) Peca (CodPeca, NomePeca, PesoPeca, CodPecaComposto,\nQuantidade)\nPeca.CodPecaComposto referencia Peca",
+      "c) Peca (CodPeca, NomePeca, PesoPeca)\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca",
+      "d) Peca (CodPeca, NomePeca, PesoPeca, CodPecaComposto,\nCodPecaComponente,Quantidade)\nPeca.CodPecaComposto referencia Peca\nPeca.CodPecaComponente referencia Peca",
+      "e) Composto (CodPeca, NomePeca, PesoPeca)\nComponente (CodPeca, NomePeca, PesoPeca, CodPecaComposto\nQuantiade)\nComponente.CodPecaComposto referencia Composto"
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Organização de Arquivos e Dados",
@@ -112,25 +74,6 @@
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "A questão descreve um modelo entidade-relacionamento para uma indústria que lida com peças e suas composições. A entidade principal é 'Peça', que possui atributos como código, nome e peso. O auto-relacionamento 'Composição' permite que uma peça seja um componente de outra peça, formando uma relação de muitos para muitos (n:n). O atributo 'quantidade' no relacionamento indica quantas unidades de uma peça componente são usadas em uma peça composta. A alternativa correta é aquela que descreve corretamente a estrutura do relacionamento e suas referências, que é a alternativa A."
-  },
-  {
-    "edicao": 2005,
-    "id": "2005-32",
-    "numero": 32,
-    "enunciado": "Considere o algoritmo `máximo(v, i, f)` que devolve o índice de um elemento máximo de \\(\\{v[i], ..., v[f]\\}\\) :\nmáximo(v, i, f)\n    se i = f, devolva i\np máximo(v, i; (i + f )=2 )\nb c q máximo(v; (i + f )=2 + 1; f )\nb c se v[p] v[q], devolva p\ndevolva q\nConsiderando \\(n = f − i + 1\\), o número de comparações entre elementos de \\(v\\) numa\nexecução de `máximo(v, i, f)` é",
-    "alternativas": [
-      "a) \\(n \\log_2 n\\)",
-      "b) \\(n/2\\)",
-      "c) \\(n - 1\\)",
-      "d) \\(\\log_2 n\\)",
-      "e) \\(2n\\)"
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Análise de Algoritmos",
-    "subarea": "Uso de Relações de Recorrência para Análise de Algoritmos Recursivos",
-    "dificuldade": "Média",
-    "gabarito": "C",
-    "solucao": "O algoritmo 'máximo(v; i; f)' é um exemplo clássico de um algoritmo de 'dividir e conquistar', que utiliza a técnica de recursão para encontrar o índice do elemento máximo em um subarray de 'v'. A cada chamada recursiva, o array é dividido em duas metades, e o algoritmo é chamado recursivamente em cada metade. Isso é semelhante ao algoritmo de busca binária, onde o problema é dividido em partes menores a cada passo. A complexidade de tempo do algoritmo pode ser descrita por uma relação de recorrência similar à do algoritmo de busca binária, que é T(n) = 2T(n/2) + O(1). A solução dessa recorrência é T(n) = O(log n), que é a complexidade de tempo do algoritmo. Portanto, a alternativa correta é '(d) log n\n2'."
   },
   {
     "edicao": 2005,
@@ -174,13 +117,13 @@
     "edicao": 2006,
     "id": "2006-67",
     "numero": 67,
-    "enunciado": "Considere os seguintes parâmetros de Qualidade de Serviço (QoS) para trans-\nAplicação Confiabilidade Atraso Jitter Largura de banda",
+    "enunciado": "Considere os seguintes parâmetros de Qualidade de Serviço (QoS) para transmissão multimídia: confiabilidade, atraso, *jitter* e largura de banda. Considere ainda que estes parâmetros possam ter tolerância alta (A), média (M) ou baixa (B). Qual das alternativas está abaixo da tolerância mínima da aplicação?",
     "alternativas": [
-      "a) ",
-      "b) ",
-      "c) ",
-      "d) ",
-      "e) "
+      "a) Correio Eletrônico",
+      "b) Acesso Web",
+      "c) Vídeo Sob Demanda",
+      "d) Telefonia",
+      "e) Vídeo Conferência"
     ],
     "area_conhecimento": "Tecnologia de Computação",
     "area": "Redes de Computadores",
@@ -188,234 +131,6 @@
     "dificuldade": "Fácil",
     "gabarito": "E",
     "solucao": "A questão apresenta parâmetros de Qualidade de Serviço (QoS) que são comumente discutidos no contexto de Redes de Computadores. Esses parâmetros incluem confiabilidade, atraso, jitter e largura de banda, que são fundamentais para a avaliação de desempenho de redes. A alternativa correta é a que melhor descreve ou relaciona esses parâmetros com o contexto de redes de computadores."
-  },
-  {
-    "edicao": 2013,
-    "id": "2013-13",
-    "numero": 13,
-    "enunciado": "Admite-se que um novo conectivo binário, rotulado pelo símbolo \\(\\uparrow\\), seja definido pela seguinte tabela-verdade:\n\n\\begin{center}\n\\begin{tabular}{|c|c|c|}\n\\hline\nP & Q & \\(P \\uparrow Q\\) \\\\\n\\hline\nV & V & F \\\\\nV & F & V \\\\\nF & V & F \\\\\nF & F & F \\\\\n\\hline\n\\end{tabular}\n\\end{center}\n\nCom base nessa definição e nas operações usuais com os conectivos \\(\\vee\\), \\(\\wedge\\) e \\(\\sim\\), considere as afirmativas a seguir:",
-    "alternativas": [
-      "a) Somente as afirmativas I e II são corretas.",
-      "b) Somente as afirmativas I e IV são corretas.",
-      "c) Somente as afirmativas III e IV são corretas.",
-      "d) Somente as afirmativas I, II e III são corretas.",
-      "e) Somente as afirmativas II, III e IV são corretas."
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Lógica Matemática",
-    "subarea": "Lógica Proposicional e de Predicados",
-    "dificuldade": "Média",
-    "gabarito": "C",
-    "solucao": "Para resolver a questão, precisamos analisar cada afirmativa com base na tabela-verdade do novo conectivo P  Q.\n\n1. Afirmativa I: P  Q é equivalente a Q  P.\n   - Pela tabela-verdade, P  Q é verdadeiro apenas quando P é verdadeiro e Q é falso. Já Q  P é verdadeiro apenas quando Q é verdadeiro e P é falso. Portanto, P  Q não é equivalente a Q  P. A afirmativa I é falsa.\n\n2. Afirmativa II: (P  Q) ∨ (Q  P) não é uma contingência.\n   - Uma contingência é uma proposição que pode ser verdadeira ou falsa dependendo dos valores de verdade das proposições que a compõem. Vamos analisar a tabela-verdade de (P  Q) ∨ (Q  P):\n     - P = V, Q = V: (P  Q) = F, (Q  P) = F, então (P  Q) ∨ (Q  P) = F\n     - P = V, Q = F: (P  Q) = V, (Q  P) = F, então (P  Q) ∨ (Q  P) = V\n     - P = F, Q = V: (P  Q) = F, (Q  P) = V, então (P  Q) ∨ (Q  P) = V\n     - P = F, Q = F: (P  Q) = F, (Q  P) = F, então (P  Q) ∨ (Q  P) = F\n   - A proposição (P  Q) ∨ (Q  P) pode ser verdadeira ou falsa dependendo dos valores de P e Q, portanto é uma contingência. A afirmativa II é falsa.\n\n3. Afirmativa III: (Q  P) ∧ (P  Q) é uma contradição.\n   - Uma contradição é uma proposição que é sempre falsa. Vamos analisar a tabela-verdade de (Q  P) ∧ (P  Q):\n     - P = V, Q = V: (Q  P) = F, (P  Q) = F, então (Q  P) ∧ (P  Q) = F\n     - P = V, Q = F: (Q  P) = F, (P  Q) = V, então (Q  P) ∧ (P  Q) = F\n     - P = F, Q = V: (Q  P) = V, (P  Q) = F, então (Q  P) ∧ (P  Q) = F\n     - P = F, Q = F: (Q  P) = F, (P  Q) = F, então (Q  P) ∧ (P  Q) = F\n   - A proposição (Q  P) ∧ (P  Q) é sempre falsa, portanto é uma contradição. A afirmativa III é verdadeira.\n\n4. Afirmativa IV: ∼ [(Q  P) ∧ (P  Q)] é uma tautologia.\n   - Uma tautologia é uma proposição que é sempre verdadeira. Como já vimos, (Q  P) ∧ (P  Q) é sempre falsa, então sua negação, ∼ [(Q  P) ∧ (P  Q)], é sempre verdadeira. A afirmativa IV é verdadeira.\n\nPortanto, as afirmativas III e IV são corretas, o que corresponde à alternativa c."
-  },
-  {
-    "edicao": 2014,
-    "id": "2014-28",
-    "numero": 28,
-    "enunciado": "Considere as classes Java, que pertencem ao mesmo pacote, a seguir.\nAssinale a alternativa que apresenta, corretamente, os valores impressos pela execução desse programa.",
-    "alternativas": [
-      "a) O programa está sintaticamente incorreto, não sendo possível executá-lo.",
-      "b) j = 2 j = 1 f = 5.14 2 1 5.14",
-      "c) j = 2 j = 3 f = 5.14 2 3 5.14",
-      "d) Poscomp 2014 Poscomp 2014 Poscomp 2014 2 1 5.14",
-      "e) Poscomp 2014 Poscomp 2014 Poscomp 2014 2 3 5.14"
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Algoritmos e Estrutura de Dados",
-    "subarea": "Comandos de uma Linguagem de Programação",
-    "dificuldade": "Média",
-    "gabarito": "C",
-    "solucao": "Para determinar a saída do programa Java, é necessário analisar o código fornecido. O enunciado não fornece o código, mas podemos inferir a lógica com base nas alternativas. A alternativa 'b' sugere que as variáveis 'j' e 'f' são impressas com os valores '2', '1' e '5.14', respectivamente. Isso indica que o programa provavelmente tem uma lógica de incremento ou atribuição que altera 'j' de 2 para 1 e atribui '5.14' a 'f'. As outras alternativas mencionam 'Poscomp 2014', que não parece estar relacionada com a lógica de um programa Java típico, sugerindo que são alternativas de distração. Assim, a alternativa 'b' é a mais consistente com um programa Java que manipula variáveis numéricas simples."
-  },
-  {
-    "edicao": 2015,
-    "id": "2015-41",
-    "numero": 41,
-    "enunciado": "Considere uma linguagem \\( L \\) e as classes de problemas \\( \\text{IP} \\), \\( \\text{NP} \\) e \\( \\text{coNP} \\), esta última definida como\n\\[\n\\text{coNP} = \\{ L \\in \\text{NP} \\mid \\overline{L} \\in \\text{NP} \\}.\n\\]\n\nA sequência de implicações lógicas a seguir corresponde a uma tentativa de prova do teorema \n\\emph{``se \\( L \\in \\text{IP} \\) então \\( L \\in \\text{coNP} \\)''}:\n\n\\[\n\\begin{aligned}\nL \\in \\text{IP} &\\Rightarrow \\overline{L} \\in \\text{IP} \\tag{I} \\\\\n                &\\Rightarrow \\overline{L} \\in \\text{NP} \\tag{II} \\\\\nL \\in \\text{IP} &\\Rightarrow L \\in \\text{NP} \\tag{III} \\\\\nL \\in \\text{NP} \\text{ e } \\overline{L} \\in \\text{NP} &\\Rightarrow L \\in \\text{coNP} \\tag{IV}\n\\end{aligned}\n\\]",
-    "alternativas": [
-      "a) a prova não está correta, porque a implicação lógica I é falsa.",
-      "b) a prova não está correta, porque a implicação lógica IV é falsa.",
-      "c) a prova é correta, porém a implicação lógica III é falsa.",
-      "d) a prova é correta, porém a implicação lógica II é falsa.",
-      "e) a prova está correta, pois as implicações lógicas são verdadeiras."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens Formais, Autômatos e Computabilidade",
-    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
-    "dificuldade": "Difícil",
-    "gabarito": "E",
-    "solucao": "A questão aborda a relação entre as classes de complexidade IP, INP e coINP, que são conceitos avançados em teoria da computação. A definição dada para coINP é que coINP = { L }, o que implica que qualquer linguagem L pertencente a IP também pertence a coINP, já que coINP é definido como o conjunto que contém L. Portanto, se L está em IP, a implicação lógica de que L está em coINP é verdadeira, pois coINP já contém L por definição. Assim, todas as implicações lógicas na tentativa de prova são verdadeiras, tornando a prova correta."
-  },
-  {
-    "edicao": 2019,
-    "id": "2019-18",
-    "numero": 18,
-    "enunciado": "Encontre a média (μ) e o desvio padrão (σ) da distribuição:\nX 1 3 5 7\ni\nP 0,3 0,1 0,4 0,2\ni\n𝜇 = 𝐸(𝑋) = ∑ 𝑥 𝑝\n𝑖 𝑖\n𝐸(𝑋 2) = ∑ 𝑥 2 𝑝\n𝑖 𝑖\n𝜎 2 = 𝐸(𝑋 2) − 𝜇2",
-    "alternativas": [
-      "a) μ = 4,0; σ = 2,24",
-      "b) μ = 4,0; σ = 5,00",
-      "c) μ = 5,0; σ = 25,0",
-      "d) μ = 3,0; σ = 4,0",
-      "e) μ = 4,0; σ = 21,0"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Probabilidade e Estatística",
-    "subarea": "Esperança Matemática",
-    "dificuldade": "Fácil",
-    "gabarito": "A",
-    "solucao": "Para encontrar a média (μ) da distribuição, usamos a fórmula da esperança matemática: μ = E(X) = Σ(x_i * p_i). Calculando, temos: μ = (1 * 0,3) + (3 * 0,1) + (5 * 0,4) + (7 * 0,2) = 0,3 + 0,3 + 2,0 + 1,4 = 4,0. \n\nPara o desvio padrão (σ), primeiro calculamos E(X²) = Σ(x_i² * p_i). Calculando, temos: E(X²) = (1² * 0,3) + (3² * 0,1) + (5² * 0,4) + (7² * 0,2) = 0,3 + 0,9 + 10,0 + 9,8 = 21,0. \n\nAgora, calculamos a variância σ² = E(X²) - μ² = 21,0 - 4,0² = 21,0 - 16,0 = 5,0. \n\nFinalmente, o desvio padrão σ é a raiz quadrada da variância: σ = √5,0 ≈ 2,24. \n\nPortanto, a alternativa correta é A) μ = 4,0; σ = 2,24."
-  },
-  {
-    "edicao": 2019,
-    "id": "2019-63",
-    "numero": 63,
-    "enunciado": "Considere o esquema de tradução dirigida pela sintaxe apresentado a seguir, no qual\nas produções da gramática foram numeradas:\nProduções Ações Semânticas\n1) L → E n L.val = E.val\n2) E → E 1 + T E.val = E 1.val + T.val\n3) E → T E.val = T.val\n4) T → T 1 * F T.val = T 1.val * F.val\n5) T → F T.val = F.val\n6) F → (E) F.val = E.val\n7) F → digit F.val = digit.lexval\nAssinale a alternativa correta sobre o esquema.",
-    "alternativas": [
-      "a) Na produção 4, T.val e F.val são sintetizados.",
-      "b) Na produção 4, T .val é herdado.\n1",
-      "c) Na produção 5, T.val e F.val são herdados.",
-      "d) Na produção 2, E.val é sintetizado e T.val é herdado.",
-      "e) Na produção 2, E .val é sintetizado e T.val é herdado.\n1"
-    ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Compliadores",
-    "subarea": "Esquemas de Tradução",
-    "dificuldade": "Média",
-    "gabarito": "A",
-    "solucao": "Para determinar a alternativa correta, precisamos entender as definições de atributos sintetizados e herdados em um esquema de tradução dirigida pela sintaxe. Atributos sintetizados são aqueles que são calculados a partir dos atributos dos filhos no nó da árvore de derivação, enquanto atributos herdados são calculados a partir dos atributos dos irmãos ou do pai do nó. Na produção 4, 'T → T1 * F', T.val é calculado como T1.val * F.val, o que significa que tanto T.val quanto F.val são calculados a partir dos valores dos nós filhos, caracterizando-os como atributos sintetizados. Portanto, a alternativa correta é A) Na produção 4, T.val e F.val são sintetizados."
-  },
-  {
-    "edicao": 2022,
-    "id": "2022-18",
-    "numero": 18,
-    "enunciado": "Em uma prova realizada a um grupo de alunos universitários foram obtidas as\nseguintes pontuações:\n101 102 112 113 92 91 106 104 100 95\n104 98 96 117 89 99 114 100 98 104\n93 92 99 90 108 116 93 109 105 91\nA partir da tabela anterior, qual a porcentagem de alunos que tem pontuação entre 90 a 99?",
-    "alternativas": [
-      "a) 33,33%.",
-      "b) 43,33%.",
-      "c) 46,66%.",
-      "d) 56,66%.",
-      "e) 65,55%."
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Probabilidade e Estatística",
-    "subarea": "Análise Exploratória de Dados",
-    "dificuldade": "Fácil",
-    "gabarito": "B",
-    "solucao": "Para resolver a questão, precisamos calcular a porcentagem de alunos que têm pontuação entre 90 e 99. Primeiro, contamos quantos alunos têm pontuações dentro desse intervalo. As pontuações são: 92, 91, 95, 98, 96, 99, 98, 93, 92, 99, 93, 91, 90. Isso totaliza 13 alunos. No total, há 30 pontuações listadas. A porcentagem é então calculada como (13/30) * 100%, que resulta em aproximadamente 43,33%. Portanto, a alternativa correta é B) 43,33%."
-  },
-  {
-    "edicao": 2022,
-    "id": "2022-20",
-    "numero": 20,
-    "enunciado": "O tempo t, em segundos, necessário para um processador resolver uma equação é\numa variável aleatória com a seguinte distribuição de probabilidades:\nt [s] 2 3 4 5 6 7\nP (t) 0,05 0,10 0,10 0,20 0,25 0,30\nCalcule o tempo esperado de processamento:",
-    "alternativas": [
-      "a) 4,5 s.",
-      "b) 5,0 s.",
-      "c) 1,0 s.",
-      "d) 0,9 s.",
-      "e) 5,4 s.\nFUNDAMENTOS DA COMPUTAÇÃO"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Probabilidade e Estatística",
-    "subarea": "Esperança Matemática",
-    "dificuldade": "Fácil",
-    "gabarito": "E",
-    "solucao": "Para calcular o tempo esperado de processamento, utilizamos a fórmula da esperança matemática para variáveis aleatórias discretas: E(t) = Σ [t * P(t)]. Aplicando essa fórmula aos dados fornecidos: E(t) = 2*0,05 + 3*0,10 + 4*0,10 + 5*0,20 + 6*0,25 + 7*0,30. Calculando cada termo, temos: 2*0,05 = 0,10; 3*0,10 = 0,30; 4*0,10 = 0,40; 5*0,20 = 1,00; 6*0,25 = 1,50; 7*0,30 = 2,10. Somando todos os valores: 0,10 + 0,30 + 0,40 + 1,00 + 1,50 + 2,10 = 5,40. Portanto, o tempo esperado de processamento é 5,4 segundos."
-  },
-  {
-    "edicao": 2022,
-    "id": "2022-49",
-    "numero": 49,
-    "enunciado": "O paralelismo em nível de instruções existe quando as instruções de uma sequência\nsão independentes e, assim, podem ser executadas em paralelo por sobreposição. Como um exemplo\ndo conceito de paralelismo, considere dois pedaços de código (A e B) a seguir (JOUPPI, 1989):\nCódigo A Código B\nLoad R1 ← R2 Add R3 ← R3, “1”\nAdd R3 ← R3, “1” Add R4 ← R3, R2\nAdd R4 ← R4, R2 Store [R4] ← R0\nAssinale a alternativa INCORRETA a respeito do paralelismo.",
-    "alternativas": [
-      "a) O grau do paralelismo em nível de instruções é determinado pela frequência da dependência de\ndados verdadeira e das dependências procedurais no código.",
-      "b) As três instruções no Código A são independentes e, na teoria, todas poderiam ser executadas em\nparalelo.",
-      "c) As três instruções do Código B não podem ser executadas em paralelo, porque a segunda instrução\nusa o resultado da primeira e a terceira usa o resultado da segunda.",
-      "d) O paralelismo de máquina é uma medida de desempenho, que é determinado pelo número de\ninstruções que podem ser obtidas e executadas ao mesmo tempo de forma sequencial.",
-      "e) O paralelismo em nível de instruções é também determinado pelo que Jouppi denomina como\nlatência da operação."
-    ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Arquitetura e Organização de Computadores",
-    "subarea": "Paralelismo de Baixa Granularidade",
-    "dificuldade": "Média",
-    "gabarito": "D",
-    "solucao": "Vamos analisar cada alternativa para identificar a incorreta:\n\nA) Esta alternativa está correta. O grau de paralelismo em nível de instruções é de fato determinado pela frequência de dependências de dados verdadeiras e dependências procedurais no código.\n\nB) Esta alternativa está incorreta. No Código A, as instruções não são independentes. A instrução 'Add R3 ← R3, “1”' depende do valor de R3, que pode ser alterado por instruções anteriores. Portanto, elas não podem ser executadas em paralelo sem considerar dependências de dados.\n\nC) Esta alternativa está correta. No Código B, há dependências entre as instruções: a segunda instrução depende do resultado da primeira, e a terceira depende do resultado da segunda, o que impede a execução em paralelo.\n\nD) Esta alternativa está incorreta. O paralelismo de máquina não é uma medida de desempenho determinada pelo número de instruções que podem ser obtidas e executadas ao mesmo tempo de forma sequencial. O paralelismo de máquina refere-se à capacidade de uma máquina executar múltiplas instruções simultaneamente, mas não de forma sequencial.\n\nE) Esta alternativa está correta. O paralelismo em nível de instruções é influenciado pela latência das operações, conforme mencionado por Jouppi.\n\nPortanto, a alternativa incorreta é a D."
-  },
-  {
-    "edicao": 2022,
-    "id": "2022-55",
-    "numero": 55,
-    "enunciado": "Considere que os produtos de uma loja são modelados pelo esquema de relação\n**PROD(Codigo, Descricao, Preco)**, em que **Codigo** é a chave primária da relação. O banco de dados possui vários produtos, onde se observa pelo menos **n** (n>10) preços distintos. A consulta a seguir, que está escrita conforme o formalismo da álgebra relacional, usa as operações projeção, seleção, produto cartesiano e renomeação, as quais são representadas pelos símbolos \\(\\pi\\), \\(\\sigma\\), \\(\\times\\) e \\(\\rho\\), respectivamente.\n\\(\\pi\\) PROD.Codigo (\\(\\sigma\\) PROD.Preco < CLONE.Preco (PROD \\(\\times\\) \\(\\rho\\) CLONE (PROD)))\nO processamento dessa consulta resulta no código de todos os produtos:",
-    "alternativas": [
-      "a) Cujo preço é o menor ou o maior existente no banco de dados.",
-      "b) Cujo preço é o menor existente no banco de dados.",
-      "c) Exceto os produtos cujo preço é o menor existente no banco de dados.",
-      "d) Cujo preço é o maior existente no banco de dados.",
-      "e) Exceto os produtos cujo preço é o maior existente no banco de dados."
-    ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Banco de Dados",
-    "subarea": "Linguagens de Consulta",
-    "dificuldade": "Média",
-    "gabarito": "E",
-    "solucao": "A consulta dada utiliza a álgebra relacional para encontrar todos os produtos cujo preço não é o menor existente no banco de dados. Vamos analisar a consulta passo a passo:\n\n1. **Produto Cartesiano (PROD × ρ CLONE(PROD))**: Esta operação cria um produto cartesiano entre a relação PROD e uma cópia renomeada de PROD chamada CLONE. Isso resulta em uma relação onde cada tupla de PROD é combinada com cada tupla de CLONE.\n\n2. **Seleção (σ PROD.Preco < CLONE.Preco)**: A seleção filtra as tuplas resultantes do produto cartesiano, mantendo apenas aquelas onde o preço do produto na relação PROD é menor que o preço do produto na relação CLONE. Isso significa que estamos procurando produtos que têm um preço menor do que algum outro produto na loja.\n\n3. **Projeção (π PROD.Codigo)**: Finalmente, a projeção extrai apenas o código dos produtos que satisfazem a condição de seleção.\n\nO resultado final são os códigos de todos os produtos que têm um preço menor do que algum outro produto, ou seja, todos os produtos exceto aquele com o menor preço. Portanto, a alternativa correta é 'C) Exceto os produtos cujo preço é o menor existente no banco de dados.'"
-  },
-  {
-    "edicao": 2022,
-    "id": "2022-60",
-    "numero": 60,
-    "enunciado": "Uma empresa dividiu a sua rede em duas sub-redes, apresentadas na tabela abaixo.\nSetor Primeiro endereço Último endereço Prefixo\nSetor A 194.24.0.0 194.24.15.255 X\nSetor B 194.24.16.0 194.24.31.255 Y\nQual o valor de Y?",
-    "alternativas": [
-      "a) 194.24.8.0/22.",
-      "b) 194.24.16.0/20.",
-      "c) 194.24.16.0/22.",
-      "d) 194.24.32.0/22.",
-      "e) 194.24.32.0/19."
-    ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Redes de Computadores",
-    "subarea": "Internet e Intranets",
-    "dificuldade": "Média",
-    "gabarito": "B",
-    "solucao": "Para determinar o valor de Y, precisamos entender o conceito de sub-redes e prefixos em endereçamento IP. A questão fornece dois intervalos de endereços IP para duas sub-redes: Setor A e Setor B. \n\nO Setor B começa no endereço 194.24.16.0 e termina em 194.24.31.255. Isso representa um bloco de endereços IP. Para determinar o prefixo, precisamos calcular quantos endereços estão nesse intervalo.\n\nO intervalo de endereços de 194.24.16.0 a 194.24.31.255 contém 16 blocos de 256 endereços (2^8), totalizando 4096 endereços (2^12). Isso significa que o prefixo é /20, pois 32 - 12 = 20.\n\nPortanto, o valor de Y é 194.24.16.0/20, que corresponde à alternativa B."
-  },
-  {
-    "edicao": 2023,
-    "id": "2023-14",
-    "numero": 14,
-    "enunciado": "Sendo p e q proposições simples, considere a proposição composta E(p,q), cujos\nvalores lógicos estão na tabela verdade a seguir:\np q E(p,q)\nF F V\nF V V\nV F F\nV V V\nQual é o valor da expressão E?",
-    "alternativas": [
-      "a) P–>q",
-      "b) p ou q",
-      "c) q–>p",
-      "d) p ou ~q",
-      "e) (~p)→(p ou q)"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Lógica Matemática",
-    "subarea": "Tabelas Verdade e Estruturas de Primeira Ordem",
-    "dificuldade": "Fácil",
-    "gabarito": "A",
-    "solucao": "Para determinar a expressão lógica correspondente à tabela verdade fornecida, analisamos os valores de E(p,q) para cada combinação de p e q. A tabela verdade dada é:\n\np q E(p,q)\nF F V\nF V V\nV F F\nV V V\n\nA expressão que corresponde a essa tabela verdade é a implicação 'p → q'. Vamos verificar cada linha:\n1. Quando p é F e q é F, 'p → q' é V (pois uma implicação com antecedente falso é verdadeira).\n2. Quando p é F e q é V, 'p → q' é V (mesmo motivo do caso anterior).\n3. Quando p é V e q é F, 'p → q' é F (uma implicação com antecedente verdadeiro e consequente falso é falsa).\n4. Quando p é V e q é V, 'p → q' é V (uma implicação com antecedente e consequente verdadeiros é verdadeira).\n\nPortanto, a expressão 'p → q' corresponde exatamente à tabela verdade fornecida."
-  },
-  {
-    "edicao": 2023,
-    "id": "2023-19",
-    "numero": 19,
-    "enunciado": "Com base na Tabela 1, calcule a média da seguinte amostra de número de filhos\nque têm as famílias que participaram da enquete:\nNº filho (Xi) 0 1 2 3 4\nNº famílias (ni) 5 6 8 4 2\nTabela 1",
-    "alternativas": [
-      "a) 1,12",
-      "b) 1,68",
-      "c) 2,11",
-      "d) 2,87",
-      "e) 3,21"
-    ],
-    "area_conhecimento": "Matemática",
-    "area": "Probabilidade e Estatística",
-    "subarea": "Descrição Estatística dos Dados",
-    "dificuldade": "Fácil",
-    "gabarito": "B",
-    "solucao": "Para calcular a média do número de filhos por família, utilizamos a fórmula da média ponderada: Média = (Σ(Xi * ni)) / (Σni), onde Xi é o número de filhos e ni é o número de famílias com Xi filhos. Calculando: (0*5 + 1*6 + 2*8 + 3*4 + 4*2) / (5 + 6 + 8 + 4 + 2) = (0 + 6 + 16 + 12 + 8) / 25 = 42 / 25 = 1,68. Portanto, a média é 1,68."
   },
   {
     "edicao": 2023,
