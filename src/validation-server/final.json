@@ -20715,7 +20715,7 @@
     "edicao": 2019,
     "id": "2019-22",
     "numero": 22,
-    "enunciado": "Considere as seguintes funções:\n\\[𝑓(𝑛) = 2𝑛\\]\n\\[𝑔(𝑛) = 𝑛!\\]\n\\[ℎ(𝑛) = 𝑛𝑙𝑜𝑔𝑛\\]\nAssinale a alternativa correta a respeito do comportamento assintótico de \\(f(n)\\), \\(g(n)\\) e \\(h(n)\\).",
+    "enunciado": "Considere as seguintes funções:\n\\[𝑓(𝑛) = 2^𝑛\\]\n\\[𝑔(𝑛) = 𝑛!\\]\n\\[ℎ(𝑛) = 𝑛^{\\log n}\\]\nAssinale a alternativa correta a respeito do comportamento assintótico de \\(f(n)\\), \\(g(n)\\) e \\(h(n)\\).",
     "alternativas": [
       "a) \\(𝑓(𝑛) = 𝑂(𝑔(𝑛)); 𝑔(𝑛) = 𝑂(ℎ(𝑛)).\\)",
       "b) \\(𝑓(𝑛) = 𝛺(𝑔(𝑛)); 𝑔(𝑛) = 𝑂(ℎ(𝑛)).\\)",
@@ -20955,7 +20955,7 @@
     "edicao": 2019,
     "id": "2019-35",
     "numero": 35,
-    "enunciado": "Uma técnica de compressão de dados converte um bitstream de entrada (mensagem\nde entrada) em outro bitstream comprimido (mensagem comprimida). Algumas técnicas de\ncompressão dependem de uma tabela de símbolos, definida nesse contexto como uma estrutura de dados que associa caracteres (ou sequência de caracteres) a códigos utilizados para representar a mensagem comprimida. \\\nAnalise as seguintes assertivas sobre uso de uma tabela de símbolos na técnica de compressão LZW (Lempel, Ziv e Welch) e assinale V, se verdadeiras, ou F, se falsas.\\\n( ) A tabela de símbolos associa caracteres individuais com códigos de tamanho variável (bitstreams), cujo tamanho está relacionado à frequência de um caractere. Quanto mais frequente for um caractere na mensagem original, menos bits são usados para representá-lo.\\\n( ) A tabela de símbolos é incluída no início da mensagem comprimida. Para descomprimir a mensagem, o primeiro passo é extrair essa tabela de símbolos, para então usá-la na decodificação da mensagem original\\.\n( ) Uma estrutura de dados adequada para implementação da tabela de símbolos na técnica LWZ é uma árvore trie, devido às operações que essa técnica precisa realizar sobre a tabela de símbolos para efetuar a compressão.\\\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "enunciado": "Uma técnica de compressão de dados converte um bitstream de entrada (mensagem\nde entrada) em outro bitstream comprimido (mensagem comprimida). Algumas técnicas de\ncompressão dependem de uma tabela de símbolos, definida nesse contexto como uma estrutura de dados que associa caracteres (ou sequência de caracteres) a códigos utilizados para representar a mensagem comprimida. \\\nAnalise as seguintes assertivas sobre uso de uma tabela de símbolos na técnica de compressão LZW (Lempel, Ziv e Welch) e assinale V, se verdadeiras, ou F, se falsas.\\\n( ) A tabela de símbolos associa caracteres individuais com códigos de tamanho variável (bitstreams), cujo tamanho está relacionado à frequência de um caractere. Quanto mais frequente for um caractere na mensagem original, menos bits são usados para representá-lo.\\\n( ) A tabela de símbolos é incluída no início da mensagem comprimida. Para descomprimir a mensagem, o primeiro passo é extrair essa tabela de símbolos, para então usá-la na decodificação da mensagem original. \\\n( ) Uma estrutura de dados adequada para implementação da tabela de símbolos na técnica LWZ é uma árvore trie, devido às operações que essa técnica precisa realizar sobre a tabela de símbolos para efetuar a compressão.\\\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
     "alternativas": [
       "a) F – V – V.",
       "b) V – V – F.",
@@ -21055,7 +21055,7 @@
     "edicao": 2019,
     "id": "2019-40",
     "numero": 40,
-    "enunciado": "Considere as seguintes afirmações sobre classes de problemas:\\\n- I. O problema de decisão CAM, descrito a seguir, pertence à classe de complexidade P. CAM (caminho em grafo)\\\nEntrada: uma tripla \\((G,a,b)\\) em que \n- G é um grafo\n- a e b são nodos de G\nPergunta: Existe caminho em G iniciando em a e terminando em b?\n- II. Um problema X pertence à classe de problemas NP-completos quando satisfaz às seguintes\ncondições:\n- X pertence à classe NP, e\n- todo problema Y da classe NP pode ser reduzido em tempo polinomial a X.\n- III. Se um problema de decisão X pertence à classe P, então o complemento do problema X (problema com as mesmas instâncias que X, porém com as respectivas respostas invertidas) pertence à classe NP.\\\nQuais estão corretas?",
+    "enunciado": "Considere as seguintes afirmações sobre classes de problemas: \\\nI. O problema de decisão CAM, descrito a seguir, pertence à classe de complexidade P. \\\nCAM (caminho em grafo)\\\nEntrada: uma tripla \\((G,a,b)\\) em que \n- G é um grafo\n- a e b são nodos de G \\\nPergunta: Existe caminho em G iniciando em a e terminando em b? \\\nII. Um problema X pertence à classe de problemas NP-completos quando satisfaz às seguintes condições:\n- X pertence à classe NP, e\n- todo problema Y da classe NP pode ser reduzido em tempo polinomial a X. \\\nIII. Se um problema de decisão X pertence à classe P, então o complemento do problema X (problema com as mesmas instâncias que X, porém com as respectivas respostas invertidas) pertence à classe NP.\\\nQuais estão corretas?",
     "alternativas": [
       "a) Apenas I.",
       "b) Apenas III.",
@@ -21157,9 +21157,9 @@
     "numero": 47,
     "enunciado": "Seja um circuito lógico com três entradas, A, B, C, e uma saída S. Considerando que\no valor da saída S é igual ao valor da entrada A quando as entradas B e C estão no mesmo nível\nlógico, e que o valor da saída S é igual ao inverso do valor da entrada A quando as entradas B e C\nestão em níveis lógicos opostos, assinale a alternativa que apresenta a expressão lógica\ncorrespondente ao circuito.",
     "alternativas": [
-      "a) \\(𝑆 = 𝐴 ∙ 𝐵⊕C\\)",
+      "a) \\(𝑆 = 𝐴 \\cdot 𝐵⊕C\\)",
       "b) \\(𝑆 = 𝐴 ⊕ B ⊕ C\\)",
-      "c) \\(𝑆 = \\bar{𝐴} ⊕ B ⊕ C\\)",
+      "c) \\(𝑆 = \\overline{𝐴} ⊕ B ⊕ C\\)",
       "d) \\(𝑆 = 𝐴 ⊕ \\overline{𝐵 ⊕ C}\\)",
       "e) \\(𝑆 = \\overline{𝐴 ⊕ B ⊕ C}\\)"
     ],
@@ -23509,12 +23509,12 @@
     "edicao": 2023,
     "id": "2023-37",
     "numero": 37,
-    "enunciado": "Qual é a Expressão Regular (ER) que denota a linguagem a seguir?\n\\(𝐿 = \\{𝑤 ∈ \\{𝑎, 𝑏\\}∗ |\\) 𝑤 𝑛ã𝑜 𝑝𝑜𝑑𝑒 𝑡𝑒𝑟𝑚𝑖𝑛𝑎𝑟 𝑐𝑜𝑚 𝑏𝑎\\(\\}\\)",
+    "enunciado": "Qual é a Expressão Regular (ER) que denota a linguagem a seguir?\n\\(𝐿 = \\{𝑤 ∈ \\{𝑎, 𝑏\\}∗ | w \\) não pode terminar com \\(ba\\)\\(\\}\\)",
     "alternativas": [
-      "a) \\(¬( (𝑎 ∪ 𝑏)∗𝑏𝑎 )\\)",
-      "b) \\((𝑎 ∪ 𝑏)∗𝑏𝑎\\)",
-      "c) \\((𝑎 ∪ 𝑏)∗ − ( (𝑎 ∪ 𝑏)∗𝑏𝑎 )\\)",
-      "d) \\(( (𝑎 ∪ 𝑏)∗(𝑏 ∪ 𝑎𝑎) ) ∪ 𝑎 ∪ 𝜆\\)",
+      "a) \\(¬( (𝑎 ∪ 𝑏)^∗𝑏𝑎 )\\)",
+      "b) \\((𝑎 ∪ 𝑏)^∗𝑏𝑎\\)",
+      "c) \\((𝑎 ∪ 𝑏)^∗ − ( (𝑎 ∪ 𝑏)^∗𝑏𝑎 )\\)",
+      "d) \\(( (𝑎 ∪ 𝑏)^∗(𝑏 ∪ 𝑎𝑎) ) ∪ 𝑎 ∪ 𝜆\\)",
       "e) A linguagem L não é regular e, portanto, não pode ser denotada por uma ER."
     ],
     "area_conhecimento": "Fundamentos da Computação",
@@ -24751,11 +24751,11 @@
     "numero": 31,
     "enunciado": "Dada a função \\(F(W, X, Y, Z)\\) composta dos termos mínimos\n(minterm) = {4, 8, 9, 10, 13, 14} e dos termos não essenciais (don’t care) = {5, 6, 7}, simplifique\nessa função como produto de somas.",
     "alternativas": [
-      "a) \\((W+X)*( W̅ + X̅ + Y + Z)*( Y̅ + Z̅)\\)",
-      "b) \\((W+ X̅+ Z̅)*(W+X+ Z̅ )*(W̅ + X̅)*(Y̅ + Z)\\)",
-      "c) \\((W̅ + X)*(W+Y+ Z̅)*(W+Y̅+Z)* *(W+X̅+ Y̅)\\)",
-      "d) \\((W+X)*(W̅ + Y̅ + Z̅)\\)",
-      "e) \\((W+X)*(W̅ + Y̅ + Z̅)*(W̅ + X̅ + Y + Z)\\)"
+      "a) \\((W+X)*( \\bar{W} + \\bar{X} + Y + Z)*( \\bar{Y} + \\bar{Z})\\)",
+      "b) \\((W+ \\bar{X}+ \\bar{Z})*(W+X+ \\bar{Z} )*(\\bar{W} + \\bar{X})*(\\bar{Y} + Z)\\)",
+      "c) \\((\\bar{W} + X)*(W+Y+ \\bar{Z})*(W+\\bar{Y}+Z)* *(W+\\bar{X}+ \\bar{Y})\\)",
+      "d) \\((W+X)*(\\bar{W} + \\bar{Y} + \\bar{Z})\\)",
+      "e) \\((W+X)*(\\bar{W} + \\bar{Y} + \\bar{Z})*(\\bar{W} + \\bar{X} + Y + Z)\\)"
     ],
     "area_conhecimento": "Fundamentos da Computação",
     "area": "Circuitos Digitais",
