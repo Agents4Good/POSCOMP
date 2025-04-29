@@ -1,0 +1,842 @@
+[
+    {
+        "id": "2019-01",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-02",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-03",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-04",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-05",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-06",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-07",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-08",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-09",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-10",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-11",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-12",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-13",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-14",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-15",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-16",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-17",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-18",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-19",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-20",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-21",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-22",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-23",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-24",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2019-25",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-26",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2019-27",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2019-28",
+        "dificuldade": "Anulada"
+    },
+    {
+        "id": "2019-29",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-30",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2019-31",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-32",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-33",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-34",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-35",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-36",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-37",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-38",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2019-39",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-40",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-41",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-42",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-43",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-44",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-45",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-46",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-47",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-48",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-49",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-50",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-51",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-52",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-53",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-54",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-55",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-56",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-57",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-58",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-59",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-60",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-61",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-62",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-63",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-64",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-65",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-66",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2019-67",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-68",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2019-69",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2019-70",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-01",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2023-02",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-03",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-04",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-05",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-06",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-07",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-08",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-09",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-10",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2023-11",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-12",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-13",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-14",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-15",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-16",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-17",
+        "dificuldade": "Anulada"
+    },
+    {
+        "id": "2023-18",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2023-19",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2023-20",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-21",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-22",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2023-23",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-24",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-25",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-26",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-27",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-28",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-29",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-30",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-31",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-32",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-33",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2023-34",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-35",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-36",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-37",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-38",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-39",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-40",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2023-41",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-42",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-43",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-44",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-45",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-46",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-47",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2023-48",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-49",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-50",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2023-51",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-52",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-53",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-54",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-55",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-56",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-57",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-58",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-59",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-60",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-61",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2023-62",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-63",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-64",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-65",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-66",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2023-67",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-68",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2023-69",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2023-70",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-01",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-02",
+        "dificuldade": "Anulada"
+    },
+    {
+        "id": "2024-03",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-04",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-05",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-06",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-07",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-08",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-09",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-10",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-11",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-12",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-13",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-14",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-15",
+        "dificuldade": "Muito Fácil"
+    },
+    {
+        "id": "2024-16",
+        "dificuldade": "Muito Fácil"
+    },
+    {
+        "id": "2024-17",
+        "dificuldade": "Anulada"
+    },
+    {
+        "id": "2024-18",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-19",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-20",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-21",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-22",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-23",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-24",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-25",
+        "dificuldade": "Muito Fácil"
+    },
+    {
+        "id": "2024-26",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-27",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-28",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-29",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-30",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-31",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2024-32",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2024-33",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-34",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-35",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-36",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-37",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-38",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-39",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-40",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-41",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-42",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-43",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-44",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-45",
+        "dificuldade": "Muito Fácil"
+    },
+    {
+        "id": "2024-46",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-47",
+        "dificuldade": "Muito Fácil"
+    },
+    {
+        "id": "2024-48",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-49",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-50",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-51",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2024-52",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-53",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2024-54",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-55",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-56",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2024-57",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2024-58",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-59",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-60",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-61",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-62",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-63",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-64",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-65",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-66",
+        "dificuldade": "Muito Difícil"
+    },
+    {
+        "id": "2024-67",
+        "dificuldade": "Difícil"
+    },
+    {
+        "id": "2024-68",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": "2024-69",
+        "dificuldade": "Intermediária"
+    },
+    {
+        "id": "2024-70",
+        "dificuldade": "Difícil"
+    }
+]
