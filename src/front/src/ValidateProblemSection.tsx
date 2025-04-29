@@ -2,7 +2,10 @@ import { useEffect, useState } from 'react';
 import { Problem } from './problems';
 import { MathJax } from 'better-react-mathjax';
 import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm'
+import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css'
 
 const splitMarkdownWithMath = (text: string) => {
   const regex = /(\\\[[\s\S]+?\\\]|\\\(.+?\\\))/g;
@@ -53,7 +56,7 @@ const StatementPart = ({ part }: { part: StatementPartType }) => {
     return (
       <span style={{ display: 'inline' }}>
         {startsWithSpace && <>&nbsp;</>}
-        <Markdown remarkPlugins={[remarkGfm]} components={{ p: 'span' }} >{part.content}</Markdown>
+        <Markdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]} components={{ p: 'span' }} >{part.content}</Markdown>
         {endsWithSpace && <>&nbsp;</>}
       </span>
     );
