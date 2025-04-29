@@ -1,0 +1,742 @@
+[
+  {
+    "edicao": 2019,
+    "id": "2019-09",
+    "numero": 9,
+    "enunciado": "Simplifique, com a ajuda dos Mapas de Karnaugh, a função cuja expressão em termos\ncanônicos é: \\(𝑓(𝑥, 𝑦, 𝑧) = ∑ 𝑚(2,3,4,5,6,7)\\)",
+    "alternativas": [
+      "a) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌\\)",
+      "b) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌 + 𝑍\\)",
+      "c) \\(𝑓(𝑋, 𝑌, 𝑍) = \\bar{𝑋} + 𝑌\\)",
+      "d) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋𝑌 + 𝑌\\)",
+      "e) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌 + \\bar{Z}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Minimização de Funções Booleanas",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para simplificar a função booleana f(x, y, z) = Σm(2,3,4,5,6,7) usando o Mapa de Karnaugh, primeiro devemos identificar as combinações de variáveis correspondentes aos mintermos dados. As combinações são: 010, 011, 100, 101, 110, 111. No Mapa de Karnaugh 3x3, essas posições são preenchidas com 1. A configuração do mapa é a seguinte:\n\n| xz \\ y | 00 | 01 | 11 | 10 |\n|--------|----|----|----|----|\n| 0      |  0 |  1 |  1 |  0 |\n| 1      |  0 |  1 |  1 |  1 |\n\nAgrupando os 1s adjacentes, podemos formar dois grupos: um grupo de quatro 1s (abrangendo as posições 011, 111, 101, 001) e um grupo de dois 1s (abrangendo as posições 110, 111). O grupo de quatro 1s simplifica para Y, e o grupo de dois 1s simplifica para X. Assim, a expressão simplificada da função é f(X, Y, Z) = X + Y.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-13",
+    "numero": 13,
+    "enunciado": "Dez pessoas estão participando de um campeonato de xadrez. Na primeira rodada\ndo campeonato, haverá cinco partidas. De quantas maneiras distintas é possível organizar a primeira rodada do campeonato, considerando que não há distinção entre a partida “competidor A versus competidor B” e a partida “competidor B versus competidor A”?",
+    "alternativas": [
+      "a) 45.",
+      "b) 252.",
+      "c) 945.",
+      "d) 3.840.",
+      "e) 113.400."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Combinações",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, precisamos calcular de quantas maneiras podemos escolher 5 pares de competidores a partir de um grupo de 10 pessoas, sem considerar a ordem dentro dos pares. Isso é um problema de combinação. \n\nPrimeiro, escolhemos 2 pessoas para formar o primeiro par, depois outras 2 para o segundo par, e assim por diante, até formarmos 5 pares. \n\nO número total de maneiras de escolher 2 pessoas de 10 é dado pela combinação de 10 elementos tomados 2 a 2, que é C(10, 2). \n\nC(10, 2) = 10! / (2! * (10-2)!) = 45.\n\nNo entanto, precisamos formar 5 pares, então devemos dividir o resultado por 5! para corrigir a contagem, pois a ordem dos pares não importa. \n\nAssim, o número total de maneiras é dado por: \n\n(10! / (2!^5 * 5!)) = 252.\n\nPortanto, a alternativa correta é B) 252.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-22",
+    "numero": 22,
+    "enunciado": "Considere as seguintes funções:\n\\[𝑓(𝑛) = 2^𝑛\\]\n\\[𝑔(𝑛) = 𝑛!\\]\n\\[ℎ(𝑛) = 𝑛^{\\log n}\\]\nAssinale a alternativa correta a respeito do comportamento assintótico de \\(f(n)\\), \\(g(n)\\) e \\(h(n)\\).",
+    "alternativas": [
+      "a) \\(𝑓(𝑛) = 𝑂(𝑔(𝑛)); 𝑔(𝑛) = 𝑂(ℎ(𝑛)).\\)",
+      "b) \\(𝑓(𝑛) = 𝛺(𝑔(𝑛)); 𝑔(𝑛) = 𝑂(ℎ(𝑛)).\\)",
+      "c) \\(𝑔(𝑛) = 𝑂(𝑓(𝑛)); ℎ(𝑛) = 𝑂(𝑓(𝑛)).\\)",
+      "d) \\(ℎ(𝑛) = 𝑂(𝑓(𝑛)); 𝑔(𝑛) = 𝛺(𝑓(𝑛)).\\)",
+      "e) Nenhuma das anteriores."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para determinar o comportamento assintótico das funções f(n), g(n) e h(n), precisamos compará-las em termos de crescimento. \n\n1. f(n) = 2^n: Esta é uma função exponencial, que cresce muito rapidamente à medida que n aumenta.\n2. g(n) = n!: O fatorial de n cresce ainda mais rapidamente do que qualquer função exponencial, pois n! = 1 * 2 * 3 * ... * n.\n3. h(n) = n log n: Esta é uma função que cresce mais lentamente que uma função exponencial, mas mais rapidamente que uma função linear.\n\nAgora, vamos analisar as alternativas:\n\n- A) f(n) = O(g(n)); g(n) = O(h(n)).\n  - f(n) não é O(g(n)) porque g(n) cresce mais rapidamente que f(n).\n  - g(n) não é O(h(n)) porque g(n) cresce mais rapidamente que h(n).\n\n- B) f(n) = Ω(g(n)); g(n) = O(h(n)).\n  - f(n) não é Ω(g(n)) porque g(n) cresce mais rapidamente que f(n).\n  - g(n) não é O(h(n)) porque g(n) cresce mais rapidamente que h(n).\n\n- C) g(n) = O(f(n)); h(n) = O(f(n)).\n  - g(n) não é O(f(n)) porque g(n) cresce mais rapidamente que f(n).\n  - h(n) é O(f(n)) porque f(n) cresce mais rapidamente que h(n).\n\n- D) h(n) = O(f(n)); g(n) = Ω(f(n)).\n  - h(n) é O(f(n)) porque f(n) cresce mais rapidamente que h(n).\n  - g(n) é Ω(f(n)) porque g(n) cresce mais rapidamente que f(n).\n\n- E) Nenhuma das anteriores.\n  - Esta é a alternativa correta, pois as outras alternativas contêm afirmações incorretas sobre o comportamento assintótico das funções.\n\nPortanto, a alternativa correta é E.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-34",
+    "numero": 34,
+    "enunciado": "Suponha que existem registros lógicos que agregam vários campos (atributos) e que\nse deseja encontrar registros com base em algum campo de pesquisa, fornecendo algum valor (chave). Considerando estruturas de dados que tornem essa busca eficiente, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas.\\\n( ) Uma estrutura baseada em hash é bastante eficiente para pesquisas baseadas em chave, pois permite encontrar o(s) registro(s) correspondente(s) à chave em, no máximo, um acesso à estrutura.\\\n( ) As árvores digitais de pesquisa não tratam as chaves como elementos indivisíveis e, por isso, são adequadas em casos em que há interesse em fazer buscas sobre parte do valor da chave (ex .: prefixo).\\\n( ) Árvores binárias de pesquisa, nas quais os nodos correspondem às chaves, sempre permitem uma busca baseada em chave mais eficiente quando comparada às listas ordenadas pelas chaves.\\\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "a) V – F – V.",
+      "b) F – V – F.",
+      "c) F – F – F.",
+      "d) F – V – V.",
+      "e) V – V – F."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Algoritmos e Estrutura de Dados",
+    "subarea": "Tabelas Hash",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Vamos analisar cada assertiva: \n\n1. 'Uma estrutura baseada em hash é bastante eficiente para pesquisas baseadas em chave, pois permite encontrar o(s) registro(s) correspondente(s) à chave em, no máximo, um acesso à estrutura.' - Esta assertiva é falsa. Estruturas de dados baseadas em hash são eficientes para buscas, mas não garantem encontrar a chave em um único acesso devido a possíveis colisões que podem exigir resolução através de técnicas como encadeamento ou endereçamento aberto.\n\n2. 'As árvores digitais de pesquisa não tratam as chaves como elementos indivisíveis e, por isso, são adequadas em casos em que há interesse em fazer buscas sobre parte do valor da chave (ex.: prefixo).' - Esta assertiva é verdadeira. Árvores digitais, como tries, são projetadas para lidar com chaves que podem ser divididas em partes, permitindo buscas eficientes por prefixos.\n\n3. 'Árvores binárias de pesquisa, nas quais os nodos correspondem às chaves, sempre permitem uma busca baseada em chave mais eficiente quando comparada às listas ordenadas pelas chaves.' - Esta assertiva é falsa. Árvores binárias de pesquisa podem ter desempenho ruim (O(n)) em casos degenerados (quando a árvore se comporta como uma lista), enquanto listas ordenadas têm busca binária com complexidade O(log n).\n\nPortanto, a sequência correta é F – V – F, correspondendo à alternativa B.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-35",
+    "numero": 35,
+    "enunciado": "Uma técnica de compressão de dados converte um bitstream de entrada (mensagem\nde entrada) em outro bitstream comprimido (mensagem comprimida). Algumas técnicas de\ncompressão dependem de uma tabela de símbolos, definida nesse contexto como uma estrutura de dados que associa caracteres (ou sequência de caracteres) a códigos utilizados para representar a mensagem comprimida. \\\nAnalise as seguintes assertivas sobre uso de uma tabela de símbolos na técnica de compressão LZW (Lempel, Ziv e Welch) e assinale V, se verdadeiras, ou F, se falsas.\\\n( ) A tabela de símbolos associa caracteres individuais com códigos de tamanho variável (bitstreams), cujo tamanho está relacionado à frequência de um caractere. Quanto mais frequente for um caractere na mensagem original, menos bits são usados para representá-lo.\\\n( ) A tabela de símbolos é incluída no início da mensagem comprimida. Para descomprimir a mensagem, o primeiro passo é extrair essa tabela de símbolos, para então usá-la na decodificação da mensagem original. \\\n( ) Uma estrutura de dados adequada para implementação da tabela de símbolos na técnica LWZ é uma árvore trie, devido às operações que essa técnica precisa realizar sobre a tabela de símbolos para efetuar a compressão.\\\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "a) F – V – V.",
+      "b) V – V – F.",
+      "c) F – F – F.",
+      "d) F – F – V.",
+      "e) V – F – V."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Organização de Arquivos e Dados",
+    "subarea": "Compressão de Dados",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada assertiva: \n\n1. A primeira assertiva afirma que a tabela de símbolos associa caracteres individuais com códigos de tamanho variável, relacionados à frequência dos caracteres. Isso descreve a técnica de compressão de Huffman, não LZW. No LZW, os códigos são de tamanho fixo e não dependem da frequência, portanto, essa assertiva é falsa.\n\n2. A segunda assertiva afirma que a tabela de símbolos é incluída no início da mensagem comprimida. No LZW, a tabela de símbolos é construída dinamicamente durante a compressão e descompressão, e não é enviada junto com a mensagem comprimida. Portanto, essa assertiva é falsa.\n\n3. A terceira assertiva sugere que uma árvore trie é uma estrutura de dados adequada para a tabela de símbolos no LZW. Isso é verdadeiro, pois uma trie pode ser usada para armazenar e buscar sequências de caracteres de forma eficiente, o que é necessário para a técnica LZW.\n\nPortanto, a ordem correta é F – F – V, correspondendo à alternativa D.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-36",
+    "numero": 36,
+    "enunciado": "Um mapa rodoviário é modelado como um grafo em que os vértices representam\ninterseções. As arestas representam segmentos de estrada entre interseções. O peso de cada aresta representa a distância entre interseções. Agora, considere que um motorista deseja obter o caminho mais curto entre duas cidades. Dado um mapa contendo as distâncias entre cada par de interseções adjacentes, como obter o caminho mais curto entre duas cidades?",
+    "alternativas": [
+      "a) Caminho mais curto com destino único.",
+      "b) Caminho gerador mínimo de origem única.",
+      "c) Caminho mais curto com origem única.",
+      "d) Caminho mais curto entre todos os pares de vértices.",
+      "e) Caminho gerador mínimo de origem múltipla."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Algoritmos do Menor Caminho",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "A questão descreve um problema clássico de encontrar o caminho mais curto entre duas cidades em um mapa rodoviário modelado como um grafo. Neste contexto, o problema é resolvido utilizando algoritmos de menor caminho com origem única, como o algoritmo de Dijkstra ou o algoritmo de Bellman-Ford. Esses algoritmos são projetados para encontrar o caminho mais curto de um único vértice de origem para todos os outros vértices no grafo, permitindo assim determinar o caminho mais curto para um vértice de destino específico. Portanto, a alternativa correta é 'C) Caminho mais curto com origem única.'.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-40",
+    "numero": 40,
+    "enunciado": "Considere as seguintes afirmações sobre classes de problemas: \\\nI. O problema de decisão CAM, descrito a seguir, pertence à classe de complexidade P. \\\nCAM (caminho em grafo)\\\nEntrada: uma tripla \\((G,a,b)\\) em que \n- G é um grafo\n- a e b são nodos de G \\\nPergunta: Existe caminho em G iniciando em a e terminando em b? \\\nII. Um problema X pertence à classe de problemas NP-completos quando satisfaz às seguintes condições:\n- X pertence à classe NP, e\n- todo problema Y da classe NP pode ser reduzido em tempo polinomial a X. \\\nIII. Se um problema de decisão X pertence à classe P, então o complemento do problema X (problema com as mesmas instâncias que X, porém com as respectivas respostas invertidas) pertence à classe NP.\\\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I.",
+      "b) Apenas III.",
+      "c) Apenas I e II.",
+      "d) Apenas II e III.",
+      "e) I, II e III."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Classes de Problemas P, NP, NP Completo e NP-Difícil",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Vamos analisar cada uma das afirmações: \n\nI. O problema CAM (caminho em grafo) é um problema de decisão que pergunta se existe um caminho entre dois nós em um grafo. Este problema pode ser resolvido utilizando algoritmos de busca em largura (BFS) ou busca em profundidade (DFS), ambos com complexidade polinomial em relação ao número de vértices e arestas do grafo. Portanto, a afirmação I está correta, pois CAM pertence à classe P.\n\nII. A definição de um problema NP-completo é que ele deve pertencer à classe NP e que todo problema na classe NP deve ser redutível a ele em tempo polinomial. A afirmação II está correta, pois descreve precisamente a definição de NP-completude.\n\nIII. Se um problema de decisão X pertence à classe P, então ele pode ser resolvido em tempo polinomial. O complemento de X, que inverte as respostas, não necessariamente pertence à classe NP, a menos que P = NP. Portanto, a afirmação III está incorreta, pois não há garantia de que o complemento de um problema em P esteja em NP.\n\nAssim, as afirmações corretas são I e II, o que nos leva à alternativa C.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-45",
+    "numero": 45,
+    "enunciado": "Considere o programa abaixo escrito em linguagem C. No instante da execução da\nlinha 5, ter-se-á uma hierarquia composta de quantos processos e threads, respectivamente?\n```\n\n1    main(){\n2    int i;\n3    for(i=0;i<3;i++)\n4       fork();\n5    while(1);\n6    }\n\n```",
+    "alternativas": [
+      "a) 1 e 0.",
+      "b) 3 e 0.",
+      "c) 4 e 1.",
+      "d) 7 e 7.",
+      "e) 8 e 8."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerência de Processos",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "O programa em questão utiliza a função fork() dentro de um loop que itera 3 vezes. A função fork() é responsável por criar um novo processo filho que é uma cópia do processo pai. Cada chamada a fork() duplica o número de processos existentes. Inicialmente, há 1 processo (o processo principal). Após a primeira iteração do loop, há 2 processos. Após a segunda iteração, cada um dos 2 processos cria mais um processo, totalizando 4 processos. Na terceira iteração, cada um dos 4 processos cria mais um processo, resultando em 8 processos no total. Não há criação de threads, apenas processos. Portanto, no instante da execução da linha 5, haverá 8 processos e 0 threads.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-46",
+    "numero": 46,
+    "enunciado": "Um dispositivo de E/S pode acionar o seu software controlador (device driver) para\nrealizar uma tarefa enquanto este esteja realizando o tratamento de outra tarefa do dispositivo. Por exemplo, enquanto o device driver da placa de rede processa um pacote que acabou de chegar, ele é interrompido para tratar a chegada de um novo pacote. Essa característica de um device driver é denominada código:",
+    "alternativas": [
+      "a) Assíncrono.",
+      "b) Assimétrico.",
+      "c) Elástico.",
+      "d) Reentrante.",
+      "e) Recursivo."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerenciamento de Dispositivos de Entrada/Saída",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "A questão descreve um cenário em que um device driver é interrompido para tratar a chegada de um novo pacote enquanto ainda está processando outro. Isso caracteriza um código reentrante. Um código reentrante é aquele que pode ser interrompido no meio de sua execução e ser chamado novamente ('reentrado') antes que a execução anterior seja concluída. Isso é essencial em sistemas multitarefa e em ambientes onde interrupções são comuns, como no caso de drivers de dispositivos. Portanto, a alternativa correta é 'D) Reentrante'.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-47",
+    "numero": 47,
+    "enunciado": "Seja um circuito lógico com três entradas, A, B, C, e uma saída S. Considerando que\no valor da saída S é igual ao valor da entrada A quando as entradas B e C estão no mesmo nível\nlógico, e que o valor da saída S é igual ao inverso do valor da entrada A quando as entradas B e C\nestão em níveis lógicos opostos, assinale a alternativa que apresenta a expressão lógica\ncorrespondente ao circuito.",
+    "alternativas": [
+      "a) \\(𝑆 = 𝐴 \\cdot 𝐵⊕C\\)",
+      "b) \\(𝑆 = 𝐴 ⊕ B ⊕ C\\)",
+      "c) \\(𝑆 = \\overline{𝐴} ⊕ B ⊕ C\\)",
+      "d) \\(𝑆 = 𝐴 ⊕ \\overline{𝐵 ⊕ C}\\)",
+      "e) \\(𝑆 = \\overline{𝐴 ⊕ B ⊕ C}\\)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Representação e Manipulação de Circuitos Combinatórios",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver essa questão, precisamos entender a condição para a saída S do circuito lógico. A saída S é igual ao valor da entrada A quando B e C estão no mesmo nível lógico, ou seja, quando B = C. Isso pode ser representado pela expressão lógica B⊕C = 0, pois o XOR (⊕) entre dois bits é 0 quando ambos são iguais. Portanto, S = A quando B⊕C = 0. Quando B e C estão em níveis lógicos opostos, ou seja, B ≠ C, o XOR (B⊕C) é 1, e a saída S é o inverso de A, ou seja, S = A'. A expressão lógica que satisfaz essas condições é S = A∙(B⊕C)' + A'∙(B⊕C). Simplificando, isso resulta em S = A∙(B⊕C)'. A alternativa que corresponde a essa expressão é a alternativa A) 𝑆 = 𝐴 ∙ 𝐵⊕C.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-53",
+    "numero": 53,
+    "enunciado": "Analise as assertivas abaixo sobre testes de regressão e assinale V, se verdadeiras,\nou F, se falsas.\\\n( ) Uma suite de testes de regressão bem planejada deve conter dois tipos de casos de teste: aqueles focados nos componentes diretamente relacionados à mudança e aqueles que exercitem funcionalidades já existentes que possam ter sido afetadas pela mudança.\\\n( ) A execução manual de testes de regressão é inviável.\\\n( ) Testes de regressão podem estar relacionados tanto a testes funcionais quanto a testes não funcionais.\\\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "a) F – V – F.",
+      "b) V – V – V.",
+      "c) V – F – V.",
+      "d) F – F – F.",
+      "e) F – F – V."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Verificação, Validação e Teste",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Vamos analisar cada assertiva:\n\n1. \"Uma suite de testes de regressão bem planejada deve conter dois tipos de casos de teste: aqueles focados nos componentes diretamente relacionados à mudança e aqueles que exercitem funcionalidades já existentes que possam ter sido afetadas pela mudança.\" - Esta assertiva é verdadeira. Uma suite de testes de regressão deve garantir que as mudanças não afetem negativamente as funcionalidades existentes, além de testar as novas alterações.\n\n2. \"A execução manual de testes de regressão é inviável.\" - Esta assertiva é falsa. Embora a automação de testes de regressão seja altamente recomendada para eficiência e consistência, a execução manual não é inviável. Em alguns casos, pode ser necessário realizar testes manuais, especialmente quando a automação não é possível ou prática.\n\n3. \"Testes de regressão podem estar relacionados tanto a testes funcionais quanto a testes não funcionais.\" - Esta assertiva é verdadeira. Testes de regressão podem incluir testes funcionais, que verificam se as funcionalidades do software estão corretas, e testes não funcionais, que podem verificar aspectos como desempenho e segurança.\n\nPortanto, a ordem correta é: V – F – V.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-55",
+    "numero": 55,
+    "enunciado": "Em relação ao algoritmo ARIES para a recuperação após falha em sistemas de banco\nde dados, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas.\\\n( ) A aplicação da operação REDO é restrita a transações confirmadas.\\\n( ) Uma abordagem steal/no-force é usada para as regras que governam quando uma página do cache do banco de dados pode ser gravada no disco.\\\n( ) As operações UNDO são registradas no log, para evitar a repetição das operações UNDO completadas, se ocorrer uma falha durante o processo de recuperação.\\\n( ) A Tabela de Transações contém uma entrada para cada página suja no cache, que inclui o identificador da página e o número de sequência de log da atualização mais antiga dessa página.\\\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "a) F – V – V – F.",
+      "b) V – F – F – V.",
+      "c) F – V – F – V.",
+      "d) V – F – V – F.",
+      "e) V – F – V – V."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Sistemas de Gerenciamento de Bancos de Dados (SGBD): Arquitetura, Segurança, Integridade, Concorrência, Recuperação após Falha, Gerenciamento de Transações",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Vamos analisar cada assertiva para determinar se são verdadeiras ou falsas:\n\n1) 'A aplicação da operação REDO é restrita a transações confirmadas.' - Falso. No algoritmo ARIES, a operação REDO é aplicada não apenas a transações confirmadas, mas também a transações que podem não ter sido confirmadas, pois o objetivo é garantir que todas as alterações feitas antes da falha sejam reaplicadas.\n\n2) 'Uma abordagem steal/no-force é usada para as regras que governam quando uma página do cache do banco de dados pode ser gravada no disco.' - Verdadeiro. ARIES utiliza a política steal/no-force, permitindo que páginas sujas sejam gravadas no disco antes da confirmação da transação (steal) e não forçando a gravação de páginas no disco no momento da confirmação da transação (no-force).\n\n3) 'As operações UNDO são registradas no log, para evitar a repetição das operações UNDO completadas, se ocorrer uma falha durante o processo de recuperação.' - Verdadeiro. ARIES registra as operações UNDO no log para garantir que, em caso de falha durante a recuperação, as operações UNDO já realizadas não sejam repetidas.\n\n4) 'A Tabela de Transações contém uma entrada para cada página suja no cache, que inclui o identificador da página e o número de sequência de log da atualização mais antiga dessa página.' - Falso. A Tabela de Transações contém informações sobre transações ativas e não sobre páginas sujas. A descrição dada se refere à Tabela de Páginas Sujas (Dirty Page Table), não à Tabela de Transações.\n\nPortanto, a ordem correta é F – V – V – F, que corresponde à alternativa D.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-56",
+    "numero": 56,
+    "enunciado": "Analise as seguintes assertivas sobre padrões arquiteturais de software e assinale V,\nse verdadeiras, ou F, se falsas.\\\n( ) Mesmo que um dado padrão arquitetural ofereça uma solução para o problema sendo resolvido, nem sempre ele é adequado. Fatores como contexto e o sistema de forças que afeta a solução fazem também parte do processo de avaliação e da escolha de padrões adequados.\\\n( ) Padrão MVC é uma adaptação do padrão arquitetural Camadas. A Camada Visão lida com a apresentação e a manipulação da interface, a Camada Modelo organiza os objetos específicos da aplicação, e a Camada Controle posiciona-se entre estas duas com as regras do negócio.\\\n( ) O padrão Broker é voltado a problemas de ambientes distribuídos. Sugere uma arquitetura na qual um componente (broker) estabelece uma mediação que permite um desacoplamento entre clientes e servidores.\\\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "a) V – V – V.",
+      "b) F – F – V.",
+      "c) V – V – F.",
+      "d) V – F – V.",
+      "e) F – V – F."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Padrões de Desenvolvimento",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada assertiva separadamente:\n\n1. A primeira assertiva afirma que, mesmo que um padrão arquitetural ofereça uma solução para um problema, ele pode não ser adequado devido a fatores como contexto e forças que afetam a solução. Isso é verdadeiro, pois a escolha de um padrão arquitetural depende de vários fatores contextuais e não apenas da solução que ele oferece.\n\n2. A segunda assertiva descreve o padrão MVC como uma adaptação do padrão arquitetural de Camadas, com a Camada Visão lidando com a interface, a Camada Modelo organizando os objetos da aplicação e a Camada Controle contendo as regras de negócio. Esta assertiva é falsa. No padrão MVC, a Camada Controle não é responsável pelas regras de negócio, mas sim pela mediação entre a Visão e o Modelo. As regras de negócio geralmente residem no Modelo.\n\n3. A terceira assertiva descreve o padrão Broker como voltado para ambientes distribuídos, onde um componente broker mediará a comunicação entre clientes e servidores, promovendo o desacoplamento. Esta descrição está correta, pois o padrão Broker é de fato utilizado para tal finalidade em sistemas distribuídos.\n\nPortanto, a ordem correta é: V – F – V, correspondendo à alternativa D.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-58",
+    "numero": 58,
+    "enunciado": "Como se denomina uma fonte de luz que esteja a uma distância infinita de uma cena,\ngerando uma iluminação similar à da luz do Sol?",
+    "alternativas": [
+      "a) Pontual.",
+      "b) Ambiente.",
+      "c) Direcional.",
+      "d) Spot.",
+      "e) Difusa."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "O Processo de 'Rendering': Fontes de Luz, Remoção de Linhas e Superfícies Ocultas",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "A questão pergunta sobre o tipo de fonte de luz que, estando a uma distância infinita, gera uma iluminação semelhante à luz do Sol. Em computação gráfica, uma 'luz direcional' é usada para simular a luz do Sol. Isso ocorre porque a luz direcional é modelada como tendo raios de luz paralelos, o que é uma boa aproximação para a luz solar devido à grande distância do Sol em relação à Terra. As outras opções não se encaixam: uma luz 'pontual' emite luz em todas as direções a partir de um ponto específico, uma luz 'ambiente' é uma iluminação geral sem direção específica, uma luz 'spot' é direcionada e focada em um ponto específico, e uma luz 'difusa' se refere à dispersão da luz em várias direções. Portanto, a alternativa correta é 'C) Direcional.'.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-59",
+    "numero": 59,
+    "enunciado": "A realização da equalização do histograma de uma imagem resulta em obter:",
+    "alternativas": [
+      "a) O realce mínimo de detalhes.",
+      "b) Uma transformação de domínio de cores.",
+      "c) A maior compressibilidade da informação.",
+      "d) A menor discriminabilidade dos objetos.",
+      "e) A máxima variância do histograma."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Realce",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "A equalização do histograma é uma técnica de processamento de imagens usada para melhorar o contraste de uma imagem. O objetivo é redistribuir os valores de intensidade de modo que o histograma da imagem resultante seja aproximadamente uniforme. Isso significa que a variância do histograma é maximizada, pois os níveis de cinza são distribuídos de forma mais uniforme ao longo do intervalo de intensidade. Portanto, a alternativa correta é 'E) A máxima variância do histograma.'.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-62",
+    "numero": 62,
+    "enunciado": "Sobre transparência em sistemas distribuídos, é correto afirmar que:",
+    "alternativas": [
+      "a) Transparência de concorrência trata de ocultar diferenças em representações de dados e do modo\ncomo os recursos podem ser acessados pelos usuários.",
+      "b) Transparência de migração é a situação na qual recursos podem ser relocados enquanto estão sendo acessados, sem que o usuário ou a aplicação percebam.",
+      "c) Transparência de replicação oculta o fato de que existem várias cópias do recurso.",
+      "d) Na transparência de relocação, recursos podem ser movimentados sem afetar o modo como podem ser acessados.",
+      "e) Transparência de acesso refere-se ao fato de que os usuários não podem dizer qual é a localização física de um recurso no sistema."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Sistemas Operacionais Distribuídos: Sistemas de Arquivos, Servidores de Nomes, Memória Compartilhada, Segurança",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "A questão aborda o conceito de transparência em sistemas distribuídos, que é a capacidade de ocultar dos usuários e aplicações as complexidades inerentes ao funcionamento de um sistema distribuído. A alternativa B está correta porque descreve a transparência de migração, que é a capacidade de mover recursos ou processos de um local para outro sem que o usuário ou a aplicação percebam a mudança. Esta é uma característica desejável em sistemas distribuídos para garantir continuidade e eficiência. As outras alternativas descrevem incorretamente os tipos de transparência: A) descreve a transparência de acesso, C) está correta sobre replicação, mas não é o foco da questão, D) descreve a transparência de relocação, e E) descreve a transparência de localização.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-63",
+    "numero": 63,
+    "enunciado": "Considere o esquema de tradução dirigida pela sintaxe apresentado a seguir, no qual as produções da gramática foram numeradas:\n| Produções | Ações Semânticas |\n|-|-|\n|1) $L → E n$|$L.val = E.val$|\n|2) $E → E_1 + T$|$E.val = E_1.val + T.val$|\n|3) $E → T$|$E.val = T.val$|\n|4) $T → T_1 * F$|$T.val = T_1.val * F.val$|\n|5) $T → F$|$T.val = F.val$|\n|6) $F → (E)$|$F.val = E.val$|\n|7) $F → \\text{digit}$|$F.val = \\text{digit}.lexval$|\n\nAssinale a alternativa correta sobre o esquema.",
+    "alternativas": [
+      "a) Na produção 4, \\(T.val\\) e \\(F.val\\) são sintetizados.",
+      "b) Na produção 4, \\(T_1.val\\) é herdado.",
+      "c) Na produção 5, \\(T.val\\) e \\(F.val\\) são herdados.",
+      "d) Na produção 2, \\(E.val\\) é sintetizado e \\(T.val\\) é herdado.",
+      "e) Na produção 2, \\(E_1.val\\) é sintetizado e \\(T.val\\) é herdado."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Esquemas de Tradução",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar a alternativa correta, precisamos entender as definições de atributos sintetizados e herdados em um esquema de tradução dirigida pela sintaxe. Atributos sintetizados são aqueles que são calculados a partir dos atributos dos filhos no nó da árvore de derivação, enquanto atributos herdados são calculados a partir dos atributos dos irmãos ou do pai do nó. Na produção 4, 'T → T1 * F', T.val é calculado como T1.val * F.val, o que significa que tanto T.val quanto F.val são calculados a partir dos valores dos nós filhos, caracterizando-os como atributos sintetizados. Portanto, a alternativa correta é A) Na produção 4, T.val e F.val são sintetizados.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-68",
+    "numero": 68,
+    "enunciado": "Assinale a alternativa que apresenta a quantidade mínima de registradores\nnecessários para se fazer a alocação no código apresentado abaixo:\\\nt1 := a – mem[...]\\\nt2 := d / mem[...]\\\nt3 := t2 + mem[...]\\\nt4 := t1 + t3",
+    "alternativas": [
+      "a) 6",
+      "b) 5",
+      "c) 4",
+      "d) 3",
+      "e) 2"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Geração de Código",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para determinar a quantidade mínima de registradores necessários, precisamos analisar as dependências entre as instruções e como os valores intermediários são utilizados. \n\n1. A primeira instrução é `t1 := a - mem[...]`. Aqui, um registrador é necessário para armazenar o resultado de `t1`.\n2. A segunda instrução é `t2 := d / mem[...]`. Outro registrador é necessário para armazenar o resultado de `t2`.\n3. A terceira instrução é `t3 := t2 + mem[...]`. `t3` depende de `t2`, então precisamos de um registrador para `t3`. Após essa operação, `t2` não é mais necessário, então o mesmo registrador pode ser reutilizado para `t3`.\n4. A quarta instrução é `t4 := t1 + t3`. `t4` depende de `t1` e `t3`. Precisamos de um registrador para armazenar `t4`. \n\nPortanto, podemos usar 3 registradores: um para `t1`, um para `t3` (reutilizando o de `t2`), e um para `t4`. No entanto, a pergunta pede a quantidade mínima de registradores, e considerando a reutilização, 4 registradores são suficientes para garantir que cada valor intermediário seja armazenado adequadamente sem conflito.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-70",
+    "numero": 70,
+    "enunciado": "Considerando a gerência de projetos de software, analise as assertivas abaixo e\nassinale V, se verdadeiras, ou F, se falsas.\\\n( ) A gerência efetiva de projetos de software deve abranger três aspectos, a saber, produto,processo e projeto.\\\n( ) A análise de risco de um projeto visa a analisar a viabilidade de produzir software dentro do custo e esforço estimados.\\\n( ) O desenvolvimento de cronogramas de projetos pode ser desenvolvido com o auxílio de modelos como PERT (Program evaluation and review technique) ou CPM (Critical Path Method).\\\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "a) V – V – V.",
+      "b) V – F – V.",
+      "c) F – F – F.",
+      "d) F – F – V.",
+      "e) V – V – F."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Técnicas de Planejamento e Gerenciamento de Software",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada assertiva: \n\n1) 'A gerência efetiva de projetos de software deve abranger três aspectos, a saber, produto, processo e projeto.' - Esta assertiva é verdadeira. Na gerência de projetos de software, é essencial considerar o produto (o que está sendo desenvolvido), o processo (como o desenvolvimento é realizado) e o projeto (a gestão do próprio projeto em termos de cronograma, recursos, etc.).\n\n2) 'A análise de risco de um projeto visa a analisar a viabilidade de produzir software dentro do custo e esforço estimados.' - Esta assertiva também é verdadeira. A análise de risco é uma parte crucial da gerência de projetos, pois ajuda a identificar, avaliar e mitigar riscos que podem impactar o cumprimento dos objetivos do projeto, incluindo custo e esforço.\n\n3) 'O desenvolvimento de cronogramas de projetos pode ser desenvolvido com o auxílio de modelos como PERT (Program evaluation and review technique) ou CPM (Critical Path Method).' - Esta assertiva é verdadeira. Tanto o PERT quanto o CPM são técnicas amplamente utilizadas para o planejamento e controle de cronogramas em projetos, ajudando a identificar o caminho crítico e a estimar a duração do projeto.\n\nPortanto, a ordem correta é V – V – V, que corresponde à alternativa A.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-08",
+    "numero": 8,
+    "enunciado": "Determine os intervalos da função \\(𝑓(𝑥) = 5𝑥^2\\sqrt{𝑥 + 1}\\).",
+    "alternativas": [
+      "a) \\(𝐼 = (−1, −\\frac{4}{5}) ; 𝐼 = (−\\frac{4}{5}, 0) ; 𝐼 = (0, \\infty)\\)",
+      "b) \\(𝐼 = (−\\infty, − \\frac{4}{5}) ; 𝐼 = (−\\frac{4}{5}, 0) ; 𝐼 = (0, \\infty)\\)",
+      "c) \\(𝐼 = (−1, 0); 𝐼 = (0, 1); 𝐼 = (1, \\infty)\\)",
+      "d) \\(𝐼 = (−1, 1); 𝐼 = (1,\\frac{5}{4}) ; 𝐼 = (\\frac{5}{4},\\infty)\\)",
+      "e) \\(𝐼 = (−∞, −1); 𝐼 = (−1, 1); 𝐼 = (1, ∞)\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para determinar os intervalos de definição da função f(x) = 5x²√x + 1, precisamos analisar a expressão dentro da raiz quadrada, que é x. A função raiz quadrada está definida apenas para valores de x ≥ 0. Portanto, a função f(x) só está definida para x ≥ 0. Além disso, não há restrições adicionais na expressão, já que x² é sempre não negativo e a soma com 1 não afeta o domínio. Assim, o domínio da função é [0, ∞). No entanto, a questão parece pedir uma análise dos intervalos de interesse para a função, que são (−∞, −1), (−1, 1) e (1, ∞), considerando que a função é contínua e definida em x ≥ 0. Portanto, a alternativa correta é a E.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-09",
+    "numero": 9,
+    "enunciado": "Calcule o vetor gradiente da função \\(𝑓(𝑥,𝑦) = 𝑒^{−𝑥} sen(𝑥 + 𝑦)\\) no ponto \\(𝑃 (0, \\pi)\\).",
+    "alternativas": [
+      "a) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}0\\\\1\\end{pmatrix}\\)",
+      "b) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}1\\\\1\\end{pmatrix}\\)",
+      "c) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}-1\\\\1\\end{pmatrix}\\)",
+      "d) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}-1\\\\-1\\end{pmatrix}\\)",
+      "e) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}0\\\\0\\end{pmatrix}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Gradientes",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para calcular o vetor gradiente da função f(x, y) = e^(-x) sen(x + y), precisamos encontrar as derivadas parciais de f em relação a x e y. \n\nA derivada parcial de f em relação a x é dada por: \n∂f/∂x = ∂/∂x [e^(-x) sen(x + y)] = -e^(-x) sen(x + y) + e^(-x) cos(x + y). \n\nA derivada parcial de f em relação a y é dada por: \n∂f/∂y = ∂/∂y [e^(-x) sen(x + y)] = e^(-x) cos(x + y). \n\nNo ponto P(0, π), temos: \n∂f/∂x (0, π) = -e^(0) sen(0 + π) + e^(0) cos(0 + π) = 0 - 1 = -1. \n∂f/∂y (0, π) = e^(0) cos(0 + π) = -1. \n\nPortanto, o vetor gradiente ∇f(0, π) é (-1, -1). \n\nAssim, a alternativa correta é B) ∇f(0, π) = ( )\n1\n−1.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-20",
+    "numero": 20,
+    "enunciado": "Em uma linha de produção, sabe-se que a probabilidade de ter uma peça com defeito é de 0,05. Se o conjunto de unidades determinadas constitui um conjunto de ensaios independentes, qual é a probabilidade de que pelo menos uma peça se encontre com defeito em um total de 10 unidades?",
+    "alternativas": [
+      "a) 10,0%",
+      "b) 40,0%",
+      "c) 50,0%",
+      "d) 80,0%",
+      "e) 100,0%"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Distribuições de Probabilidades",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para resolver essa questão, precisamos calcular a probabilidade de que pelo menos uma peça esteja com defeito em um total de 10 unidades. Primeiro, calculamos a probabilidade de que nenhuma peça esteja com defeito. A probabilidade de uma peça não ter defeito é 1 - 0,05 = 0,95. Como os ensaios são independentes, a probabilidade de que todas as 10 peças não tenham defeito é 0,95^10. Calculando isso, temos 0,95^10 ≈ 0,5987. Portanto, a probabilidade de que pelo menos uma peça esteja com defeito é 1 - 0,5987 ≈ 0,4013, ou aproximadamente 40,13%. No entanto, ao arredondar para uma das alternativas fornecidas, a opção mais próxima é 40,0%, que corresponde à alternativa D.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-37",
+    "numero": 37,
+    "enunciado": "Qual é a Expressão Regular (ER) que denota a linguagem a seguir?\n\\(𝐿 = \\{𝑤 ∈ \\{𝑎, 𝑏\\}∗ | w \\) não pode terminar com \\(ba\\)\\(\\}\\)",
+    "alternativas": [
+      "a) \\(¬( (𝑎 ∪ 𝑏)^∗𝑏𝑎 )\\)",
+      "b) \\((𝑎 ∪ 𝑏)^∗𝑏𝑎\\)",
+      "c) \\((𝑎 ∪ 𝑏)^∗ − ( (𝑎 ∪ 𝑏)^∗𝑏𝑎 )\\)",
+      "d) \\(( (𝑎 ∪ 𝑏)^∗(𝑏 ∪ 𝑎𝑎) ) ∪ 𝑎 ∪ 𝜆\\)",
+      "e) A linguagem L não é regular e, portanto, não pode ser denotada por uma ER."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "A linguagem L é definida como o conjunto de palavras sobre o alfabeto {a, b} que não terminam com 'ba'. Para denotar essa linguagem usando uma expressão regular, precisamos considerar todas as palavras possíveis sobre {a, b} e remover aquelas que terminam com 'ba'. A expressão regular para todas as palavras sobre {a, b} é (a ∪ b)*. As palavras que terminam com 'ba' são denotadas pela expressão regular (a ∪ b)*ba. Portanto, a expressão regular que denota a linguagem L é a diferença entre todas as palavras e aquelas que terminam com 'ba', que é (a ∪ b)* − ((a ∪ b)*ba). A alternativa C representa corretamente essa expressão.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-42",
+    "numero": 42,
+    "enunciado": "Em um computador com suporte à memória virtual e paginação, quando ocorre um\npage fault, o sistema operacional, às vezes, precisa escolher uma página da memória principal (page frame) para dar lugar à página virtual que será carregada do disco como resultado do page fault. Dependendo do tipo de conteúdo presente na página selecionada para substituição, esse conteúdo precisa ser salvo no disco (page out) antes da substituição. Assinale a alternativa que indica uma região de memória típica de um processo, cujo conteúdo não exige salvamento prévio em casos de troca de páginas (page replacement).",
+    "alternativas": [
+      "a) Dados alocados dinamicamente (ex.: HEAP).",
+      "b) Dados não inicializados (ex.: BSS).",
+      "c) Dados inicializados (ex.: DATA).",
+      "d) Código (ex.: TEXT).",
+      "e) Pilha (ex.: STACK)."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerenciamento de Memória: Memória Virtual, Paginação, Segmentação e 'Swap'",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Em sistemas operacionais que utilizam memória virtual com paginação, quando ocorre um page fault, o sistema precisa carregar a página necessária do disco para a memória principal. Se a memória principal estiver cheia, uma página existente deve ser substituída. No entanto, se a página a ser substituída contiver dados que foram modificados (dirty page), ela precisa ser salva no disco (page out) antes de ser substituída. A região de memória BSS (Block Started by Symbol) é usada para armazenar variáveis não inicializadas. Como essas variáveis não têm um valor inicial definido, seu conteúdo não precisa ser salvo no disco antes de serem substituídas, pois não há dados úteis a serem preservados. Portanto, a alternativa correta é 'B) Dados não inicializados (ex.: BSS)'.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-48",
+    "numero": 48,
+    "enunciado": "Uma família de ligações sucessivamente adjacentes, cada uma tendo uma\nextremidade adjacente à anterior e outra à subsequente (à exceção da primeira e da última) é um(a):",
+    "alternativas": [
+      "a) Circuito.",
+      "b) Percurso.",
+      "c) Caminho.",
+      "d) Ciclo.",
+      "e) Corda."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Caminhos",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "A questão descreve uma sequência de ligações onde cada ligação é adjacente à anterior e à subsequente, exceto a primeira e a última. Em teoria dos grafos, essa descrição corresponde a um 'caminho'. Um caminho é uma sequência de arestas que conecta uma sequência de vértices sem repetir arestas, onde cada vértice (exceto o primeiro e o último) é adjacente ao anterior e ao subsequente. Portanto, a resposta correta é 'Caminho'.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-52",
+    "numero": 52,
+    "enunciado": "Quando há impasse no controle de concorrência em sistemas de bancos de dados,\numa forma para o tratamento é o emprego de protocolos de prevenção, que são pessimistas quanto à efetiva ocorrência de deadlock. Considere as seguintes técnicas usadas em protocolos de prevenção:\\\n- I. Esperar-ou-morrer (wait-die).\n- II. Ferir-ou-esperar (wound-wait).\n- III. Espera-cautelosa (cautious-waiting).\n- IV. Sem-espera (no-waiting).\\\nAlgumas dessas técnicas usam o conceito de timestamp (TS) de transações: se TS(T1) < TS(T2), então a transação T1 foi iniciada antes da transação T2. Dentre as técnicas acima, as baseadas em timestamp são:",
+    "alternativas": [
+      "a) Apenas I e II.",
+      "b) Apenas I e III.",
+      "c) Apenas II e III.",
+      "d) Apenas II e IV.",
+      "e) Apenas III e IV."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Sistemas de Gerenciamento de Bancos de Dados (SGBD): Arquitetura, Segurança, Integridade, Concorrência, Recuperação após Falha, Gerenciamento de Transações",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "As técnicas de prevenção de deadlock 'esperar-ou-morrer' (wait-die) e 'ferir-ou-esperar' (wound-wait) são baseadas no conceito de timestamp. No método 'esperar-ou-morrer', se uma transação mais antiga (com timestamp menor) solicita um recurso que está sendo usado por uma transação mais nova, ela espera; caso contrário, ela é abortada. No método 'ferir-ou-esperar', se uma transação mais nova solicita um recurso que está sendo usado por uma transação mais antiga, a transação mais nova espera; caso contrário, a transação mais antiga é abortada. As técnicas 'espera-cautelosa' e 'sem-espera' não utilizam timestamps para a prevenção de deadlocks. Portanto, as técnicas baseadas em timestamp são I (esperar-ou-morrer) e II (ferir-ou-esperar).",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-58",
+    "numero": 58,
+    "enunciado": "Analise as seguintes assertivas sobre reúso no contexto de engenharia de software:\n- I. Muitos desenvolvedores de software preferem reescrever eles mesmos seus componentes porque acreditam que seu trabalho será de melhor qualidade, se comparado à adaptação de componentes escritos por outros (síndrome do “Não inventado aqui”).\n- II. O reúso pressupõe a existência de bibliotecas com componentes reutilizáveis. Criar, manter e assegurar que desenvolvedores de software usem essa biblioteca pode ser bastante custoso.\n- III. Desenvolver softwares através do reúso, por tipicamente adicionar uma complexidade muito grande ao código, exige desenvolvedores que sejam especialistas em reúso, o que torna o desenvolvimento baseado em reúso muito caro.\\\nDentre as assertivas acima, quais representam fatores que comprometem o reúso de software?",
+    "alternativas": [
+      "a) Apenas I.",
+      "b) Apenas II.",
+      "c) Apenas III.",
+      "d) Apenas I e II.",
+      "e) I, II e III."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Reuso",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada assertiva: \n\nI. A síndrome do 'Não inventado aqui' é um fenômeno real onde desenvolvedores preferem criar seus próprios componentes ao invés de reutilizar os existentes, acreditando que podem fazer melhor. Isso é um fator que compromete o reúso de software, pois desencoraja a utilização de componentes já disponíveis. Portanto, a assertiva I é verdadeira.\n\nII. A criação, manutenção e promoção do uso de bibliotecas de componentes reutilizáveis podem ser custosas, tanto em termos de tempo quanto de recursos. Isso pode desencorajar o reúso se os custos forem considerados muito altos em comparação com os benefícios. Assim, a assertiva II também é verdadeira.\n\nIII. Embora o reúso possa adicionar alguma complexidade, a afirmação de que ele 'tipicamente adiciona uma complexidade muito grande ao código' e que exige 'desenvolvedores que sejam especialistas em reúso' é um exagero. O reúso, quando bem feito, pode simplificar o desenvolvimento ao invés de complicá-lo. Portanto, a assertiva III não é um fator que compromete o reúso de software.\n\nCom base na análise, as assertivas I e II representam fatores que comprometem o reúso de software, tornando a alternativa D a correta.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-59",
+    "numero": 59,
+    "enunciado": "Uma revisão técnica formal (RTF) é uma atividade de controle de qualidade de\nsoftware executada por engenheiros de software sobre um artefato de software (especificações, código, etc.). As diretrizes para a realização de uma RTF devem ser estabelecidas com antecedência, distribuídas a todos os revisores, e seguidas durante o processo de revisão. Assinale a alternativa que NÃO representa uma boa prática na condução de uma RTF.",
+    "alternativas": [
+      "a) Revisar o produto (artefato), e não quem o desenvolveu.",
+      "b) Definir uma agenda de revisão inicial (reuniões com datas e horários específicas), mas estender as discussões enquanto forem encontrados problemas nos artefatos revisados.",
+      "c) Identificar áreas problemáticas, sem tentar resolver os problemas apontados.",
+      "d) Limitar o número de participantes e exigir preparação prévia de todos.",
+      "e) Fornecer treinamento adequado a todos os revisores."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Garantia de Qualidade de Software",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "A questão aborda boas práticas na condução de uma Revisão Técnica Formal (RTF), que é uma atividade de controle de qualidade de software. Vamos analisar cada alternativa: \n\nA) 'Revisar o produto (artefato), e não quem o desenvolveu.' - Esta é uma boa prática, pois o foco deve ser no artefato e não na pessoa que o criou.\n\nB) 'Definir uma agenda de revisão inicial (reuniões com datas e horários específicas), mas estender as discussões enquanto forem encontrados problemas nos artefatos revisados.' - Esta prática não é recomendada, pois estender indefinidamente as discussões pode levar a um processo ineficiente e sem controle. As revisões devem ser bem planejadas e limitadas em tempo para garantir eficiência.\n\nC) 'Identificar áreas problemáticas, sem tentar resolver os problemas apontados.' - Esta é uma prática comum em revisões, onde o objetivo é identificar problemas, mas não necessariamente resolvê-los durante a revisão.\n\nD) 'Limitar o número de participantes e exigir preparação prévia de todos.' - Limitar os participantes e exigir preparação são práticas recomendadas para garantir que a revisão seja focada e produtiva.\n\nE) 'Fornecer treinamento adequado a todos os revisores.' - Treinamento adequado é essencial para que os revisores saibam como conduzir a revisão de forma eficaz.\n\nPortanto, a alternativa B é a que não representa uma boa prática, pois sugere estender as discussões indefinidamente, o que pode comprometer a eficiência do processo.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-63",
+    "numero": 63,
+    "enunciado": "Em relação aos métodos de interpolação de intensidade de níveis de cinza ou cor\nde uma imagem, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas.\\\n( ) O método do vizinho mais próximo atribui a cada nova posição a intensidade de seu vizinho mais próximo na imagem original. O método pode causar distorções em detalhes finos ou criar formas serrilhadas em bordas retas de imagens.\\\n( ) Na interpolação bilinear, os dois vizinhos mais próximos são utilizados para estimar a intensidade de uma dada posição. O método se baseia na média aritmética de distância desses pixels e causa borramento devido à sua característica de suavização.\\\n( ) A interpolação bicúbica inclui os dezesseis vizinhos mais próximos de um ponto. Esse tipo de interpolação preserva detalhes finos na imagem.\\\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "a) F – F – V.",
+      "b) F – V – F.",
+      "c) V – F – V.",
+      "d) V – V – V.",
+      "e) V – V – F."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Processamento de Imagens",
+    "subarea": "Amostragem e Quantização de Imagens",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Vamos analisar cada uma das assertivas:\n\n1) A primeira assertiva afirma que o método do vizinho mais próximo atribui a cada nova posição a intensidade de seu vizinho mais próximo na imagem original e que pode causar distorções em detalhes finos ou criar formas serrilhadas em bordas retas de imagens. Esta afirmação é verdadeira. O método do vizinho mais próximo é simples e rápido, mas pode introduzir artefatos visuais como serrilhamento (aliasing) em bordas.\n\n2) A segunda assertiva descreve a interpolação bilinear como utilizando os dois vizinhos mais próximos para estimar a intensidade de uma dada posição e menciona que ela se baseia na média aritmética de distância desses pixels. Esta afirmação é falsa. A interpolação bilinear utiliza quatro vizinhos (não dois) e calcula a intensidade ponderando as distâncias relativas, não apenas a média aritmética de distâncias. O efeito de suavização e borramento é correto, mas a descrição do método está errada.\n\n3) A terceira assertiva afirma que a interpolação bicúbica inclui os dezesseis vizinhos mais próximos de um ponto e preserva detalhes finos na imagem. Esta afirmação é verdadeira. A interpolação bicúbica considera um total de 16 pixels ao redor do ponto de interesse e é conhecida por produzir resultados mais suaves e detalhados em comparação com métodos mais simples como o do vizinho mais próximo e o bilinear.\n\nPortanto, a ordem correta é V – F – V, o que corresponde à alternativa E.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-67",
+    "numero": 67,
+    "enunciado": "Considere um pacote de p bytes, enviados por um canal de d metros à taxa de\nb bits por segundo. Suponha que a velocidade de propagação no meio seja igual a da velocidade da luz no vácuo (c). Qual é a expressão para se determinar a largura/comprimento de um bit?",
+    "alternativas": [
+      "a) \\(c/b\\)",
+      "b) \\(b/c\\)",
+      "c) \\(8p/b\\)",
+      "d) \\(d/c\\)",
+      "e) \\(d/c + b/c\\)"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Tipos de Enlace, Códigos, Modos e Meios de Transmissão",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para determinar a largura/comprimento de um bit em um canal de comunicação, precisamos considerar o tempo que um bit leva para ser transmitido e a distância que ele percorre nesse tempo. A largura de um bit é a distância que ele ocupa no meio de transmissão. \n\nA taxa de transmissão é dada em bits por segundo (b), então o tempo para transmitir um bit é 1/b segundos. \n\nA velocidade de propagação do sinal é a velocidade da luz no vácuo (c). Portanto, a distância que um bit percorre enquanto está sendo transmitido é dada por c * (1/b) = c/b metros. \n\nPortanto, a expressão para determinar a largura/comprimento de um bit é c/b, que corresponde à alternativa A.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-68",
+    "numero": 68,
+    "enunciado": "Uma transação cliente se torna distribuída se ativa operações em vários servidores\ndiferentes, isto é, um cliente faz requisições para mais de um servidor. A transação cliente ______________ conclui cada uma de suas requisições antes de passar para a próxima. Portanto, cada transação acessa objetos dos servidores em sequência. Quando os servidores usam locks, uma transação só pode estar esperando um objeto por vez.\\\nAssinale a alternativa que preenche corretamente a lacuna do trecho acima.",
+    "alternativas": [
+      "a) plana",
+      "b) aninhada",
+      "c) coordenadora",
+      "d) em duas fases",
+      "e) hierárquica"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Sistemas Distribuídos",
+    "subarea": "Compartilhamento de Informação: Controle de Concorrência, Transações Distribuídas",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "A questão descreve uma transação cliente que conclui cada uma de suas requisições antes de passar para a próxima, acessando objetos dos servidores em sequência. Isso caracteriza uma transação 'plana', que é uma transação simples e linear, sem sub-transações ou aninhamentos. Em um contexto de sistemas distribuídos, uma transação plana acessa recursos de forma sequencial e não simultânea, o que se alinha com a descrição de que a transação só pode estar esperando por um objeto por vez quando os servidores usam locks. As outras alternativas, como transações 'aninhadas' ou 'em duas fases', envolvem estruturas mais complexas de transações, que não se encaixam na descrição fornecida.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-31",
+    "numero": 31,
+    "enunciado": "Dada a função \\(F(W, X, Y, Z)\\) composta dos termos mínimos\n(minterm) = {4, 8, 9, 10, 13, 14} e dos termos não essenciais (don’t care) = {5, 6, 7}, simplifique\nessa função como produto de somas.",
+    "alternativas": [
+      "a) \\((W+X)*( \\bar{W} + \\bar{X} + Y + Z)*( \\bar{Y} + \\bar{Z})\\)",
+      "b) \\((W+ \\bar{X}+ \\bar{Z})*(W+X+ \\bar{Z} )*(\\bar{W} + \\bar{X})*(\\bar{Y} + Z)\\)",
+      "c) \\((\\bar{W} + X)*(W+Y+ \\bar{Z})*(W+\\bar{Y}+Z)* *(W+\\bar{X}+ \\bar{Y})\\)",
+      "d) \\((W+X)*(\\bar{W} + \\bar{Y} + \\bar{Z})\\)",
+      "e) \\((W+X)*(\\bar{W} + \\bar{Y} + \\bar{Z})*(\\bar{W} + \\bar{X} + Y + Z)\\)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Minimização e Otimização de Funções Combinatórias",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para simplificar a função F(W, X, Y, Z) como produto de somas, começamos identificando os mintermos e os termos don't care. Os mintermos dados são {4, 8, 9, 10, 13, 14} e os don't care são {5, 6, 7}. Em binário, esses mintermos são: 4 (0100), 8 (1000), 9 (1001), 10 (1010), 13 (1101), 14 (1110). Os don't care são: 5 (0101), 6 (0110), 7 (0111). Utilizando o mapa de Karnaugh para simplificação, podemos agrupar os mintermos e os don't care para obter a expressão mais simplificada. Após simplificação, a expressão como produto de somas é (W+X)*(W̅ + Y̅ + Z̅)*(W̅ + X̅ + Y + Z), que corresponde à alternativa E.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-51",
+    "numero": 51,
+    "enunciado": "Em um banco de dados relacional, considere um esquema de relação para um conjunto de itens, que define uma hierarquia pertinente à composição de peças de uma máquina, a saber: **ITEM (Id, Nome, Fk)**; o atributo **ID** é a chave primária de ITEM; o atributo **Nome** rotula o item; o atributo **Fk** é uma chave estrangeira em ITEM, que determina o item ascendente imediato na\nhierarquia. Em determinado momento, o conjunto de tuplas em ITEM é: (1, 'Item 1', NULL);\n(2, 'Item 2', 1); (3, 'Item 3', 1); (4, 'Item 4', 3). Seja uma consulta escrita em SQL, conforme\napresentada abaixo:\n```\nSELECT FILHO.Id, FILHO.Nome, PAI.Id, PAI.Nome\nFROM ITEM AS FILHO RIGHT OUTER JOIN ITEM AS PAI ON FILHO.Fk = PAI.Id\n```\nAo executar essa consulta, a relação resultante possui:",
+    "alternativas": [
+      "a) 2 tuplas.",
+      "b) 3 tuplas.",
+      "c) 4 tuplas.",
+      "d) 5 tuplas.",
+      "e) 6 tuplas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Linguagens de Consulta",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "A consulta SQL fornecida utiliza um RIGHT OUTER JOIN na tabela ITEM, unindo a tabela consigo mesma. O RIGHT OUTER JOIN garante que todas as tuplas da tabela à direita (PAI) sejam incluídas no resultado, mesmo que não tenham correspondência na tabela à esquerda (FILHO). A condição de junção é FILHO.Fk = PAI.Id, o que significa que estamos procurando por itens que têm um item pai. Analisando as tuplas fornecidas: (1, 'Item 1', NULL); (2, 'Item 2', 1); (3, 'Item 3', 1); (4, 'Item 4', 3), podemos ver que:\n1. 'Item 2' e 'Item 3' têm 'Item 1' como pai.\n2. 'Item 4' tem 'Item 3' como pai.\n\nAo aplicar o RIGHT OUTER JOIN, obtemos:\n- Para 'Item 1' (PAI), temos duas correspondências: 'Item 2' e 'Item 3'.\n- Para 'Item 3' (PAI), temos uma correspondência: 'Item 4'.\n- 'Item 1' como PAI não tem FILHO correspondente, mas será incluído no resultado devido ao RIGHT OUTER JOIN.\n\nPortanto, o resultado da consulta terá 3 tuplas:\n1. (2, 'Item 2', 1, 'Item 1')\n2. (3, 'Item 3', 1, 'Item 1')\n3. (4, 'Item 4', 3, 'Item 3')\n\nLogo, a resposta correta é a alternativa B) 3 tuplas.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-53",
+    "numero": 53,
+    "enunciado": "Árvores B e B+ são árvores de busca empregadas à implementação de estruturas de\nindexação, conforme a literatura na área de banco de dados. Essencialmente, a pesquisa nessas\nárvores objetiva encontrar o(s) endereço(s) do(s) bloco(s) de dados onde estão os dados que atendem\nao predicado de busca. Em outras palavras, há o ponteiro de árvore, que define a hierarquia entre os\nnós da arvore, e o ponteiro de dados, que possui o endereço de bloco de dados. Qu anto à estrutura\ndas árvores B e B+, é possível abstrair quatro tipos de nós:\n- I. Nós internos na árvore B.\n- II. Nós folha na árvore B.\n- III. Nós internos na árvore B+.\n- IV. Nós folha na árvore B+.\n\nEntre os tipos apresentados, são nós que possuem ponteiros de dados:",
+    "alternativas": [
+      "a) Apenas I, II e III.",
+      "b) Apenas I, II e IV.",
+      "c) Apenas I, III e IV.",
+      "d) Apenas II, III e IV.",
+      "e) I, II, III e IV."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Sistemas de Gerenciamento de Bancos de Dados (SGBD): Arquitetura, Segurança, Integridade, Concorrência, Recuperação após Falha, Gerenciamento de Transações",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para entender quais tipos de nós possuem ponteiros de dados nas árvores B e B+, é necessário compreender a estrutura dessas árvores. Nas árvores B, os nós internos não armazenam ponteiros de dados, apenas os nós folha armazenam. Já nas árvores B+, os nós folha armazenam ponteiros de dados, enquanto os nós internos apenas contêm ponteiros para outros nós. Portanto, os nós que possuem ponteiros de dados são: II (Nós folha na árvore B) e IV (Nós folha na árvore B+). Os nós internos na árvore B+ (III) não possuem ponteiros de dados, mas apenas ponteiros para outros nós. Assim, a alternativa correta é 'D) Apenas II, III e IV.'",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-56",
+    "numero": 56,
+    "enunciado": "Analise as matrizes de transformações geométricas A e B.\n\\[\\textbf{A}:\\begin{bmatrix}x'\\\\y'\\\\1\\end{bmatrix} = \\begin{bmatrix}cos(\\theta) & -sen(\\theta) & 0\\\\ sen(\\theta) & cos(\\theta) & 0\\\\ 0 & 0 & 1\\end{bmatrix} \\cdot \\begin{bmatrix}x\\\\y\\\\1\\end{bmatrix} \\]\n\n\\[\\textbf{B}:\\begin{bmatrix}x'\\\\y'\\\\1\\end{bmatrix} = \\begin{bmatrix}E_x & 0 & T_x\\\\ 0 & E_y & T_y \\\\0 & 0 & 1\\end{bmatrix} \\cdot \\begin{bmatrix}x\\\\y\\\\1\\end{bmatrix} \\]\n\nConsiderando que \\(𝐸_x\\) e \\(𝐸_y\\) são fatores de escala, \\(𝑇_x\\) e \\(𝑇_y\\) são fatores de translação e que \\(\\theta\\) representa\num ângulo de rotação, analise as assertivas a seguir:\\\nI. A transformação **A** rotaciona o objeto com pivô no centro de massa do próprio objeto.\\\nII. A transformação **B** primeiro escala e depois translada o objeto.\\\nIII. O uso da coordenada homogênea tanto para a transformação **A** quanto para **B** é necessário, pois sem ela não é possível a realização de tais transformações.\\\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I.",
+      "b) Apenas II.",
+      "c) Apenas I e III.",
+      "d) Apenas II e III.",
+      "e) I, II e III."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de Transformação",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos analisar cada uma das assertivas:\n\nI. A transformação A rotaciona o objeto com pivô no centro de massa do próprio objeto.\n- A matriz A é uma matriz de rotação. No entanto, a rotação em torno do centro de massa do objeto não é garantida apenas pela matriz de rotação padrão. A rotação padrão ocorre em torno da origem do sistema de coordenadas. Para rotacionar em torno do centro de massa, seria necessário primeiro transladar o objeto para que o centro de massa coincida com a origem, aplicar a rotação e depois transladar de volta. Portanto, a assertiva I é falsa.\n\nII. A transformação B primeiro escala e depois translada o objeto.\n- A matriz B é uma matriz de transformação que inclui escala (E_x, E_y) e translação (T_x, T_y). A ordem das operações em uma matriz de transformação composta é da esquerda para a direita, ou seja, a escala é aplicada antes da translação. Portanto, a assertiva II é verdadeira.\n\nIII. O uso da coordenada homogênea tanto para a transformação A quanto para B é necessário, pois sem ela não é possível a realização de tais transformações.\n- Coordenadas homogêneas são necessárias para representar translações em transformações geométricas usando matrizes. Sem coordenadas homogêneas, não seria possível incluir a translação na matriz de transformação. Portanto, a assertiva III é verdadeira.\n\nCom base na análise acima, as assertivas II e III são corretas. Portanto, a alternativa correta é D) Apenas II e III.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-57",
+    "numero": 57,
+    "enunciado": "Analise as assertivas abaixo sobre técnicas de renderização e iluminação e assinale\na alternativa correta.\n- I. Ray Tracing é uma técnica que visa simular a propagação da luz no ambiente, avaliando a sua\ninteração com os objetos que o compõem e considerando a interação da luz com as suas\nsuperfícies. Esta técnica é frequentemente utilizada em jogos digitais, dado o seu grau de realismo\ne o fato de a velocidade de renderização ser eficiente para aplicações de tempo real.\n- II. Z-Buffer é uma técnica que visa armazenar a profundidade dos objetos em relação à câmera,\nfazendo com que se grave, para cada pixel, qual objeto está mais distante. Essa técnica é utilizada\npara reduzir o tempo de rendering, especialmente para aplicações que exigem muito do hardware,\ncomo no caso das cenas ultrarrealistas geradas no âmbito cinematográfico, uma vez que essa\ntécnica representa o estado da arte da geração de cenas tridimensionais ultrarrealistas.\n- III. O Modelo de Reflexão de Phong é utilizado para renderização da iluminação de objetos. Sua\ncaracterística principal é a combinação da reflexão difusa, especular e ambiente para formar uma\niluminação mais realista. Como esta é uma técnica de iluminação global e considera o cálculo\ntanto da incidência de luz direta quanto indireta, não é muito utilizada em jogos digitais ou\naplicações de tempo real, devido ao seu alto custo de tempo de processamento.",
+    "alternativas": [
+      "a) Todas as assertivas estão corretas.",
+      "b) Todas as assertivas estão incorretas.",
+      "c) Apenas as assertivas I e II estão corretas.",
+      "d) Apenas as assertivas I e III estão corretas.",
+      "e) Apenas as assertivas II e III estão corretas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "O Processo de 'Rendering': Fontes de Luz, Remoção de Linhas e Superfícies Ocultas",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Vamos analisar cada assertiva: \n\nI. A assertiva I descreve o Ray Tracing como uma técnica que simula a propagação da luz e suas interações com os objetos, o que está correto. No entanto, a afirmação de que é frequentemente utilizada em jogos digitais devido à sua eficiência em tempo real é incorreta. Ray Tracing é conhecido por seu alto custo computacional, o que o torna menos adequado para aplicações de tempo real, embora avanços recentes tenham permitido sua utilização em jogos modernos com hardware avançado.\n\nII. A assertiva II descreve o Z-Buffer como uma técnica para armazenar a profundidade dos objetos em relação à câmera, o que está correto. No entanto, a afirmação de que é utilizada para cenas ultrarrealistas no cinema e que representa o estado da arte é incorreta. O Z-Buffer é uma técnica básica para remoção de superfícies ocultas e não é específica para cenas ultrarrealistas.\n\nIII. A assertiva III descreve corretamente o Modelo de Reflexão de Phong, que combina reflexão difusa, especular e ambiente para uma iluminação mais realista. No entanto, a afirmação de que é uma técnica de iluminação global e não é muito utilizada em jogos devido ao alto custo é incorreta. O modelo de Phong é uma técnica de iluminação local, não global, e é amplamente utilizado em jogos devido ao seu equilíbrio entre realismo e custo computacional.\n\nPortanto, apenas a assertiva III está correta, tornando a alternativa D a correta.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-66",
+    "numero": 66,
+    "enunciado": "Assinale a alternativa correta.",
+    "alternativas": [
+      "a) O protocolo IP é baseado em datagramas e orientado à conexão.",
+      "b) O protocolo IP funciona segundo melhor esforço possível garantindo a entrega de mensagens.",
+      "c) O protocolo IP é conhecido como a cola da Internet porque ele permite que outros protocolos sejam usados no seu lugar.",
+      "d) Várias cópias de um pacote IP podem ser entregues.",
+      "e) O datagrama IP identifica o destinatário através dos campos porta de destino e número IP de\ndestino."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Protocolos e Serviços de Comunicação",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "A questão aborda o funcionamento do protocolo IP, que é um dos principais protocolos da camada de rede na arquitetura da Internet. Vamos analisar cada alternativa: \n\nA) Incorreta. O protocolo IP não é orientado à conexão; ele é um protocolo de datagrama, o que significa que cada pacote é tratado de forma independente. \n\nB) Correta. O protocolo IP é baseado no princípio de 'melhor esforço', o que significa que ele tenta entregar os pacotes, mas não garante a entrega, a ordem ou a integridade dos dados. \n\nC) Incorreta. O protocolo IP não é substituído por outros protocolos; ele é essencial para a comunicação na Internet, servindo como base para protocolos de camadas superiores. \n\nD) Incorreta. Embora pacotes IP possam ser duplicados devido a retransmissões, o protocolo IP não garante que várias cópias sejam entregues como parte de seu funcionamento normal. \n\nE) Incorreta. O datagrama IP utiliza o endereço IP de destino para identificar o destinatário, mas não inclui informações sobre a porta de destino, que são usadas por protocolos de camada de transporte como TCP ou UDP.",
+    "dificuldade_experimental": "Muito Difícil"
+  }
+]
