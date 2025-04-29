@@ -30,7 +30,7 @@
       "d) Sempre que o valor de Departamento.CodDepto for alterado, deve ser garantido que não há uma linha com o antigo valor de Departamento.CodDepto na coluna Empregado.CodDepto",
       "e) Sempre que uma nova linha for inserida em Departamento, deve ser garantido que o valor de Departamento.CodDepto aparece na coluna Empregado.CodDepto"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -49,7 +49,7 @@
       "d) A tabela não está na primeira forma normal.",
       "e) A tabela está na quarta forma normal."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -68,9 +68,9 @@
       "d) Peca (CodPeca, NomePeca, PesoPeca, CodPecaComposto,\nCodPecaComponente,Quantidade)\nPeca.CodPecaComposto referencia Peca\nPeca.CodPecaComponente referencia Peca",
       "e) Composto (CodPeca, NomePeca, PesoPeca)\nComponente (CodPeca, NomePeca, PesoPeca, CodPecaComposto\nQuantiade)\nComponente.CodPecaComposto referencia Composto"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Organização",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "A questão descreve um modelo entidade-relacionamento para uma indústria que lida com peças e suas composições. A entidade principal é 'Peça', que possui atributos como código, nome e peso. O auto-relacionamento 'Composição' permite que uma peça seja um componente de outra peça, formando uma relação de muitos para muitos (n:n). O atributo 'quantidade' no relacionamento indica quantas unidades de uma peça componente são usadas em uma peça composta. A alternativa correta é aquela que descreve corretamente a estrutura do relacionamento e suas referências, que é a alternativa A."
@@ -87,9 +87,9 @@
       "d) Seleção de Pessoa, Trabalha e Firma.",
       "e) Nada pode ser afirmado porque os dados não foram fornecidos."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Organização",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "B",
     "solucao": "A questão apresenta três esquemas de relação de um banco de dados relacional: Pessoa, Trabalha e Firma. As alternativas sugerem operações de interseção e união entre essas relações, mas não fornecem dados específicos sobre as tuplas contidas em cada relação. Sem dados concretos, não é possível determinar o resultado das operações de interseção ou união. Portanto, a única conclusão válida é que nada pode ser afirmado porque os dados não foram fornecidos, tornando a alternativa (e) a correta."
@@ -106,9 +106,9 @@
       "d) A consulta C4 porque requer apenas selecionar os períodos não cadastrados na relação Trabalha.",
       "e) Nada se pode afirmar porque rapidez, neste caso, não pode ser medida."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Técnicas de Pesquisa",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "B",
     "solucao": "A questão apresenta quatro consultas (C1, C2, C3, C4) sobre um banco de dados relacional com três relações: Pessoa, Trabalha e Firma. A consulta C1 busca as profissões de todas as pessoas, o que pode ser feito por uma simples projeção sobre a relação Pessoa, especificamente sobre o atributo 'Profissao'. Esta operação é direta e não requer o uso de índices ou junções com outras tabelas, tornando-a a mais rápida entre as opções apresentadas. As outras consultas envolvem condições adicionais ou junções que aumentam a complexidade e o tempo de execução. Portanto, a alternativa correta é a (a), que afirma que a consulta C1 é a mais rápida."

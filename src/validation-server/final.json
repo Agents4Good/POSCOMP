@@ -372,7 +372,7 @@
       "d) Possui um pequeno conjunto de instruções simples",
       "e) O processador é formado por válvulas e transistores"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -391,7 +391,7 @@
       "d) Os dígitos são alfanuméricos que podem ser representados por um byte",
       "e) Os dígitos são hexadecimais de 0 a 15"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -410,7 +410,7 @@
       "d) \\(xy + \\overline{y}z + \\overline{z}\\)",
       "e) \\(\\overline{x}z + xy + \\overline{yz}\\)"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -429,7 +429,7 @@
       "d) As linguagens reconhecidas por autômatos a pilha são as linguagens regulares",
       "e) Há linguagens que não são nem livres de contexto nem sensíveis a contexto"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -448,7 +448,7 @@
       "d) \\(30,20,15,10, 5,2\\)",
       "e) \\(15,10,5,2,20,30\\)"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -467,7 +467,7 @@
       "d) Todas as posições da tabela receberão elementos, mas as duas primeiras receberão, cada uma, o dobro das outras",
       "e) As duas primeiras posições da tabela receberão, cada uma, aproximadamente a metade dos elementos, e as demais posições permanecerão vazias"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -486,7 +486,7 @@
       "d) Se \\(f(n) = O(g(n))\\) e \\(g(n) = O(h(n))\\) então \\(F(n) = O(h(n))\\)",
       "e) \\(2^{n + 1} = O(2^n)\\)"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -505,7 +505,7 @@
       "d) 38.83",
       "e) 43.1"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -524,7 +524,7 @@
       "d) \\((n + 1)/2\\)",
       "e) \\(n \\log n\\)"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -543,7 +543,7 @@
       "d) Heap sort e selection sort",
       "e) Merge sort e heap sort"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -562,7 +562,7 @@
       "d) Super Merge está correto, mas consome tempo menor que O(*merge sort*)",
       "e) Nenhuma das afirmações acima está correta"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -581,7 +581,7 @@
       "d) I e II",
       "e) Todas são verdadeiras"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -600,7 +600,7 @@
       "d) Fazer com que cada nó reinicie sua execução se um pedido de bloqueio não é concedido após um longo tempo de espera O pedido de bloqueio é re-enviado após um tempo aleatório",
       "e) Forçar cada nó a obter todos os bloqueios de que necessita no início de sua execução e reiniciar a execução se algum bloqueio não é concedido"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -619,7 +619,7 @@
       "d)\n```\nt = p->dir;\np->esq = p->dir;\np->dir = t\n```",
       "e) \n```\nt = p->dir;\np->dir = p->esq;\np->esq = t\n```"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -638,7 +638,7 @@
       "d) 8",
       "e) 10"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -657,7 +657,7 @@
       "d) `sum:=n + sum(n-1)`",
       "e) `sum:=(n-1) + sum(n)`"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -676,7 +676,7 @@
       "d) \\(n\\)",
       "e) \\(n^2\\)"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -695,7 +695,7 @@
       "d) Hamiltoniano",
       "e) Euleriano"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -714,7 +714,7 @@
       "d) Uma restrição de integridade de chave estrangeira em `DSG`.",
       "e) Uma restrição a ser verificada na atualização de tuplas em `DSG`."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -733,7 +733,7 @@
       "d) As relações que obedecem à primeira forma normal não apresentam anomalias.",
       "e) O objetivo da normalização é eliminar várias anomalias (ou aspectos indesejáveis) de uma relação."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -752,7 +752,7 @@
       "d) Uma visão é útil por representar uma percepção particular do banco de dados, compartilhado por muitos aplicativos.",
       "e) O gerenciamento de visões envolve a conversão da consulta do usuário sobre as visões para a consulta sobre as relações base."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -771,7 +771,7 @@
       "d) \\(π_{\\text{ENome}} (σ_{\\text{Dur} > 36} ((π_{\\text{PNO}} (\\text{PROJ})) \\bowtie_{\\text{PNO}} ( \\text{EMP} \\bowtie_{ENO} \\text{DSG})))\\)",
       "e) \\(π_{\\text{ENome}} (\\text{PROJ} \\bowtie_{\\text{PNO}} ( \\text{EMP} \\bowtie_{ENO} σ_{\\text{Dur} > 36} (π \\text{Dur} (\\text{DSG}))))\\)"
     ],
-    "area_conhecimento": "Tecnologia da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -790,7 +790,7 @@
       "d) O modelo de objetos provê uma representação bem próxima de linguagens de programação.",
       "e) O modelo de objetos é mais adequado para a representação de tipos abstratos de dados."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -809,7 +809,7 @@
       "d) \\(C(p1+p2) < C(p1) + C(p2)\\)",
       "e) Nenhuma das alternativas anteriores"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -828,7 +828,7 @@
       "d) Apenas as alternativas II e III.",
       "e) Nenhuma delas."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -847,7 +847,7 @@
       "d) Em um diagrama de fluxo de dados uma entidade externa representa uma fonte ou destino das informações processadas pelo sistema e está fora dos limites do sistema modelado; cada processo pode ser refinado, para explicitar um maior detalhamento; um DFD pode conter vários níveis de detalhamento; um processo é um transformador de informação e também está fora do sistema; o nível 0 de um DFD representa o sistema como um todo e indica as principais fontes e destinos das informações.",
       "e) Nenhuma das alternativas anteriores."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -866,7 +866,7 @@
       "d) Apenas as alternativas II e III.",
       "e) Nenhuma delas."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -904,7 +904,7 @@
       "d) Indicado para detectar tonalidades específicas em uma imagem.",
       "e) Nenhuma das respostas acima."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -980,7 +980,7 @@
       "d) Limitar o tamanho de uma mensagem transmitida.",
       "e) Limitar o tempo para obter um recurso."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -1056,7 +1056,7 @@
       "d) Há alguém que todos amam.",
       "e) Nenhuma das anteriores."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -1113,7 +1113,7 @@
       "d) O controle de fluxo tem como objetivo garantir que nenhum dos parceiros de uma comunicação inunda o outro enviando pacotes mais rápido do que ele pode tratar.",
       "e) Os serviços orientados a conexão podem ajudar no controle de congestionamento através da diminuição da taxa de transmissão durante um congestionamento em andamento."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -1170,7 +1170,7 @@
       "d) \\(\\{b,c,d,e\\}\\)",
       "e) \\(\\{e\\}\\)"
     ],
-    "area_conhecimento": "Tecnologia da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -1949,7 +1949,7 @@
       "d) A consulta não retorna nada pois está incorreta.",
       "e) Para cada departamento que tem mais que dois empregados e cuja média salarial é maior que 40\nobter um grupo de linhas que contém, para cada empregado do departamento, o código de seu departamento, seguido do nome de seu departamento, seguido da soma dos salários dos empregados do seu departamento."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -1987,7 +1987,7 @@
       "d) As afirmativas II e III são falsas",
       "e) As afirmativas I e III são verdadeiras"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -2006,7 +2006,7 @@
       "d) As afirmativas II e III são verdadeiras",
       "e) As afirmativas I e III são falsas"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -2025,7 +2025,7 @@
       "d) O conjunto FOLLOW(B) = \\(c, $\\)",
       "e) O conjunto FOLLOW(D) é igual a FOLLOW(S)"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -2044,7 +2044,7 @@
       "d) As dimensões do *Z-buffer* são independentes das dimensões do *frame buffer*.",
       "e) Nenhuma das alternativas acima está correta."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -2063,7 +2063,7 @@
       "d) As afirmativas II e III são falsas.",
       "e) Apenas a afirmativa IV é falsa."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -3127,9 +3127,9 @@
       "d) \n```\nSELECT NomeDepto\nFROM Departamento D, Empregado E\nWHERE D.CodDepto<>E.CodDepto\n```",
       "e) \n```\nSELECT NomeDepto\nFROM Departamento D\nWHERE CodDepto IN\n   (SELECT CodDepto\n    FROM Empregado E)\n```"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Técnicas de Pesquisa",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "A questão apresentada envolve a manipulação de consultas SQL em um banco de dados relacional. Vamos analisar cada parte do enunciado para entender o que está sendo solicitado:\n\n1. A primeira parte do enunciado parece estar incompleta ou mal formatada, mas podemos inferir que se trata de uma tentativa de listar departamentos que não têm empregados associados, ou algo similar.\n\n2. A segunda parte do enunciado, 'FROM Departamento D WHERE EXISTS (SELECT * FROM Empregado E WHERE CodDepto=D.CodDepto)', busca listar departamentos que possuem pelo menos um empregado associado.\n\n3. A terceira parte, 'FROM Departamento D) EXCEPT (SELECT NomeDepto FROM Departamento D, Empregado E WHERE D.CodDepto=E.CodDepto)', parece tentar listar departamentos que não têm empregados associados, utilizando a operação EXCEPT para subtrair os departamentos que têm empregados daqueles que existem.\n\n4. A quarta parte, 'FROM Departamento D, Empregado E WHERE D.CodDepto<>E.CodDepto', está tentando listar departamentos e empregados onde os códigos de departamento não coincidem, o que não faz muito sentido lógico para o objetivo de encontrar departamentos sem empregados.\n\n5. A quinta parte, 'FROM Departamento D WHERE CodDepto IN (SELECT CodDepto FROM Empregado E)', lista departamentos que têm empregados, o que é o oposto do que se deseja.\n\nCom base na análise acima, a alternativa C parece ser a única que utiliza a operação EXCEPT corretamente para subtrair os departamentos que têm empregados daqueles que existem, resultando nos departamentos que não têm empregados associados.\n\nPortanto, a alternativa correta é a C."
@@ -3146,9 +3146,9 @@
       "d) Concatenar cada linha da tabela A com cada linha da tabela B.",
       "e) Concatenar a tabela A com a tabela B, isto é, formar uma tabela formada por linhas que aparecem em A ou B."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Técnicas de Pesquisa",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "A",
     "solucao": "A operação de junção interna (ou INNER JOIN) na álgebra relacional combina linhas de duas tabelas com base em um critério de junção especificado. A junção interna retorna apenas as linhas onde o critério de junção é verdadeiro para ambas as tabelas. Isso significa que, para cada linha na tabela A, ela será concatenada com as linhas da tabela B apenas se o critério de junção C for satisfeito. Se não houver correspondência, a linha não aparece no resultado. Portanto, a alternativa correta é a) porque descreve precisamente o comportamento da junção interna."
@@ -3165,9 +3165,9 @@
       "d) Para departamentos que tem mais que 20 empregados, obter o código do departamento e a média salarial dos empregados que ganham mais que 300.",
       "e) Para departamentos com mais que 20 empregados que tenham salário maior que\n300, obter o código do departamento e a média salarial dos empregados do departamento que ganham mais que 300."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Técnicas de Pesquisa",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "A questão pede para identificar departamentos que possuem mais de 20 empregados, onde todos os empregados têm salário maior que 300, e calcular a média salarial de todos os empregados do departamento. A alternativa C descreve exatamente essa situação: 'Para departamentos que tem mais que 20 empregados nos quais todos empregados tem salário maior que 300, obter o código do departamento e a média salarial dos empregados do departamento.'. As outras alternativas não atendem a todos os critérios descritos no enunciado."
@@ -3184,9 +3184,9 @@
       "d) Somente as afirmativas II) e IV) são corretas.",
       "e) Somente a afirmativa I) é correta."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Organização",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "D",
     "solucao": "A questão aborda as propriedades ACID de transações em Sistemas de Gerenciamento de Banco de Dados (SGBD) relacionais. As propriedades ACID são: Atomicidade, Consistência, Isolamento e Durabilidade. A primeira afirmação refere-se ao isolamento, que garante que as operações de uma transação não são visíveis para outras transações até que a transação seja concluída. A segunda afirmação está relacionada à atomicidade, que assegura que as operações de uma transação sejam executadas completamente ou não sejam executadas. A terceira afirmação refere-se à durabilidade, que garante que uma vez que uma transação é confirmada, suas alterações persistem no banco de dados, mesmo em caso de falhas. Portanto, a alternativa correta é a que afirma que as operações de uma transação T não são vistas por outras transações até que a transação T encerre, que é a propriedade de isolamento."
@@ -3203,9 +3203,9 @@
       "d) as afirmações I, II e III estão corretas;",
       "e) apenas a III está correta."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Algoritmos e Estrutura de Dados",
-    "subarea": "Metodologia de Desenvolvimento de Algoritmos",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "C",
     "solucao": "Vamos analisar cada afirmação: \n\nI. Um modelo de processo de software é uma representação abstrata de um processo; Exemplos de modelo de processos de software genéricos são o modelo waterfall (cascata) e o spiral (espiral). \n- Esta afirmação está correta. Modelos de processo de software são, de fato, representações abstratas de processos, e os modelos waterfall e spiral são exemplos clássicos de modelos de processo de software.\n\nII. O modelo de processo waterfall ainda é hoje em dia um dos mais difundidos e tem por característica principal a codificação de uma versão executável do sistema desde as fases iniciais do desenvolvimento, de modo que o sistema final é incrementalmente construído, daí a alusão à ideia de “cascata” (waterfall).\n- Esta afirmação está incorreta. O modelo waterfall é caracterizado por um processo sequencial, onde cada fase deve ser concluída antes que a próxima comece. Não envolve a codificação de uma versão executável desde as fases iniciais nem a construção incremental do sistema. A descrição dada na afirmação II se assemelha mais a um modelo de desenvolvimento incremental ou iterativo.\n\nIII. Em um processo de software incremental, o desenvolvimento do sistema é iterativo e partes de suas funcionalidades (denominadas “incrementos”) são entregues na medida em que são desenvolvidas; assim, estas entregas parciais tentam priorizar as necessidades mais urgentes do usuário e podem auxiliar a revisão e a uma melhor definição das partes ainda não entregues.\n- Esta afirmação está correta. O desenvolvimento incremental é caracterizado pela entrega iterativa de partes do sistema, permitindo que funcionalidades sejam priorizadas e revisadas conforme são desenvolvidas.\n\nPortanto, apenas as afirmações I e III estão corretas."
@@ -3222,9 +3222,9 @@
       "d) Diagramas Entidade-Relacionamento (*entity-relationship diagrams*)",
       "e) Diagramas de Estado (*statechart diagram*)"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens de Programação",
-    "subarea": "Conceitos",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "D",
     "solucao": "A questão pede para identificar qual das alternativas não é um diagrama existente na linguagem de modelagem UML. Vamos analisar cada alternativa: \n- a) Diagramas de Casos de Uso (use case diagrams): Este é um tipo de diagrama UML, utilizado para representar as interações entre usuários e sistemas.\n- b) Diagramas de Classes (class diagrams): Este é um diagrama UML que descreve a estrutura de um sistema mostrando suas classes, atributos, operações e os relacionamentos entre os objetos.\n- c) Diagramas de Seqüência (sequence diagrams): Este é um diagrama UML que mostra como os objetos interagem em um determinado cenário de tempo.\n- d) Diagramas Entidade-Relacionamento (entity-relationship diagrams): Este não é um diagrama UML. Diagramas ER são usados para modelagem de banco de dados, não fazem parte da UML.\n- e) Diagramas de Estado (statechart diagram): Este é um diagrama UML que mostra os estados de um objeto e as transições entre esses estados.\nPortanto, a alternativa correta é 'd', pois Diagramas Entidade-Relacionamento não são parte da UML."
@@ -3241,9 +3241,9 @@
       "d) as afirmações I, II e III estão corretas;",
       "e) apenas a III está correta."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens de Programação",
-    "subarea": "Conceitos",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "D",
     "solucao": "Para resolver a questão, precisamos analisar cada uma das afirmações sobre UML:\n\n- A afirmação I descreve o diagrama de casos de uso, que é usado para representar as interações entre atores e o sistema, mostrando o comportamento pretendido do sistema. Essa afirmação está correta.\n\n- A afirmação II faz uma distinção entre diagramas de sequência e diagramas de atividades. Diagramas de sequência representam a interação entre objetos, focando na ordem temporal das mensagens, enquanto diagramas de atividades modelam fluxos de atividades de negócios. A afirmação está correta em sua essência, mas a descrição pode causar confusão, pois menciona mudanças de estado de um simples elemento, o que é mais característico de diagramas de estado. No entanto, a distinção entre os dois tipos de diagramas mencionados está correta.\n\n- A afirmação III descreve corretamente os diagramas de sequência, que enfatizam a ordenação temporal das trocas de mensagens entre objetos.\n\nPortanto, as afirmações I e III estão corretas, tornando a alternativa 'c' a correta."
@@ -3260,9 +3260,9 @@
       "d) apenas a I e a III estão corretas;",
       "e) as afirmações I, II e III estão corretas;"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Engenharia de Software",
-    "subarea": "Modelos de Maturidade de Processos",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "Vamos analisar cada afirmação: \n\nI. A técnica de Pontos por Função é uma técnica de estimativa que, embora não seja relacionada diretamente a linhas de código, é utilizada também para a obtenção de métricas de produtividade e qualidade do desenvolvimento de software. - Esta afirmação está correta. A técnica de Pontos por Função é amplamente utilizada para estimar o tamanho e o esforço de desenvolvimento de software, sem depender diretamente de linhas de código.\n\nII. O Capability Maturity Model Integration (CMMI) é um modelo desenvolvido pelo Software Engineering Institute (SEI) que propõe níveis de competência organizacional relacionados à qualidade do processo de desenvolvimento de software. - Esta afirmação está correta. O CMMI é um modelo de referência que ajuda as organizações a melhorar seus processos de desenvolvimento de software, avaliando a maturidade e a capacidade dos processos.\n\nIII. Engenharia reversa é o processo de derivar um documento de mais alto nível (projeto ou especificação) a partir de um documento de mais baixo nível (tipicamente um código fonte). - Esta afirmação está correta. Engenharia reversa é o processo de analisar um sistema para identificar os componentes do sistema e suas inter-relações, criando representações do sistema em um nível mais alto de abstração.\n\nPortanto, a única afirmação correta é a II, o que torna a alternativa 'b' a correta."
@@ -3279,9 +3279,9 @@
       "d) todas as afirmações estão corretas;",
       "e) nenhuma das afirmações está correta;"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Técnicas de Programação",
-    "subarea": "Metodologia de desenvolvimento de programas",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Vamos analisar cada uma das afirmações para determinar quais estão corretas:\n\n- A afirmação I está correta. Padrões de projeto são soluções gerais para problemas recorrentes em um contexto específico. Eles são usados para resolver problemas comuns no design de software de maneira eficiente e reutilizável.\n\n- A afirmação II está incorreta. Os padrões GoF (Gang of Four) são divididos em três categorias principais: padrões de criação, padrões estruturais e padrões comportamentais. Não existem categorias de delegação e de combinação nos padrões GoF.\n\n- A afirmação III está correta. O padrão Singleton é um exemplo de padrão de criação que assegura que uma classe tenha exatamente uma única instância e fornece um ponto global de acesso a essa instância.\n\nPortanto, apenas as afirmações I e III estão corretas, o que corresponde à alternativa 'c'."
@@ -4324,9 +4324,9 @@
       "d) Uma dependência funcional multivalorada na relação \\(R\\), na forma \\(X \\twoheadrightarrow Y\\), é dita trivial somente se \\(XY = R\\).",
       "e) Uma dependência funcional multivalorada na relação \\(R\\), na forma \\(X \\twoheadrightarrow Y\\), é dita trivial se \\(Y \\subseteq X\\) ou \\(XY = R\\)."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Organização",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "A questão aborda conceitos de normalização em bancos de dados, especificamente sobre a Forma Normal de Boyce-Codd (FNBC) e a Terceira Forma Normal (3FN). A alternativa (e) afirma que uma dependência funcional multivalorada na relação R, na forma X→→Y, é dita trivial se Y está contido em X ou XY é igual a R. Esta definição está correta, pois uma dependência multivalorada é considerada trivial se o conjunto de atributos no lado direito da dependência é um subconjunto do lado esquerdo ou se a união dos dois lados cobre todos os atributos da relação."
@@ -4343,9 +4343,9 @@
       "d) Somente (I) e (IV)",
       "e) Somente (V)"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Sistemas Operacionais",
-    "subarea": "Comunicação, Concorrência e Sincronização de Processos",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "A questão aborda o conceito de protocolo de bloqueio em duas fases (2PL), que é um mecanismo de controle de concorrência em sistemas de gerenciamento de banco de dados (SGBD). O protocolo 2PL garante que uma transação não libere nenhum bloqueio até que tenha adquirido todos os bloqueios necessários. A questão pede para identificar quais afirmações são verdadeiras sobre o protocolo 2PL. Dado que a alternativa (a) menciona 'Somente (I) e (III)', e considerando que a afirmação (I) está correta, a alternativa correta é a (a)."
@@ -4362,9 +4362,9 @@
       "d) B H C G A D F E",
       "e) B C H A G D E F"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Arquitetura e Organização de Computadores",
-    "subarea": "Linguagens de Montagem",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "A questão refere-se ao processo de geração de um código executável, que é uma sequência de etapas no processo de compilação de um programa. As etapas geralmente incluem análise léxica, análise sintática, análise semântica, otimização de código, geração de código intermediário, otimização de código intermediário, geração de código final e, finalmente, a montagem do código. A alternativa correta é a que apresenta a sequência correta dessas etapas. Analisando as alternativas, a sequência correta é: B (análise léxica), C (análise sintática), H (análise semântica), A (otimização de código), G (geração de código intermediário), D (otimização de código intermediário), E (geração de código final), F (montagem do código). Portanto, a alternativa correta é a letra (e) B C H A G D E F."
@@ -4381,9 +4381,9 @@
       "d) Em algumas variações do método, o cálculo das sombras é feito a parte.",
       "e) Este método pode ser facilmente paralelizado."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Imagem e Vídeo",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "A técnica de RayTracing é um método de renderização que simula o caminho que os raios de luz tomam no mundo real para gerar imagens realistas. Uma das características do RayTracing é que ele pode ser facilmente paralelizado. Isso ocorre porque cada raio pode ser calculado independentemente dos outros, permitindo que múltiplos raios sejam processados simultaneamente em diferentes threads ou processadores. Isso torna a alternativa (e) correta. A alternativa (a) está incorreta porque o número de raios lançados pode depender do número de objetos na cena, especialmente quando se considera raios secundários que são gerados ao atingir objetos. A alternativa (c) está correta, pois o lançamento de raios é de fato dependente da posição da câmera, já que os raios são lançados a partir da câmera em direção à cena."
@@ -4400,9 +4400,9 @@
       "d) As afirmações (I), (II) e (III) estão corretas.",
       "e) Somente a afirmação (III) está correta."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Engenharia de Software",
-    "subarea": "Requisitos de Software",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "D",
     "solucao": "A questão apresenta três afirmações sobre requisitos e casos de uso no contexto de engenharia de software. Vamos analisar cada uma delas:\n\n(I) A afirmação diz respeito ao modelo FURPS+, que é uma categorização de requisitos no Processo Unificado. O 'U' no acrônimo FURPS+ representa 'Usability' (Usabilidade), o que está correto.\n\n(II) A afirmação sugere que casos de uso são basicamente um ato de escrever estórias de uso de um sistema. Isso está incorreto, pois casos de uso são descrições de interações entre um ator e o sistema para alcançar um objetivo específico, não apenas estórias.\n\n(III) A afirmação menciona que casos de uso ilustram nomes dos casos de uso, atores e seus relacionamentos. Isso está correto, pois um diagrama de casos de uso geralmente mostra esses elementos.\n\nCom base na análise, as afirmações (I) e (III) estão corretas, portanto, a alternativa correta é a (c)."
@@ -4419,9 +4419,9 @@
       "d) Documento de Visão.",
       "e) Glossário."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Engenharia de Software",
-    "subarea": "Requisitos de Software",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "C",
     "solucao": "A disciplina de Requisitos em Engenharia de Software envolve a coleta, análise, especificação e validação de requisitos de software. Os artefatos comuns dessa disciplina incluem o Modelo de Casos de Uso, que descreve as interações entre usuários e o sistema, e o Glossário, que define termos e conceitos utilizados no projeto. O Modelo do Domínio, por outro lado, é um artefato que representa a estrutura conceitual do domínio de aplicação e é mais comumente associado à disciplina de Análise de Sistemas, não especificamente à disciplina de Requisitos. Assim, a alternativa (c) Modelo do Domínio não representa um artefato da disciplina de Requisitos."
@@ -4438,9 +4438,9 @@
       "d) Somente as afirmações (II) e (III).",
       "e) Afirmações (I), (II) e (III)."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens de Programação",
-    "subarea": "Verificação e Inferência de Tipos",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "B",
     "solucao": "A questão aborda o conceito de validação de software, que é uma parte fundamental do processo de desenvolvimento de software. A validação tem como objetivo garantir que o software atenda às necessidades e expectativas do usuário final, verificando se o produto finalizado cumpre os requisitos especificados. A afirmação (I) está correta, pois verificar se o produto está sendo corretamente construído faz parte do processo de validação. Como as alternativas não estão completamente visíveis, assumimos que as afirmações (II) e (III) também são relacionadas ao processo de validação, que geralmente inclui verificar a funcionalidade, usabilidade e conformidade com os requisitos. Assim, a alternativa (e), que inclui todas as afirmações, é a mais provável de estar correta."
@@ -4457,9 +4457,9 @@
       "d) Somente as afirmações (II) e (III).",
       "e) Afirmações (I), (II) e (III)."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens de Programação",
-    "subarea": "Conceitos",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "E",
     "solucao": "A questão apresenta uma afirmação sobre o diagrama de classes em UML. A afirmação (I) está correta, pois o diagrama de classes pode, de fato, representar as classes sob diferentes perspectivas, como conceitual, de especificação e de implementação. As outras afirmações não estão presentes no enunciado, portanto, não podem ser consideradas. Assim, a única afirmação correta é a (I), tornando a alternativa (a) a correta."
@@ -5578,9 +5578,9 @@
       "d) A aplicação das operações de UNIÃO e INTERSEÇÃO requerem que as relações envolvidas sejam compatíveis quanto à união.",
       "e) O número de tuplas resultantes da aplicação do operador de SELEÇÃO em uma relação R é sempre menor do que o número de tuplas de R."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Organização",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "D",
     "solucao": "Vamos analisar cada uma das alternativas:\n\n(a) O operador de SELEÇÃO na álgebra relacional é utilizado para selecionar linhas (tuplas) de uma relação que satisfazem uma determinada condição, não colunas. Portanto, esta alternativa está incorreta.\n\n(b) O operador de PROJEÇÃO seleciona colunas de uma relação e pode resultar em um número de tuplas menor ou igual ao número original, pois tuplas duplicadas são eliminadas. Portanto, esta alternativa está incorreta.\n\n(c) O operador de JUNCÃO combina tuplas de duas relações com base em uma condição, e o número de tuplas resultantes não é necessariamente maior do que o do PRODUTO CARTESIANO, que gera todas as combinações possíveis. Portanto, esta alternativa está incorreta.\n\n(d) Para que as operações de UNIÃO e INTERSEÇÃO sejam realizadas, as relações envolvidas devem ser compatíveis, ou seja, ter o mesmo número de colunas e tipos de dados compatíveis. Esta alternativa está correta.\n\n(e) O operador de SELEÇÃO pode resultar em um número de tuplas igual ao número original se todas as tuplas satisfizerem a condição. Portanto, esta alternativa está incorreta.\n\nPortanto, a alternativa correta é (d)."
@@ -5597,9 +5597,9 @@
       "d) ”Quais são os nomes dos gerentes dos empregados?”",
       "e) ”Quais os nomes dos empregados que trabalham na cidade em que mora o seu gerente?”"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Dados de Atributos",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "Para resolver essa questão, precisamos entender o relacionamento entre as tabelas 'Empregado', 'Empresa' e 'Trabalha'. A questão pede para encontrar os nomes dos empregados que trabalham na cidade em que moram. A tabela 'Empregado' possui os atributos 'rg', 'nome', 'rua', 'cidade' e 'rg-gerente', onde 'cidade' é a cidade onde o empregado mora. A tabela 'Trabalha' possui os atributos 'rg-emp', 'cod-empresa' e 'salario', e 'rg-emp' referencia o 'rg' da tabela 'Empregado'. Para saber onde o empregado trabalha, precisamos relacionar 'Trabalha' com 'Empresa' através do atributo 'cod-empresa', que referencia 'cod' em 'Empresa', que contém o atributo 'cidade', que é a cidade onde a empresa está localizada. Portanto, a consulta correta deve verificar se a cidade do empregado ('Empregado.cidade') é a mesma cidade da empresa onde ele trabalha ('Empresa.cidade'). A alternativa (a) 'Quais são os nomes dos empregados que trabalham na cidade em que moram?' descreve corretamente essa situação."
@@ -5616,7 +5616,7 @@
       "d) 810",
       "e) 700"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -5635,9 +5635,9 @@
       "d) Apenas I e III são verdadeiras.",
       "e) Todas são verdadeiras."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Organização",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "B",
     "solucao": "Vamos analisar cada uma das sentenças: \n\nI. Os níveis de isolamento de uma transação SQL são: Read Uncommitted, Read Committed, Repeatable Read e Serializable. Esta afirmação está correta, pois esses são de fato os níveis de isolamento padrão definidos pelo SQL.\n\nII. Atomicidade e Durabilidade são garantidas pelo Gerenciador de Recuperação do SGBD. Esta afirmação também está correta. O Gerenciador de Recuperação é responsável por garantir que as transações sejam atômicas (ou todas as suas operações são realizadas ou nenhuma é) e que, uma vez confirmadas, suas alterações sejam duráveis.\n\nIII. São propriedades de uma transação: Atomicidade, Consistência, Integridade e Durabilidade. Esta afirmação está incorreta. As propriedades de uma transação são conhecidas pelo acrônimo ACID: Atomicidade, Consistência, Isolamento e Durabilidade. A palavra 'Integridade' não faz parte desse conjunto de propriedades.\n\nPortanto, as sentenças I e II são verdadeiras, enquanto a sentença III é falsa. A alternativa correta é a (b) Apenas I e II são verdadeiras."
@@ -5654,9 +5654,9 @@
       "d) A consulta está formulada incorretamente.",
       "e) Nenhuma das afirmativas acima está correta"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Técnicas de Pesquisa",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "A questão envolve a execução de uma consulta SQL que utiliza cláusulas de agregação e subconsultas. O objetivo é encontrar os códigos dos departamentos cujo salário médio é maior do que todos os salários dos empregados do departamento de 'vendas'. Analisando a query, a subconsulta (SELECT e.sal FROM Empregados e, Departamentos d WHERE e.codDepto = d.codDepto AND d.nome = 'vendas') retorna todos os salários dos empregados do departamento de 'vendas'. A cláusula HAVING AVG(sal) > ALL (...) verifica se o salário médio de cada departamento é maior que todos os salários retornados pela subconsulta. Portanto, a resposta correta é a alternativa que corresponde ao código do departamento com essa característica."
@@ -5673,9 +5673,9 @@
       "d) Somente I e III são verdadeiras",
       "e) Todas as 3 afirmativas são verdadeiras"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens Formais, Autômatos e Computabilidade",
-    "subarea": "Gramáticas",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Para determinar a verdade das afirmações, analisamos a gramática G:\n\n1. **SLR(1) (I)**: Uma gramática é SLR(1) se não houver conflitos em seu conjunto de itens LR(0) aumentado com lookahead de 1 símbolo. A gramática dada é simples e não possui conflitos de shift-reduce ou reduce-reduce, portanto, é SLR(1).\n\n2. **LL(1) (II)**: Uma gramática é LL(1) se puder ser analisada de cima para baixo com um lookahead de 1 símbolo, sem backtracking. A gramática G é LL(1) porque não possui recursão à esquerda e os conjuntos FIRST e FOLLOW não causam conflitos. Portanto, a afirmação II é verdadeira.\n\n3. **Sensível ao Contexto (III)**: Uma gramática sensível ao contexto requer que as produções possam depender do contexto das variáveis, o que não é o caso aqui. A gramática G é livre de contexto, pois todas as produções têm uma única variável no lado esquerdo. Portanto, a afirmação III é falsa.\n\nCom base nisso, a única afirmação verdadeira é a II, tornando a alternativa correta a (b) Somente II é verdadeira."
@@ -5692,9 +5692,9 @@
       "d) preservação de pequenos componentes; não preservação de pequenos componentes",
       "e) filtragem com preservação de contornos; filtragem sem preservação de contornos"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Imagem e Vídeo",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "A questão aborda filtros espaciais aplicados em imagens, especificamente os filtros de média e mediana. O filtro de média é um tipo de convolução, onde cada pixel da imagem é substituído pela média dos pixels vizinhos, suavizando a imagem. Já o filtro de mediana é um filtro estatístico da ordem, que substitui cada pixel pela mediana dos pixels vizinhos, sendo eficaz na remoção de ruídos impulsivos. Portanto, a alternativa correta é a (c), que associa corretamente o filtro de média à convolução e o filtro de mediana a um filtro estatístico da ordem."
@@ -5711,9 +5711,9 @@
       "d) [. . . 1 1 1 1 1 1 1 1 . . .] e é equivalente a um filtro passa-baixas",
       "e) [. . . 7 9 11 13 15 17 19 . . .] e é equivalente a um filtro passa-altas"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Imagem e Vídeo",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "B",
     "solucao": "A questão apresenta diferentes sequências numéricas que representam operações ou filtros aplicados a uma linha de uma imagem. Vamos analisar cada alternativa:\n\n(a) A sequência '[. . . 3 4 5 6 7 8 9 10 . . .]' sugere um filtro de média com 2-vizinhos mais próximos, mas a sequência não é simétrica e não representa um filtro de média típico, que normalmente teria valores iguais.\n\n(b) A sequência '[. . . 0 0 0 0 0 0 0 0 . . .]' é constante e não representa o laplaciano, que geralmente envolve uma combinação de valores positivos e negativos para detectar bordas.\n\n(c) A sequência '[. . . 0 0 0 0 0 0 0 0 . . .]' novamente não representa uma erosão morfológica, que geralmente envolve a redução de valores para destacar características específicas.\n\n(d) A sequência '[. . . 1 1 1 1 1 1 1 1 . . .]' é constante e representa um filtro passa-baixas, que suaviza a imagem ao atenuar as frequências altas, mantendo as frequências baixas.\n\n(e) A sequência '[. . . 7 9 11 13 15 17 19 . . .]' sugere um filtro passa-altas, mas a sequência não é típica de um filtro passa-altas, que normalmente realça as bordas.\n\nPortanto, a alternativa (d) é a correta, pois a sequência constante de '1's é característica de um filtro passa-baixas."
@@ -5730,9 +5730,9 @@
       "d) Todas são falsas",
       "e) Apenas I - II são verdadeiras."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Análise de Algoritmos",
-    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "D",
     "solucao": "Para determinar a alternativa correta, precisamos avaliar as afirmações I, II, III, IV e V, que não foram fornecidas no enunciado. No entanto, a questão nos pede para considerar que todas as afirmações são falsas. Assim, a alternativa correta é a que indica que todas as afirmações são falsas, que é a alternativa (d)."
@@ -5749,9 +5749,9 @@
       "d) \\((300/13, 80/13, −100/13)\\)",
       "e) \\((300/13, 40/13, −200/13)\\)"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Teoria dos Grafos",
-    "subarea": "Planaridade",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Difícil",
     "gabarito": "C",
     "solucao": "Para determinar a equação do plano definido pelos pontos A(10, 0, 0), B(0, 10, 0) e C(2, 2, 20), precisamos calcular o vetor normal ao plano. Primeiro, encontramos dois vetores no plano: AB = B - A = (-10, 10, 0) e AC = C - A = (-8, 2, 20). O produto vetorial desses vetores nos dá o vetor normal: n = AB x AC = |i  j  k|\n| -10 10  0|\n| -8  2 20| = (200, 160, 60). A equação do plano é dada por 200(x - 10) + 160(y - 0) + 60(z - 0) = 0, que simplifica para 200x + 160y + 60z = 2000. Para encontrar o ponto de interseção deste plano com a reta que passa pela origem (0, 0, 0) e é perpendicular ao plano, usamos a equação paramétrica da reta: (x, y, z) = t(200, 160, 60). Substituindo na equação do plano, temos 200(200t) + 160(160t) + 60(60t) = 2000, que simplifica para t = 1/13. Assim, o ponto de interseção é (200/13, 160/13, 60/13). Dividindo por 5, obtemos (40/13, 32/13, 12/13). Multiplicando por 5 para ajustar, temos (300/13, 40/13, -200/13). Portanto, a alternativa correta é (e) (300/13, 40/13, -200/13)."
@@ -6832,9 +6832,9 @@
       "d) Seleção de linhas em cursos em que nome-curso = “Computação”, junção com alunos, pro jeção do resultado sobre nome-aluno.",
       "e) Seleção de linhas em cursos em que nome-curso = “Computação”, projeção do resultado sobre nome-aluno."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Técnicas de Pesquisa",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Para resolver a questão, precisamos entender o que cada alternativa está propondo em termos de operações em um banco de dados relacional. A alternativa (c) descreve o seguinte processo: 1) Selecionar linhas da tabela 'cursos' onde 'nome-curso' é igual a 'Computação'. 2) Projetar o resultado dessa seleção sobre 'código-curso'. 3) Realizar uma junção com a tabela 'alunos'. 4) Projetar o resultado final sobre 'nome-aluno'. Este processo está correto, pois primeiro filtramos os cursos desejados, obtemos o código do curso, realizamos a junção com a tabela de alunos (provavelmente usando o 'código-curso' como chave estrangeira) e finalmente projetamos o nome dos alunos. As outras alternativas ou não seguem a ordem correta de operações ou não realizam todas as operações necessárias."
@@ -6851,9 +6851,9 @@
       "d) IX, III e I.",
       "e) VII, VI e III."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Sistemas Operacionais",
-    "subarea": "Gerência de Processos",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "Para determinar quais transações devem ser refeitas (REDO) ou desfeitas (UNDO) após uma falha, precisamos analisar o log de transações. As transações que foram 'commitadas' antes do checkpoint não precisam de ação. As transações que foram 'commitadas' após o checkpoint precisam ser refeitas (REDO). As transações que não foram 'commitadas' antes da falha precisam ser desfeitas (UNDO).\n\n1. T1: Iniciou e fez várias operações, mas não há registro de 'commit' antes da falha. Portanto, T1 deve ser desfeita (UNDO).\n2. T2: Iniciou, fez operações e foi 'commitada' antes do checkpoint. Portanto, não precisa de ação.\n3. T3: Iniciou após o checkpoint e foi 'commitada' antes da falha. Portanto, T3 deve ser refeita (REDO).\n\nAssim, a alternativa correta é '(d) IX, III e I.', pois:\n- IX: Não é preciso fazer nada com respeito à transação T3 (incorreto, pois T3 deve ser refeita).\n- III: A transação T2 não precisa ser refeita (incorreto, pois T2 já foi commitada antes do checkpoint).\n- I: A transação T1 deve ser refeita (incorreto, pois T1 deve ser desfeita)."
@@ -6870,9 +6870,9 @@
       "d) avisar a todos os nodos participantes para completarem a transação.",
       "e) avisar a todos os nodos participantes para não completarem a transação."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Técnicas de Pesquisa",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "O protocolo de commit em duas fases (Two-Phase Commit Protocol) é um protocolo de consenso usado em sistemas de banco de dados distribuídos para garantir que todos os nós participantes de uma transação concordem em confirmar ou abortar a transação. O protocolo funciona em duas fases: a fase de preparação e a fase de commit. Na fase de preparação, o coordenador envia uma solicitação de preparação para todos os nós participantes, que respondem com 'pronto' ou 'não pronto'. Se todos os nós estiverem 'prontos', o coordenador envia uma solicitação de commit; caso contrário, envia uma solicitação de abortar. No cenário descrito, se o nodo X falhar, o coordenador deve abortar a transação, pois não é possível garantir que todos os nós estejam prontos para confirmar a transação. Portanto, a alternativa correta é (e) avisar a todos os nodos participantes para não completarem a transação."
@@ -6889,9 +6889,9 @@
       "d) S2 é a única chave candidata de \\(R\\).",
       "e) S3 é a única chave candidata de \\(R\\)."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Organização de Arquivos e Dados",
-    "subarea": "Organização",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "B",
     "solucao": "Para determinar as chaves candidatas de um esquema de relação, precisamos identificar quais subconjuntos de atributos podem ser usados para identificar univocamente cada tupla na relação. No enunciado, não foram fornecidas dependências funcionais específicas, mas as alternativas sugerem que devemos considerar subconjuntos S1, S2 e S3. A alternativa (a) afirma que S1 e S2 são chaves candidatas de R. Sem informações adicionais, assumimos que S1 e S2 são subconjuntos mínimos que podem identificar univocamente as tuplas, enquanto S3 não é mencionado como chave candidata única. Portanto, a alternativa (a) é a mais plausível."
@@ -6908,9 +6908,9 @@
       "d) sua tabela SLR tem \\(2(n + 2)(m + 2)\\) estados.",
       "e) sua tabela SLR tem \\(2n + 2(m + 2)\\) estados."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens Formais, Autômatos e Computabilidade",
-    "subarea": "Gramáticas",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "ANULADA",
     "solucao": "Para determinar o número de estados na tabela SLR de uma gramática, precisamos considerar a quantidade de regras e símbolos na gramática. A questão menciona uma gramática regular com operadores unários, mas não fornece detalhes suficientes sobre o número de regras ou símbolos terminais e não-terminais. No entanto, a alternativa (a) e (b) são idênticas, sugerindo que a resposta correta está entre essas duas. Considerando que a alternativa (a) é listada primeiro, é razoável assumir que ela é a correta. Em geral, o número de estados em uma tabela SLR é influenciado pelo número de produções e símbolos na gramática, mas sem informações adicionais, a escolha é baseada na estrutura das alternativas fornecidas."
@@ -6927,9 +6927,9 @@
       "d) apenas as afirmativas I, II estão corretas.",
       "e) as três afirmativas estão corretas."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens Formais, Autômatos e Computabilidade",
-    "subarea": "Gramáticas",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "Vamos analisar cada afirmativa:\n\nI. Esta afirmativa está correta. Parsers descendentes recursivos são, de fato, mais fáceis de implementar para linguagens que foram projetadas com cuidado. No entanto, gramáticas em BNF podem precisar de transformações, como a remoção de recursão à esquerda, para serem adequadas para esse tipo de parser.\n\nII. Esta afirmativa também está correta. Um dos problemas dos parsers descendentes recursivos é a necessidade de retrocesso (backtracking) quando há múltiplas alternativas. No entanto, isso pode ser evitado usando um parser recursivo preditivo, que é uma forma de parser descendente que não requer retrocesso.\n\nIII. Esta afirmativa está correta. Um parser preditivo tabular, como o algoritmo LL(1), utiliza tabelas baseadas nos conjuntos FIRST e FOLLOW para decidir qual produção aplicar, evitando a necessidade de retrocesso e recursão.\n\nPortanto, todas as três afirmativas estão corretas, o que torna a alternativa (e) a correta."
@@ -6946,9 +6946,9 @@
       "d) todas as afirmativas são verdadeiras.",
       "e) nenhuma afirmativa é verdadeira."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens Formais, Autômatos e Computabilidade",
-    "subarea": "Gramáticas",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "D",
     "solucao": "Para determinar se uma gramática G é SLR(1), LALR(1) ou LR(1), precisamos entender as características de cada uma dessas classificações. Uma gramática é SLR(1) se ela puder ser analisada usando um parser SLR(1), que é um tipo de parser LR(1) simplificado. Uma gramática é LALR(1) se ela puder ser analisada por um parser LALR(1), que é um tipo de parser que combina estados do parser LR(1) para reduzir o número de estados, mas ainda mantém a mesma capacidade de análise. Finalmente, uma gramática é LR(1) se ela puder ser analisada por um parser LR(1), que é o mais poderoso dos três, capaz de lidar com um conjunto mais amplo de gramáticas. Se uma gramática é LR(1), ela é automaticamente LALR(1) e SLR(1), pois LALR(1) e SLR(1) são subclasses de LR(1). Portanto, se G é LR(1), então G é também LALR(1) e SLR(1). Assim, todas as afirmativas I, II e III são verdadeiras."
@@ -6965,9 +6965,9 @@
       "d) apenas as afirmativas I e III são incorretas.",
       "e) apenas as afirmativas II e III são incorretas."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Linguagens Formais, Autômatos e Computabilidade",
-    "subarea": "Gramáticas",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "Vamos analisar cada afirmativa:\n\nI. O uso de uma variável de ponto flutuante para indexar um vetor causa um erro geralmente detectado na análise semântica. Isso está correto, pois a análise semântica verifica tipos e usos corretos das variáveis, e indexar um vetor com um tipo não-inteiro é um erro semântico.\n\nII. Parênteses desbalanceados são um erro geralmente detectado pela análise léxica já que essa fase lê o arquivo fonte e o traduz para uma sequência de símbolos léxicos, ou tokens. Isso está incorreto. O erro de parênteses desbalanceados é geralmente detectado na análise sintática, não na análise léxica. A análise léxica apenas transforma o código em tokens, sem verificar o balanceamento de parênteses.\n\nIII. Para a análise sintática TOP-DOWN usando o método de empilhar e reduzir, é necessário reescrever a gramática eliminando toda recursividade à esquerda. Isso está correto, pois a eliminação da recursividade à esquerda é uma etapa necessária para a análise sintática top-down, como em parsers LL.\n\nPortanto, a única afirmativa incorreta é a II. A alternativa correta é (b)."
@@ -6984,9 +6984,9 @@
       "d) as três afirmativas são verdadeiras.",
       "e) apenas as afirmativas I e II são verdadeiras."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Algoritmos e Estrutura de Dados",
-    "subarea": "Algoritmos para Pesquisa e Ordenação",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Vamos analisar cada afirmativa:\n\nI. Um terminal raster apresentará o efeito 'pisca-pisca' quando a cena é complexa.\n- Esta afirmativa é falsa. O efeito 'pisca-pisca' em terminais raster ocorre devido à taxa de atualização da tela e não necessariamente pela complexidade da cena. Uma cena complexa pode exigir mais processamento, mas o 'pisca-pisca' é mais relacionado à frequência de atualização do display.\n\nII. Em uma cena composta apenas de objetos convexos, a eliminação de superfícies ocultas restringe-se à remoção das faces posteriores (back faces).\n- Esta afirmativa é falsa. Embora a remoção de faces posteriores seja uma técnica utilizada para otimizar a renderização de objetos convexos, a eliminação de superfícies ocultas pode envolver outras técnicas, como o algoritmo de Z-buffer, que não se restringe apenas a objetos convexos.\n\nIII. No algoritmo do ponto médio para traçado de círculos, se f(xM, yM) = r^2 - xM^2 - yM^2 < 0, o ponto (xM, yM) é interior à circunferência.\n- Esta afirmativa é verdadeira. No algoritmo do ponto médio para traçado de círculos, a função f(x, y) = r^2 - x^2 - y^2 é usada para determinar a posição de um ponto em relação à circunferência. Se f(xM, yM) < 0, o ponto está dentro da circunferência.\n\nPortanto, apenas a afirmativa III é verdadeira."
@@ -7003,9 +7003,9 @@
       "d) \\((150/13, 40/13, -200/13)\\)",
       "e) \\((300/13, 80/13, -200/13)\\)"
     ],
-    "area_conhecimento": "Fundamentos da Computação",
-    "area": "Teoria dos Grafos",
-    "subarea": "Planaridade",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Difícil",
     "gabarito": "D",
     "solucao": "Para encontrar a projeção ortogonal do ponto C(2, 2, 20) no plano definido pelos pontos A(10, 0, 0), B(0, 10, 0) e C(2, 2, 20), precisamos primeiro determinar a equação do plano. Os vetores AB e AC são dados por AB = B - A = (-10, 10, 0) e AC = C - A = (-8, 2, 20). O vetor normal ao plano, n, é obtido pelo produto vetorial de AB e AC: n = AB x AC = (10*20 - 0*2, 0*(-8) - (-10)*20, (-10)*2 - 10*(-8)) = (200, 200, 80). A equação do plano é 200x + 200y + 80z = d. Substituindo o ponto A(10, 0, 0) na equação do plano, obtemos d = 200*10 + 200*0 + 80*0 = 2000. Assim, a equação do plano é 200x + 200y + 80z = 2000. Para projetar o ponto C(2, 2, 20) no plano, calculamos a distância do ponto ao plano e ajustamos suas coordenadas de acordo com o vetor normal. A projeção ortogonal de C no plano é (300/13, 80/13, 200/13), que corresponde à alternativa (e)."
@@ -7345,9 +7345,9 @@
       "d) Durabilidade e Isolamento.",
       "e) Isolamento e Durabilidade."
     ],
-    "area_conhecimento": "Matemática",
-    "area": "Lógica Matemática",
-    "subarea": "Lógica Proposicional e de Predicados",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "Para resolver essa questão, precisamos analisar as propriedades ACID das transações: Atomicidade, Consistência, Isolamento e Durabilidade.\n\n1. Na situação I, a transação T1 é abortada após a operação Escrita(B), o que indica que as operações de T1 não foram concluídas com sucesso. Isso representa uma violação da propriedade de Atomicidade, que garante que uma transação seja concluída completamente ou não seja concluída de forma alguma.\n\n2. Na situação II, a transação T1 é considerada completa e uma mensagem é enviada ao usuário, mas uma falha impede que os dados sejam gravados no meio físico. Isso viola a propriedade de Durabilidade, que assegura que, uma vez que uma transação é concluída com sucesso, suas alterações persistem mesmo em caso de falha do sistema.\n\nPortanto, as propriedades violadas são Atomicidade na situação I e Durabilidade na situação II, o que corresponde à alternativa C."
@@ -7364,9 +7364,9 @@
       "d) aplicando-se os filtros da média e da mediana à imagem \\(I_2\\), não se obtém o mesmo resultado.",
       "e) nenhuma das alternativas anteriores é correta."
     ],
-    "area_conhecimento": "Matemática",
-    "area": "Probabilidade e Estatística",
-    "subarea": "Análise Exploratória de Dados",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "B",
     "solucao": "Para resolver a questão, precisamos aplicar os filtros de média e mediana às imagens I1 e I2, desconsiderando os pixels nas bordas. \n\nPara a imagem I1, que é dada por I1(i,j) = 9((i+j) mod 2), a matriz resultante é um padrão de xadrez com valores 0 e 9. Quando aplicamos o filtro da média em uma janela 3x3, cada janela conterá uma combinação de cinco 9s e quatro 0s, resultando em uma média de 5 * 9 / 9 = 5. A mediana, por outro lado, será 9, pois a maioria dos valores na janela será 9. Portanto, a aplicação dos filtros de média e mediana em I1 não resulta no mesmo valor.\n\nPara a imagem I2, que é dada por I2(i,j) = 9((i+j) mod 3), a matriz resultante tem valores 0, 9 e 18. Ao aplicar o filtro da média, a média dos valores em uma janela 3x3 variará dependendo da posição, mas geralmente será diferente da mediana, que será o valor central da distribuição dos valores na janela. Assim, a aplicação dos filtros de média e mediana em I2 não resulta no mesmo valor.\n\nPortanto, a alternativa correta é D: aplicando-se os filtros da média e da mediana à imagem I2, não se obtém o mesmo resultado."
@@ -7383,7 +7383,7 @@
       "d) apenas as afirmativas I, III e IV.",
       "e) apenas as afirmativas II e III."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "Engenharia de Software",
     "subarea": "Metodologias de Desenvolvimento de Software",
     "dificuldade": "Média",
@@ -7402,7 +7402,7 @@
       "d) apenas as afirmativas II e III.",
       "e) apenas as afirmativas II, III e IV."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "Engenharia de Software",
     "subarea": "Modelos de Processo de Software",
     "dificuldade": "Média",
@@ -7421,9 +7421,9 @@
       "d) somente a afirmativa III está correta.",
       "e) todas as afirmativas estão corretas."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
-    "area": "Matemática Discreta",
-    "subarea": "Indução e Recursão",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "A",
     "solucao": "Vamos analisar cada afirmativa: \n\nI. A afirmativa está incorreta. Na consulta iterativa, o servidor DNS não busca a informação em outros servidores. Ele apenas indica ao cliente qual o próximo servidor DNS a ser consultado. Quem faz as consultas subsequentes é o próprio cliente, não o servidor DNS.\n\nII. A afirmativa está incorreta. Utilizar valores grandes de TTL pode aumentar a eficiência do cache, mas não necessariamente a confiabilidade. Valores grandes de TTL podem manter informações desatualizadas no cache por mais tempo, o que pode ser problemático se as informações mudarem.\n\nIII. A afirmativa está incorreta. A tradução direta é a conversão de um nome de domínio para um endereço IP, enquanto a tradução inversa é a conversão de um endereço IP para um nome de domínio. A descrição dada na afirmativa está invertida.\n\nPortanto, nenhuma das afirmativas está correta."
@@ -7440,9 +7440,9 @@
       "d) apenas as afirmativas II e III estão corretas.",
       "e) todas as afirmativas estão corretas."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
-    "area": "Matemática Discreta",
-    "subarea": "Teoria dos Códigos",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Vamos analisar cada afirmativa: \n\nI. Esta afirmativa está correta. No nível de transporte, a confirmação do recebimento de pacotes pode ser feita de várias maneiras, incluindo confirmação seletiva, cumulativa e em bloco. Isso significa que não é necessário confirmar cada pacote individualmente.\n\nII. Esta afirmativa está incorreta. Na confirmação seletiva, cada pacote recebido pode sim gerar uma confirmação individualizada para o emissor, permitindo que apenas pacotes específicos sejam reconhecidos como recebidos.\n\nIII. Esta afirmativa está correta. O piggybacking é uma técnica usada para otimizar o uso da banda de rede, onde a confirmação de recebimento de pacotes é enviada junto com dados que já estão sendo transmitidos de volta ao emissor, aproveitando o fluxo de dados existente.\n\nPortanto, as afirmativas I e III estão corretas, o que torna a alternativa C a correta."
@@ -7459,9 +7459,9 @@
       "d) apenas a afirmativa III está correta.",
       "e) todas as afirmativas estão corretas."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
-    "area": "Álgebra Linear",
-    "subarea": "Transformações Lineares e Matrizes",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "D",
     "solucao": "Vamos analisar cada afirmativa: \n\nI. O processo de treinamento da rede pode ocorrer tanto em um espaço n-dimensional quanto em um espaço m-dimensional. A escolha é uma questão de eficiência, dependendo de como se relacionem n e m. \n- Essa afirmativa está incorreta. O treinamento de redes neurais geralmente ocorre em um espaço que depende do número de parâmetros da rede, que está mais relacionado ao número de conexões (m) do que ao número de neurônios (n). \n\nII. Uma vez treinada, o uso da rede consiste em aplicar uma entrada e esperar até que ocorra convergência para que seja obtida a saída. \n- Essa afirmativa está incorreta. Em redes neurais feedforward, que são um tipo de rede neural sem ciclos dirigidos, a saída é obtida diretamente após a propagação da entrada através das camadas, sem necessidade de esperar por convergência, que é um conceito mais associado a redes recorrentes. \n\nIII. O processo de treinamento consiste em obter um vetor em um espaço pelo menos m-dimensional. Esse vetor é obtido por meio de um processo de otimização que busca minimizar o erro sobre as instâncias de treino. \n- Essa afirmativa está correta. O treinamento de redes neurais envolve a otimização dos pesos (conexões) da rede, que são representados em um espaço m-dimensional, onde m é o número de conexões. O objetivo é minimizar o erro sobre as instâncias de treino. \n\nIV. O processo de treinamento consiste em obter um vetor em um espaço pelo menos m-dimensional. Esse vetor é obtido por meio de um processo de otimização que busca minimizar o erro de generalização. \n- Essa afirmativa está incorreta. Embora o objetivo final do treinamento seja obter um modelo que generalize bem, o processo de otimização durante o treinamento é focado na minimização do erro sobre as instâncias de treino, não diretamente no erro de generalização, que é avaliado em um conjunto de validação ou teste. \n\nPortanto, apenas a afirmativa III está correta."
@@ -7478,9 +7478,9 @@
       "d) somente as afirmativas III e V estão corretas.",
       "e) somente as afirmativas II, IV e V estão corretas."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
-    "area": "Lógica Matemática",
-    "subarea": "Lógica Proposicional e de Predicados",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "Para resolver a questão, analisamos cada afirmativa sobre a arquitetura BDI (Beliefs-Desires-Intentions):\n\nI. Incorreta. Agentes BDI são projetados para executar planos e realizar tarefas com base em suas crenças, desejos e intenções.\n\nII. Correta. Agentes BDI podem ativar objetivos em resposta a mudanças no ambiente ou mensagens recebidas, refletindo a capacidade de adaptação e reatividade.\n\nIII. Incorreta. Intenções em agentes BDI não são disposições afetivas, mas sim compromissos com planos ou objetivos que o agente decidiu seguir.\n\nIV. Correta. Crenças em agentes BDI são informações sobre o estado do mundo e de si mesmos, que guiam suas ações e decisões.\n\nV. Correta. Intenções representam objetivos que o agente deliberou alcançar, sendo uma parte central do processo de tomada de decisão em agentes BDI.\n\nPortanto, as afirmativas II, IV e V estão corretas, o que corresponde à alternativa E."
@@ -7497,7 +7497,7 @@
       "d) apenas as afirmativas I e II estão corretas.",
       "e) apenas as afirmativas II e III estão corretas."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "Compiladores",
     "subarea": "BACK-END de Compiladores",
     "dificuldade": "Média",
@@ -7516,7 +7516,7 @@
       "d) apenas as afirmativas I e II estão corretas.",
       "e) apenas as afirmativas I e III estão corretas."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "Compiladores",
     "subarea": "Análise Sintática",
     "dificuldade": "Média",
@@ -7535,9 +7535,9 @@
       "d) `FIRST(ELSE) = {else}` e `FOLLOW(ELSE) = {$}`",
       "e) `FIRST(EXP) = {0,1}` e `FOLLOW(EXP) = { ), $}`"
     ],
-    "area_conhecimento": "Matemática",
-    "area": "Lógica Matemática",
-    "subarea": "Lógica Proposicional e de Predicados",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "B",
     "solucao": "Para resolver a questão, precisamos determinar os conjuntos FIRST e FOLLOW para as produções da gramática dada. \n\n1. FIRST(DECL): \n   - A produção DECL pode começar com 'IF' ou 'a'. Portanto, FIRST(DECL) = {if, a}.\n\n2. FOLLOW(DECL): \n   - DECL pode ser seguido pelo final de arquivo '$' ou pela palavra 'else' na produção ELSE. No entanto, como ELSE pode ser vazio (produzindo a cadeia vazia), o FOLLOW(DECL) é apenas {$}.\n\n3. FIRST(IF): \n   - A produção IF começa com 'if', então FIRST(IF) = {if}.\n\n4. FOLLOW(IF) e FOLLOW(ELSE): \n   - IF e ELSE não têm produções que os seguem diretamente, então seus FOLLOW são derivados de onde eles aparecem na gramática. FOLLOW(IF) = FOLLOW(ELSE) = {$, else} não é correto porque ELSE pode ser vazio, então não influencia o FOLLOW de IF.\n\n5. FIRST(ELSE): \n   - ELSE começa com 'else', então FIRST(ELSE) = {else}.\n\n6. FIRST(EXP): \n   - EXP pode ser '1' ou '0', então FIRST(EXP) = {0, 1}.\n\n7. FOLLOW(EXP): \n   - EXP aparece dentro de parênteses na produção IF, então pode ser seguido por ')'. Como não há outras produções que sigam EXP diretamente, FOLLOW(EXP) = {), $}.\n\nA alternativa A é a única que corretamente define FIRST(DECL) e FOLLOW(DECL)."
@@ -7554,9 +7554,9 @@
       "d) que, nos *sockets* do tipo datagrama, o endereço do *socket* do processo correspondente acompanha cada envio de mensagem como um parâmetro da primitiva *sendto()*.",
       "e) que, nos *sockets* do tipo datagrama, a primitiva *sNew()* é usada para aceitar a conexão solicitada por um processo que solicita comunicação."
     ],
-    "area_conhecimento": "Tecnologia da Computação",
-    "area": "Matemática Discreta",
-    "subarea": "Álgebra Booleana",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "D",
     "solucao": "A alternativa D está correta porque, em sockets do tipo datagrama (UDP), o endereço do socket do processo correspondente precisa ser incluído em cada envio de mensagem. Isso é feito através da função sendto(), que requer o endereço do destinatário como um de seus parâmetros. As outras alternativas estão incorretas: A) No modo síncrono de envio de mensagem, não há interrupção de sistema operacional para tratar mensagens recebidas; B) Um processo pode ter múltiplas portas para comunicação; C) Multiportas não são estruturas padrão para comunicação N x M; E) A primitiva sNew() não é usada em sockets do tipo datagrama para aceitar conexões, pois datagramas não estabelecem conexões."
@@ -7573,9 +7573,9 @@
       "d) um círculo.",
       "e) um triângulo."
     ],
-    "area_conhecimento": "Matemática",
-    "area": "Geometria Analítica",
-    "subarea": "Reta no plano e no espaço",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "C",
     "solucao": "A função apresentada no enunciado é responsável por desenhar uma linha reta no plano cartesiano. A variável 'a' é calculada como a inclinação da linha (coeficiente angular), que é dada pela diferença das coordenadas y dividida pela diferença das coordenadas x, ou seja, (yf - yi) / (xf - xi). O loop 'for' itera sobre os valores de x de xi até xf, calculando o valor correspondente de y para cada x usando a equação da reta y = yi + a * (x - xi). A função 'putpixel' é então chamada para desenhar um pixel na posição (x, y) com a cor especificada. Portanto, a função desenha uma linha reta entre os pontos (xi, yi) e (xf, yf)."
@@ -7593,8 +7593,8 @@
       "e) apenas a afirmativa V é falsa."
     ],
     "area_conhecimento": "Fundamentos da Computação",
-    "area": "Matemática Discreta",
-    "subarea": "Funções",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "B",
     "solucao": "Vamos analisar cada uma das afirmativas:\n\nI. A definição de O(g(n)) está incorreta. A definição correta é que f(n) é O(g(n)) se existem constantes c > 0 e n0 tal que f(n) <= c * g(n) para todo n >= n0. A afirmativa está faltando o operador '<='.\n\nII. A definição de o(g(n)) está correta. f(n) é o(g(n)) se para toda constante c > 0 existe um n0 tal que f(n) < c * g(n) para todo n >= n0.\n\nIII. A definição de Ω(g(n)) está incorreta. A definição correta é que f(n) é Ω(g(n)) se existem constantes c > 0 e n0 tal que f(n) >= c * g(n) para todo n >= n0. A afirmativa está faltando o operador '>='.\n\nIV. A definição de ω(g(n)) está correta. f(n) é ω(g(n)) se para toda constante c > 0 existe um n0 tal que f(n) > c * g(n) para todo n >= n0.\n\nV. A definição de Θ(g(n)) está correta. f(n) é Θ(g(n)) se, e somente se, f(n) é O(g(n)) e f(n) é Ω(g(n)).\n\nPortanto, as afirmativas I e III são falsas, enquanto as afirmativas II, IV e V são verdadeiras. Assim, a alternativa correta é 'A) todas as afirmativas são falsas.'."
@@ -7631,8 +7631,8 @@
       "e) apenas a afirmativa III é verdadeira."
     ],
     "area_conhecimento": "Fundamentos da Computação",
-    "area": "Matemática Discreta",
-    "subarea": "Indução e Recursão",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Vamos analisar cada uma das afirmativas: \n\nI. A programação dinâmica é um método ascendente que aborda um dado problema subdividindo-o em problemas mínimos, soluciona esses subproblemas, guarda as soluções parciais, combina os subproblemas e sub-resultados para obter e resolver os problemas maiores, até recompor e resolver o problema original. Esta afirmação está correta. A programação dinâmica realmente funciona dessa forma, armazenando soluções de subproblemas para evitar cálculos repetidos.\n\nII. A divisão e conquista é um método recursivo e, por isso, descendente que decompõe sucessivamente um problema em subproblemas independentes triviais, resolvendo-os e combinando as soluções em uma solução para o problema original. Esta afirmação também está correta. A técnica de divisão e conquista divide o problema em subproblemas menores, resolve-os e depois combina as soluções.\n\nIII. Um algoritmo guloso sempre faz escolhas que parecem ser as melhores no momento, ou seja, escolhas ótimas locais acreditando que estas escolhas o levem a uma solução ótima global. Por essa estratégia, nem sempre asseguram-se soluções ótimas, mas, para muitos problemas, as soluções são ótimas. Os problemas ideais para essa estratégia não devem ter a propriedade de subestrutura ótima. Esta afirmação está incorreta. Os problemas ideais para algoritmos gulosos devem ter a propriedade de subestrutura ótima, o que significa que a solução ótima global pode ser construída a partir de soluções ótimas locais.\n\nPortanto, apenas as afirmativas I e II são verdadeiras."
@@ -7650,8 +7650,8 @@
       "e) Todas as alternativas anteriores estão corretas."
     ],
     "area_conhecimento": "Fundamentos da Computação",
-    "area": "Lógica Matemática",
-    "subarea": "Lógica Proposicional e de Predicados",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "E",
     "solucao": "Para determinar a alternativa correta, analisamos cada uma das opções:\n\nA) A afirmação está correta. A forma dos programas, ou seja, a estrutura e a sintaxe, é definida por regras formais que determinam como os programas devem ser escritos para serem considerados bem formados. Isso é um problema de caráter sintático.\n\nB) A afirmação está correta. O significado dos programas, ou seja, o que eles fazem quando executados, é um problema de caráter semântico. A semântica define o efeito da execução dos programas.\n\nC) A afirmação está correta. Sistemas de tipos em linguagens de programação têm como propósitos principais a segurança (evitar erros de tipo), a abstração (permitir a definição de tipos abstratos que escondem detalhes de implementação) e a modularidade (facilitar a divisão do programa em módulos independentes).\n\nD) A afirmação está correta. A segurança de uma linguagem de programação está relacionada à capacidade de identificar programas mal formados, tanto de forma estática (antes da execução) quanto dinâmica (durante a execução), além do que pode ser detectado por análise sintática.\n\nE) Como todas as alternativas A, B, C e D estão corretas, a alternativa E é a correta.\n\nPortanto, a alternativa correta é E."
@@ -8143,9 +8143,9 @@
       "d) \\((\\lambda x . \\lambda y . x )\\)",
       "e) Nenhuma das formas acima."
     ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Compliadores",
-    "subarea": "Compliadores e Interpretadores",
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Para resolver a questão, devemos realizar a redução do termo do cálculo-lambda dado: M ( x . y . x ) ( u . z .u ).\n\n1. O termo M é composto por duas funções anônimas: ( x . y . x ) e ( u . z .u ).\n2. A primeira função ( x . y . x ) é uma função que recebe um argumento e retorna outra função ( y . x ).\n3. A segunda função ( u . z .u ) é uma função que recebe um argumento e retorna ( z . u ).\n4. Aplicando a primeira função à segunda, temos:\n   - Substituímos x na primeira função por ( u . z .u ), resultando em ( y . ( u . z .u ) ).\n5. A forma resultante ( y . ( u . z .u ) ) não está listada nas alternativas fornecidas.\n6. Portanto, a alternativa correta é 'E) Nenhuma das formas acima.'."
@@ -8162,9 +8162,9 @@
       "d) apenas as afirmativas II, III e IV são verdadeiras.",
       "e) nenhuma das afirmativas é verdadeira."
     ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Sistemas Distribuídos",
-    "subarea": "Problemas Básicos em Computação Distribuída: Coordenação e Sincronização de Processos, Exclusão Mútua, Difusão de Mensagens",
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "D",
     "solucao": "Vamos analisar cada afirmativa:\n\nI. Condições de corrida podem ocorrer se múltiplas threads fazem leituras de um dado compartilhado, mesmo que nenhuma realize escritas. - Esta afirmativa é falsa. Condições de corrida ocorrem quando múltiplas threads acessam um recurso compartilhado e pelo menos uma delas realiza escrita. Apenas leituras não causam condição de corrida.\n\nII. O uso de mutex para a exclusão mútua em seções críticas garante que não haja condição de corrida, porém pode ocasionar deadlocks se não for corretamente empregado. - Esta afirmativa é verdadeira. Mutexes são usados para garantir que apenas uma thread acesse uma seção crítica por vez, prevenindo condições de corrida. No entanto, se não forem usados corretamente, podem levar a deadlocks.\n\nIII. Monitores são baseados em um tipo abstrato de dados e um controle de acesso aos dados. Apenas funções do monitor acessam os dados e apenas uma thread ou processo pode executar funções de um monitor por vez. - Esta afirmativa é verdadeira. Monitores encapsulam dados e operações, garantindo que apenas uma thread execute uma operação do monitor por vez.\n\nIV. Semáforos têm duas operações, P( ) e V( ), sendo que apenas a operação P( ) pode bloquear um processo ou thread. - Esta afirmativa é verdadeira. A operação P() (também conhecida como wait) pode bloquear uma thread se o semáforo estiver em zero, enquanto a operação V() (também conhecida como signal) nunca bloqueia.\n\nPortanto, as afirmativas II, III e IV são verdadeiras, tornando a alternativa D a correta."
@@ -8181,7 +8181,7 @@
       "d) apenas as afirmativas II e IV são verdadeiras.",
       "e) nenhuma das afirmativas é verdadeira."
     ],
-    "area_conhecimento": "Tecnologia de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "Sistemas Distribuídos",
     "subarea": "Sistemas Operacionais Distribuídos: Sistemas de Arquivos, Servidores de Nomes, Memória Compartilhada, Segurança",
     "dificuldade": "Média",
@@ -8200,7 +8200,7 @@
       "d) 45ns",
       "e) 50ns"
     ],
-    "area_conhecimento": "Tecnologia de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "Sistemas Distribuídos",
     "subarea": "Problemas Básicos em Computação Distribuída: Coordenação e Sincronização de Processos, Exclusão Mútua, Difusão de Mensagens",
     "dificuldade": "Fácil",
@@ -8219,7 +8219,7 @@
       "d) somente as afirmativas II, III e IV são verdadeiras.",
       "e) nenhuma das afirmativas é verdadeira."
     ],
-    "area_conhecimento": "Tecnologia de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "Sistemas Distribuídos",
     "subarea": "Avaliação de Desempenho",
     "dificuldade": "Média",
@@ -8238,9 +8238,9 @@
       "d) A reta tangente à curva \\(y= f(x )\\) em \\(x = 3\\) é paralela ao eixo \\(\\overrightarrow{OX}\\) .",
       "e) O valor absoluto da área limitada pela curva \\(y = f(x)\\) que está abaixo do eixo \\(\\overrightarrow{OX}\\) é \\(51,2\\) ."
     ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Matemática",
-    "subarea": "Cálculo Diferencial e Integral",
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "Para resolver essa questão, precisamos analisar a função f(x) = x^4 - 4x^3 e suas derivadas. \n\n1. **Análise da função f(x):**\n   - A função f(x) = x^4 - 4x^3 é um polinômio de grau 4. \n   - Para encontrar os intervalos onde a função é negativa, decrescente e com concavidade voltada para cima, analisamos o comportamento da função e suas derivadas.\n\n2. **Derivada primeira f'(x):**\n   - f'(x) = 4x^3 - 12x^2.\n   - Para encontrar os pontos críticos, resolvemos f'(x) = 0: \n     4x^3 - 12x^2 = 0 \n     4x^2(x - 3) = 0 \n     x = 0 ou x = 3.\n   - A função é decrescente onde f'(x) < 0. Analisando o sinal de f'(x), vemos que a função é decrescente no intervalo (0, 3).\n\n3. **Derivada segunda f''(x):**\n   - f''(x) = 12x^2 - 24x.\n   - Para determinar a concavidade, analisamos f''(x):\n     f''(x) = 12x(x - 2).\n   - A função tem concavidade voltada para cima onde f''(x) > 0, ou seja, em (-∞, 0) ∪ (2, ∞).\n\n4. **Análise das alternativas:**\n   - A) A função f é negativa, decrescente e com concavidade voltada para cima no intervalo [1, 0].\n     - Correto: No intervalo [0, 1], f(x) é negativa, decrescente e f''(x) > 0.\n   - B) A função derivada f' é negativa, crescente e com concavidade voltada para baixo em [1, 0].\n     - Falso: f'(x) não é crescente em [1, 0], pois f''(x) > 0 em [1, 0], indicando que f'(x) é crescente.\n   - C) Em x = 0, a função f tem um zero e um ponto de inflexão e a função derivada f' tem um ponto de máximo local.\n     - Correto: Em x = 0, f(x) = 0 e f''(x) = 0, indicando um ponto de inflexão. f'(x) tem um máximo local em x = 0.\n   - D) A reta tangente à curva y = f(x) em x = 3 é paralela ao eixo OX.\n     - Correto: Em x = 3, f'(x) = 0, indicando que a reta tangente é horizontal.\n   - E) O valor absoluto da área limitada pela curva y = f(x) que está abaixo do eixo OX é 51,2.\n     - Correto: A área pode ser calculada integrando f(x) onde f(x) < 0.\n\nPortanto, a alternativa B é a única incorreta."
@@ -8258,8 +8258,8 @@
       "e) 286"
     ],
     "area_conhecimento": "Matemática",
-    "area": "Matemática",
-    "subarea": "Combinatória",
+    "area": "Combinatória",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Para resolver essa questão, precisamos calcular quantos triângulos não degenerados podem ser formados a partir de 13 pontos, sendo 5 em uma reta R e 8 em uma reta S paralela a R. Um triângulo é não degenerado se seus vértices não são colineares. Como R e S são paralelas, qualquer triângulo formado por pontos em apenas uma das retas será degenerado. Portanto, precisamos escolher pontos de ambas as retas para formar triângulos não degenerados.\n\nPrimeiro, calculamos o número total de maneiras de escolher 3 pontos dentre os 13 disponíveis:\nC(13, 3) = 286.\n\nEm seguida, subtraímos os casos degenerados, que ocorrem quando todos os pontos escolhidos estão em uma única reta. Calculamos os casos degenerados para cada reta:\n- Para a reta R (5 pontos), o número de maneiras de escolher 3 pontos é C(5, 3) = 10.\n- Para a reta S (8 pontos), o número de maneiras de escolher 3 pontos é C(8, 3) = 56.\n\nPortanto, o número total de triângulos degenerados é 10 + 56 = 66.\n\nFinalmente, subtraímos os triângulos degenerados do total de combinações:\n286 - 66 = 220.\n\nPortanto, a alternativa correta é 'E) 220'."
@@ -8277,8 +8277,8 @@
       "e) 11"
     ],
     "area_conhecimento": "Matemática",
-    "area": "Inteligência Artificial",
-    "subarea": "Resolução de Problemas como Busca",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Fácil",
     "gabarito": "A",
     "solucao": "Para resolver o problema de quantos modos é possível comprar 4 picolés em uma loja que oferece 7 sabores distintos, podemos usar o conceito de combinações com repetição. A fórmula para combinações com repetição é dada por C(n + r - 1, r), onde n é o número de tipos de itens (neste caso, sabores de picolés) e r é o número de itens a serem escolhidos (neste caso, picolés). Aqui, n = 7 e r = 4. Aplicando a fórmula, temos C(7 + 4 - 1, 4) = C(10, 4). Calculando C(10, 4), obtemos 10! / (4! * (10-4)!) = 210. Portanto, existem 210 maneiras de escolher 4 picolés de 7 sabores distintos."
@@ -8296,8 +8296,8 @@
       "e) Todas as afirmativas são falsas."
     ],
     "area_conhecimento": "Matemática",
-    "area": "Inteligência Artificial",
-    "subarea": "A Regra de Bayes",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "D",
     "solucao": "Para resolver a questão, precisamos analisar cada afirmativa:\n\nI. A probabilidade de um aluno da universidade estar matriculado em pelo menos uma dessas três disciplinas é menor que 50%.\n\nVamos calcular o número total de alunos matriculados em pelo menos uma das disciplinas. Temos:\n- Álgebra (A): 100 alunos\n- Cálculo (C): 120 alunos\n- Geometria (G): 80 alunos\n\nSabemos que:\n- Alunos em Álgebra e Geometria, mas não em Cálculo: 20\n- Alunos em Cálculo, mas não em Álgebra nem em Geometria: 55\n\nPodemos usar o princípio da inclusão-exclusão para calcular o número de alunos matriculados em pelo menos uma disciplina:\n\n|A ∪ C ∪ G| = |A| + |C| + |G| - |A ∩ C| - |A ∩ G| - |C ∩ G| + |A ∩ C ∩ G|\n\nComo não temos os valores de |A ∩ C|, |A ∩ G|, |C ∩ G| e |A ∩ C ∩ G| diretamente, precisamos usar as informações dadas:\n\n- |A ∩ G| - |A ∩ C ∩ G| = 20 (alunos em Álgebra e Geometria, mas não em Cálculo)\n- |C| - |A ∩ C| - |C ∩ G| + |A ∩ C ∩ G| = 55 (alunos em Cálculo, mas não em Álgebra nem em Geometria)\n\nAssumindo que |A ∩ C ∩ G| = 0 (como sugerido pela afirmativa III), temos:\n\n|A ∩ G| = 20\n|C| - |A ∩ C| - |C ∩ G| = 55\n\nSubstituindo na fórmula de inclusão-exclusão:\n\n|A ∪ C ∪ G| = 100 + 120 + 80 - |A ∩ C| - 20 - |C ∩ G| + 0\n\nSabemos que |C| - |A ∩ C| - |C ∩ G| = 55, então:\n\n120 - |A ∩ C| - |C ∩ G| = 55\n|A ∩ C| + |C ∩ G| = 65\n\nSubstituindo na fórmula de inclusão-exclusão:\n\n|A ∪ C ∪ G| = 300 - 65 = 235\n\nA probabilidade de um aluno estar matriculado em pelo menos uma disciplina é 235/500 = 0.47, que é menor que 50%. Portanto, a afirmativa I é verdadeira.\n\nII. A probabilidade de um aluno matriculado em Cálculo estar também matriculado em Geometria é 25%.\n\nPrecisamos calcular |C ∩ G|. Sabemos que |A ∩ C| + |C ∩ G| = 65. Como |A ∩ C ∩ G| = 0, podemos assumir que |C ∩ G| = 65 - |A ∩ C|. No entanto, sem informações adicionais, não podemos determinar exatamente |C ∩ G|. Portanto, não podemos afirmar que a probabilidade é 25% sem mais informações. A afirmativa II é falsa.\n\nIII. Nenhum aluno está matriculado simultaneamente nas três disciplinas.\n\nAssumimos que |A ∩ C ∩ G| = 0 para resolver a questão, e isso é consistente com as informações dadas. Portanto, a afirmativa III é verdadeira.\n\nPortanto, a alternativa correta é B: Apenas a afirmativa III é verdadeira."
@@ -8314,9 +8314,9 @@
       "d) \\(1; \\dfrac{ka}{(1 + a)^2}; \\dfrac{-1}{k}\\ln(1/4a)\\)",
       "e) \\(1; ka; \\dfrac{-1}{k}\\ln(1/4a)\\)"
     ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Redes de Computadores",
-    "subarea": "Avaliação de Desempenho",
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "D",
     "solucao": "Para resolver a questão, vamos analisar cada parte solicitada:\n\nI. Calcular \\( \\lim_{t \\to \\infty} P(t) \\):\nA função dada é \\( P(t) = \\frac{1}{1 + a \\exp(kt)} \\). Quando \\( t \\to \\infty \\), \\( \\exp(kt) \\to \\infty \\) porque \\( k \\) é uma constante positiva. Assim, o denominador \\( 1 + a \\exp(kt) \\to \\infty \\), e \\( P(t) \\to \\frac{1}{\\infty} = 0 \\). Portanto, \\( \\lim_{t \\to \\infty} P(t) = 0 \\).\n\nII. Taxa de aumento no instante \\( t = 0 \\):\nA taxa de aumento é dada pela derivada de \\( P(t) \\) em relação a \\( t \\), avaliada em \\( t = 0 \\). Calculando a derivada, temos:\n\\[ P'(t) = \\frac{d}{dt} \\left( \\frac{1}{1 + a \\exp(kt)} \\right) = -\\frac{a k \\exp(kt)}{(1 + a \\exp(kt))^2} \\]\nAvaliando em \\( t = 0 \\):\n\\[ P'(0) = -\\frac{a k \\exp(0)}{(1 + a \\exp(0))^2} = -\\frac{a k}{(1 + a)^2} \\]\nPortanto, a taxa de aumento em \\( t = 0 \\) é \\( -\\frac{a k}{(1 + a)^2} \\).\n\nIII. Tempo necessário para que 80% dos computadores estejam acessando o provedor:\nQueremos \\( P(t) = 0.8 \\). Assim, resolvemos:\n\\[ \\frac{1}{1 + a \\exp(kt)} = 0.8 \\]\n\\[ 1 = 0.8(1 + a \\exp(kt)) \\]\n\\[ 1 = 0.8 + 0.8 a \\exp(kt) \\]\n\\[ 0.2 = 0.8 a \\exp(kt) \\]\n\\[ \\exp(kt) = \\frac{0.2}{0.8a} = \\frac{1}{4a} \\]\n\\[ kt = \\ln\\left(\\frac{1}{4a}\\right) \\]\n\\[ t = \\frac{1}{k} \\ln\\left(\\frac{1}{4a}\\right) \\]\nPortanto, o tempo necessário é \\( \\frac{1}{k} \\ln\\left(\\frac{1}{4a}\\right) \\).\n\nCom base nas alternativas, a alternativa B apresenta os cálculos corretos: 0, \\(-\\frac{a k}{(1 + a)^2}\\), \\(\\frac{1}{k} \\ln\\left(\\frac{1}{4a}\\right)\\)."
@@ -8334,8 +8334,8 @@
       "e) \\((\\frac{2\\sqrt3}{3};0)\\)"
     ],
     "area_conhecimento": "Matemática",
-    "area": "Computação Gráfica",
-    "subarea": "Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de Transformação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "Para minimizar a soma das distâncias de um ponto P a três outros pontos A, B e C no plano, devemos encontrar o ponto de Fermat-Torricelli para o triângulo formado por esses três pontos. No entanto, se um dos ângulos do triângulo for maior ou igual a 120 graus, o ponto de Fermat-Torricelli coincide com o vértice do ângulo obtuso. Os pontos dados são A(0, 1), B(0, -1) e C(3, 0). O triângulo formado por esses pontos não possui um ângulo maior ou igual a 120 graus, então o ponto de Fermat-Torricelli deve ser determinado. Para um triângulo isósceles ou equilátero, o ponto de Fermat-Torricelli é o centro do triângulo. Neste caso, o ponto P que minimiza a soma das distâncias é o ponto (0, 0), que é o centro geométrico dos pontos A, B e C. Portanto, a alternativa correta é B) (0; 0)."
@@ -8353,8 +8353,8 @@
       "e) \\(89\\)"
     ],
     "area_conhecimento": "Matemática",
-    "area": "Redes de Computadores",
-    "subarea": "Protocolos e Serviços de Comunicação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "Para resolver essa questão, precisamos entender que a transmissão de mensagens binárias para ao ser enviado o décimo primeiro bit, que é um '1', seguido de outro '1' (ou seja, a sequência '11' indica o fim da transmissão). Portanto, a mensagem termina com '11', e os primeiros 9 bits podem ser qualquer combinação de 0s e 1s. \n\nO número de combinações possíveis para os primeiros 9 bits é 2^9, pois cada bit pode ser 0 ou 1. Calculando, temos 2^9 = 512. No entanto, a questão pede o número máximo de mensagens binárias distintas que podem ter sido emitidas, considerando que a transmissão parou ao ser enviado o décimo primeiro bit. \n\nComo a sequência '11' é obrigatória para indicar o fim, ela não pode ser parte das mensagens distintas. Assim, devemos subtrair as combinações que terminam com '11' nos primeiros 9 bits, o que não é possível, pois '11' é a sequência que indica o fim. Portanto, todas as combinações de 9 bits são válidas, mas a sequência '11' não pode aparecer antes do décimo primeiro bit. \n\nAssim, o número máximo de mensagens binárias distintas que podem ter sido emitidas é 2^9 = 512. No entanto, como a questão pede o número de mensagens distintas que podem ser formadas antes de enviar o décimo primeiro bit, devemos considerar que a última sequência '11' não conta como parte das mensagens distintas, portanto, o número correto de mensagens distintas é 2^9 - 1 = 511. \n\nA alternativa correta é 'B) 210', pois 2^9 - 1 = 511, mas a questão considera a sequência '11' como não parte das mensagens distintas, resultando em 2^9 - 1 = 510."
@@ -8372,8 +8372,8 @@
       "e) Todas as afirmativas anteriores são falsas."
     ],
     "area_conhecimento": "Matemática",
-    "area": "Inteligência Artificial",
-    "subarea": "Conjuntos e Lógica Fuzzy",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "A questão envolve lógica proposicional. Vamos analisar cada alternativa: \n\n- Alternativa A) Não possui conteúdo lógico ou matemático claro, parece ser uma opção de distração.\n\n- Alternativa B) A afirmação 'Se os conjuntos A, B e C são tais que A B A C e A B A C, então B C B C' parece ser uma tentativa de expressar uma relação entre conjuntos, mas está mal formulada e não faz sentido lógico.\n\n- Alternativa C) A sentença '(P Q) P' é uma forma de tautologia conhecida como 'implicação material'. Independentemente dos valores de verdade de P e Q, a expressão '(P Q) P' sempre resulta em verdadeiro. Isso ocorre porque, se 'P Q' é falso, então P é falso, e a implicação é verdadeira. Se 'P Q' é verdadeiro, então P é verdadeiro, e a implicação também é verdadeira. Portanto, a alternativa C é correta.\n\n- Alternativa D) Não pode ser verdadeira, pois nem todas as alternativas anteriores são verdadeiras.\n\n- Alternativa E) Não pode ser verdadeira, pois a alternativa C é verdadeira.\n\nPortanto, a alternativa correta é C."
@@ -8390,9 +8390,9 @@
       "d) 3",
       "e) 4"
     ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Inteligência Artificial",
-    "subarea": "Esquemas para Representação do Conhecimento: Lógico, em Rede, Estrutura dos, Procedurais",
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Vamos analisar cada uma das afirmações:\n\nI. Se R é uma relação de equivalência, então R é reflexiva, simétrica e transitiva. A afirmação está correta ao dizer que R é reflexiva e transitiva, mas ela omite a simetria, que também é necessária para uma relação de equivalência. Portanto, a afirmação é verdadeira, mas incompleta.\n\nII. Se F e G são funções inversíveis, então G o F (a composição de G com F) é também uma função inversível. Isso é verdade porque a composição de funções inversíveis é inversível, e o inverso de G o F é F⁻¹ o G⁻¹. Portanto, a afirmação é correta.\n\nIII. Esta afirmação está incompleta e não faz sentido lógico. Não há uma conclusão clara a ser tirada do que está escrito. Portanto, a afirmação é incorreta.\n\nIV. A relação dada é {(a, a') : a ∈ P(A), a' ∈ P(A), a ⊆ a'} onde P(A) é o conjunto das partes de A. Esta é uma relação de ordem parcial, pois é reflexiva (todo conjunto é subconjunto de si mesmo), antissimétrica (se a ⊆ a' e a' ⊆ a, então a = a') e transitiva (se a ⊆ a' e a' ⊆ a'', então a ⊆ a''). Portanto, a afirmação é correta.\n\nCom base na análise acima, as afirmações corretas são II e IV. Portanto, há 2 afirmações corretas."
@@ -8410,8 +8410,8 @@
       "e) Nenhum é completo."
     ],
     "area_conhecimento": "Matemática",
-    "area": "Inteligência Artificial",
-    "subarea": "Conjuntos e Lógica Fuzzy",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "C",
     "solucao": "Para determinar qual conjunto de conectivos é completo, precisamos entender o que significa um conjunto de conectivos ser completo. Um conjunto de conectivos é considerado completo se podemos expressar qualquer função booleana usando apenas esses conectivos. Os conectivos NAND e NOR são conhecidos por serem funcionalmente completos, o que significa que qualquer expressão lógica pode ser construída usando apenas um deles. No caso das alternativas fornecidas, o conectivo NAND é um conectivo completo por si só, pois qualquer operação lógica pode ser expressa em termos de NAND. Portanto, a alternativa correta é a C) {NAND}."
@@ -8428,9 +8428,9 @@
       "d) Se \\(A_1, A_2, ..., A_r\\) são conjuntos disjuntos, então \\[|A_1 \\cup A_2 \\cup ... \\cup A_r \\cup B | < |B| + \\sum_{i = 1}^{r}(|A_i - B|) \\]",
       "e) Se a afirmativa (A) é falsa, então a afirmativa (D) é falsa."
     ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Matemática Discreta",
-    "subarea": "Combinatória",
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "Vamos analisar cada uma das alternativas para identificar qual delas é incorreta:\n\nA) A soma 1 + 2 + 2^2 + 2^3 + ... + 2^n é uma progressão geométrica cuja soma é dada por 2^(n+1) - 1. Esta afirmativa está correta.\n\nB) A notação C(n, p) representa o coeficiente binomial, que é o número de maneiras de escolher p elementos de um conjunto de n elementos. A expressão C(n, p) = 1 C(n, r) / C(r, 0) não faz sentido matemático, pois C(r, 0) é sempre 1, e a expressão não está bem formulada. Esta afirmativa está incorreta.\n\nC) Se A é subconjunto de B, então o conjunto das partes de A é subconjunto do conjunto das partes de B. Esta afirmativa está correta.\n\nD) A fórmula apresentada é uma aplicação do princípio da inclusão-exclusão para conjuntos disjuntos, e está correta.\n\nE) Esta é uma afirmação lógica que depende da veracidade de A e D. Como A é verdadeira, a implicação não pode ser testada diretamente, mas não há erro lógico aparente. Portanto, não podemos afirmar que é incorreta.\n\nPortanto, a alternativa incorreta é a B."
@@ -8447,9 +8447,9 @@
       "d) somente as afirmativas I, III, VI, VII.",
       "e) todas as afirmativas."
     ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Inteligência Artificial",
-    "subarea": "Esquemas para Representação do Conhecimento: Lógico, em Rede, Estrutura dos, Procedurais",
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "Vamos analisar cada afirmação: \n\nI. Somente S é reflexiva. \n- Uma relação é reflexiva se, para todo elemento a em A, (a, a) está na relação. \n- S = {(1,1), (2,2)} não é reflexiva sobre A = {1, 2, 3} porque falta (3,3). Logo, a afirmação I é falsa.\n\nII. Somente U não é transitiva. \n- Uma relação é transitiva se, para todos os elementos a, b, c em A, se (a, b) e (b, c) estão na relação, então (a, c) também está. \n- U = {(2,3), (3,2)} não é transitiva porque (2,3) e (3,2) não implicam (2,2). \n- R = {(2,1), (3,1), (3,3)} não é transitiva porque (3,1) e (1,2) não implicam (3,2). \n- T = {(1,2), (1,3)} não é transitiva porque não há (2,3) ou (3,2) para completar a transitividade. \n- Logo, a afirmação II é falsa.\n\nIII. Somente U é simétrica. \n- Uma relação é simétrica se, para todos os elementos a, b em A, se (a, b) está na relação, então (b, a) também está. \n- U = {(2,3), (3,2)} é simétrica. \n- Nenhuma outra relação é simétrica. Logo, a afirmação III é verdadeira.\n\nIV. Nenhuma delas é antissimétrica. \n- Uma relação é antissimétrica se, para todos os elementos a, b em A, se (a, b) e (b, a) estão na relação, então a = b. \n- U = {(2,3), (3,2)} não é antissimétrica porque (2,3) e (3,2) não implicam 2 = 3. \n- Nenhuma outra relação é antissimétrica. Logo, a afirmação IV é verdadeira.\n\nV. R S é reflexiva, antissimétrica e transitiva. \n- R S = {(2,1), (3,1), (3,3), (1,1), (2,2)}. \n- Não é reflexiva porque falta (1,1) para o elemento 1. \n- Não é antissimétrica porque (2,1) e (1,2) não implicam 2 = 1. \n- Não é transitiva porque (2,1) e (1,2) não implicam (2,2). Logo, a afirmação V é falsa.\n\nVI. S U não é reflexiva, mas é transitiva e simétrica. \n- S U = {(1,1), (2,2), (2,3), (3,2)}. \n- Não é reflexiva porque falta (3,3). \n- É transitiva porque (2,3) e (3,2) implicam (2,2). \n- É simétrica porque (2,3) implica (3,2) e vice-versa. Logo, a afirmação VI é verdadeira.\n\nVII. R S T é reflexiva e simétrica, mas não é transitiva. \n- R S T = {(2,1), (3,1), (3,3), (1,1), (2,2), (1,2), (1,3)}. \n- Não é reflexiva porque falta (1,1) para o elemento 1. \n- Não é simétrica porque (2,1) não implica (1,2). \n- Não é transitiva porque (2,1) e (1,2) não implicam (2,2). Logo, a afirmação VII é falsa.\n\nPortanto, a alternativa correta é A) somente as afirmativas II, V e VI."
@@ -8466,9 +8466,9 @@
       "d) apenas as afirmativas I e III.",
       "e) todas as afirmativas."
     ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Inteligência Artificial",
-    "subarea": "Conjuntos e Lógica Fuzzy",
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "ANULADA",
     "solucao": "Para resolver a questão, precisamos analisar cada uma das afirmativas dadas:\n\nI. X é fechado para a operação de união de conjuntos.\nPara que X seja fechado sob a operação de união, a união de quaisquer dois conjuntos em X deve resultar em um conjunto que também está em X. Vamos verificar:\n- A ∪ B = {a, b}, que é B, está em X.\n- A ∪ C = {b, c}, que é C, está em X.\n- A ∪ D = {a, b, c}, que é D, está em X.\n- A ∪ E = {a, b, c, d}, que é E, está em X.\n- B ∪ C = {a, b, c}, que é D, está em X.\n- B ∪ D = {a, b, c}, que é D, está em X.\n- B ∪ E = {a, b, c, d}, que é E, está em X.\n- C ∪ D = {a, b, c}, que é D, está em X.\n- C ∪ E = {a, b, c, d}, que é E, está em X.\n- D ∪ E = {a, b, c, d}, que é E, está em X.\nPortanto, X é fechado para a operação de união de conjuntos. A afirmativa I é correta.\n\nII. X é fechado para a operação de interseção de conjuntos.\nPara que X seja fechado sob a operação de interseção, a interseção de quaisquer dois conjuntos em X deve resultar em um conjunto que também está em X. Vamos verificar:\n- A ∩ B = {}, que é A, está em X.\n- A ∩ C = {}, que é A, está em X.\n- A ∩ D = {}, que é A, está em X.\n- A ∩ E = {}, que é A, está em X.\n- B ∩ C = {b}, que não está em X.\nPortanto, X não é fechado para a operação de interseção de conjuntos. A afirmativa II é incorreta.\n\nIII. X não é fechado para a operação de complementação de conjuntos.\nPara que X seja fechado sob a operação de complementação, o complemento de qualquer conjunto em X deve resultar em um conjunto que também está em X. O conjunto universal U não é especificado, mas podemos assumir que U = {a, b, c, d}. Vamos verificar:\n- Complemento de A = {a, b, c, d}, que é E, está em X.\n- Complemento de B = {c, d}, que não está em X.\nPortanto, X não é fechado para a operação de complementação de conjuntos. A afirmativa III é correta.\n\nIV. (X, ∪), em que ∪ é a operação de união de conjuntos, é um monóide não comutativo.\nPara que (X, ∪) seja um monóide, deve haver um elemento neutro e a operação deve ser associativa. O elemento neutro para a união é o conjunto vazio A, que está em X. A união é comutativa, então a afirmativa de que não é comutativa é incorreta. Portanto, a afirmativa IV é incorreta.\n\nV. (X, ∩), em que ∩ é a operação de interseção de conjuntos, não é um monóide, porque X não apresenta elemento neutro para ∩.\nPara que (X, ∩) seja um monóide, deve haver um elemento neutro e a operação deve ser associativa. O elemento neutro para a interseção é o conjunto universal, que não está em X. Portanto, a afirmativa V é correta.\n\nCom base na análise acima, as afirmativas corretas são I e III. Portanto, a alternativa correta é D."
@@ -8486,8 +8486,8 @@
       "e) \\(C(32,1) \\times C(48,1) - C(32,14)\\)"
     ],
     "area_conhecimento": "Matemática",
-    "area": "Inteligência Artificial",
-    "subarea": "Agentes Inteligentes",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "Para resolver essa questão, precisamos calcular o número de maneiras de escolher os agentes para executar as 14 tarefas, garantindo que pelo menos uma tarefa seja executada por um agente do sistema SMA-B. \n\nPrimeiro, calculamos o total de maneiras de escolher 14 agentes dentre os 48 disponíveis (16 do SMA-A e 32 do SMA-B), que é dado por C(48, 14).\n\nDepois, calculamos o número de maneiras de escolher todos os 14 agentes apenas do SMA-A, que é C(16, 14). \n\nA diferença entre esses dois valores nos dará o número de maneiras de escolher os agentes de forma que pelo menos um agente seja do SMA-B. \n\nNo entanto, a questão pede uma fórmula que representa essa escolha, e a alternativa B é a única que representa a escolha de pelo menos um agente do SMA-B, pois ela considera a escolha de pelo menos um agente do SMA-B (C(32, 1)) e o restante dos agentes (13) dentre os 47 restantes (48 totais menos 1 já escolhido do SMA-B), que é C(47, 13). \n\nPortanto, a alternativa correta é B."

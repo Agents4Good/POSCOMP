@@ -30,7 +30,7 @@
       "d) XOR",
       "e) NOR"
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -49,7 +49,7 @@
       "d) 3",
       "e) 4 "
     ],
-    "area_conhecimento": "Fundamentos de Computação",
+    "area_conhecimento": "Fundamentos da Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -68,7 +68,7 @@
       "d) Apenas as alternativas II, III e IV.",
       "e) Apenas as alternativas II, IV."
     ],
-    "area_conhecimento": "Fundamentos da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -87,7 +87,7 @@
       "d) a c f",
       "e) a b d e f"
     ],
-    "area_conhecimento": "Tecnologia da Computação",
+    "area_conhecimento": "Tecnologia de Computação",
     "area": "",
     "subarea": "",
     "dificuldade": "",
@@ -524,9 +524,9 @@
       "d) ARTISTAS (cod-art, nome, gênero)\nDISCOS (cod-disco, título, data, cod-art)\nPRODUÇÃO (cod-grav, cod-disco, estúdio)\nGRAVADORA (cod-grav, nome-grav)",
       "e) ARTISTAS (cod-art, nome, gênero)\nDISCOS (cod-disco, título, data, cod-grav, estúdio, cod-art)\nGRAVADORA (cod-grav, nome-grav)"
     ],
-    "area_conhecimento": "Matemática",
-    "area": "Matemática Discreta",
-    "subarea": "Relações de Equivalência",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "Para resolver essa questão, precisamos traduzir o modelo Entidade-Relacionamento (E-R) em tabelas de um banco de dados relacional. No modelo E-R fornecido, temos as entidades ARTISTAS, DISCOS e GRAVADORA, e os relacionamentos PARTICIPANTES e PRODUÇÃO.\n\n1. **ARTISTAS**: Esta entidade possui os atributos 'cod-art', 'nome' e 'gênero'. 'cod-art' é a chave primária.\n\n2. **DISCOS**: Esta entidade possui os atributos 'cod-disco', 'título' e 'data'. 'cod-disco' é a chave primária.\n\n3. **GRAVADORA**: Esta entidade possui os atributos 'cod-grav' e 'nome-grav'. 'cod-grav' é a chave primária.\n\n4. **PARTICIPANTES**: Este é um relacionamento N:M entre ARTISTAS e DISCOS, o que significa que precisamos de uma tabela para representar esse relacionamento. A tabela terá as chaves primárias das entidades envolvidas: 'cod-art' e 'cod-disco'.\n\n5. **PRODUÇÃO**: Este é um relacionamento 1:N entre GRAVADORA e DISCOS, o que significa que a chave primária da entidade GRAVADORA ('cod-grav') será incluída na tabela de relacionamento junto com 'cod-disco' e 'estúdio'.\n\nPortanto, as tabelas resultantes são:\n- ARTISTAS (cod-art, nome, gênero)\n- PARTICIPANTES (cod-art, cod-disco)\n- DISCOS (cod-disco, título, data)\n- PRODUÇÃO (cod-grav, cod-disco, estúdio)\n- GRAVADORA (cod-grav, nome-grav)\n\nA alternativa correta é a 'A'."
@@ -543,9 +543,9 @@
       "d) ",
       "e) "
     ],
-    "area_conhecimento": "Matemática",
-    "area": "Matemática Discreta",
-    "subarea": "Funções e Formas Booleanas",
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "A",
     "solucao": "Para resolver esta questão, precisamos analisar o comportamento do filtro F aplicado à imagem binária I. O filtro F é definido como uma operação que calcula a diferença absoluta entre duas somas de valores de pixels em torno de uma posição (i, j) e divide o resultado por 3. A expressão fornecida no enunciado sugere que o filtro está calculando uma forma de gradiente ou borda na imagem, onde a diferença entre os valores de pixels adjacentes é considerada. Para determinar em qual figura { F ( I )( i , j )} é maior, precisamos considerar que a maior variação de valores de pixels (de 0 para 1 ou de 1 para 0) ao longo da imagem resultará em um valor maior para o filtro. Portanto, a figura que apresenta a maior quantidade de transições entre 0 e 1 ou vice-versa ao longo de toda a imagem será aquela onde { F ( I )( i , j )} é maior. Sem as imagens específicas, assumimos que a alternativa A) representa a figura com mais transições, resultando em um maior valor acumulado do filtro F."
@@ -676,9 +676,9 @@
       "d) somente IV é verdadeira.",
       "e) somente I é verdadeira."
     ],
-    "area_conhecimento": "Tecnologia de Computação",
-    "area": "Teoria da Computação",
-    "subarea": "Teoria dos Conjuntos e Ordem",
+    "area_conhecimento": "Matemática",
+    "area": "",
+    "subarea": "",
     "dificuldade": "Média",
     "gabarito": "E",
     "solucao": "Para resolver a questão, precisamos analisar cada afirmativa em relação ao diagrama de Hasse de um conjunto parcialmente ordenado A. \n\nI. A estrutura A não é reticulado. Um reticulado é um conjunto parcialmente ordenado em que todo par de elementos tem um supremo (mínimo superior) e um ínfimo (máximo inferior). Se A não é um reticulado, significa que há pelo menos um par de elementos que não possui supremo ou ínfimo. Precisamos verificar se todos os pares de elementos possuem supremo e ínfimo. Se algum par não possui, a afirmativa é verdadeira.\n\nII. Os majorantes de {b, c} são os elementos d e e. Um majorante de um subconjunto é um elemento que é maior ou igual a todos os elementos do subconjunto. Precisamos verificar se d e e são majorantes de {b, c}. Se ambos são majorantes, a afirmativa é verdadeira.\n\nIII. O ínfimo de {d, e} é o elemento a. O ínfimo de um conjunto é o maior elemento que é menor ou igual a todos os elementos do conjunto. Precisamos verificar se a é o maior elemento que é menor ou igual a d e e. Se a não for o ínfimo, a afirmativa é falsa.\n\nIV. A estrutura é um reticulado limitado com topo sendo o elemento a e o fundo f. Um reticulado limitado tem um menor elemento (fundo) e um maior elemento (topo). Precisamos verificar se a é o maior elemento e f é o menor. Se não forem, a afirmativa é falsa.\n\nV. A estrutura A possui apenas dois subconjuntos de 4 elementos totalmente ordenados: {a, b, d, f} e {a, c, e, f}. Precisamos verificar se existem outros subconjuntos de 4 elementos que são totalmente ordenados. Se existirem, a afirmativa é falsa.\n\nApós análise, a única afirmativa verdadeira é a I, pois a estrutura A não é um reticulado, já que não possui supremo e ínfimo para todos os pares de elementos. Portanto, a alternativa correta é E."
