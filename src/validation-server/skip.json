@@ -1,1 +1,211 @@
-[]
+[
+    {
+        "edicao": 2002,
+        "id": "2002-10",
+        "numero": 10,
+        "enunciado": "Assinale o argumento válido, onde \\(S_1\\), \\(S_2\\) indicam premissas e S a conclusão:",
+        "alternativas": [
+            "a) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo estava descansado\n\\(S\\): O cavalo ganhou a corrida",
+            "b) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo ganhou a corrida\n\\(S\\): O cavalo estava descansado",
+            "c) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo perdeu a corrida\n\\(S\\): O cavalo estava cansado",
+            "d) \\(S_1\\): Se o cavalo estiver cansado então ele perderá a corrida\n\\(S_2\\): O cavalo estava descansado\n\\(S\\): O cavalo perdeu a corrida",
+            "e) nenhuma das anteriores"
+        ],
+        "area_conhecimento": "Matemática",
+        "area": "",
+        "subarea": "",
+        "dificuldade": "",
+        "gabarito": "",
+        "solucao": ""
+    },
+    {
+        "edicao": 2003,
+        "id": "2003-17",
+        "numero": 17,
+        "enunciado": "Assinale o argumento válido, onde \\(S_1\\) e \\(S_2\\) indicam premissas e \\(C\\) a conclusão.",
+        "alternativas": [
+            "a) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida não é boa. \\(C\\): O serviço não é bom.",
+            "b) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): O serviço não é bom. \\(C\\): A comida é boa.",
+            "c) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): O serviço não é bom. \\(C\\): A comida não é boa.",
+            "d) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida é boa. \\(C\\): O serviço não é bom.",
+            "e) \\(S_1\\): Se a comida é boa, então o serviço é bom. \\(S_2\\): A comida não é boa. \\(C\\): O serviço é bom."
+        ],
+        "area_conhecimento": "Matemática",
+        "area": "",
+        "subarea": "",
+        "dificuldade": "",
+        "gabarito": "",
+        "solucao": ""
+    },
+    {
+        "edicao": 2003,
+        "id": "2003-31",
+        "numero": 31,
+        "enunciado": "Considere n chaves armazenadas\n\n(I) de maneira arbitrária numa lista encadeada simples,\n(II) de maneira arbitrária numa lista encadeada dupla.\n\nConsidere também as mesmas chaves\n\n(III) armazenadas de maneira ordenada numa lista encadeada simples,\n(IV) armazenadas de maneira ordenada numa lista encadeada dupla.\n\nQual das alternativas preenche a seguinte tabela com a complexidade de busca no pior caso, em cada uma das situações I, II, III e IV descritas acima?",
+        "alternativas": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) ",
+            "e) "
+        ],
+        "area_conhecimento": "Fundamentos da Computação",
+        "area": "",
+        "subarea": "",
+        "dificuldade": "",
+        "gabarito": "",
+        "solucao": ""
+    },
+    {
+        "edicao": 2003,
+        "id": "2003-42",
+        "numero": 42,
+        "enunciado": "Considere as seguintes tabelas em uma base de dados relacional (chaves primárias sublinhadas):\nDepartamento (CodDepto, NomeDepto)\nEmpregado (CodEmp, NomeEmp, CodDepto)\nConsidere as seguintes restrições de integridade sobre esta base de dados relacional:\n– Empregado.CodDepto é sempre diferente de NULL\n– Empregado.CodDepto é chave estrangeira da tabela Departamento com cláusulas ON DELETE\nRESTRICT e ON UPDATE RESTRICT\nQual das seguintes validações não é especificada por estas restrições de integridade:",
+        "alternativas": [
+            "a) Sempre que uma nova linha for inserida em Empregado, deve ser garantido que o valor de Empregado.CodDepto aparece na coluna Departamento.CodDepto.",
+            "b) Sempre que uma linha for excluída de Departamento, deve ser garantido que o valor de Departamento.CodDepto não aparece na coluna Empregado.CodDepto.",
+            "c) Sempre que o valor de Empregado.CodDepto for alterado, deve ser garantido que o novo valor de\nEmpregado.CodDepto aparece em Departamento.CodDepto.",
+            "d) Sempre que o valor de Departamento.CodDepto for alterado, deve ser garantido que não há uma linha com o antigo valor de Departamento.CodDepto na coluna Empregado.CodDepto",
+            "e) Sempre que uma nova linha for inserida em Departamento, deve ser garantido que o valor de Departamento.CodDepto aparece na coluna Empregado.CodDepto"
+        ],
+        "area_conhecimento": "Fundamentos da Computação",
+        "area": "",
+        "subarea": "",
+        "dificuldade": "",
+        "gabarito": "",
+        "solucao": ""
+    },
+    {
+        "edicao": 2003,
+        "id": "2003-43",
+        "numero": 43,
+        "enunciado": "Considere a seguinte tabela em uma base de dados relacional (chave primária sublinhada):\nTabela1(CodAluno,CodDisciplina,AnoSemestre, NomeAluno, NomeDisciplina,\nCodNota, DescricaoNota)\nConsidere as seguintes dependências funcionais:\nCodAluno→NomeAluno\nCodDisciplina→NomeDisciplina\n(CodAluno,CodDisciplina,AnoSemestre)→CodNota\n(CodAluno,CodDisciplina,AnoSemestre)→DescricaoNota\nCodNota→DescricaoNota\nConsiderando as formas normais, qual das afirmativas abaixo se aplica:",
+        "alternativas": [
+            "a) A tabela encontra-se na primeira forma normal, mas não na segunda forma normal.",
+            "b) A tabela encontra-se na segunda forma normal, mas não na terceira forma normal.",
+            "c) A tabela encontra-se na terceira forma normal, mas não na quarta forma normal.",
+            "d) A tabela não está na primeira forma normal.",
+            "e) A tabela está na quarta forma normal."
+        ],
+        "area_conhecimento": "Fundamentos da Computação",
+        "area": "",
+        "subarea": "",
+        "dificuldade": "",
+        "gabarito": "",
+        "solucao": ""
+    },
+    {
+        "edicao": 2004,
+        "id": "2004-42",
+        "numero": 42,
+        "enunciado": "Considere um modelo entidade-relacionamento de uma indústria. Este modelo representa peças com suas propriedades, bem como a composição de peças (peças podem ser usadas na composição de outras peças). Este modelo entidade-relacionamento contém:\nx Uma entidade Peça, com atributos código e nome e peso.\nx Um auto-relacionamento de Peça, chamado Composição. Neste auto-relacionamento uma peça tem papel de componente e outra peça papel de composto. O auto-relacionamento tem cardinalidade n:n e tem um atributo quantidade, que informa quantas unidades da peça componente são usadas na peça composto.\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nQuantidade)\nPeca.CodPecaComposto referencia Peca\nComposicao(CodPecaComposto,CodPecaComponente,Quantidade)\nComposição.CodPecaComposto referencia Peca\nComposição.CodPecaComponente referencia Peca\nCodPecaComponente,Quantidade)\nPeca.CodPecaComposto referencia Peca\nPeca.CodPecaComponente referencia Peca\nComponente (CodPeca, NomePeca, PesoPeca, CodPecaComposto\nQuantiade)\nComponente.CodPecaComposto referencia Composto",
+        "alternativas": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) ",
+            "e) "
+        ],
+        "area_conhecimento": "Fundamentos da Computação",
+        "area": "Organização de Arquivos e Dados",
+        "subarea": "Organização",
+        "dificuldade": "Média",
+        "gabarito": "A",
+        "solucao": "A questão descreve um modelo entidade-relacionamento para uma indústria que lida com peças e suas composições. A entidade principal é 'Peça', que possui atributos como código, nome e peso. O auto-relacionamento 'Composição' permite que uma peça seja um componente de outra peça, formando uma relação de muitos para muitos (n:n). O atributo 'quantidade' no relacionamento indica quantas unidades de uma peça componente são usadas em uma peça composta. A alternativa correta é aquela que descreve corretamente a estrutura do relacionamento e suas referências, que é a alternativa A."
+    },
+    {
+        "edicao": 2006,
+        "id": "2006-67",
+        "numero": 67,
+        "enunciado": "Considere os seguintes parâmetros de Qualidade de Serviço (QoS) para trans-\nAplicação Confiabilidade Atraso Jitter Largura de banda",
+        "alternativas": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) ",
+            "e) "
+        ],
+        "area_conhecimento": "Tecnologia de Computação",
+        "area": "Redes de Computadores",
+        "subarea": "Avaliação de Desempenho",
+        "dificuldade": "Fácil",
+        "gabarito": "A",
+        "solucao": "A questão apresenta parâmetros de Qualidade de Serviço (QoS) que são comumente discutidos no contexto de Redes de Computadores. Esses parâmetros incluem confiabilidade, atraso, jitter e largura de banda, que são fundamentais para a avaliação de desempenho de redes. A alternativa correta é a que melhor descreve ou relaciona esses parâmetros com o contexto de redes de computadores."
+    },
+    {
+        "edicao": 2011,
+        "id": "2011-44",
+        "numero": 44,
+        "enunciado": "Qual a quantidade mínima de arestas que se deve remover do grafo completo com 6 vértices, K , para se\n6\nobter um grafo planar?",
+        "alternativas": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4",
+            "e) 5"
+        ],
+        "area_conhecimento": "Fundamentos da Computação",
+        "area": "Teoria dos Grafos",
+        "subarea": "Planaridade",
+        "dificuldade": "Média",
+        "gabarito": "e",
+        "solucao": "Um grafo planar é aquele que pode ser desenhado no plano sem que suas arestas se cruzem. De acordo com o teorema de Euler para grafos planares, para um grafo planar com V vértices e E arestas, a relação V - E + F = 2 deve ser satisfeita, onde F é o número de faces. Além disso, para grafos planares, temos a restrição de que E <= 3V - 6 para V >= 3. No caso de um grafo completo com 6 vértices, K6, o número de arestas E é dado por E = V(V-1)/2 = 6*5/2 = 15. Para que K6 seja planar, precisamos que E <= 3*6 - 6 = 12. Portanto, precisamos remover pelo menos 15 - 12 = 3 arestas para que o grafo se torne planar. Assim, a quantidade mínima de arestas que se deve remover do grafo completo com 6 vértices para obter um grafo planar é 3."
+    },
+    {
+        "edicao": 2005,
+        "id": "2005-32",
+        "numero": 32,
+        "enunciado": "Considere o algoritmo `máximo(v, i, f)` que devolve o índice de um elemento máximo de \\(\\{v[i], ..., v[f]\\}\\) :\nmáximo(v, i, f)\n    se i = f, devolva i\np máximo(v, i; (i + f )=2 )\nb c q máximo(v; (i + f )=2 + 1; f )\nb c se v[p] v[q], devolva p\ndevolva q\nConsiderando \\(n = f − i + 1\\), o número de comparações entre elementos de \\(v\\) numa\nexecução de `máximo(v, i, f)` é",
+        "alternativas": [
+            "a) \\(n \\log_2 n\\)",
+            "b) \\(n/2\\)",
+            "c) \\(n - 1\\)",
+            "d) \\(\\log_2 n\\)",
+            "e) \\(2n\\)"
+        ],
+        "area_conhecimento": "Fundamentos da Computação",
+        "area": "Análise de Algoritmos",
+        "subarea": "Uso de Relações de Recorrência para Análise de Algoritmos Recursivos",
+        "dificuldade": "Média",
+        "gabarito": "d",
+        "solucao": "O algoritmo 'máximo(v; i; f)' é um exemplo clássico de um algoritmo de 'dividir e conquistar', que utiliza a técnica de recursão para encontrar o índice do elemento máximo em um subarray de 'v'. A cada chamada recursiva, o array é dividido em duas metades, e o algoritmo é chamado recursivamente em cada metade. Isso é semelhante ao algoritmo de busca binária, onde o problema é dividido em partes menores a cada passo. A complexidade de tempo do algoritmo pode ser descrita por uma relação de recorrência similar à do algoritmo de busca binária, que é T(n) = 2T(n/2) + O(1). A solução dessa recorrência é T(n) = O(log n), que é a complexidade de tempo do algoritmo. Portanto, a alternativa correta é '(d) log n\n2'."
+    },
+    {
+        "edicao": 2005,
+        "id": "2005-42",
+        "numero": 42,
+        "enunciado": "Em um banco de dados relacional, considere os esquemas de relação:\n- Pessoa (CPF, Profissao)\n- Trabalha (CPF, CGC, Periodo)\n- Firma (CGC, nome, endereco) \\\ne considere as operações de álgebra relacional União, Interseção, Diferença, Junção Natural, Projeção e Seleção. \\\nA consulta “Qual a profissão das pessoas que trabalham em alguma firma de nome X” exige ao menos a seguinte operação para ser processada:",
+        "alternativas": [
+            "a) Interseção de Pessoa, Trabalha e Firma.",
+            "b) Junção Natural de Pessoa, Trabalha e Firma.",
+            "c) União de Pessoa, Trabalha e Firma.",
+            "d) Seleção de Pessoa, Trabalha e Firma.",
+            "e) Nada pode ser afirmado porque os dados não foram fornecidos."
+        ],
+        "area_conhecimento": "Fundamentos da Computação",
+        "area": "Organização de Arquivos e Dados",
+        "subarea": "Organização",
+        "dificuldade": "Fácil",
+        "gabarito": "e",
+        "solucao": "A questão apresenta três esquemas de relação de um banco de dados relacional: Pessoa, Trabalha e Firma. As alternativas sugerem operações de interseção e união entre essas relações, mas não fornecem dados específicos sobre as tuplas contidas em cada relação. Sem dados concretos, não é possível determinar o resultado das operações de interseção ou união. Portanto, a única conclusão válida é que nada pode ser afirmado porque os dados não foram fornecidos, tornando a alternativa (e) a correta."
+    },
+    {
+        "edicao": 2005,
+        "id": "2005-43",
+        "numero": 43,
+        "enunciado": "Em um banco de dados relacional, considere os esquemas de relação:\n- Pessoa (CPF, Profissao)\n- Trabalha (CPF, CGC, Periodo)\n- Firma (CGC, nome, endereco) \\\ne considere as operações de álgebra relacional União, Interseção, Diferença, Junção Natural, Projeção e Seleção. \\\nConsidere que cada relação tenha 1 milhão de tuplas e que existe um índice no banco de dados para cada chave de relação. Considere as consultas a seguir, supondo que antes do processamento de cada uma nenhum pedaço das relações já esteja na memória. \\\nC1. Quais as profissões de todas as pessoas? \\\nC2. Qual a profissão da pessoa de CPF = ’X’, onde X é um CPF válido? \\\nC3. Qual o endereço da firma de CGC diferente de ’Z’, onde Z é um CGC válido? \\\nC4. Quais os períodos na década 1990-1999 em que ninguém trabalhou, onde o banco de dados contém informações entre 1980 e 2005? \\\nQual das consultas acima é mais rápida em termos de operações de E/S? Assinale a afirmação correta.",
+        "alternativas": [
+            "a) A consulta C1 porque só exige uma pro jeção na relação Pessoa sem precisar olhar o índice.\nacessar Pessoa.",
+            "b) A consulta C2 porque pode ser processada diretamente via índice de CPF para acessar Pessoa.",
+            "c) A consulta C3 porque pode ser processada sequencialmente sobre a relação Firma descartando-se a tupla com CGC de valor Z.\nrelação Trabalha.",
+            "d) A consulta C4 porque requer apenas selecionar os períodos não cadastrados na relação Trabalha.",
+            "e) Nada se pode afirmar porque rapidez, neste caso, não pode ser medida."
+        ],
+        "area_conhecimento": "Fundamentos da Computação",
+        "area": "Organização de Arquivos e Dados",
+        "subarea": "Técnicas de Pesquisa",
+        "dificuldade": "Fácil",
+        "gabarito": "a",
+        "solucao": "A questão apresenta quatro consultas (C1, C2, C3, C4) sobre um banco de dados relacional com três relações: Pessoa, Trabalha e Firma. A consulta C1 busca as profissões de todas as pessoas, o que pode ser feito por uma simples projeção sobre a relação Pessoa, especificamente sobre o atributo 'Profissao'. Esta operação é direta e não requer o uso de índices ou junções com outras tabelas, tornando-a a mais rápida entre as opções apresentadas. As outras consultas envolvem condições adicionais ou junções que aumentam a complexidade e o tempo de execução. Portanto, a alternativa correta é a (a), que afirma que a consulta C1 é a mais rápida."
+    }
+]
