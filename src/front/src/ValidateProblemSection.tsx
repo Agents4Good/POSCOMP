@@ -4,13 +4,38 @@ import { MathJax } from 'better-react-mathjax';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm'
 
+const splitMarkdownWithMath = (text: string) => {
+  const regex = /(\\\[[\s\S]+?\\\]|\\\(.+?\\\))/g;
+  const parts: StatementPartType[] = [];
+  let previousIndex = 0;
+  let match = regex.exec(text);
+
+  while (match !== null) {
+    if (match.index > previousIndex) {
+      parts.push({ type: 'markdown', content: text.slice(previousIndex, match.index) });
+    }
+
+    const content = match[0];
+    const isBlock = content.startsWith('\\[');
+
+    parts.push({ type: isBlock ? 'math-block' : 'math-inline', content });
+    previousIndex = regex.lastIndex;
+
+    match = regex.exec(text);
+  }
+
+  if (previousIndex < text.length) {
+    parts.push({ type: 'markdown', content: text.slice(previousIndex) });
+  }
+
+  return parts;
+};
+
 const AnswerOption = ({ option }: { option: string }) => (
   <div className="flex gap-2 items-start">
     <input className="mt-1.5" type="radio" />
-    <div className="flex flex-col">
-      {option.split('\n').map((text, index, array) => text.length >= 0 ? (
-        <MathJax key={Math.random()}>{text}{(index < array.length - 1) && <br />}</MathJax>
-      ) : null)}
+    <div className="">
+      {splitMarkdownWithMath(option).map((part, index) => <StatementPart key={index} part={part} />)}
     </div>
   </div>
 );
@@ -67,33 +92,6 @@ const ValidateProblemSection = ({ problem, updateData }: { problem: Problem, upd
 
     await response.json();
     updateData();
-  };
-
-  const splitMarkdownWithMath = (text: string) => {
-    const regex = /(\\\[[\s\S]+?\\\]|\\\(.+?\\\))/g;
-    const parts: StatementPartType[] = [];
-    let previousIndex = 0;
-    let match = regex.exec(text);
-
-    while (match !== null) {
-      if (match.index > previousIndex) {
-        parts.push({ type: 'markdown', content: text.slice(previousIndex, match.index) });
-      }
-
-      const content = match[0];
-      const isBlock = content.startsWith('\\[');
-
-      parts.push({ type: isBlock ? 'math-block' : 'math-inline', content });
-      previousIndex = regex.lastIndex;
-
-      match = regex.exec(text);
-    }
-
-    if (previousIndex < text.length) {
-      parts.push({ type: 'markdown', content: text.slice(previousIndex) });
-    }
-
-    return parts;
   };
 
   const wrapAlternativesInLatex = () => {
