@@ -25504,5 +25504,139 @@
     "gabarito": "A",
     "solucao": "A questão refere-se a um algoritmo de exclusão mútua que requer apenas três mensagens: uma requisição, uma permissão para entrar e uma liberação para sair. Este é um padrão típico em algoritmos de exclusão mútua distribuídos, onde a comunicação entre processos em diferentes nós da rede é necessária para coordenar o acesso a uma região crítica. No contexto de sistemas distribuídos, a exclusão mútua é frequentemente implementada através de algoritmos que utilizam mensagens para coordenar o acesso, e o algoritmo distribuído de exclusão mútua é conhecido por usar exatamente três tipos de mensagens para este propósito. Assim, a alternativa correta é 'C) distribuído'.",
     "dificuldade_experimental": "Difícil"
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-31",
+    "numero": 31,
+    "enunciado": "Considere \\(n\\) chaves armazenadas \\\n(I) de maneira arbitrária numa lista encadeada simples, \\\n(II) de maneira arbitrária numa lista encadeada dupla. \\\nConsidere também as mesmas chaves \\\n(III) armazenadas de maneira ordenada numa lista encadeada simples, \\\n(IV) armazenadas de maneira ordenada numa lista encadeada dupla. \\\nQual das alternativas preenche a seguinte tabela com a complexidade de busca no pior caso, em cada uma das situações I, II, III e IV descritas acima?\n<table>\n  <thead>\n    <tr>\n      <th rowspan=\"2\">Ligação</th>\n      <th colspan=\"2\">Chaves</th>\n    </tr>\n    <tr>\n      <th>arbitrária</th>\n      <th>ordenada</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>simples</td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>dupla</td>\n      <td></td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>",
+    "alternativas": [
+      "a) \n|$\\Theta(n)$|$\\Theta(n)$|\n|-|-|\n|$\\Theta(n)$|$\\Theta(n)$|",
+      "b)\n|$\\Theta(n)$|$\\Theta(n)$|\n|-|-|\n|$\\Theta(2)$|$\\Theta(2)$|",
+      "c)\n|$\\Theta(n \\log n)$|$\\Theta(n)$|\n|-|-|\n|$\\Theta(n \\log n)$|$\\Theta(n)$|",
+      "d)\n|$\\Theta(n)$|$\\Theta(\\log n)$|\n|-|-|\n|$\\Theta(n)$|$\\Theta(\\log n)$|",
+      "e)\n|$\\Theta(n)$|$\\Theta(1)$|\n|-|-|\n|$\\Theta(n)$|$\\Theta(1)$|"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "A",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-42",
+    "numero": 42,
+    "enunciado": "Considere as seguintes tabelas em uma base de dados relacional (chaves primárias sublinhadas): \\\n<code>Departamento (<u>CodDepto</u>, NomeDepto) \\\nEmpregado (<u>CodEmp</u>, NomeEmp, CodDepto)</code> \\\nConsidere as seguintes restrições de integridade sobre esta base de dados relacional:\n- `Empregado.CodDepto` é sempre diferente de NULL\n- `Empregado.CodDepto` é chave estrangeira da tabela Departamento com cláusulas `ON DELETE RESTRICT` e `ON UPDATE RESTRICT` \\\nQual das seguintes validações não é especificada por estas restrições de integridade:",
+    "alternativas": [
+      "a) Sempre que uma nova linha for inserida em Empregado, deve ser garantido que o valor de `Empregado.CodDepto` aparece na coluna `Departamento.CodDepto`.",
+      "b) Sempre que uma linha for excluída de Departamento, deve ser garantido que o valor de `Departamento.CodDepto` não aparece na coluna `Empregado.CodDepto`.",
+      "c) Sempre que o valor de `Empregado.CodDepto` for alterado, deve ser garantido que o novo valor de\n`Empregado.CodDepto` aparece em `Departamento.CodDepto`.",
+      "d) Sempre que o valor de `Departamento.CodDepto` for alterado, deve ser garantido que não há uma linha com o antigo valor de `Departamento.CodDepto` na coluna `Empregado.CodDepto`.",
+      "e) Sempre que uma nova linha for inserida em Departamento, deve ser garantido que o valor de `Departamento.CodDepto` aparece na coluna `Empregado.CodDepto`."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "E",
+    "solucao": ""
+  },
+  {
+    "edicao": 2003,
+    "id": "2003-43",
+    "numero": 43,
+    "enunciado": "Considere a seguinte tabela em uma base de dados relacional (chave primária sublinhada):\n<code>Tabela1(<u>CodAluno,CodDisciplina,AnoSemestre,</u> NomeAluno, NomeDisciplina,\nCodNota, DescricaoNota)</code> \\\nConsidere as seguintes dependências funcionais:\n- `CodAluno` → `NomeAluno`\n- `CodDisciplina` → `NomeDisciplina`\n- (`CodAluno`,`CodDisciplina`,`AnoSemestre`) → `CodNota`\n- (`CodAluno`,`CodDisciplina`,`AnoSemestre`) → `DescricaoNota`\n- `CodNota` → `DescricaoNota` \\\nConsiderando as formas normais, qual das afirmativas abaixo se aplica:",
+    "alternativas": [
+      "a) A tabela encontra-se na primeira forma normal, mas não na segunda forma normal.",
+      "b) A tabela encontra-se na segunda forma normal, mas não na terceira forma normal.",
+      "c) A tabela encontra-se na terceira forma normal, mas não na quarta forma normal.",
+      "d) A tabela não está na primeira forma normal.",
+      "e) A tabela está na quarta forma normal."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "",
+    "gabarito": "A",
+    "solucao": ""
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-42",
+    "numero": 42,
+    "enunciado": "Em um banco de dados relacional, considere os esquemas de relação:\n- Pessoa (<u>CPF</u>, Profissao)\n- Trabalha (<u>CPF</u>, <u>CGC</u>, Periodo)\n- Firma (<u>CGC</u>, nome, endereco) \\\ne considere as operações de álgebra relacional União, Interseção, Diferença, Junção Natural, Projeção e Seleção. \\\nA consulta **“Qual a profissão das pessoas que trabalham em alguma firma de nome X”** exige ao menos a seguinte operação para ser processada:",
+    "alternativas": [
+      "a) Interseção de Pessoa, Trabalha e Firma.",
+      "b) Junção Natural de Pessoa, Trabalha e Firma.",
+      "c) União de Pessoa, Trabalha e Firma.",
+      "d) Seleção de Pessoa, Trabalha e Firma.",
+      "e) Nada pode ser afirmado porque os dados não foram fornecidos."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "A questão apresenta três esquemas de relação de um banco de dados relacional: Pessoa, Trabalha e Firma. As alternativas sugerem operações de interseção e união entre essas relações, mas não fornecem dados específicos sobre as tuplas contidas em cada relação. Sem dados concretos, não é possível determinar o resultado das operações de interseção ou união. Portanto, a única conclusão válida é que nada pode ser afirmado porque os dados não foram fornecidos, tornando a alternativa (e) a correta."
+  },
+  {
+    "edicao": 2005,
+    "id": "2005-43",
+    "numero": 43,
+    "enunciado": "Em um banco de dados relacional, considere os esquemas de relação:\n- Pessoa (<u>CPF</u>, Profissao)\n- Trabalha (<u>CPF</u>, <u>CGC</u>, Periodo)\n- Firma (<u>CGC</u>, nome, endereco) \\\ne considere as operações de álgebra relacional União, Interseção, Diferença, Junção Natural, Projeção e Seleção. \\\nConsidere que cada relação tenha 1 milhão de tuplas e que existe um índice no banco de dados para cada chave de relação. Considere as consultas a seguir, supondo que antes do processamento de cada uma nenhum pedaço das relações já esteja na memória. \\\nC1. Quais as profissões de todas as pessoas? \\\nC2. Qual a profissão da pessoa de CPF = ’X’, onde X é um CPF válido? \\\nC3. Qual o endereço da firma de CGC diferente de ’Z’, onde Z é um CGC válido? \\\nC4. Quais os períodos na década 1990-1999 em que ninguém trabalhou, onde o banco de dados contém informações entre 1980 e 2005? \\\nQual das consultas acima é mais rápida em termos de operações de E/S? Assinale a afirmação correta.",
+    "alternativas": [
+      "a) A consulta C1 porque só exige uma pro jeção na relação Pessoa sem precisar olhar o índice.\nacessar Pessoa.",
+      "b) A consulta C2 porque pode ser processada diretamente via índice de CPF para acessar Pessoa.",
+      "c) A consulta C3 porque pode ser processada sequencialmente sobre a relação Firma descartando-se a tupla com CGC de valor Z.\nrelação Trabalha.",
+      "d) A consulta C4 porque requer apenas selecionar os períodos não cadastrados na relação Trabalha.",
+      "e) Nada se pode afirmar porque rapidez, neste caso, não pode ser medida."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "",
+    "subarea": "",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "A questão apresenta quatro consultas (C1, C2, C3, C4) sobre um banco de dados relacional com três relações: Pessoa, Trabalha e Firma. A consulta C1 busca as profissões de todas as pessoas, o que pode ser feito por uma simples projeção sobre a relação Pessoa, especificamente sobre o atributo 'Profissao'. Esta operação é direta e não requer o uso de índices ou junções com outras tabelas, tornando-a a mais rápida entre as opções apresentadas. As outras consultas envolvem condições adicionais ou junções que aumentam a complexidade e o tempo de execução. Portanto, a alternativa correta é a (a), que afirma que a consulta C1 é a mais rápida."
+  },
+  {
+    "edicao": 2006,
+    "id": "2006-67",
+    "numero": 67,
+    "enunciado": "Considere os seguintes parâmetros de Qualidade de Serviço (QoS) para transmissão multimídia: confiabilidade, atraso, *jitter* e largura de banda. Considere ainda que estes parâmetros possam ter tolerância alta (A), média (M) ou baixa (B). Qual das alternativas está abaixo da tolerância mínima da aplicação?",
+    "alternativas": [
+      "a) **Aplicação:** Correio Eletrônico; **Confiabilidade:** A; **Atraso:** B; **_Jitter_:** B; **Largura de banda:** B",
+      "a) **Aplicação:** Acesso Web; **Confiabilidade:** A; **Atraso:** M; **_Jitter_:** B; **Largura de banda:** M",
+      "a) **Aplicação:** Vídeo Sob Demanda; **Confiabilidade:** B; **Atraso:** M; **_Jitter_:** A; **Largura de banda:** A",
+      "a) **Aplicação:** Telefonia; **Confiabilidade:** B; **Atraso:** A; **_Jitter_:** A; **Largura de banda:** M",
+      "a) **Aplicação:** Vídeo Conferência, Eletrônico; \n**Confiabilidade:** B; **Atraso:** A; **_Jitter_:** B; **Largura de banda:** A"
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Avaliação de Desempenho",
+    "dificuldade": "Fácil",
+    "gabarito": "E",
+    "solucao": "A questão apresenta parâmetros de Qualidade de Serviço (QoS) que são comumente discutidos no contexto de Redes de Computadores. Esses parâmetros incluem confiabilidade, atraso, jitter e largura de banda, que são fundamentais para a avaliação de desempenho de redes. A alternativa correta é a que melhor descreve ou relaciona esses parâmetros com o contexto de redes de computadores."
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-54",
+    "numero": 54,
+    "enunciado": "Seja o alfabeto \\(A = \\{b, k, z\\}\\). Expressões regulares sobre \\(A\\) são definidas (da forma habitual) como cadeias (*strings*) contendo símbolos do alfabeto dado pela união de \\(A\\) com o conjunto \\(\\{ (, ), *, | \\}\\). Assim: \\\n\\* \\(()\\) e \\(e\\), as quais denotam respectivamente a linguagem vazia e a linguagem que contém apenas a cadeia vazia. \\\n\\* Cada símbolo do alfabeto é uma expressão regular, denotando a linguagem formada pelo símbolo. \\\n\\* Dadas expressões regulares \\(R\\), \\(R1\\) e \\(R2\\), notamos com \\(R^*\\), \\((R1 | R2)\\) e \\(R1 R2\\) as expressões regulares, representando, respectivamente, as operações de Estrela de Kleene (repetição), Escolha e Concatenação. \\\nA notação \\(R?\\) é usada como abreviatura para \\((R | e )\\), marcando que \\(R\\) é opcional. Sejam os Tokens\nde uma certa linguagem definidos pelas expressões regulares sobre \\(A\\) a seguir:\n|Token|Expressão Regular|\n|-|-|\n|T1|$k? b? z z^* k$|\n|T2|$z? k? b b^* z$|\n|T3|$b? z? k k^* b$|\n\nSeja um analisador léxico que reconhece os tokens acima, procurando sempre casar a maior parte possível da entrada (maior prefixo possível). Caso a cadeia \\(kkbzkbbkkb\\) seja dada como entrada ao analisador léxico, qual será a sequência de tokens devolvida por ele?",
+    "alternativas": [
+      "a) T1 T3 T2 T3.",
+      "b) T1 T1 T3.",
+      "c) T2 T3.",
+      "d) T3 T2 T3.",
+      "e) T3 T3 T3."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compliadores",
+    "subarea": "Análise Léxica e Sintática",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "Para resolver essa questão, precisamos analisar a cadeia de entrada 'kkbzkbbkkb' e verificar qual token (T1, T2 ou T3) pode ser aplicado, sempre buscando casar o maior prefixo possível. \n\n1. Começamos com a cadeia completa 'kkbzkbbkkb'.\n   - T1: k? b? z z* k\n     - k? casa com 'k' (opcional, mas presente)\n     - b? não casa (opcional, não presente)\n     - z casa com 'z'\n     - z* casa com 'z'\n     - k casa com 'k'\n     - Resultado: 'kz' casa com T1\n   - T2: z? k? b b* z\n     - Não casa, pois começa com 'k'\n   - T3: b? z? k k* b\n     - Não casa, pois começa com 'k'\n\n2. Após casar 'kz' com T1, a cadeia restante é 'kbzkbbkkb'.\n   - T1: k? b? z z* k\n     - Não casa, pois começa com 'k'\n   - T2: z? k? b b* z\n     - Não casa, pois começa com 'k'\n   - T3: b? z? k k* b\n     - b? não casa (opcional, não presente)\n     - z? não casa (opcional, não presente)\n     - k casa com 'k'\n     - k* casa com 'k'\n     - b casa com 'b'\n     - Resultado: 'kkb' casa com T3\n\n3. Após casar 'kkb' com T3, a cadeia restante é 'zkbbkkb'.\n   - T1: k? b? z z* k\n     - Não casa, pois começa com 'z'\n   - T2: z? k? b b* z\n     - z? casa com 'z'\n     - k? casa com 'k'\n     - b casa com 'b'\n     - b* casa com 'b'\n     - z casa com 'z'\n     - Resultado: 'zkbbz' casa com T2\n\n4. Após casar 'zkbbz' com T2, a cadeia restante é 'kkb'.\n   - T1: k? b? z z* k\n     - Não casa, pois começa com 'k'\n   - T2: z? k? b b* z\n     - Não casa, pois começa com 'k'\n   - T3: b? z? k k* b\n     - b? não casa (opcional, não presente)\n     - z? não casa (opcional, não presente)\n     - k casa com 'k'\n     - k* casa com 'k'\n     - b casa com 'b'\n     - Resultado: 'kkb' casa com T3\n\nPortanto, a sequência de tokens devolvida é T1 T3 T2 T3.",
+    "dificuldade_experimental": "Difícil"
   }
 ]
