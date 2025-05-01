@@ -5,6 +5,7 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import rehypeRaw from 'rehype-raw';
 import 'katex/dist/katex.min.css'
 
 const splitMarkdownWithMath = (text: string) => {
@@ -56,7 +57,7 @@ const StatementPart = ({ part }: { part: StatementPartType }) => {
     return (
       <span style={{ display: 'inline' }}>
         {startsWithSpace && <>&nbsp;</>}
-        <Markdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]} components={{ p: 'span' }} >{part.content}</Markdown>
+        <Markdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex, rehypeRaw]} components={{ p: 'span' }} >{part.content}</Markdown>
         {endsWithSpace && <>&nbsp;</>}
       </span>
     );
